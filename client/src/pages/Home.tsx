@@ -20,10 +20,30 @@ import dailyData from "../data/dailyRecap.json";
 
 // Bloomberg / PMT Style Components
 
-const BiasCard = ({ currency }: { currency: any }) => {
+const BiasCard = ({ currency, weeklyBias }: { currency: any, weeklyBias?: string }) => {
   const isBullish = currency.bias === "Bullish";
   const isBearish = currency.bias === "Bearish";
   const isNeutral = currency.bias === "Neutral" || currency.bias === "Mixed";
+
+  // Calculate Alignment dynamically if weeklyBias is provided
+  let alignment = currency.alignment; // Fallback to existing if present
+  let alignmentType = "None";
+  
+  if (weeklyBias && currency.bias) {
+    const w = weeklyBias.toLowerCase();
+    const d = currency.bias.toLowerCase();
+    
+    if (w === d && w !== "neutral" && w !== "mixed") {
+      alignment = "Perfect";
+      alignmentType = "Perfect";
+    } else if ((w === "bullish" && d === "bullish") || (w === "bearish" && d === "bearish")) {
+      alignment = "Strong";
+      alignmentType = "Strong";
+    } else if (w !== d && w !== "neutral" && d !== "neutral") {
+      alignment = "Mismatch";
+      alignmentType = "Mismatch";
+    }
+  }
 
   // Bloomberg Colors: Orange (Bullish), Red (Bearish), Grey (Neutral)
   const borderColor = isBullish ? "border-orange-500" : isBearish ? "border-red-600" : "border-gray-600";
@@ -61,18 +81,18 @@ const BiasCard = ({ currency }: { currency: any }) => {
         {isBearish && <TrendingDown className="w-4 h-4 text-red-500" />}
         {isNeutral && <Minus className="w-4 h-4 text-gray-500" />}
         <span className={`text-base font-bold font-mono ${textColor}`}>{currency.bias.toUpperCase()}</span>
-        {currency.alignment && (
+        {alignment && alignment !== "Mismatch" && (
           <div className={`ml-auto flex items-center gap-1 px-2 py-0.5 border text-[9px] font-bold uppercase tracking-wider ${
-            currency.alignment === "Perfect" || currency.alignment === "Strong" 
+            alignment === "Perfect" || alignment === "Strong" 
               ? "border-orange-500/50 text-orange-400 bg-orange-500/10" 
               : "border-gray-700 text-gray-500"
           }`}>
-            {currency.alignment === "Perfect" || currency.alignment === "Strong" ? (
+            {alignment === "Perfect" || alignment === "Strong" ? (
               <Link2 className="w-3 h-3" />
             ) : (
               <Unlink className="w-3 h-3" />
             )}
-            {currency.alignment} Match
+            {alignment} Match
           </div>
         )}
       </div>
@@ -403,10 +423,16 @@ export default function Home() {
         </div>
 
         {/* Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
-          {filteredCurrencies.map((currency) => (
-            <BiasCard key={currency.code} currency={currency} />
-          ))}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          {filteredCurrencies.map((currency: any) => {
+            // Find corresponding weekly bias for alignment check
+            const weeklyCurrency = weeklyData.currencies.find((c: any) => c.code === currency.code);
+            const weeklyBias = viewMode === "DAILY" ? weeklyCurrency?.bias : undefined;
+            
+            return (
+              <BiasCard key={currency.code} currency={currency} weeklyBias={weeklyBias} />
+            );
+          })}
         </div>
 
         {/* Footer */}
