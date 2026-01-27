@@ -8,6 +8,8 @@ import {
   Calendar, 
   RefreshCw, 
   ArrowRight,
+  Link2,
+  Unlink,
   Activity,
   Globe,
   Zap,
@@ -36,13 +38,34 @@ const BiasCard = ({ currency }: { currency: any }) => {
       transition={{ duration: 0.3 }}
       className={`relative border ${borderColor} bg-[#121212] p-4 h-full flex flex-col group overflow-hidden ${glowClass}`}
     >
-      <div className="flex justify-between items-start mb-3 relative z-10">
+      <div className="flex justify-between items-start mb-3">
         <div>
-          <h3 className="text-3xl font-bold font-mono tracking-tighter text-gray-100">{currency.code}</h3>
-          <p className="text-[10px] text-gray-500 uppercase tracking-widest font-mono">{currency.name}</p>
+          <h3 className="text-2xl font-bold text-white tracking-tight">{currency.code}</h3>
+          <p className="text-[9px] text-gray-500 uppercase tracking-widest font-mono">{currency.name}</p>
         </div>
-        <div className={`px-2 py-0.5 border ${borderColor} ${textColor} text-[10px] font-mono font-bold uppercase tracking-wider`}>
-          {currency.biasLevel || currency.tone}
+        <div className="flex flex-col items-end gap-1">
+          <div className={`px-2 py-1 border ${borderColor} ${textColor} text-[9px] font-bold uppercase tracking-wider bg-black`}>
+            {currency.bias}
+          </div>
+          {currency.tone && (
+            <div className="text-[9px] font-mono text-gray-400 flex items-center gap-1">
+              <Activity className="w-2.5 h-2.5" /> {currency.tone}
+            </div>
+          )}
+          {currency.alignment && (
+            <div className={`flex items-center gap-1 px-1.5 py-0.5 border text-[8px] font-bold uppercase tracking-wider ${
+              currency.alignment === "Perfect" || currency.alignment === "Strong" 
+                ? "border-orange-500/50 text-orange-400 bg-orange-500/10" 
+                : "border-gray-700 text-gray-500"
+            }`}>
+              {currency.alignment === "Perfect" || currency.alignment === "Strong" ? (
+                <Link2 className="w-2 h-2" />
+              ) : (
+                <Unlink className="w-2 h-2" />
+              )}
+              {currency.alignment} Match
+            </div>
+          )}
         </div>
       </div>
 
