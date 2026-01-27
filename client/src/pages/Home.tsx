@@ -1,5 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
+import html2canvas from "html2canvas";
 import { 
   TrendingUp, 
   TrendingDown, 
@@ -13,14 +14,18 @@ import {
   Activity,
   Globe,
   Zap,
-  Terminal
+  Terminal,
+  Camera,
+  Check,
+  X,
+  Download
 } from "lucide-react";
 import weeklyData from "../data/weeklyBias.json";
 import dailyData from "../data/dailyRecap.json";
 
 // Bloomberg / PMT Style Components
 
-const BiasCard = ({ currency, weeklyBias }: { currency: any, weeklyBias?: string }) => {
+const BiasCard = ({ currency, weeklyBias, isExportMode, isSelected, onToggleSelect }: { currency: any, weeklyBias?: string, isExportMode?: boolean, isSelected?: boolean, onToggleSelect?: () => void }) => {
   const isBullish = currency.bias === "Bullish";
   const isBearish = currency.bias === "Bearish";
   const isNeutral = currency.bias === "Neutral" || currency.bias === "Mixed";
@@ -47,13 +52,28 @@ const BiasCard = ({ currency, weeklyBias }: { currency: any, weeklyBias?: string
   const bgColor = isBullish ? "bg-orange-500/10" : isBearish ? "bg-red-900/10" : "bg-gray-800/20";
   const glowClass = isBullish ? "shadow-[0_0_15px_rgba(249,115,22,0.15)]" : isBearish ? "shadow-[0_0_15px_rgba(220,38,38,0.15)]" : "";
 
+  // Export Mode Styles
+  const exportOverlayClass = isExportMode 
+    ? isSelected 
+      ? "ring-2 ring-orange-500 ring-offset-2 ring-offset-black cursor-pointer" 
+      : "opacity-40 hover:opacity-70 cursor-pointer grayscale" 
+    : "";
+
   return (
     <motion.div 
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.3 }}
-      className={`relative border ${borderColor} bg-[#121212] p-4 h-full flex flex-col group overflow-hidden ${glowClass}`}
+      onClick={isExportMode ? onToggleSelect : undefined}
+      className={`relative border ${borderColor} bg-[#121212] p-4 h-full flex flex-col group overflow-hidden ${glowClass} ${exportOverlayClass} transition-all duration-200`}
+      id={`card-${currency.code}`}
     >
+      {isExportMode && isSelected && (
+        <div className="absolute top-2 right-2 z-50 bg-orange-500 text-black rounded-full p-0.5">
+          <Check className="w-3 h-3" />
+        </div>
+      )}
+      
       <div className="flex justify-between items-start mb-3">
         <div>
           <h3 className="text-2xl font-bold text-white tracking-tight">{currency.code}</h3>
@@ -198,6 +218,11 @@ export default function Home() {
   const [filter, setFilter] = useState("All");
   const [viewMode, setViewMode] = useState<"WEEKLY" | "DAILY">("WEEKLY");
   const [currentTime, setCurrentTime] = useState(new Date());
+  
+  // Export State
+  const [isExportMode, setIsExportMode] = useState(false);
+  const [selectedItems, setSelectedItems] = useState<string[]>([]);
+  const exportRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const timer = setInterval(() => setCurrentTime(new Date()), 1000);
@@ -210,6 +235,122 @@ export default function Home() {
     if (filter === "All") return true;
     return c.bias === filter;
   });
+
+  // Export Logic
+  const toggleExportMode = () => {
+    setIsExportMode(!isExportMode);
+    setSelectedItems([]); // Reset selection on toggle
+  };
+
+  const toggleItemSelection = (id: string) => {
+    if (selectedItems.includes(id)) {
+      setSelectedItems(selectedItems.filter(item => item !== id));
+    } else {
+      setSelectedItems([...selectedItems, id]);
+    }
+  };
+
+  const handleExport = async () => {
+    if (selectedItems.length === 0) {
+      alert("Please select at least one item to export.");
+      return;
+    }
+
+    // Create a temporary container for the collage
+    const container = document.createElement("div");
+    container.style.position = "absolute";
+    container.style.top = "-9999px";
+    container.style.left = "-9999px";
+    container.style.width = "1200px"; // Fixed width for consistent export
+    container.style.backgroundColor = "#000000";
+    container.style.padding = "40px";
+    container.style.display = "flex";
+    container.style.flexDirection = "column";
+    container.style.gap = "20px";
+    document.body.appendChild(container);
+
+    // Add Header to Export
+    const header = document.createElement("div");
+    header.innerHTML = `
+      <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #333; padding-bottom: 20px; margin-bottom: 20px;">
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <h1 style="font-family: monospace; font-weight: bold; font-size: 24px; color: #f97316;">TUDOR<span style="color: white;">_DASHBOARD</span></h1>
+          <span style="font-family: monospace; font-size: 12px; color: #666; text-transform: uppercase; letter-spacing: 2px;">${viewMode} BRIEFING</span>
+        </div>
+        <div style="font-family: monospace; font-size: 12px; color: #666;">
+          ${new Date().toLocaleDateString()} // ${currentTime.toLocaleTimeString('de-DE', { timeZone: 'Europe/Berlin' })} FRA
+        </div>
+      </div>
+    `;
+    container.appendChild(header);
+
+    // Clone selected elements
+    const grid = document.createElement("div");
+    grid.style.display = "grid";
+    grid.style.gridTemplateColumns = "repeat(2, 1fr)"; // 2 columns for export
+    grid.style.gap = "20px";
+    
+    // Helper to clone element styles
+    const cloneElement = (id: string) => {
+      const original = document.getElementById(id);
+      if (original) {
+        const clone = original.cloneNode(true) as HTMLElement;
+        // Remove export-specific classes/overlays
+        clone.classList.remove("opacity-40", "hover:opacity-70", "cursor-pointer", "grayscale", "ring-2", "ring-orange-500");
+        
+        // Force styles for export context
+        clone.style.height = "auto";
+        clone.style.minHeight = "200px";
+        
+        // If it's the main overview panel, make it span full width
+        if (id === "market-overview") {
+          clone.style.gridColumn = "span 2";
+        }
+        
+        return clone;
+      }
+      return null;
+    };
+
+    // Add selected items to grid
+    selectedItems.forEach(id => {
+      const clone = cloneElement(id);
+      if (clone) grid.appendChild(clone);
+    });
+
+    container.appendChild(grid);
+
+    // Add Footer
+    const footer = document.createElement("div");
+    footer.innerHTML = `
+      <div style="margin-top: 40px; border-top: 1px solid #333; padding-top: 20px; display: flex; justify-content: space-between; font-family: monospace; font-size: 10px; color: #444;">
+        <span>GENERATED BY TUDOR_DASHBOARD</span>
+        <span>CONFIDENTIAL TRADING DATA</span>
+      </div>
+    `;
+    container.appendChild(footer);
+
+    try {
+      const canvas = await html2canvas(container, {
+        backgroundColor: "#000000",
+        scale: 2, // High resolution
+        useCORS: true,
+        logging: false
+      });
+
+      const link = document.createElement("a");
+      link.download = `TUDOR_EXPORT_${new Date().toISOString().slice(0,10)}.png`;
+      link.href = canvas.toDataURL("image/png");
+      link.click();
+    } catch (err) {
+      console.error("Export failed:", err);
+      alert("Export failed. Please try again.");
+    } finally {
+      document.body.removeChild(container);
+      setIsExportMode(false);
+      setSelectedItems([]);
+    }
+  };
 
   return (
     <div className="min-h-screen bg-black text-gray-300 font-sans selection:bg-orange-500 selection:text-black overflow-x-hidden">
@@ -228,6 +369,33 @@ export default function Home() {
           </div>
           
           <div className="flex items-center gap-4 text-[10px] font-mono text-gray-500">
+            {isExportMode ? (
+              <div className="flex items-center gap-2 animate-in fade-in slide-in-from-top-2 duration-300">
+                <span className="text-orange-500 font-bold">EXPORT MODE ACTIVE</span>
+                <span className="bg-gray-800 px-2 py-0.5 rounded text-white">{selectedItems.length} Selected</span>
+                <button 
+                  onClick={handleExport}
+                  className="flex items-center gap-1 bg-orange-500 text-black px-2 py-0.5 font-bold hover:bg-orange-400 transition-colors"
+                >
+                  <Download className="w-3 h-3" /> GENERATE IMAGE
+                </button>
+                <button 
+                  onClick={toggleExportMode}
+                  className="p-0.5 hover:text-white transition-colors"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
+            ) : (
+              <button 
+                onClick={toggleExportMode}
+                className="flex items-center gap-1 hover:text-orange-500 transition-colors"
+              >
+                <Camera className="w-3 h-3" />
+                <span>SMART EXPORT</span>
+              </button>
+            )}
+            <div className="h-4 w-[1px] bg-gray-800 mx-2"></div>
             <div className="flex items-center gap-1.5">
               <span className="w-1.5 h-1.5 bg-orange-500 rounded-full animate-pulse"></span>
               <span className="text-orange-500">LIVE CONNECTION</span>
@@ -239,9 +407,9 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="container mx-auto px-4 py-6 relative z-10">
+      <main className="container mx-auto px-4 py-6 relative z-10" ref={exportRef}>
         {/* View Toggle & Hero Section */}
-        <div className="flex justify-center mb-6">
+        <div className={`flex justify-center mb-6 transition-opacity duration-300 ${isExportMode ? "opacity-20 pointer-events-none" : "opacity-100"}`}>
           <div className="flex bg-[#1a1a1a] border border-gray-800 p-1 rounded-sm">
             <button 
               onClick={() => setViewMode("WEEKLY")}
@@ -260,7 +428,22 @@ export default function Home() {
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 mb-8">
           {/* Main Status Panel */}
-          <div className="lg:col-span-8 border border-gray-800 bg-[#0f0f0f] p-5 relative overflow-hidden flex flex-col">
+          <div 
+            id="market-overview"
+            onClick={isExportMode ? () => toggleItemSelection("market-overview") : undefined}
+            className={`lg:col-span-8 border border-gray-800 bg-[#0f0f0f] p-5 relative overflow-hidden flex flex-col transition-all duration-200 ${
+              isExportMode 
+                ? selectedItems.includes("market-overview") 
+                  ? "ring-2 ring-orange-500 ring-offset-2 ring-offset-black cursor-pointer" 
+                  : "opacity-40 hover:opacity-70 cursor-pointer grayscale" 
+                : ""
+            }`}
+          >
+            {isExportMode && selectedItems.includes("market-overview") && (
+              <div className="absolute top-2 right-2 z-50 bg-orange-500 text-black rounded-full p-0.5">
+                <Check className="w-3 h-3" />
+              </div>
+            )}
             <div className="absolute top-0 right-0 p-2">
               <span className="text-[9px] font-mono text-orange-500/50 border border-orange-500/20 px-1">
                 {viewMode === "WEEKLY" ? `WEEK ${weeklyData.week}` : dailyData.date.toUpperCase()}
@@ -312,7 +495,22 @@ export default function Home() {
           </div>
 
           {/* Right Panel: High Conviction (Weekly) OR Red Folder News (Daily) */}
-          <div className="lg:col-span-4 border border-gray-800 bg-[#0f0f0f] p-5 flex flex-col">
+          <div 
+            id="right-panel"
+            onClick={isExportMode ? () => toggleItemSelection("right-panel") : undefined}
+            className={`lg:col-span-4 border border-gray-800 bg-[#0f0f0f] p-5 flex flex-col transition-all duration-200 ${
+              isExportMode 
+                ? selectedItems.includes("right-panel") 
+                  ? "ring-2 ring-orange-500 ring-offset-2 ring-offset-black cursor-pointer" 
+                  : "opacity-40 hover:opacity-70 cursor-pointer grayscale" 
+                : ""
+            }`}
+          >
+            {isExportMode && selectedItems.includes("right-panel") && (
+              <div className="absolute top-2 right-2 z-50 bg-orange-500 text-black rounded-full p-0.5">
+                <Check className="w-3 h-3" />
+              </div>
+            )}
             <div className="flex items-center gap-2 mb-4 border-b border-gray-800 pb-2">
               {viewMode === "WEEKLY" ? (
                 <>
@@ -380,7 +578,7 @@ export default function Home() {
         </div>
 
         {/* Filter Bar */}
-        <div className="flex flex-wrap gap-2 mb-6">
+        <div className={`flex flex-wrap gap-2 mb-6 transition-opacity duration-300 ${isExportMode ? "opacity-20 pointer-events-none" : "opacity-100"}`}>
           <span className="text-[10px] font-mono text-gray-500 uppercase self-center mr-2">Filter View:</span>
           {["All", "Bullish", "Bearish", "Neutral"].map((f) => (
             <button
@@ -409,13 +607,20 @@ export default function Home() {
             const comparisonBias = viewMode === "DAILY" ? weeklyCurrency?.bias : dailyCurrency?.bias;
             
             return (
-              <BiasCard key={currency.code} currency={currency} weeklyBias={comparisonBias} />
+              <BiasCard 
+                key={currency.code} 
+                currency={currency} 
+                weeklyBias={comparisonBias}
+                isExportMode={isExportMode}
+                isSelected={selectedItems.includes(`card-${currency.code}`)}
+                onToggleSelect={() => toggleItemSelection(`card-${currency.code}`)}
+              />
             );
           })}
         </div>
 
         {/* Footer */}
-        <footer className="mt-12 border-t border-gray-900 pt-6 pb-4 flex justify-between items-center text-[9px] font-mono text-gray-600">
+        <footer className={`mt-12 border-t border-gray-900 pt-6 pb-4 flex justify-between items-center text-[9px] font-mono text-gray-600 transition-opacity duration-300 ${isExportMode ? "opacity-20" : "opacity-100"}`}>
           <div>
             <p>TUDOR_DASHBOARD v3.3.0 // AUTOMATED FX DASHBOARD</p>
             <p className="mt-1">DATA SOURCE: PRIMEMARKET TERMINAL // REFRESH: AUTO</p>
