@@ -1,0 +1,136 @@
+{
+  "week": "26. Januar - 1. Februar 2026",
+  "lastUpdated": "2026-01-27T10:30:00Z",
+  "currencies": [
+    {
+      "code": "USD",
+      "name": "US Dollar",
+      "bias": "Bearish",
+      "biasLevel": "Weak Short",
+      "longTermBias": "Neutral",
+      "sentiment": "Risk-Off",
+      "summary": "Geopolitische Unsicherheit und schwache PMI-Daten drücken den USD. Trump-Tariffdrohungen schaffen zusätzliche Volatilität.",
+      "drivers": ["Trump Tariffs", "Geopolitics", "Weak PMIs"],
+      "events": [
+        { "day": "Tue", "event": "Trump Speaks", "impact": "High" },
+        { "day": "Wed", "event": "FOMC Decision", "impact": "Critical" },
+        { "day": "Fri", "event": "PPI", "impact": "Medium" }
+      ]
+    },
+    {
+      "code": "EUR",
+      "name": "Euro",
+      "bias": "Neutral",
+      "biasLevel": "Neutral",
+      "longTermBias": "Weak Bullish",
+      "sentiment": "Mixed",
+      "summary": "Handelsangst lässt nach, aber politisches Risiko bleibt. Relative Zinsen und Spreads treiben den Kurs.",
+      "drivers": ["Trade Relief", "ECB Policy", "Spreads"],
+      "events": [
+        { "day": "Mon", "event": "German IFO", "impact": "Medium" },
+        { "day": "Fri", "event": "German CPI", "impact": "High" }
+      ]
+    },
+    {
+      "code": "GBP",
+      "name": "British Pound",
+      "bias": "Bullish",
+      "biasLevel": "Strong Long",
+      "longTermBias": "Neutral",
+      "sentiment": "Risk-On",
+      "summary": "Starke inländische Daten und BoE-Geduld unterstützen die Währung. Einer der stärksten G10-Performer.",
+      "drivers": ["Strong Retail Sales", "BoE Patience", "PMI Beat"],
+      "events": []
+    },
+    {
+      "code": "AUD",
+      "name": "Australian Dollar",
+      "bias": "Bullish",
+      "biasLevel": "Strong Long",
+      "longTermBias": "Weak Bullish",
+      "sentiment": "Risk-On",
+      "summary": "Rohstoffpreise, China-Sentiment und Zinspreisgestaltung treiben Gewinne. Kupfer und Gold stützen.",
+      "drivers": ["Commodities", "China Stimulus", "RBA Hawkishness"],
+      "events": [
+        { "day": "Wed", "event": "CPI", "impact": "High" }
+      ]
+    },
+    {
+      "code": "CAD",
+      "name": "Canadian Dollar",
+      "bias": "Bearish",
+      "biasLevel": "Weak Short",
+      "longTermBias": "Neutral",
+      "sentiment": "Mixed",
+      "summary": "Schwächeres Wachstum im Vergleich zu Peers. Underperformance in Risk-On Phasen erwartet.",
+      "drivers": ["Weak Growth", "BoC Dovishness", "Oil Prices"],
+      "events": [
+        { "day": "Wed", "event": "BoC Decision", "impact": "Critical" },
+        { "day": "Fri", "event": "GDP", "impact": "High" }
+      ]
+    },
+    {
+      "code": "JPY",
+      "name": "Japanese Yen",
+      "bias": "Mixed",
+      "biasLevel": "Neutral",
+      "longTermBias": "Weak Bullish",
+      "sentiment": "Volatile",
+      "summary": "Politisches Risiko und BoJ-Hawkishness schaffen Volatilität. Intervention-Risiko bleibt hoch.",
+      "drivers": ["BoJ Intervention", "Politics", "Yields"],
+      "events": [
+        { "day": "Tue", "event": "BoJ Core CPI", "impact": "High" },
+        { "day": "Thu", "event": "Tokyo CPI", "impact": "High" }
+      ]
+    },
+    {
+      "code": "NZD",
+      "name": "New Zealand Dollar",
+      "bias": "Bullish",
+      "biasLevel": "Weak Long",
+      "longTermBias": "Neutral",
+      "sentiment": "Risk-On",
+      "summary": "Profitiert von Risk-On Sentiment und China-Stimulus, ähnlich wie AUD aber etwas schwächer.",
+      "drivers": ["Risk Sentiment", "China", "Commodities"],
+      "events": [
+        { "day": "Wed", "event": "Trade Balance", "impact": "Medium" }
+      ]
+    },
+    {
+      "code": "CHF",
+      "name": "Swiss Franc",
+      "bias": "Neutral",
+      "biasLevel": "Weak Long",
+      "longTermBias": "Neutral",
+      "sentiment": "Safe Haven",
+      "summary": "Safe-Haven Flows stützen bei geopolitischer Unsicherheit. SNB bleibt im Hintergrund.",
+      "drivers": ["Safe Haven Flows", "Geopolitics", "SNB"],
+      "events": [
+        { "day": "Tue", "event": "UBS Expectations", "impact": "Low" }
+      ]
+    }
+  ],
+  "topTrades": [
+    {
+      "pair": "GBP/USD",
+      "direction": "Long",
+      "conviction": "Highest",
+      "reason": "Perfect Alignment: Weekly Bullish GBP vs Bearish USD",
+      "target": "1.2700+"
+    },
+    {
+      "pair": "USD/JPY",
+      "direction": "Short",
+      "conviction": "High",
+      "reason": "Strong Alignment: BoJ Intervention Risk vs USD Weakness",
+      "target": "150.00-"
+    },
+    {
+      "pair": "USD/CHF",
+      "direction": "Short",
+      "conviction": "Medium",
+      "reason": "Safe Haven Flows into CHF vs USD Weakness",
+      "target": "0.8900-"
+    }
+  ]
+}
