@@ -54,19 +54,29 @@ def scrape_pmt_daily():
         print("Extrahiere Daily Recap Daten...")
         time.sleep(5) # Warte bis JS geladen ist
         
-        # TODO: Implementiere robuste Parsing-Logik für den Daily Text
-        # Für jetzt aktualisieren wir nur den Zeitstempel
+        # HINWEIS: Hier müsste die spezifische Parsing-Logik für die neuen Felder rein.
+        # Da sich die Seite dynamisch ändern kann, behalten wir die Struktur bei und 
+        # aktualisieren vorerst Metadaten.
         
+        # Lade existierende Daten um Struktur zu erhalten
         with open(OUTPUT_FILE, 'r') as f:
             data = json.load(f)
             
+        # Aktualisiere Zeitstempel
         data['lastUpdated'] = datetime.now().isoformat()
         data['date'] = datetime.now().strftime("%A %d %B %Y")
         
+        # TODO: Implementiere Selektoren für:
+        # - data['redFolderNews']
+        # - data['currencyCategorization']
+        # - data['proprietarySummary']
+        # - data['currencies'] (Tone, Headlines, Reaction)
+        
+        # Speichere aktualisierte Daten
         with open(OUTPUT_FILE, 'w') as f:
             json.dump(data, f, indent=2)
             
-        print("Daily Daten erfolgreich aktualisiert!")
+        print("Daily Daten erfolgreich aktualisiert (Timestamp update)!")
         
     except Exception as e:
         print(f"Fehler beim Scraping: {e}")

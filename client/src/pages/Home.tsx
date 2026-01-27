@@ -220,7 +220,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 mb-8">
           {/* Main Status Panel */}
-          <div className="lg:col-span-8 border border-gray-800 bg-[#0f0f0f] p-5 relative overflow-hidden">
+          <div className="lg:col-span-8 border border-gray-800 bg-[#0f0f0f] p-5 relative overflow-hidden flex flex-col">
             <div className="absolute top-0 right-0 p-2">
               <span className="text-[9px] font-mono text-orange-500/50 border border-orange-500/20 px-1">
                 {viewMode === "WEEKLY" ? `WEEK ${weeklyData.week}` : dailyData.date}
@@ -253,6 +253,98 @@ export default function Home() {
                 <p className="text-sm font-mono font-bold text-gray-400">{viewMode === "WEEKLY" ? "SUN 16:00" : "MON-FRI 23:15"}</p>
               </div>
             </div>
+
+            {/* Daily Specific Extended Info */}
+            {viewMode === "DAILY" && (
+              <div className="mt-6 pt-4 border-t border-gray-800 grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                {/* Focus & Red Folder News */}
+                <div className="space-y-6">
+                  {/* Focus Section */}
+                  <div>
+                    <h4 className="text-[10px] text-orange-500 uppercase font-mono mb-2 flex items-center gap-2">
+                      <Zap className="w-3 h-3" /> Focus: Headlines & Macro
+                    </h4>
+                    <div className="space-y-3">
+                      <div>
+                        <p className="text-[9px] text-gray-500 uppercase mb-1 font-mono">Key Headlines</p>
+                        <ul className="space-y-1">
+                          {dailyData.focus.headlines.map((item: string, i: number) => (
+                            <li key={i} className="text-[10px] text-gray-300 font-mono leading-tight pl-2 border-l border-gray-700">
+                              {item}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                      <div>
+                        <p className="text-[9px] text-gray-500 uppercase mb-1 font-mono">Macro / Central Banks</p>
+                        <ul className="space-y-1">
+                          {dailyData.focus.macro.map((item: string, i: number) => (
+                            <li key={i} className="text-[10px] text-gray-300 font-mono leading-tight pl-2 border-l border-gray-700">
+                              {item}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Red Folder News */}
+                  <div>
+                    <h4 className="text-[10px] text-orange-500 uppercase font-mono mb-2 flex items-center gap-2">
+                      <Calendar className="w-3 h-3" /> Red Folder News (This Week)
+                    </h4>
+                  <ul className="space-y-1">
+                    {dailyData.redFolderNews.map((news: any, i: number) => (
+                      <li key={i} className="flex justify-between text-[10px] font-mono border-b border-gray-800/50 pb-1 last:border-0">
+                        <span className="text-gray-400 w-8">{news.day}</span>
+                        <span className="text-gray-200 flex-1 truncate mr-2">{news.event}</span>
+                        <span className="text-red-500 text-[9px] border border-red-900/30 px-1 bg-red-900/10">{news.impact}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  </div>
+                </div>
+
+                {/* Proprietary Summary */}
+                <div>
+                  <h4 className="text-[10px] text-orange-500 uppercase font-mono mb-2 flex items-center gap-2">
+                    <Terminal className="w-3 h-3" /> Proprietary Summary
+                  </h4>
+                  <p className="text-[10px] text-gray-300 font-mono leading-relaxed border-l-2 border-orange-500/30 pl-2">
+                    {dailyData.proprietarySummary}
+                  </p>
+                  
+                  <div className="mt-3 grid grid-cols-3 gap-2">
+                    <div className="bg-green-900/10 border border-green-900/30 p-1.5 text-center">
+                      <p className="text-[8px] text-green-500 uppercase mb-0.5">Winners</p>
+                      <div className="flex flex-wrap justify-center gap-1">
+                        {dailyData.currencyCategorization.winners.map((c: any) => (
+                          <span key={c.code} className="text-[9px] font-bold text-green-400">{c.code}</span>
+                        ))}
+                      </div>
+                    </div>
+                    <div className="bg-red-900/10 border border-red-900/30 p-1.5 text-center">
+                      <p className="text-[8px] text-red-500 uppercase mb-0.5">Losers</p>
+                      <div className="flex flex-wrap justify-center gap-1">
+                        {dailyData.currencyCategorization.losers.map((c: any) => (
+                          <span key={c.code} className="text-[9px] font-bold text-red-400">{c.code}</span>
+                        ))}
+                      </div>
+                    </div>
+                    <div className="bg-gray-800/30 border border-gray-700/30 p-1.5 text-center">
+                      <p className="text-[8px] text-gray-400 uppercase mb-0.5">Neutral</p>
+                      <div className="flex flex-wrap justify-center gap-1">
+                        {dailyData.currencyCategorization.neutral.map((c: any) => (
+                          <span key={c.code} className="text-[9px] font-bold text-gray-400">{c.code}</span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            )}
           </div>
 
           {/* Top Trades Panel */}

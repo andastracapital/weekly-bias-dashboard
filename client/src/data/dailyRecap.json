@@ -3,6 +3,41 @@
   "lastUpdated": "2026-01-26T23:15:00Z",
   "marketSentiment": "Risk-Off",
   "dailyFocus": "Trump Tariffs / FOMC Prep",
+  "redFolderNews": [
+    { "day": "MON", "event": "Trump Speaks", "impact": "Critical" },
+    { "day": "MON", "event": "US Consumer Confidence", "impact": "High" },
+    { "day": "TUE", "event": "BOC Rate Decision", "impact": "Critical" },
+    { "day": "WED", "event": "FOMC Decision & Powell", "impact": "Critical" },
+    { "day": "THU", "event": "US PCE Inflation", "impact": "High" }
+  ],
+  "currencyCategorization": {
+    "winners": [
+      { "code": "GBP", "type": "Strong Long", "icon": "⬆️⬆️" },
+      { "code": "JPY", "type": "Strong Long", "icon": "⬆️⬆️" },
+      { "code": "AUD", "type": "Weak Long", "icon": "⬆️" },
+      { "code": "CHF", "type": "Weak Long", "icon": "⬆️" }
+    ],
+    "losers": [
+      { "code": "USD", "type": "Weak Short", "icon": "⬇️" },
+      { "code": "CAD", "type": "Weak Short", "icon": "⬇️" }
+    ],
+    "neutral": [
+      { "code": "EUR", "type": "Neutral", "icon": "↔️" },
+      { "code": "NZD", "type": "Neutral", "icon": "↔️" }
+    ]
+  },
+  "focus": {
+    "headlines": [
+      "Trump tariff threats on Canada/Korea dominate",
+      "BoJ intervention risks driving USD/JPY lower",
+      "Ukraine escalation adding to risk premium"
+    ],
+    "macro": [
+      "FOMC Decision (Wed) is the main event",
+      "Month-end flows likely to be choppy"
+    ]
+  },
+  "proprietarySummary": "Risk-Off sentiment dominates due to geopolitics. USD is vulnerable despite FOMC. Best opportunities are in selling USD against safe havens (JPY, CHF) or strong idiosyncratic stories (GBP). Avoid chasing moves in illiquid sessions.",
   "currencies": [
     {
       "code": "USD",
@@ -10,15 +45,11 @@
       "tone": "Risk-Off / Neutral",
       "bias": "Bearish",
       "headlines": [
-        "Dollar weakness persists on Trump tariff threats (Canada/Korea)",
-        "USD/JPY breaks 100 DMA (153.54) on BoJ intervention risks",
-        "US Durable Goods beat (5.3%) but ignored due to tariff fears"
+        "Dollar weakness persists on Trump tariff threats",
+        "USD/JPY breaks 100 DMA on BoJ risks"
       ],
-      "reaction": "DXY weakness driven by tariff salvo. USD/JPY down sharply.",
-      "events": [
-        "Trump tariff escalation",
-        "BoJ intervention risks"
-      ]
+      "reaction": "DXY weakness driven by tariff salvo.",
+      "events": ["Trump Tariff Threat", "BoJ Risks"]
     },
     {
       "code": "EUR",
@@ -26,15 +57,11 @@
       "tone": "Neutral",
       "bias": "Neutral",
       "headlines": [
-        "German IFO Business Climate misses (84.2 vs 85.0)",
-        "ECB speakers signal potential for 50bps cut in March",
-        "EUR/USD stuck in range ahead of FOMC"
+        "German IFO Business Climate misses",
+        "ECB speakers signal potential March cut"
       ],
-      "reaction": "Euro remains heavy on weak data but supported by weak USD.",
-      "events": [
-        "German IFO Miss",
-        "ECB Dovishness"
-      ]
+      "reaction": "Heavy on weak data but supported by weak USD.",
+      "events": ["German IFO Miss"]
     },
     {
       "code": "GBP",
@@ -42,15 +69,11 @@
       "tone": "Bullish",
       "bias": "Bullish",
       "headlines": [
-        "CBI Distributive Trades survey beats expectations",
-        "BoE's Mann reiterates hawkish stance on services inflation",
-        "GBP/USD tests 1.2700 resistance"
+        "CBI Distributive Trades survey beats",
+        "BoE's Mann reiterates hawkish stance"
       ],
-      "reaction": "Outperformer. Strong data + Hawkish BoE = Bid.",
-      "events": [
-        "CBI Data Beat",
-        "BoE Hawkishness"
-      ]
+      "reaction": "Outperformer. Strong data + Hawkish BoE.",
+      "events": ["CBI Beat", "BoE Hawkish"]
     },
     {
       "code": "AUD",
@@ -58,15 +81,11 @@
       "tone": "Bullish",
       "bias": "Bullish",
       "headlines": [
-        "Copper prices surge to new highs on China stimulus hopes",
-        "AUD/USD breaks 0.6600 despite risk-off tone",
-        "Inflation expectations remain elevated"
+        "Copper prices surge on China hopes",
+        "Resilient despite risk-off tone"
       ],
-      "reaction": "Resilient. Commodities doing the heavy lifting.",
-      "events": [
-        "Copper Rally",
-        "China Optimism"
-      ]
+      "reaction": "Commodities doing the heavy lifting.",
+      "events": ["Copper Rally"]
     },
     {
       "code": "CAD",
@@ -74,15 +93,11 @@
       "tone": "Bearish",
       "bias": "Bearish",
       "headlines": [
-        "Trump threatens 25% tariff on all Canadian imports",
-        "Oil prices slip on demand concerns",
-        "USD/CAD spikes to 1.3600"
+        "Trump threatens 25% tariff on imports",
+        "Oil prices slip on demand concerns"
       ],
-      "reaction": "Underperformer. Tariff threat is an existential risk for CAD.",
-      "events": [
-        "Trump Tariff Threat",
-        "Oil Weakness"
-      ]
+      "reaction": "Underperformer. Tariff threat is existential.",
+      "events": ["Trump Tariffs"]
     },
     {
       "code": "JPY",
@@ -90,15 +105,11 @@
       "tone": "Bullish",
       "bias": "Bullish",
       "headlines": [
-        "Safe-haven flows dominate on geopolitical tension",
-        "BoJ official hints at 'decisive action' on FX",
-        "Yield spread compression aids JPY"
+        "Safe-haven flows on geopolitics",
+        "BoJ hints at 'decisive action'"
       ],
-      "reaction": "Strongest G10. Perfect storm of Risk-Off + BoJ threats.",
-      "events": [
-        "Safe Haven Flows",
-        "BoJ Verbal Intervention"
-      ]
+      "reaction": "Strongest G10. Perfect storm for JPY strength.",
+      "events": ["Safe Haven", "BoJ Threats"]
     },
     {
       "code": "CHF",
@@ -106,15 +117,11 @@
       "tone": "Bullish",
       "bias": "Bullish",
       "headlines": [
-        "Ukraine escalation drives flows into Franc",
-        "EUR/CHF tests parity again",
-        "SNB sight deposits show minimal intervention"
+        "Ukraine escalation drives flows",
+        "EUR/CHF tests parity again"
       ],
-      "reaction": "Classic safe-haven bid. Outperforming EUR and USD.",
-      "events": [
-        "Ukraine Risks",
-        "Safe Haven Bid"
-      ]
+      "reaction": "Classic safe-haven bid.",
+      "events": ["Ukraine Risks"]
     },
     {
       "code": "NZD",
@@ -122,14 +129,11 @@
       "tone": "Neutral",
       "bias": "Neutral",
       "headlines": [
-        "Quiet session with little domestic news",
-        "Tracking AUD higher but lagging",
-        "Dairy auction preview looks mixed"
+        "Quiet session, tracking AUD",
+        "Lacks own catalyst"
       ],
-      "reaction": "Follower. Drifting higher with AUD but lacks own catalyst.",
-      "events": [
-        "Sympathy Move"
-      ]
+      "reaction": "Follower. Drifting with AUD.",
+      "events": ["Sympathy Move"]
     }
   ]
 }
