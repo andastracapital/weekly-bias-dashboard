@@ -1,0 +1,135 @@
+{
+  "date": "Monday 26 January 2026",
+  "lastUpdated": "2026-01-26T23:15:00Z",
+  "marketSentiment": "Risk-Off",
+  "dailyFocus": "Trump Tariffs / FOMC Prep",
+  "currencies": [
+    {
+      "code": "USD",
+      "name": "US Dollar",
+      "tone": "Risk-Off / Neutral",
+      "bias": "Bearish",
+      "headlines": [
+        "Dollar weakness persists on Trump tariff threats (Canada/Korea)",
+        "USD/JPY breaks 100 DMA (153.54) on BoJ intervention risks",
+        "US Durable Goods beat (5.3%) but ignored due to tariff fears"
+      ],
+      "reaction": "DXY weakness driven by tariff salvo. USD/JPY down sharply.",
+      "events": [
+        "Trump tariff escalation",
+        "BoJ intervention risks"
+      ]
+    },
+    {
+      "code": "EUR",
+      "name": "Euro",
+      "tone": "Neutral",
+      "bias": "Neutral",
+      "headlines": [
+        "German IFO Business Climate misses (84.2 vs 85.0)",
+        "ECB speakers signal potential for 50bps cut in March",
+        "EUR/USD stuck in range ahead of FOMC"
+      ],
+      "reaction": "Euro remains heavy on weak data but supported by weak USD.",
+      "events": [
+        "German IFO Miss",
+        "ECB Dovishness"
+      ]
+    },
+    {
+      "code": "GBP",
+      "name": "British Pound",
+      "tone": "Bullish",
+      "bias": "Bullish",
+      "headlines": [
+        "CBI Distributive Trades survey beats expectations",
+        "BoE's Mann reiterates hawkish stance on services inflation",
+        "GBP/USD tests 1.2700 resistance"
+      ],
+      "reaction": "Outperformer. Strong data + Hawkish BoE = Bid.",
+      "events": [
+        "CBI Data Beat",
+        "BoE Hawkishness"
+      ]
+    },
+    {
+      "code": "AUD",
+      "name": "Australian Dollar",
+      "tone": "Bullish",
+      "bias": "Bullish",
+      "headlines": [
+        "Copper prices surge to new highs on China stimulus hopes",
+        "AUD/USD breaks 0.6600 despite risk-off tone",
+        "Inflation expectations remain elevated"
+      ],
+      "reaction": "Resilient. Commodities doing the heavy lifting.",
+      "events": [
+        "Copper Rally",
+        "China Optimism"
+      ]
+    },
+    {
+      "code": "CAD",
+      "name": "Canadian Dollar",
+      "tone": "Bearish",
+      "bias": "Bearish",
+      "headlines": [
+        "Trump threatens 25% tariff on all Canadian imports",
+        "Oil prices slip on demand concerns",
+        "USD/CAD spikes to 1.3600"
+      ],
+      "reaction": "Underperformer. Tariff threat is an existential risk for CAD.",
+      "events": [
+        "Trump Tariff Threat",
+        "Oil Weakness"
+      ]
+    },
+    {
+      "code": "JPY",
+      "name": "Japanese Yen",
+      "tone": "Bullish",
+      "bias": "Bullish",
+      "headlines": [
+        "Safe-haven flows dominate on geopolitical tension",
+        "BoJ official hints at 'decisive action' on FX",
+        "Yield spread compression aids JPY"
+      ],
+      "reaction": "Strongest G10. Perfect storm of Risk-Off + BoJ threats.",
+      "events": [
+        "Safe Haven Flows",
+        "BoJ Verbal Intervention"
+      ]
+    },
+    {
+      "code": "CHF",
+      "name": "Swiss Franc",
+      "tone": "Bullish",
+      "bias": "Bullish",
+      "headlines": [
+        "Ukraine escalation drives flows into Franc",
+        "EUR/CHF tests parity again",
+        "SNB sight deposits show minimal intervention"
+      ],
+      "reaction": "Classic safe-haven bid. Outperforming EUR and USD.",
+      "events": [
+        "Ukraine Risks",
+        "Safe Haven Bid"
+      ]
+    },
+    {
+      "code": "NZD",
+      "name": "New Zealand Dollar",
+      "tone": "Neutral",
+      "bias": "Neutral",
+      "headlines": [
+        "Quiet session with little domestic news",
+        "Tracking AUD higher but lagging",
+        "Dairy auction preview looks mixed"
+      ],
+      "reaction": "Follower. Drifting higher with AUD but lacks own catalyst.",
+      "events": [
+        "Sympathy Move"
+      ]
+    }
+  ]
+}

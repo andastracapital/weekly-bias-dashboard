@@ -14,6 +14,7 @@ import {
   Terminal
 } from "lucide-react";
 import weeklyData from "../data/weeklyBias.json";
+import dailyData from "../data/dailyRecap.json";
 
 // Bloomberg / PMT Style Components
 
@@ -41,7 +42,7 @@ const BiasCard = ({ currency }: { currency: any }) => {
           <p className="text-[10px] text-gray-500 uppercase tracking-widest font-mono">{currency.name}</p>
         </div>
         <div className={`px-2 py-0.5 border ${borderColor} ${textColor} text-[10px] font-mono font-bold uppercase tracking-wider`}>
-          {currency.biasLevel}
+          {currency.biasLevel || currency.tone}
         </div>
       </div>
 
@@ -52,29 +53,60 @@ const BiasCard = ({ currency }: { currency: any }) => {
         <span className={`text-base font-bold font-mono ${textColor}`}>{currency.bias.toUpperCase()}</span>
       </div>
 
-      <p className="text-xs text-gray-300 mb-4 font-mono leading-relaxed flex-grow relative z-10">
-        {currency.summary}
-      </p>
+      {currency.summary && (
+        <p className="text-xs text-gray-300 mb-4 font-mono leading-relaxed flex-grow relative z-10">
+          {currency.summary}
+        </p>
+      )}
+
+      {currency.headlines && (
+        <div className="mb-4 flex-grow relative z-10">
+          <p className="text-[9px] text-gray-500 uppercase mb-2 font-mono">Top Headlines</p>
+          <ul className="space-y-2">
+            {currency.headlines.map((headline: string, i: number) => (
+              <li key={i} className="text-[10px] text-gray-300 font-mono leading-tight pl-2 border-l border-gray-700">
+                {headline}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {currency.reaction && (
+        <div className="mb-4 relative z-10 bg-[#1a1a1a] p-2 border border-gray-800">
+          <p className="text-[9px] text-orange-500 uppercase mb-1 font-mono">Market Reaction</p>
+          <p className="text-[10px] text-gray-400 font-mono leading-tight">{currency.reaction}</p>
+        </div>
+      )}
 
       <div className="space-y-2 relative z-10 mt-auto">
-        <div className="flex flex-wrap gap-1">
-          {currency.drivers.map((driver: string, i: number) => (
-            <span key={i} className="text-[9px] bg-[#1a1a1a] text-gray-400 px-1.5 py-0.5 border border-gray-700 font-mono uppercase">
-              {driver}
-            </span>
-          ))}
-        </div>
+        {currency.drivers && (
+          <div className="flex flex-wrap gap-1">
+            {currency.drivers.map((driver: string, i: number) => (
+              <span key={i} className="text-[9px] bg-[#1a1a1a] text-gray-400 px-1.5 py-0.5 border border-gray-700 font-mono uppercase">
+                {driver}
+              </span>
+            ))}
+          </div>
+        )}
 
-        {currency.events.length > 0 && (
+        {currency.events && currency.events.length > 0 && (
           <div className="pt-2 border-t border-gray-800">
+            <p className="text-[9px] text-gray-500 uppercase mb-1 font-mono">Key Events</p>
             <ul className="space-y-1">
               {currency.events.map((event: any, i: number) => (
                 <li key={i} className="flex justify-between text-[9px] font-mono items-center">
-                  <span className="text-orange-500/70 w-8">{event.day.toUpperCase()}</span>
-                  <span className="text-gray-300 flex-1 truncate mr-2">{event.event}</span>
-                  <span className={`px-1 ${event.impact === "Critical" || event.impact === "High" ? "bg-red-900/30 text-red-400 border border-red-900/50" : "text-gray-600"}`}>
-                    {event.impact.toUpperCase()}
-                  </span>
+                  {typeof event === 'string' ? (
+                    <span className="text-gray-300">{event}</span>
+                  ) : (
+                    <>
+                      <span className="text-orange-500/70 w-8">{event.day.toUpperCase()}</span>
+                      <span className="text-gray-300 flex-1 truncate mr-2">{event.event}</span>
+                      <span className={`px-1 ${event.impact === "Critical" || event.impact === "High" ? "bg-red-900/30 text-red-400 border border-red-900/50" : "text-gray-600"}`}>
+                        {event.impact.toUpperCase()}
+                      </span>
+                    </>
+                  )}
                 </li>
               ))}
             </ul>
@@ -124,6 +156,7 @@ const TradeCard = ({ trade, index }: { trade: any, index: number }) => {
 
 export default function Home() {
   const [filter, setFilter] = useState("All");
+  const [viewMode, setViewMode] = useState<"WEEKLY" | "DAILY">("WEEKLY");
   const [currentTime, setCurrentTime] = useState(new Date());
 
   useEffect(() => {
@@ -131,7 +164,9 @@ export default function Home() {
     return () => clearInterval(timer);
   }, []);
 
-  const filteredCurrencies = weeklyData.currencies.filter(c => {
+  const currentData = viewMode === "WEEKLY" ? weeklyData : dailyData;
+  
+  const filteredCurrencies = currentData.currencies.filter((c: any) => {
     if (filter === "All") return true;
     return c.bias === filter;
   });
@@ -165,28 +200,49 @@ export default function Home() {
       </header>
 
       <main className="container mx-auto px-4 py-6 relative z-10">
-        {/* Hero Section */}
+        {/* View Toggle & Hero Section */}
+        <div className="flex justify-center mb-6">
+          <div className="flex bg-[#1a1a1a] border border-gray-800 p-1 rounded-sm">
+            <button 
+              onClick={() => setViewMode("WEEKLY")}
+              className={`px-6 py-1.5 text-xs font-mono font-bold uppercase transition-all ${viewMode === "WEEKLY" ? "bg-orange-500 text-black" : "text-gray-500 hover:text-gray-300"}`}
+            >
+              Weekly Bias
+            </button>
+            <button 
+              onClick={() => setViewMode("DAILY")}
+              className={`px-6 py-1.5 text-xs font-mono font-bold uppercase transition-all ${viewMode === "DAILY" ? "bg-orange-500 text-black" : "text-gray-500 hover:text-gray-300"}`}
+            >
+              Daily Recap
+            </button>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 mb-8">
           {/* Main Status Panel */}
           <div className="lg:col-span-8 border border-gray-800 bg-[#0f0f0f] p-5 relative overflow-hidden">
             <div className="absolute top-0 right-0 p-2">
-              <span className="text-[9px] font-mono text-orange-500/50 border border-orange-500/20 px-1">WEEK {weeklyData.week}</span>
+              <span className="text-[9px] font-mono text-orange-500/50 border border-orange-500/20 px-1">
+                {viewMode === "WEEKLY" ? `WEEK ${weeklyData.week}` : dailyData.date}
+              </span>
             </div>
             
             <div className="flex items-end gap-4 mb-4">
-              <h2 className="text-4xl font-bold text-white font-mono tracking-tighter">MARKET <span className="text-orange-500">OVERVIEW</span></h2>
+              <h2 className="text-4xl font-bold text-white font-mono tracking-tighter">
+                {viewMode === "WEEKLY" ? "MARKET" : "DAILY"} <span className="text-orange-500">{viewMode === "WEEKLY" ? "OVERVIEW" : "BRIEFING"}</span>
+              </h2>
             </div>
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 border-t border-gray-800 pt-4">
               <div>
                 <p className="text-[9px] text-gray-500 uppercase mb-1">Risk Sentiment</p>
                 <p className="text-sm font-mono font-bold text-white flex items-center gap-1">
-                  <Activity className="w-3 h-3 text-orange-500" /> RISK-OFF
+                  <Activity className="w-3 h-3 text-orange-500" /> {viewMode === "WEEKLY" ? "RISK-OFF" : dailyData.marketSentiment}
                 </p>
               </div>
               <div>
                 <p className="text-[9px] text-gray-500 uppercase mb-1">Focus</p>
-                <p className="text-sm font-mono font-bold text-white">FOMC / TARIFFS</p>
+                <p className="text-sm font-mono font-bold text-white">{viewMode === "WEEKLY" ? "FOMC / TARIFFS" : dailyData.dailyFocus}</p>
               </div>
               <div>
                 <p className="text-[9px] text-gray-500 uppercase mb-1">Volatility</p>
@@ -194,7 +250,7 @@ export default function Home() {
               </div>
               <div>
                 <p className="text-[9px] text-gray-500 uppercase mb-1">Next Update</p>
-                <p className="text-sm font-mono font-bold text-gray-400">SUN 16:00</p>
+                <p className="text-sm font-mono font-bold text-gray-400">{viewMode === "WEEKLY" ? "SUN 16:00" : "MON-FRI 23:15"}</p>
               </div>
             </div>
           </div>
