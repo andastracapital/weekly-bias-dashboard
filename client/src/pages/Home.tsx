@@ -220,7 +220,7 @@ export default function Home() {
             <div className="flex items-center gap-1">
               <Terminal className="w-4 h-4 text-orange-500" />
               <h1 className="font-mono font-bold text-sm tracking-tight text-orange-500">
-                PMT<span className="text-white">_TERMINAL</span>
+                TUDOR<span className="text-white">_DASHBOARD</span>
               </h1>
             </div>
             <div className="h-4 w-[1px] bg-gray-800 mx-2"></div>
@@ -333,7 +333,32 @@ export default function Home() {
                   <TradeCard key={i} trade={trade} index={i} />
                 ))
               ) : (
-                dailyData.redFolderNews?.map((news: any, i: number) => (
+                dailyData.redFolderNews?.filter((news: any) => {
+                  // Simple filter logic: In a real app, parse dates. Here we assume news are sorted.
+                  // For now, we show all news for the week as "Upcoming" context is valuable, 
+                  // but we could filter by day index if needed. 
+                  // User requested to hide past news.
+                  
+                  const days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+                  const todayIndex = new Date().getDay(); // 0 = Sun, 1 = Mon...
+                  const newsDayIndex = days.indexOf(news.day.toUpperCase().slice(0, 3));
+                  
+                  // If news day is today, check time
+                  if (newsDayIndex === todayIndex) {
+                    const now = new Date();
+                    const currentHour = now.getHours();
+                    const currentMinute = now.getMinutes();
+                    const [newsHour, newsMinute] = (news.time || "00:00").split(":").map(Number);
+                    
+                    if (currentHour > newsHour || (currentHour === newsHour && currentMinute >= newsMinute)) {
+                      return false; // Past time today
+                    }
+                    return true; // Future time today
+                  }
+                  
+                  // If news day is in the future
+                  return newsDayIndex > todayIndex;
+                }).map((news: any, i: number) => (
                   <div key={i} className="flex items-start gap-3 p-2 border border-gray-800 bg-[#121212] hover:bg-[#1a1a1a] transition-colors">
                     <div className="flex flex-col items-center min-w-[35px] border-r border-gray-800 pr-2">
                       <span className="text-[9px] font-bold text-gray-500 uppercase">{news.day}</span>
@@ -375,12 +400,16 @@ export default function Home() {
         {/* Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {filteredCurrencies.map((currency: any) => {
-            // Find corresponding weekly bias for alignment check
+            // Find corresponding bias for alignment check
+            // If in DAILY mode, compare with WEEKLY bias
+            // If in WEEKLY mode, compare with DAILY bias (to show if today aligns with the week)
             const weeklyCurrency = weeklyData.currencies.find((c: any) => c.code === currency.code);
-            const weeklyBias = viewMode === "DAILY" ? weeklyCurrency?.bias : undefined;
+            const dailyCurrency = dailyData.currencies.find((c: any) => c.code === currency.code);
+            
+            const comparisonBias = viewMode === "DAILY" ? weeklyCurrency?.bias : dailyCurrency?.bias;
             
             return (
-              <BiasCard key={currency.code} currency={currency} weeklyBias={weeklyBias} />
+              <BiasCard key={currency.code} currency={currency} weeklyBias={comparisonBias} />
             );
           })}
         </div>
@@ -388,7 +417,7 @@ export default function Home() {
         {/* Footer */}
         <footer className="mt-12 border-t border-gray-900 pt-6 pb-4 flex justify-between items-center text-[9px] font-mono text-gray-600">
           <div>
-            <p>PMT_TERMINAL v3.2.1 // AUTOMATED FX DASHBOARD</p>
+            <p>TUDOR_DASHBOARD v3.3.0 // AUTOMATED FX DASHBOARD</p>
             <p className="mt-1">DATA SOURCE: PRIMEMARKET TERMINAL // REFRESH: AUTO</p>
           </div>
           <div className="flex items-center gap-2">
