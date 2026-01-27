@@ -206,10 +206,7 @@ const TradeCard = ({ trade, index }: { trade: any, index: number }) => {
           <p className="text-[9px] text-gray-500 font-mono mt-0.5">{trade.reason}</p>
         </div>
       </div>
-      <div className="text-right">
-        <p className="text-[8px] text-gray-600 uppercase tracking-wider">Setup Type</p>
-        <p className={`font-mono font-bold text-[10px] ${textColor}`}>{trade.type}</p>
-      </div>
+
     </motion.div>
   );
 };
