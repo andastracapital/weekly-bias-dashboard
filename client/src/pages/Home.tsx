@@ -52,20 +52,7 @@ const BiasCard = ({ currency }: { currency: any }) => {
               <Activity className="w-2.5 h-2.5" /> {currency.tone}
             </div>
           )}
-          {currency.alignment && (
-            <div className={`flex items-center gap-1 px-1.5 py-0.5 border text-[8px] font-bold uppercase tracking-wider ${
-              currency.alignment === "Perfect" || currency.alignment === "Strong" 
-                ? "border-orange-500/50 text-orange-400 bg-orange-500/10" 
-                : "border-gray-700 text-gray-500"
-            }`}>
-              {currency.alignment === "Perfect" || currency.alignment === "Strong" ? (
-                <Link2 className="w-2 h-2" />
-              ) : (
-                <Unlink className="w-2 h-2" />
-              )}
-              {currency.alignment} Match
-            </div>
-          )}
+
         </div>
       </div>
 
@@ -74,6 +61,20 @@ const BiasCard = ({ currency }: { currency: any }) => {
         {isBearish && <TrendingDown className="w-4 h-4 text-red-500" />}
         {isNeutral && <Minus className="w-4 h-4 text-gray-500" />}
         <span className={`text-base font-bold font-mono ${textColor}`}>{currency.bias.toUpperCase()}</span>
+        {currency.alignment && (
+          <div className={`ml-auto flex items-center gap-1 px-2 py-0.5 border text-[9px] font-bold uppercase tracking-wider ${
+            currency.alignment === "Perfect" || currency.alignment === "Strong" 
+              ? "border-orange-500/50 text-orange-400 bg-orange-500/10" 
+              : "border-gray-700 text-gray-500"
+          }`}>
+            {currency.alignment === "Perfect" || currency.alignment === "Strong" ? (
+              <Link2 className="w-3 h-3" />
+            ) : (
+              <Unlink className="w-3 h-3" />
+            )}
+            {currency.alignment} Match
+          </div>
+        )}
       </div>
 
       {currency.summary && (
