@@ -4,11 +4,11 @@
   "marketSentiment": "Risk-Off",
   "dailyFocus": "Trump Tariffs / FOMC Prep",
   "redFolderNews": [
-    { "day": "MON", "event": "Trump Speaks", "impact": "Critical" },
-    { "day": "MON", "event": "US Consumer Confidence", "impact": "High" },
-    { "day": "TUE", "event": "BOC Rate Decision", "impact": "Critical" },
-    { "day": "WED", "event": "FOMC Decision & Powell", "impact": "Critical" },
-    { "day": "THU", "event": "US PCE Inflation", "impact": "High" }
+    { "day": "MON", "time": "16:00", "event": "Trump Speaks", "impact": "Critical" },
+    { "day": "MON", "time": "16:00", "event": "US Consumer Confidence", "impact": "High" },
+    { "day": "TUE", "time": "15:45", "event": "BOC Rate Decision", "impact": "Critical" },
+    { "day": "WED", "time": "20:00", "event": "FOMC Decision & Powell", "impact": "Critical" },
+    { "day": "THU", "time": "14:30", "event": "US PCE Inflation", "impact": "High" }
   ],
   "currencyCategorization": {
     "winners": [
