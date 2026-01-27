@@ -116,21 +116,21 @@
       "direction": "Long",
       "conviction": "Highest",
       "reason": "Perfect Alignment: Weekly Bullish GBP vs Bearish USD",
-      "target": "1.2700+"
+      "type": "Trend Continuation"
     },
     {
       "pair": "USD/JPY",
       "direction": "Short",
       "conviction": "High",
       "reason": "Strong Alignment: BoJ Intervention Risk vs USD Weakness",
-      "target": "150.00-"
+      "type": "Mean Reversion"
     },
     {
       "pair": "USD/CHF",
       "direction": "Short",
       "conviction": "Medium",
       "reason": "Safe Haven Flows into CHF vs USD Weakness",
-      "target": "0.8900-"
+      "type": "Breakout"
     }
   ]
 }
