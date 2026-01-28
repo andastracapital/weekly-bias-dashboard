@@ -1,7 +1,10 @@
 {
   "date": "Wednesday, Jan 28",
   "marketFocus": {
-    "riskEnvironment": "Neutral",
+    "riskEnvironment": "Risk-Off",
+    "focusTagline": "Trump Tariffs / FOMC Prep",
+    "volatility": "ELEVATED",
+    "nextUpdate": "MON-FRI 23:15",
     "headlines": [
       "US Stocks closed firmer, driven by mega-cap names (MSFT, TSLA, META) ahead of earnings",
       "Dollar regains some poise after slumping on 'de-dollarisation' theme",
