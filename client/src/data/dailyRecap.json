@@ -85,5 +85,25 @@
       "headline": "Consolidating recent gains",
       "summary": "Kiwi follows the broader USD move. Lack of domestic data leaves it vulnerable to external shifts in risk appetite."
     }
-  }
+  },
+  "topTrades": [
+    {
+      "pair": "GBP/CAD",
+      "direction": "Long",
+      "conviction": "Highest",
+      "reason": "Divergence: Strongest G10 (GBP) vs Weakest G10 (CAD) on Tariff Threats"
+    },
+    {
+      "pair": "USD/JPY",
+      "direction": "Long",
+      "conviction": "High",
+      "reason": "Recovery Play: USD stabilizing ahead of FOMC vs JPY weakness despite BoJ"
+    },
+    {
+      "pair": "EUR/CAD",
+      "direction": "Long",
+      "conviction": "Medium",
+      "reason": "Tariff Risk: Euro resilience vs Canadian Dollar vulnerability"
+    }
+  ]
 }

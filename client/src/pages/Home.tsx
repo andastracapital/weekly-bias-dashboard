@@ -385,41 +385,63 @@ export default function Home() {
                 </div>
               </div>
             ) : (
-              <div className="bg-[#121212] border border-gray-800 p-5 h-full">
-                <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
-                  <Calendar className="w-4 h-4 text-red-500" />
-                  Red Folder News
-                </h3>
-                <div className="space-y-3">
-                  {dailyData.redFolderNews
-                    .filter((news: any) => {
-                      // Simple filter to show only today's/future events based on time if available
-                      // For now, showing all for the day as per data
-                      return true; 
-                    })
-                    .map((news: any, i: number) => (
-                    <div key={i} className="flex items-center justify-between border-b border-gray-800 pb-2 last:border-0">
-                      <div className="flex items-center gap-3">
-                        <span className="text-xs font-mono text-gray-500 w-10">{news.time}</span>
-                        <div>
-                          <div className="flex items-center gap-2">
-                            <span className="text-xs font-bold text-white w-8">{news.currency}</span>
-                            <span className={`text-[9px] px-1.5 py-0.5 border ${
-                              news.impact === "Critical" ? "border-red-500 text-red-500 bg-red-900/20" : 
-                              news.impact === "High" ? "border-orange-500 text-orange-500 bg-orange-900/20" : 
-                              "border-gray-600 text-gray-400"
-                            } uppercase font-bold`}>
-                              {news.impact}
-                            </span>
+              <div className="flex flex-col gap-6 h-full">
+                {/* Daily High Conviction Setups */}
+                <div className="bg-[#121212] border border-gray-800 p-5">
+                  <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+                    <Zap className="w-4 h-4 text-orange-500" />
+                    Daily High Conviction
+                  </h3>
+                  <div className="space-y-3">
+                    {/* @ts-ignore - dailyData.topTrades might be undefined in old types */}
+                    {dailyData.topTrades && dailyData.topTrades.length > 0 ? (
+                      // @ts-ignore
+                      dailyData.topTrades.map((trade: any, i: number) => (
+                        <TradeCard key={i} trade={trade} index={i} />
+                      ))
+                    ) : (
+                      <p className="text-xs text-gray-500 font-mono italic text-center py-4">No high conviction setups for today.</p>
+                    )}
+                  </div>
+                </div>
+
+                {/* Red Folder News */}
+                <div className="bg-[#121212] border border-gray-800 p-5 flex-grow">
+                  <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+                    <Calendar className="w-4 h-4 text-red-500" />
+                    Red Folder News
+                  </h3>
+                  <div className="space-y-3">
+                    {dailyData.redFolderNews
+                      .filter((news: any) => {
+                        // Simple filter to show only today's/future events based on time if available
+                        // For now, showing all for the day as per data
+                        return true; 
+                      })
+                      .map((news: any, i: number) => (
+                      <div key={i} className="flex items-center justify-between border-b border-gray-800 pb-2 last:border-0">
+                        <div className="flex items-center gap-3">
+                          <span className="text-xs font-mono text-gray-500 w-10">{news.time}</span>
+                          <div>
+                            <div className="flex items-center gap-2">
+                              <span className="text-xs font-bold text-white w-8">{news.currency}</span>
+                              <span className={`text-[9px] px-1.5 py-0.5 border ${
+                                news.impact === "Critical" ? "border-red-500 text-red-500 bg-red-900/20" : 
+                                news.impact === "High" ? "border-orange-500 text-orange-500 bg-orange-900/20" : 
+                                "border-gray-600 text-gray-400"
+                              } uppercase font-bold`}>
+                                {news.impact}
+                              </span>
+                            </div>
+                            <p className="text-[10px] text-gray-400 font-mono mt-0.5">{news.event}</p>
                           </div>
-                          <p className="text-[10px] text-gray-400 font-mono mt-0.5">{news.event}</p>
                         </div>
                       </div>
-                    </div>
-                  ))}
-                  {dailyData.redFolderNews.length === 0 && (
-                    <p className="text-xs text-gray-500 font-mono italic text-center py-4">No high impact events remaining today.</p>
-                  )}
+                    ))}
+                    {dailyData.redFolderNews.length === 0 && (
+                      <p className="text-xs text-gray-500 font-mono italic text-center py-4">No high impact events remaining today.</p>
+                    )}
+                  </div>
                 </div>
               </div>
             )}
