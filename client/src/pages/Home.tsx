@@ -407,23 +407,63 @@ export default function Home() {
         </div>
 
         {/* Market Overview Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
-          {/* Left: Market Context */}
-          <div className="lg:col-span-2 space-y-6">
-            <div className="bg-[#121212] border border-gray-800 p-5 relative overflow-hidden">
-              <div className="absolute top-0 left-0 w-1 h-full bg-orange-500"></div>
-              <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-3 flex items-center gap-2">
-                <Activity className="w-4 h-4 text-orange-500" />
-                Market Overview
-              </h3>
-              <p className="text-sm text-gray-300 font-mono leading-relaxed">
-                {viewMode === "WEEKLY" ? "Global markets are navigating a complex landscape of geopolitical tension and shifting monetary policy expectations. Key focus remains on US economic data and central bank rhetoric." : dailyData.marketFocus.macroContext}
-              </p>
+        {viewMode === "WEEKLY" ? (
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+            {/* Left: Market Context */}
+            <div className="lg:col-span-2 space-y-6">
+              <div className="bg-[#121212] border border-gray-800 p-5 relative overflow-hidden h-full">
+                <div className="absolute top-0 left-0 w-1 h-full bg-orange-500"></div>
+                <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-3 flex items-center gap-2">
+                  <Activity className="w-4 h-4 text-orange-500" />
+                  Market Overview
+                </h3>
+                <p className="text-sm text-gray-300 font-mono leading-relaxed">
+                  Global markets are navigating a complex landscape of geopolitical tension and shifting monetary policy expectations. Key focus remains on US economic data and central bank rhetoric.
+                </p>
+              </div>
             </div>
 
-            {/* Daily Specific: Focus & Summary */}
-            {viewMode === "DAILY" && (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {/* Right: High Conviction (Weekly) */}
+            <div className="lg:col-span-1">
+              <div className="bg-[#121212] border border-gray-800 p-5 h-full">
+                <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+                  <Zap className="w-4 h-4 text-orange-500" />
+                  High Conviction Setups
+                </h3>
+                <p className="text-[10px] text-gray-500 font-mono mb-4">
+                  Based on Weekly & Daily Bias Alignment
+                </p>
+                <div className="space-y-3">
+                  {highConvictionSetups.length > 0 ? (
+                    highConvictionSetups.map((trade: any, i: number) => (
+                      <TradeCard key={i} trade={trade} index={i} />
+                    ))
+                  ) : (
+                    <div className="text-center py-8 border border-dashed border-gray-800">
+                      <p className="text-xs text-gray-500 font-mono">No strong alignment setups found currently.</p>
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+        ) : (
+          // DAILY VIEW LAYOUT
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 mb-8">
+            {/* Left: Market Context (50%) */}
+            <div className="lg:col-span-2 space-y-6 flex flex-col">
+              <div className="bg-[#121212] border border-gray-800 p-5 relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-1 h-full bg-orange-500"></div>
+                <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-3 flex items-center gap-2">
+                  <Activity className="w-4 h-4 text-orange-500" />
+                  Market Overview
+                </h3>
+                <p className="text-sm text-gray-300 font-mono leading-relaxed">
+                  {dailyData.marketFocus.macroContext}
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-grow">
                 <div className="bg-[#121212] border border-gray-800 p-4">
                   <h4 className="text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-3 border-b border-gray-800 pb-2">
                     Market Focus
@@ -446,124 +486,91 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-            )}
-          </div>
+            </div>
 
-          {/* Right: High Conviction (Weekly) OR Intraday Trades (Daily) */}
-          <div className="lg:col-span-1">
-            {viewMode === "WEEKLY" ? (
+            {/* Middle: Intraday Trades (25%) */}
+            <div className="lg:col-span-1">
               <div className="bg-[#121212] border border-gray-800 p-5 h-full">
                 <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
-                  <Zap className="w-4 h-4 text-orange-500" />
-                  High Conviction Setups
+                  <TrendingUp className="w-4 h-4 text-orange-500" />
+                  Intraday Trades <span className="text-gray-500 ml-1 text-[10px]">(Base Hits)</span>
                 </h3>
-                <p className="text-[10px] text-gray-500 font-mono mb-4">
-                  Based on Weekly & Daily Bias Alignment
-                </p>
-                <div className="space-y-3">
-                  {highConvictionSetups.length > 0 ? (
-                    highConvictionSetups.map((trade: any, i: number) => (
-                      <TradeCard key={i} trade={trade} index={i} />
+                
+                {/* Generated Pairs Only */}
+                <div className="space-y-2">
+                  {intradayPotentials.bullish.length > 0 && intradayPotentials.bearish.length > 0 ? (
+                    intradayPotentials.bullish.flatMap(bull => 
+                      intradayPotentials.bearish.map(bear => {
+                        // Determine Pair Direction (Standard Notation)
+                        let pair = `${bull}/${bear}`;
+                        let direction = "Long";
+
+                        // Priority: EUR > GBP > AUD > NZD > USD > CAD > CHF > JPY
+                        const priority = ["EUR", "GBP", "AUD", "NZD", "USD", "CAD", "CHF", "JPY"];
+                        const bullIndex = priority.indexOf(bull);
+                        const bearIndex = priority.indexOf(bear);
+
+                        if (bullIndex > bearIndex && bearIndex !== -1) {
+                            // Flip to Standard Notation
+                            pair = `${bear}/${bull}`;
+                            direction = "Short"; 
+                        }
+
+                        return { pair, direction, bull, bear };
+                      })
+                    ).slice(0, 6).map((trade, i) => (
+                      <div key={i} className={`flex items-center justify-between bg-[#1a1a1a] px-3 py-2 border-l-2 ${trade.direction === "Long" ? "border-l-orange-500" : "border-l-red-500"} border-y border-r border-gray-800`}>
+                        <span className="text-xs font-bold text-white font-mono">{trade.pair}</span>
+                        <span className={`text-[9px] font-bold uppercase tracking-wider ${trade.direction === "Long" ? "text-orange-500" : "text-red-500"}`}>
+                          {trade.direction}
+                        </span>
+                      </div>
                     ))
                   ) : (
-                    <div className="text-center py-8 border border-dashed border-gray-800">
-                      <p className="text-xs text-gray-500 font-mono">No strong alignment setups found currently.</p>
-                    </div>
+                    <p className="text-[10px] text-gray-600 font-mono italic text-center py-4">No clear divergence for intraday setups.</p>
                   )}
                 </div>
               </div>
-            ) : (
-              <div className="flex flex-col gap-6 h-full">
-                {/* Potential Intraday Trades (Base Hits) */}
-                <div className="bg-[#121212] border border-gray-800 p-5">
-                  <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
-                    <TrendingUp className="w-4 h-4 text-orange-500" />
-                    Potential Intraday Trades <span className="text-gray-500 ml-1">(Base Hits)</span>
-                  </h3>
-                  
-                  {/* Generated Pairs Only */}
-                  <div className="space-y-2">
-                    {intradayPotentials.bullish.length > 0 && intradayPotentials.bearish.length > 0 ? (
-                      intradayPotentials.bullish.flatMap(bull => 
-                        intradayPotentials.bearish.map(bear => {
-                          // Determine Pair Direction (Standard Notation)
-                          // Major Pairs: EUR/USD, GBP/USD, AUD/USD, NZD/USD, USD/CAD, USD/CHF, USD/JPY
-                          // Crosses: EUR/GBP, EUR/AUD, GBP/JPY, etc.
-                          
-                          let pair = `${bull}/${bear}`;
-                          let direction = "Long";
-                          let isStandard = true;
+            </div>
 
-                          // Logic to flip pair if needed for standard notation and adjust direction
-                          // Priority: EUR > GBP > AUD > NZD > USD > CAD > CHF > JPY (Rough approximation for standard pairs)
-                          const priority = ["EUR", "GBP", "AUD", "NZD", "USD", "CAD", "CHF", "JPY"];
-                          const bullIndex = priority.indexOf(bull);
-                          const bearIndex = priority.indexOf(bear);
-
-                          if (bullIndex > bearIndex && bearIndex !== -1) {
-                             // Flip to Standard Notation (e.g. USD/JPY instead of JPY/USD)
-                             pair = `${bear}/${bull}`;
-                             direction = "Short"; // Bearish Base / Bullish Quote = Short
-                          }
-
-                          return { pair, direction, bull, bear };
-                        })
-                      ).slice(0, 5).map((trade, i) => (
-                        <div key={i} className={`flex items-center justify-between bg-[#1a1a1a] px-3 py-2 border-l-2 ${trade.direction === "Long" ? "border-l-orange-500" : "border-l-red-500"} border-y border-r border-gray-800`}>
-                          <span className="text-xs font-bold text-white font-mono">{trade.pair}</span>
-                          <span className={`text-[9px] font-bold uppercase tracking-wider ${trade.direction === "Long" ? "text-orange-500" : "text-red-500"}`}>
-                            {trade.direction}
-                          </span>
-                        </div>
-                      ))
-                    ) : (
-                      <p className="text-[10px] text-gray-600 font-mono italic text-center py-4">No clear divergence for intraday setups.</p>
-                    )}
-                  </div>
-                </div>
-
-                {/* Red Folder News */}
-                <div className="bg-[#121212] border border-gray-800 p-5 flex-grow">
-                  <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
-                    <Calendar className="w-4 h-4 text-red-500" />
-                    Red Folder News
-                  </h3>
-                  <div className="space-y-3">
-                    {dailyData.redFolderNews
-                      .filter((news: any) => {
-                        // Simple filter to show only today's/future events based on time if available
-                        // For now, showing all for the day as per data
-                        return true; 
-                      })
-                      .map((news: any, i: number) => (
-                      <div key={i} className="flex items-center justify-between border-b border-gray-800 pb-2 last:border-0">
-                        <div className="flex items-center gap-3">
-                          <span className="text-xs font-mono text-gray-500 w-10">{news.time}</span>
-                          <div>
-                            <div className="flex items-center gap-2">
-                              <span className="text-xs font-bold text-white w-8">{news.currency}</span>
-                              <span className={`text-[9px] px-1.5 py-0.5 border ${
-                                news.impact === "Critical" ? "border-red-500 text-red-500 bg-red-900/20" : 
-                                news.impact === "High" ? "border-orange-500 text-orange-500 bg-orange-900/20" : 
-                                "border-gray-600 text-gray-400"
-                              } uppercase font-bold`}>
-                                {news.impact}
-                              </span>
-                            </div>
-                            <p className="text-[10px] text-gray-400 font-mono mt-0.5">{news.event}</p>
+            {/* Right: Red Folder News (25%) */}
+            <div className="lg:col-span-1">
+              <div className="bg-[#121212] border border-gray-800 p-5 h-full">
+                <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+                  <Calendar className="w-4 h-4 text-red-500" />
+                  Red Folder News
+                </h3>
+                <div className="space-y-3">
+                  {dailyData.redFolderNews
+                    .filter((news: any) => true)
+                    .map((news: any, i: number) => (
+                    <div key={i} className="flex items-center justify-between border-b border-gray-800 pb-2 last:border-0">
+                      <div className="flex items-center gap-3">
+                        <span className="text-xs font-mono text-gray-500 w-10">{news.time}</span>
+                        <div>
+                          <div className="flex items-center gap-2">
+                            <span className="text-xs font-bold text-white w-8">{news.currency}</span>
+                            <span className={`text-[9px] px-1.5 py-0.5 border ${
+                              news.impact === "Critical" ? "border-red-500 text-red-500 bg-red-900/20" : 
+                              news.impact === "High" ? "border-orange-500 text-orange-500 bg-orange-900/20" : 
+                              "border-gray-600 text-gray-400"
+                            } uppercase font-bold`}>
+                              {news.impact}
+                            </span>
                           </div>
+                          <p className="text-[10px] text-gray-400 font-mono mt-0.5">{news.event}</p>
                         </div>
                       </div>
-                    ))}
-                    {dailyData.redFolderNews.length === 0 && (
-                      <p className="text-xs text-gray-500 font-mono italic text-center py-4">No high impact events remaining today.</p>
-                    )}
-                  </div>
+                    </div>
+                  ))}
+                  {dailyData.redFolderNews.length === 0 && (
+                    <p className="text-xs text-gray-500 font-mono italic text-center py-4">No high impact events remaining today.</p>
+                  )}
                 </div>
               </div>
-            )}
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Filter Bar */}
         <div className="flex flex-wrap gap-2 mb-6">
