@@ -218,6 +218,85 @@ export default function Home() {
     ...data
   }));
 
+  // --- Dynamic Calculation Logic ---
+
+  // 1. Calculate High Conviction Setups (Weekly View)
+  // Logic: Find currencies where Weekly Bias matches Daily Bias (Alignment).
+  // Pair Strongest (Bullish Aligned) vs Weakest (Bearish Aligned).
+  const getHighConvictionSetups = () => {
+    const bullishAligned: string[] = [];
+    const bearishAligned: string[] = [];
+
+    weeklyData.currencies.forEach((wCurrency: any) => {
+      // @ts-ignore
+      const dCurrency = dailyData.currencies[wCurrency.code];
+      if (!dCurrency) return;
+
+      const wBias = wCurrency.bias.toLowerCase();
+      const dBias = dCurrency.bias.toLowerCase();
+
+      // Check for Strong Alignment (Both Bullish or Both Bearish)
+      // Exclude Neutral/Mixed
+      if (wBias.includes("bullish") && dBias.includes("bullish")) {
+        bullishAligned.push(wCurrency.code);
+      } else if (wBias.includes("bearish") && dBias.includes("bearish")) {
+        bearishAligned.push(wCurrency.code);
+      }
+    });
+
+    const setups: any[] = [];
+    
+    // Generate Pairs: Bullish Aligned vs Bearish Aligned
+    bullishAligned.forEach(bull => {
+      bearishAligned.forEach(bear => {
+        setups.push({
+          pair: `${bull}/${bear}`,
+          direction: "Long",
+          reason: `Strong Alignment: Weekly & Daily Bullish ${bull} vs Bearish ${bear}`,
+          conviction: "High"
+        });
+      });
+    });
+
+    // Fallback if no perfect alignment found, use Weekly data only (Top Bullish vs Top Bearish)
+    if (setups.length === 0) {
+       const wBullish = weeklyData.currencies.filter(c => c.bias.toLowerCase().includes("bullish")).map(c => c.code);
+       const wBearish = weeklyData.currencies.filter(c => c.bias.toLowerCase().includes("bearish")).map(c => c.code);
+       
+       wBullish.forEach(bull => {
+         wBearish.forEach(bear => {
+            setups.push({
+              pair: `${bull}/${bear}`,
+              direction: "Long",
+              reason: `Weekly Bias Play: Bullish ${bull} vs Bearish ${bear}`,
+              conviction: "Medium"
+            });
+         });
+       });
+    }
+
+    return setups.slice(0, 3); // Limit to top 3
+  };
+
+  const highConvictionSetups = getHighConvictionSetups();
+
+  // 2. Calculate Intraday Potentials (Daily View)
+  // Logic: List Daily Bullish vs Daily Bearish currencies
+  const getIntradayPotentials = () => {
+    const bullish: string[] = [];
+    const bearish: string[] = [];
+
+    Object.entries(dailyData.currencies).forEach(([code, data]: [string, any]) => {
+      const bias = data.bias.toLowerCase();
+      if (bias.includes("bullish")) bullish.push(code);
+      if (bias.includes("bearish")) bearish.push(code);
+    });
+
+    return { bullish, bearish };
+  };
+
+  const intradayPotentials = getIntradayPotentials();
+
   const currentCurrencies = viewMode === "WEEKLY" ? weeklyData.currencies : dailyCurrenciesArray;
   
   const filteredCurrencies = currentCurrencies.filter((c: any) => {
@@ -370,7 +449,7 @@ export default function Home() {
             )}
           </div>
 
-          {/* Right: High Conviction (Weekly) OR Red Folder News (Daily) */}
+          {/* Right: High Conviction (Weekly) OR Intraday Trades (Daily) */}
           <div className="lg:col-span-1">
             {viewMode === "WEEKLY" ? (
               <div className="bg-[#121212] border border-gray-800 p-5 h-full">
@@ -378,30 +457,85 @@ export default function Home() {
                   <Zap className="w-4 h-4 text-orange-500" />
                   High Conviction Setups
                 </h3>
+                <p className="text-[10px] text-gray-500 font-mono mb-4">
+                  Based on Weekly & Daily Bias Alignment
+                </p>
                 <div className="space-y-3">
-                  {weeklyData.topTrades.map((trade: any, i: number) => (
-                    <TradeCard key={i} trade={trade} index={i} />
-                  ))}
+                  {highConvictionSetups.length > 0 ? (
+                    highConvictionSetups.map((trade: any, i: number) => (
+                      <TradeCard key={i} trade={trade} index={i} />
+                    ))
+                  ) : (
+                    <div className="text-center py-8 border border-dashed border-gray-800">
+                      <p className="text-xs text-gray-500 font-mono">No strong alignment setups found currently.</p>
+                    </div>
+                  )}
                 </div>
               </div>
             ) : (
               <div className="flex flex-col gap-6 h-full">
-                {/* Daily High Conviction Setups */}
+                {/* Potential Intraday Trades Table */}
                 <div className="bg-[#121212] border border-gray-800 p-5">
                   <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
-                    <Zap className="w-4 h-4 text-orange-500" />
-                    Daily High Conviction
+                    <TrendingUp className="w-4 h-4 text-orange-500" />
+                    Potential Intraday Trades
                   </h3>
-                  <div className="space-y-3">
-                    {/* @ts-ignore - dailyData.topTrades might be undefined in old types */}
-                    {dailyData.topTrades && dailyData.topTrades.length > 0 ? (
-                      // @ts-ignore
-                      dailyData.topTrades.map((trade: any, i: number) => (
-                        <TradeCard key={i} trade={trade} index={i} />
-                      ))
-                    ) : (
-                      <p className="text-xs text-gray-500 font-mono italic text-center py-4">No high conviction setups for today.</p>
-                    )}
+                  
+                  <div className="grid grid-cols-2 gap-4 mb-4">
+                    {/* Bullish Column */}
+                    <div className="bg-orange-900/10 border border-orange-900/30 p-3">
+                      <h4 className="text-[10px] font-bold text-orange-500 uppercase tracking-widest mb-2 border-b border-orange-900/30 pb-1">
+                        Bullish
+                      </h4>
+                      <div className="flex flex-wrap gap-2">
+                        {intradayPotentials.bullish.length > 0 ? (
+                          intradayPotentials.bullish.map(code => (
+                            <span key={code} className="text-xs font-bold font-mono text-gray-200 bg-black px-2 py-1 border border-gray-800">
+                              {code}
+                            </span>
+                          ))
+                        ) : (
+                          <span className="text-[10px] text-gray-600 font-mono">- None -</span>
+                        )}
+                      </div>
+                    </div>
+
+                    {/* Bearish Column */}
+                    <div className="bg-red-900/10 border border-red-900/30 p-3">
+                      <h4 className="text-[10px] font-bold text-red-500 uppercase tracking-widest mb-2 border-b border-red-900/30 pb-1">
+                        Bearish
+                      </h4>
+                      <div className="flex flex-wrap gap-2">
+                        {intradayPotentials.bearish.length > 0 ? (
+                          intradayPotentials.bearish.map(code => (
+                            <span key={code} className="text-xs font-bold font-mono text-gray-200 bg-black px-2 py-1 border border-gray-800">
+                              {code}
+                            </span>
+                          ))
+                        ) : (
+                          <span className="text-[10px] text-gray-600 font-mono">- None -</span>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Generated Pairs */}
+                  <div>
+                    <p className="text-[9px] text-gray-500 uppercase mb-2 font-mono">Suggested Pairs (Long)</p>
+                    <div className="space-y-2">
+                      {intradayPotentials.bullish.length > 0 && intradayPotentials.bearish.length > 0 ? (
+                        intradayPotentials.bullish.slice(0, 2).flatMap(bull => 
+                          intradayPotentials.bearish.slice(0, 2).map(bear => (
+                            <div key={`${bull}/${bear}`} className="flex items-center justify-between bg-[#1a1a1a] px-3 py-2 border border-gray-800">
+                              <span className="text-xs font-bold text-white font-mono">{bull}/{bear}</span>
+                              <span className="text-[9px] text-orange-500 font-bold uppercase tracking-wider">Long</span>
+                            </div>
+                          ))
+                        ).slice(0, 3)
+                      ) : (
+                        <p className="text-[10px] text-gray-600 font-mono italic">No clear divergence for pairs.</p>
+                      )}
+                    </div>
                   </div>
                 </div>
 
