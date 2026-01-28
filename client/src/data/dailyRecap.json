@@ -1,139 +1,89 @@
 {
-  "date": "Monday 26 January 2026",
-  "lastUpdated": "2026-01-26T23:15:00Z",
-  "marketSentiment": "Risk-Off",
-  "dailyFocus": "Trump Tariffs / FOMC Prep",
-  "redFolderNews": [
-    { "day": "MON", "time": "16:00", "event": "Trump Speaks", "impact": "Critical" },
-    { "day": "MON", "time": "16:00", "event": "US Consumer Confidence", "impact": "High" },
-    { "day": "TUE", "time": "15:45", "event": "BOC Rate Decision", "impact": "Critical" },
-    { "day": "WED", "time": "20:00", "event": "FOMC Decision & Powell", "impact": "Critical" },
-    { "day": "THU", "time": "14:30", "event": "US PCE Inflation", "impact": "High" }
-  ],
-  "currencyCategorization": {
-    "winners": [
-      { "code": "GBP", "type": "Strong Long", "icon": "⬆️⬆️" },
-      { "code": "JPY", "type": "Strong Long", "icon": "⬆️⬆️" },
-      { "code": "AUD", "type": "Weak Long", "icon": "⬆️" },
-      { "code": "CHF", "type": "Weak Long", "icon": "⬆️" }
-    ],
-    "losers": [
-      { "code": "USD", "type": "Weak Short", "icon": "⬇️" },
-      { "code": "CAD", "type": "Weak Short", "icon": "⬇️" }
-    ],
-    "neutral": [
-      { "code": "EUR", "type": "Neutral", "icon": "↔️" },
-      { "code": "NZD", "type": "Neutral", "icon": "↔️" }
-    ]
-  },
-  "focus": {
+  "date": "Wednesday, Jan 28",
+  "marketFocus": {
     "headlines": [
-      "Trump tariff threats on Canada/Korea dominate",
-      "BoJ intervention risks driving USD/JPY lower",
-      "Ukraine escalation adding to risk premium"
+      "US Stocks closed firmer, driven by mega-cap names (MSFT, TSLA, META) ahead of earnings",
+      "Dollar regains some poise after slumping on 'de-dollarisation' theme",
+      "Cable (GBP/USD) matches 2025 high at 1.3788",
+      "Trump threatens 25% tariffs on Canada & South Korea (Autos, Pharma)"
     ],
-    "macro": [
-      "FOMC Decision (Wed) is the main event",
-      "Month-end flows likely to be choppy"
-    ]
+    "macroContext": "Markets are stabilizing in neutral territory ahead of the critical FOMC Rate Decision and Mag-7 earnings. Risk sentiment is cautious but balanced. 'De-dollarisation' remains a key narrative, but USD is seeing a tactical recovery."
   },
-  "proprietarySummary": "Risk-Off sentiment dominates due to geopolitics. USD is vulnerable despite FOMC. Best opportunities are in selling USD against safe havens (JPY, CHF) or strong idiosyncratic stories (GBP). Avoid chasing moves in illiquid sessions.",
-  "currencies": [
+  "tradingSummary": "Focus shifts entirely to the FOMC meeting tonight. USD is in a holding pattern with a slight bullish recovery bias. GBP shows relative strength, testing yearly highs. CAD is under heavy pressure from Trump's tariff threats. JPY weakens despite hawkish BoJ minutes.",
+  "redFolderNews": [
     {
-      "code": "USD",
-      "name": "US Dollar",
-      "tone": "Risk-Off / Neutral",
-      "bias": "Bearish",
-      "headlines": [
-        "Dollar weakness persists on Trump tariff threats",
-        "USD/JPY breaks 100 DMA on BoJ risks"
-      ],
-      "reaction": "DXY weakness driven by tariff salvo.",
-      "events": ["Trump Tariff Threat", "BoJ Risks"]
+      "time": "08:00",
+      "currency": "EUR",
+      "event": "GfK Consumer Confidence",
+      "impact": "Medium"
     },
     {
-      "code": "EUR",
-      "name": "Euro",
-      "tone": "Neutral",
-      "bias": "Neutral",
-      "headlines": [
-        "German IFO Business Climate misses",
-        "ECB speakers signal potential March cut"
-      ],
-      "reaction": "Heavy on weak data but supported by weak USD.",
-      "events": ["German IFO Miss"]
+      "time": "16:00",
+      "currency": "CAD",
+      "event": "BoC Rate Decision",
+      "impact": "High"
     },
     {
-      "code": "GBP",
-      "name": "British Pound",
-      "tone": "Bullish",
-      "bias": "Bullish",
-      "headlines": [
-        "CBI Distributive Trades survey beats",
-        "BoE's Mann reiterates hawkish stance"
-      ],
-      "reaction": "Outperformer. Strong data + Hawkish BoE.",
-      "events": ["CBI Beat", "BoE Hawkish"]
+      "time": "19:00",
+      "currency": "USD",
+      "event": "FOMC Rate Decision",
+      "impact": "Critical"
     },
     {
-      "code": "AUD",
-      "name": "Australian Dollar",
-      "tone": "Bullish",
-      "bias": "Bullish",
-      "headlines": [
-        "Copper prices surge on China hopes",
-        "Resilient despite risk-off tone"
-      ],
-      "reaction": "Commodities doing the heavy lifting.",
-      "events": ["Copper Rally"]
-    },
-    {
-      "code": "CAD",
-      "name": "Canadian Dollar",
-      "tone": "Bearish",
-      "bias": "Bearish",
-      "headlines": [
-        "Trump threatens 25% tariff on imports",
-        "Oil prices slip on demand concerns"
-      ],
-      "reaction": "Underperformer. Tariff threat is existential.",
-      "events": ["Trump Tariffs"]
-    },
-    {
-      "code": "JPY",
-      "name": "Japanese Yen",
-      "tone": "Bullish",
-      "bias": "Bullish",
-      "headlines": [
-        "Safe-haven flows on geopolitics",
-        "BoJ hints at 'decisive action'"
-      ],
-      "reaction": "Strongest G10. Perfect storm for JPY strength.",
-      "events": ["Safe Haven", "BoJ Threats"]
-    },
-    {
-      "code": "CHF",
-      "name": "Swiss Franc",
-      "tone": "Bullish",
-      "bias": "Bullish",
-      "headlines": [
-        "Ukraine escalation drives flows",
-        "EUR/CHF tests parity again"
-      ],
-      "reaction": "Classic safe-haven bid.",
-      "events": ["Ukraine Risks"]
-    },
-    {
-      "code": "NZD",
-      "name": "New Zealand Dollar",
-      "tone": "Neutral",
-      "bias": "Neutral",
-      "headlines": [
-        "Quiet session, tracking AUD",
-        "Lacks own catalyst"
-      ],
-      "reaction": "Follower. Drifting with AUD.",
-      "events": ["Sympathy Move"]
+      "time": "19:30",
+      "currency": "USD",
+      "event": "FOMC Press Conference",
+      "impact": "Critical"
     }
-  ]
+  ],
+  "currencies": {
+    "USD": {
+      "bias": "Neutral/Bullish",
+      "tone": "Recovery Mode",
+      "headline": "Regains poise ahead of FOMC",
+      "summary": "Dollar stabilizes after recent sell-off. Traders are squaring positions ahead of the Fed decision. Technicals suggest a short-term bounce, but the broader 'de-dollarisation' narrative limits upside."
+    },
+    "EUR": {
+      "bias": "Neutral/Bullish",
+      "tone": "Steady",
+      "headline": "ECB monitoring currency strength",
+      "summary": "Euro remains supported by steady equity markets. ECB officials (Kocher) warn that further appreciation could trigger action, capping upside potential near key resistance levels."
+    },
+    "GBP": {
+      "bias": "Bullish",
+      "tone": "Strong",
+      "headline": "Testing 2025 Highs (1.3788)",
+      "summary": "Sterling outperforms G10 peers, benefiting from USD weakness and solid risk sentiment. A break above 1.3788 could open the door for further gains."
+    },
+    "JPY": {
+      "bias": "Bearish",
+      "tone": "Weak",
+      "headline": "Suffers despite hawkish BoJ minutes",
+      "summary": "Yen weakens as market ignores BoJ's 'appropriate to raise rates' message. Trump's FX rhetoric causes volatility, but carry trade flows dominate short-term price action."
+    },
+    "AUD": {
+      "bias": "Mixed",
+      "tone": "Data Dependent",
+      "headline": "CPI meets expectations (3.6%)",
+      "summary": "Aussie Dollar trades sideways after inflation data comes in exactly as forecast. No immediate catalyst for a breakout until further clarity on China stimulus or commodity prices."
+    },
+    "CAD": {
+      "bias": "Bearish",
+      "tone": "Under Pressure",
+      "headline": "Trump threatens 25% tariffs",
+      "summary": "Loonie is the weakest link, hammered by Trump's threat of 25% tariffs on Canadian imports. BoC decision today adds to the volatility risk."
+    },
+    "CHF": {
+      "bias": "Neutral",
+      "tone": "Safe Haven Muted",
+      "headline": "Tracking broad risk sentiment",
+      "summary": "Franc lacks independent drivers as risk sentiment stabilizes. Flows are muted with no immediate flight-to-safety demand."
+    },
+    "NZD": {
+      "bias": "Neutral",
+      "tone": "Quiet",
+      "headline": "Consolidating recent gains",
+      "summary": "Kiwi follows the broader USD move. Lack of domestic data leaves it vulnerable to external shifts in risk appetite."
+    }
+  }
 }
