@@ -454,10 +454,21 @@ export default function Home() {
             <div className="lg:col-span-2 space-y-6 flex flex-col">
               <div className="bg-[#121212] border border-gray-800 p-5 relative overflow-hidden">
                 <div className="absolute top-0 left-0 w-1 h-full bg-orange-500"></div>
-                <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-3 flex items-center gap-2">
-                  <Activity className="w-4 h-4 text-orange-500" />
-                  Market Overview
-                </h3>
+                <div className="flex justify-between items-start mb-3">
+                  <h3 className="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
+                    <Activity className="w-4 h-4 text-orange-500" />
+                    Market Overview
+                  </h3>
+                  {dailyData.marketFocus.riskEnvironment && (
+                    <div className={`px-2 py-1 border text-[10px] font-bold uppercase tracking-wider ${
+                      dailyData.marketFocus.riskEnvironment === "Risk-On" ? "border-green-500 text-green-500 bg-green-900/20" :
+                      dailyData.marketFocus.riskEnvironment === "Risk-Off" ? "border-red-500 text-red-500 bg-red-900/20" :
+                      "border-gray-500 text-gray-400 bg-gray-800/20"
+                    }`}>
+                      {dailyData.marketFocus.riskEnvironment}
+                    </div>
+                  )}
+                </div>
                 <p className="text-sm text-gray-300 font-mono leading-relaxed">
                   {dailyData.marketFocus.macroContext}
                 </p>
