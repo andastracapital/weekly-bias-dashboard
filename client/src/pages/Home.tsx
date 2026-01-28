@@ -474,68 +474,51 @@ export default function Home() {
               </div>
             ) : (
               <div className="flex flex-col gap-6 h-full">
-                {/* Potential Intraday Trades Table */}
+                {/* Potential Intraday Trades (Base Hits) */}
                 <div className="bg-[#121212] border border-gray-800 p-5">
                   <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
                     <TrendingUp className="w-4 h-4 text-orange-500" />
-                    Potential Intraday Trades
+                    Potential Intraday Trades <span className="text-gray-500 ml-1">(Base Hits)</span>
                   </h3>
                   
-                  <div className="grid grid-cols-2 gap-4 mb-4">
-                    {/* Bullish Column */}
-                    <div className="bg-orange-900/10 border border-orange-900/30 p-3">
-                      <h4 className="text-[10px] font-bold text-orange-500 uppercase tracking-widest mb-2 border-b border-orange-900/30 pb-1">
-                        Bullish
-                      </h4>
-                      <div className="flex flex-wrap gap-2">
-                        {intradayPotentials.bullish.length > 0 ? (
-                          intradayPotentials.bullish.map(code => (
-                            <span key={code} className="text-xs font-bold font-mono text-gray-200 bg-black px-2 py-1 border border-gray-800">
-                              {code}
-                            </span>
-                          ))
-                        ) : (
-                          <span className="text-[10px] text-gray-600 font-mono">- None -</span>
-                        )}
-                      </div>
-                    </div>
+                  {/* Generated Pairs Only */}
+                  <div className="space-y-2">
+                    {intradayPotentials.bullish.length > 0 && intradayPotentials.bearish.length > 0 ? (
+                      intradayPotentials.bullish.flatMap(bull => 
+                        intradayPotentials.bearish.map(bear => {
+                          // Determine Pair Direction (Standard Notation)
+                          // Major Pairs: EUR/USD, GBP/USD, AUD/USD, NZD/USD, USD/CAD, USD/CHF, USD/JPY
+                          // Crosses: EUR/GBP, EUR/AUD, GBP/JPY, etc.
+                          
+                          let pair = `${bull}/${bear}`;
+                          let direction = "Long";
+                          let isStandard = true;
 
-                    {/* Bearish Column */}
-                    <div className="bg-red-900/10 border border-red-900/30 p-3">
-                      <h4 className="text-[10px] font-bold text-red-500 uppercase tracking-widest mb-2 border-b border-red-900/30 pb-1">
-                        Bearish
-                      </h4>
-                      <div className="flex flex-wrap gap-2">
-                        {intradayPotentials.bearish.length > 0 ? (
-                          intradayPotentials.bearish.map(code => (
-                            <span key={code} className="text-xs font-bold font-mono text-gray-200 bg-black px-2 py-1 border border-gray-800">
-                              {code}
-                            </span>
-                          ))
-                        ) : (
-                          <span className="text-[10px] text-gray-600 font-mono">- None -</span>
-                        )}
-                      </div>
-                    </div>
-                  </div>
+                          // Logic to flip pair if needed for standard notation and adjust direction
+                          // Priority: EUR > GBP > AUD > NZD > USD > CAD > CHF > JPY (Rough approximation for standard pairs)
+                          const priority = ["EUR", "GBP", "AUD", "NZD", "USD", "CAD", "CHF", "JPY"];
+                          const bullIndex = priority.indexOf(bull);
+                          const bearIndex = priority.indexOf(bear);
 
-                  {/* Generated Pairs */}
-                  <div>
-                    <p className="text-[9px] text-gray-500 uppercase mb-2 font-mono">Suggested Pairs (Long)</p>
-                    <div className="space-y-2">
-                      {intradayPotentials.bullish.length > 0 && intradayPotentials.bearish.length > 0 ? (
-                        intradayPotentials.bullish.slice(0, 2).flatMap(bull => 
-                          intradayPotentials.bearish.slice(0, 2).map(bear => (
-                            <div key={`${bull}/${bear}`} className="flex items-center justify-between bg-[#1a1a1a] px-3 py-2 border border-gray-800">
-                              <span className="text-xs font-bold text-white font-mono">{bull}/{bear}</span>
-                              <span className="text-[9px] text-orange-500 font-bold uppercase tracking-wider">Long</span>
-                            </div>
-                          ))
-                        ).slice(0, 3)
-                      ) : (
-                        <p className="text-[10px] text-gray-600 font-mono italic">No clear divergence for pairs.</p>
-                      )}
-                    </div>
+                          if (bullIndex > bearIndex && bearIndex !== -1) {
+                             // Flip to Standard Notation (e.g. USD/JPY instead of JPY/USD)
+                             pair = `${bear}/${bull}`;
+                             direction = "Short"; // Bearish Base / Bullish Quote = Short
+                          }
+
+                          return { pair, direction, bull, bear };
+                        })
+                      ).slice(0, 5).map((trade, i) => (
+                        <div key={i} className={`flex items-center justify-between bg-[#1a1a1a] px-3 py-2 border-l-2 ${trade.direction === "Long" ? "border-l-orange-500" : "border-l-red-500"} border-y border-r border-gray-800`}>
+                          <span className="text-xs font-bold text-white font-mono">{trade.pair}</span>
+                          <span className={`text-[9px] font-bold uppercase tracking-wider ${trade.direction === "Long" ? "text-orange-500" : "text-red-500"}`}>
+                            {trade.direction}
+                          </span>
+                        </div>
+                      ))
+                    ) : (
+                      <p className="text-[10px] text-gray-600 font-mono italic text-center py-4">No clear divergence for intraday setups.</p>
+                    )}
                   </div>
                 </div>
 
