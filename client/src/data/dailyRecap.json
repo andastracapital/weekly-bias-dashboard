@@ -44,50 +44,50 @@
     "USD": {
       "bias": "Neutral/Bullish",
       "tone": "Recovery Mode",
-      "headline": "Regains poise ahead of FOMC",
-      "summary": "Dollar stabilizes after recent sell-off. Traders are squaring positions ahead of the Fed decision. Technicals suggest a short-term bounce, but the broader 'de-dollarisation' narrative limits upside."
+      "headline": "FOMC tonight – positioning squeeze",
+      "summary": "Fed holds at 4.25-4.50% (priced). Powell's tone on inflation/tariffs matters. Real yields steady, 2Y at 4.25%. 'De-dollarisation' narrative fading—short covering into event. Tactical bounce 1-2 days, then reassess post-Powell."
     },
     "EUR": {
       "bias": "Neutral/Bullish",
       "tone": "Steady",
-      "headline": "ECB monitoring currency strength",
-      "summary": "Euro remains supported by steady equity markets. ECB officials (Kocher) warn that further appreciation could trigger action, capping upside potential near key resistance levels."
+      "headline": "ECB jawboning caps rally",
+      "summary": "Inflation sticky at 2.5%, but growth weak. ECB's Kocher warns on FX strength—verbal intervention risk above 1.05. Bund yields flat, no rate cut urgency. Holding gains, but topside limited by CB pushback. Watch 1.0450-1.0500 zone."
     },
     "GBP": {
       "bias": "Bullish",
       "tone": "Strong",
-      "headline": "Testing 2025 Highs (1.3788)",
-      "summary": "Sterling outperforms G10 peers, benefiting from USD weakness and solid risk sentiment. A break above 1.3788 could open the door for further gains."
+      "headline": "BoE hawkish, data solid",
+      "summary": "UK inflation above target (3.0%), BoE cuts priced out. Gilt yields rising (4.60% 10Y)—rate differential favors GBP. Domestic demand resilient. Testing 1.3788 highs—break targets 1.3850. Strongest G10 fundamentals short-term."
     },
     "JPY": {
       "bias": "Bearish",
       "tone": "Weak",
-      "headline": "Suffers despite hawkish BoJ minutes",
-      "summary": "Yen weakens as market ignores BoJ's 'appropriate to raise rates' message. Trump's FX rhetoric causes volatility, but carry trade flows dominate short-term price action."
+      "headline": "Carry flows trump BoJ hawkishness",
+      "summary": "BoJ minutes showed 'appropriate to raise rates'—market ignores it. JGB 10Y at 1.25%, real yields negative. Ueda's credibility issue—no urgency priced. Trump FX comments add noise. Carry unwind risk exists, but flows still short JPY. Bias weak 1-3 days."
     },
     "AUD": {
       "bias": "Mixed",
       "tone": "Data Dependent",
-      "headline": "CPI meets expectations (3.6%)",
-      "summary": "Aussie Dollar trades sideways after inflation data comes in exactly as forecast. No immediate catalyst for a breakout until further clarity on China stimulus or commodity prices."
+      "headline": "CPI in-line, China stimulus wait",
+      "summary": "Q4 CPI 3.6% (expected)—RBA holds in Feb (priced). Iron ore $100/t stable, but China PMI soft. Copper flat. No domestic catalyst until RBA Feb 18. China policy hopes keep floor under AUD, but no breakout driver. Range-bound 1-3 days."
     },
     "CAD": {
       "bias": "Bearish",
       "tone": "Under Pressure",
-      "headline": "Trump threatens 25% tariffs",
-      "summary": "Loonie is the weakest link, hammered by Trump's threat of 25% tariffs on Canadian imports. BoC decision today adds to the volatility risk."
+      "headline": "Trump tariff threat + BoC cut risk",
+      "summary": "Trump threatens 25% auto/pharma tariffs—direct hit to CAD. BoC decision today: 50bp cut expected (3.75% to 3.25%). Oil $74 WTI—no support from energy. Macklem dovish, growth concerns. Weakest G10 fundamentals. Sell rallies 1-3 days."
     },
     "CHF": {
       "bias": "Neutral",
       "tone": "Safe Haven Muted",
-      "headline": "Tracking broad risk sentiment",
-      "summary": "Franc lacks independent drivers as risk sentiment stabilizes. Flows are muted with no immediate flight-to-safety demand."
+      "headline": "No independent drivers",
+      "summary": "SNB last cut Dec, next meeting March. Inflation 0.6%—well below target. No flight-to-safety flows despite geopolitical noise. CHF tracks EUR moves mechanically. No CB rhetoric, no data. Dead money 1-3 days—avoid unless hedging."
     },
     "NZD": {
       "bias": "Neutral",
       "tone": "Quiet",
-      "headline": "Consolidating recent gains",
-      "summary": "Kiwi follows the broader USD move. Lack of domestic data leaves it vulnerable to external shifts in risk appetite."
+      "headline": "RBNZ dovish, dairy prices soft",
+      "summary": "RBNZ cut 50bp Jan 22 (4.25%)—more cuts priced (3.50% by mid-year). Dairy auction prices -1.2%—headwind for NZD. No domestic data until Feb. China stimulus hopes provide only support. Follows AUD/risk sentiment. No edge 1-3 days."
     }
   },
   "topTrades": [
