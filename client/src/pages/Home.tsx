@@ -644,16 +644,23 @@ export default function Home() {
         {/* Currency Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
           {filteredCurrencies.map((currency: any) => {
-            // Find corresponding weekly bias for alignment check
-            const weeklyBias = viewMode === "DAILY" 
-              ? weeklyData.currencies.find((c: any) => c.code === currency.code)?.bias 
-              : undefined;
+            // Find comparison bias for alignment check
+            let comparisonBias = undefined;
+
+            if (viewMode === "DAILY") {
+              // In Daily View, compare with Weekly Bias
+              comparisonBias = weeklyData.currencies.find((c: any) => c.code === currency.code)?.bias;
+            } else {
+              // In Weekly View, compare with Daily Bias
+              // @ts-ignore
+              comparisonBias = dailyData.currencies[currency.code]?.bias;
+            }
 
             return (
               <BiasCard 
                 key={currency.code} 
                 currency={currency} 
-                weeklyBias={weeklyBias}
+                weeklyBias={comparisonBias}
               />
             );
           })}
