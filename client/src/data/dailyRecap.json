@@ -1,113 +1,129 @@
 {
-  "date": "Wednesday, Jan 28",
+  "date": "Thursday, Jan 29",
   "marketFocus": {
-    "riskEnvironment": "Risk-Off",
-    "focusTagline": "Trump Tariffs / FOMC Prep",
+    "riskEnvironment": "Risk-On",
+    "focusTagline": "Gold ATHs / Fed Non-Event / Iran Tensions",
     "volatility": "ELEVATED",
-    "nextUpdate": "MON-FRI 23:15",
+    "nextUpdate": "23:15",
     "headlines": [
-      "US Stocks closed firmer, driven by mega-cap names (MSFT, TSLA, META) ahead of earnings",
-      "Dollar regains some poise after slumping on 'de-dollarisation' theme",
-      "Cable (GBP/USD) matches 2025 high at 1.3788",
-      "Trump threatens 25% tariffs on Canada & South Korea (Autos, Pharma)"
+      "Spot Gold extends to record $5312/oz (+2.7%) in Asia-Pac, Silver also bid",
+      "Fed held 3.50-3.75% as expected, Powell sees goods inflation peak mid-year",
+      "Bessent affirms 'strong USD policy', downplays JPY intervention talk",
+      "Trump: 'Massive Armada heading to Iran'—WTI $63, Brent $68"
     ],
-    "macroContext": "Markets are stabilizing in neutral territory ahead of the critical FOMC Rate Decision and Mag-7 earnings. Risk sentiment is cautious but balanced. 'De-dollarisation' remains a key narrative, but USD is seeing a tactical recovery."
+    "macroContext": "FOMC delivered a non-event hold at 3.50-3.75% with 2 dissenters (Waller/Miran for 25bp cut). Powell struck an improved tone, noting goods inflation should peak mid-year and no rate hike in base case. Bessent's 'strong USD' rhetoric clashed with Tuesday's de-dollarisation selloff, but USD clawed back ground. Gold surged to fresh ATHs on weaker USD and geopolitical risk (Iran). Crude rallied on Trump's Iran comments before paring gains as Iran signaled readiness for talks."
   },
-  "tradingSummary": "Focus shifts entirely to the FOMC meeting tonight. USD is in a holding pattern with a slight bullish recovery bias. GBP shows relative strength, testing yearly highs. CAD is under heavy pressure from Trump's tariff threats. JPY weakens despite hawkish BoJ minutes.",
+  "tradingSummary": "USD stabilized post-FOMC but remains fragile after Tuesday's 97.28→95.55 plunge. AUD outperformed on firmer CPI (3.8% vs 3.6% exp), with major banks backing Feb RBA hike (70%+ priced). EUR held below 1.20, awaiting next week's ECB. GBP pulled back from 1.3869 highs. JPY consolidated after breaking 100DMA (153.65). Gold's historic run continues—safe-haven + USD weakness narrative intact. Crude choppy on Iran headlines.",
   "redFolderNews": [
     {
-      "time": "08:00",
+      "time": "01:00",
+      "currency": "NZD",
+      "event": "ANZ Business Confidence",
+      "impact": "Medium"
+    },
+    {
+      "time": "01:30",
+      "currency": "AUD",
+      "event": "Import/Export Prices QoQ",
+      "impact": "Medium"
+    },
+    {
+      "time": "06:00",
+      "currency": "JPY",
+      "event": "Consumer Confidence",
+      "impact": "Medium"
+    },
+    {
+      "time": "10:00",
       "currency": "EUR",
-      "event": "GfK Consumer Confidence",
+      "event": "M3 Money Supply / Loans to Households",
+      "impact": "Medium"
+    },
+    {
+      "time": "11:00",
+      "currency": "EUR",
+      "event": "Economic Sentiment / Consumer Confidence Final",
+      "impact": "High"
+    },
+    {
+      "time": "13:00",
+      "currency": "USD",
+      "event": "Apple, Visa, MA, CAT Earnings",
+      "impact": "High"
+    },
+    {
+      "time": "14:30",
+      "currency": "USD",
+      "event": "Jobless Claims / Trade Balance",
+      "impact": "High"
+    },
+    {
+      "time": "14:30",
+      "currency": "CAD",
+      "event": "Trade Balance",
       "impact": "Medium"
     },
     {
       "time": "16:00",
-      "currency": "CAD",
-      "event": "BoC Rate Decision",
-      "impact": "High"
+      "currency": "USD",
+      "event": "Factory Orders",
+      "impact": "Medium"
     },
     {
       "time": "19:00",
       "currency": "USD",
-      "event": "FOMC Rate Decision",
-      "impact": "Critical"
-    },
-    {
-      "time": "19:30",
-      "currency": "USD",
-      "event": "FOMC Press Conference",
-      "impact": "Critical"
+      "event": "USD 44bln 7-Year Note Auction",
+      "impact": "Medium"
     }
   ],
   "currencies": {
     "USD": {
-      "bias": "Neutral/Bullish",
-      "tone": "Recovery Mode",
-      "headline": "FOMC tonight – positioning squeeze",
-      "summary": "Fed holds at 4.25-4.50% (priced). Powell's tone on inflation/tariffs matters. Real yields steady, 2Y at 4.25%. 'De-dollarisation' narrative fading—short covering into event. Tactical bounce 1-2 days, then reassess post-Powell."
+      "bias": "Neutral/Bearish",
+      "tone": "Fragile Recovery",
+      "headline": "Bessent talks strong USD, but flows skeptical",
+      "summary": "Fed non-event (3.50-3.75% hold, 2 dissent for cut). Powell: goods inflation peaks mid-year, no hike base case—dovish tilt. Bessent 'strong USD policy' rhetoric clashed with Tuesday's de-dollarisation plunge (97.28→95.55). DXY clawed back to 96.00-96.35 range, but fragile. Real yields flat, 2Y ~4.25%. Gold ATHs signal USD credibility erosion. Tactical bounce exhausted—bias weak 1-3 days unless data surprises."
     },
     "EUR": {
       "bias": "Neutral/Bullish",
-      "tone": "Steady",
-      "headline": "ECB jawboning caps rally",
-      "summary": "Inflation sticky at 2.5%, but growth weak. ECB's Kocher warns on FX strength—verbal intervention risk above 1.05. Bund yields flat, no rate cut urgency. Holding gains, but topside limited by CB pushback. Watch 1.0450-1.0500 zone."
+      "tone": "Consolidating",
+      "headline": "ECB meeting next week caps upside",
+      "summary": "EUR/USD eased below 1.20 (1.1952-1.2045 range) after touching 1.2082 Tuesday—strongest since mid-2021. USD weakness main driver, not EUR strength. ECB gathering next week: market watches for downside inflation risk hints. Bund yields grinding higher (+25 ticks), supply robust but demand tepid. No CB rhetoric today (Simkus/Villeroy ignored). Holding gains, but topside capped pre-ECB. Range 1.19-1.21 for 1-3 days."
     },
     "GBP": {
       "bias": "Bullish",
-      "tone": "Strong",
-      "headline": "BoE hawkish, data solid",
-      "summary": "UK inflation above target (3.0%), BoE cuts priced out. Gilt yields rising (4.60% 10Y)—rate differential favors GBP. Domestic demand resilient. Testing 1.3788 highs—break targets 1.3850. Strongest G10 fundamentals short-term."
+      "tone": "Consolidating Strength",
+      "headline": "BoE meeting next week—pullback healthy",
+      "summary": "GBP/USD pulled back from Tuesday's 1.3869 peak (last seen 2021), little fresh domestic news. BoE meeting next week in focus—no cuts priced, inflation sticky. Gilt yields firm (4.60%+ 10Y), rate differential supports GBP. Softer USD backdrop keeps Sterling bid. Pullback to 1.37-1.38 zone is consolidation, not reversal. Bias still bullish 1-3 days—buy dips ahead of BoE."
     },
     "JPY": {
       "bias": "Bearish",
-      "tone": "Weak",
-      "headline": "Carry flows trump BoJ hawkishness",
-      "summary": "BoJ minutes showed 'appropriate to raise rates'—market ignores it. JGB 10Y at 1.25%, real yields negative. Ueda's credibility issue—no urgency priced. Trump FX comments add noise. Carry unwind risk exists, but flows still short JPY. Bias weak 1-3 days."
+      "tone": "Weak Despite Bessent",
+      "headline": "Bessent downplays intervention—carry flows win",
+      "summary": "USD/JPY consolidated 152.14-153.07 after breaking 100DMA (153.65) Tuesday. Bessent: 'no JPY intervention' talk—removed support for JPY bulls. JGB 10Y ~1.25%, real yields negative. BoJ rhetoric ignored (minutes showed 'appropriate to raise rates'). Carry unwind risk exists, but flows still short JPY. Trump FX noise adds volatility. Bias weak 1-3 days—sell rallies toward 154."
     },
     "AUD": {
-      "bias": "Mixed",
-      "tone": "Data Dependent",
-      "headline": "CPI in-line, China stimulus wait",
-      "summary": "Q4 CPI 3.6% (expected)—RBA holds in Feb (priced). Iron ore $100/t stable, but China PMI soft. Copper flat. No domestic catalyst until RBA Feb 18. China policy hopes keep floor under AUD, but no breakout driver. Range-bound 1-3 days."
+      "bias": "Bullish",
+      "tone": "Firmer on CPI",
+      "headline": "Hot CPI backs Feb RBA hike—major banks on board",
+      "summary": "AUD outperformed on firmer CPI: 3.8% YoY (vs 3.6% exp), Trimmed Mean 3.3% (in line but above RBA 2-3% target). Major banks (ANZ, Westpac, CBA, NAB) backed Feb RBA hike—markets price 70%+ probability. Iron ore stable ~$100/t, China PMI soft but stimulus hopes intact. AUD/USD briefly higher, holding gains. RBA meeting Feb 18—hike narrative building. Bias bullish 1-3 days, buy dips."
     },
     "CAD": {
-      "bias": "Bearish",
-      "tone": "Under Pressure",
-      "headline": "Trump tariff threat + BoC cut risk",
-      "summary": "Trump threatens 25% auto/pharma tariffs—direct hit to CAD. BoC decision today: 50bp cut expected (3.75% to 3.25%). Oil $74 WTI—no support from energy. Macklem dovish, growth concerns. Weakest G10 fundamentals. Sell rallies 1-3 days."
+      "bias": "Neutral/Bearish",
+      "tone": "Tariff Risk Fading",
+      "headline": "BoC hold + Macklem tariff focus—range-bound",
+      "summary": "BoC held rates (as expected), MPR saw CPI Q2/Q3 unchanged, Q4 raised. Macklem statement focused on tariff risks—no urgency to cut. USD/CAD unreactive, trading 1.3535-1.3615 range. Oil $63 WTI—no tailwind from energy. Trump tariff threats (25% autos/pharma) priced in Tuesday. No fresh catalyst—CAD stuck in range. Bias neutral 1-3 days, slight bearish tilt if USD recovers."
     },
     "CHF": {
       "bias": "Neutral",
-      "tone": "Safe Haven Muted",
-      "headline": "No independent drivers",
-      "summary": "SNB last cut Dec, next meeting March. Inflation 0.6%—well below target. No flight-to-safety flows despite geopolitical noise. CHF tracks EUR moves mechanically. No CB rhetoric, no data. Dead money 1-3 days—avoid unless hedging."
+      "tone": "EUR Proxy",
+      "headline": "No independent drivers—tracks EUR",
+      "summary": "CHF mechanically follows EUR moves. SNB last cut Dec, next meeting March. Inflation 0.6%—well below target. No flight-to-safety flows despite Iran tensions (Gold took safe-haven bid instead). EUR/CHF range-bound, no CB rhetoric. Dead money 1-3 days—avoid unless hedging EUR exposure."
     },
     "NZD": {
       "bias": "Neutral",
-      "tone": "Quiet",
-      "headline": "RBNZ dovish, dairy prices soft",
-      "summary": "RBNZ cut 50bp Jan 22 (4.25%)—more cuts priced (3.50% by mid-year). Dairy auction prices -1.2%—headwind for NZD. No domestic data until Feb. China stimulus hopes provide only support. Follows AUD/risk sentiment. No edge 1-3 days."
+      "tone": "Follows AUD/Risk",
+      "headline": "RBNZ dovish, dairy soft—AUD proxy",
+      "summary": "RBNZ cut 50bp Jan 22 (4.25%)—more cuts priced (3.50% by mid-year). Dairy auction prices -1.2%—headwind. No domestic data until Feb. China stimulus hopes provide floor. NZD follows AUD/risk sentiment—no independent edge. ANZ Business Confidence tonight (01:00) unlikely to move needle. Range-bound 1-3 days."
     }
-  },
-  "topTrades": [
-    {
-      "pair": "GBP/CAD",
-      "direction": "Long",
-      "conviction": "Highest",
-      "reason": "Divergence: Strongest G10 (GBP) vs Weakest G10 (CAD) on Tariff Threats"
-    },
-    {
-      "pair": "USD/JPY",
-      "direction": "Long",
-      "conviction": "High",
-      "reason": "Recovery Play: USD stabilizing ahead of FOMC vs JPY weakness despite BoJ"
-    },
-    {
-      "pair": "EUR/CAD",
-      "direction": "Long",
-      "conviction": "Medium",
-      "reason": "Tariff Risk: Euro resilience vs Canadian Dollar vulnerability"
-    }
-  ]
+  }
 }
