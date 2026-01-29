@@ -16,30 +16,6 @@
   "tradingSummary": "USD stabilized post-FOMC but remains fragile after Tuesday's 97.28→95.55 plunge. AUD outperformed on firmer CPI (3.8% vs 3.6% exp), with major banks backing Feb RBA hike (70%+ priced). EUR held below 1.20, awaiting next week's ECB. GBP pulled back from 1.3869 highs. JPY consolidated after breaking 100DMA (153.65). Gold's historic run continues—safe-haven + USD weakness narrative intact. Crude choppy on Iran headlines.",
   "redFolderNews": [
     {
-      "time": "01:00",
-      "currency": "NZD",
-      "event": "ANZ Business Confidence",
-      "impact": "Medium"
-    },
-    {
-      "time": "01:30",
-      "currency": "AUD",
-      "event": "Import/Export Prices QoQ",
-      "impact": "Medium"
-    },
-    {
-      "time": "06:00",
-      "currency": "JPY",
-      "event": "Consumer Confidence",
-      "impact": "Medium"
-    },
-    {
-      "time": "10:00",
-      "currency": "EUR",
-      "event": "M3 Money Supply / Loans to Households",
-      "impact": "Medium"
-    },
-    {
       "time": "11:00",
       "currency": "EUR",
       "event": "Economic Sentiment / Consumer Confidence Final",
@@ -54,26 +30,14 @@
     {
       "time": "14:30",
       "currency": "USD",
-      "event": "Jobless Claims / Trade Balance",
+      "event": "Initial Jobless Claims",
       "impact": "High"
     },
     {
       "time": "14:30",
-      "currency": "CAD",
+      "currency": "USD",
       "event": "Trade Balance",
-      "impact": "Medium"
-    },
-    {
-      "time": "16:00",
-      "currency": "USD",
-      "event": "Factory Orders",
-      "impact": "Medium"
-    },
-    {
-      "time": "19:00",
-      "currency": "USD",
-      "event": "USD 44bln 7-Year Note Auction",
-      "impact": "Medium"
+      "impact": "High"
     }
   ],
   "currencies": {
