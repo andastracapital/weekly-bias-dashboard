@@ -236,10 +236,15 @@ export default function Home() {
       const dBias = dCurrency.bias.toLowerCase();
 
       // Check for Strong Alignment (Both Bullish or Both Bearish)
-      // Exclude Neutral/Mixed
-      if (wBias.includes("bullish") && dBias.includes("bullish")) {
+      // STRICTLY Exclude Neutral/Mixed - must be exact match
+      const isBullishAlignment = 
+        wBias === "bullish" && dBias === "bullish";
+      const isBearishAlignment = 
+        wBias === "bearish" && dBias === "bearish";
+      
+      if (isBullishAlignment) {
         bullishAligned.push(wCurrency.code);
-      } else if (wBias.includes("bearish") && dBias.includes("bearish")) {
+      } else if (isBearishAlignment) {
         bearishAligned.push(wCurrency.code);
       }
     });
@@ -258,22 +263,7 @@ export default function Home() {
       });
     });
 
-    // Fallback if no perfect alignment found, use Weekly data only (Top Bullish vs Top Bearish)
-    if (setups.length === 0) {
-       const wBullish = weeklyData.currencies.filter(c => c.bias.toLowerCase().includes("bullish")).map(c => c.code);
-       const wBearish = weeklyData.currencies.filter(c => c.bias.toLowerCase().includes("bearish")).map(c => c.code);
-       
-       wBullish.forEach(bull => {
-         wBearish.forEach(bear => {
-            setups.push({
-              pair: `${bull}/${bear}`,
-              direction: "Long",
-              reason: `Weekly Bias Play: Bullish ${bull} vs Bearish ${bear}`,
-              conviction: "Medium"
-            });
-         });
-       });
-    }
+    // NO FALLBACK - Only show setups with true Weekly-Daily alignment
 
     return setups.slice(0, 3); // Limit to top 3
   };
