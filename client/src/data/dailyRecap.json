@@ -1,30 +1,36 @@
 {
-  "date": "Thursday, Jan 29",
+  "date": "Friday, Jan 30",
   "marketFocus": {
-    "riskEnvironment": "Risk-On",
-    "focusTagline": "Gold ATHs / Fed Non-Event / Iran Tensions",
+    "riskEnvironment": "Weak Risk-Off",
+    "focusTagline": "Warsh Fed Speculation / Metals Crash / Tech Divergence",
     "volatility": "ELEVATED",
     "nextUpdate": "23:15",
     "headlines": [
-      "Spot Gold extends to record $5312/oz (+2.7%) in Asia-Pac, Silver also bid",
-      "Fed held 3.50-3.75% as expected, Powell sees goods inflation peak mid-year",
-      "Bessent affirms 'strong USD policy', downplays JPY intervention talk",
-      "Trump: 'Massive Armada heading to Iran'—WTI $63, Brent $68"
+      "Warsh Fed Chair nomination speculation (Bloomberg)—hawkish reaction, yields climb, Asia-Pac stocks lower",
+      "Precious metals crash: Gold -4.4%, Silver -6.0% on Trump admin comments",
+      "Tech divergence: MSFT -10% (Azure miss) vs META +10.4% (record sales)",
+      "Tokyo CPI massive miss (1.5% vs 1.8% exp)—JGB yields collapse, JPY disinflationary pressure"
     ],
-    "macroContext": "FOMC delivered a non-event hold at 3.50-3.75% with 2 dissenters (Waller/Miran for 25bp cut). Powell struck an improved tone, noting goods inflation should peak mid-year and no rate hike in base case. Bessent's 'strong USD' rhetoric clashed with Tuesday's de-dollarisation selloff, but USD clawed back ground. Gold surged to fresh ATHs on weaker USD and geopolitical risk (Iran). Crude rallied on Trump's Iran comments before paring gains as Iran signaled readiness for talks."
+    "macroContext": "Markets caught between tech earnings divergence and Fed policy uncertainty. Warsh nomination speculation fuels hawkish expectations, lifting yields and pressuring equities. Precious metals crash on Trump admin rhetoric, while crude rallies on Iran Strait of Hormuz drill warning. JPY weakens on disinflationary Tokyo CPI miss. USD two-way: strength on risk-off, then trimmed. Focus shifts to French GDP (Friday AM) and US Jobless Claims (Friday PM)."
   },
-  "tradingSummary": "USD stabilized post-FOMC but remains fragile after Tuesday's 97.28→95.55 plunge. AUD outperformed on firmer CPI (3.8% vs 3.6% exp), with major banks backing Feb RBA hike (70%+ priced). EUR held below 1.20, awaiting next week's ECB. GBP pulled back from 1.3869 highs. JPY consolidated after breaking 100DMA (153.65). Gold's historic run continues—safe-haven + USD weakness narrative intact. Crude choppy on Iran headlines.",
+  "tradingSummary": "Risk-off tone dominates as Warsh Fed Chair speculation (hawkish) collides with MSFT cloud growth disappointment. Gold/Silver crash (-4.4%/-6.0%) on Trump comments, crude rallies on Iran geopolitical risk. JPY sold on Tokyo CPI miss (1.5% vs 1.8%), 2Y JGB yield collapses 0.75% from 1.13%. USD two-way: firmer on risk-off, then trimmed. EUR eyes French GDP Friday AM, CAD under pressure from Trump 50% aircraft tariff threat. Tech sector split: MSFT drag vs META strength. Volatility elevated.",
   "redFolderNews": [
     {
-      "time": "11:00",
+      "time": "07:30",
       "currency": "EUR",
-      "event": "Economic Sentiment / Consumer Confidence Final",
+      "event": "French GDP Growth Rate YoY Prel",
       "impact": "High"
     },
     {
-      "time": "13:00",
-      "currency": "USD",
-      "event": "Apple, Visa, MA, CAT Earnings",
+      "time": "07:30",
+      "currency": "EUR",
+      "event": "French GDP Growth Rate QoQ Prel",
+      "impact": "High"
+    },
+    {
+      "time": "08:00",
+      "currency": "GBP",
+      "event": "Nationwide Housing Prices YoY",
       "impact": "High"
     },
     {
@@ -32,62 +38,56 @@
       "currency": "USD",
       "event": "Initial Jobless Claims",
       "impact": "High"
-    },
-    {
-      "time": "14:30",
-      "currency": "USD",
-      "event": "Trade Balance",
-      "impact": "High"
     }
   ],
   "currencies": {
     "USD": {
-      "bias": "Neutral/Bearish",
-      "tone": "Fragile Recovery",
-      "headline": "Bessent talks strong USD, but flows skeptical",
-      "summary": "Fed non-event (3.50-3.75% hold, 2 dissent for cut). Powell: goods inflation peaks mid-year, no hike base case—dovish tilt. Bessent 'strong USD policy' rhetoric clashed with Tuesday's de-dollarisation plunge (97.28→95.55). DXY clawed back to 96.00-96.35 range, but fragile. Real yields flat, 2Y ~4.25%. Gold ATHs signal USD credibility erosion. Tactical bounce exhausted—bias weak 1-3 days unless data surprises."
+      "bias": "Mixed",
+      "tone": "Two-Way",
+      "headline": "Warsh speculation lifts yields, but strength trims",
+      "summary": "Warsh Fed Chair speculation (Bloomberg) triggers hawkish reaction—10Y yields climb, DXY firms on risk-off. But strength trimmed ahead of APAC trade. Widening Nov trade deficit points to slower Q4/Q1 growth. Treasury semi-annual report: no major trading partners manipulated currency. Jobless Claims Friday 14:30—watch for labor market cracks. Two-way action continues 1-3 days."
     },
     "EUR": {
-      "bias": "Neutral/Bullish",
-      "tone": "Consolidating",
-      "headline": "ECB meeting next week caps upside",
-      "summary": "EUR/USD eased below 1.20 (1.1952-1.2045 range) after touching 1.2082 Tuesday—strongest since mid-2021. USD weakness main driver, not EUR strength. ECB gathering next week: market watches for downside inflation risk hints. Bund yields grinding higher (+25 ticks), supply robust but demand tepid. No CB rhetoric today (Simkus/Villeroy ignored). Holding gains, but topside capped pre-ECB. Range 1.19-1.21 for 1-3 days."
+      "bias": "Neutral",
+      "tone": "Data-Dependent",
+      "headline": "French GDP Friday 07:30—key catalyst",
+      "summary": "French GDP Friday 07:30 (Exp: 1.2% YoY, 0.2% QoQ)—key catalyst. Import prices declining (disinflationary: -2.3% YoY exp vs -2.7% prev). SAP cloud revenue miss (-15%) drags DAX 40 -1.4%, echoing MSFT tech weakness. ECB rhetoric quiet. EUR/USD under 1.20 technically fragile. Focus: French growth print—beat supports EUR, miss extends weakness. Range-bound 1-3 days pre-data."
     },
     "GBP": {
-      "bias": "Bullish",
-      "tone": "Consolidating Strength",
-      "headline": "BoE meeting next week—pullback healthy",
-      "summary": "GBP/USD pulled back from Tuesday's 1.3869 peak (last seen 2021), little fresh domestic news. BoE meeting next week in focus—no cuts priced, inflation sticky. Gilt yields firm (4.60%+ 10Y), rate differential supports GBP. Softer USD backdrop keeps Sterling bid. Pullback to 1.37-1.38 zone is consolidation, not reversal. Bias still bullish 1-3 days—buy dips ahead of BoE."
+      "bias": "Neutral",
+      "tone": "Housing-Focused",
+      "headline": "Nationwide Housing Prices Friday 08:00",
+      "summary": "Nationwide Housing Prices Friday 08:00—monitoring UK property market health. No BoE speakers, no major data outside housing. GBP tracking broader risk sentiment (weak risk-off tone pressures). Cable technically range-bound. EUR/GBP stable. Focus: housing data—weakness signals consumer stress, strength supports GBP. Neutral 1-3 days, data-dependent."
     },
     "JPY": {
       "bias": "Bearish",
-      "tone": "Weak Despite Bessent",
-      "headline": "Bessent downplays intervention—carry flows win",
-      "summary": "USD/JPY consolidated 152.14-153.07 after breaking 100DMA (153.65) Tuesday. Bessent: 'no JPY intervention' talk—removed support for JPY bulls. JGB 10Y ~1.25%, real yields negative. BoJ rhetoric ignored (minutes showed 'appropriate to raise rates'). Carry unwind risk exists, but flows still short JPY. Trump FX noise adds volatility. Bias weak 1-3 days—sell rallies toward 154."
+      "tone": "Disinflationary",
+      "headline": "Tokyo CPI miss kills BoJ hike bets",
+      "summary": "Tokyo CPI massive miss: 1.5% vs 1.8% exp (prev 2.0%), Ex Fresh Food 2.0% vs 2.2%. Disinflationary pressure kills BoJ hike bets. 2Y JGB auction 0.7516% (prev 1.129%)—yields collapse 38bps. JPY sold across the board. Warsh Fed Chair speculation (hawkish USD) adds pressure. Safe-haven bid absent despite risk-off. JPY weakness structural—disinflation narrative dominates 1-3 days."
     },
     "AUD": {
-      "bias": "Bullish",
-      "tone": "Firmer on CPI",
-      "headline": "Hot CPI backs Feb RBA hike—major banks on board",
-      "summary": "AUD outperformed on firmer CPI: 3.8% YoY (vs 3.6% exp), Trimmed Mean 3.3% (in line but above RBA 2-3% target). Major banks (ANZ, Westpac, CBA, NAB) backed Feb RBA hike—markets price 70%+ probability. Iron ore stable ~$100/t, China PMI soft but stimulus hopes intact. AUD/USD briefly higher, holding gains. RBA meeting Feb 18—hike narrative building. Bias bullish 1-3 days, buy dips."
+      "bias": "Neutral",
+      "tone": "Commodity-Sensitive",
+      "headline": "Copper strength vs precious metals crash",
+      "summary": "No major AUD data Friday. RBA rhetoric quiet post-hold. Copper topped $14k/t (LME, before tech issues), but precious metals crash (Gold -4.4%, Silver -6.0%) weighs on commodity FX sentiment. Iron ore stable. AUD tracking risk appetite—weak risk-off tone pressures. China-UK security dialogue resumption (Xinhua) minor positive for China-linked AUD. Watch US Jobless Claims for risk cues. Neutral 1-3 days."
     },
     "CAD": {
-      "bias": "Neutral/Bearish",
-      "tone": "Tariff Risk Fading",
-      "headline": "BoC hold + Macklem tariff focus—range-bound",
-      "summary": "BoC held rates (as expected), MPR saw CPI Q2/Q3 unchanged, Q4 raised. Macklem statement focused on tariff risks—no urgency to cut. USD/CAD unreactive, trading 1.3535-1.3615 range. Oil $63 WTI—no tailwind from energy. Trump tariff threats (25% autos/pharma) priced in Tuesday. No fresh catalyst—CAD stuck in range. Bias neutral 1-3 days, slight bearish tilt if USD recovers."
+      "bias": "Bearish",
+      "tone": "Tariff-Threatened",
+      "headline": "Trump 50% aircraft tariff threat escalates",
+      "summary": "Trump threatens 50% tariff on Canadian aircraft—escalating trade war rhetoric. Crude rallies (WTI $65.42, Brent $70.71) on Iran Strait of Hormuz drill warning, but CAD fails to benefit (tariff overhang). BoC on hold, Macklem focused on tariff risks. Widening US trade deficit (Nov) signals slower North American growth. CAD vulnerable—tariff narrative trumps oil strength 1-3 days."
     },
     "CHF": {
-      "bias": "Neutral",
-      "tone": "EUR Proxy",
-      "headline": "No independent drivers—tracks EUR",
-      "summary": "CHF mechanically follows EUR moves. SNB last cut Dec, next meeting March. Inflation 0.6%—well below target. No flight-to-safety flows despite Iran tensions (Gold took safe-haven bid instead). EUR/CHF range-bound, no CB rhetoric. Dead money 1-3 days—avoid unless hedging EUR exposure."
+      "bias": "Bullish",
+      "tone": "Safe-Haven",
+      "headline": "Risk-off safe-haven bid emerges",
+      "summary": "Safe-haven bid emerges as risk-off tone dominates (Warsh Fed uncertainty, MSFT disappointment, precious metals crash). CHF benefits despite Gold -4.4%—flight to quality into CHF bonds/cash. SNB rhetoric absent. EUR/CHF pressured. Swiss franc strength structural in elevated volatility environment. Watch French GDP Friday—EUR weakness supports CHF. Bullish 1-3 days."
     },
     "NZD": {
       "bias": "Neutral",
-      "tone": "Follows AUD/Risk",
-      "headline": "RBNZ dovish, dairy soft—AUD proxy",
-      "summary": "RBNZ cut 50bp Jan 22 (4.25%)—more cuts priced (3.50% by mid-year). Dairy auction prices -1.2%—headwind. No domestic data until Feb. China stimulus hopes provide floor. NZD follows AUD/risk sentiment—no independent edge. ANZ Business Confidence tonight (01:00) unlikely to move needle. Range-bound 1-3 days."
+      "tone": "Risk-Sensitive",
+      "headline": "Risk-off tone pressures commodity FX",
+      "summary": "No major NZD data Friday. RBNZ rhetoric quiet. NZD tracking broader risk sentiment—weak risk-off tone pressures. Dairy prices stable (no GlobalDairyTrade auction this week). China-UK security dialogue resumption minor positive for China-linked NZD. Precious metals crash (Gold -4.4%, Silver -6.0%) weighs on commodity FX. Watch US Jobless Claims for risk cues. Neutral 1-3 days."
     }
   }
 }
