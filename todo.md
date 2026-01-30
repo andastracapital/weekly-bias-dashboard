@@ -6,3 +6,4 @@
 - [x] Perform Daily Recap update: Scrape current PMT data (News Ticker, US/EU/Asia Wraps, Red Folder) and rebuild dailyRecap.json from scratch
 - [x] Correct Red Folder News filter: Only include High and Critical Impact events (exclude Medium/Low)
 - [x] Daily Recap Update: Scrape PMT (News Ticker, US/EU/Asia Wraps, Red Folder High/Critical) and rebuild dailyRecap.json
+- [x] Move High Conviction Setups from Weekly View to Daily View (above Intraday Trades) and auto-recalculate on Daily Recap Update

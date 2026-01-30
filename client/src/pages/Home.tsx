@@ -423,29 +423,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Right: High Conviction (Weekly) */}
-            <div className="lg:col-span-1">
-              <div className="bg-[#121212] border border-gray-800 p-5 h-full">
-                <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
-                  <Zap className="w-4 h-4 text-orange-500" />
-                  High Conviction Setups
-                </h3>
-                <p className="text-[10px] text-gray-500 font-mono mb-4">
-                  Based on Weekly & Daily Bias Alignment
-                </p>
-                <div className="space-y-3">
-                  {highConvictionSetups.length > 0 ? (
-                    highConvictionSetups.map((trade: any, i: number) => (
-                      <TradeCard key={i} trade={trade} index={i} />
-                    ))
-                  ) : (
-                    <div className="text-center py-8 border border-dashed border-gray-800">
-                      <p className="text-xs text-gray-500 font-mono">No strong alignment setups found currently.</p>
-                    </div>
-                  )}
-                </div>
-              </div>
-            </div>
+
           </div>
         ) : (
           // DAILY VIEW LAYOUT
@@ -539,9 +517,32 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Middle: Intraday Trades (25%) */}
-              <div className="lg:col-span-1">
-                <div className="bg-[#121212] border border-gray-800 p-5 h-full">
+              {/* Middle: High Conviction Setups + Intraday Trades (25%) */}
+              <div className="lg:col-span-1 space-y-6">
+                {/* High Conviction Setups */}
+                <div className="bg-[#121212] border border-gray-800 p-5">
+                  <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+                    <Zap className="w-4 h-4 text-orange-500" />
+                    High Conviction Setups
+                  </h3>
+                  <p className="text-[10px] text-gray-500 font-mono mb-4">
+                    Based on Weekly & Daily Bias Alignment
+                  </p>
+                  <div className="space-y-3">
+                    {highConvictionSetups.length > 0 ? (
+                      highConvictionSetups.map((trade: any, i: number) => (
+                        <TradeCard key={i} trade={trade} index={i} />
+                      ))
+                    ) : (
+                      <div className="text-center py-8 border border-dashed border-gray-800">
+                        <p className="text-xs text-gray-500 font-mono">No strong alignment setups found currently.</p>
+                      </div>
+                    )}
+                  </div>
+                </div>
+
+                {/* Intraday Trades */}
+                <div className="bg-[#121212] border border-gray-800 p-5">
                   <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
                     <TrendingUp className="w-4 h-4 text-orange-500" />
                     Intraday Trades <span className="text-gray-500 ml-1 text-[10px]">(Base Hits)</span>
