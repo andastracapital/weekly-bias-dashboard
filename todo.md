@@ -10,3 +10,4 @@
 - [x] Fix High Conviction Setups alignment logic: Strictly verify Weekly-Daily Bias match (exclude Neutral/Mixed) and document verification process for Daily Recap Update
 - [x] Weekly Bias Update: Access PMT Smart Bias Text, scrape all 8 currency biases with rationales/events, update weeklyBias.json
 - [x] Daily Recap Update (Feb 2) with new PMT URLs: Headlines dashboard (https://access.primemarket-terminal.com/prime-dashboard?template=headlines) for market wraps, Calendar dashboard (https://access.primemarket-terminal.com/prime-dashboard?template=calendar) for Red Folder News
+- [x] Scrape missing US FX WRAP article from PMT Headlines dashboard and integrate into dailyRecap.json

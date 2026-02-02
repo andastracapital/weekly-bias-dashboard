@@ -6,7 +6,7 @@
     "volatility": "Elevated",
     "headlines": [
       "Trump nominates Kevin Warsh as Fed Chair—hawkish balance sheet stance, no rate cut commitment",
-      "Gold -8.6%, Silver -16%—historic precious metals sell-off continues into Asian session",
+      "Gold finished week at $4,900/oz (from $5,602/oz peak), -9% on the day; Silver -84/oz, -26% lower D/D",
       "US partial government shutdown weighs on sentiment, equity futures at session lows",
       "NVIDIA halts $100bn OpenAI investment plan, tech sector under pressure"
     ],
@@ -43,12 +43,12 @@
   ],
   "currencies": {
     "USD": {
-      "bias": "Mixed",
-      "tone": "Defensive Bid",
-      "summary": "Warsh nomination injects hawkish Fed premium but partial government shutdown limits upside. DXY +0.1% at 97.22, rangebound. Warsh viewed as balance sheet hawk with no rate cut signals—market recalibrates terminal rate expectations. Fed speakers divided: Musalem says no more cuts, policy neutral; Waller dissented for 25bps cut citing job market risks. ISM Manufacturing PMI (16:00) key test—forecast 48.3 vs 47.9 prior. 1-3d: Choppy consolidation, Warsh rhetoric and ISM data drive direction.",
+      "bias": "Bullish",
+      "tone": "Hawkish Premium",
+      "summary": "Dollar broadly firmer against peers on Warsh Fed Chair nomination—DXY trading around 97.08 (from WTD lows 96.36). All G10 FX in red vs USD. Warsh viewed as hawkish on balance sheet, criticizes forward guidance, views rates at current levels as loose financial conditions—signals tough persuasion ahead with Fed peers. Fed independence concerns ease, supporting USD. Fed speakers divided: Musalem says no more cuts, policy neutral; Waller dissented for 25bps cut citing labor market risks. PPI hotter than expected (Dec): +0.5% M/M vs 0.2% exp. ISM Manufacturing PMI (16:00) key test—forecast 48.3 vs 47.9 prior. 1-3d: Bullish bias, Warsh hawkish premium drives USD strength, ISM data key.",
       "drivers": ["Warsh Fed Chair (Hawkish)", "Government Shutdown", "ISM PMI Ahead", "Fed Speaker Divergence"],
-      "headlines": ["Trump nominates Warsh as Fed Chair", "Partial government shutdown ongoing", "Fed's Musalem: No more cuts, policy neutral", "ISM Manufacturing PMI 16:00 (Forecast 48.3)"],
-      "reaction": "USD modestly firmer on Warsh hawkish expectations, but shutdown caps rally. Yields steepen."
+      "headlines": ["Warsh Fed Chair nomination—hawkish on balance sheet, criticizes forward guidance", "DXY at 97.08, all G10 FX in red vs USD", "PPI +0.5% M/M (Dec) vs 0.2% exp—inflation pressures persist", "ISM Manufacturing PMI 16:00 (Forecast 48.3)"],
+      "reaction": "USD broadly firmer across all G10 pairs on Warsh hawkish stance. Fed independence concerns ease. Yields steepen."
     },
     "EUR": {
       "bias": "Bearish",
