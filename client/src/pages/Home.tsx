@@ -412,8 +412,6 @@ export default function Home() {
                 </p>
               </div>
             </div>
-
-
           </div>
         ) : (
           // DAILY VIEW LAYOUT
@@ -443,7 +441,7 @@ export default function Home() {
               <div className="flex flex-col gap-1 md:col-span-2">
                 <span className="text-[10px] text-gray-500 uppercase tracking-wider font-bold">Focus</span>
                 <span className="text-sm font-bold text-white font-mono truncate">
-                  {dailyData.marketFocus.focusTagline || "Key Market Drivers"}
+                  {dailyData.marketFocus.focus || "Key Market Drivers"}
                 </span>
               </div>
 
@@ -462,7 +460,7 @@ export default function Home() {
                 <div className="flex flex-col gap-1 text-right">
                   <span className="text-[10px] text-gray-500 uppercase tracking-wider font-bold">Next Update</span>
                   <span className="text-sm font-bold text-gray-400 font-mono">
-                    {dailyData.marketFocus.nextUpdate || "23:15"}
+                    23:15
                   </span>
                 </div>
               </div>
