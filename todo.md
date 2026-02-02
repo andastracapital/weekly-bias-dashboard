@@ -9,4 +9,4 @@
 - [x] Move High Conviction Setups from Weekly View to Daily View (above Intraday Trades) and auto-recalculate on Daily Recap Update
 - [x] Fix High Conviction Setups alignment logic: Strictly verify Weekly-Daily Bias match (exclude Neutral/Mixed) and document verification process for Daily Recap Update
 - [x] Weekly Bias Update: Access PMT Smart Bias Text, scrape all 8 currency biases with rationales/events, update weeklyBias.json
-- [ ] Daily Recap Update (Feb 2): Scrape PMT (News Ticker, US/EU/Asia Wraps, Red Folder High/Critical) and rebuild dailyRecap.json
+- [x] Daily Recap Update (Feb 2) with new PMT URLs: Headlines dashboard (https://access.primemarket-terminal.com/prime-dashboard?template=headlines) for market wraps, Calendar dashboard (https://access.primemarket-terminal.com/prime-dashboard?template=calendar) for Red Folder News

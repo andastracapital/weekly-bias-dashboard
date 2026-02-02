@@ -2,40 +2,42 @@
   "date": "Monday, Feb 2",
   "marketFocus": {
     "riskEnvironment": "Risk-Off",
-    "focus": "Warsh Hawkish Fed Chair Nomination, Historic Metals Crash, Government Shutdown",
+    "focus": "Warsh Fed Nomination, Historic Metals Collapse, US Government Shutdown",
     "volatility": "Elevated",
     "headlines": [
-      "Trump nominates Kevin Warsh as Fed Chair—hawkish on balance sheet, no rate cut commitment",
-      "Gold crashes -9% to sub-$5000, Silver -16%—historic precious metals sell-off continues",
-      "US partial government shutdown ongoing, equity futures at session lows",
-      "Iran-US tensions: Trump sends armada, Iran prepared for war/diplomacy"
+      "Trump nominates Kevin Warsh as Fed Chair—hawkish balance sheet stance, no rate cut commitment",
+      "Gold -8.6%, Silver -16%—historic precious metals sell-off continues into Asian session",
+      "US partial government shutdown weighs on sentiment, equity futures at session lows",
+      "NVIDIA halts $100bn OpenAI investment plan, tech sector under pressure"
     ],
-    "macroContext": "Risk-off dominates as Warsh's hawkish Fed Chair nomination spooks markets already reeling from Friday's historic metals collapse. US government shutdown adds uncertainty. Hot US PPI (0.5% M/M vs 0.2% exp) reinforces no-cut narrative. Geopolitical premium rises with Iran-US standoff escalating."
+    "macroContext": "Risk-off sentiment dominates as markets digest Warsh's Fed Chair nomination amid ongoing precious metals collapse. Chinese PMIs slip into contraction (Manufacturing 50.3, Services 51.8), adding demand-side concerns. US government shutdown creates policy uncertainty. Defensive positioning prevails across asset classes."
   },
-  "tradingSummary": "Defensive positioning prevails. USD bid on Warsh hawkish expectations despite partial shutdown. Commodities crushed—Gold/Silver in freefall, demand fears mount. EUR/GBP under pressure from weak PMI prints ahead. JPY gains safe-haven flows. Equities choppy, materials sector hammered. Focus shifts to ECB/BoE policy meetings later this week.",
+  "tradingSummary": "USD rangebound despite Warsh hawkish premium—government shutdown caps gains. Commodities crushed: Gold -8.6%, Copper -4.6%, crude benchmarks down 5%+. Safe-havens (JPY, CHF) outperform. EUR/GBP pressured ahead of manufacturing PMI finals. Asia-Pac equities down 1-2%, materials sector hammered. Focus shifts to ISM Manufacturing PMI (16:00) and RBA policy decision (Tue 04:30).",
   "redFolderNews": [
     {
-      "time": "09:50",
-      "currency": "EUR",
-      "event": "France HCOB Manufacturing PMI Final",
+      "time": "16:00",
+      "currency": "USD",
+      "event": "ISM Manufacturing PMI",
       "impact": "High"
     },
     {
-      "time": "09:55",
-      "currency": "EUR",
-      "event": "Germany HCOB Manufacturing PMI Final",
+      "time": "16:00",
+      "currency": "USD",
+      "event": "ISM Manufacturing Prices",
       "impact": "High"
     },
     {
-      "time": "10:00",
-      "currency": "EUR",
-      "event": "Eurozone HCOB Manufacturing PMI Final",
-      "impact": "High"
+      "time": "04:30",
+      "day": "Tue",
+      "currency": "AUD",
+      "event": "RBA Policy Announcement",
+      "impact": "Critical"
     },
     {
-      "time": "10:30",
-      "currency": "GBP",
-      "event": "UK S&P Global Manufacturing PMI Final",
+      "time": "16:00",
+      "day": "Tue",
+      "currency": "USD",
+      "event": "JOLTs Job Openings",
       "impact": "High"
     }
   ],
@@ -43,66 +45,66 @@
     "USD": {
       "bias": "Mixed",
       "tone": "Defensive Bid",
-      "summary": "Warsh nomination injects hawkish Fed premium—balance sheet hawk, no rate cut signals. Hot PPI (0.5% M/M) kills dovish hopes. Partial government shutdown caps upside. DXY marginally soft but holding above key support. Iran tensions add safe-haven bid. Waller/Miran dissent highlights Fed split—Waller sees job market risk, Miran cites low inflation. Musalem says no more cuts, policy neutral. 1-3d: Choppy, Warsh rhetoric key.",
-      "drivers": ["Warsh Fed Chair (Hawkish)", "Hot PPI", "Government Shutdown", "Iran Tensions"],
-      "headlines": ["Trump nominates Warsh as Fed Chair", "US PPI M/M 0.5% vs 0.2% exp", "Partial government shutdown", "Fed's Musalem: No more cuts"],
-      "reaction": "USD bid on Warsh hawkish expectations, but shutdown limits gains. Yields steepen."
+      "summary": "Warsh nomination injects hawkish Fed premium but partial government shutdown limits upside. DXY +0.1% at 97.22, rangebound. Warsh viewed as balance sheet hawk with no rate cut signals—market recalibrates terminal rate expectations. Fed speakers divided: Musalem says no more cuts, policy neutral; Waller dissented for 25bps cut citing job market risks. ISM Manufacturing PMI (16:00) key test—forecast 48.3 vs 47.9 prior. 1-3d: Choppy consolidation, Warsh rhetoric and ISM data drive direction.",
+      "drivers": ["Warsh Fed Chair (Hawkish)", "Government Shutdown", "ISM PMI Ahead", "Fed Speaker Divergence"],
+      "headlines": ["Trump nominates Warsh as Fed Chair", "Partial government shutdown ongoing", "Fed's Musalem: No more cuts, policy neutral", "ISM Manufacturing PMI 16:00 (Forecast 48.3)"],
+      "reaction": "USD modestly firmer on Warsh hawkish expectations, but shutdown caps rally. Yields steepen."
     },
     "EUR": {
       "bias": "Bearish",
       "tone": "Under Pressure",
-      "summary": "Weak PMI prints loom—Manufacturing PMIs (FRA/GER/EZ) due 09:50-10:00, likely soft. German CPI uptick (2.1% vs 2.0% exp) complicates ECB cut path but won't stop Feb easing. EZ GDP Q4 beat (1.3% vs 1.2%) marginal. EUR/USD sub-1.04, no support. ECB meeting Thu—25bps cut priced, Lagarde dovish tilt expected. Risk-off + weak data = EUR weakness. 1-3d: Downside bias, PMI misses amplify.",
-      "drivers": ["Weak PMI Expectations", "ECB Cut Priced", "Risk-Off", "German CPI Uptick"],
-      "headlines": ["German CPI 2.1% vs 2.0% exp", "EZ GDP Q4 1.3% vs 1.2%", "EUR/USD sub-1.04", "ECB meeting Thu"],
-      "reaction": "EUR pressured ahead of PMI prints, ECB cut expectations weigh."
+      "summary": "EUR/USD at 1.1850, below 1.19 resistance. Manufacturing PMI Finals (09:50-10:00) likely confirm contraction—France 49.1, Germany 49.5 expected. German Retail Sales (Dec) -0.2% M/M disappoints. ECB policy meeting Thursday looms with 25bps cut fully priced. Risk-off sentiment and weak data flow weigh. French inflation data (Wed) and ECB Lagarde presser (Thu 15:30) key catalysts ahead. 1-3d: Downside bias, PMI misses and ECB dovish tilt amplify weakness.",
+      "drivers": ["Weak Manufacturing PMIs", "ECB Cut Priced (Thu)", "Risk-Off", "German Retail Sales Miss"],
+      "headlines": ["EUR/USD at 1.1850, below 1.19", "Manufacturing PMI Finals 09:50-10:00", "German Retail Sales -0.2% M/M", "ECB meeting Thursday"],
+      "reaction": "EUR pressured ahead of PMI confirmations, ECB cut expectations weigh."
     },
     "GBP": {
       "bias": "Neutral",
       "tone": "Cautious",
-      "summary": "BoE meeting Thu—no cut expected, but dovish signals likely. UK PMI Final (10:30) key—soft print pressures GBP. Breeden (neutral-dovish) keynote 12:45 may hint at future easing. Cable choppy around 1.25, no clear direction. UK-Japan defence cooperation positive but no FX impact. Risk-off caps upside. Bailey/MPC rhetoric matters more than data. 1-3d: Range-bound, BoE preview dominates.",
-      "drivers": ["BoE Meeting Thu", "UK PMI Final", "Breeden Keynote", "Risk-Off"],
-      "headlines": ["BoE meeting Thu, no cut expected", "UK PMI Final 10:30", "Breeden keynote 12:45", "UK-Japan defence deal"],
-      "reaction": "GBP steady but cautious ahead of BoE, PMI data watched."
+      "summary": "GBP/USD -0.1% at 1.3665, consolidating. UK Manufacturing PMI Final (10:30) expected 51.6 vs 50.6 prior—modest improvement but still weak. BoE's Breeden (neutral-dovish) keynote at 12:45 may hint at future easing path. BoE policy meeting Friday—no cut expected (4.50% forecast vs 4.75% current) but dovish signals likely. Nationwide Housing Prices +1.0% Y/Y (vs 0.6% prior) offers minor support. 1-3d: Range-bound, BoE preview and PMI data drive near-term moves.",
+      "drivers": ["BoE Meeting Fri", "UK PMI Final 10:30", "Breeden Keynote 12:45", "Housing Data Uptick"],
+      "headlines": ["BoE meeting Friday, 4.50% forecast", "UK PMI Final 10:30 (Forecast 51.6)", "Breeden keynote 12:45", "Nationwide Housing Prices +1.0% Y/Y"],
+      "reaction": "GBP steady but cautious ahead of BoE, PMI data and Breeden speech watched."
     },
     "JPY": {
       "bias": "Bullish",
       "tone": "Safe-Haven Bid",
-      "summary": "Risk-off = JPY strength. BoJ Summary of Opinions: One member says conditions accommodative post-hike. No intervention Dec 29-Jan 28 (MOF). Metals crash + equity weakness + Iran tensions drive safe-haven flows. USD/JPY dips as Warsh hawkish premium fades vs risk-off. Carry unwind accelerates. BoJ hike expectations (Mar/Apr) support JPY. 1-3d: Bullish, risk-off tailwind strong.",
-      "drivers": ["Risk-Off", "Safe-Haven Flows", "BoJ Hike Pricing", "Carry Unwind"],
-      "headlines": ["BoJ: Conditions accommodative post-hike", "Japan MOF: No intervention Dec 29-Jan 28", "Risk-off boosts JPY", "USD/JPY dips"],
-      "reaction": "JPY rallies on safe-haven demand, risk-off dominates."
+      "summary": "USD/JPY +0.1% at 154.81 but off highs—Takaichi remarks initially boosted pair but subsequent clarification unwound move. Risk-off sentiment drives safe-haven flows to JPY. BoJ Summary of Opinions: One member says financial conditions remain accommodative even after rate hike. JGBs benefit from latest election polling. Metals collapse and equity weakness support JPY. BoJ hike expectations (Mar/Apr) underpin currency. 1-3d: Bullish, risk-off tailwind strong, carry unwind accelerates.",
+      "drivers": ["Risk-Off", "Safe-Haven Flows", "BoJ Hike Pricing", "Takaichi Clarification"],
+      "headlines": ["BoJ: Conditions accommodative post-hike", "Risk-off boosts JPY", "USD/JPY at 154.81", "JGBs rally on election polling"],
+      "reaction": "JPY rallies on safe-haven demand, risk-off dominates despite Takaichi noise."
     },
     "AUD": {
       "bias": "Bearish",
       "tone": "Commodity Collapse",
-      "summary": "Metals crash obliterates AUD—Gold -9%, Silver -16%, Copper/Iron Ore weak. China PMI 50.3 (in-line) offers no support. RBA hike odds (70%+) irrelevant vs commodity rout. Risk-off + demand fears = AUD crushed. AUD/USD sub-0.62, no floor. Materials sector hammered in equities. China stimulus hopes fading. 1-3d: Bearish, metals sell-off dominates.",
-      "drivers": ["Metals Crash", "Risk-Off", "China Demand Fears", "Commodity Rout"],
-      "headlines": ["Gold -9%, Silver -16%", "China PMI 50.3", "AUD/USD sub-0.62", "Materials sector slammed"],
-      "reaction": "AUD crushed by historic metals sell-off, risk-off amplifies."
+      "summary": "AUD crushed by metals sell-off—Spot Gold -8.6%, LME Copper -4.6%, base metals hammered. Chinese PMIs disappoint: Manufacturing 50.3 (in-line but weak), Services 51.8 vs 52.0 prior—demand concerns mount. RBA policy decision Tuesday 04:30—hike odds fade as commodity rout intensifies. ASX 200 -1.0%, materials sector leads losses. Risk-off and China demand fears = AUD weakness. 1-3d: Bearish, metals sell-off dominates, RBA decision unlikely to rescue.",
+      "drivers": ["Metals Crash", "China PMI Weakness", "Risk-Off", "RBA Decision Tue"],
+      "headlines": ["Spot Gold -8.6%, Copper -4.6%", "China Manufacturing PMI 50.3", "ASX 200 -1.0%", "RBA policy decision Tue 04:30"],
+      "reaction": "AUD crushed by historic metals sell-off, China data adds to woes."
     },
     "CAD": {
       "bias": "Bearish",
-      "tone": "Tariff Threat",
-      "summary": "Trump threatens Canada with 25% tariff on aircrafts—USMCA tensions resurface. Crude flat/down (WTI $65.21, Brent $70.69), no oil support. BoC on hold, Macklem focused on tariff risks. Risk-off + tariff premium = CAD weakness. USD/CAD pushes higher. Metals crash (Gold/Silver) hits Canadian miners. 1-3d: Bearish, tariff rhetoric + risk-off weigh.",
-      "drivers": ["Trump Tariff Threat", "Crude Weakness", "Risk-Off", "USMCA Uncertainty"],
-      "headlines": ["Trump threatens 25% tariff on Canadian aircrafts", "WTI $65.21, Brent $70.69", "BoC on hold", "USD/CAD higher"],
-      "reaction": "CAD pressured by tariff threats, crude weakness adds to woes."
+      "tone": "Crude Weakness",
+      "summary": "CAD pressured by crude benchmarks collapse—WTI -5.6%, Brent -5.4% alongside APAC stocks. OPEC+ maintained pause as expected but demand fears outweigh supply discipline. US-Canada trade tensions simmer (Trump tariff rhetoric). Metals crash (Gold/Silver) hits Canadian mining sector. Risk-off sentiment weighs. BoC on hold, Macklem focused on tariff risks. 1-3d: Bearish, crude weakness and risk-off dominate.",
+      "drivers": ["Crude Collapse", "OPEC+ Pause", "Risk-Off", "US-Canada Trade Tensions"],
+      "headlines": ["WTI -5.6%, Brent -5.4%", "OPEC+ maintains pause", "Risk-off weighs CAD", "Trump tariff rhetoric persists"],
+      "reaction": "CAD pressured by crude weakness, risk-off amplifies losses."
     },
     "CHF": {
       "bias": "Bullish",
       "tone": "Safe-Haven",
-      "summary": "Risk-off = CHF strength. Metals crash + equity weakness + geopolitical tensions (Iran-US) drive safe-haven flows. EUR/CHF dips as EUR weakness compounds. SNB dovish tilt (cut expectations) offset by risk-off demand. CHF outperforms vs commodity currencies (AUD/CAD). 1-3d: Bullish, safe-haven bid strong.",
-      "drivers": ["Risk-Off", "Safe-Haven Flows", "EUR Weakness", "Geopolitical Tensions"],
-      "headlines": ["Risk-off boosts CHF", "EUR/CHF dips", "Safe-haven demand strong", "Metals crash supports CHF"],
+      "summary": "CHF benefits from risk-off flows as metals collapse and equity weakness intensify. EUR/CHF dips as EUR weakness compounds. Swiss Retail Sales +1.0% M/M (vs -0.1% prior) and +2.9% Y/Y (vs 1.7% prior) beat expectations. procure.ch Manufacturing PMI 48.8 vs 45.8 prior—improvement but still contraction. SNB dovish tilt offset by safe-haven demand. 1-3d: Bullish, safe-haven bid strong, EUR weakness supports.",
+      "drivers": ["Risk-Off", "Safe-Haven Flows", "EUR Weakness", "Retail Sales Beat"],
+      "headlines": ["Risk-off boosts CHF", "Swiss Retail Sales +1.0% M/M", "procure.ch PMI 48.8 vs 45.8", "EUR/CHF dips"],
       "reaction": "CHF rallies on safe-haven demand, risk-off dominates."
     },
     "NZD": {
       "bias": "Bearish",
       "tone": "Risk-Off Victim",
-      "summary": "Risk-off + commodity weakness = NZD crushed. Dairy prices soft, no support. China PMI 50.3 offers no relief. RBNZ cut expectations (Feb/Mar) weigh. NZD/USD sub-0.56, no floor. Carry unwind accelerates. Materials sector weakness (metals crash) hits NZ miners. 1-3d: Bearish, risk-off + commodity rout dominate.",
-      "drivers": ["Risk-Off", "Commodity Weakness", "RBNZ Cut Pricing", "Carry Unwind"],
-      "headlines": ["Risk-off crushes NZD", "NZD/USD sub-0.56", "Dairy prices soft", "China PMI 50.3"],
-      "reaction": "NZD hammered by risk-off, commodity weakness amplifies."
+      "summary": "NZD hammered by risk-off and commodity weakness. Metals crash (Gold/Silver) and China PMI disappointment hit sentiment. NZ employment data ahead (Tue 22:45)—Unemployment Rate forecast 5.3% (unchanged), Employment Change +0.3% Q/Q. RBNZ cut expectations (Feb/Mar) weigh. Carry unwind accelerates. Building Permits data (Mon 22:45) unlikely to move needle. 1-3d: Bearish, risk-off and commodity rout dominate, employment data key.",
+      "drivers": ["Risk-Off", "Commodity Weakness", "China PMI Miss", "RBNZ Cut Pricing"],
+      "headlines": ["Risk-off crushes NZD", "Metals collapse weighs", "NZ employment data Tue 22:45", "China PMI 50.3"],
+      "reaction": "NZD hammered by risk-off, commodity weakness amplifies losses."
     }
   }
 }
