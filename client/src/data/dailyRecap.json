@@ -1,110 +1,144 @@
 {
-  "date": "Monday, Feb 2",
+  "date": "Tuesday, Feb 3",
   "marketFocus": {
-    "riskEnvironment": "Risk-Off",
-    "focus": "Warsh Fed Nomination, Historic Metals Collapse, US Government Shutdown",
-    "volatility": "Elevated",
+    "riskEnvironment": "Risk-On Recovery",
+    "focus": "RBA Hikes 25bps, Precious Metals Rebound, ISM Manufacturing Expansion",
+    "volatility": "Moderate",
     "headlines": [
-      "Trump nominates Kevin Warsh as Fed Chair—hawkish balance sheet stance, no rate cut commitment",
-      "Gold finished week at $4,900/oz (from $5,602/oz peak), -9% on the day; Silver -84/oz, -26% lower D/D",
-      "US partial government shutdown weighs on sentiment, equity futures at session lows",
-      "NVIDIA halts $100bn OpenAI investment plan, tech sector under pressure"
+      "RBA hikes Cash Rate by 25bps to 3.85% (unanimous decision)—inflation pulse too strong, hurts all Australians",
+      "Precious metals stage comeback: Gold +2.1%, Silver +3.5% in early Asia-Pac trade after historic sell-off",
+      "ISM Manufacturing PMI 52.6 vs exp. 48.5 (first expansion in 12 months)—New Orders 57.1 vs prev. 47.4",
+      "Asia-Pac stocks rebound: Nikkei 225 +3%, KOSPI biggest gainer, risk-on sentiment returns"
     ],
-    "macroContext": "Risk-off sentiment dominates as markets digest Warsh's Fed Chair nomination amid ongoing precious metals collapse. Chinese PMIs slip into contraction (Manufacturing 50.3, Services 51.8), adding demand-side concerns. US government shutdown creates policy uncertainty. Defensive positioning prevails across asset classes."
+    "macroContext": "Risk appetite returns as markets digest better-than-expected ISM Manufacturing data and RBA hawkish hike. US stocks saw gains to start the week (Consumer Staples, Industrials led), while Energy/Utilities/Real Estate lagged. Warsh Fed Chair nomination continues to support USD strength. Partial government shutdown persists—BLS delays January NFP report to Friday, December JOLTS report to Tuesday. Materials names see notable strength as Trump launches USD 12bln mineral stockpile to counter China."
   },
-  "tradingSummary": "USD rangebound despite Warsh hawkish premium—government shutdown caps gains. Commodities crushed: Gold -8.6%, Copper -4.6%, crude benchmarks down 5%+. Safe-havens (JPY, CHF) outperform. EUR/GBP pressured ahead of manufacturing PMI finals. Asia-Pac equities down 1-2%, materials sector hammered. Focus shifts to ISM Manufacturing PMI (16:00) and RBA policy decision (Tue 04:30).",
+  "tradingSummary": "Dollar takes a breather after strengthening post-ISM data—all focus turns to RBA decision. DXY rangebound, AUD hit on dented metals initially but recovers post-RBA hike. Precious metals rebound sharply (+2-3.5%) following crowded bull rally profit-taking. Asia-Pac stocks extend advances with Nikkei 225 +3%+, KOSPI in broad turnaround from yesterday's bloodbath. T-note futures languish at prior day's trough after recent flattening post-ISM data. WTI dips below USD 62/bbl as US-Iran tensions ease (talks in Turkey this week looming). Strong Risk-On detected (12 Risk ON Factors).",
   "redFolderNews": [
     {
-      "time": "16:00",
-      "currency": "USD",
-      "event": "ISM Manufacturing PMI",
-      "impact": "High"
-    },
-    {
-      "time": "16:00",
-      "currency": "USD",
-      "event": "ISM Manufacturing Prices",
-      "impact": "High"
-    },
-    {
       "time": "04:30",
-      "day": "Tue",
       "currency": "AUD",
       "event": "RBA Policy Announcement",
       "impact": "Critical"
     },
     {
       "time": "16:00",
-      "day": "Tue",
       "currency": "USD",
       "event": "JOLTs Job Openings",
       "impact": "High"
+    },
+    {
+      "time": "11:00",
+      "day": "Wed",
+      "currency": "EUR",
+      "event": "Core Inflation Rate YoY Flash",
+      "impact": "High"
+    },
+    {
+      "time": "16:15",
+      "day": "Wed",
+      "currency": "USD",
+      "event": "Fed Chair Warsh Speech",
+      "impact": "Critical"
+    },
+    {
+      "time": "20:00",
+      "day": "Wed",
+      "currency": "USD",
+      "event": "FOMC Meeting Minutes",
+      "impact": "Critical"
+    },
+    {
+      "time": "13:30",
+      "day": "Fri",
+      "currency": "USD",
+      "event": "Nonfarm Payrolls",
+      "impact": "Critical"
     }
   ],
   "currencies": {
     "USD": {
       "bias": "Bullish",
-      "tone": "Hawkish Premium",
-      "summary": "Dollar broadly firmer against peers on Warsh Fed Chair nomination—DXY trading around 97.08 (from WTD lows 96.36). All G10 FX in red vs USD. Warsh viewed as hawkish on balance sheet, criticizes forward guidance, views rates at current levels as loose financial conditions—signals tough persuasion ahead with Fed peers. Fed independence concerns ease, supporting USD. Fed speakers divided: Musalem says no more cuts, policy neutral; Waller dissented for 25bps cut citing labor market risks. PPI hotter than expected (Dec): +0.5% M/M vs 0.2% exp. ISM Manufacturing PMI (16:00) key test—forecast 48.3 vs 47.9 prior. 1-3d: Bullish bias, Warsh hawkish premium drives USD strength, ISM data key.",
-      "drivers": ["Warsh Fed Chair (Hawkish)", "Government Shutdown", "ISM PMI Ahead", "Fed Speaker Divergence"],
-      "headlines": ["Warsh Fed Chair nomination—hawkish on balance sheet, criticizes forward guidance", "DXY at 97.08, all G10 FX in red vs USD", "PPI +0.5% M/M (Dec) vs 0.2% exp—inflation pressures persist", "ISM Manufacturing PMI 16:00 (Forecast 48.3)"],
-      "reaction": "USD broadly firmer across all G10 pairs on Warsh hawkish stance. Fed independence concerns ease. Yields steepen."
+      "tone": "Warsh Premium Intact",
+      "summary": "Dollar started the week firm against all G10 peers as sentiment on the back continued to improve following Kevin Warsh Fed Chair nomination. Market participants digested better-than-expected ISM Manufacturing PMI data (52.6 vs exp. 48.5)—first expansion in 12 months, supported by rise in New Orders (57.1 vs prev. 47.4) and Production (55.9 vs prev. 50.7). Fed's Bostic argued one or two rate cuts would put them at neutral, said premature to say inflation job is done. Partial government shutdown persists—BLS delayed January NFP report to Friday, December JOLTS report to Tuesday. DXY takes breather but Warsh hawkish premium intact. 1-3d: Bullish bias, focus on JOLTs (16:00) and Warsh speech Wed 16:15.",
+      "drivers": ["Warsh Fed Chair (Hawkish)", "ISM Manufacturing Expansion", "JOLTs Job Openings Ahead", "Government Shutdown Persists"],
+      "headlines": ["ISM Manufacturing PMI 52.6 vs exp. 48.5—first expansion in 12 months", "Warsh Fed Chair nomination continues to support USD strength", "BLS delays January NFP to Friday due to government shutdown", "JOLTs Job Openings forecast 7.1M (prev. 7.146M) at 16:00"],
+      "events": [
+        {"day": "Tue", "event": "JOLTs Job Openings (16:00)", "impact": "High"},
+        {"day": "Wed", "event": "Fed Chair Warsh Speech (16:15)", "impact": "Critical"},
+        {"day": "Wed", "event": "FOMC Meeting Minutes (20:00)", "impact": "Critical"}
+      ]
     },
     "EUR": {
-      "bias": "Bearish",
-      "tone": "Under Pressure",
-      "summary": "EUR/USD at 1.1850, below 1.19 resistance. Manufacturing PMI Finals (09:50-10:00) likely confirm contraction—France 49.1, Germany 49.5 expected. German Retail Sales (Dec) -0.2% M/M disappoints. ECB policy meeting Thursday looms with 25bps cut fully priced. Risk-off sentiment and weak data flow weigh. French inflation data (Wed) and ECB Lagarde presser (Thu 15:30) key catalysts ahead. 1-3d: Downside bias, PMI misses and ECB dovish tilt amplify weakness.",
-      "drivers": ["Weak Manufacturing PMIs", "ECB Cut Priced (Thu)", "Risk-Off", "German Retail Sales Miss"],
-      "headlines": ["EUR/USD at 1.1850, below 1.19", "Manufacturing PMI Finals 09:50-10:00", "German Retail Sales -0.2% M/M", "ECB meeting Thursday"],
-      "reaction": "EUR pressured ahead of PMI confirmations, ECB cut expectations weigh."
+      "bias": "Neutral",
+      "tone": "Data-Dependent",
+      "summary": "Euro little changed despite USD strength—EUR/USD rangebound around 1.04. German Retail Sales MoM 0.1% vs prev. -0.5%, YoY 1.5% vs prev. 1.3% show modest improvement. Final Manufacturing PMIs confirm contraction: Germany 49.1 (prev. 47.0), France 49.5 (prev. 48.8), Eurozone 49.5 (prev. 48.8). ECB's Lagarde to speak at informal dinner with EU Commissioner Sefcovic Wed 19:00 (no text). French Budget Balance and Inflation Rate YoY Prel due Tue 08:45. Eurozone Core Inflation Rate YoY Flash Wed 11:00 (forecast 2.3%). 1-3d: Neutral bias, data-dependent, watch inflation prints Wed.",
+      "drivers": ["Final Manufacturing PMIs Weak", "Inflation Data Wed", "Lagarde Speech Wed", "USD Strength Caps Gains"],
+      "headlines": ["German Retail Sales improve: 0.1% M/M vs prev. -0.5%", "Eurozone Manufacturing PMI Final 49.5—contraction persists", "Core Inflation Rate YoY Flash Wed 11:00 (forecast 2.3%)", "Lagarde to speak Wed 19:00 at informal dinner"],
+      "events": [
+        {"day": "Tue", "event": "French Inflation Rate YoY Prel (08:45)", "impact": "High"},
+        {"day": "Wed", "event": "Core Inflation Rate YoY Flash (11:00)", "impact": "High"},
+        {"day": "Wed", "event": "Lagarde Speech (19:00)", "impact": "Medium"}
+      ]
     },
     "GBP": {
       "bias": "Neutral",
-      "tone": "Cautious",
-      "summary": "GBP/USD -0.1% at 1.3665, consolidating. UK Manufacturing PMI Final (10:30) expected 51.6 vs 50.6 prior—modest improvement but still weak. BoE's Breeden (neutral-dovish) keynote at 12:45 may hint at future easing path. BoE policy meeting Friday—no cut expected (4.50% forecast vs 4.75% current) but dovish signals likely. Nationwide Housing Prices +1.0% Y/Y (vs 0.6% prior) offers minor support. 1-3d: Range-bound, BoE preview and PMI data drive near-term moves.",
-      "drivers": ["BoE Meeting Fri", "UK PMI Final 10:30", "Breeden Keynote 12:45", "Housing Data Uptick"],
-      "headlines": ["BoE meeting Friday, 4.50% forecast", "UK PMI Final 10:30 (Forecast 51.6)", "Breeden keynote 12:45", "Nationwide Housing Prices +1.0% Y/Y"],
-      "reaction": "GBP steady but cautious ahead of BoE, PMI data and Breeden speech watched."
+      "tone": "Manufacturing Recovery",
+      "summary": "Sterling little changed vs USD—GBP/USD around 1.25. Nationwide Housing Prices YoY 1.0% vs prev. 0.6%, MoM 0.3% vs prev. -0.4% show housing market stabilization. S&P Global Manufacturing PMI Final 51.8 vs prev. 50.6—expansion territory. BoE's Breeden delivered keynote speech at regulation summit Mon 12:45, exploring retail payments without cards. GBP 4.25bln 4.75% 2035 Gilt Auction Tue 11:00. S&P Global Services PMI Final Wed 10:30 key test. 1-3d: Neutral bias, manufacturing recovery positive but USD strength caps gains.",
+      "drivers": ["Manufacturing PMI Expansion", "Housing Prices Stabilize", "Services PMI Wed", "USD Strength Weighs"],
+      "headlines": ["S&P Global Manufacturing PMI Final 51.8—expansion territory", "Nationwide Housing Prices YoY 1.0% vs prev. 0.6%", "BoE's Breeden explores retail payments without cards", "Services PMI Final Wed 10:30 key test"],
+      "events": [
+        {"day": "Wed", "event": "S&P Global Services PMI Final (10:30)", "impact": "High"}
+      ]
     },
     "JPY": {
-      "bias": "Bullish",
-      "tone": "Safe-Haven Bid",
-      "summary": "USD/JPY +0.1% at 154.81 but off highs—Takaichi remarks initially boosted pair but subsequent clarification unwound move. Risk-off sentiment drives safe-haven flows to JPY. BoJ Summary of Opinions: One member says financial conditions remain accommodative even after rate hike. JGBs benefit from latest election polling. Metals collapse and equity weakness support JPY. BoJ hike expectations (Mar/Apr) underpin currency. 1-3d: Bullish, risk-off tailwind strong, carry unwind accelerates.",
-      "drivers": ["Risk-Off", "Safe-Haven Flows", "BoJ Hike Pricing", "Takaichi Clarification"],
-      "headlines": ["BoJ: Conditions accommodative post-hike", "Risk-off boosts JPY", "USD/JPY at 154.81", "JGBs rally on election polling"],
-      "reaction": "JPY rallies on safe-haven demand, risk-off dominates despite Takaichi noise."
+      "bias": "Neutral",
+      "tone": "Defensive Bid Fades",
+      "summary": "Yen weakens as risk-on sentiment returns—USD/JPY around 150.50. Japan sells JPY 1.99tln 10yr JGBs, b/c 3.20x (prev. 3.30x), average yield 2.249% (prev. 2.095%)—yields rising. S&P Global Manufacturing PMI Final 51.5 vs prev. 50.0 shows modest expansion. T-note futures languish at prior day's trough after recent flattening post-ISM data. Safe-haven bid fades as Asia-Pac stocks rebound sharply. JPY 2.6tln 10-year JGB Auction Tue 04:35. 1-3d: Neutral bias, defensive bid fades on risk-on, watch US yields.",
+      "drivers": ["Risk-On Sentiment", "JGB Yields Rising", "US Yields Elevated", "Safe-Haven Bid Fades"],
+      "headlines": ["Japan 10yr JGB auction: yield 2.249% vs prev. 2.095%", "USD/JPY around 150.50 as risk-on returns", "S&P Global Manufacturing PMI Final 51.5—modest expansion", "Safe-haven bid fades on Asia-Pac stocks rebound"],
+      "events": [
+        {"day": "Tue", "event": "JPY 2.6tln 10-year JGB Auction (04:35)", "impact": "Medium"}
+      ]
     },
     "AUD": {
-      "bias": "Bearish",
-      "tone": "Commodity Collapse",
-      "summary": "AUD crushed by metals sell-off—Spot Gold -8.6%, LME Copper -4.6%, base metals hammered. Chinese PMIs disappoint: Manufacturing 50.3 (in-line but weak), Services 51.8 vs 52.0 prior—demand concerns mount. RBA policy decision Tuesday 04:30—hike odds fade as commodity rout intensifies. ASX 200 -1.0%, materials sector leads losses. Risk-off and China demand fears = AUD weakness. 1-3d: Bearish, metals sell-off dominates, RBA decision unlikely to rescue.",
-      "drivers": ["Metals Crash", "China PMI Weakness", "Risk-Off", "RBA Decision Tue"],
-      "headlines": ["Spot Gold -8.6%, Copper -4.6%", "China Manufacturing PMI 50.3", "ASX 200 -1.0%", "RBA policy decision Tue 04:30"],
-      "reaction": "AUD crushed by historic metals sell-off, China data adds to woes."
-    },
-    "CAD": {
-      "bias": "Bearish",
-      "tone": "Crude Weakness",
-      "summary": "CAD pressured by crude benchmarks collapse—WTI -5.6%, Brent -5.4% alongside APAC stocks. OPEC+ maintained pause as expected but demand fears outweigh supply discipline. US-Canada trade tensions simmer (Trump tariff rhetoric). Metals crash (Gold/Silver) hits Canadian mining sector. Risk-off sentiment weighs. BoC on hold, Macklem focused on tariff risks. 1-3d: Bearish, crude weakness and risk-off dominate.",
-      "drivers": ["Crude Collapse", "OPEC+ Pause", "Risk-Off", "US-Canada Trade Tensions"],
-      "headlines": ["WTI -5.6%, Brent -5.4%", "OPEC+ maintains pause", "Risk-off weighs CAD", "Trump tariff rhetoric persists"],
-      "reaction": "CAD pressured by crude weakness, risk-off amplifies losses."
-    },
-    "CHF": {
       "bias": "Bullish",
-      "tone": "Safe-Haven",
-      "summary": "CHF benefits from risk-off flows as metals collapse and equity weakness intensify. EUR/CHF dips as EUR weakness compounds. Swiss Retail Sales +1.0% M/M (vs -0.1% prior) and +2.9% Y/Y (vs 1.7% prior) beat expectations. procure.ch Manufacturing PMI 48.8 vs 45.8 prior—improvement but still contraction. SNB dovish tilt offset by safe-haven demand. 1-3d: Bullish, safe-haven bid strong, EUR weakness supports.",
-      "drivers": ["Risk-Off", "Safe-Haven Flows", "EUR Weakness", "Retail Sales Beat"],
-      "headlines": ["Risk-off boosts CHF", "Swiss Retail Sales +1.0% M/M", "procure.ch PMI 48.8 vs 45.8", "EUR/CHF dips"],
-      "reaction": "CHF rallies on safe-haven demand, risk-off dominates."
+      "tone": "RBA Hawkish Hike",
+      "summary": "Aussie initially hit on dented metals but recovers post-RBA hawkish hike. RBA hikes Cash Rate by 25bps to 3.85% (unanimous decision, as expected)—states inflation likely to remain above target for some time, pulse of inflation too strong, high inflation hurts all Australians. Governor Bullock says does not know if this will be a tightening cycle, cannot rule anything out or in. Building Permits MoM Prel -14.9% vs exp. -5.7% (prev. 15.2%)—construction sector weak. ANZ-Indeed Job Ads MoM 4.4% vs prev. -0.8% shows labor market resilience. 1-3d: Bullish bias, RBA hawkish stance supports AUD, watch Building Approvals Wed.",
+      "drivers": ["RBA Hikes 25bps (Hawkish)", "Inflation Pulse Too Strong", "Building Permits Weak", "Labor Market Resilient"],
+      "headlines": ["RBA hikes Cash Rate 25bps to 3.85%—inflation pulse too strong", "Governor Bullock: cannot rule anything out or in", "Building Permits MoM Prel -14.9% vs exp. -5.7%", "ANZ-Indeed Job Ads MoM 4.4%—labor market resilient"],
+      "events": [
+        {"day": "Wed", "event": "Building Approvals (01:30)", "impact": "Medium"}
+      ]
     },
     "NZD": {
-      "bias": "Bearish",
-      "tone": "Risk-Off Victim",
-      "summary": "NZD hammered by risk-off and commodity weakness. Metals crash (Gold/Silver) and China PMI disappointment hit sentiment. NZ employment data ahead (Tue 22:45)—Unemployment Rate forecast 5.3% (unchanged), Employment Change +0.3% Q/Q. RBNZ cut expectations (Feb/Mar) weigh. Carry unwind accelerates. Building Permits data (Mon 22:45) unlikely to move needle. 1-3d: Bearish, risk-off and commodity rout dominate, employment data key.",
-      "drivers": ["Risk-Off", "Commodity Weakness", "China PMI Miss", "RBNZ Cut Pricing"],
-      "headlines": ["Risk-off crushes NZD", "Metals collapse weighs", "NZ employment data Tue 22:45", "China PMI 50.3"],
-      "reaction": "NZD hammered by risk-off, commodity weakness amplifies losses."
+      "bias": "Neutral",
+      "tone": "Labor Market Watch",
+      "summary": "Kiwi rangebound—NZD/USD around 0.58. Building Permits MoM -4.6% vs prev. 2.7% shows construction sector weakness. Labour Costs Index QoQ forecast 0.5% (prev. 0.5%), Employment Change QoQ forecast 0.3% (prev. 0.0%), Unemployment Rate forecast 5.3% (prev. 5.3%) due Tue 22:45. S&P Global Services PMI Final Wed 23:00. 1-3d: Neutral bias, labor market data Tue 22:45 key test.",
+      "drivers": ["Labor Market Data Tue", "Building Permits Weak", "Services PMI Wed", "Risk-On Supports"],
+      "headlines": ["Building Permits MoM -4.6% vs prev. 2.7%", "Labour Costs Index QoQ forecast 0.5% due Tue 22:45", "Employment Change QoQ forecast 0.3%", "Unemployment Rate forecast 5.3%"],
+      "events": [
+        {"day": "Tue", "event": "Labour Costs Index QoQ (22:45)", "impact": "High"},
+        {"day": "Tue", "event": "Employment Change QoQ (22:45)", "impact": "High"},
+        {"day": "Tue", "event": "Unemployment Rate (22:45)", "impact": "High"}
+      ]
+    },
+    "CAD": {
+      "bias": "Neutral",
+      "tone": "Oil Price Sensitive",
+      "summary": "Loonie rangebound—USD/CAD around 1.43. WTI dips below USD 62/bbl as US-Iran tensions ease (talks in Turkey this week looming). Crude benchmarks hit: WTI (H6) settles USD 3.07 lower at 62.14/bbl, Brent (J6) settles USD 3.02 lower at 66.30/bbl. S&P Global Manufacturing PMI 50.4 vs prev. 48.6 shows modest expansion. Weekly Private Crude Stocks (30 Jan, w/e) due Tue 22:30. 1-3d: Neutral bias, oil price sensitive, watch crude inventory data Tue.",
+      "drivers": ["WTI Below USD 62/bbl", "US-Iran Tensions Ease", "Manufacturing PMI Improves", "Crude Inventory Data Tue"],
+      "headlines": ["WTI dips below USD 62/bbl on US-Iran tensions easing", "Crude benchmarks settle 3+ lower—WTI 62.14/bbl", "S&P Global Manufacturing PMI 50.4 vs prev. 48.6", "Weekly Private Crude Stocks due Tue 22:30"],
+      "events": [
+        {"day": "Tue", "event": "Weekly Private Crude Stocks (22:30)", "impact": "Medium"}
+      ]
+    },
+    "CHF": {
+      "bias": "Neutral",
+      "tone": "Risk-On Weighs",
+      "summary": "Franc weakens as risk-on sentiment returns—USD/CHF around 0.91. Swiss Retail Sales MoM 1.0% vs prev. -0.1%, YoY 2.9% vs prev. 1.7% show strong consumer demand. procure.ch Manufacturing PMI 48.8 vs prev. 46.4—contraction eases. SNB's Chairman Schlegel says interest rates currently appropriate, SNB can cut rates below zero but higher threshold now, sees inflation at 0.7% in 2026 and 2027. Safe-haven bid fades on risk-on. 1-3d: Neutral bias, risk-on weighs on CHF.",
+      "drivers": ["Risk-On Sentiment", "Retail Sales Strong", "SNB Rates Appropriate", "Safe-Haven Bid Fades"],
+      "headlines": ["Swiss Retail Sales YoY 2.9% vs prev. 1.7%—strong consumer demand", "SNB's Schlegel: rates currently appropriate", "procure.ch Manufacturing PMI 48.8—contraction eases", "Safe-haven bid fades on risk-on sentiment"],
+      "events": []
     }
   }
 }
