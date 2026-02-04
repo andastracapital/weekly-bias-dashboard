@@ -112,7 +112,7 @@ Update `/home/ubuntu/weekly-bias-dashboard/client/src/data/dailyRecap.json` with
 0. **Check project availability** (cross-task persistence):
    - Check if `/home/ubuntu/weekly-bias-dashboard/` exists
    - If **NO** (new task scenario):
-     - Clone from GitHub: `gh repo clone user_github /home/ubuntu/weekly-bias-dashboard` (use `user_github` remote, not URL)
+     - Clone from GitHub: `gh repo clone andastracapital/weekly-bias-dashboard /home/ubuntu/weekly-bias-dashboard`
      - Wait for clone to complete
      - Verify project files exist
    - If **YES** (same task scenario): Skip to step 1
@@ -147,7 +147,7 @@ Update `/home/ubuntu/weekly-bias-dashboard/client/src/data/dailyRecap.json` with
 **Project not found in new task:**
 - Verify GitHub connection: `gh repo view` should show the repository
 - If clone fails, check GitHub authentication: `gh auth status`
-- Alternative: Use `gh repo clone <owner>/<repo> /home/ubuntu/weekly-bias-dashboard` with explicit repo name
+- Alternative: Use `gh repo clone andastracapital/weekly-bias-dashboard /home/ubuntu/weekly-bias-dashboard`
 
 **+ Button expansion fails:**
 - Retry once with same article
