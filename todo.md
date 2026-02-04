@@ -14,3 +14,4 @@
 - [x] Daily Recap Update: Scrape PMT Headlines (3 wrap-reports with + button), Calendar (Red Folder News), rebuild dailyRecap.json
 - [ ] Set up scheduler for Daily Recap Update: Monday-Friday at 07:00 Frankfurt time (GMT+1), scrape PMT Headlines + Calendar, rebuild dailyRecap.json, save checkpoint
 - [x] Update "Next Update" time in Daily Recap view from 23:15 to 07:00 Frankfurt time
+- [x] Daily Recap Update: Scrape PMT Headlines (3 wrap-reports with + button), Calendar (Red Folder News), rebuild dailyRecap.json
