@@ -16,3 +16,4 @@
 - [x] Update "Next Update" time in Daily Recap view from 23:15 to 07:00 Frankfurt time
 - [x] Daily Recap Update: Scrape PMT Headlines (3 wrap-reports with + button), Calendar (Red Folder News), rebuild dailyRecap.json
 - [x] Move daily-recap-update skill to project directory (.skills/) and create project instructions for cross-task persistence
+- [x] Update daily-recap-update skill with GitHub clone logic for cross-task persistence

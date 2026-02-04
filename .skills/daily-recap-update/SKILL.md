@@ -109,6 +109,14 @@ Update `/home/ubuntu/weekly-bias-dashboard/client/src/data/dailyRecap.json` with
 
 ## Workflow Steps
 
+0. **Check project availability** (cross-task persistence):
+   - Check if `/home/ubuntu/weekly-bias-dashboard/` exists
+   - If **NO** (new task scenario):
+     - Clone from GitHub: `gh repo clone user_github /home/ubuntu/weekly-bias-dashboard` (use `user_github` remote, not URL)
+     - Wait for clone to complete
+     - Verify project files exist
+   - If **YES** (same task scenario): Skip to step 1
+
 1. **Update todo.md**: Add unchecked task "Daily Recap Update: Scrape PMT Headlines + Calendar, rebuild dailyRecap.json"
 
 2. **Scrape PMT Headlines**:
@@ -135,6 +143,11 @@ Update `/home/ubuntu/weekly-bias-dashboard/client/src/data/dailyRecap.json` with
    - Run `webdev_save_checkpoint` with description: "Daily Recap Update (MMM D, YYYY): [key market themes]"
 
 ## Common Issues
+
+**Project not found in new task:**
+- Verify GitHub connection: `gh repo view` should show the repository
+- If clone fails, check GitHub authentication: `gh auth status`
+- Alternative: Use `gh repo clone <owner>/<repo> /home/ubuntu/weekly-bias-dashboard` with explicit repo name
 
 **+ Button expansion fails:**
 - Retry once with same article
