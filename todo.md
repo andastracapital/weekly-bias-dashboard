@@ -18,3 +18,12 @@
 - [x] Move daily-recap-update skill to project directory (.skills/) and create project instructions for cross-task persistence
 - [x] Update daily-recap-update skill with GitHub clone logic for cross-task persistence
 - [x] Update daily-recap-update skill with explicit GitHub URL (andastracapital/weekly-bias-dashboard)
+- [x] Create comprehensive Project Instructions version of Daily Recap Update workflow for cross-task execution
+- [x] Create comprehensive Daily Recap Update workflow document (standalone, for new tasks)
+- [x] Create comprehensive Weekly Bias Update workflow document (standalone, for new tasks)
+- [x] Answer GitHub template question
+- [x] Create manual backup guide
+- [x] Create GitHub checkpoint verification guide
+- [x] Create dashboard restoration guide for new Manus accounts
+- [x] Create complete ZIP backup of Weekly Bias Dashboard project
+- [x] Daily Recap Update: Scrape PMT Headlines (3 wrap-reports with + button), Calendar (Red Folder News), rebuild dailyRecap.json
