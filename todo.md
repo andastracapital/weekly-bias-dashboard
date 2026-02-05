@@ -30,3 +30,6 @@
 - [x] Update workflow documentation: Change Red Folder News source from PMT Calendar to Forex Factory Calendar (https://www.forexfactory.com/calendar?week=this)
 - [x] Scrape Forex Factory Calendar for Red Folder News (High/Critical impact only, future events only)
 - [x] Update dailyRecap.json with fresh Red Folder News including Frankfurt Time (HH:MM format)
+- [x] Correct workflow documentation: Specify ONLY red icons (High Impact Expected) from Forex Factory, exclude yellow/orange (Medium Impact)
+- [x] Re-scrape Forex Factory Calendar for red icon events only (exclude yellow/orange)
+- [x] Update dailyRecap.json: Remove yellow/medium impact events, keep only red icon events

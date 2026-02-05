@@ -19,14 +19,28 @@
       "time": "14:00",
       "day": "WED",
       "event": "BoE Monetary Policy Report",
-      "impact": "Critical",
+      "impact": "High",
+      "currency": "GBP"
+    },
+    {
+      "time": "14:00",
+      "day": "WED",
+      "event": "BoE Monetary Policy Summary",
+      "impact": "High",
+      "currency": "GBP"
+    },
+    {
+      "time": "14:00",
+      "day": "WED",
+      "event": "BoE MPC Official Bank Rate Votes",
+      "impact": "High",
       "currency": "GBP"
     },
     {
       "time": "14:00",
       "day": "WED",
       "event": "BoE Official Bank Rate",
-      "impact": "Critical",
+      "impact": "High",
       "currency": "GBP"
     },
     {
@@ -37,24 +51,17 @@
       "currency": "GBP"
     },
     {
-      "time": "14:30",
-      "day": "WED",
-      "event": "US Challenger Job Cuts y/y",
-      "impact": "High",
-      "currency": "USD"
-    },
-    {
       "time": "15:15",
       "day": "WED",
       "event": "EUR Main Refinancing Rate",
-      "impact": "Critical",
+      "impact": "High",
       "currency": "EUR"
     },
     {
       "time": "15:15",
       "day": "WED",
       "event": "EUR Monetary Policy Statement",
-      "impact": "Critical",
+      "impact": "High",
       "currency": "EUR"
     },
     {
@@ -68,41 +75,6 @@
       "time": "15:45",
       "day": "WED",
       "event": "ECB Press Conference",
-      "impact": "Critical",
-      "currency": "EUR"
-    },
-    {
-      "time": "17:00",
-      "day": "WED",
-      "event": "US JOLTS Job Openings",
-      "impact": "High",
-      "currency": "USD"
-    },
-    {
-      "time": "08:00",
-      "day": "THU",
-      "event": "EUR German Factory Orders m/m",
-      "impact": "High",
-      "currency": "EUR"
-    },
-    {
-      "time": "08:45",
-      "day": "THU",
-      "event": "EUR French Industrial Production m/m",
-      "impact": "High",
-      "currency": "EUR"
-    },
-    {
-      "time": "11:00",
-      "day": "THU",
-      "event": "EUR Retail Sales m/m",
-      "impact": "High",
-      "currency": "EUR"
-    },
-    {
-      "time": "11:00",
-      "day": "THU",
-      "event": "EUR Retail Sales y/y",
       "impact": "High",
       "currency": "EUR"
     }
@@ -120,9 +92,7 @@
         "Trump says not much doubt rates will be lowered, Warsh wants cuts"
       ],
       "events": [
-        {"time": "14:30", "day": "WED", "event": "Challenger Job Cuts y/y", "impact": "High"},
-        {"time": "15:30", "day": "WED", "event": "Unemployment Claims", "impact": "High"},
-        {"time": "17:00", "day": "WED", "event": "JOLTS Job Openings", "impact": "High"}
+        {"time": "15:30", "day": "WED", "event": "Unemployment Claims", "impact": "High"}
       ]
     },
     "EUR": {
@@ -137,12 +107,9 @@
         "German Factory Orders ahead Thursday"
       ],
       "events": [
-        {"time": "15:15", "day": "WED", "event": "Main Refinancing Rate", "impact": "Critical"},
-        {"time": "15:15", "day": "WED", "event": "Monetary Policy Statement", "impact": "Critical"},
-        {"time": "15:45", "day": "WED", "event": "ECB Press Conference", "impact": "Critical"},
-        {"time": "08:00", "day": "THU", "event": "German Factory Orders m/m", "impact": "High"},
-        {"time": "08:45", "day": "THU", "event": "French Industrial Production m/m", "impact": "High"},
-        {"time": "11:00", "day": "THU", "event": "Retail Sales m/m", "impact": "High"}
+        {"time": "15:15", "day": "WED", "event": "Main Refinancing Rate", "impact": "High"},
+        {"time": "15:15", "day": "WED", "event": "Monetary Policy Statement", "impact": "High"},
+        {"time": "15:45", "day": "WED", "event": "ECB Press Conference", "impact": "High"}
       ]
     },
     "GBP": {
@@ -157,8 +124,9 @@
         "New Car Sales YoY data ahead today"
       ],
       "events": [
-        {"time": "14:00", "day": "WED", "event": "BoE Monetary Policy Report", "impact": "Critical"},
-        {"time": "14:00", "day": "WED", "event": "BoE Official Bank Rate", "impact": "Critical"},
+        {"time": "14:00", "day": "WED", "event": "BoE Monetary Policy Report", "impact": "High"},
+        {"time": "14:00", "day": "WED", "event": "BoE MPC Official Bank Rate Votes", "impact": "High"},
+        {"time": "14:00", "day": "WED", "event": "BoE Official Bank Rate", "impact": "High"},
         {"time": "14:30", "day": "WED", "event": "BoE Gov Bailey Speaks", "impact": "High"}
       ]
     },
