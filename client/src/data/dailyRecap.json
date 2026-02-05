@@ -11,49 +11,98 @@
       "US-Iran nuclear talks flip-flop creates geopolitical uncertainty—crude volatile (WTI settled +$1.93 at $65.14)",
       "Trump says not much doubt interest rates will be lowered, thinks Warsh wants to cut rates anyway"
     ],
-    "macroContext": "Markets navigate heightened risk-off environment as tech sell-off intensifies (Alphabet -2.0%, ARM -8.6%, Qualcomm -10.3%) and commodities collapse (silver -13%, gold -1.1%). Geopolitical uncertainty escalates with US-Iran nuclear talks flip-flopping—initially cancelled, then back on for Friday in Oman. APAC stocks pressured (Nikkei -0.8%, Shanghai -0.7%, ASX -0.4%) following Wall Street tech rout. European equity futures indicate modest gains (+0.2% Euro Stoxx 50). DXY +0.2% at 97.812 as USD gains against all G10 peers. Treasury futures +2.5 ticks, 10yr yield 4.268%. Key focus today: ECB Policy Announcement (14:15), BoE Policy Announcement (13:00), US Jobless Claims (14:30)."
+    "macroContext": "Markets navigate heightened risk-off environment as tech sell-off intensifies (Alphabet -2.0%, ARM -8.6%, Qualcomm -10.3%) and commodities collapse (silver -13%, gold -1.1%). Geopolitical uncertainty escalates with US-Iran nuclear talks flip-flopping—initially cancelled, then back on for Friday in Oman. APAC stocks pressured (Nikkei -0.8%, Shanghai -0.7%, ASX -0.4%) following Wall Street tech rout. European equity futures indicate modest gains (+0.2% Euro Stoxx 50). DXY +0.2% at 97.812 as USD gains against all G10 peers. Treasury futures +2.5 ticks, 10yr yield 4.268%. Key focus today: ECB Policy Announcement (15:15), BoE Policy Announcement (14:00), US Jobless Claims (15:30)."
   },
   "tradingSummary": "Dollar gains against all G10 peers with EUR the relative outperformer, albeit lower. DXY +0.2% at 97.812, retesting Monday highs. USD/JPY +0.1% at 156.94, EUR/USD -0.2% at 1.1117, GBP/USD -0.2% at 1.3608. Commodities pressured: Silver -13%, Gold -1.1%, LME Copper -0.5%, WTI -2.1%, Brent -2.1% (despite initial rally on US-Iran talk cancellation). APAC stocks mostly lower: Nikkei 225 -0.8%, Hang Seng -0.2%, Shanghai Comp -0.7%, ASX 200 -0.4%. T-note futures +2.5 ticks, US 10yr yield 4.268%, Bund -1 tick, German 10yr yield 2.866%. Crypto pressured: Bitcoin -3.6%, Ethereum -3.3%. Risk sentiment: Risk-Off detected.",
   "redFolderNews": [
     {
-      "day": "THU",
-      "event": "EUR Industrial Production MoM",
-      "impact": "High",
-      "currency": "EUR"
+      "time": "14:00",
+      "day": "WED",
+      "event": "BoE Monetary Policy Report",
+      "impact": "Critical",
+      "currency": "GBP"
     },
     {
-      "day": "THU",
-      "event": "USD Challenger Job Cuts",
+      "time": "14:00",
+      "day": "WED",
+      "event": "BoE Official Bank Rate",
+      "impact": "Critical",
+      "currency": "GBP"
+    },
+    {
+      "time": "14:30",
+      "day": "WED",
+      "event": "BoE Gov Bailey Speaks",
+      "impact": "High",
+      "currency": "GBP"
+    },
+    {
+      "time": "14:30",
+      "day": "WED",
+      "event": "US Challenger Job Cuts y/y",
       "impact": "High",
       "currency": "USD"
     },
     {
-      "day": "THU",
-      "event": "EUR Deposit Facility Rate",
+      "time": "15:15",
+      "day": "WED",
+      "event": "EUR Main Refinancing Rate",
       "impact": "Critical",
       "currency": "EUR"
     },
     {
+      "time": "15:15",
+      "day": "WED",
+      "event": "EUR Monetary Policy Statement",
+      "impact": "Critical",
+      "currency": "EUR"
+    },
+    {
+      "time": "15:30",
+      "day": "WED",
+      "event": "US Unemployment Claims",
+      "impact": "High",
+      "currency": "USD"
+    },
+    {
+      "time": "15:45",
+      "day": "WED",
+      "event": "ECB Press Conference",
+      "impact": "Critical",
+      "currency": "EUR"
+    },
+    {
+      "time": "17:00",
+      "day": "WED",
+      "event": "US JOLTS Job Openings",
+      "impact": "High",
+      "currency": "USD"
+    },
+    {
+      "time": "08:00",
       "day": "THU",
-      "event": "EUR Marginal Lending Rate",
+      "event": "EUR German Factory Orders m/m",
       "impact": "High",
       "currency": "EUR"
     },
     {
-      "day": "FRI",
-      "event": "EUR German Factory Orders MoM",
+      "time": "08:45",
+      "day": "THU",
+      "event": "EUR French Industrial Production m/m",
       "impact": "High",
       "currency": "EUR"
     },
     {
-      "day": "FRI",
-      "event": "EUR Retail Sales MoM",
+      "time": "11:00",
+      "day": "THU",
+      "event": "EUR Retail Sales m/m",
       "impact": "High",
       "currency": "EUR"
     },
     {
-      "day": "FRI",
-      "event": "EUR Retail Sales YoY",
+      "time": "11:00",
+      "day": "THU",
+      "event": "EUR Retail Sales y/y",
       "impact": "High",
       "currency": "EUR"
     }
@@ -71,41 +120,46 @@
         "Trump says not much doubt rates will be lowered, Warsh wants cuts"
       ],
       "events": [
-        {"day": "THU", "event": "Challenger Job Cuts", "impact": "High"},
-        {"day": "THU", "event": "Jobless Claims", "impact": "High"}
+        {"time": "14:30", "day": "WED", "event": "Challenger Job Cuts y/y", "impact": "High"},
+        {"time": "15:30", "day": "WED", "event": "Unemployment Claims", "impact": "High"},
+        {"time": "17:00", "day": "WED", "event": "JOLTS Job Openings", "impact": "High"}
       ]
     },
     "EUR": {
       "bias": "Bearish",
       "tone": "Relative Outperformer",
-      "summary": "EUR weakens but remains relative outperformer among G10. EUR/USD -0.2% at 1.1117. Eurozone inflation data softer (Flash CPI 1.7% vs 2.0% prior, Core 2.2% vs 2.3% prior). ECB policy announcement today (14:15) is key catalyst—Deposit Rate expected at 2%.",
+      "summary": "EUR weakens but remains relative outperformer among G10. EUR/USD -0.2% at 1.1117. Eurozone inflation data softer (Flash CPI 1.7% vs 2.0% prior, Core 2.2% vs 2.3% prior). ECB policy announcement today (15:15) is key catalyst—Main Refinancing Rate expected at 2.15%.",
       "drivers": ["Weaker vs USD", "ECB policy ahead", "Inflation data softer", "Relative strength vs peers"],
       "headlines": [
         "EUR/USD -0.2% at 1.1117, relative G10 outperformer",
-        "ECB policy announcement today 14:15—Deposit Rate exp 2%",
+        "ECB policy announcement today 15:15—Main Refinancing Rate exp 2.15%",
         "Flash CPI 1.7% vs 2.0% prior, Core 2.2% vs 2.3% prior",
-        "German Factory Orders ahead Friday"
+        "German Factory Orders ahead Thursday"
       ],
       "events": [
-        {"day": "THU", "event": "Industrial Production MoM", "impact": "High"},
-        {"day": "THU", "event": "ECB Deposit Facility Rate", "impact": "Critical"},
-        {"day": "FRI", "event": "German Factory Orders MoM", "impact": "High"}
+        {"time": "15:15", "day": "WED", "event": "Main Refinancing Rate", "impact": "Critical"},
+        {"time": "15:15", "day": "WED", "event": "Monetary Policy Statement", "impact": "Critical"},
+        {"time": "15:45", "day": "WED", "event": "ECB Press Conference", "impact": "Critical"},
+        {"time": "08:00", "day": "THU", "event": "German Factory Orders m/m", "impact": "High"},
+        {"time": "08:45", "day": "THU", "event": "French Industrial Production m/m", "impact": "High"},
+        {"time": "11:00", "day": "THU", "event": "Retail Sales m/m", "impact": "High"}
       ]
     },
     "GBP": {
       "bias": "Bearish",
       "tone": "BoE-Driven",
-      "summary": "GBP under pressure ahead of BoE policy announcement. GBP/USD -0.2% at 1.3608. BoE expected to hold rates at 3.75% with MPC vote split (7 unchanged, 2 cuts). BoE MPR and Bailey speech (13:30) are key risk events today.",
+      "summary": "GBP under pressure ahead of BoE policy announcement. GBP/USD -0.2% at 1.3608. BoE expected to hold rates at 3.75% with MPC vote split (7 unchanged, 2 cuts). BoE MPR and Bailey speech (14:30) are key risk events today.",
       "drivers": ["BoE policy ahead", "USD strength", "Rate hold expected", "MPC vote split"],
       "headlines": [
         "GBP/USD -0.2% at 1.3608 ahead of BoE decision",
         "BoE expected to hold at 3.75%, MPC split 7-2",
-        "BoE Policy Announcement 13:00, Bailey speech 13:30",
+        "BoE Policy Announcement 14:00, Bailey speech 14:30",
         "New Car Sales YoY data ahead today"
       ],
       "events": [
-        {"day": "WED", "event": "BoE Policy Announcement & MPR", "impact": "Critical"},
-        {"day": "WED", "event": "BoE's Bailey Press Conference", "impact": "High"}
+        {"time": "14:00", "day": "WED", "event": "BoE Monetary Policy Report", "impact": "Critical"},
+        {"time": "14:00", "day": "WED", "event": "BoE Official Bank Rate", "impact": "Critical"},
+        {"time": "14:30", "day": "WED", "event": "BoE Gov Bailey Speaks", "impact": "High"}
       ]
     },
     "JPY": {

@@ -27,3 +27,6 @@
 - [x] Create dashboard restoration guide for new Manus accounts
 - [x] Create complete ZIP backup of Weekly Bias Dashboard project
 - [x] Daily Recap Update: Scrape PMT Headlines (3 wrap-reports with + button), Calendar (Red Folder News), rebuild dailyRecap.json
+- [x] Update workflow documentation: Change Red Folder News source from PMT Calendar to Forex Factory Calendar (https://www.forexfactory.com/calendar?week=this)
+- [x] Scrape Forex Factory Calendar for Red Folder News (High/Critical impact only, future events only)
+- [x] Update dailyRecap.json with fresh Red Folder News including Frankfurt Time (HH:MM format)
