@@ -1,199 +1,177 @@
 {
-  "date": "Wednesday, February 5, 2026",
+  "date": "Thursday, February 6, 2026",
   "lastUpdate": "07:00 Frankfurt Time",
   "marketFocus": {
-    "riskEnvironment": "Risk-Off",
-    "focus": "Tech Sell-Off Continues, Silver Plunges, US-Iran Geopolitical Uncertainty",
-    "volatility": "Elevated",
+    "riskEnvironment": "Risk-Off Recovery",
+    "focus": "Tech Sell-Off Stabilizes, Silver Rebounds from 9% Plunge, Central Banks Cut Rates",
+    "volatility": "Elevated but Stabilizing",
     "headlines": [
-      "Tech sell-off continues with semiconductors under pressure (AMD -10.3%, ARM -8.6%, Qualcomm -10.3%)",
-      "Silver plunges double-digits (-13%), commodities broadly pressured overnight with spot gold -1.1%",
-      "US-Iran nuclear talks flip-flop creates geopolitical uncertainty—crude volatile (WTI settled +$1.93 at $65.14)",
-      "Trump says not much doubt interest rates will be lowered, thinks Warsh wants to cut rates anyway"
+      "Asia-Pac stocks trade mixed after early sell-off stabilizes, tech valuations questioned but losses contained",
+      "Silver rebounds from 9% plunge, precious metals claw back losses (spot silver nearly flat, gold recovers)",
+      "Central banks cut rates: BoE 25bp (dovish 7-2 split), ECB 25bp (unanimous), GBP lags on dovish signal"
     ],
-    "macroContext": "Markets navigate heightened risk-off environment as tech sell-off intensifies (Alphabet -2.0%, ARM -8.6%, Qualcomm -10.3%) and commodities collapse (silver -13%, gold -1.1%). Geopolitical uncertainty escalates with US-Iran nuclear talks flip-flopping—initially cancelled, then back on for Friday in Oman. APAC stocks pressured (Nikkei -0.8%, Shanghai -0.7%, ASX -0.4%) following Wall Street tech rout. European equity futures indicate modest gains (+0.2% Euro Stoxx 50). DXY +0.2% at 97.812 as USD gains against all G10 peers. Treasury futures +2.5 ticks, 10yr yield 4.268%. Key focus today: ECB Policy Announcement (15:15), BoE Policy Announcement (14:00), US Jobless Claims (15:30)."
+    "macroContext": "Markets stabilize after Wednesday's tech rout and silver plunge. Asia-Pac stocks trade mixed as early sell-off gradually contained (Emini S&P -1.0%, Nasdaq -1.7% at session lows but recovering). Precious metals rebound: silver nearly flat after 9% dip, gold claws back from -2.4% retreat. Central banks delivered expected 25bp cuts—BoE dovish split (2 members voted 50bp) weighs on GBP, ECB unanimous decision supports EUR stability. USD holds haven gains (DXY rangebound after gaining on haven appeal), Treasury yields fell on weak US labour data (JOLTs 6.542M vs exp. 7.2M). Geopolitical tensions persist (US-Iran missile deployment, fleet positioning). Focus shifts to Friday's Canadian jobs data (Employment Change exp. 5.2K, Unemployment Rate exp. 6.8%) and US consumer sentiment (Prelim UoM exp. 55.0)."
   },
-  "tradingSummary": "Dollar gains against all G10 peers with EUR the relative outperformer, albeit lower. DXY +0.2% at 97.812, retesting Monday highs. USD/JPY +0.1% at 156.94, EUR/USD -0.2% at 1.1117, GBP/USD -0.2% at 1.3608. Commodities pressured: Silver -13%, Gold -1.1%, LME Copper -0.5%, WTI -2.1%, Brent -2.1% (despite initial rally on US-Iran talk cancellation). APAC stocks mostly lower: Nikkei 225 -0.8%, Hang Seng -0.2%, Shanghai Comp -0.7%, ASX 200 -0.4%. T-note futures +2.5 ticks, US 10yr yield 4.268%, Bund -1 tick, German 10yr yield 2.866%. Crypto pressured: Bitcoin -3.6%, Ethereum -3.3%. Risk sentiment: Risk-Off detected.",
+  "tradingSummary": "USD holds haven premium with DXY rangebound after gaining yesterday. GBP weakest G10 currency after dovish BoE split (7-2 vote, 2 members wanted 50bp cut). EUR stable post-ECB 25bp cut (unanimous). Commodities rebound: Silver nearly flat after 9% plunge, Gold recovers from -2.4% retreat. Asia-Pac stocks mixed: early sell-off stabilizes (Emini S&P -1.0%, Nasdaq -1.7% at lows but recovering). T-note futures hold gains after bull steepening on disappointing labour metrics. Risk sentiment: Risk-Off Recovery detected. Key levels: EUR/USD 1.0350 support, GBP/USD 1.2450 support (dovish BoE), USD/JPY 148.50-150.00 range, AUD/USD 0.6250 support (commodity weakness).",
   "redFolderNews": [
     {
-      "time": "14:00",
-      "day": "WED",
-      "event": "BoE Monetary Policy Report",
+      "time": "09:30",
+      "day": "FRI",
+      "event": "CAD Employment Change",
       "impact": "High",
-      "currency": "GBP"
+      "currency": "CAD"
     },
     {
-      "time": "14:00",
-      "day": "WED",
-      "event": "BoE Monetary Policy Summary",
+      "time": "09:30",
+      "day": "FRI",
+      "event": "CAD Unemployment Rate",
       "impact": "High",
-      "currency": "GBP"
+      "currency": "CAD"
     },
     {
-      "time": "14:00",
-      "day": "WED",
-      "event": "BoE MPC Official Bank Rate Votes",
+      "time": "12:00",
+      "day": "FRI",
+      "event": "CAD Ivey PMI",
       "impact": "High",
-      "currency": "GBP"
+      "currency": "CAD"
     },
     {
-      "time": "14:00",
-      "day": "WED",
-      "event": "BoE Official Bank Rate",
-      "impact": "High",
-      "currency": "GBP"
-    },
-    {
-      "time": "14:30",
-      "day": "WED",
-      "event": "BoE Gov Bailey Speaks",
-      "impact": "High",
-      "currency": "GBP"
-    },
-    {
-      "time": "15:15",
-      "day": "WED",
-      "event": "EUR Main Refinancing Rate",
-      "impact": "High",
-      "currency": "EUR"
-    },
-    {
-      "time": "15:15",
-      "day": "WED",
-      "event": "EUR Monetary Policy Statement",
-      "impact": "High",
-      "currency": "EUR"
-    },
-    {
-      "time": "15:30",
-      "day": "WED",
-      "event": "US Unemployment Claims",
+      "time": "12:00",
+      "day": "FRI",
+      "event": "US Prelim UoM Consumer Sentiment",
       "impact": "High",
       "currency": "USD"
     },
     {
-      "time": "15:45",
-      "day": "WED",
-      "event": "ECB Press Conference",
+      "time": "12:00",
+      "day": "FRI",
+      "event": "US Prelim UoM Inflation Expectations",
       "impact": "High",
-      "currency": "EUR"
+      "currency": "USD"
     }
   ],
   "currencies": {
     "USD": {
       "bias": "Bullish",
-      "tone": "Broad Strength",
-      "summary": "USD gains against all G10 peers as DXY retests Monday highs near 97.81. ISM Services topped forecasts at 53.8 but ADP employment missed. Geopolitical uncertainty around US-Iran talks supports safe-haven bid. All G10 FX in red vs USD.",
-      "drivers": ["ISM Services beat (53.8 vs 53.5)", "Geopolitical uncertainty", "Safe-haven flows", "DXY retest highs"],
+      "tone": "Haven Premium Intact",
+      "summary": "USD maintains YTD rebound on safe-haven demand amid tech sell-off and weak US labour data (JOLTs 6.542M vs exp. 7.2M). Treasury yields fell on disappointing labour metrics, but dollar rangebound after gaining on haven appeal. DXY holds gains as all G10 FX trade softer vs USD. Focus shifts to Friday's US UoM Consumer Sentiment (exp. 55.0) and Canadian jobs data.",
+      "drivers": ["Safe-haven demand", "Weak US labour data", "Tech sell-off", "Treasury yields fall"],
       "headlines": [
-        "DXY +0.2% at 97.812, retesting Monday highs",
-        "All G10 currencies lower vs USD despite mixed data",
-        "ISM Services PMI 53.8 vs exp 53.5, ADP Employment missed",
-        "Trump says not much doubt rates will be lowered, Warsh wants cuts"
+        "US JOLTs Job Openings (Dec) 6.542M vs Exp. 7.2M - weak labour market data",
+        "T-note futures hold gains after bull steepening on disappointing labour market metrics",
+        "Dollar rangebound after gaining yesterday on haven appeal, DXY holds YTD rebound",
+        "Amazon shares dropped ~10% post-earnings on bottom line miss, elevated capex guidance"
       ],
       "events": [
-        {"time": "15:30", "day": "WED", "event": "Unemployment Claims", "impact": "High"}
+        {"time": "12:00", "day": "FRI", "event": "Prelim UoM Consumer Sentiment", "impact": "High"},
+        {"time": "12:00", "day": "FRI", "event": "Prelim UoM Inflation Expectations", "impact": "High"}
       ]
     },
     "EUR": {
-      "bias": "Bearish",
-      "tone": "Relative Outperformer",
-      "summary": "EUR weakens but remains relative outperformer among G10. EUR/USD -0.2% at 1.1117. Eurozone inflation data softer (Flash CPI 1.7% vs 2.0% prior, Core 2.2% vs 2.3% prior). ECB policy announcement today (15:15) is key catalyst—Main Refinancing Rate expected at 2.15%.",
-      "drivers": ["Weaker vs USD", "ECB policy ahead", "Inflation data softer", "Relative strength vs peers"],
+      "bias": "Neutral",
+      "tone": "ECB Cut Priced In",
+      "summary": "EUR little changed after ECB cut rates by 25bp as expected (unanimous decision). Lagarde says inflation path on track to target, medium-term inflation at 2% in 2027-2028. EUR trading marginally lower vs USD but stable vs other G10 currencies. Market focus on Friday's German Industrial Production and French Trade Balance data.",
+      "drivers": ["ECB 25bp rate cut", "Inflation on track to target", "Weak Eurozone data", "Stable vs G10"],
       "headlines": [
-        "EUR/USD -0.2% at 1.1117, relative G10 outperformer",
-        "ECB policy announcement today 15:15—Main Refinancing Rate exp 2.15%",
-        "Flash CPI 1.7% vs 2.0% prior, Core 2.2% vs 2.3% prior",
-        "German Factory Orders ahead Thursday"
+        "ECB cut rates by 25bp as expected, unanimous decision, Lagarde says inflation path on track",
+        "ECB President Lagarde: Medium-term inflation at 2% in 2027-2028, risks broadly balanced",
+        "EUR little changed by ECB meeting, trading marginally lower vs USD but holding steady",
+        "Focus on Friday's German Industrial Production and French Trade Balance"
       ],
-      "events": [
-        {"time": "15:15", "day": "WED", "event": "Main Refinancing Rate", "impact": "High"},
-        {"time": "15:15", "day": "WED", "event": "Monetary Policy Statement", "impact": "High"},
-        {"time": "15:45", "day": "WED", "event": "ECB Press Conference", "impact": "High"}
-      ]
+      "events": []
     },
     "GBP": {
       "bias": "Bearish",
-      "tone": "BoE-Driven",
-      "summary": "GBP under pressure ahead of BoE policy announcement. GBP/USD -0.2% at 1.3608. BoE expected to hold rates at 3.75% with MPC vote split (7 unchanged, 2 cuts). BoE MPR and Bailey speech (14:30) are key risk events today.",
-      "drivers": ["BoE policy ahead", "USD strength", "Rate hold expected", "MPC vote split"],
+      "tone": "Dovish BoE Split",
+      "summary": "GBP lags after dovish BoE vote split (7-2 for 25bp cut, 2 members voted for 50bp cut). Market interprets split as signal for more aggressive easing ahead. Bailey says MPC exercising judgement on monpol course, mortgage market a key consideration. Political uncertainty adds pressure (Labour MPs urging leadership challenge vs Starmer). GBP weakest G10 currency vs USD.",
+      "drivers": ["Dovish BoE split", "Political uncertainty", "Mortgage market concerns", "Weakest G10 vs USD"],
       "headlines": [
-        "GBP/USD -0.2% at 1.3608 ahead of BoE decision",
-        "BoE expected to hold at 3.75%, MPC split 7-2",
-        "BoE Policy Announcement 14:00, Bailey speech 14:30",
-        "New Car Sales YoY data ahead today"
+        "BoE cut rates by 25bp (7-2 vote), 2 members voted for 50bp cut - dovish split weighs on GBP",
+        "BoE Governor Bailey: MPC exercising judgement on monpol course, mortgage market key consideration",
+        "UK Labour MPs urging leadership challenge against Sir Keir Starmer over Lord Mandelson scandal",
+        "GBP lags after dovish BoE vote split, weakest G10 currency vs USD on Thursday"
       ],
-      "events": [
-        {"time": "14:00", "day": "WED", "event": "BoE Monetary Policy Report", "impact": "High"},
-        {"time": "14:00", "day": "WED", "event": "BoE MPC Official Bank Rate Votes", "impact": "High"},
-        {"time": "14:00", "day": "WED", "event": "BoE Official Bank Rate", "impact": "High"},
-        {"time": "14:30", "day": "WED", "event": "BoE Gov Bailey Speaks", "impact": "High"}
-      ]
+      "events": []
     },
     "JPY": {
       "bias": "Mixed",
       "tone": "Range-Bound",
-      "summary": "JPY rangebound despite risk-off environment. USD/JPY +0.1% at 156.94. Safe-haven flows offset by BoJ policy uncertainty and weak Nikkei (-0.8%). JGB auction completed with improved bid-to-cover ratio (3.64x vs 3.14x prior). Trump comments on rate cuts add uncertainty.",
-      "drivers": ["Risk-off muted", "BoJ uncertainty", "JGB auction", "Nikkei weakness"],
+      "summary": "JPY mixed as safe-haven demand competes with risk-off rebound. BoJ's Masu says central bank not behind the curve, monitoring FX impact on inflation. JPY underperforms vs USD but gains vs risk currencies (AUD, NZD). T-note futures hold gains after bull steepening, supporting JPY. Focus on Friday's Japan Household Spending data (exp. -2.6% y/y).",
+      "drivers": ["Safe-haven flows", "BoJ monitoring FX impact", "Risk-off rebound", "Underperforms vs USD"],
       "headlines": [
-        "USD/JPY +0.1% at 156.94, rangebound despite risk-off",
-        "Japan sells JPY 525bln 30-yr JGBs, b/c 3.64x (prev 3.14x)",
-        "Nikkei 225 -0.8% on tech sell-off spillover",
-        "Trump says Warsh wants to cut rates anyway"
+        "BoJ's Masu says central bank not behind the curve, monitoring FX impact on inflation",
+        "BoJ closely watching FX market moves and their impact on economy and prices, appropriate rate hike needed",
+        "JPY mixed, underperforms vs USD but gains vs risk currencies as risk sentiment stabilizes",
+        "Focus on Friday's Japan Household Spending (exp. -2.6% y/y)"
       ],
       "events": []
     },
     "AUD": {
-      "bias": "Bearish",
-      "tone": "RBA Dovish Fade",
-      "summary": "AUD pressured after RBA held rates at 3.85% as expected but signaled dovish tilt. Building Permits -14.9% MoM (exp -5.7%) adds to weakness. Trade Balance beat at 3.37B but fails to support. ASX -0.4%, commodities weak (gold -1.1%, copper -0.5%).",
-      "drivers": ["RBA dovish hold", "Building Permits collapse", "Commodities weak", "Risk-off Asia"],
+      "bias": "Mixed",
+      "tone": "RBA Hawkish Stance",
+      "summary": "AUD mixed as RBA Governor Bullock says Board not happy with inflation prospects, but risk-off rebound supports. RBA held rates at 3.85% (Feb 3), maintaining hawkish stance. Commodity price weakness (silver -9%, gold -2.4%) weighs on AUD. Asia-Pac stocks trade mixed after early sell-off stabilized. Focus on Friday's RBA Gov Bullock speech.",
+      "drivers": ["RBA hawkish stance", "Commodity price weakness", "Risk-off rebound", "Asia-Pac mixed"],
       "headlines": [
-        "RBA holds at 3.85%, dovish tilt pressures AUD",
-        "Building Permits -14.9% MoM vs exp -5.7%",
-        "Trade Balance 3.37B vs exp 3.325B—fails to support",
-        "ASX 200 -0.4%, commodities pressured"
+        "RBA Governor Bullock says Board not happy with inflation, monitoring closely extent of persistent inflation",
+        "Asia-Pac stocks trade mixed after early sell-off gradually stabilised, losses contained",
+        "Commodity price weakness (silver -9%, gold -2.4%) weighs on AUD despite RBA hawkish stance",
+        "Focus on Friday's RBA Gov Bullock speech"
       ],
       "events": []
     },
     "CAD": {
-      "bias": "Bearish",
-      "tone": "Crude-Linked Weakness",
-      "summary": "CAD weakens as crude oil drops -2.1% (WTI $65.14, Brent $69.46) despite initial rally on US-Iran talk cancellation. Flip-flopping geopolitics create two-way volatility. No major CAD data today, crude correlation dominates. S&P Global Manufacturing PMI 50.4 (prev 48.6) shows expansion.",
-      "drivers": ["Crude -2.1%", "Geopolitical whipsaw", "USD strength", "Risk-off commodities"],
+      "bias": "Neutral",
+      "tone": "Data-Dependent",
+      "summary": "CAD steady ahead of Friday's Employment Change (exp. 5.2K) and Unemployment Rate (exp. 6.8%). BoC Governor Macklem says restructuring Canadian economy to cope with US tariffs will take years and could be painful. Oil prices stable (WTI ~USD 63/bbl) after settling lower on Wednesday. Focus on Friday's Canadian jobs data and Ivey PMI (exp. 49.7).",
+      "drivers": ["Canadian jobs data ahead", "US tariff concerns", "Oil price stability", "BoC cautious"],
       "headlines": [
-        "WTI -2.1%, Brent -2.1% despite US-Iran talk uncertainty",
-        "CAD pressured by crude weakness and USD strength",
-        "US-Iran talks flip-flop: cancelled, then back on for Friday",
-        "S&P Global Manufacturing PMI 50.4 vs prev 48.6"
+        "BoC Governor Macklem: Restructuring Canadian economy to cope with US tariffs will take years, could be painful",
+        "Focus on Friday's CAD Employment Change (exp. 5.2K) and Unemployment Rate (exp. 6.8%)",
+        "CAD steady ahead of Friday's jobs data, oil prices stable (WTI ~USD 63/bbl)",
+        "Friday's CAD Ivey PMI (exp. 49.7) also in focus"
       ],
-      "events": []
+      "events": [
+        {"time": "09:30", "day": "FRI", "event": "Employment Change", "impact": "High"},
+        {"time": "09:30", "day": "FRI", "event": "Unemployment Rate", "impact": "High"},
+        {"time": "12:00", "day": "FRI", "event": "Ivey PMI", "impact": "High"}
+      ]
     },
     "CHF": {
       "bias": "Neutral",
-      "tone": "Safe-Haven Muted",
-      "summary": "CHF fails to capitalize on risk-off environment as USD dominates safe-haven flows. Retail Sales data beat (YoY 2.9% vs exp 2.5%, MoM 1.0%) but fails to provide support. procure.ch Manufacturing PMI improved to 48.8 (prev 46.4) but remains contractionary.",
-      "drivers": ["USD safe-haven dominance", "Retail Sales beat", "PMI improvement", "Risk-off muted"],
+      "tone": "Safe-Haven Bid",
+      "summary": "CHF steady as safe-haven demand supports amid tech sell-off and risk-off sentiment. SNB rate at 0.00%, no policy changes expected near-term. CHF gains vs risk currencies (AUD, NZD) but lags vs USD. Focus on Friday's CHF Foreign Currency Reserves and Unemployment Rate data.",
+      "drivers": ["Safe-haven demand", "Risk-off sentiment", "SNB policy steady", "Gains vs risk FX"],
       "headlines": [
-        "CHF fails to gain despite risk-off, USD dominates safe-haven flows",
-        "Swiss Retail Sales YoY 2.9% vs exp 2.5%, MoM 1.0%",
-        "procure.ch Manufacturing PMI 48.8 vs prev 46.4",
-        "Gold -1.1%, silver -13%—commodities pressured"
+        "CHF gains vs risk currencies amid tech sell-off and risk-off sentiment, lags vs USD",
+        "SNB rate at 0.00%, no policy changes expected near-term, CHF safe-haven bid intact",
+        "Focus on Friday's CHF Foreign Currency Reserves and Unemployment Rate",
+        "CHF steady, safe-haven bid supports but lags vs USD on haven appeal"
       ],
       "events": []
     },
     "NZD": {
       "bias": "Bearish",
-      "tone": "Labour Market Weakness",
-      "summary": "NZD under pressure after mixed labour data. Unemployment Rate rose to 5.4% (exp 5.3%), Employment Change +0.5% QoQ beat expectations but Labour Cost Index missed at 2.0% YoY (exp 2.1%). Building Permits -4.6% MoM adds to weakness. Risk-off Asia weighs, Participation Rate 70.5%.",
-      "drivers": ["Unemployment 5.4%", "Labour costs miss", "Building Permits weak", "Risk-off Asia"],
+      "tone": "Risk-Off Pressure",
+      "summary": "NZD weakest among commodity currencies as risk-off sentiment and commodity price weakness weigh. Silver plunge (-9% to -13%) and gold retreat (-2.4%) pressure NZD. NZ Bank Holiday on Friday limits trading activity. RBNZ rate at 2.25%, market expects further easing. NZD underperforms vs all G10 currencies.",
+      "drivers": ["Commodity price weakness", "Risk-off sentiment", "RBNZ easing expectations", "Weakest commodity FX"],
       "headlines": [
-        "NZD Unemployment Rate rises to 5.4% vs exp 5.3%",
-        "Building Permits -4.6% MoM, labour market mixed",
-        "Employment Change +0.5% QoQ vs exp 0.3%—beats",
-        "Labour Cost Index 2.0% YoY vs exp 2.1%—misses"
+        "Silver plunge (-9% to -13% from recent highs) pressures NZD heavily, gold retreat (-2.4%)",
+        "NZ Bank Holiday on Friday limits trading activity, RBNZ rate at 2.25%",
+        "NZD weakest commodity currency, silver plunge and risk-off sentiment weigh heavily",
+        "NZD underperforms vs all G10 currencies, market expects further RBNZ easing"
       ],
       "events": []
     }
-  }
+  },
+  "volatility": {
+    "level": "Elevated but Stabilizing",
+    "drivers": ["Tech sell-off stabilizing", "Silver rebound from 9% plunge", "Weak US labour data", "Central bank rate cuts"],
+    "outlook": "Volatility remains elevated but stabilizing as Asia-Pac stocks trade mixed after early sell-off. Silver rebounds from 9% dip, precious metals claw back losses. Central banks (BoE, ECB) cut rates by 25bp as expected, but dovish BoE split adds uncertainty. Focus shifts to Friday's Canadian jobs data and US consumer sentiment."
+  },
+  "macroContext": {
+    "theme": "Risk-Off Recovery",
+    "narrative": "Markets stabilize after Wednesday's tech sell-off and silver plunge. Asia-Pac stocks trade mixed as early losses contained. Precious metals rebound from lows (silver nearly flat after 9% dip, gold recovers from -2.4% retreat). Central banks (BoE, ECB) cut rates by 25bp, but dovish BoE split (2 members voted 50bp) weighs on GBP. USD holds haven gains, Treasury yields fell on weak US labour data (JOLTs 6.542M vs exp. 7.2M). Geopolitical tensions persist (US-Iran missile deployment, fleet positioning). Focus shifts to Friday's Canadian jobs data (Employment Change exp. 5.2K, Unemployment Rate exp. 6.8%) and US consumer sentiment (Prelim UoM exp. 55.0).",
+    "keyRisks": ["Tech valuation concerns persist", "Weak US labour market", "Geopolitical tensions (US-Iran)", "Dovish central bank signals (BoE split)"]
+  },
+  "tradingSummary": "USD holds haven premium with DXY rangebound after gaining yesterday. GBP weakest G10 currency after dovish BoE split (7-2 vote, 2 members wanted 50bp cut). EUR stable post-ECB 25bp cut (unanimous). Commodities rebound: Silver nearly flat after 9% plunge, Gold recovers from -2.4% retreat. Asia-Pac stocks mixed: early sell-off stabilizes (Emini S&P -1.0%, Nasdaq -1.7% at lows but recovering). T-note futures hold gains after bull steepening on disappointing labour metrics. Risk sentiment: Risk-Off Recovery detected. Key levels: EUR/USD 1.0350 support, GBP/USD 1.2450 support (dovish BoE), USD/JPY 148.50-150.00 range, AUD/USD 0.6250 support (commodity weakness). Outlook: Risk sentiment stabilizing but cautious ahead of Friday's Canadian jobs data (Employment Change exp. 5.2K, Unemployment Rate exp. 6.8%) and US consumer sentiment (Prelim UoM exp. 55.0). Tech sell-off stabilizes, silver rebounds from 9% plunge. USD holds haven premium, GBP lags on dovish BoE split."
 }
