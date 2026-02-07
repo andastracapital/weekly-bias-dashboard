@@ -47,3 +47,4 @@
 - [x] Daily Recap Update (Feb 6, 2026) - SKILL TEST: Scrape PMT Headlines (3 wrap-reports), Forex Factory Calendar, rebuild dailyRecap.json
 - [x] Update daily-recap-update skill: Replace PMT Analyst Reports with PMT Headlines Dashboard (template=headlines), document + button click workflow, keep Forex Factory Calendar for Red Folder News
 - [x] Add Headlines Context step to workflow: Scroll through last 24h headlines (NO clicking/expanding), save 5-10 key headlines as context for Daily Bias picture
+- [x] Update Project Instructions: Replace PMT Analyst Reports references with PMT Headlines Dashboard workflow (3 wrap-reports + Headlines context step)
