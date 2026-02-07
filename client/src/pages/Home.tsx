@@ -441,20 +441,20 @@ export default function Home() {
               <div className="flex flex-col gap-1 md:col-span-2">
                 <span className="text-[10px] text-gray-500 uppercase tracking-wider font-bold">Focus</span>
                 <span className="text-sm font-bold text-white font-mono truncate">
-                  {dailyData.marketFocus.focus || "Key Market Drivers"}
+                  {dailyData.marketFocus.headlines[0] || "Key Market Drivers"}
                 </span>
               </div>
 
-              {/* Volatility & Next Update */}
-              <div className="flex justify-between md:justify-end gap-8">
-                <div className="flex flex-col gap-1">
-                  <span className="text-[10px] text-gray-500 uppercase tracking-wider font-bold">Volatility</span>
+              {/* Risk Environment & Next Update */}
+              <div className="flex justify-between md:justify-end gap-6">
+                <div className="flex flex-col gap-1 text-right">
+                  <span className="text-[10px] text-gray-500 uppercase tracking-wider font-bold">Risk Environment</span>
                   <span className={`text-sm font-bold font-mono ${
-                    dailyData.marketFocus.volatility === "ELEVATED" ? "text-red-500" :
-                    dailyData.marketFocus.volatility === "HIGH" ? "text-orange-500" :
+                    dailyData.marketFocus.riskEnvironment.includes("Risk-Off") ? "text-red-500" :
+                    dailyData.marketFocus.riskEnvironment.includes("Mixed") ? "text-orange-500" :
                     "text-green-500"
                   }`}>
-                    {dailyData.marketFocus.volatility || "NORMAL"}
+                    {dailyData.marketFocus.riskEnvironment}
                   </span>
                 </div>
                 <div className="flex flex-col gap-1 text-right">
@@ -476,7 +476,7 @@ export default function Home() {
                     Market Overview
                   </h3>
                   <p className="text-sm text-gray-300 font-mono leading-relaxed">
-                    {dailyData.marketFocus.macroContext}
+                    {dailyData.marketFocus.headlines.join(" • ")}
                   </p>
                 </div>
 
@@ -496,10 +496,10 @@ export default function Home() {
                   </div>
                   <div className="bg-[#121212] border border-gray-800 p-4">
                     <h4 className="text-[10px] font-bold text-gray-500 uppercase tracking-widest mb-3 border-b border-gray-800 pb-2">
-                      Trading Summary
+                      Risk Environment
                     </h4>
                     <p className="text-[11px] text-gray-300 font-mono leading-relaxed">
-                      {dailyData.tradingSummary}
+                      {dailyData.marketFocus.riskEnvironment}: {dailyData.marketFocus.headlines[0]}
                     </p>
                   </div>
                 </div>

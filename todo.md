@@ -37,3 +37,11 @@
 =======
 >>>>>>> Stashed changes
 - [x] Daily Recap Update (Feb 6, 2026): Scrape PMT Headlines (3 wrap-reports), Forex Factory Calendar (red icons only), rebuild dailyRecap.json
+- [ ] FIX: Re-scrape PMT wrap-reports with FULL CONTENT (not just titles/snippets) - Asia-Pac (Feb 6), US Market/US FX/European (Feb 5)
+- [ ] Rebuild dailyRecap.json with complete wrap-report content (full articles, not summaries)
+- [ ] Update workflow documentation: Add explicit instructions to extract FULL article content, not just titles
+- [ ] Update daily-recap-update skill: Add validation step to ensure full content extraction before proceeding
+- [x] Improve Daily Recap Update workflow documentation with detailed PMT scraping instructions (how to find + button, expand articles, extract full content)
+- [x] Update Daily Recap Update workflow: Replace PMT Headlines wrap-reports with PMT Analyst Reports (Asia Opening Preparation, US Session Recap, London Session Recap) + add Headlines context step
+- [x] Create Daily Recap Update skill using skill-creator
+- [x] Daily Recap Update (Feb 6, 2026) - SKILL TEST: Scrape PMT Headlines (3 wrap-reports), Forex Factory Calendar, rebuild dailyRecap.json
