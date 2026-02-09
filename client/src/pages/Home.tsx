@@ -495,7 +495,7 @@ export default function Home() {
                     // Display top 6 pairs
                     return swingPairs.slice(0, 6).map((trade: any, i: number) => (
                       <div key={i} className="bg-black/40 border border-gray-800 p-3 hover:border-orange-500/50 transition-all group">
-                        <div className="flex items-center justify-between mb-2">
+                        <div className="flex items-center justify-between">
                           <span className="text-sm font-bold text-white font-mono">{trade.pair}</span>
                           <span className={`px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider ${
                             trade.direction === "LONG" 
@@ -504,11 +504,6 @@ export default function Home() {
                           }`}>
                             {trade.direction}
                           </span>
-                        </div>
-                        <div className="flex items-center gap-2 text-[10px] text-gray-400 font-mono">
-                          <span className="text-orange-400">{trade.strong}</span>
-                          <ArrowRight className="w-3 h-3" />
-                          <span className="text-red-400">{trade.weak}</span>
                         </div>
                       </div>
                     ));
