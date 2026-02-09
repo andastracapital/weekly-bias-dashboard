@@ -446,8 +446,78 @@ export default function Home() {
                   Market Overview
                 </h3>
                 <p className="text-sm text-gray-300 font-mono leading-relaxed">
-                  Global markets are navigating a complex landscape of geopolitical tension and shifting monetary policy expectations. Key focus remains on US economic data and central bank rhetoric.
+                  Global markets navigating complex landscape of geopolitical tension and shifting monetary policy expectations. Key focus remains on US economic data and central bank rhetoric.
                 </p>
+              </div>
+            </div>
+
+            {/* Right: Swing Watchlist */}
+            <div className="lg:col-span-1">
+              <div className="bg-[#121212] border border-gray-800 p-5 relative overflow-hidden h-full">
+                <div className="absolute top-0 left-0 w-1 h-full bg-orange-500"></div>
+                <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+                  <Zap className="w-4 h-4 text-orange-500" />
+                  Swing Watchlist
+                </h3>
+                <div className="space-y-3">
+                  {(() => {
+                    // Identify Strong (Bullish) and Weak (Bearish) currencies
+                    const strongCurrencies = weeklyData.currencies
+                      .filter((c: any) => c.bias.includes("Bullish"))
+                      .map((c: any) => c.code);
+                    const weakCurrencies = weeklyData.currencies
+                      .filter((c: any) => c.bias.includes("Bearish"))
+                      .map((c: any) => c.code);
+
+                    // FX Pair Convention Priority (Base > Quote)
+                    const fxPriority: { [key: string]: number } = {
+                      "EUR": 1, "GBP": 2, "AUD": 3, "NZD": 4,
+                      "USD": 5, "CAD": 6, "CHF": 7, "JPY": 8
+                    };
+
+                    const getConventionalPair = (strong: string, weak: string) => {
+                      if (fxPriority[strong] < fxPriority[weak]) {
+                        return { pair: `${strong}/${weak}`, direction: "LONG" };
+                      } else {
+                        return { pair: `${weak}/${strong}`, direction: "SHORT" };
+                      }
+                    };
+
+                    // Generate all Strong vs Weak pairs
+                    const swingPairs = [];
+                    for (const strong of strongCurrencies) {
+                      for (const weak of weakCurrencies) {
+                        const { pair, direction } = getConventionalPair(strong, weak);
+                        swingPairs.push({ pair, direction, strong, weak });
+                      }
+                    }
+
+                    // Display top 6 pairs
+                    return swingPairs.slice(0, 6).map((trade: any, i: number) => (
+                      <div key={i} className="bg-black/40 border border-gray-800 p-3 hover:border-orange-500/50 transition-all group">
+                        <div className="flex items-center justify-between mb-2">
+                          <span className="text-sm font-bold text-white font-mono">{trade.pair}</span>
+                          <span className={`px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider ${
+                            trade.direction === "LONG" 
+                              ? "bg-orange-500/20 text-orange-400 border border-orange-500/50" 
+                              : "bg-red-500/20 text-red-400 border border-red-500/50"
+                          }`}>
+                            {trade.direction}
+                          </span>
+                        </div>
+                        <div className="flex items-center gap-2 text-[10px] text-gray-400 font-mono">
+                          <span className="text-orange-400">{trade.strong}</span>
+                          <ArrowRight className="w-3 h-3" />
+                          <span className="text-red-400">{trade.weak}</span>
+                        </div>
+                      </div>
+                    ));
+                  })()}
+                  {weeklyData.currencies.filter((c: any) => c.bias.includes("Bullish")).length === 0 || 
+                   weeklyData.currencies.filter((c: any) => c.bias.includes("Bearish")).length === 0 ? (
+                    <p className="text-xs text-gray-500 font-mono italic text-center py-4">No clear swing setups available.</p>
+                  ) : null}
+                </div>
               </div>
             </div>
           </div>
