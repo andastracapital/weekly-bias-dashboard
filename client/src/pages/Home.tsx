@@ -167,7 +167,7 @@ const BiasCard = ({ currency, weeklyBias }: { currency: any, weeklyBias?: string
 };
 
 const TradeCard = ({ trade, index }: { trade: any, index: number }) => {
-  const isLong = trade.direction === "Long";
+  const isLong = trade.direction.toUpperCase() === "LONG";
   // Bloomberg Style: Orange for Long/Bullish, Red for Short/Bearish
   const colorClass = isLong ? "orange" : "red";
   const textColor = isLong ? "text-orange-500" : "text-red-500";
@@ -263,13 +263,39 @@ export default function Home() {
 
     const setups: any[] = [];
     
+    // FX Market Convention for Base/Quote Currency Pairs
+    // Priority Order (Base Currency): EUR > GBP > AUD > NZD > USD > CAD > CHF > JPY
+    const basePriority: { [key: string]: number } = {
+      "EUR": 1,
+      "GBP": 2,
+      "AUD": 3,
+      "NZD": 4,
+      "USD": 5,
+      "CAD": 6,
+      "CHF": 7,
+      "JPY": 8
+    };
+
+    const getConventionalPair = (curr1: string, curr2: string) => {
+      const priority1 = basePriority[curr1] || 999;
+      const priority2 = basePriority[curr2] || 999;
+      
+      // Higher priority (lower number) becomes base currency
+      if (priority1 < priority2) {
+        return { pair: `${curr1}/${curr2}`, direction: "LONG" };
+      } else {
+        return { pair: `${curr2}/${curr1}`, direction: "SHORT" };
+      }
+    };
+    
     // Generate Pairs: Bullish Aligned vs Bearish Aligned
     bullishAligned.forEach(bull => {
       bearishAligned.forEach(bear => {
+        const { pair, direction } = getConventionalPair(bull, bear);
         setups.push({
-          pair: `${bull}/${bear}`,
-          direction: "Long",
-          reason: `Strong Alignment: Weekly & Daily Bullish ${bull} vs Bearish ${bear}`,
+          pair,
+          direction,
+          reason: `Strong alignment: Weekly & Daily ${bull === pair.split('/')[0] ? 'Bullish' : 'Bearish'} ${pair.split('/')[0]} vs ${bear === pair.split('/')[1] ? 'Bearish' : 'Bullish'} ${pair.split('/')[1]}`,
           conviction: "High"
         });
       });
