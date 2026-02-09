@@ -451,81 +451,98 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Right: Swing Watchlist */}
-            <div className="lg:col-span-1">
-              <div className="bg-[#121212] border border-gray-800 p-5 relative overflow-hidden h-full">
-                <div className="absolute top-0 left-0 w-1 h-full bg-orange-500"></div>
-                <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
-                  <Zap className="w-4 h-4 text-orange-500" />
-                  Swing Watchlist
-                </h3>
-                <div className="space-y-3">
-                  {(() => {
-                    // Identify Strong (Bullish) and Weak (Bearish) currencies
-                    const strongCurrencies = weeklyData.currencies
-                      .filter((c: any) => c.bias.includes("Bullish"))
-                      .map((c: any) => c.code);
-                    const weakCurrencies = weeklyData.currencies
-                      .filter((c: any) => c.bias.includes("Bearish"))
-                      .map((c: any) => c.code);
+            {/* Right: Dual Swing Watchlists */}
+            <div className="lg:col-span-1 space-y-4">
+              {(() => {
+                // Identify Strong (Bullish) and Weak (Bearish) currencies - ignore Neutral
+                const strongCurrencies = weeklyData.currencies
+                  .filter((c: any) => c.bias.includes("Bullish"))
+                  .map((c: any) => c.code);
+                const weakCurrencies = weeklyData.currencies
+                  .filter((c: any) => c.bias.includes("Bearish"))
+                  .map((c: any) => c.code);
 
-                    // FX Pair Convention Priority (Base > Quote)
-                    const fxPriority: { [key: string]: number } = {
-                      "EUR": 1, "GBP": 2, "AUD": 3, "NZD": 4,
-                      "USD": 5, "CAD": 6, "CHF": 7, "JPY": 8
-                    };
+                // FX Pair Convention Priority (Base > Quote)
+                const fxPriority: { [key: string]: number } = {
+                  "EUR": 1, "GBP": 2, "AUD": 3, "NZD": 4,
+                  "USD": 5, "CAD": 6, "CHF": 7, "JPY": 8
+                };
 
-                    const getConventionalPair = (strong: string, weak: string) => {
-                      if (fxPriority[strong] < fxPriority[weak]) {
-                        return { pair: `${strong}/${weak}`, direction: "LONG" };
-                      } else {
-                        return { pair: `${weak}/${strong}`, direction: "SHORT" };
-                      }
-                    };
+                const getConventionalPair = (strong: string, weak: string) => {
+                  if (fxPriority[strong] < fxPriority[weak]) {
+                    return { pair: `${strong}/${weak}`, direction: "LONG" };
+                  } else {
+                    return { pair: `${weak}/${strong}`, direction: "SHORT" };
+                  }
+                };
 
-                    // Generate all Strong vs Weak pairs with balanced distribution
-                    const swingPairs = [];
-                    const maxPairsPerStrong = Math.ceil(6 / strongCurrencies.length);
-                    
-                    for (const strong of strongCurrencies) {
-                      let count = 0;
-                      for (const weak of weakCurrencies) {
-                        if (count >= maxPairsPerStrong) break;
-                        const { pair, direction } = getConventionalPair(strong, weak);
-                        swingPairs.push({ pair, direction, strong, weak });
-                        count++;
-                      }
-                    }
+                // Generate ALL Strong vs Weak pairs (no limit)
+                const allPairs = [];
+                for (const strong of strongCurrencies) {
+                  for (const weak of weakCurrencies) {
+                    const { pair, direction } = getConventionalPair(strong, weak);
+                    allPairs.push({ pair, direction, strong, weak });
+                  }
+                }
 
-                    // Sort: LONG trades first, then SHORT trades
-                    swingPairs.sort((a, b) => {
-                      if (a.direction === "LONG" && b.direction === "SHORT") return -1;
-                      if (a.direction === "SHORT" && b.direction === "LONG") return 1;
-                      return 0;
-                    });
+                // Split into LONG and SHORT lists (max 6 each)
+                const longPairs = allPairs.filter(p => p.direction === "LONG").slice(0, 6);
+                const shortPairs = allPairs.filter(p => p.direction === "SHORT").slice(0, 6);
 
-                    // Display all sorted pairs (max 6)
-                    return swingPairs.map((trade: any, i: number) => (
-                      <div key={i} className="bg-black/40 border border-gray-800 p-3 hover:border-orange-500/50 transition-all group">
-                        <div className="flex items-center justify-between">
-                          <span className="text-sm font-bold text-white font-mono">{trade.pair}</span>
-                          <span className={`px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider ${
-                            trade.direction === "LONG" 
-                              ? "bg-orange-500/20 text-orange-400 border border-orange-500/50" 
-                              : "bg-red-500/20 text-red-400 border border-red-500/50"
-                          }`}>
-                            {trade.direction}
-                          </span>
-                        </div>
+                return (
+                  <>
+                    {/* Swing Watchlist LONG */}
+                    <div className="bg-[#121212] border border-gray-800 p-5 relative overflow-hidden">
+                      <div className="absolute top-0 left-0 w-1 h-full bg-orange-500"></div>
+                      <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+                        <Zap className="w-4 h-4 text-orange-500" />
+                        Swing Watchlist LONG
+                      </h3>
+                      <div className="space-y-2">
+                        {longPairs.length > 0 ? (
+                          longPairs.map((trade: any, i: number) => (
+                            <div key={i} className="bg-black/40 border border-gray-800 p-2.5 hover:border-orange-500/50 transition-all group">
+                              <div className="flex items-center justify-between">
+                                <span className="text-sm font-bold text-white font-mono">{trade.pair}</span>
+                                <span className="px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-orange-500/20 text-orange-400 border border-orange-500/50">
+                                  LONG
+                                </span>
+                              </div>
+                            </div>
+                          ))
+                        ) : (
+                          <p className="text-xs text-gray-500 font-mono italic text-center py-2">No LONG setups available.</p>
+                        )}
                       </div>
-                    ));
-                  })()}
-                  {weeklyData.currencies.filter((c: any) => c.bias.includes("Bullish")).length === 0 || 
-                   weeklyData.currencies.filter((c: any) => c.bias.includes("Bearish")).length === 0 ? (
-                    <p className="text-xs text-gray-500 font-mono italic text-center py-4">No clear swing setups available.</p>
-                  ) : null}
-                </div>
-              </div>
+                    </div>
+
+                    {/* Swing Watchlist SHORT */}
+                    <div className="bg-[#121212] border border-gray-800 p-5 relative overflow-hidden">
+                      <div className="absolute top-0 left-0 w-1 h-full bg-red-500"></div>
+                      <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+                        <Zap className="w-4 h-4 text-red-500" />
+                        Swing Watchlist SHORT
+                      </h3>
+                      <div className="space-y-2">
+                        {shortPairs.length > 0 ? (
+                          shortPairs.map((trade: any, i: number) => (
+                            <div key={i} className="bg-black/40 border border-gray-800 p-2.5 hover:border-red-500/50 transition-all group">
+                              <div className="flex items-center justify-between">
+                                <span className="text-sm font-bold text-white font-mono">{trade.pair}</span>
+                                <span className="px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider bg-red-500/20 text-red-400 border border-red-500/50">
+                                  SHORT
+                                </span>
+                              </div>
+                            </div>
+                          ))
+                        ) : (
+                          <p className="text-xs text-gray-500 font-mono italic text-center py-2">No SHORT setups available.</p>
+                        )}
+                      </div>
+                    </div>
+                  </>
+                );
+              })()}
             </div>
           </div>
         ) : (
