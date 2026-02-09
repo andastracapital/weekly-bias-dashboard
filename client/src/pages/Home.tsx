@@ -436,23 +436,21 @@ export default function Home() {
 
         {/* Market Overview Section */}
         {viewMode === "WEEKLY" ? (
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
-            {/* Left: Market Context */}
-            <div className="lg:col-span-2 space-y-6">
-              <div className="bg-[#121212] border border-gray-800 p-5 relative overflow-hidden h-full">
-                <div className="absolute top-0 left-0 w-1 h-full bg-orange-500"></div>
-                <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-3 flex items-center gap-2">
-                  <Activity className="w-4 h-4 text-orange-500" />
-                  Market Overview
-                </h3>
-                <p className="text-sm text-gray-300 font-mono leading-relaxed">
-                  Global markets navigating complex landscape of geopolitical tension and shifting monetary policy expectations. Key focus remains on US economic data and central bank rhetoric.
-                </p>
-              </div>
+          <div className="space-y-6 mb-8">
+            {/* Market Overview - Narrower */}
+            <div className="bg-[#121212] border border-gray-800 p-5 relative overflow-hidden">
+              <div className="absolute top-0 left-0 w-1 h-full bg-orange-500"></div>
+              <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-3 flex items-center gap-2">
+                <Activity className="w-4 h-4 text-orange-500" />
+                Market Overview
+              </h3>
+              <p className="text-sm text-gray-300 font-mono leading-relaxed">
+                Global markets navigating complex landscape of geopolitical tension and shifting monetary policy expectations. Key focus remains on US economic data and central bank rhetoric.
+              </p>
             </div>
 
-            {/* Right: Dual Swing Watchlists */}
-            <div className="lg:col-span-1 space-y-4">
+            {/* Dual Swing Watchlists Side-by-Side */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               {(() => {
                 // Identify Strong (Bullish) and Weak (Bearish) currencies - ignore Neutral
                 const strongCurrencies = weeklyData.currencies
