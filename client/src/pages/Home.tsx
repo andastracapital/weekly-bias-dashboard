@@ -596,7 +596,10 @@ export default function Home() {
 
                           return { pair, direction, bull, bear };
                         })
-                      ).slice(0, 6).map((trade, i) => (
+                      )
+                      // Filter out pairs that are already in High Conviction Setups
+                      .filter(trade => !highConvictionSetups.some(hc => hc.pair === trade.pair))
+                      .slice(0, 6).map((trade, i) => (
                         <div key={i} className={`flex items-center justify-between bg-[#1a1a1a] px-3 py-2 border-l-2 ${trade.direction === "Long" ? "border-l-orange-500" : "border-l-red-500"} border-y border-r border-gray-800`}>
                           <span className="text-xs font-bold text-white font-mono">{trade.pair}</span>
                           <span className={`text-[9px] font-bold uppercase tracking-wider ${trade.direction === "Long" ? "text-orange-500" : "text-red-500"}`}>
