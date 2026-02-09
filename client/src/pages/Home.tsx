@@ -483,17 +483,22 @@ export default function Home() {
                       }
                     };
 
-                    // Generate all Strong vs Weak pairs
+                    // Generate all Strong vs Weak pairs with balanced distribution
                     const swingPairs = [];
+                    const maxPairsPerStrong = Math.ceil(6 / strongCurrencies.length);
+                    
                     for (const strong of strongCurrencies) {
+                      let count = 0;
                       for (const weak of weakCurrencies) {
+                        if (count >= maxPairsPerStrong) break;
                         const { pair, direction } = getConventionalPair(strong, weak);
                         swingPairs.push({ pair, direction, strong, weak });
+                        count++;
                       }
                     }
 
-                    // Display top 6 pairs
-                    return swingPairs.slice(0, 6).map((trade: any, i: number) => (
+                    // Display all balanced pairs (max 6)
+                    return swingPairs.map((trade: any, i: number) => (
                       <div key={i} className="bg-black/40 border border-gray-800 p-3 hover:border-orange-500/50 transition-all group">
                         <div className="flex items-center justify-between">
                           <span className="text-sm font-bold text-white font-mono">{trade.pair}</span>
