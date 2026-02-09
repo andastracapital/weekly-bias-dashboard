@@ -1,0 +1,173 @@
+{
+  "date": "Monday, February 9, 2026",
+  "lastUpdate": "02:00 Frankfurt Time",
+  "marketFocus": {
+    "riskEnvironment": "Risk-On Recovery",
+    "headlines": [
+      "DJIA crosses 50k for first time as US equities surge on AI CapEx optimism",
+      "US-India trade deal framework reached with $500bn energy/tech commitment",
+      "PM Takaichi's LDP wins landslide supermajority in Japanese election"
+    ]
+  },
+  "currencies": {
+    "USD": {
+      "bias": "Mixed",
+      "tone": "Neutral Stance",
+      "summary": "Dollar marginally softer in rangebound trade as DXY hovers around 97.08. Fed officials signal cautious approach with Vice Chair Jefferson noting policy is well-positioned and roughly neutral, while Daly leans toward more cuts but supported last week's hold. Key NFP and CPI data later this week will drive direction.",
+      "drivers": ["Fed Neutral Stance", "Key Data Ahead (NFP, CPI)", "US-India Trade Deal"],
+      "headlines": [
+        "Fed Vice Chair Jefferson: Policy roughly in neutral stance",
+        "Fed's Daly leans toward more rate cuts in 2026 but hard to say if one or two"
+      ]
+    },
+    "EUR": {
+      "bias": "Neutral",
+      "tone": "Range-Bound",
+      "summary": "Euro eked slight gains after returning to 1.1800 handle late last week, but further upside capped by lack of drivers from the Eurozone. ECB's Cipollone said the central bank will assess the effect of euro strength on consumer inflation in quarterly forecasts due next month. EUR/USD stuck in consolidation mode.",
+      "drivers": ["Lack of Eurozone Catalysts", "ECB Assessing Euro Strength", "Consolidation Mode"],
+      "headlines": [
+        "ECB's Cipollone: Will assess euro strength effect on inflation next month",
+        "European equity futures up 0.4% after Friday's 1.2% cash market gain"
+      ]
+    },
+    "GBP": {
+      "bias": "Bearish",
+      "tone": "Political Headwinds",
+      "summary": "Pound struggled for direction with price action stuck around 1.3600 level amid further political headwinds for UK PM Starmer's premiership. Chief of staff Morgan McSweeney resigned due to Mandelson scandal, adding to mounting pressure on the government. Cable lacks clear directional catalyst.",
+      "drivers": ["UK Political Crisis", "Starmer Chief of Staff Resignation", "Mandelson Scandal"],
+      "headlines": [
+        "UK PM Starmer's chief of staff Morgan McSweeney resigns",
+        "GBP/USD rangebound around 1.3600"
+      ]
+    },
+    "JPY": {
+      "bias": "Bearish",
+      "tone": "Election-Driven Weakness",
+      "summary": "Yen swung between gains and losses following PM Takaichi's landslide election victory. LDP won supermajority (274-328 seats alone, 302-366 with coalition), allowing override of upper house. Initial USD/JPY advances erased as JGB yields climbed. Takaichi pledged to speed up sales tax cut consideration and build resilience against forex swings.",
+      "drivers": ["LDP Supermajority Victory", "Sales Tax Cut Pledge", "JGB Yields Rising"],
+      "headlines": [
+        "PM Takaichi's LDP wins supermajority with 274-328 seats",
+        "Takaichi to speed up sales tax cut consideration"
+      ]
+    },
+    "AUD": {
+      "bias": "Bullish",
+      "tone": "Risk-On Strength",
+      "summary": "Aussie benefitted from risk-on sentiment as APAC stocks rallied following Wall Street's surge. ASX 200 rallied with broad strength in tech, real estate, miners, and materials. China's Cabinet studied measures to promote effective investment and pledged to boost support for private investment, supporting regional sentiment.",
+      "drivers": ["APAC Equity Rally", "China Investment Support", "Risk-On Sentiment"],
+      "headlines": [
+        "ASX 200 rallies with broad sector strength",
+        "China Cabinet pledges to boost private investment support"
+      ]
+    },
+    "CAD": {
+      "bias": "Neutral",
+      "tone": "Range-Bound",
+      "summary": "Loonie lacked fresh catalysts with no major Canadian data releases. Price action consolidating after Friday's jobs-driven volatility. Focus on broader risk sentiment and crude oil price movements. USD/CAD rangebound as markets await key US data later this week.",
+      "drivers": ["No Fresh Catalysts", "Consolidation After Jobs Data", "Crude Oil Dependency"],
+      "headlines": []
+    },
+    "CHF": {
+      "bias": "Neutral",
+      "tone": "Safe-Haven Fade",
+      "summary": "Franc underperformed in risk-on environment as safe-haven demand faded. S&P affirmed Denmark at 'AAA' with stable outlook, but no direct Swiss catalysts. CHF typically weakens when global equities rally and geopolitical tensions ease. No fresh SNB commentary.",
+      "drivers": ["Risk-On Environment", "Safe-Haven Fade", "No Fresh Catalysts"],
+      "headlines": [
+        "S&P affirms Denmark at 'AAA'; outlook stable"
+      ]
+    },
+    "NZD": {
+      "bias": "Bullish",
+      "tone": "High-Beta Strength",
+      "summary": "Kiwi outperformed as high-beta currency in risk-on trade. Benefitted from APAC equity rally and broader Dollar weakness. No fresh NZ data, but regional sentiment supported by China's investment support pledges and Japan's political stability post-election.",
+      "drivers": ["Risk-On Trade", "High-Beta Outperformance", "Regional Sentiment Support"],
+      "headlines": []
+    }
+  },
+  "redFolderNews": [
+    {
+      "day": "TUE",
+      "event": "US Core Retail Sales m/m",
+      "impact": "High",
+      "currency": "USD",
+      "time": "14:30"
+    },
+    {
+      "day": "TUE",
+      "event": "US Retail Sales m/m",
+      "impact": "High",
+      "currency": "USD",
+      "time": "14:30"
+    },
+    {
+      "day": "TUE",
+      "event": "US Employment Cost Index q/q",
+      "impact": "High",
+      "currency": "USD",
+      "time": "14:30"
+    },
+    {
+      "day": "WED",
+      "event": "US Average Hourly Earnings m/m",
+      "impact": "High",
+      "currency": "USD",
+      "time": "14:30"
+    },
+    {
+      "day": "WED",
+      "event": "US Non-Farm Employment Change",
+      "impact": "High",
+      "currency": "USD",
+      "time": "14:30"
+    },
+    {
+      "day": "WED",
+      "event": "US Unemployment Rate",
+      "impact": "High",
+      "currency": "USD",
+      "time": "14:30"
+    },
+    {
+      "day": "THU",
+      "event": "UK GDP m/m",
+      "impact": "High",
+      "currency": "GBP",
+      "time": "08:00"
+    },
+    {
+      "day": "THU",
+      "event": "US Unemployment Claims",
+      "impact": "High",
+      "currency": "USD",
+      "time": "14:30"
+    },
+    {
+      "day": "FRI",
+      "event": "Swiss CPI m/m",
+      "impact": "High",
+      "currency": "CHF",
+      "time": "08:30"
+    },
+    {
+      "day": "FRI",
+      "event": "US Core CPI m/m",
+      "impact": "High",
+      "currency": "USD",
+      "time": "14:30"
+    },
+    {
+      "day": "FRI",
+      "event": "US CPI m/m",
+      "impact": "High",
+      "currency": "USD",
+      "time": "14:30"
+    },
+    {
+      "day": "FRI",
+      "event": "US CPI y/y",
+      "impact": "High",
+      "currency": "USD",
+      "time": "14:30"
+    }
+  ]
+}

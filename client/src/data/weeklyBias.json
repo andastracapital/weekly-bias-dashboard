@@ -1,0 +1,118 @@
+{
+  "week": "Feb 9 - Feb 15, 2026",
+  "lastUpdated": "2026-02-08T15:30:00Z",
+  "currencies": [
+    {
+      "code": "USD",
+      "name": "US Dollar",
+      "bias": "Weak Bearish",
+      "biasLevel": "Weak Short",
+      "longTermBias": "Neutral",
+      "sentiment": "Mixed",
+      "summary": "USD unter Druck trotz Warsh-Nominierung und ISM Manufacturing Rebound (52.6). Labor Market Schwäche (Job Openings 6.54M, Layoffs höchster Januar-Level seit 2009) hält Downside-Risiko lebendig. Credibility Bid um Fed-Leadership und Manufacturing-Überraschung stützen kurzfristig, aber strukturelle Unsicherheit bleibt.",
+      "drivers": ["Warsh Fed Chair Nomination", "ISM Manufacturing Rebound (52.6)", "Labor Market Weakness", "Government Shutdown (delayed Jobs Report)", "India Trade Deal"],
+      "events": [
+        { "day": "Tue", "event": "FOMC Minutes", "impact": "High" },
+        { "day": "Thu", "event": "Jobless Claims", "impact": "Medium" },
+        { "day": "Fri", "event": "Retail Sales", "impact": "Critical" }
+      ]
+    },
+    {
+      "code": "EUR",
+      "name": "Euro",
+      "bias": "Weak Bearish",
+      "biasLevel": "Weak Short",
+      "longTermBias": "Weak Bullish",
+      "sentiment": "Cautious",
+      "summary": "EUR under pressure from disinflation (Eurozone 1.7%, Core 2.2% below target) and dovish ECB signal despite Rate Hold at 2%. German Industrial Production -1.9% MoM highlights structural weakness. ECB warns against excessive EUR strength (disinflationary risk). China Dairy Tax Deal provides minimal support.",
+      "drivers": ["Eurozone Inflation 1.7% (Below Target)", "ECB Rate Hold at 2%", "German Industrial Production -1.9%", "ECB Currency Strength Concerns", "China Dairy Tax Relief"],
+      "events": [
+        { "day": "Mon", "event": "Investor Confidence", "impact": "Medium" },
+        { "day": "Fri", "event": "Flash Employment Change", "impact": "High" },
+        { "day": "Fri", "event": "Flash GDP", "impact": "Critical" }
+      ]
+    },
+    {
+      "code": "GBP",
+      "name": "British Pound",
+      "bias": "Weak Bearish",
+      "biasLevel": "Weak Short",
+      "longTermBias": "Neutral",
+      "sentiment": "Volatile",
+      "summary": "GBP volatile after BoE dovish surprise (5-4 split for Rate Hold at 3.75%, 4 members voted for cut to 3.5%). Governor Bailey expects 'quite sharp' inflation drop, markets price April cut. Political crisis (Starmer Leadership Challenge over Mandelson appointment) adds risk premium. Manufacturing PMI 51.8 and resilient housing data offset by policy shift.",
+      "drivers": ["BoE Dovish Split (5-4 Vote)", "Political Crisis (Starmer Leadership Challenge)", "Manufacturing PMI 51.8", "Housing Data Resilient", "UK-US Critical Minerals MoU"],
+      "events": [
+        { "day": "Thu", "event": "GDP", "impact": "Critical" }
+      ]
+    },
+    {
+      "code": "JPY",
+      "name": "Japanese Yen",
+      "bias": "Weak Bearish",
+      "biasLevel": "Weak Short",
+      "longTermBias": "Weak Bullish",
+      "sentiment": "Volatile",
+      "summary": "JPY weakest G10 currency as election-related messaging (PM Takaichi favors weak JPY for exporters) and wide yield differentials drive carry trades. BoJ remains patient (April hike possible but not certain), Tokyo Inflation soft. USD/JPY tests 157, GBP/JPY highest since 2008. Lower House Elections Sunday critical for policy path.",
+      "drivers": ["Lower House Elections (Sunday)", "Takaichi Weak JPY Comments", "Wide Yield Differentials", "Soft Tokyo Inflation", "BoJ Patient Stance"],
+      "events": [
+        { "day": "Sun", "event": "Lower House Elections", "impact": "Critical" },
+        { "day": "Wed", "event": "PPI", "impact": "Medium" }
+      ]
+    },
+    {
+      "code": "AUD",
+      "name": "Australian Dollar",
+      "bias": "Weak Bullish",
+      "biasLevel": "Weak Long",
+      "longTermBias": "Weak Bullish",
+      "sentiment": "Risk-Sensitive",
+      "summary": "AUD supported by RBA hawkish surprise (Rate Hike to 3.85%, further hikes possible if wages/inflation persist) and global risk-on rally (Dow 50k). US Critical Minerals Stockpile Initiative boosts terms of trade. Copper volatility and China growth concerns remain, but domestic rates impulse dominates. High-beta cyclical benefits from equity strength.",
+      "drivers": ["RBA Rate Hike to 3.85%", "US Critical Minerals Stockpile", "Copper Price Volatility", "China Growth Concerns", "Global Risk-On Rally"],
+      "events": [
+        { "day": "Mon", "event": "Westpac Consumer Sentiment", "impact": "Medium" },
+        { "day": "Thu", "event": "Inflation Expectations", "impact": "High" }
+      ]
+    },
+    {
+      "code": "CAD",
+      "name": "Canadian Dollar",
+      "bias": "Weak Bearish",
+      "biasLevel": "Weak Short",
+      "longTermBias": "Neutral",
+      "sentiment": "Resilient",
+      "summary": "CAD resilient but vulnerable to trade risks (Trump warns of 'substantial response' if Canada proceeds with China deal). Jobs Report mixed (-25k headline, but +45k Full-Time, Unemployment 6.5%), Manufacturing PMI expansion. BoC Macklem warns against too-rapid cuts. Oil volatility (61-63.55) provides limited support. USD/CAD 1.36-1.37 range.",
+      "drivers": ["Trump Trade Threat (China Deal)", "Jobs Report Mixed Signals", "Manufacturing PMI Expansion", "BoC Macklem Speech", "Oil Price Volatility"],
+      "events": [
+        { "day": "Wed", "event": "BOC Summary Of Deliberations", "impact": "High" }
+      ]
+    },
+    {
+      "code": "CHF",
+      "name": "Swiss Franc",
+      "bias": "Weak Bearish",
+      "biasLevel": "Weak Short",
+      "longTermBias": "Weak Bearish",
+      "sentiment": "Safe Haven",
+      "summary": "CHF as fear gauge: Mid-week safe haven bid (Tech sell-off, Iran-US geopolitical tensions) quickly faded as Friday risk-on rally (Dow 50k) drove capital rotation. SNB Schlegel emphasizes intervention readiness against CHF strength, negative rates only as high-bar tool. Carry disadvantage dominates when risk sentiment stable. EUR/CHF stable, USD/CHF higher.",
+      "drivers": ["Tech Sell-Off (Mid-Week)", "Geopolitical Tensions (Iran-US)", "SNB Intervention Readiness", "Risk-On Rally (Dow 50k)", "Yield Carry Disadvantage"],
+      "events": [
+        { "day": "Mon", "event": "Consumer Climate", "impact": "Medium" },
+        { "day": "Fri", "event": "CPI", "impact": "High" }
+      ]
+    },
+    {
+      "code": "NZD",
+      "name": "New Zealand Dollar",
+      "bias": "Weak Bullish",
+      "biasLevel": "Weak Long",
+      "longTermBias": "Neutral",
+      "sentiment": "High Beta",
+      "summary": "NZD high-beta cyclical benefits from global risk-on rally (Friday equity surge to 0.6027). Choppy week (China-related growth nerves, tech wobble mid-week) before Friday recovery. Dairy trade tensions cooling provides support. Hotter inflation reduces RBNZ easing confidence, keeping front-end supported. China/Australia linkage remains critical for exports.",
+      "drivers": ["Global Risk-On Rally", "Dairy Trade Tensions Cooling", "Hotter Inflation (RBNZ Easing Path)", "China Growth Concerns", "High Beta Profile"],
+      "events": [
+        { "day": "Fri", "event": "Inflation Expectations", "impact": "High" }
+      ]
+    }
+  ],
+  "topTrades": []
+}
