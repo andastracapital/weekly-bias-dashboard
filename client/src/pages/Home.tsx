@@ -497,7 +497,14 @@ export default function Home() {
                       }
                     }
 
-                    // Display all balanced pairs (max 6)
+                    // Sort: LONG trades first, then SHORT trades
+                    swingPairs.sort((a, b) => {
+                      if (a.direction === "LONG" && b.direction === "SHORT") return -1;
+                      if (a.direction === "SHORT" && b.direction === "LONG") return 1;
+                      return 0;
+                    });
+
+                    // Display all sorted pairs (max 6)
                     return swingPairs.map((trade: any, i: number) => (
                       <div key={i} className="bg-black/40 border border-gray-800 p-3 hover:border-orange-500/50 transition-all group">
                         <div className="flex items-center justify-between">
