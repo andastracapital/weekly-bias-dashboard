@@ -338,16 +338,14 @@ export default function Home() {
     setIsExporting(true);
     
     try {
-      // Use dynamic import for html2canvas
-      const html2canvas = (await import('html2canvas')).default;
+      // Use modern-screenshot which supports modern CSS including OKLCH
+      const { domToPng } = await import('modern-screenshot');
       
-      const canvas = await html2canvas(dashboardRef.current, {
-        backgroundColor: '#000000',
+      const dataUrl = await domToPng(dashboardRef.current, {
         scale: 2, // High resolution
-        logging: false,
+        backgroundColor: '#000000',
       });
       
-      const dataUrl = canvas.toDataURL('image/png');
       const link = document.createElement('a');
       link.download = `TUDOR_DASHBOARD_${new Date().toISOString().slice(0,10)}.png`;
       link.href = dataUrl;
@@ -377,6 +375,19 @@ export default function Home() {
           </div>
           
           <div className="flex items-center gap-4 text-[10px] font-mono text-gray-500">
+            <button 
+              onClick={handleExport}
+              disabled={isExporting}
+              className="flex items-center gap-1.5 hover:text-orange-500 transition-colors disabled:opacity-50"
+            >
+              {isExporting ? (
+                <RefreshCw className="w-3 h-3 animate-spin" />
+              ) : (
+                <Camera className="w-3 h-3" />
+              )}
+              EXPORT DASHBOARD
+            </button>
+            <div className="h-3 w-[1px] bg-gray-800"></div>
             <div className="flex items-center gap-1.5">
               <Globe className="w-3 h-3 text-orange-500" />
               <span>FRA {currentTime.toLocaleTimeString('de-DE', { timeZone: 'Europe/Berlin', hour: '2-digit', minute: '2-digit' })}</span>
