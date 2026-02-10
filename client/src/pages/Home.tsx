@@ -362,6 +362,11 @@ export default function Home() {
       <header className="border-b border-orange-500/30 bg-[#0a0a0a] sticky top-0 z-50 h-10 flex items-center">
         <div className="container mx-auto px-4 flex items-center justify-between h-full">
           <div className="flex items-center gap-3">
+            <img 
+              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663249845262/XvUyEjXnUTsEmUZR.png" 
+              alt="TK Logo" 
+              className="w-8 h-8 rounded-full object-cover"
+            />
             <div className="flex items-center gap-1">
               <Terminal className="w-4 h-4 text-orange-500" />
               <h1 className="font-mono font-bold text-sm tracking-tight text-orange-500">
