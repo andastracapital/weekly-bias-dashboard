@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import { toPng } from "html-to-image";
+// Export functionality will use browser's native screenshot capability
 import { 
   TrendingUp, 
   TrendingDown, 
@@ -338,12 +338,16 @@ export default function Home() {
     setIsExporting(true);
     
     try {
-      const dataUrl = await toPng(dashboardRef.current, {
+      // Use dynamic import for html2canvas
+      const html2canvas = (await import('html2canvas')).default;
+      
+      const canvas = await html2canvas(dashboardRef.current, {
         backgroundColor: '#000000',
-        pixelRatio: 2, // High resolution
-        cacheBust: true,
+        scale: 2, // High resolution
+        logging: false,
       });
       
+      const dataUrl = canvas.toDataURL('image/png');
       const link = document.createElement('a');
       link.download = `TUDOR_DASHBOARD_${new Date().toISOString().slice(0,10)}.png`;
       link.href = dataUrl;
@@ -357,16 +361,11 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-black text-gray-300 font-sans selection:bg-orange-500 selection:text-black overflow-x-hidden" ref={dashboardRef}>
+    <div className="min-h-screen bg-black text-gray-300 font-sans selection:bg-orange-500 selection:text-black overflow-x-hidden">
       {/* Top Bar - Bloomberg Style */}
       <header className="border-b border-orange-500/30 bg-[#0a0a0a] sticky top-0 z-50 h-10 flex items-center">
         <div className="container mx-auto px-4 flex items-center justify-between h-full">
           <div className="flex items-center gap-3">
-            <img 
-              src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663249845262/XvUyEjXnUTsEmUZR.png" 
-              alt="TK Logo" 
-              className="w-8 h-8 rounded-full object-cover"
-            />
             <div className="flex items-center gap-1">
               <Terminal className="w-4 h-4 text-orange-500" />
               <h1 className="font-mono font-bold text-sm tracking-tight text-orange-500">
@@ -378,19 +377,6 @@ export default function Home() {
           </div>
           
           <div className="flex items-center gap-4 text-[10px] font-mono text-gray-500">
-            <button 
-              onClick={handleExport}
-              disabled={isExporting}
-              className="flex items-center gap-1.5 hover:text-orange-500 transition-colors disabled:opacity-50"
-            >
-              {isExporting ? (
-                <RefreshCw className="w-3 h-3 animate-spin" />
-              ) : (
-                <Camera className="w-3 h-3" />
-              )}
-              EXPORT DASHBOARD
-            </button>
-            <div className="h-3 w-[1px] bg-gray-800"></div>
             <div className="flex items-center gap-1.5">
               <Globe className="w-3 h-3 text-orange-500" />
               <span>FRA {currentTime.toLocaleTimeString('de-DE', { timeZone: 'Europe/Berlin', hour: '2-digit', minute: '2-digit' })}</span>
@@ -403,7 +389,7 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="container mx-auto px-4 py-6">
+      <main className="container mx-auto px-4 py-6" ref={dashboardRef}>
         {/* Mode Switcher & Date */}
         <div className="flex items-end justify-between mb-6 border-b border-gray-800 pb-4">
           <div>
