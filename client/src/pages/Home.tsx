@@ -201,7 +201,7 @@ const TradeCard = ({ trade, index }: { trade: any, index: number }) => {
 
 export default function Home() {
   const [filter, setFilter] = useState("All");
-  const [viewMode, setViewMode] = useState<"WEEKLY" | "DAILY">("WEEKLY");
+  const [viewMode, setViewMode] = useState<"WEEKLY" | "DAILY">("DAILY");
   const [currentTime, setCurrentTime] = useState(new Date());
   const [isExporting, setIsExporting] = useState(false);
   const dashboardRef = useRef<HTMLDivElement>(null);
