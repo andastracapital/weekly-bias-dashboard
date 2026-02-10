@@ -51,13 +51,13 @@
       ]
     },
     "AUD": {
-      "bias": "Bullish",
-      "tone": "Risk-On Strength",
-      "summary": "Aussie buoyed by risk sentiment and gains in precious metals. APAC stocks mostly higher as region took impetus from Wall Street gains. ASX 200 marginally gained with tech outperformance, though limited by weakness in top-weighted financials. Gold reclaimed USD 5,000/oz level on dollar weakness. Westpac Consumer Sentiment fell -2.6% (Feb) vs -1.7% prior, but broader risk-on tone supported AUD.",
-      "drivers": ["Risk-On Sentiment", "Gold Above $5,000/oz", "APAC Equity Rally"],
+      "bias": "Mixed",
+      "tone": "Data Headwinds vs Risk-On",
+      "summary": "Aussie caught between conflicting signals. Westpac Consumer Sentiment fell -2.6% (Feb) vs -1.7% prior, marking deeper deterioration in household confidence - a bearish domestic data point. However, risk-on sentiment and gold reclaiming USD 5,000/oz provided support. ASX 200 marginally gained with tech outperformance. Hard data weakness outweighs sentiment tailwinds for cautious bias.",
+      "drivers": ["Consumer Sentiment Fell -2.6%", "Gold Above $5,000/oz", "Risk-On vs Weak Data"],
       "headlines": [
-        "Gold reclaims $5,000/oz on dollar weakness",
-        "ASX 200 gains with tech sector outperformance"
+        "Westpac Consumer Sentiment fell -2.6% in Feb, deeper than prior -1.7%",
+        "Gold reclaims $5,000/oz on dollar weakness"
       ]
     },
     "CAD": {
