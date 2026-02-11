@@ -1,198 +1,217 @@
 {
-  "date": "Tuesday, February 10, 2026",
+  "date": "Wednesday, February 11, 2026",
   "lastUpdate": "07:00 Frankfurt Time",
   "marketFocus": {
-    "riskEnvironment": "Risk-On Recovery",
+    "riskEnvironment": "Mixed",
     "headlines": [
-      "Tech-driven risk rally continues as S&P 500 approaches record highs, Nasdaq outperforms",
-      "Trump-Xi summit reportedly set for first week of April, though White House says not finalized",
-      "Japan's Nikkei 225 hits fresh record near 58,000 on Takaichi landslide and stimulus expectations"
+      "NFP report looms as soft US Retail Sales and weak ADP (6.5k weekly) signal labor market cooling",
+      "JPY continues post-election rally with USD/JPY testing 153.00 on faster BoJ hike bets",
+      "AUD reclaims 0.71 for first time in 3 years on hawkish RBA rhetoric (Hauser: inflation too high)",
+      "Trump weighs second carrier strike group to Middle East if Iran talks fail next week"
     ]
   },
   "currencies": {
     "USD": {
       "bias": "Bearish",
-      "tone": "Broad Weakness",
-      "summary": "Dollar sold off sharply on Monday as DXY fell to 96.88-97.76 range. Pressure stemmed from broad JPY strength post-Japanese election and Bloomberg report that China is urging banks to curb UST exposure, reviving 'sell America' concerns. Fed's Miran noted no significant tariff-driven inflation seen so far and rates should be much lower. Key NFP (Wed) and CPI (Fri) data ahead will shape Fed rate expectations.",
-      "drivers": ["China UST Exposure Concerns", "Yen Strength Post-Election", "Fed Dovish Signals"],
+      "tone": "Data-Driven Weakness",
+      "summary": "Dollar under pressure ahead of NFP (Wed 09:30) after disappointing Retail Sales (0.0% vs exp 0.4%) and weak ADP (6.5k weekly adds). Fed officials (Hammack, Logan) signal extended hold, but soft data raises dovish pivot risk. DXY repositioning likely before jobs report. Commerce Sec Lutnick says USD was manipulated higher, more natural at current level.",
+      "drivers": ["Soft Retail Sales & ADP", "NFP Risk (Wed 09:30)", "Fed Extended Hold Rhetoric", "Repositioning Pre-Data"],
       "headlines": [
-        "Bloomberg: China urging banks to curb US Treasury exposure amid market risk",
-        "Fed's Miran: No significant tariff-driven inflation, rates should be much lower"
+        "US Retail Sales 0.0% vs exp 0.4%",
+        "ADP Weekly 6.5k vs prev 7.75k",
+        "Fed's Hammack: rates on hold for extended period"
       ]
     },
     "EUR": {
       "bias": "Bullish",
-      "tone": "Dollar-Driven Gains",
-      "summary": "Euro firmed alongside broader G10 strength against the USD, gaining around 0.8% with EUR/USD printing 1.1803-1.1918 range. Supported by softer dollar backdrop and constructive flows into both high-beta and low-beta FX. ECB's Lagarde expects inflation to stabilize sustainably at 2% target and reiterated data-dependent, meeting-by-meeting approach. Little fresh Eurozone-specific news shaping price action.",
-      "drivers": ["Broad USD Weakness", "ECB Inflation Target Confidence", "Constructive FX Flows"],
+      "tone": "Stable Strength",
+      "summary": "Euro holds above 1.1900 on broad dollar weakness and stable ECB policy. De Guindos reiterated current rates appropriate, recent EUR strength consistent with ECB projections. No fresh Eurozone catalysts, but relative political calm vs UK and USD headwinds support. Italian Industrial Production due Wed 05:00.",
+      "drivers": ["USD Weakness", "ECB Policy Stability", "Relative Political Calm"],
       "headlines": [
-        "ECB President Lagarde: Expects inflation to stabilize sustainably at 2% target",
-        "EUR/USD gains 0.8% to 1.1918 high on dollar weakness"
+        "ECB's de Guindos: current rates appropriate",
+        "EUR strength consistent with ECB projections"
       ]
     },
     "GBP": {
       "bias": "Mixed",
-      "tone": "Political Uncertainty",
-      "summary": "Sterling gained but lagged G10 peers despite weaker USD, weighed by deepening UK political instability. PM Starmer faced renewed pressure after Chief of Staff McSweeney resigned over Mandelson scandal, with reports suggesting Cabinet resignations possible unless PM steps down. However, PM Starmer reaffirmed he will stay in position and key Cabinet ministers (Reeves, Rayner, Streeting) backed him. Cable choppy in 1.3586-1.3700 range.",
-      "drivers": ["UK Political Crisis", "Cabinet Support for Starmer", "Relative Underperformance vs G10"],
+      "tone": "Consolidation",
+      "summary": "Sterling retreats from 1.3700 resistance as political uncertainty persists despite Starmer reaffirming he won't resign. Cabinet Office asks Ministers not to follow Wes Streeting in publishing Mandelson messages. Quiet UK calendar until Thu GDP data. Relative political stability vs previous weeks, but upside capped.",
+      "drivers": ["Political Uncertainty (Mandelson)", "USD Weakness Support", "Thu GDP Data Risk"],
       "headlines": [
-        "UK PM Starmer vows to stay on, not prepared to walk away from power",
-        "UK Chancellor Reeves and Deputy PM Rayner back PM Starmer"
+        "Starmer reaffirms won't resign",
+        "Cabinet Office blocks Mandelson message releases",
+        "Thu GDP data key"
       ]
     },
     "JPY": {
       "bias": "Bullish",
-      "tone": "Election-Driven Strength",
-      "summary": "Yen outperformed sharply after PM Takaichi's landslide LDP victory. USD/JPY initially gapped higher to 157.72 before reversing sharply to 155.52 low. Drivers included expectations of LDP supermajority, higher JGB yields, Finance Minister Katayama jawboning, rising April BoJ hike odds (~60%), and PM Takaichi's commitment to fiscal discipline. Barclays brought forward expected 25bps BoJ hike to April and lifted terminal rate forecast to 1.5%.",
-      "drivers": ["LDP Landslide Victory", "April BoJ Hike Odds ~60%", "Fiscal Discipline Commitment"],
+      "tone": "Post-Election Momentum",
+      "summary": "Yen continues post-Takaichi election rally with USD/JPY testing 153.00 (100 DMA). Markets pricing faster BoJ normalization amid renewed political stability and fiscal responsibility vows. JGB pressure subsides, Nikkei strength (near 58,000) supports. ING expects JPY 10tln inflows to Japanese equities over 3 months. Japanese markets closed Wed for National Founding Day.",
+      "drivers": ["Faster BoJ Hike Bets", "Political Stability Post-Election", "Nikkei Strength", "USD Weakness"],
       "headlines": [
-        "PM Takaichi wins landslide with LDP securing supermajority",
-        "Barclays brings forward BoJ hike to April, lifts terminal rate to 1.5%"
+        "Takaichi landslide victory",
+        "BoJ hike odds rising",
+        "Japanese markets closed Wed"
       ]
     },
     "AUD": {
-      "bias": "Mixed",
-      "tone": "Data Headwinds vs Risk-On",
-      "summary": "Aussie caught between conflicting signals. Westpac Consumer Sentiment fell -2.6% (Feb) vs -1.7% prior, marking deeper deterioration in household confidence - a bearish domestic data point. However, risk-on sentiment and gold reclaiming USD 5,000/oz provided support. ASX 200 marginally gained with tech outperformance. Hard data weakness outweighs sentiment tailwinds for cautious bias.",
-      "drivers": ["Consumer Sentiment Fell -2.6%", "Gold Above $5,000/oz", "Risk-On vs Weak Data"],
+      "bias": "Bullish",
+      "tone": "Hawkish RBA Premium",
+      "summary": "Aussie reclaims 0.71 for first time in 3 years on hawkish RBA rhetoric. Deputy Gov Hauser: inflation too high, can't let persist, will do what's needed to return to band. Westpac Consumer Sentiment fell -2.6% (Mon), but RBA hawkishness overrides. CBA H1 profits +5% support financials. Risk-on tone and gold above $5,000/oz tailwinds.",
+      "drivers": ["Hawkish RBA Rhetoric (Hauser)", "AUD/USD 0.71 Breakout", "Gold Above $5,000/oz", "Risk-On Tone"],
       "headlines": [
-        "Westpac Consumer Sentiment fell -2.6% in Feb, deeper than prior -1.7%",
-        "Gold reclaims $5,000/oz on dollar weakness"
+        "RBA's Hauser: inflation too high, will do what's needed",
+        "AUD/USD reclaims 0.71 (first time in 3 years)"
       ]
     },
     "CAD": {
       "bias": "Neutral",
-      "tone": "Crude-Dependent",
-      "summary": "Loonie gained modestly alongside G10 peers vs weakening dollar. Crude oil prices rose with WTI settling USD 0.81 higher at 64.36/bbl and Brent USD 0.99 higher at 69.04/bbl, driven by broader risk sentiment and dollar weakness. Additional support from Qatar pushing LNG expansion to end of 2026. Trump posted about Canada tariffs and bridge ownership, adding uncertainty. House Democrats may force vote on Canada tariffs Wednesday.",
-      "drivers": ["Crude Oil Rally", "Broad USD Weakness", "Canada Tariff Uncertainty"],
+      "tone": "Crude-Dependent Range",
+      "summary": "Loonie rangebound as crude prices oscillate (WTI ~$64/bbl, Brent ~$69/bbl). Trump-Carney bridge dispute continues (Trump: Canada owning both sides unacceptable, wants 50% US authority). BoC Summary of Deliberations due Wed 14:30. Building Permits (Wed 09:30) and NFP spillover key. Tariff uncertainty lingers.",
+      "drivers": ["Crude Price Range", "Trump-Carney Bridge Dispute", "BoC Minutes Wed 14:30", "Tariff Uncertainty"],
       "headlines": [
-        "WTI settles +$0.81 at $64.36/bbl on risk-on sentiment and dollar weakness",
-        "US House Democrats may force vote on Canada tariffs Wednesday"
+        "Trump-Carney bridge dispute",
+        "BoC minutes Wed 14:30",
+        "Crude rangebound"
       ]
     },
     "CHF": {
       "bias": "Bullish",
-      "tone": "Safe-Haven Demand",
-      "summary": "Franc outperformed alongside AUD as one of the strongest G10 currencies vs the dollar. CHF benefitted from both safe-haven flows (China UST exposure concerns, 'sell America' theme) and broad dollar weakness. Swiss sight deposits fell (Domestic CHF 430.6bln from 436.6bln, Total CHF 447.4bln from 452.7bln). No fresh SNB commentary, but CHF supported by multiple drivers.",
-      "drivers": ["Safe-Haven Flows", "Broad USD Weakness", "China UST Concerns"],
+      "tone": "Safe-Haven Bid",
+      "summary": "Franc incrementally firmer on safe-haven flows amid Middle East tensions (Trump weighs second carrier to strike Iran if talks fail). USD weakness and European political uncertainty support. SNB policy stable. CHF benefits from defensive positioning ahead of NFP and CPI (Fri).",
+      "drivers": ["Middle East Tensions (Iran)", "USD Weakness", "Defensive Positioning Pre-NFP"],
       "headlines": [
-        "Swiss sight deposits decline in latest week",
-        "CHF outperforms as safe-haven and dollar weakness converge"
+        "Trump weighs second carrier to Middle East",
+        "Iran talks next week"
       ]
     },
     "NZD": {
       "bias": "Bullish",
       "tone": "High-Beta Strength",
-      "summary": "Kiwi strengthened in line with broader G10 gains against the dollar, with AUD benefiting most from improved risk tone and general USD sell-off. NZD supported by risk-on sentiment as APAC stocks rallied. Hang Seng and Shanghai Comp lagged regional peers in mixed trade, with Hong Kong led by pharmaceuticals while mainland flat amid little fresh drivers. No fresh NZ data, but high-beta characteristics supported gains.",
-      "drivers": ["Risk-On Trade", "Broad USD Weakness", "High-Beta Characteristics"],
+      "summary": "Kiwi tracks AUD higher on risk-on tone and USD weakness. Westpac anticipates RBNZ hiking rates more quickly in 2027. High-beta currency benefits from gold rally and China stimulus hopes (PBoC appropriately loose policy, expand CNY cross-border use). No domestic catalysts, but AUD strength spillover and defensive USD positioning support.",
+      "drivers": ["AUD Spillover", "Risk-On Tone", "PBoC Loose Policy", "USD Weakness"],
       "headlines": [
-        "APAC stocks mostly higher on Wall Street tech rally",
-        "NZD gains alongside high-beta currencies"
+        "Westpac: RBNZ to hike faster in 2027",
+        "PBoC: appropriately loose policy"
       ]
     }
   },
-  "redFolderNews": [
-    {
-      "day": "TUE",
-      "event": "US Core Retail Sales m/m",
-      "impact": "High",
-      "currency": "USD",
-      "time": "14:30"
-    },
-    {
-      "day": "TUE",
-      "event": "US Retail Sales m/m",
-      "impact": "High",
-      "currency": "USD",
-      "time": "14:30"
-    },
-    {
-      "day": "TUE",
-      "event": "US Employment Cost Index q/q",
-      "impact": "High",
-      "currency": "USD",
-      "time": "14:30"
-    },
-    {
-      "day": "WED",
-      "event": "US Average Hourly Earnings m/m",
-      "impact": "High",
-      "currency": "USD",
-      "time": "14:30"
-    },
-    {
-      "day": "WED",
-      "event": "US Non-Farm Employment Change",
-      "impact": "High",
-      "currency": "USD",
-      "time": "14:30"
-    },
-    {
-      "day": "WED",
-      "event": "US Unemployment Rate",
-      "impact": "High",
-      "currency": "USD",
-      "time": "14:30"
-    },
-    {
-      "day": "THU",
-      "event": "UK GDP m/m",
-      "impact": "High",
-      "currency": "GBP",
-      "time": "08:00"
-    },
-    {
-      "day": "THU",
-      "event": "US Unemployment Claims",
-      "impact": "High",
-      "currency": "USD",
-      "time": "14:30"
-    },
-    {
-      "day": "FRI",
-      "event": "Swiss CPI m/m",
-      "impact": "High",
-      "currency": "CHF",
-      "time": "08:30"
-    },
-    {
-      "day": "FRI",
-      "event": "US Core CPI m/m",
-      "impact": "High",
-      "currency": "USD",
-      "time": "14:30"
-    },
-    {
-      "day": "FRI",
-      "event": "US CPI m/m",
-      "impact": "High",
-      "currency": "USD",
-      "time": "14:30"
-    },
-    {
-      "day": "FRI",
-      "event": "US CPI y/y",
-      "impact": "High",
-      "currency": "USD",
-      "time": "14:30"
-    }
-  ],
   "bonds": {
     "FGBL": {
       "name": "Euro Bund Future (Germany 10Y)",
       "bias": "Bullish",
       "tone": "Prices Rise / Yields Fall",
-      "summary": "Bund prices supported by broad EUR strength and dollar weakness. Risk-on environment typically bearish for safe-haven bonds, but lack of hawkish ECB signals and stable European data flow provide support. No major Tier 1 Eurozone data to drive sell-off. Defensive positioning ahead of US data releases (Retail Sales, NFP, CPI) may provide additional bid.",
-      "drivers": ["EUR Strength vs USD", "Stable ECB Policy", "Defensive Flows Pre-US Data"],
+      "summary": "Bund prices supported by USD weakness and stable ECB policy (de Guindos: current rates appropriate). Risk-on environment typically bearish for bonds, but lack of hawkish ECB signals and quiet Eurozone calendar provide support. Defensive positioning ahead of US NFP (Wed 09:30) and CPI (Fri 14:30) may provide additional bid. German 30-y auction Wed (tentative).",
+      "drivers": ["USD Weakness", "Stable ECB Policy", "Defensive Flows Pre-US Data"],
       "yieldDirection": "Lower"
     },
     "ZN": {
       "name": "US Treasury 10Y Note Future",
       "bias": "Bullish",
       "tone": "Prices Rise / Yields Fall",
-      "summary": "Treasury prices supported by USD weakness and China UST exposure concerns creating defensive flows. Despite risk-on sentiment, uncertainty around Trump-Xi summit (April) and potential Fed dovish pivot if upcoming data (Retail Sales today 14:30, NFP Wed, CPI Fri) disappoints provides bullish bias. Fed's Miran noted no tariff-driven inflation and rates should be lower. Key data risk today at 14:30.",
-      "drivers": ["USD Weakness", "China UST Concerns", "Fed Dovish Signals"],
+      "summary": "Treasury prices supported by soft US data (Retail Sales 0.0%, ADP 6.5k weekly, ECI 0.7% vs exp 0.8%). T-notes caught bid, lingering near best levels. NFP (Wed 09:30) and CPI (Fri 14:30) are key risks—weak data would reinforce dovish Fed pivot expectations. Fed officials (Hammack, Logan) signal extended hold, but soft data raises cut odds if labor market weakens further. 10-y auction Wed 14:01.",
+      "drivers": ["Soft US Data (Retail, ADP, ECI)", "NFP Risk Wed 09:30", "Fed Extended Hold", "Defensive Positioning"],
       "yieldDirection": "Lower"
     }
-  }
+  },
+  "redFolderNews": [
+    {
+      "day": "WED",
+      "time": "09:30",
+      "event": "US Average Hourly Earnings m/m",
+      "impact": "High",
+      "currency": "USD"
+    },
+    {
+      "day": "WED",
+      "time": "09:30",
+      "event": "US Non-Farm Employment Change (NFP)",
+      "impact": "High",
+      "currency": "USD"
+    },
+    {
+      "day": "WED",
+      "time": "09:30",
+      "event": "US Unemployment Rate",
+      "impact": "High",
+      "currency": "USD"
+    },
+    {
+      "day": "THU",
+      "time": "09:30",
+      "event": "UK GDP m/m",
+      "impact": "High",
+      "currency": "GBP"
+    },
+    {
+      "day": "THU",
+      "time": "09:30",
+      "event": "UK Manufacturing Production m/m",
+      "impact": "High",
+      "currency": "GBP"
+    },
+    {
+      "day": "THU",
+      "time": "09:30",
+      "event": "UK Industrial Production m/m",
+      "impact": "High",
+      "currency": "GBP"
+    },
+    {
+      "day": "THU",
+      "time": "14:30",
+      "event": "US Core CPI m/m",
+      "impact": "High",
+      "currency": "USD"
+    },
+    {
+      "day": "THU",
+      "time": "14:30",
+      "event": "US CPI m/m",
+      "impact": "High",
+      "currency": "USD"
+    },
+    {
+      "day": "THU",
+      "time": "14:30",
+      "event": "US CPI y/y",
+      "impact": "High",
+      "currency": "USD"
+    },
+    {
+      "day": "FRI",
+      "time": "14:30",
+      "event": "US Core PPI m/m",
+      "impact": "High",
+      "currency": "USD"
+    },
+    {
+      "day": "FRI",
+      "time": "14:30",
+      "event": "US PPI m/m",
+      "impact": "High",
+      "currency": "USD"
+    },
+    {
+      "day": "FRI",
+      "time": "15:15",
+      "event": "US Industrial Production m/m",
+      "impact": "High",
+      "currency": "USD"
+    },
+    {
+      "day": "FRI",
+      "time": "16:00",
+      "event": "US Prelim UoM Consumer Sentiment",
+      "impact": "High",
+      "currency": "USD"
+    },
+    {
+      "day": "FRI",
+      "time": "16:00",
+      "event": "US Prelim UoM Inflation Expectations",
+      "impact": "High",
+      "currency": "USD"
+    }
+  ]
 }
