@@ -761,9 +761,51 @@ export default function Home() {
           </div>
         )}
 
-        {/* Bond Bias Section - Only in Daily View */}
+        {/* Filter Bar */}
+        <div className="flex flex-wrap gap-2 mb-6">
+          {["All", "Bullish", "Bearish", "Neutral"].map((f) => (
+            <button
+              key={f}
+              onClick={() => setFilter(f)}
+              className={`px-3 py-1 text-[10px] font-bold font-mono uppercase border transition-all ${
+                filter === f 
+                  ? "border-orange-500 text-orange-500 bg-orange-500/10" 
+                  : "border-gray-800 text-gray-500 hover:border-gray-600"
+              }`}
+            >
+              {f}
+            </button>
+          ))}
+        </div>
+
+        {/* Currency Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
+          {filteredCurrencies.map((currency: any) => {
+            // Find comparison bias for alignment check
+            let comparisonBias = undefined;
+
+            if (viewMode === "DAILY") {
+              // In Daily View, compare with Weekly Bias
+              comparisonBias = weeklyData.currencies.find((c: any) => c.code === currency.code)?.bias;
+            } else {
+              // In Weekly View, compare with Daily Bias
+              // @ts-ignore
+              comparisonBias = dailyData.currencies[currency.code]?.bias;
+            }
+
+            return (
+              <BiasCard 
+                key={currency.code} 
+                currency={currency} 
+                weeklyBias={comparisonBias}
+              />
+            );
+          })}
+        </div>
+
+        {/* Bond Bias Section - Only in Daily View - After Currency Cards */}
         {viewMode === "DAILY" && (
-          <div className="mb-8">
+          <div className="mt-8">
             <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2 border-b border-gray-800 pb-3">
               <Terminal className="w-5 h-5 text-orange-500" />
               Bond Market Bias
@@ -834,48 +876,6 @@ export default function Home() {
             </div>
           </div>
         )}
-
-        {/* Filter Bar */}
-        <div className="flex flex-wrap gap-2 mb-6">
-          {["All", "Bullish", "Bearish", "Neutral"].map((f) => (
-            <button
-              key={f}
-              onClick={() => setFilter(f)}
-              className={`px-3 py-1 text-[10px] font-bold font-mono uppercase border transition-all ${
-                filter === f 
-                  ? "border-orange-500 text-orange-500 bg-orange-500/10" 
-                  : "border-gray-800 text-gray-500 hover:border-gray-600"
-              }`}
-            >
-              {f}
-            </button>
-          ))}
-        </div>
-
-        {/* Currency Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
-          {filteredCurrencies.map((currency: any) => {
-            // Find comparison bias for alignment check
-            let comparisonBias = undefined;
-
-            if (viewMode === "DAILY") {
-              // In Daily View, compare with Weekly Bias
-              comparisonBias = weeklyData.currencies.find((c: any) => c.code === currency.code)?.bias;
-            } else {
-              // In Weekly View, compare with Daily Bias
-              // @ts-ignore
-              comparisonBias = dailyData.currencies[currency.code]?.bias;
-            }
-
-            return (
-              <BiasCard 
-                key={currency.code} 
-                currency={currency} 
-                weeklyBias={comparisonBias}
-              />
-            );
-          })}
-        </div>
       </main>
 
       {/* Footer */}
