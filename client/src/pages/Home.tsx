@@ -761,6 +761,80 @@ export default function Home() {
           </div>
         )}
 
+        {/* Bond Bias Section - Only in Daily View */}
+        {viewMode === "DAILY" && (
+          <div className="mb-8">
+            <h2 className="text-xl font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2 border-b border-gray-800 pb-3">
+              <Terminal className="w-5 h-5 text-orange-500" />
+              Bond Market Bias
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {Object.entries(dailyData.bonds).map(([code, bond]: [string, any]) => {
+                const isBullish = bond.bias.includes("Bullish");
+                const isBearish = bond.bias.includes("Bearish");
+                const borderColor = isBullish ? "border-orange-500" : isBearish ? "border-red-600" : "border-gray-600";
+                const textColor = isBullish ? "text-orange-500" : isBearish ? "text-red-500" : "text-gray-400";
+                const bgColor = isBullish ? "bg-orange-500/10" : isBearish ? "bg-red-900/10" : "bg-gray-800/20";
+                const glowClass = isBullish ? "shadow-[0_0_15px_rgba(249,115,22,0.15)]" : isBearish ? "shadow-[0_0_15px_rgba(220,38,38,0.15)]" : "";
+
+                return (
+                  <motion.div
+                    key={code}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.3 }}
+                    className={`relative border ${borderColor} bg-[#121212] p-4 overflow-hidden ${glowClass}`}
+                  >
+                    <div className="flex justify-between items-start mb-3">
+                      <div>
+                        <h3 className="text-2xl font-bold text-white tracking-tight">{code}</h3>
+                        <p className="text-[9px] text-gray-500 uppercase tracking-widest font-mono">{bond.name}</p>
+                      </div>
+                      <div className="flex flex-col items-end gap-1">
+                        <div className={`px-2 py-1 border ${borderColor} ${textColor} text-[9px] font-bold uppercase tracking-wider bg-black`}>
+                          {bond.bias}
+                        </div>
+                        {bond.tone && (
+                          <div className="text-[9px] font-mono text-gray-400 flex items-center gap-1">
+                            <Activity className="w-2.5 h-2.5" /> {bond.tone}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-2 mb-4 border-b border-gray-800 pb-3">
+                      {isBullish && <TrendingUp className="w-4 h-4 text-orange-500" />}
+                      {isBearish && <TrendingDown className="w-4 h-4 text-red-500" />}
+                      <span className={`text-base font-bold font-mono ${textColor}`}>{bond.bias.toUpperCase()}</span>
+                      <div className="ml-auto flex items-center gap-1 text-[9px] font-mono text-gray-500">
+                        Yields: {bond.yieldDirection}
+                      </div>
+                    </div>
+
+                    <div className="space-y-3">
+                      <div>
+                        <h4 className="text-[9px] font-bold text-gray-500 uppercase tracking-widest mb-2">Summary</h4>
+                        <p className="text-xs text-gray-300 font-mono leading-relaxed">{bond.summary}</p>
+                      </div>
+
+                      <div>
+                        <h4 className="text-[9px] font-bold text-gray-500 uppercase tracking-widest mb-2">Key Drivers</h4>
+                        <div className="flex flex-wrap gap-1.5">
+                          {bond.drivers.map((driver: string, i: number) => (
+                            <span key={i} className="px-2 py-1 bg-black/40 border border-gray-800 text-[9px] text-gray-400 font-mono">
+                              {driver}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    </div>
+                  </motion.div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
         {/* Filter Bar */}
         <div className="flex flex-wrap gap-2 mb-6">
           {["All", "Bullish", "Bearish", "Neutral"].map((f) => (

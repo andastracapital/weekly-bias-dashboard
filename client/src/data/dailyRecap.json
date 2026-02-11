@@ -176,5 +176,23 @@
       "currency": "USD",
       "time": "14:30"
     }
-  ]
+  ],
+  "bonds": {
+    "FGBL": {
+      "name": "Euro Bund Future (Germany 10Y)",
+      "bias": "Bullish",
+      "tone": "Prices Rise / Yields Fall",
+      "summary": "Bund prices supported by broad EUR strength and dollar weakness. Risk-on environment typically bearish for safe-haven bonds, but lack of hawkish ECB signals and stable European data flow provide support. No major Tier 1 Eurozone data to drive sell-off. Defensive positioning ahead of US data releases (Retail Sales, NFP, CPI) may provide additional bid.",
+      "drivers": ["EUR Strength vs USD", "Stable ECB Policy", "Defensive Flows Pre-US Data"],
+      "yieldDirection": "Lower"
+    },
+    "ZN": {
+      "name": "US Treasury 10Y Note Future",
+      "bias": "Bullish",
+      "tone": "Prices Rise / Yields Fall",
+      "summary": "Treasury prices supported by USD weakness and China UST exposure concerns creating defensive flows. Despite risk-on sentiment, uncertainty around Trump-Xi summit (April) and potential Fed dovish pivot if upcoming data (Retail Sales today 14:30, NFP Wed, CPI Fri) disappoints provides bullish bias. Fed's Miran noted no tariff-driven inflation and rates should be lower. Key data risk today at 14:30.",
+      "drivers": ["USD Weakness", "China UST Concerns", "Fed Dovish Signals"],
+      "yieldDirection": "Lower"
+    }
+  }
 }
