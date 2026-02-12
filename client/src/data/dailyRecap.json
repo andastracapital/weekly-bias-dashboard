@@ -1,215 +1,156 @@
 {
-  "date": "Wednesday, February 11, 2026",
+  "date": "Thursday, February 12, 2026",
   "lastUpdate": "07:00 Frankfurt Time",
   "marketFocus": {
     "riskEnvironment": "Mixed",
     "headlines": [
-      "NFP report looms as soft US Retail Sales and weak ADP (6.5k weekly) signal labor market cooling",
-      "JPY continues post-election rally with USD/JPY testing 153.00 on faster BoJ hike bets",
-      "AUD reclaims 0.71 for first time in 3 years on hawkish RBA rhetoric (Hauser: inflation too high)",
-      "Trump weighs second carrier strike group to Middle East if Iran talks fail next week"
+      "Blowout NFP (130k vs exp 65k) pushes first Fed cut to July, but BLS revisions (-862k) and sector concentration raise sustainability concerns",
+      "UK GDP disappoints (0.1% m/m vs exp 0.1%, but 0.7% y/y vs exp 1.1%) as Manufacturing Production falls -0.5%",
+      "Trump-Xi trade truce reportedly extended to 1 year at April Beijing summit, but Trump privately considering exiting USMCA",
+      "China announces 11.7% tariff on EU dairy products effective Feb 13th in escalating trade tensions"
     ]
   },
   "currencies": {
     "USD": {
-      "bias": "Bearish",
-      "tone": "Data-Driven Weakness",
-      "summary": "Dollar under pressure ahead of NFP (Wed 09:30) after disappointing Retail Sales (0.0% vs exp 0.4%) and weak ADP (6.5k weekly adds). Fed officials (Hammack, Logan) signal extended hold, but soft data raises dovish pivot risk. DXY repositioning likely before jobs report. Commerce Sec Lutnick says USD was manipulated higher, more natural at current level.",
-      "drivers": ["Soft Retail Sales & ADP", "NFP Risk (Wed 09:30)", "Fed Extended Hold Rhetoric", "Repositioning Pre-Data"],
+      "bias": "Mixed",
+      "tone": "Post-NFP Consolidation",
+      "summary": "Dollar failed to sustain post-NFP gains despite blowout headline (130k vs exp 65k, unemployment 4.3% from 4.4%). BLS revisions (-862k through March 2025) and sector concentration (private payrolls +172k, but job losses in retail, construction, manufacturing, tech, financials) raise sustainability concerns. Fed's Schmid sees breakeven employment at 40-50k. First cut now priced July (prev. June). Weak 10yr auction (1.4bps tail, largest since Aug 2024) pressured Treasuries. DXY choppy, awaiting CPI (Fri).",
+      "drivers": ["Blowout NFP but Sector Concerns", "BLS Revisions -862k", "Fed Cut Pushed to July", "Weak 10yr Auction"],
       "headlines": [
-        "US Retail Sales 0.0% vs exp 0.4%",
-        "ADP Weekly 6.5k vs prev 7.75k",
-        "Fed's Hammack: rates on hold for extended period"
+        "NFP 130k vs exp 65k, unemployment 4.3%",
+        "BLS revisions -862k through March 2025",
+        "Fed's Schmid: breakeven employment 40-50k"
       ]
     },
     "EUR": {
-      "bias": "Bullish",
-      "tone": "Stable Strength",
-      "summary": "Euro holds above 1.1900 on broad dollar weakness and stable ECB policy. De Guindos reiterated current rates appropriate, recent EUR strength consistent with ECB projections. No fresh Eurozone catalysts, but relative political calm vs UK and USD headwinds support. Italian Industrial Production due Wed 05:00.",
-      "drivers": ["USD Weakness", "ECB Policy Stability", "Relative Political Calm"],
+      "bias": "Neutral",
+      "tone": "Range-Bound",
+      "summary": "Euro lacked conviction after returning to sub-1.1900 territory. ECB officials called for additional EU debt (Nagel: new reality requires more EU debt, sees benefits of Euro-wide benchmark safe asset). ECB Wage Tracker rose to 2.388% (prev. 2.316%). Von der Leyen said EU needs one large, deep, liquid capital market (currently too fragmented). Italian Industrial Production 3.2% y/y (prev. 1.4%). EUR/USD rangebound, awaiting fresh catalysts.",
+      "drivers": ["Sub-1.1900 Consolidation", "ECB Calls for More EU Debt", "Wage Tracker Rising"],
       "headlines": [
-        "ECB's de Guindos: current rates appropriate",
-        "EUR strength consistent with ECB projections"
+        "ECB's Nagel: new reality requires more EU debt",
+        "ECB Wage Tracker 2.388% (prev. 2.316%)",
+        "Italian Industrial Production 3.2% y/y"
       ]
     },
     "GBP": {
-      "bias": "Mixed",
-      "tone": "Consolidation",
-      "summary": "Sterling retreats from 1.3700 resistance as political uncertainty persists despite Starmer reaffirming he won't resign. Cabinet Office asks Ministers not to follow Wes Streeting in publishing Mandelson messages. Quiet UK calendar until Thu GDP data. Relative political stability vs previous weeks, but upside capped.",
-      "drivers": ["Political Uncertainty (Mandelson)", "USD Weakness Support", "Thu GDP Data Risk"],
+      "bias": "Bearish",
+      "tone": "GDP Disappointment",
+      "summary": "Sterling under pressure after weak UK GDP data. GDP m/m 0.1% (in line), but GDP y/y 0.7% vs exp 1.1% (prev. 1.2%). Manufacturing Production m/m -0.5% vs exp 0.0% (prev. 1.9%). Industrial Production m/m -0.9% vs exp 0.0% (prev. 1.3%). Construction Output m/m -0.5% vs exp 0.5%. Prelim Business Investment q/q -2.7% vs exp -0.5%. Data signals UK economic weakness persists despite political stabilization. GBP/USD struggled for direction, awaiting BoE signals.",
+      "drivers": ["Weak GDP Data (0.7% y/y vs exp 1.1%)", "Manufacturing Production -0.5%", "Business Investment -2.7%"],
       "headlines": [
-        "Starmer reaffirms won't resign",
-        "Cabinet Office blocks Mandelson message releases",
-        "Thu GDP data key"
+        "UK GDP y/y 0.7% vs exp 1.1%",
+        "UK Manufacturing Production m/m -0.5%",
+        "UK Business Investment q/q -2.7%"
       ]
     },
     "JPY": {
       "bias": "Bullish",
-      "tone": "Post-Election Momentum",
-      "summary": "Yen continues post-Takaichi election rally with USD/JPY testing 153.00 (100 DMA). Markets pricing faster BoJ normalization amid renewed political stability and fiscal responsibility vows. JGB pressure subsides, Nikkei strength (near 58,000) supports. ING expects JPY 10tln inflows to Japanese equities over 3 months. Japanese markets closed Wed for National Founding Day.",
-      "drivers": ["Faster BoJ Hike Bets", "Political Stability Post-Election", "Nikkei Strength", "USD Weakness"],
+      "tone": "Intervention Speculation",
+      "summary": "Yen outperformed after sharp USD/JPY reversal sparked intervention speculation. USD/JPY initially jumped to 154.64 post-NFP, then reversed entire move to 152.84 within minutes. However, intervention unlikely: 1) Japan typically intervenes on JPY-favorable US data, not against narrative, 2) Government not sitting, 3) Japan on holiday. Top currency diplomat Mimura: watching markets with high sense of urgency, in contact with US authorities. Japan requested US Fed/NY Fed JPY rate check in January. Nikkei 225 hit fresh record above 58,000 before fading. PPI in line (0.2% m/m, 2.3% y/y).",
+      "drivers": ["Sharp USD/JPY Reversal (154.64→152.84)", "Intervention Speculation", "Mimura Jawboning", "Nikkei Record Highs"],
       "headlines": [
-        "Takaichi landslide victory",
-        "BoJ hike odds rising",
-        "Japanese markets closed Wed"
+        "USD/JPY sharp reversal sparks intervention speculation",
+        "Mimura: watching markets with high sense of urgency",
+        "Japan requested US Fed JPY rate check in January"
       ]
     },
     "AUD": {
       "bias": "Bullish",
-      "tone": "Hawkish RBA Premium",
-      "summary": "Aussie reclaims 0.71 for first time in 3 years on hawkish RBA rhetoric. Deputy Gov Hauser: inflation too high, can't let persist, will do what's needed to return to band. Westpac Consumer Sentiment fell -2.6% (Mon), but RBA hawkishness overrides. CBA H1 profits +5% support financials. Risk-on tone and gold above $5,000/oz tailwinds.",
-      "drivers": ["Hawkish RBA Rhetoric (Hauser)", "AUD/USD 0.71 Breakout", "Gold Above $5,000/oz", "Risk-On Tone"],
+      "tone": "RBA Hawkish Premium",
+      "summary": "Aussie erased all NFP-induced USD strength, supported by hawkish RBA rhetoric. Governor Bullock: Board decided inflation at around 3-point something was unacceptable, Bank will monitor data and act if inflation becomes entrenched, warning further rate hikes may be needed. Deputy Gov Hauser: Economy is not just 'dig it and ship it', many parts of economy doing quite well. ASX 200 led higher by utilities and financials (Origin Energy, ANZ Group rallied post-earnings). Copper bid higher on nickel supply concerns (Indonesia's Weda Bay mine told to slash output 70%). AUD/USD resilient despite strong NFP.",
+      "drivers": ["Hawkish RBA Rhetoric (Bullock, Hauser)", "Strong Earnings (Origin, ANZ)", "Copper Rally (Nickel Supply Cut)"],
       "headlines": [
-        "RBA's Hauser: inflation too high, will do what's needed",
-        "AUD/USD reclaims 0.71 (first time in 3 years)"
+        "RBA's Bullock: inflation at 3-point something unacceptable",
+        "RBA's Hauser: many parts of economy doing quite well",
+        "Copper rallies on Indonesia nickel mine output cut"
       ]
     },
     "CAD": {
-      "bias": "Neutral",
-      "tone": "Crude-Dependent Range",
-      "summary": "Loonie rangebound as crude prices oscillate (WTI ~$64/bbl, Brent ~$69/bbl). Trump-Carney bridge dispute continues (Trump: Canada owning both sides unacceptable, wants 50% US authority). BoC Summary of Deliberations due Wed 14:30. Building Permits (Wed 09:30) and NFP spillover key. Tariff uncertainty lingers.",
-      "drivers": ["Crude Price Range", "Trump-Carney Bridge Dispute", "BoC Minutes Wed 14:30", "Tariff Uncertainty"],
+      "bias": "Bearish",
+      "tone": "USMCA Exit Risk",
+      "summary": "Loonie weakened on Bloomberg report that Trump is privately considering exiting the North American trade pact, asking aides why he shouldn't withdraw. White House called it baseless speculation, but injected uncertainty into pivotal renegotiations. USD/CAD hit highs of 1.3619 before paring to 1.3570. BoC Minutes: Governing Council agreed policy interest rate was on stimulative side, need to maintain optionality. Crude prices firmer (WTI +$0.67 to $64.63, Brent +$0.60 to $69.40) on Middle East tensions (Trump weighs second carrier if Iran talks fail). Trump-Xi trade truce reportedly extended 1 year.",
+      "drivers": ["Trump Considering Exiting USMCA", "BoC Minutes: Rates Stimulative", "Crude Rally on Geopolitics"],
       "headlines": [
-        "Trump-Carney bridge dispute",
-        "BoC minutes Wed 14:30",
-        "Crude rangebound"
+        "Bloomberg: Trump privately considering exiting USMCA",
+        "BoC Minutes: policy rate on stimulative side",
+        "Crude rallies on Middle East tensions"
       ]
     },
     "CHF": {
-      "bias": "Bullish",
-      "tone": "Safe-Haven Bid",
-      "summary": "Franc incrementally firmer on safe-haven flows amid Middle East tensions (Trump weighs second carrier to strike Iran if talks fail). USD weakness and European political uncertainty support. SNB policy stable. CHF benefits from defensive positioning ahead of NFP and CPI (Fri).",
-      "drivers": ["Middle East Tensions (Iran)", "USD Weakness", "Defensive Positioning Pre-NFP"],
+      "bias": "Neutral",
+      "tone": "Carry Unwind",
+      "summary": "Franc underperformed as traders unwound recent carry trade-related strength, potentially returning to JPY. CHF weakened given risk tone and as markets repositioned post-NFP. SNB policy stable. Swiss sight deposits data awaited. CHF lost safe-haven premium as geopolitical tensions (Middle East, Russia-Ukraine) took backseat to NFP reaction. EUR/CHF and USD/CHF rangebound.",
+      "drivers": ["Carry Trade Unwind", "Risk-On Tone Post-NFP", "Repositioning to JPY"],
       "headlines": [
-        "Trump weighs second carrier to Middle East",
-        "Iran talks next week"
+        "CHF underperforms on carry trade unwind",
+        "Traders potentially returning to JPY",
+        "Risk-on tone weighs on safe-haven demand"
       ]
     },
     "NZD": {
       "bias": "Bullish",
-      "tone": "High-Beta Strength",
-      "summary": "Kiwi tracks AUD higher on risk-on tone and USD weakness. Westpac anticipates RBNZ hiking rates more quickly in 2027. High-beta currency benefits from gold rally and China stimulus hopes (PBoC appropriately loose policy, expand CNY cross-border use). No domestic catalysts, but AUD strength spillover and defensive USD positioning support.",
-      "drivers": ["AUD Spillover", "Risk-On Tone", "PBoC Loose Policy", "USD Weakness"],
+      "tone": "AUD Spillover",
+      "summary": "Kiwi tracked AUD higher, benefiting from broad risk-on tone and hawkish RBA spillover. NZD/USD erased NFP-induced weakness alongside AUD. No fresh domestic catalysts, but high-beta characteristics supported gains. China stimulus hopes persist (PBoC appropriately loose policy, Premier Li urges AI use in various sectors). Trump-Xi trade truce reportedly extended 1 year at April Beijing summit, reducing near-term trade war risk. NZD supported by commodity strength (copper, gold).",
+      "drivers": ["AUD Spillover", "Risk-On Tone", "China Stimulus Hopes", "Trump-Xi Truce Extension"],
       "headlines": [
-        "Westpac: RBNZ to hike faster in 2027",
-        "PBoC: appropriately loose policy"
+        "NZD tracks AUD higher on hawkish RBA spillover",
+        "Trump-Xi trade truce reportedly extended 1 year",
+        "China Premier Li urges AI use in various sectors"
       ]
     }
   },
   "bonds": {
     "FGBL": {
       "name": "Euro Bund Future (Germany 10Y)",
-      "bias": "Bullish",
-      "tone": "Prices Rise / Yields Fall",
-      "summary": "Bund prices supported by USD weakness and stable ECB policy (de Guindos: current rates appropriate). Risk-on environment typically bearish for bonds, but lack of hawkish ECB signals and quiet Eurozone calendar provide support. Defensive positioning ahead of US NFP (Wed 09:30) and CPI (Fri 14:30) may provide additional bid. German 30-y auction Wed (tentative).",
-      "drivers": ["USD Weakness", "Stable ECB Policy", "Defensive Flows Pre-US Data"],
-      "yieldDirection": "Lower"
+      "bias": "Neutral",
+      "tone": "Two-Way Trade",
+      "summary": "Bund futures took a breather after Wednesday's whipsawing. ECB's Nagel called for more EU debt (sees benefits of Euro-wide benchmark safe asset), while Schnabel noted numerous headwinds for German economy (potential growth weighed by demographic change). German dual-tranche tap (EUR 750mln 2.90% 2056, EUR 1.16bln 2.50% 2054) showed mixed demand. Bunds dragged lower post-NFP to lows of 128.39, but pressure short-lived, recovering to near-unchanged. Awaiting US CPI (Fri) for direction.",
+      "drivers": ["ECB Calls for More EU Debt", "Post-NFP Whipsaw", "German Tap Mixed Demand"],
+      "yieldDirection": "Stable"
     },
     "ZN": {
       "name": "US Treasury 10Y Note Future",
-      "bias": "Bullish",
-      "tone": "Prices Rise / Yields Fall",
-      "summary": "Treasury prices supported by soft US data (Retail Sales 0.0%, ADP 6.5k weekly, ECI 0.7% vs exp 0.8%). T-notes caught bid, lingering near best levels. NFP (Wed 09:30) and CPI (Fri 14:30) are key risks—weak data would reinforce dovish Fed pivot expectations. Fed officials (Hammack, Logan) signal extended hold, but soft data raises cut odds if labor market weakens further. 10-y auction Wed 14:01.",
-      "drivers": ["Soft US Data (Retail, ADP, ECI)", "NFP Risk Wed 09:30", "Fed Extended Hold", "Defensive Positioning"],
-      "yieldDirection": "Lower"
+      "bias": "Bearish",
+      "tone": "Prices Fall / Yields Rise",
+      "summary": "Treasury prices plummeted post-NFP (T-note futures 112-19+ to 112-00), but pared majority of move before weak 10yr auction capped reversal. Auction showed 1.4bps tail (largest since Aug 2024), bid-to-cover 2.39x (prev. 2.55x), indirect demand fell to 65.4% (prev. 70.2%), leaving dealers with above-average 13.4%. At settlement, 10yr yield +3.1bps at 4.176%. First Fed cut now priced July (prev. June), but two cuts still priced by year-end. Fed's Schmid: appropriate to keep restrictive policy with inflation near 3%. Attention turns to CPI (Fri). 30yr bond auction due Thu.",
+      "drivers": ["Weak 10yr Auction (1.4bps Tail)", "Post-NFP Reversal Faded", "Fed Cut Pushed to July", "CPI Risk Fri"],
+      "yieldDirection": "Higher"
     }
   },
   "redFolderNews": [
     {
-      "day": "WED",
+      "day": "THU",
       "time": "09:30",
-      "event": "US Average Hourly Earnings m/m",
-      "impact": "High",
-      "currency": "USD"
-    },
-    {
-      "day": "WED",
-      "time": "09:30",
-      "event": "US Non-Farm Employment Change (NFP)",
-      "impact": "High",
-      "currency": "USD"
-    },
-    {
-      "day": "WED",
-      "time": "09:30",
-      "event": "US Unemployment Rate",
+      "event": "US Unemployment Claims",
       "impact": "High",
       "currency": "USD"
     },
     {
       "day": "THU",
-      "time": "09:30",
-      "event": "UK GDP m/m",
+      "time": "12:00",
+      "event": "US Existing Home Sales",
       "impact": "High",
-      "currency": "GBP"
+      "currency": "USD"
     },
     {
-      "day": "THU",
-      "time": "09:30",
-      "event": "UK Manufacturing Production m/m",
-      "impact": "High",
-      "currency": "GBP"
-    },
-    {
-      "day": "THU",
-      "time": "09:30",
-      "event": "UK Industrial Production m/m",
-      "impact": "High",
-      "currency": "GBP"
-    },
-    {
-      "day": "THU",
+      "day": "FRI",
       "time": "14:30",
       "event": "US Core CPI m/m",
       "impact": "High",
       "currency": "USD"
     },
     {
-      "day": "THU",
+      "day": "FRI",
       "time": "14:30",
       "event": "US CPI m/m",
       "impact": "High",
       "currency": "USD"
     },
     {
-      "day": "THU",
+      "day": "FRI",
       "time": "14:30",
       "event": "US CPI y/y",
-      "impact": "High",
-      "currency": "USD"
-    },
-    {
-      "day": "FRI",
-      "time": "14:30",
-      "event": "US Core PPI m/m",
-      "impact": "High",
-      "currency": "USD"
-    },
-    {
-      "day": "FRI",
-      "time": "14:30",
-      "event": "US PPI m/m",
-      "impact": "High",
-      "currency": "USD"
-    },
-    {
-      "day": "FRI",
-      "time": "15:15",
-      "event": "US Industrial Production m/m",
-      "impact": "High",
-      "currency": "USD"
-    },
-    {
-      "day": "FRI",
-      "time": "16:00",
-      "event": "US Prelim UoM Consumer Sentiment",
-      "impact": "High",
-      "currency": "USD"
-    },
-    {
-      "day": "FRI",
-      "time": "16:00",
-      "event": "US Prelim UoM Inflation Expectations",
       "impact": "High",
       "currency": "USD"
     }
