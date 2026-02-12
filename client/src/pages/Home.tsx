@@ -623,8 +623,8 @@ export default function Home() {
               {/* Focus */}
               <div className="flex flex-col gap-1 md:col-span-2">
                 <span className="text-[10px] text-gray-500 uppercase tracking-wider font-bold">Focus</span>
-                <span className="text-sm font-bold text-white font-mono truncate">
-                  {dailyData.marketFocus.headlines[0] || "Key Market Drivers"}
+                <span className="text-sm font-bold text-white font-mono line-clamp-2">
+                  {dailyData.focus || dailyData.marketFocus.headlines[0] || "Key Market Drivers"}
                 </span>
               </div>
 
