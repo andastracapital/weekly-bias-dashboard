@@ -266,7 +266,7 @@ export default function Home() {
 
   // --- Dynamic Calculation Logic ---
 
-  // 1. Calculate High Conviction Setups (Weekly View)
+  // 1. Calculate Swing Setups (Weekly View)
   // Logic: Find currencies where Weekly Bias matches Daily Bias (Alignment).
   // Pair Strongest (Bullish Aligned) vs Weakest (Bearish Aligned).
   const getHighConvictionSetups = () => {
@@ -688,13 +688,13 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Middle: High Conviction Setups + Intraday Trades (25%) */}
+                {/* Middle: Swing Setups + Intraday Trades (25%) */}
               <div className="lg:col-span-1 space-y-6">
-                {/* High Conviction Setups */}
+                {/* Swing Setups */}
                 <div className="bg-[#121212] border border-gray-800 p-5">
-                  <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+                  <h3 className="text-sm font-bold text-white mb-1 flex items-center gap-2">
                     <Zap className="w-4 h-4 text-orange-500" />
-                    High Conviction Setups
+                    Swing Setups
                   </h3>
                   <p className="text-[10px] text-gray-500 font-mono mb-4">
                     Based on Weekly & Daily Bias Alignment
@@ -742,7 +742,7 @@ export default function Home() {
                           return { pair, direction, bull, bear };
                         })
                       )
-                      // Filter out pairs that are already in High Conviction Setups
+                      // Filter out pairs that are already in Swing Setups
                       .filter(trade => !highConvictionSetups.some(hc => hc.pair === trade.pair))
                       .slice(0, 6).map((trade, i) => (
                         <div key={i} className={`flex items-center justify-between bg-[#1a1a1a] px-3 py-2 border-l-2 ${trade.direction === "Long" ? "border-l-orange-500" : "border-l-red-500"} border-y border-r border-gray-800`}>
