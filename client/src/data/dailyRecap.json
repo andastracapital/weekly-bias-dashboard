@@ -121,14 +121,14 @@
   "redFolderNews": [
     {
       "day": "THU",
-      "time": "09:30",
+      "time": "14:30",
       "event": "US Unemployment Claims",
       "impact": "High",
       "currency": "USD"
     },
     {
       "day": "THU",
-      "time": "12:00",
+      "time": "16:00",
       "event": "US Existing Home Sales",
       "impact": "High",
       "currency": "USD"

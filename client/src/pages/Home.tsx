@@ -18,7 +18,8 @@ import {
   Camera,
   Check,
   X,
-  Download
+  Download,
+  Clock
 } from "lucide-react";
 import weeklyData from "../data/weeklyBias.json";
 import dailyData from "../data/dailyRecap.json";
@@ -597,7 +598,7 @@ export default function Home() {
                 <div className="flex flex-col gap-1 text-right">
                   <span className="text-[10px] text-gray-500 uppercase tracking-wider font-bold">Next Update</span>
                   <span className="text-sm font-bold text-gray-400 font-mono">
-                    07:00
+                    {dailyData.lastUpdate}
                   </span>
                 </div>
               </div>
@@ -731,26 +732,68 @@ export default function Home() {
                         // Filter: only show events happening TODAY (exact match)
                         return news.day === currentDay;
                       })
-                      .map((news: any, i: number) => (
-                      <div key={i} className="flex items-center justify-between border-b border-gray-800 pb-2 last:border-0">
-                        <div className="flex items-center gap-3">
-                          <span className="text-xs font-mono text-gray-500 w-10">{news.time}</span>
-                          <div>
-                            <div className="flex items-center gap-2">
-                              <span className="text-xs font-bold text-white w-8">{news.currency}</span>
-                              <span className={`text-[9px] px-1.5 py-0.5 border ${
-                                news.impact === "Critical" ? "border-red-500 text-red-500 bg-red-900/20" : 
-                                news.impact === "High" ? "border-orange-500 text-orange-500 bg-orange-900/20" : 
-                                "border-gray-600 text-gray-400"
-                              } uppercase font-bold`}>
-                                {news.impact}
+                      .map((news: any, i: number) => {
+                        // Calculate countdown
+                        const [timeLeft, setTimeLeft] = useState('');
+                        
+                        useEffect(() => {
+                          const calculateTimeLeft = () => {
+                            const now = new Date();
+                            const [hours, minutes] = news.time.split(':').map(Number);
+                            const eventTime = new Date(now);
+                            eventTime.setHours(hours, minutes, 0, 0);
+                            
+                            const diff = eventTime.getTime() - now.getTime();
+                            
+                            if (diff < 0) {
+                              return 'PASSED';
+                            } else if (diff < 60 * 60 * 1000) {
+                              const mins = Math.floor(diff / (60 * 1000));
+                              return `${mins}m`;
+                            } else {
+                              const hrs = Math.floor(diff / (60 * 60 * 1000));
+                              const mins = Math.floor((diff % (60 * 60 * 1000)) / (60 * 1000));
+                              return `${hrs}h ${mins}m`;
+                            }
+                          };
+                          
+                          setTimeLeft(calculateTimeLeft());
+                          const interval = setInterval(() => {
+                            setTimeLeft(calculateTimeLeft());
+                          }, 60000); // Update every minute
+                          
+                          return () => clearInterval(interval);
+                        }, [news.time]);
+                        
+                        return (
+                          <div key={i} className="flex items-center justify-between border-b border-gray-800 pb-2 last:border-0">
+                            <div className="flex items-center gap-3">
+                              <span className="text-xs font-mono text-gray-500 w-10">{news.time}</span>
+                              <div>
+                                <div className="flex items-center gap-2">
+                                  <span className="text-xs font-bold text-white w-8">{news.currency}</span>
+                                  <span className={`text-[9px] px-1.5 py-0.5 border ${
+                                    news.impact === "Critical" ? "border-red-500 text-red-500 bg-red-900/20" : 
+                                    news.impact === "High" ? "border-orange-500 text-orange-500 bg-orange-900/20" : 
+                                    "border-gray-600 text-gray-400"
+                                  } uppercase font-bold`}>
+                                    {news.impact}
+                                  </span>
+                                </div>
+                                <p className="text-[10px] text-gray-400 font-mono mt-0.5">{news.event}</p>
+                              </div>
+                            </div>
+                            <div className="flex items-center gap-1.5">
+                              <Clock className="w-3 h-3 text-orange-500" />
+                              <span className={`text-xs font-mono font-bold ${
+                                timeLeft === 'PASSED' ? 'text-gray-600' : 'text-orange-500'
+                              }`}>
+                                {timeLeft}
                               </span>
                             </div>
-                            <p className="text-[10px] text-gray-400 font-mono mt-0.5">{news.event}</p>
                           </div>
-                        </div>
-                      </div>
-                    ))}
+                        );
+                      })}
                     {dailyData.redFolderNews.length === 0 && (
                       <p className="text-xs text-gray-500 font-mono italic text-center py-4">No high impact events remaining today.</p>
                     )}
