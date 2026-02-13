@@ -1,159 +1,226 @@
 {
-  "date": "Thursday, February 12, 2026",
+  "date": "Friday, February 13, 2026",
   "lastUpdate": "08:30 ZRH Time",
-  "focus": "NFP Blowout vs BLS Revisions • UK GDP Disappointment • Trump USMCA Exit Risk",
+  "focus": "AI Disruption Fears • US CPI Risk • Trump-Iran Deal Optimism",
   "marketFocus": {
-    "riskEnvironment": "Mixed",
+    "riskEnvironment": "Risk-Off",
     "headlines": [
-      "Blowout NFP (130k vs exp 65k) pushes first Fed cut to July, but BLS revisions (-862k) and sector concentration raise sustainability concerns",
-      "UK GDP disappoints (0.1% m/m vs exp 0.1%, but 0.7% y/y vs exp 1.1%) as Manufacturing Production falls -0.5%",
-      "Trump-Xi trade truce reportedly extended to 1 year at April Beijing summit, but Trump privately considering exiting USMCA",
-      "China announces 11.7% tariff on EU dairy products effective Feb 13th in escalating trade tensions"
-    ]
+      "AI disruption fears trigger risk-off rout as Algorhythm Holdings (RIME) SemiCab platform enables 300-400% freight volume scaling without headcount increase",
+      "US CPI (Jan) looms as key test for Fed rate cut timeline after blowout NFP pushed first cut to July",
+      "Trump says US could reach Iran deal within a month, warns it will be 'very traumatic' for Iran if no agreement",
+      "Strong 30-year Treasury auction (2.1bps stop-through, largest since April 2025) lifts bonds amid flight-to-quality"
+    ],
+    "riskSentiment": "Risk-Off: AI disruption fears sparked broad equity selloff (-1.55% SPX, -2.04% NDX) as logistics/industrials/software/gaming/financials sectors slumped on RIME's AI freight scaling tool. Flight-to-quality lifted Treasuries (30yr auction stellar). Crude fell on risk-off + Iran deal optimism. US CPI (Jan) today is critical for Fed rate cut path."
   },
   "currencies": {
     "USD": {
       "bias": "Mixed",
-      "tone": "Post-NFP Consolidation",
-      "summary": "Dollar failed to sustain post-NFP gains despite blowout headline (130k vs exp 65k, unemployment 4.3% from 4.4%). BLS revisions (-862k through March 2025) and sector concentration (private payrolls +172k, but job losses in retail, construction, manufacturing, tech, financials) raise sustainability concerns. Fed's Schmid sees breakeven employment at 40-50k. First cut now priced July (prev. June). Weak 10yr auction (1.4bps tail, largest since Aug 2024) pressured Treasuries. DXY choppy, awaiting CPI (Fri).",
-      "drivers": ["Blowout NFP but Sector Concerns", "BLS Revisions -862k", "Fed Cut Pushed to July", "Weak 10yr Auction"],
-      "headlines": [
-        "NFP 130k vs exp 65k, unemployment 4.3%",
-        "BLS revisions -862k through March 2025",
-        "Fed's Schmid: breakeven employment 40-50k"
+      "tone": "CPI-Dependent",
+      "summary": "Dollar choppy ahead of critical US CPI (Jan) release. Risk-off trade provided modest support as havens outperformed, but Dollar failed to sustain gains. Post-NFP repricing pushed first Fed cut to July (from June), but sustainability concerns linger (BLS revisions -862k, sector concentration). CPI today will determine if Fed stays on hold longer or if soft inflation reopens June cut window. Initial Jobless Claims 227k (exp. 222k) showed labor market remains subdued. DXY rangebound, awaiting CPI catalyst.",
+      "drivers": [
+        "US CPI (Jan) today at 14:30 ZRH Time (critical for Fed path)",
+        "Post-NFP repricing: first cut July (prev. June)",
+        "Risk-off tone provided modest haven support",
+        "BLS revisions -862k raise NFP sustainability concerns",
+        "Initial Jobless Claims 227k vs exp. 222k (subdued labor market)"
       ]
     },
     "EUR": {
       "bias": "Neutral",
       "tone": "Range-Bound",
-      "summary": "Euro lacked conviction after returning to sub-1.1900 territory. ECB officials called for additional EU debt (Nagel: new reality requires more EU debt, sees benefits of Euro-wide benchmark safe asset). ECB Wage Tracker rose to 2.388% (prev. 2.316%). Von der Leyen said EU needs one large, deep, liquid capital market (currently too fragmented). Italian Industrial Production 3.2% y/y (prev. 1.4%). EUR/USD rangebound, awaiting fresh catalysts.",
-      "drivers": ["Sub-1.1900 Consolidation", "ECB Calls for More EU Debt", "Wage Tracker Rising"],
-      "headlines": [
+      "summary": "Euro lacked conviction, trading rangebound near 1.19 as participants await US CPI catalyst. ECB officials continued calls for more EU debt (Nagel: new reality requires more EU debt, sees benefits of Euro-wide benchmark safe asset). ECB Wage Tracker rose to 2.388% (prev. 2.316%). German Wholesale Prices (Jan) M/M 0.9% vs exp. 0.1% (Y/Y 1.2%). Swiss CPI (Jan) in line (0.1% Y/Y). EUR/USD flow-driven, awaiting US CPI for direction.",
+      "drivers": [
         "ECB's Nagel: new reality requires more EU debt",
         "ECB Wage Tracker 2.388% (prev. 2.316%)",
-        "Italian Industrial Production 3.2% y/y"
+        "German Wholesale Prices M/M 0.9% vs exp. 0.1%",
+        "Swiss CPI (Jan) 0.1% Y/Y (in line)",
+        "Awaiting US CPI for directional catalyst"
       ]
     },
     "GBP": {
       "bias": "Bearish",
-      "tone": "GDP Disappointment",
-      "summary": "Sterling under pressure after weak UK GDP data. GDP m/m 0.1% (in line), but GDP y/y 0.7% vs exp 1.1% (prev. 1.2%). Manufacturing Production m/m -0.5% vs exp 0.0% (prev. 1.9%). Industrial Production m/m -0.9% vs exp 0.0% (prev. 1.3%). Construction Output m/m -0.5% vs exp 0.5%. Prelim Business Investment q/q -2.7% vs exp -0.5%. Data signals UK economic weakness persists despite political stabilization. GBP/USD struggled for direction, awaiting BoE signals.",
-      "drivers": ["Weak GDP Data (0.7% y/y vs exp 1.1%)", "Manufacturing Production -0.5%", "Business Investment -2.7%"],
-      "headlines": [
-        "UK GDP y/y 0.7% vs exp 1.1%",
-        "UK Manufacturing Production m/m -0.5%",
-        "UK Business Investment q/q -2.7%"
+      "tone": "GDP Weakness Persists",
+      "summary": "Sterling remains under pressure after weak GDP data. GDP M/M 0.1% (in line), but GDP Y/Y 0.7% vs exp. 1.1% (prev. 1.2%). Manufacturing Production M/M -0.5% vs exp. 0.0% (prev. 1.9%). Industrial Production M/M -0.9% vs exp. 0.0%. Business Investment Q/Q -2.7% vs exp. -0.5%. Data signals UK economic weakness persists despite political stabilization. ING expects Q1 rebound due to seasonal effects, but says March BoE cut becomes 'highly likely' if growth and labor softness persist. GBP/USD rangebound 1.3604-1.3666, awaiting US CPI.",
+      "drivers": [
+        "UK GDP Y/Y 0.7% vs exp. 1.1% (disappointing)",
+        "UK Manufacturing Production M/M -0.5% (prev. 1.9%)",
+        "UK Business Investment Q/Q -2.7% vs exp. -0.5%",
+        "ING: March BoE cut 'highly likely' if weakness persists",
+        "Awaiting US CPI for broader direction"
       ]
     },
     "JPY": {
       "bias": "Bullish",
-      "tone": "Intervention Speculation",
-      "summary": "Yen outperformed after sharp USD/JPY reversal sparked intervention speculation. USD/JPY initially jumped to 154.64 post-NFP, then reversed entire move to 152.84 within minutes. However, intervention unlikely: 1) Japan typically intervenes on JPY-favorable US data, not against narrative, 2) Government not sitting, 3) Japan on holiday. Top currency diplomat Mimura: watching markets with high sense of urgency, in contact with US authorities. Japan requested US Fed/NY Fed JPY rate check in January. Nikkei 225 hit fresh record above 58,000 before fading. PPI in line (0.2% m/m, 2.3% y/y).",
-      "drivers": ["Sharp USD/JPY Reversal (154.64→152.84)", "Intervention Speculation", "Mimura Jawboning", "Nikkei Record Highs"],
-      "headlines": [
-        "USD/JPY sharp reversal sparks intervention speculation",
-        "Mimura: watching markets with high sense of urgency",
-        "Japan requested US Fed JPY rate check in January"
+      "tone": "Intervention Speculation + BoJ Hike Pricing",
+      "summary": "Yen outperformed as risk-off trade and intervention speculation supported. USD/JPY fell to 152.35 from 153.75 after sharp reversal sparked intervention speculation (though unlikely: Japan on holiday, government not sitting, Trump's Iran optimism not JPY-favorable narrative). Top currency diplomat Mimura: watching markets with high sense of urgency, in contact with US authorities. Japan requested US Fed/NY Fed JPY rate check in January. BoJ's Tamura: inflation becoming sticky, will keep raising rates if outlook met, price goal may be achieved as early as spring. Mizuho's Koshimizu: BoJ could deliver up to 3 hikes in 2026, starting March or April. Markets price ~60% March hike, ~92% June, fully July.",
+      "drivers": [
+        "Risk-off trade + intervention speculation (USD/JPY 153.75→152.35)",
+        "BoJ's Tamura: inflation sticky, may achieve price goal this spring",
+        "Mizuho: BoJ could hike 3 times in 2026 (March/April start)",
+        "Markets price 60% March hike, 92% June, 100% July",
+        "Mimura: watching markets with high sense of urgency"
       ]
     },
     "AUD": {
-      "bias": "Bullish",
-      "tone": "RBA Hawkish Premium",
-      "summary": "Aussie erased all NFP-induced USD strength, supported by hawkish RBA rhetoric. Governor Bullock: Board decided inflation at around 3-point something was unacceptable, Bank will monitor data and act if inflation becomes entrenched, warning further rate hikes may be needed. Deputy Gov Hauser: Economy is not just 'dig it and ship it', many parts of economy doing quite well. ASX 200 led higher by utilities and financials (Origin Energy, ANZ Group rallied post-earnings). Copper bid higher on nickel supply concerns (Indonesia's Weda Bay mine told to slash output 70%). AUD/USD resilient despite strong NFP.",
-      "drivers": ["Hawkish RBA Rhetoric (Bullock, Hauser)", "Strong Earnings (Origin, ANZ)", "Copper Rally (Nickel Supply Cut)"],
-      "headlines": [
+      "bias": "Mixed",
+      "tone": "RBA Hawkish vs Risk-Off",
+      "summary": "Aussie consolidating after recent outperformance, caught between hawkish RBA rhetoric and risk-off headwinds. Governor Bullock: inflation at 3-point something unacceptable, may need further rate hikes if inflation becomes entrenched. Deputy Gov Hauser: economy not just 'dig it and ship it', many parts doing quite well. However, AI disruption fears weighed on risk sentiment, limiting AUD gains. Westpac Consumer Sentiment -2.6% (prev. -1.7%) remains a bearish data point. Copper bid higher on Indonesia nickel mine output cut (70%). AUD/USD rangebound, awaiting US CPI.",
+      "drivers": [
         "RBA's Bullock: inflation at 3-point something unacceptable",
         "RBA's Hauser: many parts of economy doing quite well",
-        "Copper rallies on Indonesia nickel mine output cut"
+        "Westpac Consumer Sentiment -2.6% (bearish data)",
+        "Risk-off tone limits gains despite hawkish RBA",
+        "Copper rally on Indonesia nickel mine output cut"
       ]
     },
     "CAD": {
       "bias": "Bearish",
-      "tone": "USMCA Exit Risk",
-      "summary": "Loonie weakened on Bloomberg report that Trump is privately considering exiting the North American trade pact, asking aides why he shouldn't withdraw. White House called it baseless speculation, but injected uncertainty into pivotal renegotiations. USD/CAD hit highs of 1.3619 before paring to 1.3570. BoC Minutes: Governing Council agreed policy interest rate was on stimulative side, need to maintain optionality. Crude prices firmer (WTI +$0.67 to $64.63, Brent +$0.60 to $69.40) on Middle East tensions (Trump weighs second carrier if Iran talks fail). Trump-Xi trade truce reportedly extended 1 year.",
-      "drivers": ["Trump Considering Exiting USMCA", "BoC Minutes: Rates Stimulative", "Crude Rally on Geopolitics"],
-      "headlines": [
-        "Bloomberg: Trump privately considering exiting USMCA",
+      "tone": "USMCA Exit Risk Persists",
+      "summary": "Loonie remains under pressure as Trump USMCA exit risk lingers. Bloomberg reported Trump privately considering exiting North American trade pact, asking aides why he shouldn't withdraw. White House called it baseless speculation, but uncertainty persists. BoC Minutes: policy rate on stimulative side, need to maintain optionality. Crude prices firmer (WTI $62.84, Brent $67.52) but gains limited by risk-off trade and Trump-Iran deal optimism (Trump: could reach deal within a month). US Energy Secretary Wright: Venezuela will increase production 30-40% in first year, Russia/China/Iran influence will wane. USD/CAD choppy, awaiting US CPI.",
+      "drivers": [
+        "Trump privately considering exiting USMCA (Bloomberg)",
         "BoC Minutes: policy rate on stimulative side",
-        "Crude rallies on Middle East tensions"
+        "Crude prices firmer but capped by risk-off + Iran deal optimism",
+        "Venezuela oil production to rise 30-40% (US Energy Secretary)",
+        "Awaiting US CPI for broader direction"
       ]
     },
     "CHF": {
-      "bias": "Neutral",
-      "tone": "Carry Unwind",
-      "summary": "Franc underperformed as traders unwound recent carry trade-related strength, potentially returning to JPY. CHF weakened given risk tone and as markets repositioned post-NFP. SNB policy stable. Swiss sight deposits data awaited. CHF lost safe-haven premium as geopolitical tensions (Middle East, Russia-Ukraine) took backseat to NFP reaction. EUR/CHF and USD/CHF rangebound.",
-      "drivers": ["Carry Trade Unwind", "Risk-On Tone Post-NFP", "Repositioning to JPY"],
-      "headlines": [
-        "CHF underperforms on carry trade unwind",
-        "Traders potentially returning to JPY",
-        "Risk-on tone weighs on safe-haven demand"
+      "bias": "Bullish",
+      "tone": "Safe-Haven Bid",
+      "summary": "Franc outperformed as risk-off trade sparked safe-haven flows. AI disruption fears (Algorhythm Holdings SemiCab platform) triggered broad equity selloff, lifting CHF alongside JPY. Swiss CPI (Jan) in line (0.1% Y/Y, -0.1% M/M). SNB policy stable. EUR/CHF and USD/CHF rangebound as participants await US CPI. CHF benefited from flight-to-quality amid tech sector AI concerns (logistics, industrials, software, gaming, financials all slumped). Geopolitical tensions (Middle East, Russia-Ukraine) provided additional support.",
+      "drivers": [
+        "Risk-off trade on AI disruption fears (safe-haven bid)",
+        "Swiss CPI (Jan) 0.1% Y/Y (in line, stable inflation)",
+        "Flight-to-quality amid tech sector selloff",
+        "Geopolitical tensions (Middle East, Russia-Ukraine)",
+        "Awaiting US CPI for broader direction"
       ]
     },
     "NZD": {
       "bias": "Bullish",
-      "tone": "AUD Spillover",
-      "summary": "Kiwi tracked AUD higher, benefiting from broad risk-on tone and hawkish RBA spillover. NZD/USD erased NFP-induced weakness alongside AUD. No fresh domestic catalysts, but high-beta characteristics supported gains. China stimulus hopes persist (PBoC appropriately loose policy, Premier Li urges AI use in various sectors). Trump-Xi trade truce reportedly extended 1 year at April Beijing summit, reducing near-term trade war risk. NZD supported by commodity strength (copper, gold).",
-      "drivers": ["AUD Spillover", "Risk-On Tone", "China Stimulus Hopes", "Trump-Xi Truce Extension"],
-      "headlines": [
-        "NZD tracks AUD higher on hawkish RBA spillover",
-        "Trump-Xi trade truce reportedly extended 1 year",
-        "China Premier Li urges AI use in various sectors"
+      "tone": "High-Beta + RBNZ Hold Expected",
+      "summary": "Kiwi led G10 gains, supported by high-beta characteristics and RBNZ policy outlook. NZ 1yr Inflation Expectation (Q1) 2.6% (prev. 2.4%), 2yr 2.4% (prev. 2.6%) - mixed signals. RBNZ expected to hold OCR at 2.25% on Feb 18 after substantial easing since mid-2024. NZ Manufacturing PMI (Jan) 55.2 (prev. 56.1) - still solid expansion. Markets pricing potential rate increase later in 2026 as inflation expectations firm. Trump-Xi trade truce reportedly extended 1 year (April Beijing summit). NZD/USD resilient despite risk-off tone, awaiting US CPI.",
+      "drivers": [
+        "NZ 1yr Inflation Expectation 2.6% (prev. 2.4%)",
+        "RBNZ expected to hold OCR at 2.25% on Feb 18",
+        "NZ Manufacturing PMI 55.2 (solid expansion continues)",
+        "Markets pricing potential rate increase later in 2026",
+        "Trump-Xi trade truce extended 1 year (April summit)"
       ]
-    }
-  },
-  "bonds": {
-    "FGBL": {
-      "name": "Euro Bund Future (Germany 10Y)",
-      "bias": "Neutral",
-      "tone": "Two-Way Trade",
-      "summary": "Bund futures took a breather after Wednesday's whipsawing. ECB's Nagel called for more EU debt (sees benefits of Euro-wide benchmark safe asset), while Schnabel noted numerous headwinds for German economy (potential growth weighed by demographic change). German dual-tranche tap (EUR 750mln 2.90% 2056, EUR 1.16bln 2.50% 2054) showed mixed demand. Bunds dragged lower post-NFP to lows of 128.39, but pressure short-lived, recovering to near-unchanged. Awaiting US CPI (Fri) for direction.",
-      "drivers": ["ECB Calls for More EU Debt", "Post-NFP Whipsaw", "German Tap Mixed Demand"],
-      "yieldDirection": "Stable"
-    },
-    "ZN": {
-      "name": "US Treasury 10Y Note Future",
-      "bias": "Bearish",
-      "tone": "Prices Fall / Yields Rise",
-      "summary": "Treasury prices plummeted post-NFP (T-note futures 112-19+ to 112-00), but pared majority of move before weak 10yr auction capped reversal. Auction showed 1.4bps tail (largest since Aug 2024), bid-to-cover 2.39x (prev. 2.55x), indirect demand fell to 65.4% (prev. 70.2%), leaving dealers with above-average 13.4%. At settlement, 10yr yield +3.1bps at 4.176%. First Fed cut now priced July (prev. June), but two cuts still priced by year-end. Fed's Schmid: appropriate to keep restrictive policy with inflation near 3%. Attention turns to CPI (Fri). 30yr bond auction due Thu.",
-      "drivers": ["Weak 10yr Auction (1.4bps Tail)", "Post-NFP Reversal Faded", "Fed Cut Pushed to July", "CPI Risk Fri"],
-      "yieldDirection": "Higher"
     }
   },
   "redFolderNews": [
     {
+      "day": "MON",
+      "time": "No high impact events",
+      "currency": "",
+      "event": "President's Day Holiday (US)",
+      "impact": ""
+    },
+    {
+      "day": "TUE",
+      "time": "14:30",
+      "currency": "USD",
+      "event": "Core Retail Sales m/m",
+      "impact": "High"
+    },
+    {
+      "day": "TUE",
+      "time": "14:30",
+      "currency": "USD",
+      "event": "Retail Sales m/m",
+      "impact": "High"
+    },
+    {
+      "day": "WED",
+      "time": "14:30",
+      "currency": "USD",
+      "event": "Average Hourly Earnings m/m",
+      "impact": "High"
+    },
+    {
+      "day": "WED",
+      "time": "14:30",
+      "currency": "USD",
+      "event": "Non-Farm Employment Change (NFP)",
+      "impact": "High"
+    },
+    {
+      "day": "WED",
+      "time": "14:30",
+      "currency": "USD",
+      "event": "Unemployment Rate",
+      "impact": "High"
+    },
+    {
       "day": "THU",
       "time": "14:30",
-      "event": "US Unemployment Claims",
-      "impact": "High",
-      "currency": "USD"
+      "currency": "USD",
+      "event": "Unemployment Claims",
+      "impact": "High"
     },
     {
       "day": "THU",
       "time": "16:00",
-      "event": "US Existing Home Sales",
-      "impact": "High",
-      "currency": "USD"
+      "currency": "USD",
+      "event": "Existing Home Sales",
+      "impact": "High"
     },
     {
       "day": "FRI",
       "time": "14:30",
-      "event": "US Core CPI m/m",
-      "impact": "High",
-      "currency": "USD"
+      "currency": "USD",
+      "event": "Core CPI m/m",
+      "impact": "High"
     },
     {
       "day": "FRI",
       "time": "14:30",
-      "event": "US CPI m/m",
-      "impact": "High",
-      "currency": "USD"
+      "currency": "USD",
+      "event": "CPI m/m",
+      "impact": "High"
     },
     {
       "day": "FRI",
       "time": "14:30",
-      "event": "US CPI y/y",
-      "impact": "High",
-      "currency": "USD"
+      "currency": "USD",
+      "event": "CPI y/y",
+      "impact": "High"
+    }
+  ],
+  "bonds": [
+    {
+      "name": "FGBL",
+      "fullName": "Euro Bund Future (Germany 10Y)",
+      "bias": "Bullish",
+      "tone": "Prices Rise / Yields Fall",
+      "yieldDirection": "Yields Lower",
+      "summary": "Bunds rallied amid risk-off trade and flight-to-quality flows. AI disruption fears sparked broad equity selloff, lifting safe-haven bonds. Bunds hit YTD highs above 129.00. German Chancellor Merz pushed back on joint European debt issuance (no eurobonds support). German Wholesale Prices (Jan) M/M 0.9% vs exp. 0.1% (inflationary pressure). ECB's Kazaks: ECB has yet to see full impact of EUR appreciation, worries strong EUR reflects dollar weakness, now not time to move rates. Bank of America lifts Germany 10yr yield target to 3% citing stronger growth. Bunds supported by USD weakness and stable ECB policy.",
+      "drivers": [
+        "Risk-off trade on AI disruption fears (flight-to-quality)",
+        "German Chancellor Merz: no eurobonds support",
+        "ECB's Kazaks: now not time to move rates",
+        "BofA lifts Germany 10yr yield target to 3%",
+        "USD weakness supports EUR-denominated assets",
+        "Awaiting US CPI for broader direction"
+      ]
+    },
+    {
+      "name": "ZN",
+      "fullName": "US Treasury 10Y Note Future",
+      "bias": "Bullish",
+      "tone": "Prices Rise / Yields Fall",
+      "yieldDirection": "Yields Lower",
+      "summary": "T-Notes surged amid risk-off rout and stellar 30-year auction. AI disruption fears (Algorhythm Holdings SemiCab platform) triggered equity selloff, sparking flight-to-quality into Treasuries. 30yr auction stopped through by 2.1bps (largest since April 2025), bid-to-cover 2.66x (prev. 2.36x), indirect demand 69.9% (prev. 65.4%). Curve bull flattened led by long-end. 10yr yield -7.7bps to 4.106%, 30yr -8.3bps to 4.731%. US CPI (Jan) today is critical: soft CPI could reopen June Fed cut window, hot CPI cements July. Initial Jobless Claims 227k (exp. 222k) showed subdued labor market.",
+      "drivers": [
+        "Risk-off trade on AI disruption fears (flight-to-quality)",
+        "Stellar 30yr auction (2.1bps stop-through, B/C 2.66x)",
+        "Curve bull flattened (10yr -7.7bps, 30yr -8.3bps)",
+        "US CPI (Jan) today critical for Fed rate cut path",
+        "Subdued labor market (Initial Claims 227k vs exp. 222k)",
+        "Fed's Miran: may be underestimating how restrictive policy is"
+      ]
     }
   ]
 }
