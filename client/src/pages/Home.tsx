@@ -220,6 +220,9 @@ const TradeCard = ({ trade, index }: { trade: any, index: number }) => {
   const borderColor = isLong ? "border-orange-500/30" : "border-red-500/30";
   const bgColor = isLong ? "bg-orange-500/5" : "bg-red-500/5";
   
+  // Check if reason is object (3-line format) or string (legacy format)
+  const isMultiLine = typeof trade.reason === 'object' && trade.reason.line1;
+  
   return (
     <motion.div 
       initial={{ opacity: 0, x: -20 }}
@@ -227,18 +230,26 @@ const TradeCard = ({ trade, index }: { trade: any, index: number }) => {
       transition={{ delay: index * 0.1 }}
       className={`border ${borderColor} ${bgColor} p-2.5 flex items-center justify-between group hover:bg-[#1a1a1a] transition-colors`}
     >
-      <div className="flex items-center gap-3">
-        <div className={`w-6 h-6 flex items-center justify-center border ${borderColor} ${textColor} font-bold font-mono text-xs`}>
+      <div className="flex items-center gap-3 w-full">
+        <div className={`w-6 h-6 flex-shrink-0 flex items-center justify-center border ${borderColor} ${textColor} font-bold font-mono text-xs`}>
           {index + 1}
         </div>
-        <div>
+        <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2">
             <span className="font-bold text-sm font-mono text-gray-200">{trade.pair}</span>
             <span className={`text-[9px] px-1 py-0.5 ${isLong ? "bg-orange-900/30 text-orange-400" : "bg-red-900/30 text-red-400"} font-bold uppercase border ${borderColor}`}>
               {trade.direction}
             </span>
           </div>
-          <p className="text-[9px] text-gray-500 font-mono mt-0.5">{trade.reason}</p>
+          {isMultiLine ? (
+            <div className="mt-1 space-y-0.5">
+              <p className="text-[9px] text-gray-400 font-mono leading-tight">{trade.reason.line1}</p>
+              <p className="text-[9px] text-gray-400 font-mono leading-tight">{trade.reason.line2}</p>
+              <p className="text-[9px] text-gray-500 font-mono leading-tight italic">{trade.reason.line3}</p>
+            </div>
+          ) : (
+            <p className="text-[9px] text-gray-500 font-mono mt-0.5">{trade.reason}</p>
+          )}
         </div>
       </div>
     </motion.div>
@@ -334,42 +345,112 @@ export default function Home() {
       }
     };
     
-    // Helper function to extract key fundamental narrative (1-2 facts)
+    // Helper function to extract 3-line fundamental narrative
     const getFundamentalReason = (baseCurr: string, quoteCurr: string, direction: string) => {
       // @ts-ignore
       const baseCurrency = dailyData.currencies[baseCurr];
       // @ts-ignore
       const quoteCurrency = dailyData.currencies[quoteCurr];
       
-      // Extract first key driver/fact from each currency (keep it short)
-      const baseDriver = baseCurrency?.drivers?.[0] || baseCurrency?.tone || "";
-      const quoteDriver = quoteCurrency?.drivers?.[0] || quoteCurrency?.tone || "";
+      // Line 1: Base Currency - First 2 drivers combined
+      const baseDriver1 = baseCurrency?.drivers?.[0] || "";
+      const baseDriver2 = baseCurrency?.drivers?.[1] || "";
       
-      // Shorten drivers to key facts only (smart truncation)
-      const shortenDriver = (driver: string) => {
-        // Remove parenthetical content first
+      // Line 2: Quote Currency - First 2 drivers combined
+      const quoteDriver1 = quoteCurrency?.drivers?.[0] || "";
+      const quoteDriver2 = quoteCurrency?.drivers?.[1] || "";
+      
+      // Line 3: Supporting Fundamental - Driver 3 or 4 from either currency
+      const baseDriver3 = baseCurrency?.drivers?.[2] || baseCurrency?.drivers?.[3] || "";
+      const quoteDriver3 = quoteCurrency?.drivers?.[2] || quoteCurrency?.drivers?.[3] || "";
+      
+      // Smart truncation helper - preserve numbers and percentages
+      const cleanDriver = (driver: string, maxLen: number = 80) => {
+        // Remove parenthetical content
         let cleaned = driver.replace(/\([^)]*\)/g, '').trim();
         
-        // Split by comma, period, or "vs" and take first meaningful part
-        const parts = cleaned.split(/[,\.]|\svs\s/);
+        // Split by comma/period and take first part
+        const parts = cleaned.split(/[,\.]/);
         let result = parts[0].trim();
         
-        // If still too long, cut at word boundary near 45 chars
-        if (result.length > 45) {
-          result = result.substring(0, 45);
-          const lastSpace = result.lastIndexOf(' ');
-          if (lastSpace > 30) {
+        // If first part is too short and we have a second part, include it
+        if (result.length < 30 && parts[1]) {
+          result = `${result}, ${parts[1].trim()}`;
+        }
+        
+        // Truncate at word boundary if too long, but preserve numbers
+        if (result.length > maxLen) {
+          // Try to cut after a complete number/percentage
+          const cutPoint = result.substring(0, maxLen);
+          const lastSpace = cutPoint.lastIndexOf(' ');
+          
+          // Check if we're cutting in the middle of a number
+          const afterSpace = result.substring(lastSpace + 1);
+          if (afterSpace.match(/^[0-9.-]+%?$/)) {
+            // Include the complete number
+            const numberEnd = result.indexOf(' ', lastSpace + 1);
+            if (numberEnd > 0 && numberEnd < maxLen + 15) {
+              result = result.substring(0, numberEnd);
+            } else {
+              result = cutPoint;
+            }
+          } else if (lastSpace > maxLen - 20) {
             result = result.substring(0, lastSpace);
+          } else {
+            result = cutPoint;
           }
         }
         
         return result;
       };
       
-      const baseFact = shortenDriver(baseDriver);
-      const quoteFact = shortenDriver(quoteDriver);
+      // Build 3 lines with longer limits for better readability
+      const line1Base = cleanDriver(baseDriver1, 80);
+      const line1Quote = baseDriver2 ? `, ${cleanDriver(baseDriver2, 60)}` : "";
       
-      return `${baseFact} vs ${quoteFact}`;
+      const line2Base = cleanDriver(quoteDriver1, 80);
+      const line2Quote = quoteDriver2 ? `, ${cleanDriver(quoteDriver2, 60)}` : "";
+      
+      // Line 3: Supporting Fundamental (prefer the stronger/more relevant one)
+      let line3 = "";
+      if (baseDriver3 || quoteDriver3) {
+        const contextBase = cleanDriver(baseDriver3, 90);
+        const contextQuote = cleanDriver(quoteDriver3, 90);
+        
+        // Prioritize technical levels, policy statements, or market positioning
+        const hasTechnical = (text: string) => 
+          text.toLowerCase().includes('testing') || 
+          text.toLowerCase().includes('support') || 
+          text.toLowerCase().includes('resistance') ||
+          text.toLowerCase().includes('breakout');
+        
+        const hasPolicy = (text: string) => 
+          text.toLowerCase().includes('policy') || 
+          text.toLowerCase().includes('rate') ||
+          text.toLowerCase().includes('central bank') ||
+          text.toLowerCase().includes('fed') ||
+          text.toLowerCase().includes('ecb');
+        
+        // Choose the more relevant supporting fundamental
+        if (hasTechnical(contextBase)) {
+          line3 = contextBase;
+        } else if (hasTechnical(contextQuote)) {
+          line3 = contextQuote;
+        } else if (hasPolicy(contextBase)) {
+          line3 = contextBase;
+        } else if (hasPolicy(contextQuote)) {
+          line3 = contextQuote;
+        } else {
+          // Default: use the longer/more detailed one
+          line3 = contextBase.length > contextQuote.length ? contextBase : contextQuote;
+        }
+      }
+      
+      return {
+        line1: `${baseCurr}: ${line1Base}${line1Quote}`,
+        line2: `${quoteCurr}: ${line2Base}${line2Quote}`,
+        line3: line3 || `Setup confirmation: ${direction === 'LONG' ? baseCurr : quoteCurr} outperformance expected`
+      };
     };
     
     // Generate Pairs: Bullish Aligned vs Bearish Aligned
