@@ -245,7 +245,6 @@ const TradeCard = ({ trade, index }: { trade: any, index: number }) => {
             <div className="mt-1 space-y-0.5">
               <p className="text-[9px] text-gray-400 font-mono leading-tight">{trade.reason.line1}</p>
               <p className="text-[9px] text-gray-400 font-mono leading-tight">{trade.reason.line2}</p>
-              <p className="text-[9px] text-gray-500 font-mono leading-tight italic">{trade.reason.line3}</p>
             </div>
           ) : (
             <p className="text-[9px] text-gray-500 font-mono mt-0.5">{trade.reason}</p>
@@ -820,17 +819,17 @@ export default function Home() {
                   <p className="text-[10px] text-gray-500 font-mono mb-4">
                     Based on Weekly & Daily Bias Alignment
                   </p>
-                  <div className="space-y-3">
-                    {highConvictionSetups.length > 0 ? (
-                      highConvictionSetups.map((trade: any, i: number) => (
+                  {highConvictionSetups.length > 0 ? (
+                    <div className="grid grid-cols-2 gap-3">
+                      {highConvictionSetups.map((trade: any, i: number) => (
                         <TradeCard key={i} trade={trade} index={i} />
-                      ))
-                    ) : (
-                      <div className="text-center py-8 border border-dashed border-gray-800">
-                        <p className="text-xs text-gray-500 font-mono">No strong alignment setups found currently.</p>
-                      </div>
-                    )}
-                  </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <div className="text-center py-8 border border-dashed border-gray-800">
+                      <p className="text-gray-600 text-xs">No high conviction setups available</p>
+                    </div>
+                  )}
                 </div>
 
                 {/* Intraday Trades */}
