@@ -359,96 +359,63 @@ export default function Home() {
       const quoteDriver1 = quoteCurrency?.drivers?.[0] || "";
       const quoteDriver2 = quoteCurrency?.drivers?.[1] || "";
       
-      // Line 3: Supporting Fundamental - Driver 3 or 4 from either currency
-      const baseDriver3 = baseCurrency?.drivers?.[2] || baseCurrency?.drivers?.[3] || "";
-      const quoteDriver3 = quoteCurrency?.drivers?.[2] || quoteCurrency?.drivers?.[3] || "";
-      
-      // Smart truncation helper - preserve numbers and percentages
-      const cleanDriver = (driver: string, maxLen: number = 80) => {
+      // Smart truncation helper - remove numbers, percentages, and "from" phrases
+      const cleanDriver = (driver: string, maxLen: number = 70) => {
         // Remove parenthetical content
         let cleaned = driver.replace(/\([^)]*\)/g, '').trim();
         
+        // Remove "from X to Y" phrases first
+        cleaned = cleaned.replace(/from\s+[\d.]+\s+to\s+[\d.]+/gi, '').trim();
+        
+        // Remove "vs exp X" phrases
+        cleaned = cleaned.replace(/vs\s+exp\s+[\d.%]+/gi, '').trim();
+        
+        // Remove standalone numbers with percentages (e.g., "0.7%", "-0.5%", "60%")
+        cleaned = cleaned.replace(/\s+-?\d+\.?\d*%/g, '').trim();
+        
+        // Remove standalone numbers (e.g., "1.26", "157", "-2.7")
+        cleaned = cleaned.replace(/\s+-?\d+\.?\d+/g, '').trim();
+        
+        // Clean up dangling prepositions and artifacts
+        cleaned = cleaned.replace(/\b(at|near|above|below|testing|to)\s+(after|before|during|vs|from)/gi, '$2').trim();
+        cleaned = cleaned.replace(/\b(fell|rose|at|near|above|below|testing|to)\s*$/gi, '').trim();
+        cleaned = cleaned.replace(/\bat\s+%/gi, '').trim();
+        
+        // Clean up multiple spaces and commas
+        cleaned = cleaned.replace(/\s+/g, ' ').replace(/,\s*,/g, ',').replace(/\s+,/g, ',').trim();
+        
+        // Remove leading/trailing commas and periods
+        cleaned = cleaned.replace(/^[,\.;\s]+|[,\.;\s]+$/g, '').trim();
+        
         // Split by comma/period and take first part
-        const parts = cleaned.split(/[,\.]/);
+        const parts = cleaned.split(/[,\.;]/);
         let result = parts[0].trim();
         
         // If first part is too short and we have a second part, include it
-        if (result.length < 30 && parts[1]) {
+        if (result.length < 25 && parts[1]) {
           result = `${result}, ${parts[1].trim()}`;
         }
         
-        // Truncate at word boundary if too long, but preserve numbers
+        // Truncate at word boundary if too long
         if (result.length > maxLen) {
-          // Try to cut after a complete number/percentage
           const cutPoint = result.substring(0, maxLen);
           const lastSpace = cutPoint.lastIndexOf(' ');
-          
-          // Check if we're cutting in the middle of a number
-          const afterSpace = result.substring(lastSpace + 1);
-          if (afterSpace.match(/^[0-9.-]+%?$/)) {
-            // Include the complete number
-            const numberEnd = result.indexOf(' ', lastSpace + 1);
-            if (numberEnd > 0 && numberEnd < maxLen + 15) {
-              result = result.substring(0, numberEnd);
-            } else {
-              result = cutPoint;
-            }
-          } else if (lastSpace > maxLen - 20) {
-            result = result.substring(0, lastSpace);
-          } else {
-            result = cutPoint;
-          }
+          result = lastSpace > maxLen - 15 ? result.substring(0, lastSpace) : cutPoint;
         }
         
         return result;
       };
       
-      // Build 3 lines with longer limits for better readability
-      const line1Base = cleanDriver(baseDriver1, 80);
-      const line1Quote = baseDriver2 ? `, ${cleanDriver(baseDriver2, 60)}` : "";
+      // Build 2 lines with concise limits
+      const line1Base = cleanDriver(baseDriver1, 65);
+      const line1Quote = baseDriver2 ? `, ${cleanDriver(baseDriver2, 50)}` : "";
       
-      const line2Base = cleanDriver(quoteDriver1, 80);
-      const line2Quote = quoteDriver2 ? `, ${cleanDriver(quoteDriver2, 60)}` : "";
-      
-      // Line 3: Supporting Fundamental (prefer the stronger/more relevant one)
-      let line3 = "";
-      if (baseDriver3 || quoteDriver3) {
-        const contextBase = cleanDriver(baseDriver3, 90);
-        const contextQuote = cleanDriver(quoteDriver3, 90);
-        
-        // Prioritize technical levels, policy statements, or market positioning
-        const hasTechnical = (text: string) => 
-          text.toLowerCase().includes('testing') || 
-          text.toLowerCase().includes('support') || 
-          text.toLowerCase().includes('resistance') ||
-          text.toLowerCase().includes('breakout');
-        
-        const hasPolicy = (text: string) => 
-          text.toLowerCase().includes('policy') || 
-          text.toLowerCase().includes('rate') ||
-          text.toLowerCase().includes('central bank') ||
-          text.toLowerCase().includes('fed') ||
-          text.toLowerCase().includes('ecb');
-        
-        // Choose the more relevant supporting fundamental
-        if (hasTechnical(contextBase)) {
-          line3 = contextBase;
-        } else if (hasTechnical(contextQuote)) {
-          line3 = contextQuote;
-        } else if (hasPolicy(contextBase)) {
-          line3 = contextBase;
-        } else if (hasPolicy(contextQuote)) {
-          line3 = contextQuote;
-        } else {
-          // Default: use the longer/more detailed one
-          line3 = contextBase.length > contextQuote.length ? contextBase : contextQuote;
-        }
-      }
+      const line2Base = cleanDriver(quoteDriver1, 65);
+      const line2Quote = quoteDriver2 ? `, ${cleanDriver(quoteDriver2, 50)}` : "";
       
       return {
         line1: `${baseCurr}: ${line1Base}${line1Quote}`,
-        line2: `${quoteCurr}: ${line2Base}${line2Quote}`,
-        line3: line3 || `Setup confirmation: ${direction === 'LONG' ? baseCurr : quoteCurr} outperformance expected`
+        line2: `${quoteCurr}: ${line2Base}${line2Quote}`
       };
     };
     
