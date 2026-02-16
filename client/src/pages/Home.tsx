@@ -819,17 +819,17 @@ export default function Home() {
                   <p className="text-[10px] text-gray-500 font-mono mb-4">
                     Based on Weekly & Daily Bias Alignment
                   </p>
-                  {highConvictionSetups.length > 0 ? (
-                    <div className="grid grid-cols-2 gap-3">
-                      {highConvictionSetups.map((trade: any, i: number) => (
+                  <div className="space-y-3">
+                    {highConvictionSetups.length > 0 ? (
+                      highConvictionSetups.map((trade: any, i: number) => (
                         <TradeCard key={i} trade={trade} index={i} />
-                      ))}
-                    </div>
-                  ) : (
-                    <div className="text-center py-8 border border-dashed border-gray-800">
-                      <p className="text-gray-600 text-xs">No high conviction setups available</p>
-                    </div>
-                  )}
+                      ))
+                    ) : (
+                      <div className="text-center py-8 border border-dashed border-gray-800">
+                        <p className="text-gray-600 text-xs">No high conviction setups available</p>
+                      </div>
+                    )}
+                  </div>
                 </div>
 
                 {/* Intraday Trades */}
