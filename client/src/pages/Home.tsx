@@ -334,14 +334,54 @@ export default function Home() {
       }
     };
     
+    // Helper function to extract key fundamental narrative (1-2 facts)
+    const getFundamentalReason = (baseCurr: string, quoteCurr: string, direction: string) => {
+      // @ts-ignore
+      const baseCurrency = dailyData.currencies[baseCurr];
+      // @ts-ignore
+      const quoteCurrency = dailyData.currencies[quoteCurr];
+      
+      // Extract first key driver/fact from each currency (keep it short)
+      const baseDriver = baseCurrency?.drivers?.[0] || baseCurrency?.tone || "";
+      const quoteDriver = quoteCurrency?.drivers?.[0] || quoteCurrency?.tone || "";
+      
+      // Shorten drivers to key facts only (smart truncation)
+      const shortenDriver = (driver: string) => {
+        // Remove parenthetical content first
+        let cleaned = driver.replace(/\([^)]*\)/g, '').trim();
+        
+        // Split by comma, period, or "vs" and take first meaningful part
+        const parts = cleaned.split(/[,\.]|\svs\s/);
+        let result = parts[0].trim();
+        
+        // If still too long, cut at word boundary near 45 chars
+        if (result.length > 45) {
+          result = result.substring(0, 45);
+          const lastSpace = result.lastIndexOf(' ');
+          if (lastSpace > 30) {
+            result = result.substring(0, lastSpace);
+          }
+        }
+        
+        return result;
+      };
+      
+      const baseFact = shortenDriver(baseDriver);
+      const quoteFact = shortenDriver(quoteDriver);
+      
+      return `${baseFact} vs ${quoteFact}`;
+    };
+    
     // Generate Pairs: Bullish Aligned vs Bearish Aligned
     bullishAligned.forEach(bull => {
       bearishAligned.forEach(bear => {
         const { pair, direction } = getConventionalPair(bull, bear);
+        const [baseCurr, quoteCurr] = pair.split('/');
+        
         setups.push({
           pair,
           direction,
-          reason: `Strong alignment: Weekly & Daily ${bull === pair.split('/')[0] ? 'Bullish' : 'Bearish'} ${pair.split('/')[0]} vs ${bear === pair.split('/')[1] ? 'Bearish' : 'Bullish'} ${pair.split('/')[1]}`,
+          reason: getFundamentalReason(baseCurr, quoteCurr, direction),
           conviction: "High"
         });
       });
@@ -349,7 +389,7 @@ export default function Home() {
 
     // NO FALLBACK - Only show setups with true Weekly-Daily alignment
 
-    return setups.slice(0, 3); // Limit to top 3
+    return setups; // Show ALL aligned setups
   };
 
   const highConvictionSetups = getHighConvictionSetups();
