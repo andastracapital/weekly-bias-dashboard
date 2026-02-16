@@ -858,7 +858,7 @@ export default function Home() {
               Bond Market Bias
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {Object.entries(dailyData.bonds).map(([code, bond]: [string, any]) => {
+              {dailyData.bonds.map((bond: any, index: number) => {
                 const isBullish = bond.bias.includes("Bullish");
                 const isBearish = bond.bias.includes("Bearish");
                 const borderColor = isBullish ? "border-orange-500" : isBearish ? "border-red-600" : "border-gray-600";
@@ -868,7 +868,7 @@ export default function Home() {
 
                 return (
                   <motion.div
-                    key={code}
+                    key={index}
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.3 }}
@@ -876,8 +876,8 @@ export default function Home() {
                   >
                     <div className="flex justify-between items-start mb-3">
                       <div>
-                        <h3 className="text-2xl font-bold text-white tracking-tight">{code}</h3>
-                        <p className="text-[9px] text-gray-500 uppercase tracking-widest font-mono">{bond.name}</p>
+                        <h3 className="text-2xl font-bold text-white tracking-tight">{bond.name}</h3>
+                        <p className="text-[9px] text-gray-500 uppercase tracking-widest font-mono">{bond.fullName}</p>
                       </div>
                       <div className="flex flex-col items-end gap-1">
                         <div className={`px-2 py-1 border ${borderColor} ${textColor} text-[9px] font-bold uppercase tracking-wider bg-black`}>
