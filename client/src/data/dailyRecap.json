@@ -1,5 +1,5 @@
 {
-  "date": "Monday, February 17, 2026",
+  "date": "Tuesday, February 17, 2026",
   "lastUpdate": "08:45 ZRH Time",
   "riskSentiment": "Mixed",
   "focus": "President's Day Holiday \u2022 RBNZ/AUD CPI Week Ahead \u2022 China Stimulus Speculation",
@@ -107,151 +107,176 @@
       "time": "08:00",
       "currency": "GBP",
       "event": "Claimant Count Change",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "TUE"
     },
     {
       "time": "08:00",
       "currency": "GBP",
       "event": "Average Earnings Index 3m/y",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "TUE"
     },
     {
       "time": "08:00",
       "currency": "GBP",
       "event": "Unemployment Rate",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "TUE"
     },
     {
       "time": "19:00",
       "currency": "CAD",
       "event": "CPI m/m",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "TUE"
     },
     {
       "time": "19:00",
       "currency": "CAD",
       "event": "Core CPI m/m",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "TUE"
     },
     {
       "time": "06:00",
       "currency": "AUD",
       "event": "Employment Change",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "WED"
     },
     {
       "time": "06:00",
       "currency": "AUD",
       "event": "Unemployment Rate",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "TUE"
     },
     {
       "time": "06:30",
       "currency": "NZD",
       "event": "RBNZ Official Cash Rate",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "WED"
     },
     {
       "time": "06:30",
       "currency": "NZD",
       "event": "RBNZ Monetary Policy Statement",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "WED"
     },
     {
       "time": "07:30",
       "currency": "NZD",
       "event": "RBNZ Press Conference",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "WED"
     },
     {
       "time": "12:30",
       "currency": "GBP",
       "event": "CPI y/y",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "WED"
     },
     {
       "time": "12:30",
       "currency": "GBP",
       "event": "Core CPI y/y",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "WED"
     },
     {
       "time": "00:30",
       "currency": "USD",
       "event": "FOMC Meeting Minutes",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "THU"
     },
     {
       "time": "06:00",
       "currency": "AUD",
       "event": "Wage Price Index q/q",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "THU"
     },
     {
       "time": "14:30",
       "currency": "USD",
       "event": "Unemployment Claims",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "THU"
     },
     {
       "time": "04:30",
       "currency": "NZD",
       "event": "RBNZ Gov Breman Speaks",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "FRI"
     },
     {
       "time": "08:00",
       "currency": "GBP",
       "event": "Retail Sales m/m",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "FRI"
     },
     {
       "time": "14:00",
       "currency": "EUR",
       "event": "German Flash Manufacturing PMI",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "FRI"
     },
     {
       "time": "14:00",
       "currency": "EUR",
       "event": "German Flash Services PMI",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "FRI"
     },
     {
       "time": "15:00",
       "currency": "GBP",
       "event": "Flash Manufacturing PMI",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "FRI"
     },
     {
       "time": "15:00",
       "currency": "GBP",
       "event": "Flash Services PMI",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "FRI"
     },
     {
       "time": "14:30",
       "currency": "USD",
       "event": "Advance GDP q/q",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "FRI"
     },
     {
       "time": "14:30",
       "currency": "USD",
       "event": "Core PCE Price Index m/m",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "FRI"
     },
     {
       "time": "20:15",
       "currency": "USD",
       "event": "Flash Manufacturing PMI",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "FRI"
     },
     {
       "time": "20:15",
       "currency": "USD",
       "event": "Flash Services PMI",
-      "impact": "HIGH"
+      "impact": "HIGH",
+      "day": "FRI"
     }
   ]
 }
