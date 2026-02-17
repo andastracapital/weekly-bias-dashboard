@@ -359,27 +359,38 @@ export default function Home() {
       const quoteDriver1 = quoteCurrency?.drivers?.[0] || "";
       const quoteDriver2 = quoteCurrency?.drivers?.[1] || "";
       
-      // Smart truncation helper - remove numbers, percentages, and "from" phrases
+      // Smart truncation helper - selectively remove GDP numbers, "from" phrases, "vs exp"
       const cleanDriver = (driver: string, maxLen: number = 70) => {
         // Remove parenthetical content
         let cleaned = driver.replace(/\([^)]*\)/g, '').trim();
         
-        // Remove "from X to Y" phrases first
+        // STEP 1: Protect numbers WITH percentages by replacing with placeholder
+        const percentages: string[] = [];
+        cleaned = cleaned.replace(/(-?\d+(?:\.\d+)?)%/g, (match) => {
+          percentages.push(match);
+          return `__PCT${percentages.length - 1}__`;
+        });
+        
+        // STEP 2: Remove "from X to Y" phrases
         cleaned = cleaned.replace(/from\s+[\d.]+\s+to\s+[\d.]+/gi, '').trim();
         
-        // Remove "vs exp X" phrases
+        // STEP 3: Remove "vs exp X" phrases
         cleaned = cleaned.replace(/vs\s+exp\s+[\d.%]+/gi, '').trim();
         
-        // Remove standalone numbers with percentages (e.g., "0.7%", "-0.5%", "60%")
-        cleaned = cleaned.replace(/\s+-?\d+\.?\d*%/g, '').trim();
+        // STEP 4: Remove GDP-specific numbers
+        cleaned = cleaned.replace(/GDP\s+[\d.%-]+/gi, 'GDP').trim();
         
-        // Remove standalone numbers (e.g., "1.26", "157", "-2.7")
-        cleaned = cleaned.replace(/\s+-?\d+\.?\d+/g, '').trim();
+        // STEP 5: Remove all remaining standalone numbers (without percentages)
+        cleaned = cleaned.replace(/\s+-?\d+(?:\.\d+)?/g, '').trim();
+        
+        // STEP 6: Restore protected percentages
+        percentages.forEach((pct, i) => {
+          cleaned = cleaned.replace(`__PCT${i}__`, pct);
+        });
         
         // Clean up dangling prepositions and artifacts
         cleaned = cleaned.replace(/\b(at|near|above|below|testing|to)\s+(after|before|during|vs|from)/gi, '$2').trim();
-        cleaned = cleaned.replace(/\b(fell|rose|at|near|above|below|testing|to)\s*$/gi, '').trim();
-        cleaned = cleaned.replace(/\bat\s+%/gi, '').trim();
+        cleaned = cleaned.replace(/\b(fell|rose|at|near|above|below|testing|to)\s+-?$/gi, '$1').trim();
         
         // Clean up multiple spaces and commas
         cleaned = cleaned.replace(/\s+/g, ' ').replace(/,\s*,/g, ',').replace(/\s+,/g, ',').trim();
@@ -406,12 +417,31 @@ export default function Home() {
         return result;
       };
       
-      // Build 2 lines with concise limits
-      const line1Base = cleanDriver(baseDriver1, 65);
-      const line1Quote = baseDriver2 ? `, ${cleanDriver(baseDriver2, 50)}` : "";
+      // Helper to check if driver contains Key Event (day + event name)
+      const hasKeyEvent = (driver: string) => {
+        return /\b(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday):/i.test(driver);
+      };
       
-      const line2Base = cleanDriver(quoteDriver1, 65);
-      const line2Quote = quoteDriver2 ? `, ${cleanDriver(quoteDriver2, 50)}` : "";
+      // Build 2 lines - prioritize Key Events if available
+      let line1Base = cleanDriver(baseDriver1, 65);
+      let line1Quote = "";
+      
+      // If baseDriver2 has Key Event, use it; otherwise use baseDriver1 + baseDriver2
+      if (hasKeyEvent(baseDriver2)) {
+        line1Quote = `, ${cleanDriver(baseDriver2, 50)}`;
+      } else if (baseDriver2) {
+        line1Quote = `, ${cleanDriver(baseDriver2, 50)}`;
+      }
+      
+      let line2Base = cleanDriver(quoteDriver1, 65);
+      let line2Quote = "";
+      
+      // If quoteDriver2 has Key Event, use it; otherwise use quoteDriver1 + quoteDriver2
+      if (hasKeyEvent(quoteDriver2)) {
+        line2Quote = `, ${cleanDriver(quoteDriver2, 50)}`;
+      } else if (quoteDriver2) {
+        line2Quote = `, ${cleanDriver(quoteDriver2, 50)}`;
+      }
       
       return {
         line1: `${baseCurr}: ${line1Base}${line1Quote}`,
