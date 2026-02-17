@@ -723,16 +723,16 @@ export default function Home() {
                 <span className="text-[10px] text-gray-500 uppercase tracking-wider font-bold">Risk Sentiment</span>
                 <div className="flex items-center gap-2">
                   <Activity className={`w-4 h-4 ${
-                    dailyData.marketFocus.riskEnvironment === "Risk-On" ? "text-green-500" :
-                    dailyData.marketFocus.riskEnvironment === "Risk-Off" ? "text-orange-500" :
+                    dailyData.riskEnvironment === "Risk-On" ? "text-green-500" :
+                    dailyData.riskEnvironment === "Risk-Off" ? "text-orange-500" :
                     "text-gray-400"
                   }`} />
                   <span className={`text-sm font-bold font-mono ${
-                    dailyData.marketFocus.riskEnvironment === "Risk-On" ? "text-white" :
-                    dailyData.marketFocus.riskEnvironment === "Risk-Off" ? "text-white" :
+                    dailyData.riskEnvironment === "Risk-On" ? "text-white" :
+                    dailyData.riskEnvironment === "Risk-Off" ? "text-white" :
                     "text-gray-300"
                   }`}>
-                    {dailyData.marketFocus.riskEnvironment || "Neutral"}
+                    {dailyData.riskEnvironment || "Neutral"}
                   </span>
                 </div>
               </div>
@@ -741,7 +741,7 @@ export default function Home() {
               <div className="flex flex-col gap-1 md:col-span-2">
                 <span className="text-[10px] text-gray-500 uppercase tracking-wider font-bold">Focus</span>
                 <span className="text-sm font-bold text-white font-mono line-clamp-2">
-                  {dailyData.focus || dailyData.marketFocus.headlines[0] || "Key Market Drivers"}
+                  {dailyData.focus || dailyData.marketFocus[0] || "Key Market Drivers"}
                 </span>
               </div>
 
@@ -750,11 +750,11 @@ export default function Home() {
                 <div className="flex flex-col gap-1 text-right">
                   <span className="text-[10px] text-gray-500 uppercase tracking-wider font-bold">Risk Environment</span>
                   <span className={`text-sm font-bold font-mono ${
-                    dailyData.marketFocus.riskEnvironment.includes("Risk-Off") ? "text-red-500" :
-                    dailyData.marketFocus.riskEnvironment.includes("Mixed") ? "text-orange-500" :
+                    dailyData.riskEnvironment.includes("Risk-Off") ? "text-red-500" :
+                    dailyData.riskEnvironment.includes("Mixed") ? "text-orange-500" :
                     "text-green-500"
                   }`}>
-                    {dailyData.marketFocus.riskEnvironment}
+                    {dailyData.riskEnvironment}
                   </span>
                 </div>
                 <div className="flex flex-col gap-1 text-right">
@@ -776,7 +776,7 @@ export default function Home() {
                     Market Overview
                   </h3>
                   <p className="text-sm text-gray-300 font-mono leading-relaxed">
-                    {dailyData.marketFocus.headlines.join(" • ")}
+                    {dailyData.marketFocus.join(" • ")}
                   </p>
                 </div>
 
@@ -786,7 +786,7 @@ export default function Home() {
                       Market Focus
                     </h4>
                     <ul className="space-y-2">
-                      {dailyData.marketFocus.headlines.map((headline: string, i: number) => (
+                      {dailyData.marketFocus.map((headline: string, i: number) => (
                         <li key={i} className="text-[11px] text-gray-300 font-mono flex items-start gap-2">
                           <span className="text-orange-500 mt-0.5">›</span>
                           {headline}
@@ -799,7 +799,7 @@ export default function Home() {
                       Risk Environment
                     </h4>
                     <p className="text-[11px] text-gray-300 font-mono leading-relaxed">
-                      {dailyData.marketFocus.riskEnvironment}: {dailyData.marketFocus.headlines[0]}
+                      {dailyData.riskEnvironment}: {dailyData.marketFocus[0]}
                     </p>
                   </div>
                 </div>
@@ -975,7 +975,7 @@ export default function Home() {
               Bond Market Bias
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {dailyData.bonds.map((bond: any, index: number) => {
+              {((dailyData as any).bonds || []).map((bond: any, index: number) => {
                 const isBullish = bond.bias.includes("Bullish");
                 const isBearish = bond.bias.includes("Bearish");
                 const borderColor = isBullish ? "border-orange-500" : isBearish ? "border-red-600" : "border-gray-600";
