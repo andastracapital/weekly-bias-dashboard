@@ -284,45 +284,45 @@
       "name": "US 10Y Treasury",
       "bias": "Bullish",
       "yield": "Yields softening",
-      "rationale": "UST futures edged higher as yields continued to soften following Presidents' Day holiday. Volatile USD positioning at record bearish levels supports bond demand. Await Fed speak from Barr and Daly.",
       "drivers": [
         "Yields softening",
         "Fed speak (Barr, Daly)",
         "Record bearish USD positioning"
-      ]
+      ],
+      "summary": "Yields soften as markets price in Fed pause amid record bearish USD positioning. Fed speakers (Barr, Daly) reinforce data-dependent stance. President's Day holiday thins liquidity."
     },
     {
       "name": "German 10Y Bund",
       "bias": "Neutral",
       "yield": "Range-bound",
-      "rationale": "Bund futures eked slight gains but upside limited after choppy Monday session. ECB pushback on dovish repricing caps rally. German ZEW data and issuances loom.",
       "drivers": [
         "Range-bound",
         "ECB pushback on dovish repricing",
         "German ZEW data ahead"
-      ]
+      ],
+      "summary": "Bunds range-bound as ECB pushes back on aggressive dovish repricing. Lagarde's comments generate no meaningful reaction. German ZEW data ahead could provide direction."
     },
     {
       "name": "Japan 10Y JGB",
       "bias": "Bullish",
       "yield": "Yields falling",
-      "rationale": "JGB futures climbed higher amid negative risk sentiment in Japan. Weak GDP data raises questions on near-term BoJ policy timing. Mixed 5yr auction reaction. BoJ March hike odds at 60% support bonds.",
       "drivers": [
         "Yields falling",
         "Weak GDP data",
         "BoJ March hike odds 60%"
-      ]
+      ],
+      "summary": "JGB yields fall as weak GDP data contrasts with BoJ March hike odds at 60%. Takaichi landslide win reinforces policy normalization path. Carry trade unwind supports bonds."
     },
     {
       "name": "UK 10Y Gilt",
       "bias": "Neutral",
       "yield": "Steady",
-      "rationale": "Gilts range-bound ahead of key UK employment and wages data. Weak GDP weighs on sentiment but BoE April cut pricing remains on table. Political uncertainty persists despite Cabinet support for Reeves.",
       "drivers": [
         "Steady",
         "UK employment/wages data ahead",
         "BoE April cut pricing"
-      ]
+      ],
+      "summary": "Gilts steady ahead of key UK employment and CPI data this week. BoE April cut pricing remains on the table after 5-4 split in February. Political uncertainty persists."
     }
   ]
 }
