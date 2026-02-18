@@ -1,328 +1,334 @@
 {
-  "date": "Tuesday, February 17, 2026",
-  "lastUpdate": "08:45 ZRH Time",
-  "riskSentiment": "Mixed",
-  "focus": "President's Day Holiday \u2022 RBNZ/AUD CPI Week Ahead \u2022 China Stimulus Speculation",
+  "date": "Wednesday, February 18, 2026",
+  "lastUpdate": "2026-02-18 02:41:07",
   "riskEnvironment": "Mixed",
-  "marketOverview": "Markets enter holiday-thinned week with focus shifting to Wednesday's twin catalysts: RBNZ meeting and Australian CPI \u2022 China stimulus speculation builds as Xi Jinping chairs Politburo meeting \u2022 US/Canada markets closed for President's Day/Family Day \u2022 EUR consolidates below as ECB pushes back on rate cut expectations \u2022 JPY holds gains near as BoJ March hike pricing firms at 60%",
   "marketFocus": [
-    "Markets enter holiday-thinned week with focus shifting to Wednesday's twin catalysts: RBNZ meeting and Australian CPI",
-    "China stimulus speculation builds as Xi Jinping chairs Politburo meeting",
-    "US/Canada markets closed for President's Day/Family Day",
-    "EUR consolidates below as ECB pushes back on rate cut expectations",
-    "JPY holds gains near as BoJ March hike pricing firms at 60%"
+    "UK CPI in line at 3.0% y/y, BoE April cut pricing remains on table",
+    "RBNZ holds OCR at 2.25%, signals possible Q4 hike but not fully priced",
+    "US-Iran talks show progress, crude falls as geopolitical premium eases",
+    "Fed officials signal prolonged pause, 75bps to neutral per Daly",
+    "FOMC Minutes due 20:00 FRA - key focus on inflation path and R-star views"
   ],
   "currencies": {
     "USD": {
+      "name": "US Dollar",
       "bias": "Neutral",
-      "summary": "Dollar range-bound ahead of mid-week data deluge. Markets closed for President's Day. Volatile positioning at record bearish levels in Bank of America survey. Focus shifts to Tuesday's Empire State Manufacturing, Wednesday: FOMC Meeting Minutes",
+      "summary": "Dollar edges higher as Fed signals prolonged pause. Fed's Barr said outlook suggests steady rates for some time, while Daly noted 75bps to neutral. Goolsbee wants more evidence on inflation ebbing to 2%. FOMC Minutes due Wednesday 20:00 FRA. President's Day holiday thinned liquidity Tuesday.",
       "drivers": [
-        "Dollar range-bound ahead of mid-week data deluge",
-        "Volatile positioning at record bearish levels in Bank of America survey",
-        "Markets closed for President's Day",
-        "Tuesday: Empire State Manufacturing Index",
-        "Wednesday: FOMC Meeting Minutes"
+        "Fed signals prolonged pause, 75bps to neutral per Daly",
+        "Barr: Outlook suggests steady rates for some time",
+        "Goolsbee wants more inflation evidence before cuts",
+        "Wednesday: FOMC Meeting Minutes",
+        "Thursday: Unemployment Claims, Philly Fed Index"
       ]
     },
     "EUR": {
+      "name": "Euro",
       "bias": "Neutral",
-      "summary": "EUR consolidates below as ECB pushes back on dovish repricing. Lagarde's comments and repo backstop expansion generated no meaningful FX reaction. Industrial Production data mixed. Range-bound until fresh catalysts emerge.",
+      "summary": "EUR consolidates below 1.1850 as ECB pushes back on dovish repricing. Lagarde remains committed to role, no departure decision made. German ZEW disappointed at 58.3 vs exp 65. EU ZEW 39.4 vs exp 45.2. Range-bound until fresh catalysts emerge. Friday: German Flash PMIs.",
       "drivers": [
-        "EUR consolidates below as ECB pushes back on dovish repricing",
-        "Lagarde's comments generated no FX reaction",
-        "Industrial Production data mixed",
-        "Range-bound until fresh catalysts emerge",
+        "ECB pushes back on dovish repricing",
+        "Lagarde remains committed, no departure decision",
+        "German ZEW disappointed: 58.3 vs exp 65",
+        "EU ZEW 39.4 vs exp 45.2",
         "Friday: German Flash Manufacturing PMI, Flash Services PMI"
       ]
     },
     "GBP": {
+      "name": "British Pound",
       "bias": "Bearish",
-      "summary": "GBP remains under pressure after dismal GDP weighs on sentiment. Manufacturing Production fell. Tuesday: UK employment data showed Claimant Count Change, Average Earnings fell, Unemployment Rate. Wednesday: CPI - key catalyst for BoE timing. Political uncertainty persists despite Cabinet support for Reeves. GBP/USD testing support, vulnerable to further downside on weak data.",
+      "summary": "GBP under pressure after dovish UK jobs report Tuesday. Unemployment rose to 5.2%, wage growth slowed across both measures. Wednesday: UK CPI in line at 3.0% y/y, core 3.1%. BoE April cut pricing remains on table. El-Erian: CPI reinforces likelihood of BoE resuming cuts next month. GBP/USD testing 1.35 support.",
       "drivers": [
-        "Weak GDP weighs on sentiment",
-        "Manufacturing Production fell",
-        "Tuesday: Claimant Count Change, Average Earnings fell, Unemployment Rate",
-        "Wednesday: CPI - key catalyst for BoE timing",
-        "GBP/USD testing support, vulnerable to further downside"
+        "Dovish UK jobs: unemployment 5.2%, wages slowed",
+        "Wednesday: CPI 3.0% y/y in line, core 3.1%",
+        "BoE April cut pricing remains on table",
+        "El-Erian: CPI reinforces BoE cut likelihood",
+        "Friday: Retail Sales"
       ]
     },
     "JPY": {
+      "name": "Japanese Yen",
       "bias": "Bullish",
-      "summary": "JPY holds post-Takaichi rally gains near as BoJ March hike pricing firms at 60%. USD/JPY sharp reversal sparked intervention speculation. Monday: Tertiary Industry Activity. Tuesday: Trade Balance. Carry trade unwind continues as global yields compress. JPY benefits from risk-off positioning ahead of RBNZ/AUD CPI Wednesday.",
+      "summary": "JPY holds gains as carry trade unwind continues. Former BoJ board member Adachi sees reasonable chance of 25bps hike in April. BoJ March hike odds at 60% after Takaichi landslide win. USD/JPY trades 152.70-153.75 range. Carry trade disadvantage limits upside for CHF, supports JPY.",
       "drivers": [
-        "BoJ March hike odds at 60% after Takaichi landslide election win",
-        "USD/JPY intervention speculation after sharp reversal",
-        "Carry trade unwind accelerates on compressed global yield differentials",
-        "Monday: Tertiary Industry Activity",
-        "Tuesday: Trade Balance"
+        "Former BoJ member Adachi: reasonable chance of April hike",
+        "BoJ March hike odds at 60% after Takaichi win",
+        "Carry trade unwind continues",
+        "USD/JPY range 152.70-153.75",
+        "Haven flows ahead of US-Iran talks"
       ]
     },
     "AUD": {
+      "name": "Australian Dollar",
       "bias": "Bullish",
-      "summary": "AUD reclaims on hawkish RBA rhetoric on inflation persistence. RBA Minutes confirmed Board's concern that inflation would stay stubbornly high without February hike. Wednesday: AUD CPI - key catalyst for RBA policy. Monday: RBA Meeting Minutes. Thursday: Wage Price Index. China stimulus speculation provides additional tailwind. AUD/USD testing resistance, breakout risk on strong CPI.",
+      "summary": "AUD reclaims on hawkish RBA Minutes. Minutes reiterated uncertainty too high to commit to policy path, inflation would have been stickier without February hike. China away on holiday (Lunar New Year Feb 17-24). Thursday: Wage Price Index q/q - key catalyst. China stimulus speculation provides tailwind.",
       "drivers": [
-        "Hawkish RBA rhetoric on inflation persistence",
-        "RBA Minutes confirmed inflation concerns",
-        "Wednesday: AUD CPI - key catalyst for RBA policy",
-        "Monday: RBA Meeting Minutes",
-        "Thursday: Wage Price Index"
+        "RBA Minutes: inflation stickier without Feb hike",
+        "Uncertainty too high to commit to policy path",
+        "Thursday: Wage Price Index - key catalyst",
+        "China Lunar New Year holiday (Feb 17-24)",
+        "China stimulus speculation provides tailwind"
       ]
     },
     "CAD": {
+      "name": "Canadian Dollar",
       "bias": "Bearish",
-      "summary": "CAD under sustained pressure from Trump considering exiting USMCA. New Chief Trade Negotiator appointed to manage US negotiations. Markets closed for Family Day holiday. Tuesday: CPI - key catalyst for BoC policy. Oil prices steady but geopolitical risks loom. CAD vulnerable to further upside on weak CPI print.",
+      "summary": "CAD under pressure despite soft CPI. Tuesday: CPI 2.3% y/y vs exp 2.4%, Trimmed Mean 2.4% vs exp 2.6%. Oxford Economics expects BoC to hold at 2.25% until early 2027. Trump considering exiting USMCA. PM Carney: talks on joining 'Golden Dome' going well. Crude falls on Iran talks progress.",
       "drivers": [
+        "Soft CPI: 2.3% y/y vs exp 2.4%",
+        "Oxford Econ: BoC hold until early 2027",
         "Trump considering exiting USMCA",
-        "New Chief Trade Negotiator appointed",
-        "Markets closed for Family Day holiday",
-        "Tuesday: CPI - key catalyst for BoC policy",
-        "Oil prices steady but geopolitical risks loom"
+        "PM Carney: Golden Dome talks going well",
+        "Crude falls on Iran talks progress"
       ]
     },
     "CHF": {
+      "name": "Swiss Franc",
       "bias": "Neutral",
-      "summary": "CHF consolidates after AI disruption site-wide pause. Carry trade disadvantage limits upside despite low rates. SNB's ultra-low rates make CHF less quality flows. EUR/CHF stable near, lacks directional conviction. Safe-haven demand muted despite geopolitical tensions.",
+      "summary": "CHF consolidates as carry trade disadvantage limits upside. SNB's ultra-low rates (0.00%) make CHF less attractive despite safe-haven status. EUR/CHF stable near 0.95, lacks directional conviction. Geopolitical risk premium eases as US-Iran talks show progress. Safe-haven demand muted.",
       "drivers": [
-        "CHF consolidates after AI disruption site-wide pause",
         "Carry trade disadvantage limits upside",
-        "SNB's ultra-low rates make CHF less attractive",
-        "Safe-haven demand muted",
-        "EUR/CHF stable, lacks directional conviction"
+        "SNB ultra-low rates (0.00%) make CHF less attractive",
+        "EUR/CHF stable near 0.95",
+        "Geopolitical risk premium eases",
+        "Safe-haven demand muted"
       ]
     },
     "NZD": {
+      "name": "New Zealand Dollar",
       "bias": "Bullish",
-      "summary": "NZD strengthens on high-beta risk appetite and RBNZ meeting anticipation. Markets expect RBNZ to hold rates at 60% after Breman's hawkish signals extend pause. Wednesday: RBNZ meeting, Inflation expectations remain firm. Official Cash Rate, Press Conference. Friday: RBNZ Gov Breman Speaks. NZD/USD testing resistance, breakout risk on hawkish RBNZ.",
+      "summary": "NZD strengthens after RBNZ holds OCR at 2.25% as expected. Governor Breman: OCR trajectory aligned with economy, Q4 hike possible but not fully priced. Forward path reflects stronger economic outlook. Inflation expectations remain firm. Friday: RBNZ Gov Breman Speaks. NZD/USD ~0.6050.",
       "drivers": [
-        "Wednesday: RBNZ meeting",
+        "RBNZ holds OCR at 2.25% as expected",
+        "Breman: Q4 hike possible but not fully priced",
+        "Forward path reflects stronger outlook",
         "Inflation expectations remain firm",
-        "Wednesday: Official Cash Rate, Press Conference",
-        "Friday: RBNZ Gov Breman Speaks",
-        "NZD/USD testing resistance"
+        "Friday: RBNZ Gov Breman Speaks"
       ]
     }
   },
   "redFolderNews": [
     {
+      "day": "MON",
+      "date": "2026-02-16",
+      "time": "All Day",
+      "currency": "USD",
+      "event": "President's Day",
+      "impact": "High"
+    },
+    {
+      "day": "TUE",
+      "date": "2026-02-17",
       "time": "08:00",
       "currency": "GBP",
       "event": "Claimant Count Change",
-      "impact": "HIGH",
-      "day": "TUE"
+      "impact": "High"
     },
     {
+      "day": "TUE",
+      "date": "2026-02-17",
       "time": "08:00",
       "currency": "GBP",
       "event": "Average Earnings Index 3m/y",
-      "impact": "HIGH",
-      "day": "TUE"
+      "impact": "High"
     },
     {
+      "day": "TUE",
+      "date": "2026-02-17",
       "time": "08:00",
       "currency": "GBP",
       "event": "Unemployment Rate",
-      "impact": "HIGH",
-      "day": "TUE"
+      "impact": "High"
     },
     {
+      "day": "TUE",
+      "date": "2026-02-17",
       "time": "19:00",
       "currency": "CAD",
       "event": "CPI m/m",
-      "impact": "HIGH",
-      "day": "TUE"
+      "impact": "High"
     },
     {
+      "day": "TUE",
+      "date": "2026-02-17",
       "time": "19:00",
       "currency": "CAD",
       "event": "Core CPI m/m",
-      "impact": "HIGH",
-      "day": "TUE"
+      "impact": "High"
     },
     {
-      "time": "06:00",
-      "currency": "AUD",
-      "event": "Employment Change",
-      "impact": "HIGH",
-      "day": "WED"
-    },
-    {
+      "day": "TUE",
+      "date": "2026-02-17",
       "time": "06:00",
       "currency": "AUD",
       "event": "Unemployment Rate",
-      "impact": "HIGH",
-      "day": "TUE"
+      "impact": "High"
     },
     {
-      "time": "06:30",
+      "day": "WED",
+      "date": "2026-02-18",
+      "time": "02:00",
       "currency": "NZD",
-      "event": "RBNZ Official Cash Rate",
-      "impact": "HIGH",
-      "day": "WED"
+      "event": "Official Cash Rate",
+      "impact": "High"
     },
     {
-      "time": "06:30",
-      "currency": "NZD",
-      "event": "RBNZ Monetary Policy Statement",
-      "impact": "HIGH",
-      "day": "WED"
-    },
-    {
-      "time": "07:30",
+      "day": "WED",
+      "date": "2026-02-18",
+      "time": "02:00",
       "currency": "NZD",
       "event": "RBNZ Press Conference",
-      "impact": "HIGH",
-      "day": "WED"
+      "impact": "High"
     },
     {
-      "time": "12:30",
+      "day": "WED",
+      "date": "2026-02-18",
+      "time": "08:00",
       "currency": "GBP",
       "event": "CPI y/y",
-      "impact": "HIGH",
-      "day": "WED"
+      "impact": "High"
     },
     {
-      "time": "12:30",
+      "day": "WED",
+      "date": "2026-02-18",
+      "time": "08:00",
       "currency": "GBP",
       "event": "Core CPI y/y",
-      "impact": "HIGH",
-      "day": "WED"
+      "impact": "High"
     },
     {
-      "time": "00:30",
+      "day": "WED",
+      "date": "2026-02-18",
+      "time": "20:00",
       "currency": "USD",
       "event": "FOMC Meeting Minutes",
-      "impact": "HIGH",
-      "day": "THU"
+      "impact": "High"
     },
     {
-      "time": "06:00",
+      "day": "THU",
+      "date": "2026-02-19",
+      "time": "02:30",
       "currency": "AUD",
       "event": "Wage Price Index q/q",
-      "impact": "HIGH",
-      "day": "THU"
+      "impact": "High"
     },
     {
+      "day": "THU",
+      "date": "2026-02-19",
       "time": "14:30",
       "currency": "USD",
       "event": "Unemployment Claims",
-      "impact": "HIGH",
-      "day": "THU"
+      "impact": "High"
     },
     {
-      "time": "04:30",
-      "currency": "NZD",
-      "event": "RBNZ Gov Breman Speaks",
-      "impact": "HIGH",
-      "day": "FRI"
+      "day": "THU",
+      "date": "2026-02-19",
+      "time": "14:30",
+      "currency": "USD",
+      "event": "Philly Fed Manufacturing Index",
+      "impact": "High"
     },
     {
-      "time": "08:00",
+      "day": "THU",
+      "date": "2026-02-19",
+      "time": "16:00",
+      "currency": "USD",
+      "event": "Existing Home Sales",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "date": "2026-02-20",
+      "time": "08:30",
       "currency": "GBP",
       "event": "Retail Sales m/m",
-      "impact": "HIGH",
-      "day": "FRI"
+      "impact": "High"
     },
     {
-      "time": "14:00",
+      "day": "FRI",
+      "date": "2026-02-20",
+      "time": "09:30",
       "currency": "EUR",
       "event": "German Flash Manufacturing PMI",
-      "impact": "HIGH",
-      "day": "FRI"
+      "impact": "High"
     },
     {
-      "time": "14:00",
+      "day": "FRI",
+      "date": "2026-02-20",
+      "time": "09:30",
       "currency": "EUR",
       "event": "German Flash Services PMI",
-      "impact": "HIGH",
-      "day": "FRI"
+      "impact": "High"
     },
     {
-      "time": "15:00",
-      "currency": "GBP",
-      "event": "Flash Manufacturing PMI",
-      "impact": "HIGH",
-      "day": "FRI"
-    },
-    {
-      "time": "15:00",
-      "currency": "GBP",
-      "event": "Flash Services PMI",
-      "impact": "HIGH",
-      "day": "FRI"
-    },
-    {
-      "time": "14:30",
-      "currency": "USD",
-      "event": "Advance GDP q/q",
-      "impact": "HIGH",
-      "day": "FRI"
-    },
-    {
-      "time": "14:30",
-      "currency": "USD",
-      "event": "Core PCE Price Index m/m",
-      "impact": "HIGH",
-      "day": "FRI"
-    },
-    {
-      "time": "20:15",
+      "day": "FRI",
+      "date": "2026-02-20",
+      "time": "15:45",
       "currency": "USD",
       "event": "Flash Manufacturing PMI",
-      "impact": "HIGH",
-      "day": "FRI"
+      "impact": "High"
     },
     {
-      "time": "20:15",
+      "day": "FRI",
+      "date": "2026-02-20",
+      "time": "15:45",
       "currency": "USD",
       "event": "Flash Services PMI",
-      "impact": "HIGH",
-      "day": "FRI"
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "date": "2026-02-20",
+      "time": "23:00",
+      "currency": "NZD",
+      "event": "RBNZ Gov Breman Speaks",
+      "impact": "High"
     }
   ],
   "bonds": [
     {
       "name": "US 10Y Treasury",
-      "bias": "Bullish",
-      "yield": "Yields softening",
+      "bias": "Neutral",
+      "yield": "Yields steady",
+      "summary": "T-notes settle marginally lower, curve flattens. Front-end rises (+2.9bps at 2yr), long-end falls (-1.6bps at 30yr). Fed signals prolonged pause dampens cut expectations. FOMC Minutes Wednesday key focus. 10yr at 4.044%, levels not seen since early December 2025.",
       "drivers": [
-        "Yields softening",
-        "Fed speak (Barr, Daly)",
-        "Record bearish USD positioning"
-      ],
-      "summary": "Yields soften as markets price in Fed pause amid record bearish USD positioning. Fed speakers (Barr, Daly) reinforce data-dependent stance. President's Day holiday thins liquidity."
+        "Yields steady, curve flattens",
+        "Fed signals prolonged pause",
+        "FOMC Minutes Wednesday 20:00 FRA"
+      ]
     },
     {
       "name": "German 10Y Bund",
-      "bias": "Neutral",
-      "yield": "Range-bound",
+      "bias": "Bullish",
+      "yield": "Yields falling",
+      "summary": "Bunds firmer by a dozen ticks on weak German ZEW metrics (58.3 vs exp 65). ECB pushes back on aggressive dovish repricing. Lagarde remains committed to role. Geopolitical risk premium eases as Iran talks progress. German ZEW Current Conditions -65.9 vs exp -65.7.",
       "drivers": [
-        "Range-bound",
+        "Yields falling on weak German ZEW",
         "ECB pushback on dovish repricing",
-        "German ZEW data ahead"
-      ],
-      "summary": "Bunds range-bound as ECB pushes back on aggressive dovish repricing. Lagarde's comments generate no meaningful reaction. German ZEW data ahead could provide direction."
+        "Geopolitical risk premium eases"
+      ]
     },
     {
       "name": "Japan 10Y JGB",
       "bias": "Bullish",
       "yield": "Yields falling",
+      "summary": "JGBs bid following dovish Japanese GDP. Former BoJ board member Adachi sees reasonable chance of April hike. BoJ March hike odds at 60% after Takaichi win. Carry trade unwind supports bonds. Haven flows ahead of geopolitical talks.",
       "drivers": [
-        "Yields falling",
-        "Weak GDP data",
-        "BoJ March hike odds 60%"
-      ],
-      "summary": "JGB yields fall as weak GDP data contrasts with BoJ March hike odds at 60%. Takaichi landslide win reinforces policy normalization path. Carry trade unwind supports bonds."
+        "Yields falling on dovish GDP",
+        "Adachi: reasonable chance of April hike",
+        "Carry trade unwind supports bonds"
+      ]
     },
     {
       "name": "UK 10Y Gilt",
-      "bias": "Neutral",
-      "yield": "Steady",
+      "bias": "Bullish",
+      "yield": "Yields falling",
+      "summary": "Gilts outperform on dovish UK jobs/wages report. Unemployment 5.2%, just shy of BoE's 5.3% peak forecast. Wage growth moderated. CPI Wednesday in line at 3.0% y/y. BoE April cut pricing remains on table. March cut now priced at -21bps (from -20.3bps).",
       "drivers": [
-        "Steady",
-        "UK employment/wages data ahead",
-        "BoE April cut pricing"
-      ],
-      "summary": "Gilts steady ahead of key UK employment and CPI data this week. BoE April cut pricing remains on the table after 5-4 split in February. Political uncertainty persists."
+        "Yields falling on dovish UK data",
+        "Unemployment 5.2%, wages moderated",
+        "BoE April cut pricing on table"
+      ]
     }
   ]
 }
