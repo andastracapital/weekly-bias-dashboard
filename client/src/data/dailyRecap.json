@@ -1,196 +1,210 @@
 {
-  "date": "Thursday, February 19, 2026",
+  "date": "Friday, February 20, 2026",
   "lastUpdate": "07:00 Frankfurt Time",
   "riskEnvironment": "Risk-Off",
   "marketFocus": [
-    "US-Iran tensions escalate sharply, military strike possible this weekend",
-    "FOMC Minutes show divided Fed outlook - some favor cuts, others prefer two-sided guidance",
-    "Strong US data (Durable Goods, Housing, Industrial Production) supports USD",
-    "RBNZ signals easing cycle likely over, maintaining accommodative policy for now",
-    "Oil rallies 4%+ on geopolitical premium, gold approaches USD 5,000/oz"
+    "US-Iran tensions escalate: Trump sets 15-day deadline, weighs limited military strike",
+    "Fed's Miran dials back cut outlook to 100bps (from 150bps), citing firmer labor data and goods inflation",
+    "Private credit concerns: Blue Owl halts redemptions, sparking sell-off in financials",
+    "Japanese inflation cools below BoJ target (1.5% vs 2.1%), providing policy space",
+    "Today: US GDP Q4, Core PCE, Global Flash PMIs, CAD Retail Sales, UK Retail Sales"
   ],
   "currencies": {
     "USD": {
       "name": "USD",
       "bias": "Bullish",
-      "summary": "USD strengthens on strong US data, rising yields, and safe-haven demand amid escalating US-Iran tensions. FOMC Minutes show divided outlook with several favoring two-sided guidance.",
+      "summary": "USD strengthens on safe-haven flows amid US-Iran tensions and Fed's Miran hawkish pivot. Jobless claims fell to 206k (below 225k exp), signaling labor market resilience. Trade deficit widened to $70.3B (exp $55.5B), but USD supported by geopolitical premium and Fed repricing.",
       "drivers": [
-        "Strong US data: Durable Goods -1.4% (exp -2%), Industrial Production +0.7% (exp +0.4%)",
-        "US yields rise on better-than-expected data and geopolitical risk premium",
-        "US-Iran tensions escalate: Trump admin closer to major war, military ready to strike this weekend",
-        "FOMC Minutes: Several favor two-sided guidance, upward adjustments possible if inflation persists",
-        "Safe-haven demand as oil rallies 4%+ on Iran war fears"
+        "Trump sets 15-day Iran deadline, weighs limited military strike",
+        "Fed's Miran now sees 100bps cuts (prev 150bps), citing firmer labor and goods inflation",
+        "Initial jobless claims fell to 206k vs exp 225k",
+        "Trade deficit widened to $70.3B vs exp $55.5B",
+        "Today: GDP Q4, Core PCE, Flash PMIs"
       ]
     },
     "EUR": {
       "name": "EUR",
       "bias": "Bearish",
-      "summary": "EUR weakens amid USD strength and conflicting reports about ECB President Lagarde's future. Spain enters race to replace Lagarde with de Cos as strong contender.",
+      "summary": "EUR under pressure, failing to hold 1.1800 amid weaker Consumer Confidence and geopolitical risk aversion. ECB President Lagarde signals commitment to finishing term but door not closed on early departure. Focus shifts to Flash PMIs today.",
       "drivers": [
-        "EUR/USD slips beneath 1.1800 level on firmer dollar",
-        "Conflicting reports about ECB President Lagarde potentially stepping down before October 2027",
-        "Spain enters race to replace Lagarde, de Cos widely regarded as strong contender",
-        "ECB's Schnabel: Euro increasingly acting as haven, boosting global role",
-        "Geopolitical uncertainty weighs on risk sentiment"
+        "EUR/USD failed to sustain 1.1800, now testing 1.1747",
+        "Consumer Confidence missed expectations",
+        "ECB President Lagarde signals commitment but door not closed on early exit",
+        "ECB's Demarco: Inflation below 2% could need cut",
+        "Today: Flash Manufacturing PMI, Flash Services PMI"
       ]
     },
     "GBP": {
       "name": "GBP",
       "bias": "Bearish",
-      "summary": "GBP languishes at month's lows beneath 1.3500 after UK CPI slowed to 3.0% y/y. BoE March cut pricing rises to 95% as inflation data confirms dovish path.",
+      "summary": "GBP retreats to sub-1.3500, testing 200 DMA amid dovish BoE Mann comments and weak growth environment. Mann stated core inflation 'not quite as good as hoped' and unemployment rise is 'very much of a concern', raising speculation of March/April cut.",
       "drivers": [
-        "UK CPI slowed to 3.0% y/y (in line), Core 3.1% (in line), Services 4.4% (exp 4.3%)",
-        "GBP/USD trades beneath 1.3500 handle on USD strength and softer inflation",
-        "BoE March cut probability rises to 95% from 84% pre-release",
-        "ING sticks with call for March cut and another by June",
-        "Dovish UK jobs report earlier in week reinforces easing bias"
+        "GBP/USD testing 200 DMA at 1.3439",
+        "BoE Mann: Core inflation not quite as good as hoped",
+        "BoE Mann: Unemployment rate rise is very much of a concern",
+        "Tepid UK growth environment weighs on sentiment",
+        "Today: Retail Sales, Flash Manufacturing PMI, Flash Services PMI"
       ]
     },
     "JPY": {
       "name": "JPY",
       "bias": "Bearish",
-      "summary": "JPY weakens as USD/JPY reclaims 155.00 level on higher US yields and strong US data. Japanese Machinery Orders surge but fail to support JPY amid broader USD strength.",
+      "summary": "JPY weakens as USD/JPY lingers near 155.00 after Japanese inflation cooled below BoJ target (1.5% vs 2.1%). Core CPI matched 2% target (2-year low), providing BoJ additional policy space. Despite BoJ March hike odds at 60%, cooling inflation reduces urgency.",
       "drivers": [
-        "USD/JPY rises to 155.00+ from 153.07 trough on USD strength and higher US yields",
-        "Japanese Machinery Orders surge: M/M +19.1% (exp +4.5%), Y/Y +16.8% (exp +3.9%)",
-        "10yr JGB yields fall after weaker demand at 20yr JGB auction",
-        "BoJ March hike odds remain at 60% but JPY fails to benefit from strong data",
-        "Safe-haven flows bypass JPY in favor of USD and gold"
+        "USD/JPY hovering around 155.00, near 100 DMA",
+        "Japanese CPI fell to 1.5% vs prev 2.1%, below BoJ 2% target",
+        "Core CPI at 2% (2-year low), matched expectations",
+        "Cooling inflation provides BoJ additional policy space",
+        "BoJ March hike odds at 60% despite softer inflation"
       ]
     },
     "AUD": {
       "name": "AUD",
       "bias": "Neutral",
-      "summary": "AUD mildly benefits from positive risk appetite and mixed jobs data. ASX 200 hits fresh record high on telecoms and energy strength, but USD strength caps gains.",
+      "summary": "AUD initially bid post-jobs data (unemployment 3.5% vs exp 3.6%), but succumbed to USD strength and risk-off sentiment. Mixed employment report showed headline miss but full-time jobs growth. China markets remain closed until Tuesday, limiting AUD upside.",
       "drivers": [
-        "Australian Employment Change +17.8K (exp +20K), Unemployment Rate 4.1% (exp 4.2%)",
-        "Full-time employment rose +50.5K, offsetting part-time weakness",
-        "ASX 200 hits fresh record high on telecoms (Telstra +9.3% H1 profit) and energy strength",
-        "AUD/USD supported following jobs data but capped by firmer USD",
-        "RBA Minutes due Monday, Wage Price Index Tuesday - key catalysts ahead"
+        "Unemployment rate 3.5% vs exp 3.6% (supportive)",
+        "Employment change slightly missed expectations",
+        "Full-time jobs growth sole driver of employment increase",
+        "Succumbed to USD strength and risk-off sentiment",
+        "China markets closed until Tuesday (Lunar New Year)"
       ]
     },
     "CAD": {
       "name": "CAD",
-      "bias": "Neutral",
-      "summary": "CAD trades mixed as oil rally provides support but USD strength weighs. Canadian minister signs 15 commercial partnerships in Mexico, reassured by USMCA trilateral commitment.",
+      "bias": "Bearish",
+      "summary": "CAD choppy and pressured amid reports Trump admin could scrap USMCA in favor of bilateral deals with Canada and Mexico. Canadian officials cite 'very low' expectation for full USMCA renewal. Trump reportedly trying to weaken Canada economically to force policy changes.",
       "drivers": [
-        "Oil rallies 4%+ on US-Iran tensions, WTI settles at USD 65.05/bbl (+USD 2.79)",
-        "Canadian minister signs 15 commercial partnerships in Mexico",
-        "Mexico reassures Canada of desire to work together on USMCA trilateral agreement",
-        "LeBlanc to meet with USTR Greer in coming weeks to discuss CUSMA",
-        "USD strength offsets oil-related support for CAD"
+        "Trump admin reportedly indicates USMCA could be scrapped",
+        "Canadian officials: Expectation for full USMCA renewal very low",
+        "Trump trying to weaken Canada economically to force policy changes",
+        "CAD and MXN choppy on USMCA uncertainty",
+        "Today: Retail Sales m/m, Core Retail Sales m/m"
       ]
     },
     "CHF": {
       "name": "CHF",
       "bias": "Neutral",
-      "summary": "CHF trades rangebound as safe-haven demand is split between USD and gold. SNB policy remains accommodative with rates at 0.00%.",
+      "summary": "CHF mixed, benefiting from safe-haven flows amid US-Iran tensions but pressured by EUR weakness. Swiss Industrial Production fell -0.70% Y/Y (prev 2.40%), signaling economic slowdown. SNB policy outlook unchanged.",
       "drivers": [
-        "CHF fails to benefit from safe-haven flows as USD and gold dominate",
-        "SNB policy remains accommodative with rates at 0.00%",
-        "Swiss franc range-bound amid mixed risk sentiment",
-        "Geopolitical tensions favor USD over CHF as primary safe-haven",
-        "No major Swiss data this week to drive CHF direction"
+        "Safe-haven flows support CHF amid geopolitical tensions",
+        "EUR weakness weighs on CHF crosses",
+        "Swiss Industrial Production fell -0.70% Y/Y vs prev 2.40%",
+        "SNB policy outlook unchanged",
+        "Risk-off sentiment provides mild support"
       ]
     },
     "NZD": {
       "name": "NZD",
       "bias": "Bearish",
-      "summary": "NZD clear underperformer after RBNZ holds OCR at 2.25% with dovish commentary. RBNZ signals easing cycle likely over but maintains accommodative policy for now.",
+      "summary": "NZD underperformed post-RBNZ dovish pause, with Westpac cutting fixed home loan rates across 3-5 year terms. RBNZ Governor Breman stated policy will adapt based on new information, not predetermined path. NZD breached prior day's trough amid risk-off sentiment.",
       "drivers": [
-        "RBNZ holds OCR at 2.25% as expected, signals easing cycle likely over",
-        "RBNZ Governor Breman: Not comfortable with inflation at 3.1%, fundamentals consistent with slower inflation",
-        "RBNZ Assistant Governor Silk: Maintaining accommodative policy for a while aligns with economic conditions",
-        "NZD/USD dips under 0.60, trades at 0.5978-0.6053 range",
-        "Dovish skew in RBNZ commentary weighs on NZD despite neutral policy stance"
+        "Westpac cuts NZ fixed home loan rates across 3-5 year terms",
+        "RBNZ Governor Breman: Policy will adapt, not predetermined path",
+        "RBNZ dovish pause weighs on NZD",
+        "NZD breached prior day's trough amid risk-off",
+        "China markets closed until Tuesday limits upside"
       ]
     }
   },
   "redFolderNews": [
     {
-      "day": "THU",
-      "time": "15:30",
-      "event": "USD Trade Balance",
-      "impact": "High",
-      "currency": "USD"
+      "day": "FRI",
+      "time": "09:30",
+      "currency": "EUR",
+      "event": "German Flash Manufacturing PMI",
+      "impact": "High"
     },
     {
-      "day": "THU",
-      "time": "15:30",
-      "event": "USD Initial Jobless Claims",
-      "impact": "High",
-      "currency": "USD"
+      "day": "FRI",
+      "time": "09:30",
+      "currency": "EUR",
+      "event": "German Flash Services PMI",
+      "impact": "High"
     },
     {
-      "day": "THU",
-      "time": "15:30",
-      "event": "USD Philadelphia Fed Manufacturing Index",
-      "impact": "High",
-      "currency": "USD"
+      "day": "FRI",
+      "time": "10:00",
+      "currency": "EUR",
+      "event": "Flash Manufacturing PMI",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "time": "10:00",
+      "currency": "EUR",
+      "event": "Flash Services PMI",
+      "impact": "High"
     },
     {
       "day": "FRI",
       "time": "10:30",
-      "event": "GBP Retail Sales m/m",
-      "impact": "High",
-      "currency": "GBP"
+      "currency": "GBP",
+      "event": "Flash Manufacturing PMI",
+      "impact": "High"
     },
     {
       "day": "FRI",
       "time": "10:30",
-      "event": "GBP Flash Manufacturing PMI",
-      "impact": "High",
-      "currency": "GBP"
+      "currency": "GBP",
+      "event": "Flash Services PMI",
+      "impact": "High"
     },
     {
       "day": "FRI",
-      "time": "10:30",
-      "event": "GBP Flash Services PMI",
-      "impact": "High",
-      "currency": "GBP"
+      "time": "14:30",
+      "currency": "CAD",
+      "event": "Retail Sales m/m",
+      "impact": "High"
     },
     {
       "day": "FRI",
-      "time": "16:00",
-      "event": "EUR German Flash Manufacturing PMI",
-      "impact": "High",
-      "currency": "EUR"
+      "time": "14:30",
+      "currency": "CAD",
+      "event": "Core Retail Sales m/m",
+      "impact": "High"
     },
     {
       "day": "FRI",
-      "time": "16:00",
-      "event": "EUR German Flash Services PMI",
-      "impact": "High",
-      "currency": "EUR"
+      "time": "14:30",
+      "currency": "USD",
+      "event": "GDP q/q",
+      "impact": "High"
     },
     {
       "day": "FRI",
-      "time": "16:30",
-      "event": "EUR Flash Manufacturing PMI",
-      "impact": "High",
-      "currency": "EUR"
+      "time": "14:30",
+      "currency": "USD",
+      "event": "GDP Price Index q/q",
+      "impact": "High"
     },
     {
       "day": "FRI",
-      "time": "16:30",
-      "event": "EUR Flash Services PMI",
-      "impact": "High",
-      "currency": "EUR"
+      "time": "14:30",
+      "currency": "USD",
+      "event": "Core PCE Price Index m/m",
+      "impact": "High"
     },
     {
       "day": "FRI",
-      "time": "16:45",
-      "event": "USD Flash Manufacturing PMI",
-      "impact": "High",
-      "currency": "USD"
+      "time": "14:30",
+      "currency": "USD",
+      "event": "Core PCE Price Index y/y",
+      "impact": "High"
     },
     {
       "day": "FRI",
-      "time": "16:45",
-      "event": "USD Flash Services PMI",
-      "impact": "High",
-      "currency": "USD"
+      "time": "15:45",
+      "currency": "USD",
+      "event": "Flash Manufacturing PMI",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "time": "15:45",
+      "currency": "USD",
+      "event": "Flash Services PMI",
+      "impact": "High"
     }
   ],
   "bonds": [
@@ -198,48 +212,52 @@
       "name": "US 10Y Treasury",
       "bias": "Bearish",
       "yield": "Yields rising",
-      "summary": "UST yields rise on stronger-than-expected US data, rising energy prices, and weak 20yr auction. FOMC Minutes show divided outlook with several favoring two-sided guidance.",
+      "summary": "T-notes saw two-way trade with modest gains, but Fed's Miran hawkish pivot (100bps cuts vs 150bps) limits upside. Geopolitical tensions and private credit concerns (Blue Owl redemption halt) provide mild support. Focus shifts to Core PCE and GDP data today.",
       "drivers": [
-        "10yr UST futures languish at week's lows after retreating on strong US data",
-        "Rising energy prices (oil +4%) add inflationary pressure",
-        "Weak 20yr auction (high yield 4.664%, tails 2bps) weighs on sentiment",
-        "FOMC Minutes: Several favor two-sided guidance, upward adjustments possible if inflation persists"
+        "Fed's Miran now sees 100bps cuts (prev 150bps), hawkish repricing",
+        "Initial jobless claims fell to 206k, signaling labor resilience",
+        "Private credit concerns: Blue Owl halts redemptions",
+        "Geopolitical tensions provide mild safe-haven bid",
+        "Today: Core PCE, GDP Q4 data"
       ]
     },
     {
       "name": "German 10Y Bund",
-      "bias": "Bearish",
-      "yield": "Yields rising",
-      "summary": "Bund yields rise on ECB President Lagarde succession uncertainty and geopolitical tensions. Spain enters race to replace Lagarde with de Cos as strong contender.",
+      "bias": "Bullish",
+      "yield": "Yields falling",
+      "summary": "Bunds extended rebound with little to derail momentum ahead of German PPI data. ECB President Lagarde signals commitment to finishing term but door not closed on early departure. Weak Consumer Confidence and geopolitical tensions support bonds.",
       "drivers": [
-        "Bunds spend day on backfoot within 129.15-129.39 range",
-        "FT reports ECB President Lagarde could step down before October 2027 term end",
-        "Spain enters race to replace Lagarde, de Cos widely regarded as strong contender",
-        "Geopolitical uncertainty weighs on risk sentiment"
+        "Bunds extended recent rebound",
+        "ECB President Lagarde signals commitment but door not closed",
+        "Weak Consumer Confidence supports bonds",
+        "Geopolitical tensions provide safe-haven bid",
+        "Today: German PPI, Flash PMIs"
       ]
     },
     {
       "name": "Japan 10Y JGB",
       "bias": "Bullish",
       "yield": "Yields falling",
-      "summary": "JGB yields fall despite strong Machinery Orders data as weaker demand at 20yr JGB auction weighs. BoJ March hike odds remain at 60% but bond market shows caution.",
+      "summary": "JGB futures gained following softer-than-expected Japanese CPI data. Headline CPI slipped below BoJ 2% target for first time in almost 4 years (1.5% vs 2.1%), while core CPI matched 2% goal (2-year low). Cooling inflation provides BoJ additional policy space despite March hike odds at 60%.",
       "drivers": [
-        "10yr JGB futures retreat after weaker demand at 20yr JGB auction",
-        "Japanese Machinery Orders surge: M/M +19.1% (exp +4.5%), Y/Y +16.8% (exp +3.9%)",
-        "BoJ March hike odds remain at 60% but bond market shows caution",
-        "Safe-haven demand supports JGBs amid geopolitical tensions"
+        "Japanese CPI fell to 1.5% vs prev 2.1%, below BoJ 2% target",
+        "Core CPI at 2% (2-year low), matched expectations",
+        "Cooling inflation provides BoJ additional policy space",
+        "BoJ March hike odds at 60% despite softer inflation",
+        "JGB futures gained on softer inflation data"
       ]
     },
     {
       "name": "UK 10Y Gilt",
-      "bias": "Bullish",
-      "yield": "Yields falling",
-      "summary": "Gilt yields fall after UK CPI data confirms dovish BoE path. March cut probability rises to 95% as inflation slows to 3.0% y/y, reinforcing easing bias.",
+      "bias": "Bearish",
+      "yield": "Yields rising",
+      "summary": "Gilts softer and marginally underperforming, possibly a move away from UK assets (GBP and FTSE 100 lagging) as tensions between UK and US increase re. Diego Garcia. BoE's Mann dovish tilt raises speculation of March/April cut.",
       "drivers": [
-        "Gilts lower by handful of ticks, trade at midpoint of 92.03-92.32 range",
-        "UK CPI 3.0% y/y (in line), Core 3.1% (in line), Services 4.4% (exp 4.3%)",
-        "BoE March cut probability rises to 95% from 84% pre-release",
-        "ING sticks with call for March cut and another by June"
+        "Gilts underperforming, off lows but towards trough",
+        "BoE Mann dovish tilt: Core inflation not quite as good as hoped",
+        "Tepid UK growth environment weighs on sentiment",
+        "UK-US tensions increase (Diego Garcia, Iran strike bases)",
+        "Today: UK Retail Sales, Flash PMIs"
       ]
     }
   ]
