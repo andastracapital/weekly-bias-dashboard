@@ -33,4 +33,11 @@
 - [x] Rewrite weeklyBias.json with proper 2-3 sentence summaries (not bullet points)
 - [x] Verify all 8 currencies have coherent paragraph-style rationales
 - [x] Test dashboard display (Weekly View)
-- [ ] Save checkpoint with corrected data
+- [x] Save checkpoint with corrected data
+
+## BiasCard Summary Display Fix (Current Task)
+
+- [x] Check old weeklyBias.json structure for correct field name
+- [x] Update BiasCard component to support both 'summary' and 'rationale' fields
+- [x] Verify Weekly View displays summaries correctly
+- [ ] Save checkpoint

@@ -144,9 +144,9 @@ const BiasCard = ({ currency, weeklyBias }: { currency: any, weeklyBias?: string
         )}
       </div>
 
-      {currency.summary && (
+      {(currency.summary || currency.rationale) && (
         <p className="text-xs text-gray-300 mb-4 font-mono leading-relaxed flex-grow relative z-10">
-          {currency.summary}
+          {currency.summary || currency.rationale}
         </p>
       )}
 
