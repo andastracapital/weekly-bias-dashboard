@@ -28,15 +28,9 @@
 - [x] Test file deletion
 - [x] Test error handling (file size limits, invalid types)
 
-## Weekly Bias Update (Current Task)
+## Weekly Bias Update Fix (Current Task)
 
-- [x] Access PMT Analyst Reports (Weekly Outlook)
-- [x] Access Forex Factory Calendar (current week)
-- [x] Analyze market overview and key themes
-- [x] Update all 8 currency biases with strength qualifiers
-- [x] Write trader-focused rationales (2-4 sentences per currency)
-- [x] List key drivers and events for each currency
-- [x] Update weeklyBias.json file
-- [x] Verify Weekly View displays correctly
-- [x] Commit changes to Git
-- [x] Push to GitHub repository (via webdev_save_checkpoint)
+- [x] Rewrite weeklyBias.json with proper 2-3 sentence summaries (not bullet points)
+- [x] Verify all 8 currencies have coherent paragraph-style rationales
+- [x] Test dashboard display (Weekly View)
+- [ ] Save checkpoint with corrected data
