@@ -195,11 +195,13 @@ const BiasCard = ({ currency, weeklyBias }: { currency: any, weeklyBias?: string
                     <span className="text-gray-300">{event}</span>
                   ) : (
                     <>
-                      <span className="text-orange-500/70 w-8">{event.day.toUpperCase()}</span>
+                      <span className="text-orange-500/70 w-8">{event.day?.toUpperCase()}</span>
                       <span className="text-gray-300 flex-1 truncate mr-2">{event.event}</span>
-                      <span className={`px-1 ${event.impact === "Critical" || event.impact === "High" ? "bg-red-900/30 text-red-400 border border-red-900/50" : "text-gray-600"}`}>
-                        {event.impact.toUpperCase()}
-                      </span>
+                      {event.impact && (
+                        <span className={`px-1 ${event.impact === "Critical" || event.impact === "High" ? "bg-red-900/30 text-red-400 border border-red-900/50" : "text-gray-600"}`}>
+                          {event.impact.toUpperCase()}
+                        </span>
+                      )}
                     </>
                   )}
                 </li>

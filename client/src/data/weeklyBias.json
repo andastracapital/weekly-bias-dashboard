@@ -1,260 +1,126 @@
 {
-  "week": "Feb 16 - Feb 22, 2026",
-  "lastUpdated": "2026-02-16T08:30:00Z",
+  "week": "Feb 23 - Mar 1, 2026",
+  "marketOverview": "Global markets navigate heightened geopolitical tensions around US-Iran conflict, shifting Fed expectations after hawkish pivot from Miran (100bps cuts vs 150bps), and persistent trade uncertainty under Section 122 tariffs. Dollar strength dominates as US yields firm and safe-haven demand combines with rate differentials. European growth remains subdued, with UK and Swiss data disappointing. Commodity currencies split: AUD supported by hawkish RBA and strong labor data, NZD pressured by RBNZ dovish pivot. JPY caught between softer domestic normalization and safe-haven flows.",
   "currencies": [
     {
       "code": "USD",
-      "name": "US Dollar",
-      "bias": "Weak Bearish",
-      "biasLevel": "Weak Short",
-      "longTermBias": "Weak Bearish",
-      "sentiment": "Mixed",
-      "summary": "USD caught between blowout NFP (130k vs exp 65k) pushing first Fed cut to July and BLS revisions (-862k) raising sustainability concerns. Sector concentration in job gains (Healthcare, Government, Leisure) limits breadth. Soft Retail Sales (0.0%), weak ADP (6.5k), and CPI miss (0.2% vs exp 0.3%) keep dovish Fed narrative alive. Trade uncertainty (Trump USMCA exit rumors, Iran deal optimism) adds volatility. Dollar remains vulnerable to data disappointments despite headline strength.",
-      "drivers": [
-        "Blowout NFP vs BLS Revisions",
-        "Soft Retail Sales & CPI",
-        "Fed Cut Pricing (July)",
-        "USMCA Exit Rumors",
-        "Trump-Iran Deal Optimism"
-      ],
+      "bias": "Weak Bullish",
+      "rationale": "The dominant driver remains the relative rates channel and safe haven demand tied to geopolitical risk. Strong US data, including a hotter Core PCE print, combined with Fed Miran's hawkish pivot (100bps cuts vs 150bps prior expectation) have firmed US front end yields and supported the Dollar. US-Iran tensions (15-day deadline for military action) reinforce safe-haven flows, and the USD benefits from combining defensive demand with a yield advantage over peers. Trade policy uncertainty under Section 122 tariffs adds volatility but has not derailed Dollar strength. With US yields relatively supported and global risk elevated, the path of least resistance remains higher across the basket.",
       "events": [
         {
-          "day": "Mon",
-          "event": "Bank Holiday",
-          "impact": "High"
+          "day": "TUE",
+          "event": "CB Consumer Confidence"
         },
         {
-          "day": "Wed",
-          "event": "FOMC Meeting",
-          "impact": "Critical"
+          "day": "THU",
+          "event": "GDP, Durable Goods Orders, Jobless Claims"
         },
         {
-          "day": "Thu",
-          "event": "Unemployment Claims",
-          "impact": "High"
-        },
-        {
-          "day": "Fri",
-          "event": "Advance GDP",
-          "impact": "Critical"
-        },
-        {
-          "day": "Fri",
-          "event": "Core PCE",
-          "impact": "Critical"
-        },
-        {
-          "day": "Fri",
-          "event": "Flash Manufacturing And Services PMI",
-          "impact": "High"
+          "day": "FRI",
+          "event": "Core PCE, Personal Spending, Chicago PMI"
         }
       ]
     },
     {
       "code": "EUR",
-      "name": "Euro",
-      "bias": "Weak Bullish",
-      "biasLevel": "Weak Long",
-      "longTermBias": "Weak Bullish",
-      "sentiment": "Cautious",
-      "summary": "EUR consolidates sub-1.1900 as USD weakness provides modest support but domestic catalysts remain limited. ECB calls for more EU debt to fund defense and climate spending, signaling fiscal expansion ahead. German ifo Business Climate (Tuesday) will test sentiment after weak GDP and Manufacturing data. China dairy tariffs (11.7% on EU products effective Feb 13) add trade friction. EUR benefits from Dollar weakness but lacks independent bullish drivers. Structural positioning remains defensive.",
-      "drivers": [
-        "USD Weakness",
-        "ECB Fiscal Expansion Calls",
-        "German ifo (Tuesday)",
-        "China Dairy Tariffs",
-        "Sub-1.1900 Consolidation"
-      ],
+      "bias": "Weak Bearish",
+      "rationale": "The dominant driver has shifted back toward a firmer US rates impulse and renewed external risk rather than a stabilized ECB front end. Even though German Manufacturing PMI returned to expansion and the Eurozone Composite beat expectations, EUR could not sustain gains as higher US two year yields, a hotter US Core PCE print and a more hawkish Fed tone reasserted dollar support. Lagarde succession speculation has added a political risk discount and kept ECB pricing cautious at the margin, limiting the relative rate channel that previously helped the Euro. Trade escalation under Section 122 also reinforced export sensitivity for a bloc still reliant on external demand, particularly Germany.",
       "events": [
         {
-          "day": "Fri",
-          "event": "Flash Services And Manufacturing PMI",
-          "impact": "High"
+          "day": "MON",
+          "event": "Lagarde Speech"
         },
         {
-          "day": "Fri",
-          "event": "ECB Lagarde Speech",
-          "impact": "High"
+          "day": "THU",
+          "event": "Lagarde Speech"
+        },
+        {
+          "day": "FRI",
+          "event": "German CPI"
         }
       ]
     },
     {
       "code": "GBP",
-      "name": "British Pound",
       "bias": "Weak Bearish",
-      "biasLevel": "Weak Short",
-      "longTermBias": "Neutral",
-      "sentiment": "Weak",
-      "summary": "GBP under sustained pressure after weak GDP (0.7% y/y vs exp 1.1%) and Manufacturing Production (-0.5%). Business Investment fell -2.7% q/q, signaling domestic demand weakness. Political uncertainty persists despite Cabinet support for Starmer. BoE pricing remains dovish after 5-4 split in February, with April cut still on the table. GBP underperforms across the board, with GBP/AUD, GBP/JPY, GBP/CHF all showing bearish momentum. Structural weakness dominates near-term outlook.",
-      "drivers": [
-        "Weak GDP (0.7% vs exp 1.1%)",
-        "Manufacturing Production -0.5%",
-        "Business Investment -2.7%",
-        "BoE Dovish Pricing",
-        "Political Uncertainty"
-      ],
+      "rationale": "The dominant driver remains the easing bias at the BOE, even if this week's data complicated the picture. Labor market deterioration, with unemployment rising to 5.2 percent and wage growth cooling to 4.2 percent, reinforces the view that underlying momentum is softening and validates markets pricing a high probability of a near term cut. While Core CPI at 3.1 percent and Services inflation at 4.4 percent are still elevated, the direction of travel in wages and the emphasis from Catherine Mann on sluggish growth tilt the reaction function toward easing rather than tightening. With the UK front end vulnerable and geopolitical friction adding a mild risk premium, rallies are likely to struggle if easing remains the base case.",
       "events": [
         {
-          "day": "Tue",
-          "event": "Job Report",
-          "impact": "High"
+          "day": "TUE",
+          "event": "Monetary Policy Report Hearings"
         },
         {
-          "day": "Wed",
-          "event": "CPI",
-          "impact": "Critical"
-        },
-        {
-          "day": "Fri",
-          "event": "Retail Sales",
-          "impact": "High"
-        },
-        {
-          "day": "Fri",
-          "event": "Flash Manufacturing And Services PMI",
-          "impact": "High"
+          "day": "FRI",
+          "event": "Consumer Confidence"
         }
       ]
     },
     {
       "code": "JPY",
-      "name": "Japanese Yen",
-      "bias": "Weak Bullish",
-      "biasLevel": "Weak Long",
-      "longTermBias": "Weak Bullish",
-      "sentiment": "Strong",
-      "summary": "JPY rallies sharply post-Takaichi landslide election victory as markets price higher BoJ hike odds (~60% March). USD/JPY reversal from 157 to 153 sparked intervention speculation and carry trade unwind. Takaichi's pro-growth, hawkish fiscal stance contrasts with prior weak-JPY messaging, surprising markets. Safe-haven bid during AI disruption selloff (Thursday) reinforced strength. BoJ policy meeting (March 19) looms as critical catalyst. JPY outperforms all G10 peers except CHF during risk-off episodes.",
-      "drivers": [
-        "Takaichi Election Landslide",
-        "BoJ Hike Odds 60% (March)",
-        "USD/JPY Reversal (157\u2192153)",
-        "Carry Trade Unwind",
-        "Safe-Haven Bid"
-      ],
+      "bias": "Weak Bearish",
+      "rationale": "The dominant driver has swung back toward a softer domestic normalization impulse rather than an imminent tightening cycle. The downside surprise in Q4 GDP and the softer January CPI print, with headline at 1.5 percent and supercore measures easing, have reduced conviction around a March hike and allowed markets to reprice BOJ patience. While former officials continue to flag a reasonable possibility of a move in March or April, incoming data have not validated urgency, and last lands upward pressure on USD/JPY has been less forceful. Safe haven demand linked to geopolitical risk has not been sufficient to offset that dynamic, and Japanese equities' resilience reinforces a carry friendly backdrop that pressured JPY into the close.",
       "events": [
         {
-          "day": "Fri",
-          "event": "National Core CPI",
-          "impact": "High"
+          "day": "MON",
+          "event": "Bank Holiday"
         },
         {
-          "day": "Fri",
-          "event": "Flash Manufacturing PMI",
-          "impact": "Medium"
+          "day": "WED",
+          "event": "BOJ Core CPI"
+        },
+        {
+          "day": "FRI",
+          "event": "Tokyo Core CPI"
         }
       ]
     },
     {
       "code": "AUD",
-      "name": "Australian Dollar",
-      "bias": "Weak Bullish",
-      "biasLevel": "Weak Long",
-      "longTermBias": "Weak Bullish",
-      "sentiment": "Hawkish",
-      "summary": "AUD reclaims 0.71 for first time in 3 years on hawkish RBA rhetoric. Deputy Governor Hauser: inflation too high, bank will do what needed. Assistant Governor Hunter: labor market remains bit tight. RBA reinforces inflation fight not finished after 25bp hike to 3.85%. AUD reacted to risk sentiment with choppy trading, hit hard during Thursday's AI disruption selloff but recovered Friday. Gold above $5,000/oz provides commodity support. Wednesday CPI (m/m, y/y, Trimmed Mean) critical for RBA path.",
-      "drivers": [
-        "Hawkish RBA Rhetoric",
-        "AUD Reclaims 0.71",
-        "Gold Above $5,000/oz",
-        "CPI Wednesday (Critical)",
-        "Risk Sentiment Volatility"
-      ],
+      "bias": "Bullish",
+      "rationale": "The dominant driver remains the domestic rates impulse, and this week reinforced rather than diluted it. The labor market report, with unemployment steady at 4.1 percent and job gains concentrated in full time positions, confirms that slack is not building in a way that would justify early easing. The RBA minutes underscored that uncertainty is too high to signal a clear pivot and highlighted that inflation would have been stickier without prior hikes, reinforcing a reluctance to join the global easing cycle. Externally, copper strength and a constructive risk tone into the USD selloff allowed AUD to express its high beta profile cleanly. With front end yields relatively supported and sentiment stabilising, the path of least resistance into CPI tilts higher across the basket.",
       "events": [
         {
-          "day": "Wed",
-          "event": "Wage Price Index",
-          "impact": "High"
-        },
-        {
-          "day": "Thu",
-          "event": "Job Report",
-          "impact": "High"
-        },
-        {
-          "day": "Thu",
-          "event": "Flash Manufacturing And Services PMI",
-          "impact": "Medium"
+          "day": "WED",
+          "event": "CPI"
         }
       ]
     },
     {
       "code": "CAD",
-      "name": "Canadian Dollar",
       "bias": "Weak Bearish",
-      "biasLevel": "Weak Short",
-      "longTermBias": "Neutral",
-      "sentiment": "Vulnerable",
-      "summary": "CAD under persistent pressure as Trump considers exiting USMCA, with US Trade Adviser Navarro describing agreement as flawed. Mexican President Sheinbaum denies withdrawal was raised privately, but trade uncertainty dominates. BoC minutes view 2.25% as stimulative but appropriate, acknowledging USMCA review as downside risk. Oil fell sharply Thursday (-3% to $62.84) as IEA trimmed 2026 demand forecast and OPEC Plus supply headlines resurfaced. CAD remains vulnerable to trade rhetoric and soft oil.",
-      "drivers": [
-        "Trump USMCA Exit Risk",
-        "BoC Stimulative Stance",
-        "Oil Weakness ($62.84)",
-        "IEA Demand Downgrade",
-        "Trade Uncertainty Premium"
-      ],
+      "rationale": "The main driver remains the trade and political risk premium tied to the United States, which continues to dominate over oil support and a steady Bank of Canada stance. Headlines around a potential rethink of the USMCA structure reinforced Canada's external vulnerability, and with over 70 percent of exports going to the US this channel carries structural weight. Softer CPI and flat retail volumes reduce the urgency for the BoC to lean hawkish, keeping front end yield differentials biased against CAD as US yields push higher. While WTI strength linked to Middle East tensions has provided a cushion, oil driven support can fade quickly if supply headlines shift, and CAD's high beta to both oil and risk sentiment leaves it exposed if either turns.",
       "events": [
         {
-          "day": "Mon",
-          "event": "Bank Holiday",
-          "impact": "High"
-        },
-        {
-          "day": "Tue",
-          "event": "CPI",
-          "impact": "High"
-        },
-        {
-          "day": "Fri",
-          "event": "Retail Sales",
-          "impact": "High"
+          "day": "FRI",
+          "event": "GDP"
         }
       ]
     },
     {
       "code": "CHF",
-      "name": "Swiss Franc",
-      "bias": "Weak Bearish",
-      "biasLevel": "Weak Short",
-      "longTermBias": "Weak Bearish",
-      "sentiment": "Defensive",
-      "summary": "CHF strengthened during Thursday's AI disruption equity selloff, reflecting pronounced flight to quality. SNB Vice Chairman Schlegel reinforced high threshold for returning to negative rates, reducing easing speculation. January inflation -0.1% m/m (0.1% y/y) remains extremely low but within SNB's Q1 range. Alphabet issued 3.0455 billion CHF debt, generating structural support through funding flows. CHF rallied vs most G10 peers apart from JPY during risk-off, but remains unattractive on carry in stable risk environments.",
-      "drivers": [
-        "AI Disruption Selloff",
-        "SNB Negative Rate Threshold",
-        "Alphabet CHF Debt Issuance",
-        "Inflation Near Zero",
-        "Carry Disadvantage"
-      ],
-      "events": []
+      "bias": "Bearish",
+      "rationale": "The dominant driver remains the global risk and yield differential channel, and this week reinforced that CHF struggles to attract sustained demand outside of brief volatility spikes. Soft Q4 GDP at 0.2 percent and contracting Industrial Production underline a fragile domestic backdrop, while structurally low inflation keeps Swiss yields anchored well below peers. In calmer risk conditions, that leaves CHF unattractive on carry, especially as US yields have firmed and the Dollar combines haven demand with a yield advantage. Even during geopolitical tension around Iran and tariff headlines, CHF underperformed USD and JPY, suggesting its safe haven bid is secondary and inconsistent. Rising sight deposits and subdued SNB communication also signal that policy tolerance for strength remains limited.",
+      "events": [
+        {
+          "day": "MON",
+          "event": "PPI"
+        },
+        {
+          "day": "FRI",
+          "event": "GDP"
+        }
+      ]
     },
     {
       "code": "NZD",
-      "name": "New Zealand Dollar",
-      "bias": "Weak Bullish",
-      "biasLevel": "Weak Long",
-      "longTermBias": "Neutral",
-      "sentiment": "High Beta",
-      "summary": "NZD largely passenger to USD swings and global risk tone, with limited domestic catalysts. Held up better than AUD during Thursday's risk-off episode, reflecting less aggressive carry trade unwind. Trump-Xi trade truce reportedly extended 1 year, reducing immediate tariff risk. RBNZ meeting Wednesday critical: prior inflation persistence has reduced confidence in aggressive easing path. High-beta profile means NZD benefits when equities and pro-cyclical flows are stable. Vulnerability remains to external growth scares.",
-      "drivers": [
-        "Trump-Xi Truce Extended 1 Year",
-        "RBNZ Meeting Wednesday",
-        "High Beta Profile",
-        "AUD Spillover",
-        "Risk Sentiment Passenger"
-      ],
+      "bias": "Bearish",
+      "rationale": "The dominant driver has shifted decisively to a softer domestic rates channel after the RBNZ's dovish pivot under Governor Breman. By signaling that the OCR is likely to remain at current levels into near term and only potentially rise in late 2026, in her debut, Governor Breman said the RBNZ is not planning to hike until it sees a stronger economy and more inflationary pressure, and she described current policy as accommodative, a sharp contrast to the more hawkish tone from key peers. NZD/USD fell hard on the decision, sliding from 0.6042 to below 0.5970, and the sell off forced a technical breakdown through 0.5995. External, NZD remains high beta to global sentiment, and the widening Trans Tasman yield spread in Australia's favor, are now working against NZD.",
       "events": [
         {
-          "day": "Wed",
-          "event": "RBNZ Meeting",
-          "impact": "Critical"
-        },
-        {
-          "day": "Fri",
-          "event": "RBNZ Breman Speech",
-          "impact": "Medium"
+          "day": "MON",
+          "event": "Retail Sales"
         }
       ]
     }
-  ],
-  "topTrades": []
+  ]
 }
