@@ -38,5 +38,5 @@
 - [x] List key drivers and events for each currency
 - [x] Update weeklyBias.json file
 - [x] Verify Weekly View displays correctly
-- [ ] Commit changes to Git
-- [ ] Push to GitHub repository
+- [x] Commit changes to Git
+- [x] Push to GitHub repository (via webdev_save_checkpoint)
