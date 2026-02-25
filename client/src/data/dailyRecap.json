@@ -124,42 +124,42 @@
     },
     {
       "day": "WED",
-      "time": "08:00",
+      "time": "00:00",
       "currency": "JPY",
       "event": "BOJ Core CPI y/y",
       "impact": "High"
     },
     {
       "day": "WED",
-      "time": "10:00",
+      "time": "02:00",
       "currency": "EUR",
       "event": "German Final GDP q/q",
       "impact": "High"
     },
     {
       "day": "WED",
-      "time": "10:00",
+      "time": "02:00",
       "currency": "EUR",
       "event": "German GfK Consumer Climate",
       "impact": "High"
     },
     {
       "day": "WED",
-      "time": "13:00",
+      "time": "05:00",
       "currency": "EUR",
       "event": "Final Core CPI y/y",
       "impact": "High"
     },
     {
       "day": "WED",
-      "time": "13:00",
+      "time": "05:00",
       "currency": "EUR",
       "event": "Final CPI y/y",
       "impact": "High"
     },
     {
       "day": "WED",
-      "time": "18:30",
+      "time": "10:30",
       "currency": "USD",
       "event": "Crude Oil Inventories",
       "impact": "High"
@@ -173,23 +173,23 @@
     },
     {
       "day": "FRI",
-      "time": "10:45",
+      "time": "02:45",
       "currency": "EUR",
       "event": "French Consumer Spending m/m",
       "impact": "High"
     },
     {
       "day": "FRI",
-      "time": "10:45",
-      "currency": "EUR",
-      "event": "French Prelim CPI m/m",
+      "time": "12:00",
+      "currency": "JPY",
+      "event": "Housing Starts y/y",
       "impact": "High"
     },
     {
       "day": "FRI",
-      "time": "10:45",
+      "time": "14:00",
       "currency": "EUR",
-      "event": "French Prelim GDP q/q",
+      "event": "German Prelim CPI m/m",
       "impact": "High"
     },
     {
