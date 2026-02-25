@@ -1,7 +1,17 @@
 # TK Trading Fundamentals Dashboard - TODO
 
-## Daily Recap Update (Current Task - Feb 25, 2026)
+## Swing Setup Number Formatting Fix (Current Task)
 
+- [x] Identify root cause of number formatting issue (e.g., "3.8%" → "3, 8%")
+- [x] Check TradeCard component CSS for word-break/white-space issues
+- [x] Fix text wrapping to prevent numbers from breaking across lines (added [word-break:keep-all] hyphens-none)
+- [x] Test with long rationales containing percentages and decimals
+- [x] Verify fix in Daily View Swing Setups
+- [ ] Save checkpoint
+
+## Previous Tasks (Completed)
+
+### Daily Recap Update (Feb 25, 2026)
 - [x] Read daily-recap-update skill documentation
 - [x] Analyze PMT data (4 files provided by user)
 - [x] Access Forex Factory Calendar for Red Folder News (High impact only, Frankfurt Time)
@@ -13,9 +23,7 @@
 - [x] Rebuild dailyRecap.json with updated data
 - [x] Recalculate High Conviction Setups (Weekly-Daily alignment check - MANDATORY)
 - [x] Verify Daily View displays correctly
-- [ ] Save checkpoint and commit to Git
-
-## Previous Tasks (Completed)
+- [x] Save checkpoint and commit to Git
 
 ### Weekly Bias Update Skill Creation
 - [x] Read skill-creator skill to understand documentation structure
@@ -26,7 +34,7 @@
 - [x] Include FX pair conventions and High Conviction Setups logic
 - [x] Test skill by reading it and verifying completeness
 
-### Weekly Bias Summary Style Improvement
+### Weekly Bias Summaries Improvement
 - [x] Analyze old dashboard screenshots (Feb 3, 8, 10, 16) for preferred summary style
 - [x] Rewrite all 8 currency summaries: remove "The dominant driver" pattern
 - [x] Make summaries more concise and direct (2-3 sentences, no filler)
@@ -43,7 +51,7 @@
 ### Weekly Bias Update (Feb 23 - Mar 1, 2026)
 - [x] Access PMT Weekly Smart Bias Reports for all 8 currencies
 - [x] Extract bias + strength qualifiers (e.g. "Weak Bearish", "Strong Bullish")
-- [x] Extract rationales (2-3 sentences per currency)
+- [x] Extract rationales (2-4 sentences per currency)
 - [x] Extract key drivers (3-5 points per currency)
 - [x] Extract key events with impact levels
 - [x] Access Forex Factory Calendar for high-impact events

@@ -245,11 +245,11 @@ const TradeCard = ({ trade, index }: { trade: any, index: number }) => {
           </div>
           {isMultiLine ? (
             <div className="mt-1 space-y-0.5">
-              <p className="text-[9px] text-gray-400 font-mono leading-tight">{trade.reason.line1}</p>
-              <p className="text-[9px] text-gray-400 font-mono leading-tight">{trade.reason.line2}</p>
+              <p className="text-[9px] text-gray-400 font-mono leading-tight [word-break:keep-all] hyphens-none">{trade.reason.line1}</p>
+              <p className="text-[9px] text-gray-400 font-mono leading-tight [word-break:keep-all] hyphens-none">{trade.reason.line2}</p>
             </div>
           ) : (
-            <p className="text-[9px] text-gray-500 font-mono mt-0.5">{trade.reason}</p>
+            <p className="text-[9px] text-gray-500 font-mono mt-0.5 [word-break:keep-all] hyphens-none">{trade.reason}</p>
           )}
         </div>
       </div>
