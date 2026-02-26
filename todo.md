@@ -14,7 +14,7 @@
 - [x] Rebuild dailyRecap.json with all data
 - [x] Verify High Conviction Setups alignment (Weekly vs Daily bias)
 - [x] Test dashboard display (Weekly View + Daily View)
-- [ ] Save checkpoint
+- [x] Save checkpoint
 
 ---
 
@@ -40,3 +40,9 @@
 ### Skills Created
 - [x] Weekly Bias Update Skill (`/home/ubuntu/skills/weekly-bias-update/SKILL.md`)
 - [x] Daily Recap Update Skill (already exists)
+
+## Weekly View Layout Improvement (CURRENT TASK)
+
+- [x] Update Weekly View layout: Market Overview left, Swing Watchlist LONG/SHORT side-by-side right
+- [x] Test Weekly View display to verify new layout
+- [ ] Save checkpoint
