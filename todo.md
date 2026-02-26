@@ -1,16 +1,20 @@
 # TK Trading Fundamentals Dashboard - TODO
 
-## Red Folder News Timezone Fix (URGENT - Current Task)
+## Daily Recap Update: Feb 26, 2026 (CURRENT TASK)
 
-- [x] Access Forex Factory Calendar settings
-- [x] Configure timezone to GMT+1 (Frankfurt Time) in Forex Factory settings (Cloudflare blocked, used manual conversion)
-- [x] Extract correct GMT+1 times for all Red Folder events (manual conversion from GMT+7 to GMT+1)
-- [x] Update dailyRecap.json with verified GMT+1 times
-- [x] Verify Red Folder News display in Daily View (all times correct in GMT+1)
+- [ ] Read Daily Recap Update skill
+- [x] Analyze PMT Market Wraps (European Opening News, Asia Opening Preparation, London Session Recap)
+- [x] Extract market focus headlines (3 key points)
+- [x] Determine Risk Environment (Risk-On/Risk-Off/Mixed)
+- [x] Update all 8 currency biases (directional only: Bullish/Bearish/Neutral/Mixed)
+- [x] Write currency summaries (trader-focused, 1-3 day horizon)
+- [x] Extract currency drivers (3-5 key points per currency)
+- [x] Scrape Forex Factory Calendar for Red Folder News (High Impact only)
+- [x] Convert times to GMT+1 Frankfurt Time using forex-factory-timezone-correction skill
+- [x] Rebuild dailyRecap.json with all data
+- [x] Verify High Conviction Setups alignment (Weekly vs Daily bias)
+- [x] Test dashboard display (Weekly View + Daily View)
 - [ ] Save checkpoint
-
-**Issue:** Red Folder News times are still incorrect (showing NYC time instead of GMT+1)
-**Root Cause:** Manual timezone conversion was wrong, need to configure Forex Factory Calendar to GMT+1 directly
 
 ---
 
