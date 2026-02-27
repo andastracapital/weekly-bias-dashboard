@@ -1,188 +1,132 @@
 {
-  "date": "Thursday, February 26, 2026",
+  "date": "Friday, February 27, 2026",
   "lastUpdate": "07:00 Frankfurt Time",
-  "riskEnvironment": "Risk-On Recovery",
+  "riskEnvironment": "Mixed",
   "marketFocus": [
-    "NVIDIA Q4 earnings beat expectations (EPS 1.62 vs 1.54, Revenue $68.1B vs $66.12B), tech sentiment remains elevated",
-    "US-Iran nuclear talks resume in Geneva today, geopolitical tensions persist with Vance/Rubio warnings on Iran nuclear capability",
-    "BoJ hawkish dissenter Takata calls for further rate hikes, Nikkei 225 hits fresh all-time high above 59,000 before pullback",
-    "Australian Private Capex beats forecasts (0.4% vs 0.0%), feeds into next week's GDP release"
+    "NVIDIA post-earnings selloff: stock closed -5.5% despite Q4 beat, tech weakness spreads to broader indices (SPX -0.54%, NDX -1.16%)",
+    "Tokyo Core CPI fell below BoJ's 2% target for first time since Oct 2024 (1.8% vs 2.0%), yen firmer on data",
+    "PBoC cut FX Risk Reserve Ratio to 0% (from 20%) to slow yuan appreciation, CNH weakened on policy shift",
+    "US-Iran nuclear talks in Geneva end with no deal but 'significant progress', technical talks resume Monday in Vienna"
   ],
   "currencies": {
     "USD": {
       "name": "USD",
       "bias": "Neutral",
       "tone": "Rangebound",
-      "summary": "DXY slightly softened in rangebound trade with demand constrained after weakening alongside heightened risk appetite during US trade. Fed's Musalem (2028 voter) stated inflation could stay higher for longer, although this is not his baseline, and policy is neutral now in real terms. Light data calendar today with Unemployment Claims as key focus.",
+      "summary": "DXY slightly softer in rangebound trade amid mixed performances in major Asian counterparts. Fed's Goolsbee (2027 voter) stated rates can come down but does not want to front-load before inflation eases. Critical US Core PCE (Fed's preferred inflation gauge) and Chicago PMI scheduled today at 14:30 Frankfurt Time.",
       "drivers": [
-        "DXY rangebound, weakened on risk-on sentiment and light data calendar",
-        "Fed's Musalem: inflation almost a full percentage point above target, labour market cooling orderly",
-        "Fed's Musalem: policy neutral now in real terms, balancing appropriately",
-        "Geopolitical premium: US-Iran nuclear talks in Geneva today, Vance/Rubio warn on Iran nuclear capability",
-        "Today: Unemployment Claims (exp 217K vs prev 206K)"
+        "DXY rangebound, slightly softer amid mixed risk appetite and tech weakness",
+        "Fed's Goolsbee: rates can come down, but don't want to front-load before inflation eases",
+        "Fed's Goolsbee: one of the more optimistic folks on Fed about rate cuts this year",
+        "Trump-Xi summit preparations faltering, China wants 'many months' process (SCMP)",
+        "Today: Core PCE Price Index m/m (exp 0.3% vs prev 0.2%), Chicago PMI (exp 48.5 vs prev 49.2)"
       ]
     },
     "EUR": {
       "name": "EUR",
       "bias": "Neutral",
       "tone": "Tentative",
-      "summary": "EUR/USD slightly firmer after returning to 1.1800 territory owing to softer buck, but with further gains limited by lack of catalysts from the bloc. European equity futures indicate slightly lower cash market open with Euro Stoxx 50 futures down 0.2%. Focus on ECB President Lagarde speech and M3 Money Supply data today.",
+      "summary": "EUR/USD eked mild gains after oscillating around 1.1800 focal point. European equity futures flat after Thursday's -0.2% close. Participants await CPI data from Germany, France, and Spain, plus German Unemployment Rate. EU Commission eyes legal loophole to bypass Hungary's veto of EUR 90bln loan (FT).",
       "drivers": [
-        "EUR/USD returned to 1.1800 level, supported by softer DXY",
-        "European equity futures down 0.2% after Wednesday's 0.9% gains",
-        "Lack of fresh catalysts from the bloc limiting EUR upside",
-        "UK government debt sales anticipated to decline for first time in four years (GBP 247bln forecast)",
-        "Today: ECB President Lagarde speaks, M3 Money Supply y/y (exp 2.9% vs prev 2.8%)"
+        "EUR/USD oscillating around 1.1800 level, mild gains on softer DXY",
+        "European equity futures flat (Euro Stoxx 50) after Thursday's -0.2% close",
+        "EU Commission eyes legal loophole to bypass Hungary's EUR 90bln loan veto (FT)",
+        "Focus on German CPI (Feb), French Prelim CPI (Feb), Spanish Flash CPI (Feb)",
+        "Today: German Unemployment Change (exp 2K vs prev 0K), German Import Prices (Jan)"
       ]
     },
     "GBP": {
       "name": "GBP",
-      "bias": "Neutral",
-      "tone": "Consolidating",
-      "summary": "GBP/USD took a breather after advancing in tandem with cyclical peers. BoE's Greene stated there is a strong case for the Bank to do exactly the opposite of what the Fed is doing, and it does not make sense to set domestic policy based on another central bank. MPC Member Lombardelli speaks today.",
+      "bias": "Bearish",
+      "tone": "Pressured",
+      "summary": "GBP/USD languished near 1.3500 level following prior day's underperformance owing to credit concerns (MFS collapse). Overnight price action contained after UK GfK Consumer Confidence fell to -19 (exp -15, prev -16), lowest level since November. UK Green Party won Gorton & Denton by-election, defeating PM Starmer's Labour.",
       "drivers": [
-        "GBP/USD consolidating after recent advances with cyclical peers",
-        "BoE's Greene: strong case to do opposite of Fed, don't set policy based on another central bank",
-        "UK government debt sales forecast to decline to GBP 247bln in approaching fiscal year",
-        "UK Foreign Secretary Cooper to announce critical minerals deal with Kazakhstan today",
-        "Today: MPC Member Lombardelli speaks, GfK Consumer Confidence (exp -15 vs prev -16)"
+        "GBP/USD pressured near 1.3500, credit concerns weigh (MFS collapse)",
+        "UK GfK Consumer Confidence fell to -19 (exp -15, prev -16), lowest since November",
+        "UK Green Party wins Gorton & Denton by-election, defeating Labour (political risk)",
+        "UK reportedly held talks with oil/gas firms on ending windfall tax",
+        "Today: MPC Member Pill speaks (14:00 Frankfurt Time)"
       ]
     },
     "JPY": {
       "name": "JPY",
       "bias": "Bullish",
-      "tone": "Hawkish Premium",
-      "summary": "USD/JPY continued to pull back after climbing to best levels in over two weeks yesterday. BoJ Governor Ueda reiterated hiking bias, stating basic stance is to continue hiking rates if likelihood of forecasts materialising heightens. Hawkish dissenter Takata called for further rate hikes in gradual manner, stating BoJ should make further 'gear shift' on rates. Nikkei 225 hit fresh all-time high above 59,000 before pulling back as yen strengthened.",
+      "tone": "Firm",
+      "summary": "USD/JPY retreated amid early subdued risk appetite and following Tokyo CPI data, which printed firmer-than-expected but slowed from previous. Tokyo Core CPI fell below BoJ's 2% target for first time since October 2024 (1.8% vs 2.0%), yet yen firmed on data. Nikkei 225 traded indecisively amid firmer currency and mixed data releases.",
       "drivers": [
-        "USD/JPY pulled back from two-week highs, yen strengthening on hawkish BoJ rhetoric",
-        "BoJ Governor Ueda: basic stance to continue hiking if likelihood of forecasts heightens",
-        "BoJ Takata (hawkish dissenter): must conduct further rate hikes in gradual manner, BoJ should make 'gear shift'",
-        "Nikkei 225 hit all-time high above 59,000 before pullback on yen strength",
-        "Today: Tokyo Core CPI y/y (exp 1.7% vs prev 2.0%), Prelim Industrial Production m/m (exp 5.5% vs prev -0.1%)"
+        "Tokyo Core CPI fell below 2% target: 1.8% vs exp 1.7% (prev 2.0%), first time since Oct 2024",
+        "Tokyo CPI Ex Fresh Food & Energy 2.5% vs exp 2.3% (prev 2.4%), still elevated",
+        "Japanese Industrial Production (Jan) disappointed: 2.2% vs exp 5.3% (prev -0.1%)",
+        "Japanese Retail Sales (Jan) topped forecasts: 1.8% vs exp -0.4% (prev -0.9%)",
+        "Japan Finance Minister: monitoring yen decline with strong sense of urgency"
       ]
     },
     "AUD": {
       "name": "AUD",
-      "bias": "Bullish",
-      "tone": "Firm",
-      "summary": "Antipodeans kept afloat overnight following recent outperformance facilitated by high-beta status and hot Aussie CPI data from yesterday (3.8% vs 3.7%). Australian quarterly capex data topped forecasts (0.4% vs 0.0%), feeding into next week's GDP release. ASX 200 mildly gained with tech, telecoms and healthcare offsetting losses in energy and industrials.",
+      "bias": "Neutral",
+      "tone": "Tentative",
+      "summary": "Antipodeans rebounded from prior day's trough but with further upside contained by mixed risk appetite and weaker CNH after PBoC actions to slow currency appreciation. ASX 200 mildly gained as strength in tech and telecoms atoned for losses in financials and consumer stocks. High-beta status pressured by NVIDIA selloff and tech weakness.",
       "drivers": [
-        "AUD supported by hot CPI data (3.8% vs 3.7%) and better-than-expected capex (0.4% vs 0.0%)",
-        "Australian Private Capex for 2026-27 estimate AUD 158.4B, 2025-26 revised to AUD 199.3B",
-        "ASX 200 mildly gained, tech/telecoms/healthcare outperforming",
-        "High-beta status benefiting from risk-on sentiment and NVIDIA earnings beat",
-        "Today: Private Sector Credit m/m (exp 0.7% vs prev 0.8%)"
+        "AUD rebounded from trough but upside capped by mixed risk appetite",
+        "PBoC cut FX Risk Reserve Ratio to 0% (from 20%), CNH weakened, weighs on AUD",
+        "ASX 200 mildly gained, tech/telecoms outperforming, financials/consumer stocks weak",
+        "NVIDIA post-earnings selloff (-5.5%) pressures high-beta currencies",
+        "Today: No major AUD data scheduled"
       ]
     },
     "CAD": {
       "name": "CAD",
       "bias": "Bearish",
       "tone": "Pressured",
-      "summary": "CAD pressured amid rangebound crude futures following recent choppy performance and substantial build in crude stockpiles. US-Iran nuclear talks in Geneva today keep geopolitical premium elevated. Canadian Current Account data scheduled today.",
+      "summary": "CAD pressured amid rangebound crude futures after whipsawing on US-Iran nuclear talks. Talks ended with no deal but 'significant progress', technical discussions resume Monday in Vienna. Critical Canadian GDP m/m data scheduled today at 14:30 Frankfurt Time. Canadian Minister Le Blanc said USMCA conversations not discouraging.",
       "drivers": [
-        "Crude futures rangebound after substantial build in crude stockpiles",
-        "US-Iran nuclear talks in Geneva today, geopolitical tensions persist",
-        "Copper futures held on to prior day's gains but with upside capped",
-        "Canadian Wholesale Sales MoM Prel (Jan) -0.6% (prev 2%)",
-        "Today: Current Account (exp -8.2B vs prev -9.7B)"
+        "Crude futures rangebound after whipsawing on US-Iran talks (WTI settled -0.21 at $65.21/bbl)",
+        "US-Iran talks end with no deal but 'significant progress', technical talks resume Monday",
+        "Canadian Minister Le Blanc: USMCA conversations not discouraging",
+        "Trump-Xi summit preparations faltering, trade uncertainty persists",
+        "Today: GDP m/m (exp 0.2% vs prev 0.0%) - CRITICAL"
       ]
     },
     "CHF": {
       "name": "CHF",
       "bias": "Neutral",
       "tone": "Mixed",
-      "summary": "CHF mixed, benefiting from safe-haven flows amid US-Iran geopolitical tensions but pressured by EUR weakness. SNB Chairman Schlegel speaks today. Focus on GDP q/q data scheduled for Friday.",
+      "summary": "CHF mixed, benefiting from safe-haven flows amid US-Iran geopolitical tensions but pressured by EUR weakness. US-Iran talks ended with 'significant progress' but no deal, technical talks resume Monday in Vienna. Swiss GDP q/q and KOF Economic Barometer scheduled today.",
       "drivers": [
-        "Safe-haven flows support CHF amid US-Iran nuclear talks in Geneva",
+        "Safe-haven flows support CHF amid US-Iran nuclear talks uncertainty",
         "EUR weakness weighs on CHF crosses",
-        "US VP Vance: see evidence Iran trying to build nuclear weapon",
-        "US Secretary of State Rubio: Iran poses grave threat, seeks nuclear capability",
-        "Today: SNB Chairman Schlegel speaks"
+        "US-Iran talks: significant progress but no deal, technical talks resume Monday",
+        "US President Trump to convene advisers Friday on Iran action",
+        "Today: GDP q/q (exp 0.2% vs prev -0.5%), KOF Economic Barometer (exp 103.0 vs prev 102.5)"
       ]
     },
     "NZD": {
       "name": "NZD",
-      "bias": "Bullish",
-      "tone": "Firm",
-      "summary": "NZD firmer alongside AUD amid positive risk appetite and NVIDIA earnings beat. Antipodeans benefiting from broad risk-on sentiment and high-beta status. China's consulate warned Chinese citizens to avoid travel to Japan, adding to regional tensions.",
+      "bias": "Neutral",
+      "tone": "Tentative",
+      "summary": "NZD rebounded from prior day's trough but with further upside contained by mixed risk appetite and weaker CNH after PBoC actions. High-beta status pressured by NVIDIA selloff and tech weakness. Antipodeans following broader risk sentiment amid choppy price action.",
       "drivers": [
-        "NZD following AUD higher amid positive risk appetite",
-        "Risk-on sentiment: NVIDIA earnings beat (EPS 1.62 vs 1.54, Revenue $68.1B vs $66.12B)",
-        "High-beta status benefiting from tech-led gains on Wall Street",
-        "China's consulate warns citizens to avoid travel to Japan",
+        "NZD rebounded from trough but upside capped by mixed risk appetite",
+        "PBoC cut FX Risk Reserve Ratio to 0%, CNH weakened, weighs on NZD",
+        "NVIDIA post-earnings selloff (-5.5%) pressures high-beta currencies",
+        "Trump-Xi summit preparations faltering, trade uncertainty persists",
         "Today: No major NZD data scheduled"
       ]
     }
   },
   "redFolderNews": [
     {
-      "day": "WED",
-      "time": "06:00",
-      "currency": "JPY",
-      "event": "BOJ Core CPI y/y",
-      "impact": "High"
-    },
-    {
-      "day": "WED",
-      "time": "08:00",
-      "currency": "EUR",
-      "event": "German Final GDP q/q",
-      "impact": "High"
-    },
-    {
-      "day": "WED",
-      "time": "08:00",
-      "currency": "EUR",
-      "event": "German GfK Consumer Climate",
-      "impact": "High"
-    },
-    {
-      "day": "WED",
-      "time": "11:00",
-      "currency": "EUR",
-      "event": "Final Core CPI y/y",
-      "impact": "High"
-    },
-    {
-      "day": "WED",
-      "time": "11:00",
-      "currency": "EUR",
-      "event": "Final CPI y/y",
-      "impact": "High"
-    },
-    {
-      "day": "WED",
-      "time": "16:30",
-      "currency": "USD",
-      "event": "Crude Oil Inventories",
-      "impact": "High"
-    },
-    {
-      "day": "THU",
-      "time": "10:30",
-      "currency": "USD",
-      "event": "Unemployment Claims",
-      "impact": "High"
-    },
-    {
       "day": "FRI",
-      "time": "06:00",
-      "currency": "JPY",
-      "event": "Housing Starts y/y",
+      "time": "08:00",
+      "currency": "EUR",
+      "event": "French Prelim CPI m/m",
       "impact": "High"
     },
     {
       "day": "FRI",
       "time": "08:00",
       "currency": "EUR",
-      "event": "German Prelim CPI m/m",
-      "impact": "High"
-    },
-    {
-      "day": "FRI",
-      "time": "08:45",
-      "currency": "EUR",
-      "event": "French Consumer Spending m/m",
+      "event": "French Prelim GDP q/q",
       "impact": "High"
     },
     {
@@ -194,63 +138,168 @@
     },
     {
       "day": "FRI",
+      "time": "09:00",
+      "currency": "CHF",
+      "event": "KOF Economic Barometer",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "time": "09:00",
+      "currency": "EUR",
+      "event": "Spanish Flash CPI y/y",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
       "time": "09:55",
       "currency": "EUR",
       "event": "German Unemployment Change",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "time": "14:30",
+      "currency": "CAD",
+      "event": "GDP m/m",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "time": "14:30",
+      "currency": "USD",
+      "event": "Core PCE Price Index m/m",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "time": "14:30",
+      "currency": "USD",
+      "event": "PCE Price Index m/m",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "time": "14:30",
+      "currency": "USD",
+      "event": "Personal Income m/m",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "time": "14:30",
+      "currency": "USD",
+      "event": "Personal Spending m/m",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "time": "14:30",
+      "currency": "USD",
+      "event": "Retail Inventories Ex Autos m/m",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "time": "14:30",
+      "currency": "USD",
+      "event": "Wholesale Inventories m/m",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "time": "15:45",
+      "currency": "USD",
+      "event": "Chicago PMI",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "time": "16:00",
+      "currency": "USD",
+      "event": "Final Michigan Consumer Sentiment",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "time": "16:00",
+      "currency": "USD",
+      "event": "Final Michigan Consumer Expectations",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "time": "16:00",
+      "currency": "USD",
+      "event": "Final Michigan Current Conditions",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "time": "16:00",
+      "currency": "USD",
+      "event": "Final Michigan Inflation Expectations",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "time": "16:00",
+      "currency": "CAD",
+      "event": "Construction Spending m/m",
       "impact": "High"
     }
   ],
   "bonds": [
     {
       "name": "US 10Y Treasury",
-      "bias": "Neutral",
-      "yield": "Slightly higher",
-      "summary": "10yr UST futures eked slight gains, albeit with price action contained ahead of US supply, including a 7yr auction. Fed's Musalem reiterated inflation could stay higher for longer, although this is not his baseline. Little reaction to NVIDIA earnings beat.",
+      "bias": "Bullish",
+      "yield": "Lower",
+      "summary": "10yr UST futures extended recent gains after advancing amid subdued risk appetite stateside and after better-than-previous 7yr auction. Little scheduled today aside from Core PCE and Chicago PMI data. Fed's Goolsbee stated rates can come down but does not want to front-load before inflation eases.",
       "drivers": [
-        "T-note futures slightly higher ahead of 7yr auction",
-        "Fed's Musalem: inflation almost full percentage point above target",
-        "Fed's Musalem: policy neutral now in real terms, balancing appropriately",
-        "Little reaction to NVIDIA earnings beat",
-        "Today: Unemployment Claims"
+        "T-note futures extended gains on subdued risk appetite and tech weakness",
+        "Better-than-previous 7yr auction on Thursday",
+        "Fed's Goolsbee: rates can come down, but don't want to front-load before inflation eases",
+        "NVIDIA selloff (-5.5%) supports haven demand",
+        "Today: Core PCE Price Index m/m (exp 0.3% vs prev 0.2%), Chicago PMI"
       ]
     },
     {
       "name": "German 10Y Bund",
       "bias": "Neutral",
-      "yield": "Lacklustre",
-      "summary": "Bund futures struggled for direction amid recent indecision with very few fresh catalysts from the bloc. European equity futures indicate slightly lower cash market open. Focus on ECB President Lagarde speech today.",
+      "yield": "Firm",
+      "summary": "Bund futures remained firmer and approached just shy of 130.00 level. Attention turns to several releases from Germany, including CPI, Import Prices and Unemployment Rate. EU Commission eyes legal loophole to bypass Hungary's EUR 90bln loan veto (FT).",
       "drivers": [
-        "Bund futures struggled for direction, lack of fresh catalysts",
-        "European equity futures down 0.2% after Wednesday's 0.9% gains",
-        "EUR/USD returned to 1.1800 level",
-        "UK government debt sales forecast to decline to GBP 247bln",
-        "Today: ECB President Lagarde speaks"
+        "Bund futures firmer, approaching 130.00 level",
+        "Focus on German CPI (Feb), Import Prices (Jan), Unemployment Rate (Feb)",
+        "EU Commission eyes legal loophole to bypass Hungary's EUR 90bln loan veto (FT)",
+        "European equity futures flat after Thursday's -0.2% close",
+        "EUR/USD oscillating around 1.1800 level"
       ]
     },
     {
       "name": "Japan 10Y JGB",
-      "bias": "Bearish",
-      "yield": "Pressured",
-      "summary": "10yr JGB futures languished near this week's trough after yesterday's selling pressure and curve steepening on stronger growth prospects. BoJ Governor Ueda reiterated hiking bias, while hawkish dissenter Takata called for further rate hikes and stated BoJ should make 'gear shift' on rates.",
+      "bias": "Bullish",
+      "yield": "Lower",
+      "summary": "10yr JGB futures continued to rebound from this week's low as participants digested Tokyo CPI data, which printed firmer-than-expected but slowed from previous. Tokyo Core CPI declined below BoJ's 2% target for first time since October 2024 (1.8% vs 2.0%). Little reaction to somewhat mixed 2yr JGB auction results.",
       "drivers": [
-        "JGB futures near week's trough after curve steepening",
-        "BoJ Governor Ueda: basic stance to continue hiking if likelihood of forecasts heightens",
-        "BoJ Takata: must conduct further rate hikes in gradual manner",
-        "Stronger growth prospects after Takaichi government nominated reflationists for BoJ board",
-        "Nikkei 225 hit all-time high above 59,000"
+        "JGB futures rebounded from week's low on Tokyo CPI data",
+        "Tokyo Core CPI fell below 2% target: 1.8% vs exp 1.7% (prev 2.0%), first time since Oct 2024",
+        "Little reaction to mixed 2yr JGB auction (b/c 3.32x vs prev 3.88x)",
+        "Japan Finance Minister: monitoring yen decline with strong sense of urgency",
+        "Nikkei 225 traded indecisively amid firmer currency"
       ]
     },
     {
       "name": "UK 10Y Gilt",
-      "bias": "Neutral",
-      "yield": "Slightly softer",
-      "summary": "Gilts slightly softer with UK government debt sales anticipated to decline for first time in four years. Large banks forecast GBP 247bln of gilt issuances in approaching fiscal year as Chancellor Reeves seeks to rein in borrowing.",
+      "bias": "Bearish",
+      "yield": "Pressured",
+      "summary": "Gilts pressured following UK Green Party win in Gorton & Denton by-election, defeating PM Starmer's Labour. UK GfK Consumer Confidence fell to -19 (exp -15, prev -16), lowest level since November. Credit concerns persist after MFS collapse.",
       "drivers": [
-        "Gilts slightly softer ahead of fiscal year debt sales forecast",
-        "UK government debt sales forecast to decline to GBP 247bln (first decline in four years)",
-        "BoE's Greene: strong case to do opposite of Fed",
-        "GBP/USD consolidating after recent advances",
-        "Today: MPC Member Lombardelli speaks"
+        "Gilts pressured on political risk: Green Party wins by-election, defeating Labour",
+        "UK GfK Consumer Confidence fell to -19 (exp -15, prev -16), lowest since November",
+        "Credit concerns persist after MFS collapse (fraud accusations)",
+        "GBP/USD languished near 1.3500 level",
+        "Today: MPC Member Pill speaks (14:00 Frankfurt Time)"
       ]
     }
   ]

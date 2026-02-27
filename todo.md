@@ -45,4 +45,19 @@
 
 - [x] Update Weekly View layout: Market Overview left, Swing Watchlist LONG/SHORT side-by-side right
 - [x] Test Weekly View display to verify new layout
+- [x] Save checkpoint
+
+## Daily Recap Update: Feb 27, 2026 (CURRENT TASK)
+
+- [x] Analyze PMT Market Wraps (London Opening Preparation, European Opening News, London Session Recap, US Session Recap)
+- [x] Extract market focus headlines (3 key points)
+- [x] Determine Risk Environment (Risk-On/Risk-Off/Mixed)
+- [x] Update all 8 currency biases (directional only: Bullish/Bearish/Neutral/Mixed)
+- [x] Write currency summaries (trader-focused, 1-3 day horizon)
+- [x] Extract currency drivers (3-5 key points per currency)
+- [x] Scrape Forex Factory Calendar for Red Folder News (High Impact only)
+- [x] Convert times to GMT+1 Frankfurt Time
+- [x] Rebuild dailyRecap.json with all data
+- [x] Verify High Conviction Setups alignment (Weekly vs Daily bias)
+- [x] Test dashboard display (Weekly View + Daily View)
 - [ ] Save checkpoint
