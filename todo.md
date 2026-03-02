@@ -70,4 +70,19 @@
 - [x] Scrape Forex Factory Calendar for weekly key events (High/Critical impact)
 - [x] Rebuild weeklyBias.json with all 8 currencies
 - [x] Verify Weekly View displays correctly
+- [x] Save checkpoint and push to GitHub
+
+## Daily Recap Update: Mar 2, 2026 (CURRENT TASK)
+
+- [ ] Analyze PMT London Opening Preparation + Asia-Pac Opening News + Headlines
+- [ ] Extract market focus headlines (3 key points)
+- [ ] Determine Risk Environment (Risk-On/Risk-Off/Mixed)
+- [ ] Update all 8 currency biases (directional only: Bullish/Bearish/Neutral/Mixed)
+- [ ] Write currency summaries (trader-focused, 1-3 day horizon)
+- [ ] Extract currency drivers (3-5 key points per currency)
+- [ ] Scrape Forex Factory Calendar for Red Folder News (High Impact only, this week)
+- [ ] Convert times to GMT+1 Frankfurt Time
+- [ ] Rebuild dailyRecap.json with all data
+- [ ] Verify High Conviction Setups alignment (Weekly vs Daily bias)
+- [ ] Test dashboard display
 - [ ] Save checkpoint and push to GitHub
