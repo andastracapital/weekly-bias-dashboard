@@ -72,17 +72,25 @@
 - [x] Verify Weekly View displays correctly
 - [x] Save checkpoint and push to GitHub
 
-## Daily Recap Update: Mar 2, 2026 (CURRENT TASK)
+## Daily Recap Update: Mar 2, 2026 (COMPLETED)
 
-- [ ] Analyze PMT London Opening Preparation + Asia-Pac Opening News + Headlines
-- [ ] Extract market focus headlines (3 key points)
-- [ ] Determine Risk Environment (Risk-On/Risk-Off/Mixed)
-- [ ] Update all 8 currency biases (directional only: Bullish/Bearish/Neutral/Mixed)
-- [ ] Write currency summaries (trader-focused, 1-3 day horizon)
-- [ ] Extract currency drivers (3-5 key points per currency)
-- [ ] Scrape Forex Factory Calendar for Red Folder News (High Impact only, this week)
-- [ ] Convert times to GMT+1 Frankfurt Time
-- [ ] Rebuild dailyRecap.json with all data
-- [ ] Verify High Conviction Setups alignment (Weekly vs Daily bias)
-- [ ] Test dashboard display
-- [ ] Save checkpoint and push to GitHub
+- [x] Analyze PMT London Opening Preparation + Asia-Pac Opening News + Headlines
+- [x] Extract market focus headlines (3 key points)
+- [x] Determine Risk Environment (Risk-On/Risk-Off/Mixed)
+- [x] Update all 8 currency biases (directional only: Bullish/Bearish/Neutral/Mixed)
+- [x] Write currency summaries (trader-focused, 1-3 day horizon)
+- [x] Extract currency drivers (3-5 key points per currency)
+- [x] Scrape Forex Factory Calendar for Red Folder News (High Impact only, this week)
+- [x] Convert times to GMT+1 Frankfurt Time
+- [x] Rebuild dailyRecap.json with all data
+- [x] Verify High Conviction Setups alignment (Weekly vs Daily bias)
+- [x] Test dashboard display
+- [x] Save checkpoint and push to GitHub
+
+## Red Folder News Fix: Mar 2, 2026 (CURRENT TASK)
+
+- [ ] Open Forex Factory Calendar and verify GMT+1 Berlin timezone is active
+- [ ] Scrape all High Impact (Red Folder) events for the week Mar 2-7 with correct GMT+1 times
+- [ ] Update dailyRecap.json redFolderNews section with correct times
+- [ ] Verify dashboard Red Folder News display
+- [ ] Save checkpoint
