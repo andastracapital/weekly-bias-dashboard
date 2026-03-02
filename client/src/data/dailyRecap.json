@@ -115,78 +115,85 @@
   },
   "redFolderNews": [
     {
-      "day": "TUE",
-      "time": "11:00",
-      "currency": "EUR",
-      "event": "Core CPI Flash Estimate y/y",
-      "impact": "High"
-    },
-    {
-      "day": "TUE",
-      "time": "11:00",
-      "currency": "EUR",
-      "event": "CPI Flash Estimate y/y",
-      "impact": "High"
-    },
-    {
-      "day": "TUE",
-      "time": "11:00",
-      "currency": "EUR",
-      "event": "Italian Prelim CPI m/m",
-      "impact": "High"
-    },
-    {
-      "day": "THU",
-      "time": "13:30",
+      "day": "MON",
+      "time": "16:00",
       "currency": "USD",
-      "event": "Unemployment Claims",
+      "event": "ISM Manufacturing PMI",
       "impact": "High"
     },
     {
-      "day": "THU",
-      "time": "13:30",
-      "currency": "USD",
-      "event": "Prelim Nonfarm Productivity q/q",
+      "day": "MON",
+      "time": "22:10",
+      "currency": "AUD",
+      "event": "RBA Gov Bullock Speaks",
       "impact": "High"
     },
     {
-      "day": "THU",
+      "day": "TUE",
+      "time": "05:00",
+      "currency": "JPY",
+      "event": "BOJ Gov Ueda Speaks",
+      "impact": "High"
+    },
+    {
+      "day": "TUE",
       "time": "13:30",
+      "currency": "GBP",
+      "event": "Annual Budget Release (UK Spring Statement)",
+      "impact": "High"
+    },
+    {
+      "day": "WED",
+      "time": "01:30",
+      "currency": "AUD",
+      "event": "GDP q/q",
+      "impact": "High"
+    },
+    {
+      "day": "WED",
+      "time": "14:15",
       "currency": "USD",
-      "event": "Prelim Unit Labor Costs q/q",
+      "event": "ADP Non-Farm Employment Change",
+      "impact": "High"
+    },
+    {
+      "day": "WED",
+      "time": "16:00",
+      "currency": "USD",
+      "event": "ISM Services PMI",
       "impact": "High"
     },
     {
       "day": "FRI",
-      "time": "13:30",
-      "currency": "CAD",
-      "event": "Employment Change",
-      "impact": "High"
-    },
-    {
-      "day": "FRI",
-      "time": "13:30",
-      "currency": "CAD",
-      "event": "Unemployment Rate",
-      "impact": "High"
-    },
-    {
-      "day": "FRI",
-      "time": "13:30",
+      "time": "14:30",
       "currency": "USD",
       "event": "Average Hourly Earnings m/m",
       "impact": "High"
     },
     {
       "day": "FRI",
-      "time": "13:30",
+      "time": "14:30",
+      "currency": "USD",
+      "event": "Core Retail Sales m/m",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "time": "14:30",
       "currency": "USD",
       "event": "Non-Farm Employment Change",
       "impact": "High"
     },
     {
       "day": "FRI",
-      "time": "13:30",
+      "time": "14:30",
+      "currency": "USD",
+      "event": "Retail Sales m/m",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "time": "14:30",
       "currency": "USD",
       "event": "Unemployment Rate",
       "impact": "High"
