@@ -60,4 +60,14 @@
 - [x] Rebuild dailyRecap.json with all data
 - [x] Verify High Conviction Setups alignment (Weekly vs Daily bias)
 - [x] Test dashboard display (Weekly View + Daily View)
-- [ ] Save checkpoint
+- [x] Save checkpoint
+
+## Weekly Bias Update: Mar 2 - Mar 8, 2026 (CURRENT TASK)
+
+- [x] Analyze all 8 PMT Smart Bias Reports (USD, EUR, GBP, JPY, AUD, CAD, CHF, NZD)
+- [x] Determine bias + strength qualifier for each currency
+- [x] Write trader-focused rationales (2-4 sentences per currency)
+- [x] Scrape Forex Factory Calendar for weekly key events (High/Critical impact)
+- [x] Rebuild weeklyBias.json with all 8 currencies
+- [x] Verify Weekly View displays correctly
+- [ ] Save checkpoint and push to GitHub
