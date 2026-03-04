@@ -27,7 +27,7 @@ import dailyData from "../data/dailyRecap.json";
 
 // Prop-firm mandatory close events — these require position closure before release
 const PROP_FIRM_CLOSE_EVENTS: { currency: string; keywords: string[] }[] = [
-  { currency: "USD", keywords: ["Federal Funds Rate", "Non-Farm Employment", "Nonfarm Employment", "NFP", "Unemployment Rate", "Advance GDP", "FOMC Meeting Minutes", "CPI y/y", "CPI m/m"] },
+  { currency: "USD", keywords: ["Federal Funds Rate", "Non-Farm Employment Change", "Nonfarm Employment Change", "Non-Farm Payrolls", "NFP", "Unemployment Rate", "Advance GDP", "FOMC Meeting Minutes", "CPI y/y"] },
   { currency: "EUR", keywords: ["Main Refinancing Rate", "Minimum Bid Rate", "ECB Rate"] },
   { currency: "GBP", keywords: ["Official Bank Rate", "MPC Vote", "CPI y/y"] },
   { currency: "CAD", keywords: ["Overnight Rate", "BOC Rate", "BoC Rate", "CPI m/m", "Employment Change", "Unemployment Rate"] },
@@ -37,6 +37,8 @@ const PROP_FIRM_CLOSE_EVENTS: { currency: string; keywords: string[] }[] = [
 ];
 
 const isPropFirmEvent = (news: any): boolean => {
+  // Explicitly exclude ADP reports — only official government releases qualify
+  if (news.event?.toLowerCase().includes("adp")) return false;
   const rule = PROP_FIRM_CLOSE_EVENTS.find(r => r.currency === news.currency);
   if (!rule) return false;
   return rule.keywords.some(kw => news.event?.toLowerCase().includes(kw.toLowerCase()));
