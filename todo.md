@@ -94,3 +94,12 @@
 - [ ] Update dailyRecap.json redFolderNews section with correct times
 - [ ] Verify dashboard Red Folder News display
 - [ ] Save checkpoint
+
+## Feature: "Close Pos. Before" Section (CURRENT TASK)
+
+- [ ] Define prop-firm mandatory close events list (USD/EUR/GBP/CAD/AUD/NZD)
+- [ ] Add closePropFirm flag to matching redFolderNews items in dailyRecap.json
+- [ ] Implement "Close Pos. Before" section in Home.tsx above Red Folder News
+- [ ] Style with amber/warning color and countdown timer (same as Red Folder News)
+- [ ] Test display with today's events
+- [ ] Save checkpoint

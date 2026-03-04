@@ -19,10 +19,28 @@ import {
   Check,
   X,
   Download,
-  Clock
+  Clock,
+  ShieldAlert
 } from "lucide-react";
 import weeklyData from "../data/weeklyBias.json";
 import dailyData from "../data/dailyRecap.json";
+
+// Prop-firm mandatory close events — these require position closure before release
+const PROP_FIRM_CLOSE_EVENTS: { currency: string; keywords: string[] }[] = [
+  { currency: "USD", keywords: ["Federal Funds Rate", "Non-Farm Employment", "Nonfarm Employment", "NFP", "Unemployment Rate", "Advance GDP", "FOMC Meeting Minutes", "CPI y/y", "CPI m/m"] },
+  { currency: "EUR", keywords: ["Main Refinancing Rate", "Minimum Bid Rate", "ECB Rate"] },
+  { currency: "GBP", keywords: ["Official Bank Rate", "MPC Vote", "CPI y/y"] },
+  { currency: "CAD", keywords: ["Overnight Rate", "BOC Rate", "BoC Rate", "CPI m/m", "Employment Change", "Unemployment Rate"] },
+  { currency: "AUD", keywords: ["Cash Rate", "RBA Statement", "Employment Change", "Unemployment Rate", "CPI q/q", "GDP q/q"] },
+  { currency: "NZD", keywords: ["Official Cash Rate", "RBNZ", "Employment Change", "Unemployment Rate", "CPI q/q", "GDP q/q"] },
+  { currency: "CHF", keywords: ["SNB Policy Rate", "SNB Rate", "SNB Monetary Policy", "Swiss National Bank", "Libor Rate", "SNB Press Conference"] },
+];
+
+const isPropFirmEvent = (news: any): boolean => {
+  const rule = PROP_FIRM_CLOSE_EVENTS.find(r => r.currency === news.currency);
+  if (!rule) return false;
+  return rule.keywords.some(kw => news.event?.toLowerCase().includes(kw.toLowerCase()));
+};
 
 // Bloomberg / PMT Style Components
 
@@ -883,29 +901,73 @@ export default function Home() {
 
               {/* Right: Red Folder News (25%) */}
               <div className="lg:col-span-1">
-                <div className="bg-[#121212] border border-gray-800 p-5 h-full">
-                  <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
-                    <Calendar className="w-4 h-4 text-red-500" />
-                    Red Folder News
-                  </h3>
-                  <div className="space-y-3">
-                    {dailyData.redFolderNews
-                      .filter((news: any) => {
-                        // Get current day of week (MON, TUE, WED, THU, FRI)
-                        const today = new Date();
-                        const daysOfWeek = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
-                        const currentDay = daysOfWeek[today.getDay()];
-                        
-                        // Filter: only show events happening TODAY (exact match)
-                        return news.day === currentDay;
-                      })
-                      .map((news: any, i: number) => (
-                          <div key={i} className="flex items-center justify-between border-b border-gray-800 pb-2 last:border-0">
+                <div className="bg-[#121212] border border-gray-800 p-5 h-full flex flex-col gap-4">
+
+                  {/* Close Pos. Before Section */}
+                  {(() => {
+                    const today = new Date();
+                    const daysOfWeek = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+                    const currentDay = daysOfWeek[today.getDay()];
+                    const closeEvents = dailyData.redFolderNews.filter(
+                      (news: any) => news.day === currentDay && isPropFirmEvent(news)
+                    );
+                    if (closeEvents.length === 0) return null;
+                    return (
+                      <div className="border border-amber-500/40 bg-amber-500/5 p-3 rounded-sm">
+                        <h3 className="text-xs font-bold uppercase tracking-wider mb-3 flex items-center gap-2 text-amber-400">
+                          <ShieldAlert className="w-4 h-4 text-amber-400" />
+                          Close Pos. Before
+                        </h3>
+                        <div className="space-y-2">
+                          {closeEvents.map((news: any, i: number) => (
+                            <div key={i} className="flex items-center justify-between border-b border-amber-500/20 pb-2 last:border-0">
+                              <div className="flex items-center gap-2">
+                                <span className="text-xs font-mono text-amber-500/80 w-10">{news.time}</span>
+                                <div>
+                                  <div className="flex items-center gap-1.5">
+                                    <span className="text-xs font-bold text-amber-300 w-8">{news.currency}</span>
+                                    <span className="text-[9px] px-1 py-0.5 border border-amber-500/50 text-amber-400 bg-amber-900/20 uppercase font-bold">
+                                      CLOSE
+                                    </span>
+                                  </div>
+                                  <p className="text-[10px] text-amber-200/70 font-mono mt-0.5">{news.event}</p>
+                                </div>
+                              </div>
+                              <CountdownTimer eventTime={news.time} />
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    );
+                  })()}
+
+                  {/* Red Folder News Section */}
+                  <div>
+                    <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+                      <Calendar className="w-4 h-4 text-red-500" />
+                      Red Folder News
+                    </h3>
+                    <div className="space-y-3">
+                      {dailyData.redFolderNews
+                        .filter((news: any) => {
+                          // Get current day of week (MON, TUE, WED, THU, FRI)
+                          const today = new Date();
+                          const daysOfWeek = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+                          const currentDay = daysOfWeek[today.getDay()];
+                          // Filter: only show events happening TODAY (exact match)
+                          return news.day === currentDay;
+                        })
+                        .map((news: any, i: number) => (
+                          <div key={i} className={`flex items-center justify-between border-b pb-2 last:border-0 ${
+                            isPropFirmEvent(news) ? 'border-amber-500/30' : 'border-gray-800'
+                          }`}>
                             <div className="flex items-center gap-3">
                               <span className="text-xs font-mono text-gray-500 w-10">{news.time}</span>
                               <div>
                                 <div className="flex items-center gap-2">
-                                  <span className="text-xs font-bold text-white w-8">{news.currency}</span>
+                                  <span className={`text-xs font-bold w-8 ${
+                                    isPropFirmEvent(news) ? 'text-amber-300' : 'text-white'
+                                  }`}>{news.currency}</span>
                                   <span className={`text-[9px] px-1.5 py-0.5 border ${
                                     news.impact === "Critical" ? "border-red-500 text-red-500 bg-red-900/20" : 
                                     news.impact === "High" ? "border-orange-500 text-orange-500 bg-orange-900/20" : 
@@ -913,17 +975,26 @@ export default function Home() {
                                   } uppercase font-bold`}>
                                     {news.impact}
                                   </span>
+                                  {isPropFirmEvent(news) && (
+                                    <ShieldAlert className="w-3 h-3 text-amber-400" />
+                                  )}
                                 </div>
                                 <p className="text-[10px] text-gray-400 font-mono mt-0.5">{news.event}</p>
                               </div>
                             </div>
                             <CountdownTimer eventTime={news.time} />
                           </div>
-                      ))}
-                    {dailyData.redFolderNews.length === 0 && (
-                      <p className="text-xs text-gray-500 font-mono italic text-center py-4">No high impact events remaining today.</p>
-                    )}
+                        ))}
+                      {dailyData.redFolderNews.filter((news: any) => {
+                        const today = new Date();
+                        const daysOfWeek = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+                        return news.day === daysOfWeek[today.getDay()];
+                      }).length === 0 && (
+                        <p className="text-xs text-gray-500 font-mono italic text-center py-4">No high impact events remaining today.</p>
+                      )}
+                    </div>
                   </div>
+
                 </div>
               </div>
             </div>
