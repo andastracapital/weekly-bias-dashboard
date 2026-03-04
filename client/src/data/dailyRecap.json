@@ -1,107 +1,107 @@
 {
-  "date": "Tuesday, March 3, 2026",
-  "lastUpdate": "07:00 Frankfurt Time",
+  "date": "Wednesday, March 4, 2026",
+  "lastUpdate": "07:30 Frankfurt Time",
   "riskEnvironment": "Risk-Off",
   "marketFocus": [
-    "Operation Epic Fury Day 4: US strikes 1,250+ targets in Iran, Trump warns 'hardest hits yet to come'; Strait of Hormuz effectively closed — 1,100+ ships unable to move, QatarEnergy halts LNG production (force majeure)",
-    "Energy shock deepens: European Nat Gas +46-50%, Brent crude +7.3% to $80.82/bbl — SEB sees $100-120/bbl if infrastructure significantly impacted; Saudi Ras Tanura refinery shut after drone strike",
-    "USD tactical revival: JPMorgan recommends unwinding EUR/USD longs; ING flags 3 USD-supportive factors (energy independence, fewer Fed cuts, EM outflows); EUR/USD slumped to 1.1695 (100 DMA)"
+    "Operation Epic Fury Day 5: US bombed 2,000+ targets in Iran, destroyed 17 Iranian ships — 70% decrease in launch volumes from Iran suggests war may be peaking; KOSPI circuit breaker triggered (-10%), APAC bloodbath extends",
+    "Trump Hormuz insurance: US to provide political risk insurance + Navy escorts for tankers through Strait of Hormuz — crude pulled back from highs (WTI $74.56, Brent $81.40); AUD GDP Q4 beat (+0.8% QoQ vs +0.6% exp) ignored amid risk-off",
+    "CAD only G10 outperformer vs USD (oil windfall); EUR/USD sub-1.1600 as Trump threatens to cut all trade with Spain; China NBS PMI miss (49.0) but private RatingDog PMI 52.1 (multi-year high)"
   ],
   "currencies": {
     "USD": {
       "bias": "Bullish",
       "tone": "Haven Bid",
-      "summary": "USD maintains tactical haven premium as the Iran conflict enters Day 4 with no ceasefire in sight. ISM Manufacturing PMI beat forecasts with prices paid soaring, reinforcing the Fed's higher-for-longer stance. JPMorgan and ING both recommend tactical USD longs — the US energy independence advantage, bearish flattening in yields, and EM outflow pressure create a multi-factor bullish setup. DXY broke above its 200 DMA (98.352) and 100 DMA (98.556). Key catalyst today: Trump-Bessent-Wright energy mitigation announcement (19:00 GMT).",
+      "summary": "USD maintains dominant haven premium as Operation Epic Fury enters Day 5 with no ceasefire in sight. US bombed 2,000+ targets in Iran and destroyed 17 Iranian ships — Trump's Hormuz insurance announcement (political risk insurance + Navy escorts) temporarily capped USD gains but the structural bid remains intact. DXY holds at levels not seen since late January 2026. Key catalysts today: ADP Non-Farm (14:15) and ISM Services PMI (16:00) — both could reinforce higher-for-longer Fed narrative.",
       "drivers": [
-        "Operation Epic Fury: premier haven currency + US energy independence advantage",
-        "ISM Manufacturing PMI beat + prices paid soared (inflationary signal)",
-        "JPMorgan: recommends unwinding EUR/USD longs tactically",
-        "ING: 3 USD-supportive factors (energy, Fed cuts trimmed, EM outflows)",
-        "DXY broke above 200 DMA (98.352) and 100 DMA (98.556)"
+        "Operation Epic Fury Day 5: premier haven + US energy independence advantage",
+        "Trump Hormuz insurance: Navy escorts for tankers — reduces tail risk slightly",
+        "DXY at late-Jan 2026 highs (98.43-99.38 range); 99.47 Jan 19 high in sight",
+        "ADP Non-Farm Employment (14:15) + ISM Services PMI (16:00) today",
+        "Rabo: desire for liquidity ensures USD maintains safe haven bid"
       ]
     },
     "EUR": {
       "bias": "Bearish",
       "tone": "Pressured",
-      "summary": "EUR faces a compounding shock: energy importer exposed to Strait of Hormuz disruption, European Nat Gas +46-50% intraday, Bund futures breached 130.00 on inflationary fears. ECB's Lane warned a prolonged war could cause a 'substantial spike' in inflation and sharp fall in output. EUR/USD slumped from 1.1800 to 1.1695 (100 DMA), with ING seeing 1.1575-1.1600 if escalation persists. EZ Flash HICP today is the key data test — a hot print would complicate ECB easing expectations further.",
+      "summary": "EUR/USD slipped below 1.1600 as Trump threatened to cut all trade with Spain and EU energy shock deepens. European bourses had their worst day since Liberation Day (STOXX 600 -3.2%, IBEX 35 -4.8%). EZ Flash CPI came in hotter than expected (Core 2.4% vs 2.2% exp) — stagflationary signal that complicates ECB easing path. EU Commission proposes Industrial Accelerator Act today. Key risk: further escalation in Strait of Hormuz closure could push EUR/USD toward 1.1575-1.1600 (ING target).",
       "drivers": [
-        "Energy importer: Nat Gas +46-50%, oil +7.3% — direct stagflationary shock",
-        "ECB Lane: prolonged war = 'substantial spike' in inflation + output fall",
-        "EUR/USD slumped to 1.1695 (100 DMA); ING target 1.1575-1.1600",
-        "Bund futures breached 130.00 on inflationary fears",
-        "EZ Flash HICP (today) — hot print complicates ECB easing path"
+        "EUR/USD sub-1.1600 — Trump threatens to cut all trade with Spain",
+        "EZ Core CPI 2.4% (vs 2.2% exp) — hotter than expected, stagflationary",
+        "STOXX 600 -3.2%, IBEX 35 -4.8% — worst day since Liberation Day",
+        "Nat Gas Dutch TTF +32% intraday (EUR 65/MWh from EUR 32/MWh Feb 27)",
+        "ECB Kazaks: no need to rush rate decision, cautious mood"
       ]
     },
     "GBP": {
       "bias": "Bearish",
       "tone": "Vulnerable",
-      "summary": "GBP faces a triple headwind: UK RAF base in Cyprus struck by Iranian drone (UK not conducting offensive ops but defensive use permitted), energy importer shock, and UK Spring Statement today (13:30) where Chancellor Reeves is expected to announce spending cuts. GBP/USD slid from 1.3456 to 1.3314. BoE's Taylor warned energy shocks have an outsized role on inflation and are faster than central banks can respond. UK 2yr yield on course for biggest daily rise since May 2025 (3.611%).",
+      "summary": "GBP remains under pressure despite the UK Spring Statement being a non-event for markets. OBR downgraded 2026 growth to 1.1% (from 1.4%) and inflation view; headroom GBP 23.6bln (exp. 20-25bln). Gilts gapped lower by 54 ticks and fell over a full point further — UK 2yr yield saw its biggest daily rise since May 2025. GBP/USD holds above 1.3300 support but demand is subdued. BoC Macklem speaks today — watch for any spillover commentary on global energy shock.",
       "drivers": [
-        "UK RAF base in Cyprus struck by Iranian drone — direct UK involvement risk",
-        "UK Spring Statement (13:30 today) — Reeves spending cuts, fiscal risk",
-        "Energy importer: oil/gas shock = inflationary tax on UK consumer",
-        "GBP/USD slid from 1.3456 to 1.3314; UK 2yr yield surged to 3.611%",
-        "BoE Taylor: energy shocks faster than CB can respond, demand risk rising"
+        "UK Spring Statement non-event: OBR cuts 2026 growth to 1.1% (from 1.4%)",
+        "Gilts gapped lower 54 ticks — UK 2yr yield biggest daily rise since May 2025",
+        "GBP/USD holds 1.3300 support — demand subdued, upside limited",
+        "UK RAF base in Cyprus targeted — UK directly involved in Iran conflict",
+        "Energy importer: oil/gas shock = inflationary tax on UK consumer"
       ]
     },
     "JPY": {
       "bias": "Neutral",
       "tone": "Conflicted",
-      "summary": "JPY is caught between haven demand and USD dominance. USD/JPY rose ~0.9% to 157.60 as USD strength from energy dynamics and higher US yields overpowered the yen's haven bid. Japan's unemployment rose to 2.7% (vs 2.6% exp), Nikkei slumped below 57,000, and higher energy prices stoke inflationary concerns that could narrow BoJ policy space. BoJ Ueda speaks today (05:00 GMT+1) — watch for any guidance on whether the energy shock alters the rate hike path.",
+      "summary": "JPY remains caught between haven demand and USD dominance. USD/JPY price action was choppy around 157.82 — approaching the intervention zone of 158-160. BoJ Ueda spoke (05:00 today) and communicated closely with the government — no new guidance on rate hike path. The energy shock creates a policy dilemma: higher energy inflation could support rate hikes, but the growth shock from Hormuz closure could delay them. 10yr JGB futures declined as inflationary concerns override haven demand.",
       "drivers": [
-        "USD/JPY rose to 157.60 — USD dominance overrides JPY haven bid short-term",
-        "Japan Unemployment 2.7% (vs 2.6% exp, miss) — slight negative",
-        "Japan Capital Spending Q4 +6.5% (vs 3% exp, strong beat)",
-        "Nikkei slumped below 57,000 — energy inflation narrows BoJ policy space",
-        "BoJ Ueda speaks today (05:00) — watch for energy shock guidance"
+        "USD/JPY 157.82 — approaching intervention zone 158-160",
+        "BoJ Ueda (05:00 today): communicates closely with government, no new guidance",
+        "Energy inflation dilemma: higher inflation supports hikes, growth shock delays",
+        "10yr JGB futures declined — inflationary concerns override haven demand",
+        "Japan S&P Global Composite PMI Final (Feb) 53.90 (prev. 53.80) — solid"
       ]
     },
     "AUD": {
       "bias": "Bearish",
       "tone": "Slumped",
-      "summary": "AUD declined on risk aversion and high-beta sensitivity. ASX 200 led lower by mining and materials weakness. Australian Building Permits -7.2% (vs +5.5% exp) — a sharp domestic miss. Current Account deficit widened to -21.1B (vs -16.3B exp). PBoC set USD/CNY mid-point at strongest since May 2023 (7.9088 vs exp 6.8816) — a significant yuan depreciation signal that weighs on AUD. RBA Bullock said underlying demand is further from supply potential than assessed. AUD GDP (Wednesday 01:30) is the next key domestic catalyst.",
+      "summary": "AUD GDP Q4 beat strongly (+0.8% QoQ vs +0.6% exp, +2.6% YoY vs +2.2% exp) but was entirely ignored amid the risk-off mood. The data was prior to the RBA's first rate hike in more than two years, limiting its forward-looking relevance. ASX 200 slumped led by commodity-related sectors. China NBS PMI missed (49.0 vs 49.1 exp) — negative for AUD via China trade channel. Private RatingDog PMI 52.1 (multi-year high) provides a silver lining but insufficient to offset risk-off pressure. BoC Macklem speaks today.",
       "drivers": [
-        "High-beta risk proxy: ASX 200 led lower by mining/materials",
-        "Building Permits -7.2% (vs +5.5% exp) — sharp domestic miss",
-        "Current Account -21.1B (vs -16.3B exp) — wider than expected",
-        "PBoC USD/CNY mid-point 7.9088 vs exp 6.8816 — yuan depreciation signal",
-        "RBA Bullock: underlying demand further from supply potential than assessed"
+        "GDP Q4 +0.8% QoQ (vs +0.6% exp) — beat ignored amid risk-off mood",
+        "China NBS Manufacturing PMI 49.0 (miss) — negative via China trade channel",
+        "China RatingDog PMI 52.1 (multi-year high) — silver lining insufficient",
+        "ASX 200 slumped — commodity sectors led lower by Hormuz disruption",
+        "RBA rate hike context: GDP data pre-dates first hike in 2+ years"
       ]
     },
     "CAD": {
-      "bias": "Neutral",
-      "tone": "Conflicted",
-      "summary": "CAD remains caught between an energy windfall and domestic weakness. Brent +7.3% to $80.82/bbl provides direct terms-of-trade support, but the domestic backdrop (Q4 GDP -0.6% annualized) and risk-off sentiment limit upside. BoC's Kozicki said monetary policy sometimes needs to be tightened even when the economy is weak — a hawkish signal that could support CAD at the margin. US Secretary Rubio's announcement of energy mitigation measures (today) could cap crude gains and remove some of CAD's energy premium.",
+      "bias": "Bullish",
+      "tone": "Outperformer",
+      "summary": "CAD was the only G10 currency to eke out gains vs USD on Tuesday — the energy windfall from surging crude prices (WTI $74.56, Brent $81.40) provides direct terms-of-trade support. BoC Governor Macklem speaks today (16:00 Frankfurt Time) — key event for CAD direction. Trump's Hormuz insurance announcement partially capped crude gains, but CAD's energy advantage remains intact. Note: Weekly Bias for CAD is Neutral — this Daily Bullish bias does NOT create a High Conviction Setup alignment.",
       "drivers": [
-        "Energy windfall: Brent +7.3% to $80.82/bbl — direct terms-of-trade positive",
-        "Q4 GDP -0.6% annualized — domestic weakness limits CAD upside",
-        "BoC Kozicki: policy may need tightening even when economy is weak (hawkish)",
-        "US energy mitigation measures (today) could cap crude gains",
-        "USMCA talks 'constructive' — trade uncertainty partially resolved"
+        "Only G10 outperformer vs USD — energy windfall from crude surge",
+        "WTI $74.56, Brent $81.40 — direct terms-of-trade positive for CAD",
+        "BoC Governor Macklem speaks today (16:00 Frankfurt Time) — key catalyst",
+        "Trump Hormuz insurance partially caps crude gains — watch for crude direction",
+        "US-Canada trade talks 'constructive' — USMCA uncertainty partially resolved"
       ]
     },
     "CHF": {
       "bias": "Bullish",
       "tone": "Haven Demand",
-      "summary": "CHF maintains its role as premier capital preservation destination, outperforming even JPY as the preferred haven. SNB stated it is 'more prepared to intervene in the FX market' — intervention risk is elevated but has not deterred safe-haven flows. Morgan Stanley projects EUR/CHF down to 0.87. Switzerland's energy independence and low inflation profile make it the cleanest haven in the G10 during this energy shock. The key risk is disorderly CHF appreciation triggering SNB action.",
+      "summary": "CHF maintains its role as premier capital preservation destination, outperforming even JPY as the preferred haven. Gold rebounded from $5,000/oz support — haven demand intact. SNB stated it is 'more prepared to intervene in the FX market' but has not deterred safe-haven flows. Morgan Stanley projects EUR/CHF down to 0.87. Switzerland's energy independence and low inflation profile make it the cleanest haven in the G10 during this energy shock. Swiss CPI (Feb) released today — watch for any inflation surprise.",
       "drivers": [
         "Premier haven: outperforming JPY as preferred capital preservation destination",
+        "Gold rebounded from $5,000/oz support — haven demand intact",
         "SNB: 'more prepared to intervene in FX market' — intervention risk elevated",
         "Morgan Stanley: EUR/CHF target 0.87",
-        "SNB sight deposits CHF 457.6bln (intervention monitoring level)",
-        "Switzerland energy independent — cleanest haven in energy shock environment"
+        "Swiss CPI (Feb) today — watch for inflation surprise"
       ]
     },
     "NZD": {
       "bias": "Bearish",
       "tone": "Slumped",
-      "summary": "NZD remains the most vulnerable G10 currency in this risk-off environment. The Kiwi declined alongside AUD on risk aversion and high-beta sensitivity, with no domestic data to provide support. RBNZ's dovish pivot creates a domestic rates handicap reinforced by the global risk-off impulse. NZD is entirely at the mercy of global risk sentiment and China-linked headlines — the US-China trade negotiators meeting mid-March is the next potential catalyst, but until then NZD faces continued pressure.",
+      "summary": "NZD remains the most vulnerable G10 currency in this risk-off environment. NZ Terms of Trade Q4 beat strongly (+3.7% vs -0.7% exp) but was entirely ignored amid the geopolitical shock. NZD declined alongside AUD on risk aversion and high-beta sensitivity, with no domestic catalysts to provide support. RBNZ's dovish pivot creates a domestic rates handicap reinforced by the global risk-off impulse. NZD is entirely at the mercy of global risk sentiment and China-linked headlines.",
       "drivers": [
-        "Most vulnerable G10 currency in risk-off — first to be cut in carry unwinds",
+        "Most vulnerable G10 currency in risk-off — first cut in carry unwinds",
+        "NZ Terms of Trade Q4 +3.7% (vs -0.7% exp) — beat ignored amid risk-off",
         "RBNZ dovish pivot: OCR to remain at current levels near term",
-        "No domestic data this week — entirely sentiment-driven",
-        "US-China trade talks mid-March — potential catalyst but not yet",
-        "PBoC yuan depreciation signal weighs on NZD via China trade channel"
+        "No domestic data today — entirely sentiment-driven",
+        "China NBS PMI miss (49.0) weighs via China trade channel"
       ]
     }
   },
@@ -196,52 +196,52 @@
       "name": "US 10Y Treasury",
       "bias": "Bearish",
       "yield": "Higher",
-      "summary": "10yr UST futures lacklustre after firm ISM data and as the surge in energy stoked inflationary concerns. US 10yr yield back above 4.00% — bearish flattening as markets price in the inflationary impact of the Iran war. Haven demand initially supported bonds but inflation fears dominate.",
+      "summary": "T-notes settled flat in two-way trade as eyes remain glued to the Middle East. 10yr yield at 4.056% (+0.4bps). Inflationary angle of the war dominates — energy prices initially surged before Trump's Hormuz insurance capped gains. Fed speakers (Williams, Schmid, Kashkari) all noted policy is well-positioned; too soon to assess Iran conflict impact on inflation.",
       "drivers": [
-        "ISM Manufacturing PMI beat + prices paid soared — inflationary signal",
-        "US 10yr yield back above 4.00% — bearish flattening",
-        "Energy surge stokes inflationary concerns — caps bond gains",
-        "Fed rate cut bets trimmed for 2026 amid inflation risk",
-        "Trump-Bessent-Wright energy mitigation announcement today (19:00 GMT)"
+        "T-notes settled flat — inflationary angle of war vs haven demand in balance",
+        "US 10yr yield 4.056% (+0.4bps) — bearish flattening continues",
+        "Trump Hormuz insurance: Navy escorts for tankers — reduces inflationary tail risk",
+        "Fed Kashkari: 1-2 cuts appropriate if inflation cools; war could justify pause",
+        "ADP Non-Farm (14:15) + ISM Services (16:00) today — key data catalysts"
       ]
     },
     {
       "name": "German 10Y Bund",
       "bias": "Bearish",
       "yield": "Higher",
-      "summary": "Bund futures breached through prior day's lows firmly beneath 130.00 level after European natural gas prices surged by as much as 50%. Inflationary fears dominate over haven demand as Europe faces a direct energy shock. ECB Lane warned of 'substantial spike' in inflation if war persists.",
+      "summary": "Bunds fell over a full point to 128.53 low with losses in excess of a full point at most. Dutch TTF Nat Gas +32% intraday. EZ Core CPI 2.4% (vs 2.2% exp) — hotter than expected, complicating ECB easing path. ECB Kazaks: no need to rush rate decision. German Bund supply today.",
       "drivers": [
-        "Bund futures breached 130.00 — Nat Gas +46-50% drives inflationary fears",
-        "ECB Lane: prolonged war = 'substantial spike' in inflation",
-        "Stagflationary risk: energy shock + slowing growth = ECB policy dilemma",
-        "EZ Flash HICP today — hot print would further pressure Bunds",
-        "German supply today (Netherlands & Germany)"
+        "Bunds fell to 128.53 low — Nat Gas +32% drives inflationary fears",
+        "EZ Core CPI 2.4% (vs 2.2% exp) — stagflationary signal",
+        "ECB Kazaks: no need to rush rate decision, cautious mood",
+        "German Bund supply today — technical pressure",
+        "STOXX 600 -3.2% — worst day since Liberation Day"
       ]
     },
     {
       "name": "Japan 10Y JGB",
-      "bias": "Bearish",
-      "yield": "Higher",
-      "summary": "10yr JGB futures declined amid a higher yield environment as the Iran conflict and Strait of Hormuz closure stoked global inflationary concerns. Prices failed to benefit despite slight improvement in demand at the 10yr JGB auction. BoJ Ueda speaks today.",
+      "bias": "Neutral",
+      "yield": "Mixed",
+      "summary": "10yr JGB futures initially gained amid stock slump and briefly returned to 133.00 level, then hit resistance. BoJ Ueda communicated closely with government — no new guidance. Energy inflation dilemma: higher inflation supports hikes, growth shock delays them. Japan Composite PMI 53.90 (solid).",
       "drivers": [
-        "JGB futures declined — energy inflation concerns override haven demand",
-        "Strait of Hormuz closure stokes global inflationary concerns",
-        "BoJ Ueda speaks today (05:00) — watch for energy shock guidance",
-        "Japan Unemployment 2.7% (miss) — slight negative for BoJ hike path",
-        "Japan Capital Spending Q4 +6.5% (strong beat) — supports BoJ hike path"
+        "JGB futures mixed — briefly hit 133.00 resistance before fading",
+        "BoJ Ueda (05:00): communicates with government, no new guidance",
+        "Energy inflation dilemma: hike path clouded by Hormuz closure",
+        "Japan Composite PMI 53.90 (solid) — supports BoJ hike case",
+        "USD/JPY 157.82 — approaching intervention zone 158-160"
       ]
     },
     {
       "name": "UK 10Y Gilt",
       "bias": "Bearish",
       "yield": "Higher",
-      "summary": "Gilts underperformed with UK 2yr yield on course for biggest daily rise since May 2025 (3.611%). UK directly involved in Iran conflict (Cyprus base targeted), energy importer shock, and UK Spring Statement today (13:30) where Chancellor Reeves announces spending cuts. BoE Taylor warned energy shocks are faster than central banks can respond.",
+      "summary": "Gilts gapped lower by 54 ticks and fell over a full point further to 91.14 trough. UK Spring Statement was a non-event — OBR downgraded 2026 growth to 1.1%. UK 2yr yield saw its biggest daily rise since May 2025 (3.611%). DMO gilt issuance GBP 252.1bln for 2026/27 (exp. ~250bln).",
       "drivers": [
+        "Gilts gapped lower 54 ticks — fell to 91.14 trough (180 ticks down at most)",
+        "UK Spring Statement non-event: OBR cuts 2026 growth to 1.1%",
         "UK 2yr yield: biggest daily rise since May 2025 (3.611%)",
-        "UK directly involved in Iran conflict — Cyprus base targeted",
-        "UK Spring Statement (13:30) — Reeves spending cuts, fiscal risk",
-        "Energy importer shock: oil/gas surge = inflationary tax on UK",
-        "BoE Taylor: energy shocks faster than CB can respond"
+        "DMO gilt issuance GBP 252.1bln — technical supply pressure",
+        "UK RAF base in Cyprus targeted — direct UK involvement in Iran conflict"
       ]
     }
   ]
