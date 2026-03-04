@@ -95,11 +95,18 @@
 - [ ] Verify dashboard Red Folder News display
 - [ ] Save checkpoint
 
-## Feature: "Close Pos. Before" Section (CURRENT TASK)
+## Feature: "Close Pos. Before" Section (COMPLETED)
 
-- [ ] Define prop-firm mandatory close events list (USD/EUR/GBP/CAD/AUD/NZD)
-- [ ] Add closePropFirm flag to matching redFolderNews items in dailyRecap.json
-- [ ] Implement "Close Pos. Before" section in Home.tsx above Red Folder News
-- [ ] Style with amber/warning color and countdown timer (same as Red Folder News)
-- [ ] Test display with today's events
+- [x] Define prop-firm mandatory close events list (USD/EUR/GBP/CAD/AUD/NZD/CHF)
+- [x] Implement "Close Pos. Before" section in Home.tsx above Red Folder News
+- [x] Style with amber/warning color and countdown timer
+- [x] Exclude ADP Non-Farm Employment Change (private report, not official NFP)
+- [x] Add CHF/SNB events
+- [x] Save checkpoint
+
+## Feature: Overnight Close Warning (CURRENT TASK)
+
+- [x] Show events before 09:00 Frankfurt Time in Close Pos. Before from 16:00 the previous day
+- [x] Display "TONIGHT HH:MM" badge with moon icon for overnight events shown the day before
+- [x] On the event day itself: show normally with countdown (as before)
 - [ ] Save checkpoint

@@ -910,10 +910,32 @@ export default function Home() {
                     const today = new Date();
                     const daysOfWeek = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
                     const currentDay = daysOfWeek[today.getDay()];
-                    const closeEvents = dailyData.redFolderNews.filter(
-                      (news: any) => news.day === currentDay && isPropFirmEvent(news)
-                    );
+                    const currentHour = today.getHours();
+
+                    // Determine next calendar day abbreviation
+                    const tomorrowIndex = (today.getDay() + 1) % 7;
+                    const tomorrowDay = daysOfWeek[tomorrowIndex];
+
+                    // Events happening TODAY that are prop-firm close events
+                    const todayCloseEvents = dailyData.redFolderNews
+                      .filter((news: any) => news.day === currentDay && isPropFirmEvent(news))
+                      .map((news: any) => ({ ...news, isOvernight: false }));
+
+                    // Overnight warning: events TOMORROW before 09:00, shown from 16:00 today
+                    const overnightEvents = currentHour >= 16
+                      ? dailyData.redFolderNews
+                          .filter((news: any) => {
+                            if (news.day !== tomorrowDay) return false;
+                            if (!isPropFirmEvent(news)) return false;
+                            const [h] = (news.time || '').split(':').map(Number);
+                            return h < 9; // only pre-09:00 events
+                          })
+                          .map((news: any) => ({ ...news, isOvernight: true }))
+                      : [];
+
+                    const closeEvents = [...todayCloseEvents, ...overnightEvents];
                     if (closeEvents.length === 0) return null;
+
                     return (
                       <div className="border border-amber-500/40 bg-amber-500/5 p-3 rounded-sm">
                         <h3 className="text-xs font-bold uppercase tracking-wider mb-3 flex items-center gap-2 text-amber-400">
@@ -928,14 +950,24 @@ export default function Home() {
                                 <div>
                                   <div className="flex items-center gap-1.5">
                                     <span className="text-xs font-bold text-amber-300 w-8">{news.currency}</span>
-                                    <span className="text-[9px] px-1 py-0.5 border border-amber-500/50 text-amber-400 bg-amber-900/20 uppercase font-bold">
-                                      CLOSE
-                                    </span>
+                                    {news.isOvernight ? (
+                                      <span className="text-[9px] px-1 py-0.5 border border-yellow-500/60 text-yellow-300 bg-yellow-900/20 uppercase font-bold flex items-center gap-0.5">
+                                        🌙 TONIGHT
+                                      </span>
+                                    ) : (
+                                      <span className="text-[9px] px-1 py-0.5 border border-amber-500/50 text-amber-400 bg-amber-900/20 uppercase font-bold">
+                                        CLOSE
+                                      </span>
+                                    )}
                                   </div>
                                   <p className="text-[10px] text-amber-200/70 font-mono mt-0.5">{news.event}</p>
                                 </div>
                               </div>
-                              <CountdownTimer eventTime={news.time} />
+                              {news.isOvernight ? (
+                                <span className="text-[9px] font-mono text-yellow-400 font-bold">{news.time}</span>
+                              ) : (
+                                <CountdownTimer eventTime={news.time} />
+                              )}
                             </div>
                           ))}
                         </div>
