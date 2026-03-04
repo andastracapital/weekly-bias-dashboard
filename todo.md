@@ -109,4 +109,19 @@
 - [x] Show events before 09:00 Frankfurt Time in Close Pos. Before from 16:00 the previous day
 - [x] Display "TONIGHT HH:MM" badge with moon icon for overnight events shown the day before
 - [x] On the event day itself: show normally with countdown (as before)
+- [x] Save checkpoint
+
+## Skills Refresh & GitHub Push
+
+- [x] Write skill_dashboard.md (dashboard layout & architecture) → /home/ubuntu/skills/dashboard-architecture/SKILL.md
+- [x] Write skill_dailyrecap.md (daily recap update workflow) → /home/ubuntu/skills/daily-recap-update/SKILL.md
+- [x] Write skill_weeklybias.md (weekly bias update workflow) → /home/ubuntu/skills/weekly-bias-update/SKILL.md
+- [x] Write skill_redfolder.md (red folder news scraping) → /home/ubuntu/skills/forex-factory-timezone-correction/SKILL.md
+- [x] Write skill_positionclose.md (prop-firm close warning feature) → /home/ubuntu/skills/prop-firm-close-warning/SKILL.md
 - [ ] Save checkpoint
+- [ ] Push all 5 skill files to GitHub
+
+## JPY/BoJ Close Warning Addition
+
+- [x] Add JPY/BoJ to PROP_FIRM_CLOSE_EVENTS in Home.tsx
+- [x] Update prop-firm-close-warning skill with JPY/BoJ

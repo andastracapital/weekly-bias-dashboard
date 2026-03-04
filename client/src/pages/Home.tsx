@@ -34,6 +34,7 @@ const PROP_FIRM_CLOSE_EVENTS: { currency: string; keywords: string[] }[] = [
   { currency: "AUD", keywords: ["Cash Rate", "RBA Statement", "Employment Change", "Unemployment Rate", "CPI q/q", "GDP q/q"] },
   { currency: "NZD", keywords: ["Official Cash Rate", "RBNZ", "Employment Change", "Unemployment Rate", "CPI q/q", "GDP q/q"] },
   { currency: "CHF", keywords: ["SNB Policy Rate", "SNB Rate", "SNB Monetary Policy", "Swiss National Bank", "Libor Rate", "SNB Press Conference"] },
+  { currency: "JPY", keywords: ["BOJ Rate", "BoJ Rate", "Bank of Japan Rate", "Monetary Policy Statement", "BOJ Policy Rate", "BOJ Interest Rate", "Outlook Report", "BOJ Press Conference"] },
 ];
 
 const isPropFirmEvent = (news: any): boolean => {
