@@ -19,10 +19,31 @@ import {
   Check,
   X,
   Download,
-  Clock
+  Clock,
+  ShieldAlert
 } from "lucide-react";
 import weeklyData from "../data/weeklyBias.json";
 import dailyData from "../data/dailyRecap.json";
+
+// Prop-firm mandatory close events — these require position closure before release
+const PROP_FIRM_CLOSE_EVENTS: { currency: string; keywords: string[] }[] = [
+  { currency: "USD", keywords: ["Federal Funds Rate", "Non-Farm Employment Change", "Nonfarm Employment Change", "Non-Farm Payrolls", "NFP", "Unemployment Rate", "Advance GDP", "FOMC Meeting Minutes", "CPI y/y"] },
+  { currency: "EUR", keywords: ["Main Refinancing Rate", "Minimum Bid Rate", "ECB Rate"] },
+  { currency: "GBP", keywords: ["Official Bank Rate", "MPC Vote", "CPI y/y"] },
+  { currency: "CAD", keywords: ["Overnight Rate", "BOC Rate", "BoC Rate", "CPI m/m", "Employment Change", "Unemployment Rate"] },
+  { currency: "AUD", keywords: ["Cash Rate", "RBA Statement", "Employment Change", "Unemployment Rate", "CPI q/q", "GDP q/q"] },
+  { currency: "NZD", keywords: ["Official Cash Rate", "RBNZ", "Employment Change", "Unemployment Rate", "CPI q/q", "GDP q/q"] },
+  { currency: "CHF", keywords: ["SNB Policy Rate", "SNB Rate", "SNB Monetary Policy", "Swiss National Bank", "Libor Rate", "SNB Press Conference"] },
+  { currency: "JPY", keywords: ["BOJ Rate", "BoJ Rate", "Bank of Japan Rate", "Monetary Policy Statement", "BOJ Policy Rate", "BOJ Interest Rate", "Outlook Report", "BOJ Press Conference"] },
+];
+
+const isPropFirmEvent = (news: any): boolean => {
+  // Explicitly exclude ADP reports — only official government releases qualify
+  if (news.event?.toLowerCase().includes("adp")) return false;
+  const rule = PROP_FIRM_CLOSE_EVENTS.find(r => r.currency === news.currency);
+  if (!rule) return false;
+  return rule.keywords.some(kw => news.event?.toLowerCase().includes(kw.toLowerCase()));
+};
 
 // Bloomberg / PMT Style Components
 
@@ -144,9 +165,9 @@ const BiasCard = ({ currency, weeklyBias }: { currency: any, weeklyBias?: string
         )}
       </div>
 
-      {currency.summary && (
+      {(currency.summary || currency.rationale) && (
         <p className="text-xs text-gray-300 mb-4 font-mono leading-relaxed flex-grow relative z-10">
-          {currency.summary}
+          {currency.summary || currency.rationale}
         </p>
       )}
 
@@ -195,11 +216,13 @@ const BiasCard = ({ currency, weeklyBias }: { currency: any, weeklyBias?: string
                     <span className="text-gray-300">{event}</span>
                   ) : (
                     <>
-                      <span className="text-orange-500/70 w-8">{event.day.toUpperCase()}</span>
+                      <span className="text-orange-500/70 w-8">{event.day?.toUpperCase()}</span>
                       <span className="text-gray-300 flex-1 truncate mr-2">{event.event}</span>
-                      <span className={`px-1 ${event.impact === "Critical" || event.impact === "High" ? "bg-red-900/30 text-red-400 border border-red-900/50" : "text-gray-600"}`}>
-                        {event.impact.toUpperCase()}
-                      </span>
+                      {event.impact && (
+                        <span className={`px-1 ${event.impact === "Critical" || event.impact === "High" ? "bg-red-900/30 text-red-400 border border-red-900/50" : "text-gray-600"}`}>
+                          {event.impact.toUpperCase()}
+                        </span>
+                      )}
                     </>
                   )}
                 </li>
@@ -243,12 +266,11 @@ const TradeCard = ({ trade, index }: { trade: any, index: number }) => {
           </div>
           {isMultiLine ? (
             <div className="mt-1 space-y-0.5">
-              <p className="text-[9px] text-gray-400 font-mono leading-tight">{trade.reason.line1}</p>
-              <p className="text-[9px] text-gray-400 font-mono leading-tight">{trade.reason.line2}</p>
-              <p className="text-[9px] text-gray-500 font-mono leading-tight italic">{trade.reason.line3}</p>
+              <p className="text-[9px] text-gray-400 font-mono leading-tight [word-break:keep-all] hyphens-none">{trade.reason.line1}</p>
+              <p className="text-[9px] text-gray-400 font-mono leading-tight [word-break:keep-all] hyphens-none">{trade.reason.line2}</p>
             </div>
           ) : (
-            <p className="text-[9px] text-gray-500 font-mono mt-0.5">{trade.reason}</p>
+            <p className="text-[9px] text-gray-500 font-mono mt-0.5 [word-break:keep-all] hyphens-none">{trade.reason}</p>
           )}
         </div>
       </div>
@@ -360,96 +382,93 @@ export default function Home() {
       const quoteDriver1 = quoteCurrency?.drivers?.[0] || "";
       const quoteDriver2 = quoteCurrency?.drivers?.[1] || "";
       
-      // Line 3: Supporting Fundamental - Driver 3 or 4 from either currency
-      const baseDriver3 = baseCurrency?.drivers?.[2] || baseCurrency?.drivers?.[3] || "";
-      const quoteDriver3 = quoteCurrency?.drivers?.[2] || quoteCurrency?.drivers?.[3] || "";
-      
-      // Smart truncation helper - preserve numbers and percentages
-      const cleanDriver = (driver: string, maxLen: number = 80) => {
+      // Smart truncation helper - selectively remove GDP numbers, "from" phrases, "vs exp"
+      const cleanDriver = (driver: string, maxLen: number = 70) => {
         // Remove parenthetical content
         let cleaned = driver.replace(/\([^)]*\)/g, '').trim();
         
+        // STEP 1: Protect numbers WITH percentages by replacing with placeholder
+        const percentages: string[] = [];
+        cleaned = cleaned.replace(/(-?\d+(?:\.\d+)?)%/g, (match) => {
+          percentages.push(match);
+          return `__PCT${percentages.length - 1}__`;
+        });
+        
+        // STEP 2: Remove "from X to Y" phrases
+        cleaned = cleaned.replace(/from\s+[\d.]+\s+to\s+[\d.]+/gi, '').trim();
+        
+        // STEP 3: Remove "vs exp X" phrases
+        cleaned = cleaned.replace(/vs\s+exp\s+[\d.%]+/gi, '').trim();
+        
+        // STEP 4: Remove GDP-specific numbers
+        cleaned = cleaned.replace(/GDP\s+[\d.%-]+/gi, 'GDP').trim();
+        
+        // STEP 5: Remove all remaining standalone numbers (without percentages)
+        cleaned = cleaned.replace(/\s+-?\d+(?:\.\d+)?/g, '').trim();
+        
+        // STEP 6: Restore protected percentages
+        percentages.forEach((pct, i) => {
+          cleaned = cleaned.replace(`__PCT${i}__`, pct);
+        });
+        
+        // Clean up dangling prepositions and artifacts
+        cleaned = cleaned.replace(/\b(at|near|above|below|testing|to)\s+(after|before|during|vs|from)/gi, '$2').trim();
+        cleaned = cleaned.replace(/\b(fell|rose|at|near|above|below|testing|to)\s+-?$/gi, '$1').trim();
+        
+        // Clean up multiple spaces and commas
+        cleaned = cleaned.replace(/\s+/g, ' ').replace(/,\s*,/g, ',').replace(/\s+,/g, ',').trim();
+        
+        // Remove leading/trailing commas and periods
+        cleaned = cleaned.replace(/^[,\.;\s]+|[,\.;\s]+$/g, '').trim();
+        
         // Split by comma/period and take first part
-        const parts = cleaned.split(/[,\.]/);
+        const parts = cleaned.split(/[,\.;]/);
         let result = parts[0].trim();
         
         // If first part is too short and we have a second part, include it
-        if (result.length < 30 && parts[1]) {
+        if (result.length < 25 && parts[1]) {
           result = `${result}, ${parts[1].trim()}`;
         }
         
-        // Truncate at word boundary if too long, but preserve numbers
+        // Truncate at word boundary if too long
         if (result.length > maxLen) {
-          // Try to cut after a complete number/percentage
           const cutPoint = result.substring(0, maxLen);
           const lastSpace = cutPoint.lastIndexOf(' ');
-          
-          // Check if we're cutting in the middle of a number
-          const afterSpace = result.substring(lastSpace + 1);
-          if (afterSpace.match(/^[0-9.-]+%?$/)) {
-            // Include the complete number
-            const numberEnd = result.indexOf(' ', lastSpace + 1);
-            if (numberEnd > 0 && numberEnd < maxLen + 15) {
-              result = result.substring(0, numberEnd);
-            } else {
-              result = cutPoint;
-            }
-          } else if (lastSpace > maxLen - 20) {
-            result = result.substring(0, lastSpace);
-          } else {
-            result = cutPoint;
-          }
+          result = lastSpace > maxLen - 15 ? result.substring(0, lastSpace) : cutPoint;
         }
         
         return result;
       };
       
-      // Build 3 lines with longer limits for better readability
-      const line1Base = cleanDriver(baseDriver1, 80);
-      const line1Quote = baseDriver2 ? `, ${cleanDriver(baseDriver2, 60)}` : "";
+      // Helper to check if driver contains Key Event (day + event name)
+      const hasKeyEvent = (driver: string) => {
+        return /\b(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday):/i.test(driver);
+      };
       
-      const line2Base = cleanDriver(quoteDriver1, 80);
-      const line2Quote = quoteDriver2 ? `, ${cleanDriver(quoteDriver2, 60)}` : "";
+      // Build 2 lines - prioritize Key Events if available
+      let line1Base = cleanDriver(baseDriver1, 65);
+      let line1Quote = "";
       
-      // Line 3: Supporting Fundamental (prefer the stronger/more relevant one)
-      let line3 = "";
-      if (baseDriver3 || quoteDriver3) {
-        const contextBase = cleanDriver(baseDriver3, 90);
-        const contextQuote = cleanDriver(quoteDriver3, 90);
-        
-        // Prioritize technical levels, policy statements, or market positioning
-        const hasTechnical = (text: string) => 
-          text.toLowerCase().includes('testing') || 
-          text.toLowerCase().includes('support') || 
-          text.toLowerCase().includes('resistance') ||
-          text.toLowerCase().includes('breakout');
-        
-        const hasPolicy = (text: string) => 
-          text.toLowerCase().includes('policy') || 
-          text.toLowerCase().includes('rate') ||
-          text.toLowerCase().includes('central bank') ||
-          text.toLowerCase().includes('fed') ||
-          text.toLowerCase().includes('ecb');
-        
-        // Choose the more relevant supporting fundamental
-        if (hasTechnical(contextBase)) {
-          line3 = contextBase;
-        } else if (hasTechnical(contextQuote)) {
-          line3 = contextQuote;
-        } else if (hasPolicy(contextBase)) {
-          line3 = contextBase;
-        } else if (hasPolicy(contextQuote)) {
-          line3 = contextQuote;
-        } else {
-          // Default: use the longer/more detailed one
-          line3 = contextBase.length > contextQuote.length ? contextBase : contextQuote;
-        }
+      // If baseDriver2 has Key Event, use it; otherwise use baseDriver1 + baseDriver2
+      if (hasKeyEvent(baseDriver2)) {
+        line1Quote = `, ${cleanDriver(baseDriver2, 50)}`;
+      } else if (baseDriver2) {
+        line1Quote = `, ${cleanDriver(baseDriver2, 50)}`;
+      }
+      
+      let line2Base = cleanDriver(quoteDriver1, 65);
+      let line2Quote = "";
+      
+      // If quoteDriver2 has Key Event, use it; otherwise use quoteDriver1 + quoteDriver2
+      if (hasKeyEvent(quoteDriver2)) {
+        line2Quote = `, ${cleanDriver(quoteDriver2, 50)}`;
+      } else if (quoteDriver2) {
+        line2Quote = `, ${cleanDriver(quoteDriver2, 50)}`;
       }
       
       return {
         line1: `${baseCurr}: ${line1Base}${line1Quote}`,
-        line2: `${quoteCurr}: ${line2Base}${line2Quote}`,
-        line3: line3 || `Setup confirmation: ${direction === 'LONG' ? baseCurr : quoteCurr} outperformance expected`
+        line2: `${quoteCurr}: ${line2Base}${line2Quote}`
       };
     };
     
@@ -611,20 +630,22 @@ export default function Home() {
         {/* Market Overview Section */}
         {viewMode === "WEEKLY" ? (
           <div className="space-y-6 mb-8">
-            {/* Market Overview - Narrower */}
-            <div className="bg-[#121212] border border-gray-800 p-5 relative overflow-hidden">
-              <div className="absolute top-0 left-0 w-1 h-full bg-orange-500"></div>
-              <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-3 flex items-center gap-2">
-                <Activity className="w-4 h-4 text-orange-500" />
-                Market Overview
-              </h3>
-              <p className="text-sm text-gray-300 font-mono leading-relaxed">
-                Global markets navigating complex landscape of geopolitical tension and shifting monetary policy expectations. Key focus remains on US economic data and central bank rhetoric.
-              </p>
-            </div>
+            {/* New Layout: Market Overview Left, Swing Watchlists Right */}
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+              {/* Market Overview - Takes 1 column */}
+              <div className="bg-[#121212] border border-gray-800 p-5 relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-1 h-full bg-orange-500"></div>
+                <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-3 flex items-center gap-2">
+                  <Activity className="w-4 h-4 text-orange-500" />
+                  Market Overview
+                </h3>
+                <p className="text-sm text-gray-300 font-mono leading-relaxed">
+                  {weeklyData.marketOverview}
+                </p>
+              </div>
 
-            {/* Dual Swing Watchlists Side-by-Side */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+              {/* Dual Swing Watchlists Side-by-Side - Takes 2 columns */}
+              <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6">
               {(() => {
                 // Identify Strong (Bullish) and Weak (Bearish) currencies - ignore Neutral
                 const strongCurrencies = weeklyData.currencies
@@ -715,6 +736,7 @@ export default function Home() {
                   </>
                 );
               })()}
+              </div>
             </div>
           </div>
         ) : (
@@ -727,16 +749,16 @@ export default function Home() {
                 <span className="text-[10px] text-gray-500 uppercase tracking-wider font-bold">Risk Sentiment</span>
                 <div className="flex items-center gap-2">
                   <Activity className={`w-4 h-4 ${
-                    dailyData.marketFocus.riskEnvironment === "Risk-On" ? "text-green-500" :
-                    dailyData.marketFocus.riskEnvironment === "Risk-Off" ? "text-orange-500" :
+                    dailyData.riskEnvironment === "Risk-On" ? "text-green-500" :
+                    dailyData.riskEnvironment === "Risk-Off" ? "text-orange-500" :
                     "text-gray-400"
                   }`} />
                   <span className={`text-sm font-bold font-mono ${
-                    dailyData.marketFocus.riskEnvironment === "Risk-On" ? "text-white" :
-                    dailyData.marketFocus.riskEnvironment === "Risk-Off" ? "text-white" :
+                    dailyData.riskEnvironment === "Risk-On" ? "text-white" :
+                    dailyData.riskEnvironment === "Risk-Off" ? "text-white" :
                     "text-gray-300"
                   }`}>
-                    {dailyData.marketFocus.riskEnvironment || "Neutral"}
+                    {dailyData.riskEnvironment || "Neutral"}
                   </span>
                 </div>
               </div>
@@ -745,7 +767,7 @@ export default function Home() {
               <div className="flex flex-col gap-1 md:col-span-2">
                 <span className="text-[10px] text-gray-500 uppercase tracking-wider font-bold">Focus</span>
                 <span className="text-sm font-bold text-white font-mono line-clamp-2">
-                  {dailyData.focus || dailyData.marketFocus.headlines[0] || "Key Market Drivers"}
+                  {dailyData.marketFocus[0] || "Key Market Drivers"}
                 </span>
               </div>
 
@@ -754,11 +776,11 @@ export default function Home() {
                 <div className="flex flex-col gap-1 text-right">
                   <span className="text-[10px] text-gray-500 uppercase tracking-wider font-bold">Risk Environment</span>
                   <span className={`text-sm font-bold font-mono ${
-                    dailyData.marketFocus.riskEnvironment.includes("Risk-Off") ? "text-red-500" :
-                    dailyData.marketFocus.riskEnvironment.includes("Mixed") ? "text-orange-500" :
+                    dailyData.riskEnvironment.includes("Risk-Off") ? "text-red-500" :
+                    dailyData.riskEnvironment.includes("Mixed") ? "text-orange-500" :
                     "text-green-500"
                   }`}>
-                    {dailyData.marketFocus.riskEnvironment}
+                    {dailyData.riskEnvironment}
                   </span>
                 </div>
                 <div className="flex flex-col gap-1 text-right">
@@ -780,7 +802,7 @@ export default function Home() {
                     Market Overview
                   </h3>
                   <p className="text-sm text-gray-300 font-mono leading-relaxed">
-                    {dailyData.marketFocus.headlines.join(" • ")}
+                    {dailyData.marketFocus.join(" • ")}
                   </p>
                 </div>
 
@@ -790,7 +812,7 @@ export default function Home() {
                       Market Focus
                     </h4>
                     <ul className="space-y-2">
-                      {dailyData.marketFocus.headlines.map((headline: string, i: number) => (
+                      {dailyData.marketFocus.map((headline: string, i: number) => (
                         <li key={i} className="text-[11px] text-gray-300 font-mono flex items-start gap-2">
                           <span className="text-orange-500 mt-0.5">›</span>
                           {headline}
@@ -803,7 +825,7 @@ export default function Home() {
                       Risk Environment
                     </h4>
                     <p className="text-[11px] text-gray-300 font-mono leading-relaxed">
-                      {dailyData.marketFocus.riskEnvironment}: {dailyData.marketFocus.headlines[0]}
+                      {dailyData.riskEnvironment}: {dailyData.marketFocus[0]}
                     </p>
                   </div>
                 </div>
@@ -827,7 +849,7 @@ export default function Home() {
                       ))
                     ) : (
                       <div className="text-center py-8 border border-dashed border-gray-800">
-                        <p className="text-xs text-gray-500 font-mono">No strong alignment setups found currently.</p>
+                        <p className="text-gray-600 text-xs">No high conviction setups available</p>
                       </div>
                     )}
                   </div>
@@ -882,29 +904,105 @@ export default function Home() {
 
               {/* Right: Red Folder News (25%) */}
               <div className="lg:col-span-1">
-                <div className="bg-[#121212] border border-gray-800 p-5 h-full">
-                  <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
-                    <Calendar className="w-4 h-4 text-red-500" />
-                    Red Folder News
-                  </h3>
-                  <div className="space-y-3">
-                    {dailyData.redFolderNews
-                      .filter((news: any) => {
-                        // Get current day of week (MON, TUE, WED, THU, FRI)
-                        const today = new Date();
-                        const daysOfWeek = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
-                        const currentDay = daysOfWeek[today.getDay()];
-                        
-                        // Filter: only show events happening TODAY (exact match)
-                        return news.day === currentDay;
-                      })
-                      .map((news: any, i: number) => (
-                          <div key={i} className="flex items-center justify-between border-b border-gray-800 pb-2 last:border-0">
+                <div className="bg-[#121212] border border-gray-800 p-5 h-full flex flex-col gap-4">
+
+                  {/* Close Pos. Before Section */}
+                  {(() => {
+                    const today = new Date();
+                    const daysOfWeek = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+                    const currentDay = daysOfWeek[today.getDay()];
+                    const currentHour = today.getHours();
+
+                    // Determine next calendar day abbreviation
+                    const tomorrowIndex = (today.getDay() + 1) % 7;
+                    const tomorrowDay = daysOfWeek[tomorrowIndex];
+
+                    // Events happening TODAY that are prop-firm close events
+                    const todayCloseEvents = dailyData.redFolderNews
+                      .filter((news: any) => news.day === currentDay && isPropFirmEvent(news))
+                      .map((news: any) => ({ ...news, isOvernight: false }));
+
+                    // Overnight warning: events TOMORROW before 09:00, shown from 16:00 today
+                    const overnightEvents = currentHour >= 16
+                      ? dailyData.redFolderNews
+                          .filter((news: any) => {
+                            if (news.day !== tomorrowDay) return false;
+                            if (!isPropFirmEvent(news)) return false;
+                            const [h] = (news.time || '').split(':').map(Number);
+                            return h < 9; // only pre-09:00 events
+                          })
+                          .map((news: any) => ({ ...news, isOvernight: true }))
+                      : [];
+
+                    const closeEvents = [...todayCloseEvents, ...overnightEvents];
+                    if (closeEvents.length === 0) return null;
+
+                    return (
+                      <div className="border border-amber-500/40 bg-amber-500/5 p-3 rounded-sm">
+                        <h3 className="text-xs font-bold uppercase tracking-wider mb-3 flex items-center gap-2 text-amber-400">
+                          <ShieldAlert className="w-4 h-4 text-amber-400" />
+                          Close Pos. Before
+                        </h3>
+                        <div className="space-y-2">
+                          {closeEvents.map((news: any, i: number) => (
+                            <div key={i} className="flex items-center justify-between border-b border-amber-500/20 pb-2 last:border-0">
+                              <div className="flex items-center gap-2">
+                                <span className="text-xs font-mono text-amber-500/80 w-10">{news.time}</span>
+                                <div>
+                                  <div className="flex items-center gap-1.5">
+                                    <span className="text-xs font-bold text-amber-300 w-8">{news.currency}</span>
+                                    {news.isOvernight ? (
+                                      <span className="text-[9px] px-1 py-0.5 border border-yellow-500/60 text-yellow-300 bg-yellow-900/20 uppercase font-bold flex items-center gap-0.5">
+                                        🌙 TONIGHT
+                                      </span>
+                                    ) : (
+                                      <span className="text-[9px] px-1 py-0.5 border border-amber-500/50 text-amber-400 bg-amber-900/20 uppercase font-bold">
+                                        CLOSE
+                                      </span>
+                                    )}
+                                  </div>
+                                  <p className="text-[10px] text-amber-200/70 font-mono mt-0.5">{news.event}</p>
+                                </div>
+                              </div>
+                              {news.isOvernight ? (
+                                <span className="text-[9px] font-mono text-yellow-400 font-bold">{news.time}</span>
+                              ) : (
+                                <CountdownTimer eventTime={news.time} />
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    );
+                  })()}
+
+                  {/* Red Folder News Section */}
+                  <div>
+                    <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4 flex items-center gap-2">
+                      <Calendar className="w-4 h-4 text-red-500" />
+                      Red Folder News
+                    </h3>
+                    <div className="space-y-3">
+                      {dailyData.redFolderNews
+                        .filter((news: any) => {
+                          // Get current day of week (MON, TUE, WED, THU, FRI)
+                          const today = new Date();
+                          const daysOfWeek = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+                          const currentDay = daysOfWeek[today.getDay()];
+                          // Filter: only show events happening TODAY (exact match)
+                          return news.day === currentDay;
+                        })
+                        .map((news: any, i: number) => (
+                          <div key={i} className={`flex items-center justify-between border-b pb-2 last:border-0 ${
+                            isPropFirmEvent(news) ? 'border-amber-500/30' : 'border-gray-800'
+                          }`}>
                             <div className="flex items-center gap-3">
                               <span className="text-xs font-mono text-gray-500 w-10">{news.time}</span>
                               <div>
                                 <div className="flex items-center gap-2">
-                                  <span className="text-xs font-bold text-white w-8">{news.currency}</span>
+                                  <span className={`text-xs font-bold w-8 ${
+                                    isPropFirmEvent(news) ? 'text-amber-300' : 'text-white'
+                                  }`}>{news.currency}</span>
                                   <span className={`text-[9px] px-1.5 py-0.5 border ${
                                     news.impact === "Critical" ? "border-red-500 text-red-500 bg-red-900/20" : 
                                     news.impact === "High" ? "border-orange-500 text-orange-500 bg-orange-900/20" : 
@@ -912,17 +1010,26 @@ export default function Home() {
                                   } uppercase font-bold`}>
                                     {news.impact}
                                   </span>
+                                  {isPropFirmEvent(news) && (
+                                    <ShieldAlert className="w-3 h-3 text-amber-400" />
+                                  )}
                                 </div>
                                 <p className="text-[10px] text-gray-400 font-mono mt-0.5">{news.event}</p>
                               </div>
                             </div>
                             <CountdownTimer eventTime={news.time} />
                           </div>
-                      ))}
-                    {dailyData.redFolderNews.length === 0 && (
-                      <p className="text-xs text-gray-500 font-mono italic text-center py-4">No high impact events remaining today.</p>
-                    )}
+                        ))}
+                      {dailyData.redFolderNews.filter((news: any) => {
+                        const today = new Date();
+                        const daysOfWeek = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+                        return news.day === daysOfWeek[today.getDay()];
+                      }).length === 0 && (
+                        <p className="text-xs text-gray-500 font-mono italic text-center py-4">No high impact events remaining today.</p>
+                      )}
+                    </div>
                   </div>
+
                 </div>
               </div>
             </div>
@@ -979,7 +1086,7 @@ export default function Home() {
               Bond Market Bias
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {dailyData.bonds.map((bond: any, index: number) => {
+              {((dailyData as any).bonds || []).map((bond: any, index: number) => {
                 const isBullish = bond.bias.includes("Bullish");
                 const isBearish = bond.bias.includes("Bearish");
                 const borderColor = isBullish ? "border-orange-500" : isBearish ? "border-red-600" : "border-gray-600";

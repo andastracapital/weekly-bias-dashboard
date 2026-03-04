@@ -23,14 +23,15 @@ The "Close Pos. Before" section sits **above** the Red Folder News section in th
 Defined at the top of `Home.tsx` (before any component functions):
 
 ```ts
-const PROP_FIRM_CLOSE_EVENTS = [
-  { currency: "USD", keywords: ["Federal Funds Rate", "Non-Farm Employment Change", "Unemployment Rate", "Advance GDP", "FOMC Meeting Minutes", "CPI y/y"] },
-  { currency: "EUR", keywords: ["Main Refinancing Rate", "ECB Rate"] },
-  { currency: "GBP", keywords: ["Official Bank Rate", "MPC", "CPI y/y"] },
-  { currency: "CAD", keywords: ["Overnight Rate", "BOC Rate", "CPI m/m", "Employment Change", "Unemployment Rate"] },
+const PROP_FIRM_CLOSE_EVENTS: { currency: string; keywords: string[] }[] = [
+  { currency: "USD", keywords: ["Federal Funds Rate", "Non-Farm Employment Change", "Nonfarm Employment Change", "Non-Farm Payrolls", "NFP", "Unemployment Rate", "Advance GDP", "FOMC Meeting Minutes", "CPI y/y"] },
+  { currency: "EUR", keywords: ["Main Refinancing Rate", "Minimum Bid Rate", "ECB Rate"] },
+  { currency: "GBP", keywords: ["Official Bank Rate", "MPC Vote", "CPI y/y"] },
+  { currency: "CAD", keywords: ["Overnight Rate", "BOC Rate", "BoC Rate", "CPI m/m", "Employment Change", "Unemployment Rate"] },
   { currency: "AUD", keywords: ["Cash Rate", "RBA Statement", "Employment Change", "Unemployment Rate", "CPI q/q", "GDP q/q"] },
   { currency: "NZD", keywords: ["Official Cash Rate", "RBNZ", "Employment Change", "Unemployment Rate", "CPI q/q", "GDP q/q"] },
   { currency: "CHF", keywords: ["SNB Policy Rate", "SNB Rate", "SNB Monetary Policy", "Swiss National Bank", "Libor Rate", "SNB Press Conference"] },
+  { currency: "JPY", keywords: ["BOJ Rate", "BoJ Rate", "Bank of Japan Rate", "Monetary Policy Statement", "BOJ Policy Rate", "BOJ Interest Rate", "Outlook Report", "BOJ Press Conference"] },
 ];
 ```
 
@@ -66,15 +67,30 @@ Both sets are merged and rendered in the amber-bordered section above Red Folder
 
 ---
 
+## Complete Currency Coverage
+
+| Currency | Covered Events |
+|----------|---------------|
+| USD | Federal Funds Rate, NFP, Unemployment Rate, Advance GDP, FOMC Minutes, CPI y/y |
+| EUR | Main Refinancing Rate, Minimum Bid Rate, ECB Rate |
+| GBP | Official Bank Rate, MPC Vote, CPI y/y |
+| CAD | Overnight Rate, BOC/BoC Rate, CPI m/m, Employment Change, Unemployment Rate |
+| AUD | Cash Rate, RBA Statement, Employment Change, Unemployment Rate, CPI q/q, GDP q/q |
+| NZD | Official Cash Rate, RBNZ, Employment Change, Unemployment Rate, CPI q/q, GDP q/q |
+| CHF | SNB Policy Rate, SNB Rate, SNB Monetary Policy, Swiss National Bank, Libor Rate, SNB Press Conference |
+| JPY | BOJ Rate, BoJ Rate, Bank of Japan Rate, Monetary Policy Statement, BOJ Policy Rate, BOJ Interest Rate, Outlook Report, BOJ Press Conference |
+
+---
+
 ## Adding a New Currency
 
 1. Add entry to `PROP_FIRM_CLOSE_EVENTS` in `Home.tsx`
 2. Match Forex Factory's exact event name (case-insensitive partial match is used)
 3. Test with a dummy event in `dailyRecap.json`
 
-**Example — adding JPY (BoJ):**
+**Example — adding a new currency:**
 ```ts
-{ currency: "JPY", keywords: ["BOJ Rate", "Bank of Japan Rate", "Monetary Policy Statement", "Outlook Report"] },
+{ currency: "XXX", keywords: ["Central Bank Rate Decision", "CPI"] },
 ```
 
 ---
