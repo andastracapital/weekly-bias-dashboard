@@ -118,8 +118,8 @@
 - [x] Write skill_weeklybias.md (weekly bias update workflow) → /home/ubuntu/skills/weekly-bias-update/SKILL.md
 - [x] Write skill_redfolder.md (red folder news scraping) → /home/ubuntu/skills/forex-factory-timezone-correction/SKILL.md
 - [x] Write skill_positionclose.md (prop-firm close warning feature) → /home/ubuntu/skills/prop-firm-close-warning/SKILL.md
-- [ ] Save checkpoint
-- [ ] Push all 5 skill files to GitHub
+- [x] Save checkpoint
+- [x] Push all 5 skill files to GitHub
 
 ## JPY/BoJ Close Warning Addition
 
