@@ -1,107 +1,107 @@
 {
-  "date": "Thursday, March 5, 2026",
-  "lastUpdate": "09:20 Frankfurt Time",
-  "riskEnvironment": "Mixed",
+  "date": "Friday, March 6, 2026",
+  "lastUpdate": "08:30 Frankfurt Time",
+  "riskEnvironment": "Risk-Off",
   "marketFocus": [
-    "Operation Epic Fury Day 6: APAC staged a strong comeback (+KOSPI +11%) after Wall St Nasdaq-led rally (+1.51%); Iran's missile launch rate declining — US/Israel claim 70% reduction in launch volumes; Iran denied NYT report of CIA outreach, but geopolitical off-ramp narrative briefly boosted risk assets and crushed crude/nat gas",
-    "China NPC: 2026 GDP target 4.5%-5.0% (slowest since 1991), CPI ~2%, CNY 800bln new policy tools — PBoC USD/CNY fix at strongest in ~3 years; bullish for AUD/NZD via China demand channel; EU expects exemption from US 15% universal tariff",
-    "BoJ sources (Bloomberg): April rate hike not ruled out, little chance of March hike — USD/JPY choppy 156.85-157.86; Swiss CPI Feb +0.6% MoM (vs +0.5% exp) hot — SNB Vice Chair reiterates FX intervention readiness; ECB Morgan Stanley now expects NO cuts in 2026 (prev. 2 cuts); Goldman Sachs pushes next BoE cut to April"
+    "Operation Epic Fury Day 7: Iran-Krieg eskaliert — Strait of Hormuz near-total halt, WTI settled $81.01/bbl (+$6.35), Brent $85.41/bbl (+$4.01); US CENTCOM: ballistic missile attacks by Iran down 90% since Day 1, but Hegseth says 'firepower to increase significantly'; Iran FM refuses negotiations; EU Stoxx -1.5%, SPX -0.56%, DXY peaked 99.41 before trimming to 99.05 on China-Iran Hormuz talks",
+    "NFP Day (14:30 Frankfurt): Feb NFP exp. 59K (vs 130K Jan); Unemployment Claims Thu 213K (in-line, 215K exp); Unit Labour Costs Q4 +2.8% (hot, vs +2.0% exp); Import Prices +0.2% MoM (in-line); Challenger Layoffs Feb 48K (down from 108K Jan) — labour market resilient but war uncertainty dominates; Retail Sales Jan also due 14:30",
+    "AUD/NZD under pressure: China 2026 GDP target 4.5%-5.0% (lowest since 1991), base metals lower, gold hit by NBP gold-sales-for-defence report (gold fell $5,160→$5,092 in 5 mins); GBP outperformed EUR as asset managers unwind long EUR positions; CHF outperformed JPY as premier haven (SNB sight deposits CHF 457.6bln)"
   ],
   "currencies": {
     "USD": {
       "bias": "Bullish",
-      "tone": "Rangebound Haven",
-      "summary": "DXY eked mild gains after softening Wednesday as Iran-CIA peace rumour (later denied) briefly weighed on the Dollar. DXY traded 98.700-99.329 range — well inside Tuesday's 98.435-99.683 band. ADP beat (63K vs 50K exp) and ISM Services beat (56.1 vs 53.5 exp) confirm US economic resilience. Fed speakers (Miran, Hammack) both say too early to assess Iran inflation impact; policy well-positioned. Today's key event: US Unemployment Claims (14:30 Frankfurt). War premium remains intact — US Senate blocked war powers resolution 53-47.",
+      "tone": "Haven + NFP-Day",
+      "summary": "DXY maintained its haven bid with a range of 98.66-99.41 on Thursday. Risk-off sentiment from the Iran war, WTI surging to $81/bbl, and better-than-expected US data (Jobless Claims 213K vs 215K exp, Unit Labour Costs +2.8% hot) all support USD. China-Iran Hormuz talks briefly trimmed USD strength late session. Today is NFP day — Feb exp. 59K, Unemployment Rate exp. 4.0%, Retail Sales exp. +0.2%. Fed speakers Daly, Collins, Hammack all due today. War premium + NFP uncertainty = USD supported on dips.",
       "drivers": [
-        "ADP Non-Farm Feb 63K (vs 50K exp, beat) — labour market resilient",
-        "ISM Services PMI 56.1 (vs 53.5 exp, strong beat) — services expansion",
-        "DXY 98.70-99.33 range — Iran peace rumour (denied) briefly softened USD",
-        "Fed Miran: 100bps of easing appropriate in 2026, March cut appropriate",
-        "US Unemployment Claims today (14:30) — NFP preview catalyst"
+        "DXY 98.66-99.41 — haven bid intact, Iran war premium",
+        "Jobless Claims 213K (vs 215K exp, beat) — labour market resilient",
+        "Unit Labour Costs Q4 +2.8% (vs +2.0% exp, hot) — inflationary signal",
+        "NFP Feb exp. 59K + Retail Sales Jan due 14:30 Frankfurt — key catalyst",
+        "Fed Daly, Collins, Hammack speak today — war impact assessment"
       ]
     },
     "EUR": {
       "bias": "Bearish",
-      "tone": "Fragile Recovery",
-      "summary": "EUR/USD eked mild gains above 1.1600 (range 1.1575-1.1655) as European bourses rallied +1.5% on the Iran-CIA peace rumour. However, the recovery is fragile — Morgan Stanley now expects ECB to hold rates flat through all of 2026 (vs prior 2 cuts), citing energy shock stagflation risk. EU expects exemption from US 15% tariff (positive), but Trump's Spain trade threat remains an overhang. Final Services PMI 51.9 (in-line) and EU Unemployment 6.1% (beat vs 6.2% exp) are stale data. ECB Lagarde speaks today — key for guidance on energy shock response.",
+      "tone": "Energy Shock Fragile",
+      "summary": "EUR/USD traded 1.1581-1.1647 on Thursday, pressured by energy-import concerns and ECB stagflation risk. ECB Minutes noted 'several argued rates could remain at current levels for extended period'. ECB Lagarde: meeting-by-meeting, no pre-set stance. ECB de Guindos: could change policy if inflation expectations change due to war. EU Retail Sales Jan -0.1% MoM (vs +0.3% exp, miss). EUR/USD returned to 1.1600 handle Friday morning but upside limited. Morgan Stanley expects ECB to hold all 2026. ECB Lagarde, Cipollone, Schnabel all speak today.",
       "drivers": [
-        "EUR/USD 1.1575-1.1655 range — fragile above 1.1600 support",
-        "Morgan Stanley: ECB to hold all 2026 — energy shock stagflation risk",
-        "EU expects exemption from US 15% universal tariff — positive signal",
-        "EU Services PMI Final 51.9 (in-line), EU Unemployment 6.1% (beat)",
-        "ECB Lagarde speaks today — energy shock policy guidance key"
+        "EUR/USD 1.1581-1.1647 — pressured by energy shock, fragile above 1.1600",
+        "ECB Minutes: several see rates on hold for extended period",
+        "ECB de Guindos: policy could change if inflation expectations shift",
+        "EU Retail Sales Jan -0.1% MoM (vs +0.3% exp, miss)",
+        "ECB Lagarde, Cipollone, Schnabel speak today — key guidance"
       ]
     },
     "GBP": {
       "bias": "Bearish",
-      "tone": "Tentative Bounce",
-      "summary": "GBP/USD traded 1.3303-1.3403, briefly rising above its 100 DMA (1.3398) before fading. Gilts bounced +80 ticks from Tuesday's collapse, but remain well below the week's 93.55 open. Goldman Sachs pushed next BoE cut to April (from March), projecting July and November thereafter as energy shock fades — this is a modest hawkish repricing for GBP. Trump criticised UK PM Starmer for declining to join offensive strikes. UK has no domestic data today — entirely driven by geopolitics and Iran war narrative. GBP remains structurally bearish: energy importer, weak growth (OBR 1.1%), BoE on cutting path.",
+      "tone": "Relative Outperformer vs EUR",
+      "summary": "GBP/USD traded 1.3298-1.3387, rebounding from 1.3298 support. ING noted GBP outperformance vs EUR as asset managers unwind long EUR positions and markets push back on near-term BoE cuts. GBP/USD lacked direction Friday morning — price action tame with quiet UK newsflow. UK 10yr yield above 4.5%. BoE cut path intact (Goldman Sachs: April cut). UK is a net energy importer — Iran war = stagflationary headwind. No UK domestic data today. GBP structurally bearish but relatively better than EUR in the current environment.",
       "drivers": [
-        "GBP/USD 1.3303-1.3403 — briefly above 100 DMA (1.3398), then faded",
-        "Goldman Sachs: BoE April cut (from March), then July, November",
-        "Gilts bounced +80 ticks from collapse — but still well below week open",
-        "Trump criticises Starmer for not joining Iran strikes — political pressure",
+        "GBP/USD 1.3298-1.3387 — rebounded from 1.3298 support",
+        "ING: GBP outperforms EUR as asset managers unwind EUR longs",
+        "UK 10yr yield above 4.5% — Gilt market under pressure",
+        "BoE cut path intact: Goldman Sachs April cut, then July, November",
         "No UK data today — geopolitics and Iran narrative drive price action"
       ]
     },
     "JPY": {
       "bias": "Bullish",
-      "tone": "Haven Bid Intact",
-      "summary": "JPY maintains its haven bid with USD/JPY choppy in a 156.85-157.86 band. BoJ sources (Bloomberg) confirm April rate hike remains on the table — little chance of March hike but April not ruled out. BoJ Governor Ueda reiterated wages expected to rise broadly in 2026 wage negotiations and annual real wages to gradually turn positive. Japan sold JPY 530bln 30yr JGBs with solid demand (b/c 3.66x). The energy inflation dilemma persists — higher oil = inflationary support for hikes, but Hormuz closure = growth headwind. Net: JPY benefits from haven demand + BoJ hike optionality.",
+      "tone": "Haven Bid + BoJ Hike Optionality",
+      "summary": "USD/JPY traded 156.44-157.78 on Thursday. JPY benefits from haven demand as Iran war escalates, with carry trade liquidation supporting the Yen. BoJ Deputy Governor Himino confirmed Japan is seeing inflation in rising consumer prices and BoJ is gradually adjusting monetary accommodation. Bloomberg officials see little chance of March hike but do not rule out April. USD/JPY edged higher Friday morning as risk sentiment in Japan stabilised and APAC stocks clawed back losses. JPY remains the second-best haven after CHF in the current environment.",
       "drivers": [
-        "BoJ sources (Bloomberg): April hike not ruled out, March unlikely",
-        "BoJ Ueda: wages rising broadly in 2026, real wages to turn positive",
-        "USD/JPY 156.85-157.86 — haven bid intact, approaching intervention zone",
-        "Japan 30yr JGB auction solid (b/c 3.66x) — demand for JGBs healthy",
-        "Energy inflation dilemma: oil spike supports hike case, growth risk delays"
+        "USD/JPY 156.44-157.78 — haven bid, carry liquidation support",
+        "BoJ Himino: Japan seeing inflation, gradually adjusting accommodation",
+        "Bloomberg: March hike unlikely, April not ruled out",
+        "USD/JPY edged higher Friday as APAC risk stabilised",
+        "JPY second-best haven after CHF — Iran war premium intact"
       ]
     },
     "AUD": {
-      "bias": "Bullish",
-      "tone": "China-Driven Recovery",
-      "summary": "AUD staged a recovery as China's NPC set 2026 GDP target at 4.5%-5.0% with CNY 800bln new policy tools — bullish for AUD via China demand channel. PBoC USD/CNY fix at strongest in ~3 years is a direct positive for AUD. ASX 200 led higher by tech strength, but commodity sectors capped gains. Australian Trade Balance Jan came in at AUD 2.6bln (vs 3.9bln exp) — exports contracted -0.9%, a mild negative. However, the China stimulus narrative dominates. Antipodeans faded some gains into the European session. Key risk: Iran war escalation could reverse China-driven gains rapidly.",
+      "bias": "Bearish",
+      "tone": "Geopolitics + Weak Metals",
+      "summary": "AUD/USD hit as low as 0.6974 on Thursday as geopolitical risks, weaker metal prices, and China's cut to 2026 GDP growth target (4.5%-5.0%, lowest since 1991) weighed heavily. ASX 200 dragged lower by miners, materials and resources sectors. Gold hit by NBP gold-sales-for-defence report. Antipodeans strengthened mildly Friday morning with AUD outperforming as metal prices rebounded and outside bets for an RBA rate hike this month emerged. However, the recovery is fragile — Iran war escalation remains the dominant tail risk. RBA Hauser speaks today.",
       "drivers": [
-        "China NPC: GDP 4.5%-5.0% target, CNY 800bln new policy tools — AUD positive",
-        "PBoC USD/CNY fix at strongest in ~3 years — direct AUD support",
-        "ASX 200 higher — tech led, commodity sectors capped gains",
-        "AU Trade Balance Jan AUD 2.6bln (vs 3.9bln exp, miss) — exports -0.9%",
-        "Iran war escalation risk: key tail risk for AUD recovery"
+        "AUD/USD hit 0.6974 low — geopolitics, weak metals, China GDP cut",
+        "China 2026 GDP target 4.5%-5.0% (lowest since 1991) — structural headwind",
+        "ASX 200 lower: miners, materials, resources dragged by metal weakness",
+        "Gold hit by NBP gold-sales-for-defence report — AUD felt the blow",
+        "RBA Hauser speaks today — watch for March rate hike guidance"
       ]
     },
     "CAD": {
       "bias": "Neutral",
-      "tone": "Crude-Dependent",
-      "summary": "CAD's energy windfall narrative is being tested as crude prices fell on the Iran-CIA peace rumour (WTI range $73.28-77.23, Brent $80.30-84.48). BoC Governor Macklem spoke Wednesday (16:30 Frankfurt) — no major new guidance; focus on energy shock impact on Canadian economy. Canadian PM Carney met with business leaders in Sydney to forge new energy/AI partnerships. Labour Productivity Q4 -0.1% (in-line). CAD remains caught between energy windfall (positive) and weak domestic growth (Q4 GDP -0.6% annualized). Weekly Bias is Neutral — no High Conviction alignment possible.",
+      "tone": "Energy Windfall vs Domestic Weakness",
+      "summary": "CAD caught between energy windfall (WTI $81/bbl = direct terms-of-trade positive) and domestic weakness (Q4 GDP -0.6% annualized). Canada-US Trade Minister LeBlanc visiting Washington today. Canada-EU signed deal to modernise trade agreement. BoC Macklem spoke Wednesday — no major new guidance. CAD Employment and Unemployment Rate due today at 14:30 Frankfurt alongside US NFP. Weekly Bias Neutral — no High Conviction Setup alignment possible. CAD remains a cross-current currency: energy positive, growth negative.",
       "drivers": [
-        "Crude fell on Iran-CIA peace rumour (later denied) — WTI $73-77 range",
-        "BoC Macklem spoke Wed — no major new guidance on rate path",
-        "Canadian PM Carney: new energy/AI partnerships in Sydney",
-        "Labour Productivity Q4 -0.1% (in-line) — weak domestic backdrop",
-        "Weekly Bias Neutral — no High Conviction Setup alignment"
+        "WTI $81/bbl — energy windfall positive for CAD terms-of-trade",
+        "Q4 GDP -0.6% annualized (weakest outside pandemic years) — growth drag",
+        "Canada-EU trade deal modernisation signed",
+        "CAD Employment + Unemployment Rate due 14:30 Frankfurt today",
+        "Weekly Bias Neutral — no High Conviction alignment"
       ]
     },
     "CHF": {
       "bias": "Bullish",
-      "tone": "Hot CPI + Haven",
-      "summary": "CHF received a dual boost: Swiss CPI Feb +0.6% MoM (vs +0.5% exp, hot) and +0.1% YoY (vs -0.1% exp, above zero) — this reduces SNB easing pressure and supports CHF. SNB Vice Chair reiterated readiness to intervene in FX markets, but EUR/CHF only saw modest upside on the comment. USD/CHF rebounded from 0.7790 lows after the hot CPI print. SNB March 19 meeting is now a key event — hot CPI reduces probability of a cut. CHF remains the premier haven in G10 with Switzerland's energy independence and low inflation profile intact.",
+      "tone": "Premier Haven",
+      "summary": "CHF is the premier haven in G10, outperforming even JPY. SNB sight deposits rose to CHF 457.6bln (intervention monitoring). Morgan Stanley projects EUR/CHF down to 0.87. CHF rallied vs most G10 peers during risk-off Thursday, but remains unattractive on carry in stable risk environments. Switzerland's low inflation, energy independence, and SNB's cautious stance make CHF the cleanest safe haven. SNB March 19 meeting is the key near-term event — hot Swiss CPI Feb (+0.6% MoM) reduces probability of a cut. Swiss Unemployment Rate 3.2% (stable).",
       "drivers": [
-        "Swiss CPI Feb +0.6% MoM (vs +0.5% exp, hot) — reduces SNB cut probability",
-        "Swiss CPI YoY +0.1% (vs -0.1% exp) — above zero, SNB meeting March 19 key",
-        "SNB Vice Chair: ready to intervene in FX markets",
-        "USD/CHF rebounded from 0.7790 lows after hot CPI",
-        "Premier haven: energy independence + low inflation = cleanest G10 safe haven"
+        "Premier haven: outperformed JPY, SNB sight deposits CHF 457.6bln",
+        "Morgan Stanley: EUR/CHF target 0.87 — structural CHF strength",
+        "Swiss CPI Feb +0.6% MoM (hot) — reduces SNB March 19 cut probability",
+        "Swiss Unemployment Rate 3.2% (stable, in-line)",
+        "CHF rallied vs most G10 during Thursday risk-off session"
       ]
     },
     "NZD": {
-      "bias": "Bullish",
-      "tone": "China-Lifted",
-      "summary": "NZD was steadier and set to end the European session firmer alongside AUD, lifted by China's NPC GDP target (4.5%-5.0%) and CNY 800bln policy tools. China is NZD's largest trading partner — any China stimulus signal is directly positive for NZD. However, the recovery is fragile: RBNZ dovish pivot remains intact, and NZD is the first currency to be cut in risk-off episodes. The Iran war remains the dominant tail risk. NZD has no domestic data today — entirely driven by China headlines and global risk sentiment.",
+      "bias": "Bearish",
+      "tone": "Most Vulnerable G10",
+      "summary": "NZD is the most vulnerable G10 currency in the current risk-off environment. The Kiwi underperformed even AUD as carry unwinds and trade-related growth fears intensified. RBNZ dovish pivot under Governor Breman creates a domestic rates handicap reinforced by global risk-off. NZD is typically the first currency cut in risk-off episodes. Antipodeans strengthened mildly Friday morning alongside AUD. No NZD domestic data today — entirely driven by China headlines and global risk sentiment. Weekly Strong Bearish + Daily Bearish = perfect alignment for shorts.",
       "drivers": [
-        "China NPC: GDP 4.5%-5.0%, CNY 800bln policy tools — NZD positive via trade",
-        "NZD steadier — set to end European session firmer alongside AUD",
-        "RBNZ dovish pivot intact — OCR to remain at current levels near term",
-        "No domestic data today — entirely China and risk sentiment driven",
-        "Iran war escalation: key tail risk for NZD recovery"
+        "Most vulnerable G10 — first cut in risk-off, carry unwind target",
+        "RBNZ dovish pivot: OCR at current levels near term",
+        "China 2026 GDP target 4.5%-5.0% (lowest since 1991) — NZD negative",
+        "NZD mildly firmer Friday morning — fragile recovery alongside AUD",
+        "No domestic data today — entirely sentiment and China driven"
       ]
     }
   },
@@ -186,6 +186,20 @@
     {
       "day": "FRI",
       "time": "14:30",
+      "currency": "CAD",
+      "event": "Employment Change",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "time": "14:30",
+      "currency": "CAD",
+      "event": "Unemployment Rate",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "time": "14:30",
       "currency": "USD",
       "event": "Core Retail Sales m/m",
       "impact": "High"
@@ -203,52 +217,52 @@
       "name": "US 10Y Treasury",
       "bias": "Bearish",
       "yield": "Higher",
-      "summary": "10yr UST futures remained subdued after retreating Wednesday amid higher yields and better-than-expected ISM Services (56.1) and ADP (63K). Iran-CIA peace rumour (later denied) provided brief support, but the inflationary angle of the war dominates. Fed Miran: 100bps of easing appropriate in 2026, March cut appropriate. Fed Hammack: hold rates for 'quite some time'. Today's Unemployment Claims are the key NFP preview catalyst.",
+      "summary": "T-note futures settled 16 ticks lower at 112-10 on Thursday. 10yr yield at 4.125% (+4.3bps), 2yr at 3.574% (+3.1bps). Energy prices continue to rise, stoking inflationary fears. European nat gas prices rising — ECB rate hike probability by year-end now 75% (vs 25% Tuesday). Fed likely to hold in March/April. Rabo: under Warsh, June cut possible if Fed looks through energy price effects. NFP today is the key catalyst for yield direction.",
       "drivers": [
-        "USTs subdued — ISM Services 56.1 and ADP 63K beat pushed yields higher",
-        "Iran-CIA peace rumour (denied) provided brief support — quickly faded",
-        "Fed Miran: 100bps easing in 2026, March cut appropriate",
-        "Fed Hammack: hold rates steady for 'quite some time'",
-        "Unemployment Claims today (14:30) — NFP preview, key yield catalyst"
+        "T-notes settled 16 ticks lower at 112-10 — energy inflation fears",
+        "10yr yield 4.125% (+4.3bps), 2yr 3.574% (+3.1bps)",
+        "ECB rate hike probability by year-end: 75% (vs 25% Tuesday)",
+        "Rabo: Warsh may push for June cut, looking through energy effects",
+        "NFP today 14:30 Frankfurt — key yield direction catalyst"
       ]
     },
     {
       "name": "German 10Y Bund",
-      "bias": "Neutral",
-      "yield": "Mixed",
-      "summary": "Bunds held in the upper half of 128.80-129.32 range, managing to stay in the green despite higher energy prices stoking inflationary concerns. Iran-CIA peace rumour (later denied) briefly supported Bunds via lower nat gas (Dutch TTF -10% front-month). Morgan Stanley now expects ECB to hold all 2026 — stagflationary signal. ECB Lagarde speaks today — key for Bund direction.",
+      "bias": "Bearish",
+      "yield": "Higher",
+      "summary": "Bunds ended Thursday off by ~90 ticks, at the bottom end of 127.29-128.03 range. ECB de Guindos: could change policy if inflation expectations change. ECB Minutes: several see rates on hold for extended period. German pensions to increase 4.24% from July — mild inflationary pressure. Bund futures attempting to nurse losses Friday morning but recovery contained ahead of NFP. EZ GDP 3rd estimate Q4 due today.",
       "drivers": [
-        "Bunds in 128.80-129.32 range — managed to stay green",
-        "Dutch TTF -10% front-month on Iran peace rumour (later denied)",
-        "Morgan Stanley: ECB holds all 2026 — stagflation risk",
-        "ECB Lagarde speaks today — key for Bund direction",
-        "Germany sold EUR 0.96bln 2033 Green Bund (b/c 1.76x, weak demand)"
+        "Bunds off ~90 ticks — 127.29-128.03 range, bottom end",
+        "ECB de Guindos: policy could change if inflation expectations shift",
+        "ECB Minutes: several see rates on hold for extended period",
+        "German pensions +4.24% from July — mild inflationary signal",
+        "EZ GDP 3rd estimate Q4 due today — Bund direction catalyst"
       ]
     },
     {
       "name": "Japan 10Y JGB",
       "bias": "Neutral",
       "yield": "Mixed",
-      "summary": "10yr JGB futures tracked the downside in global peers amid rising yield environment. Japan sold JPY 530bln 30yr JGBs with solid demand (b/c 3.66x, prev. 3.64x), average yield 3.398% (prev. 3.615%) — lower yield accepted, positive for JGBs. BoJ Ueda: wages rising broadly, real wages to turn positive. April hike not ruled out per Bloomberg sources.",
+      "summary": "JGB futures choppy Thursday amid tentative mood in Japan with lack of tier-1 data. 10yr JGB futures languished near prior day's lows. BoJ Himino confirmed gradual adjustment of monetary accommodation. April hike not ruled out. JGB futures choppy Friday morning amid indecisive APAC mood.",
       "drivers": [
-        "JGB futures tracked global peers lower — rising yield environment",
-        "Japan 30yr JGB auction solid: b/c 3.66x, yield 3.398% (lower than prev.)",
-        "BoJ Ueda: wages rising broadly in 2026, real wages to turn positive",
-        "BoJ sources: April hike not ruled out, March unlikely",
-        "USD/JPY 156.85-157.86 — approaching intervention zone"
+        "JGB futures choppy — tentative mood, no tier-1 data",
+        "BoJ Himino: gradually adjusting monetary accommodation",
+        "April hike not ruled out per Bloomberg sources",
+        "JGB futures choppy Friday morning — indecisive APAC mood",
+        "USD/JPY 156.44-157.78 — approaching intervention zone"
       ]
     },
     {
       "name": "UK 10Y Gilt",
-      "bias": "Neutral",
-      "yield": "Mixed",
-      "summary": "Gilts bounced +80 ticks from Tuesday's collapse, gapping higher by 37 ticks at the open and climbing to 92.34 peak. However, the recovery left Gilts shy of Tuesday's 92.47 opening and well below the week's 93.55 open. Goldman Sachs pushed next BoE cut to April (from March). UK has no domestic data today — Gilt direction driven by global risk sentiment and Iran war narrative.",
+      "bias": "Bearish",
+      "yield": "Higher",
+      "summary": "Gilts ended Thursday lower by ~100 ticks, within 91.18-92.15 range. UK 10yr yield above 4.5%. Underperformance a factor of catch-up to prior day's action across peers. PM Starmer press conference on Iran offered no impulses. Goldman Sachs: BoE April cut. No UK data today — Gilt direction driven by global risk sentiment.",
       "drivers": [
-        "Gilts bounced +80 ticks from collapse — gapped higher 37 ticks at open",
-        "Recovery to 92.34 peak — shy of Tue 92.47 open, well below 93.55 week open",
-        "Goldman Sachs: BoE April cut (from March), then July, November",
-        "No UK data today — Gilt direction driven by geopolitics",
-        "UK 2yr yield remains elevated after biggest daily rise since May 2025"
+        "Gilts off ~100 ticks — 91.18-92.15 range, underperformance vs peers",
+        "UK 10yr yield above 4.5% — elevated",
+        "PM Starmer: Iran conflict could continue for some time",
+        "Goldman Sachs: BoE April cut, then July, November",
+        "No UK data today — global risk sentiment and Iran narrative"
       ]
     }
   ]
