@@ -24,6 +24,7 @@ import {
 } from "lucide-react";
 import weeklyData from "../data/weeklyBias.json";
 import dailyData from "../data/dailyRecap.json";
+import HistoryPage from "./History";
 
 // Prop-firm mandatory close events — these require position closure before release
 const PROP_FIRM_CLOSE_EVENTS: { currency: string; keywords: string[] }[] = [
@@ -280,7 +281,7 @@ const TradeCard = ({ trade, index }: { trade: any, index: number }) => {
 
 export default function Home() {
   const [filter, setFilter] = useState("All");
-  const [viewMode, setViewMode] = useState<"WEEKLY" | "DAILY">("DAILY");
+  const [viewMode, setViewMode] = useState<"WEEKLY" | "DAILY" | "HISTORY">("DAILY");
   const [currentTime, setCurrentTime] = useState(new Date());
   const [isExporting, setIsExporting] = useState(false);
   const dashboardRef = useRef<HTMLDivElement>(null);
@@ -624,11 +625,24 @@ export default function Home() {
             >
               Daily View
             </button>
+            <button 
+              onClick={() => setViewMode("HISTORY")}
+              className={`px-4 py-1.5 text-[10px] font-bold font-mono uppercase tracking-wider transition-all ${
+                viewMode === "HISTORY" 
+                  ? "bg-orange-500 text-black shadow-[0_0_10px_rgba(249,115,22,0.3)]" 
+                  : "text-gray-500 hover:text-gray-300"
+              }`}
+            >
+              History
+            </button>
           </div>
         </div>
 
+        {/* History View */}
+        {viewMode === "HISTORY" && <HistoryPage />}
+
         {/* Market Overview Section */}
-        {viewMode === "WEEKLY" ? (
+        {viewMode !== "HISTORY" && viewMode === "WEEKLY" ? (
           <div className="space-y-6 mb-8">
             {/* New Layout: Market Overview Left, Swing Watchlists Right */}
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
