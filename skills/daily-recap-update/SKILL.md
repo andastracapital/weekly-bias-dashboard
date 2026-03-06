@@ -261,7 +261,34 @@ Weekly: "Weak Bearish" + Daily: "Neutral" = ❌ NOT ALIGNED
 - Verify Red Folder News shows only today's events in UI
 - Verify High Conviction Setups use correct FX pair notation
 
-**8. Commit and checkpoint**:
+**8. Write to History database**:
+After rebuilding `dailyRecap.json`, call the tRPC endpoint to persist today's entry:
+```
+POST http://localhost:3000/api/trpc/history.upsert
+Body: {
+  "date": "YYYY-MM-DD",  // ISO date of today
+  "weekRange": "Mar 2 - Mar 8, 2026",  // from weeklyBias.json week field
+  "swingWatchlist": [...],  // from weeklyBias.json swingWatchlist (all pairs)
+  "swingSetups": [...],    // computed High Conviction Setups (Weekly+Daily aligned)
+  "intradayTrades": [...]  // computed Intraday Trades (Daily only, deduplicated)
+}
+```
+
+**Alternatively via curl:**
+```bash
+curl -X POST http://localhost:3000/api/trpc/history.upsert \
+  -H "Content-Type: application/json" \
+  -d '{"json":{"date":"YYYY-MM-DD","weekRange":"...","swingWatchlist":[...],"swingSetups":[...],"intradayTrades":[...]}}'
+```
+
+**Data to extract from dailyRecap.json + weeklyBias.json:**
+- `date`: Today's ISO date (e.g., "2026-03-05")
+- `weekRange`: `weeklyBias.json` → `week` field
+- `swingWatchlist`: All pairs from `weeklyBias.json` → `swingWatchlist` (both LONG and SHORT)
+- `swingSetups`: Computed High Conviction Setups (Weekly+Daily directional alignment)
+- `intradayTrades`: Computed Intraday Trades (Daily only, after deduplication)
+
+**9. Commit and checkpoint**:
 - Mark todo.md task as [x] completed
 - Commit to Git: `git add -A && git commit -m "Daily Recap Update - [Date]" && git push origin main`
 - Save checkpoint if using Manus webdev project
@@ -301,6 +328,7 @@ Before committing, verify:
 - [ ] Dashboard UI shows only today's Red Folder events
 - [ ] Dev server error-free (if using webdev project)
 - [ ] todo.md task marked [x]
+- [ ] History entry written to database (date, weekRange, swingWatchlist, swingSetups, intradayTrades)
 - [ ] Committed to Git and pushed to GitHub
 
 ## Key Reminders
