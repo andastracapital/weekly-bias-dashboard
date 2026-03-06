@@ -15,6 +15,20 @@
       "when": 1771883425441,
       "tag": "0001_tidy_spot",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1772777149410,
+      "tag": "0002_brief_the_executioner",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1772777177467,
+      "tag": "0003_white_khan",
+      "breakpoints": true
     }
   ]
 }

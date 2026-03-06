@@ -1,6 +1,6 @@
-import { eq, desc } from "drizzle-orm";
+import { eq, desc, and } from "drizzle-orm";
 import { drizzle } from "drizzle-orm/mysql2";
-import { InsertUser, users, files, InsertFile } from "../drizzle/schema";
+import { InsertUser, users, files, InsertFile, historyEntries, InsertHistoryEntry } from "../drizzle/schema";
 import { ENV } from './_core/env';
 
 let _db: ReturnType<typeof drizzle> | null = null;
@@ -102,13 +102,11 @@ export async function getUserFiles(userId: number, category?: string) {
   const db = await getDb();
   if (!db) throw new Error("Database not available");
   
-  let query = db.select().from(files).where(eq(files.userId, userId));
+  const whereClause = category
+    ? and(eq(files.userId, userId), eq(files.category, category))
+    : eq(files.userId, userId);
   
-  if (category) {
-    query = query.where(eq(files.category, category));
-  }
-  
-  return query.orderBy(desc(files.createdAt));
+  return db.select().from(files).where(whereClause).orderBy(desc(files.createdAt));
 }
 
 export async function getFileById(fileId: number) {
@@ -128,4 +126,27 @@ export async function deleteFile(fileId: number, userId: number) {
     .where(eq(files.id, fileId));
   
   return result;
+}
+
+// History entry functions
+export async function getAllHistoryEntries() {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  
+  return db.select().from(historyEntries).orderBy(desc(historyEntries.date));
+}
+
+export async function upsertHistoryEntry(entry: InsertHistoryEntry) {
+  const db = await getDb();
+  if (!db) throw new Error("Database not available");
+  
+  await db.insert(historyEntries).values(entry).onDuplicateKeyUpdate({
+    set: {
+      weekRange: entry.weekRange,
+      swingWatchlist: entry.swingWatchlist,
+      swingSetups: entry.swingSetups,
+      intradayTrades: entry.intradayTrades,
+      updatedAt: new Date(),
+    },
+  });
 }

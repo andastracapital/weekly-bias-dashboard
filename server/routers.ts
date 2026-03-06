@@ -4,7 +4,7 @@ import { systemRouter } from "./_core/systemRouter";
 import { publicProcedure, protectedProcedure, router } from "./_core/trpc";
 import { z } from "zod";
 import { storagePut } from "./storage";
-import { createFile, getUserFiles, getFileById, deleteFile } from "./db";
+import { createFile, getUserFiles, getFileById, deleteFile, getAllHistoryEntries, upsertHistoryEntry } from "./db";
 import { nanoid } from "nanoid";
 
 export const appRouter = router({
@@ -111,6 +111,43 @@ export const appRouter = router({
         
         await deleteFile(input.id, ctx.user.id);
         
+        return { success: true };
+      }),
+  }),
+
+  history: router({
+    /**
+     * Get all history entries ordered by date descending
+     */
+    list: publicProcedure.query(async () => {
+      const entries = await getAllHistoryEntries();
+      return entries.map(e => ({
+        ...e,
+        swingWatchlist: JSON.parse(e.swingWatchlist || '[]') as Array<{pair: string; direction: string}>,
+        swingSetups: JSON.parse(e.swingSetups || '[]') as Array<{pair: string; direction: string}>,
+        intradayTrades: JSON.parse(e.intradayTrades || '[]') as Array<{pair: string; direction: string}>,
+      }));
+    }),
+
+    /**
+     * Upsert a history entry (insert or update by date)
+     */
+    upsert: publicProcedure
+      .input(z.object({
+        date: z.string(),
+        weekRange: z.string().optional(),
+        swingWatchlist: z.array(z.object({ pair: z.string(), direction: z.string() })),
+        swingSetups: z.array(z.object({ pair: z.string(), direction: z.string() })),
+        intradayTrades: z.array(z.object({ pair: z.string(), direction: z.string() })),
+      }))
+      .mutation(async ({ input }) => {
+        await upsertHistoryEntry({
+          date: input.date,
+          weekRange: input.weekRange,
+          swingWatchlist: JSON.stringify(input.swingWatchlist),
+          swingSetups: JSON.stringify(input.swingSetups),
+          intradayTrades: JSON.stringify(input.intradayTrades),
+        });
         return { success: true };
       }),
   }),

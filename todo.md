@@ -125,3 +125,17 @@
 
 - [x] Add JPY/BoJ to PROP_FIRM_CLOSE_EVENTS in Home.tsx
 - [x] Update prop-firm-close-warning skill with JPY/BoJ
+
+## Feature: History Page (3rd Tab) (COMPLETED)
+
+- [x] Add history_entries table to drizzle schema (date, weekRange, swingWatchlist, swingSetups, intradayTrades)
+- [x] Run db:push migration to create table in TiDB
+- [x] Add getAllHistoryEntries + upsertHistoryEntry DB helpers to server/db.ts
+- [x] Add history.list + history.upsert tRPC procedures to server/routers.ts
+- [x] Build History.tsx page with descending date table (newest first)
+- [x] Add HISTORY tab to Home.tsx viewMode state and tab navigation
+- [x] Seed 24 historical entries from screenshots (Jan 28 - Mar 5, 2026)
+- [x] Write 12 Vitest tests for history endpoints and FX pair validation
+- [x] Update daily-recap-update skill with auto-write step (step 8)
+- [x] Save checkpoint
+- [x] Push to GitHub

@@ -53,3 +53,27 @@ export const files = mysqlTable("files", {
 
 export type File = typeof files.$inferSelect;
 export type InsertFile = typeof files.$inferInsert;
+
+/**
+ * History entries table for the History page.
+ * Each row represents one Daily Recap Update, storing the
+ * Swing Watchlist (from Weekly View), Swing Setups, and Intraday Trades.
+ */
+export const historyEntries = mysqlTable("history_entries", {
+  id: int("id").autoincrement().primaryKey(),
+  /** Date of the daily recap update (YYYY-MM-DD) */
+  date: varchar("date", { length: 10 }).notNull().unique(),
+  /** Week range label, e.g. "Feb 9 - Feb 15, 2026" */
+  weekRange: varchar("weekRange", { length: 64 }),
+  /** Swing Watchlist pairs from Weekly View, JSON array of {pair, direction} */
+  swingWatchlist: varchar("swingWatchlist", { length: 2000 }).notNull().default("[]"),
+  /** Swing Setups (High Conviction) from Daily View, JSON array of {pair, direction} */
+  swingSetups: varchar("swingSetups", { length: 2000 }).notNull().default("[]"),
+  /** Intraday Trades (Base Hits) from Daily View, JSON array of {pair, direction} */
+  intradayTrades: varchar("intradayTrades", { length: 2000 }).notNull().default("[]"),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().onUpdateNow().notNull(),
+});
+
+export type HistoryEntry = typeof historyEntries.$inferSelect;
+export type InsertHistoryEntry = typeof historyEntries.$inferInsert;
