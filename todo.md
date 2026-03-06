@@ -140,7 +140,14 @@
 - [x] Save checkpoint
 - [x] Push to GitHub
 
-## Bug Fix: History Page Data Accuracy (CURRENT TASK)
+## Bug Fix: History - Store ALL Swing Setups (not just Top 3) (CURRENT TASK)
+
+- [x] Update Home.tsx: pass all swing setups (not slice(0,3)) to history upsert
+- [x] Update all existing DB entries to store full swing setup lists (Mar 6: 12 setups)
+- [x] Update History.tsx display to show all setups cleanly (PairList flex-wrap already handles it)
+- [x] Save checkpoint and push to GitHub
+
+## Bug Fix: History Page Data Accuracy (COMPLETED)
 
 - [ ] Understand the bug: check what Intraday Trades were actually shown vs auto-generated
 - [ ] Re-extract all 24+ historical entries from screenshots with strict accuracy

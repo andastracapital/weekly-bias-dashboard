@@ -1,0 +1,20 @@
+{
+  "query": "SELECT * FROM history_entries WHERE date = '2026-03-06';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 7TjtJQnfa2Kwkro.4e1521e67c69 --database V3jhfwe58vLcvVL6hokMxo --execute SELECT * FROM history_entries WHERE date = '2026-03-06';",
+  "rows": [
+    {
+      "id": "30026",
+      "date": "2026-03-06",
+      "weekRange": "Mar 2 - Mar 8, 2026",
+      "swingWatchlist": "[{\"pair\":\"EUR/USD\",\"direction\":\"SHORT\"},{\"pair\":\"GBP/USD\",\"direction\":\"SHORT\"},{\"pair\":\"AUD/USD\",\"direction\":\"SHORT\"},{\"pair\":\"NZD/USD\",\"direction\":\"SHORT\"},{\"pair\":\"EUR/JPY\",\"direction\":\"SHORT\"},{\"pair\":\"GBP/JPY\",\"direction\":\"SHORT\"}]",
+      "swingSetups": "[{\"pair\":\"EUR/USD\",\"direction\":\"SHORT\"},{\"pair\":\"GBP/USD\",\"direction\":\"SHORT\"},{\"pair\":\"EUR/JPY\",\"direction\":\"SHORT\"}]",
+      "intradayTrades": "[]",
+      "createdAt": "2026-03-06 07:02:39",
+      "updatedAt": "2026-03-06 07:02:39"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tdate\tweekRange\tswingWatchlist\tswingSetups\tintradayTrades\tcreatedAt\tupdatedAt\n30026\t2026-03-06\tMar 2 - Mar 8, 2026\t[{\"pair\":\"EUR/USD\",\"direction\":\"SHORT\"},{\"pair\":\"GBP/USD\",\"direction\":\"SHORT\"},{\"pair\":\"AUD/USD\",\"direction\":\"SHORT\"},{\"pair\":\"NZD/USD\",\"direction\":\"SHORT\"},{\"pair\":\"EUR/JPY\",\"direction\":\"SHORT\"},{\"pair\":\"GBP/JPY\",\"direction\":\"SHORT\"}]\t[{\"pair\":\"EUR/USD\",\"direction\":\"SHORT\"},{\"pair\":\"GBP/USD\",\"direction\":\"SHORT\"},{\"pair\":\"EUR/JPY\",\"direction\":\"SHORT\"}]\t[]\t2026-03-06 07:02:39\t2026-03-06 07:02:39\n",
+  "stderr": "",
+  "execution_time_ms": 53
+}

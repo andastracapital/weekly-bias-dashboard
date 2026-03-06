@@ -1,0 +1,8 @@
+{
+  "query": "SELECT date, swing_watchlist, swing_setups, intraday_trades FROM history_entries WHERE date = '2026-03-06';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 7TjtJQnfa2Kwkro.4e1521e67c69 --database V3jhfwe58vLcvVL6hokMxo --execute SELECT date, swing_watchlist, swing_setups, intraday_trades FROM history_entries WHERE date = '2026-03-06';",
+  "returncode": 1,
+  "logs": [
+    "ERROR 1054 (42S22) at line 1: Unknown column 'swing_watchlist' in 'field list'"
+  ]
+}
