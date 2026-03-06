@@ -319,10 +319,20 @@ const correctedEntries = [
   {
     date: '2026-03-06',
     weekRange: 'Mar 2 - Mar 8, 2026',
+    // ALL 12 High Conviction Setups: Bullish (USD, JPY, CHF) x Bearish (EUR, GBP, AUD, NZD)
     swingSetups: [
       { pair: 'EUR/USD', direction: 'SHORT' },
       { pair: 'GBP/USD', direction: 'SHORT' },
+      { pair: 'AUD/USD', direction: 'SHORT' },
+      { pair: 'NZD/USD', direction: 'SHORT' },
       { pair: 'EUR/JPY', direction: 'SHORT' },
+      { pair: 'GBP/JPY', direction: 'SHORT' },
+      { pair: 'AUD/JPY', direction: 'SHORT' },
+      { pair: 'NZD/JPY', direction: 'SHORT' },
+      { pair: 'EUR/CHF', direction: 'SHORT' },
+      { pair: 'GBP/CHF', direction: 'SHORT' },
+      { pair: 'AUD/CHF', direction: 'SHORT' },
+      { pair: 'NZD/CHF', direction: 'SHORT' },
     ],
     intradayTrades: [], // NFP day - no intraday trades (prop firm close warning active)
   },

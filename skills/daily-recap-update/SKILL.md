@@ -269,7 +269,7 @@ Body: {
   "date": "YYYY-MM-DD",  // ISO date of today
   "weekRange": "Mar 2 - Mar 8, 2026",  // from weeklyBias.json week field
   "swingWatchlist": [...],  // from weeklyBias.json swingWatchlist (all pairs)
-  "swingSetups": [...],    // computed High Conviction Setups (Weekly+Daily aligned)
+  "swingSetups": [...],    // ALL computed High Conviction Setups (Weekly+Daily aligned) — store ALL pairs, NOT just Top 3
   "intradayTrades": [...]  // computed Intraday Trades (Daily only, deduplicated)
 }
 ```
@@ -285,7 +285,7 @@ curl -X POST http://localhost:3000/api/trpc/history.upsert \
 - `date`: Today's ISO date (e.g., "2026-03-05")
 - `weekRange`: `weeklyBias.json` → `week` field
 - `swingWatchlist`: All pairs from `weeklyBias.json` → `swingWatchlist` (both LONG and SHORT)
-- `swingSetups`: Computed High Conviction Setups (Weekly+Daily directional alignment)
+- `swingSetups`: ALL Computed High Conviction Setups (Weekly+Daily directional alignment) — store EVERY aligned pair (e.g. 3 bullish × 4 bearish = 12 pairs → store all 12, not just top 3)
 - `intradayTrades`: Computed Intraday Trades (Daily only, after deduplication)
 
 **9. Commit and checkpoint**:
