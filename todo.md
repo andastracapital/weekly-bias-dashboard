@@ -139,3 +139,11 @@
 - [x] Update daily-recap-update skill with auto-write step (step 8)
 - [x] Save checkpoint
 - [x] Push to GitHub
+
+## Bug Fix: History Page Data Accuracy (CURRENT TASK)
+
+- [ ] Understand the bug: check what Intraday Trades were actually shown vs auto-generated
+- [ ] Re-extract all 24+ historical entries from screenshots with strict accuracy
+- [ ] Fix all incorrect DB entries (no auto-generated Intraday Trades if not shown)
+- [ ] Add correct Swing Watchlist for Mar 6, 2026
+- [ ] Save checkpoint and push to GitHub
