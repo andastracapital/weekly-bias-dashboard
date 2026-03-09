@@ -1,273 +1,166 @@
 {
-  "week": "Mar 2 - Mar 8, 2026",
-  "marketOverview": "Global markets enter the week under the shadow of Operation Epic Fury — the joint US-Israeli strike on Iranian nuclear and missile infrastructure launched Saturday, March 1. Tehran retaliated with missile strikes on US assets in Bahrain, Middle Eastern airspace is closed, and the Strait of Hormuz faces effective disruption. Brent crude is projected to gap toward $100 at Monday's open, triggering a sharp rotation into USD, JPY, and CHF as premier havens. High-beta currencies (AUD, NZD) face significant gap-down risk, while CAD is caught between energy windfall and domestic weakness. The week's key data — Eurozone CPI Flash, UK Spring Statement, US NFP, and CAD Employment — will determine whether risk sentiment stabilizes or deteriorates further.",
+  "week": "Mar 9 - Mar 15, 2026",
+  "marketOverview": "Global markets remain gripped by the Third Gulf War narrative as the US-Israeli conflict with Iran enters its second week. The Strait of Hormuz disruption continues to dominate price action, with WTI crude holding above $90/bbl after a $13.50 surge last week. The key macro shift: JPY has failed as a haven due to Japan's extreme energy import dependence (90%+ from the Middle East), while CAD has emerged as the G10 outperformer as a net energy exporter. USD retains its liquidity premium but faces a new headwind from a shock NFP miss (-92k vs +59k exp). The week's critical data — US CPI (Wed), US PCE + GDP (Fri), UK GDP (Fri), and CAD Jobs (Fri) — will determine whether the stagflation narrative intensifies or the labor market damage forces a Fed pivot.",
   "currencies": [
     {
       "code": "USD",
       "name": "US Dollar",
-      "bias": "Strong Bullish",
-      "rationale": "USD enters the week with a dual haven and rate premium advantage. The weekend escalation in the Middle East reinforces the Dollar's liquidity premium as investors rotate into US Treasuries and the Greenback. Domestically, Core PPI overshot at +0.8% MoM (vs +0.3% exp), Consumer Confidence rose to 91.2 (vs 87.0 exp), and Initial Jobless Claims held firm at 212k. The global tariff increase to 15% under Section 122 adds structural USD support via higher federal revenue expectations and sticky inflation. ISM Manufacturing PMI on Monday and NFP on Friday are the key data tests.",
+      "bias": "Weak Bullish",
+      "rationale": "USD retains its safe-haven and liquidity premium as the dominant G10 reserve currency during the Gulf War shock, but the bullish case has become more conditional after February NFP showed a shock -92k print (vs +59k exp) and unemployment rose to 4.4%. The energy exporter advantage — US terms-of-trade benefit while EUR and JPY face crippling import costs — keeps the Dollar supported against the basket, and war-driven inflation (ISM Manufacturing Prices Paid 70.5, highest since mid-2022) limits the Fed's ability to ease quickly. CPI on Wednesday and PCE/GDP on Friday are the key tests: a hot CPI would reinforce the stagflation bid, while soft data could accelerate the market's repricing toward US slowdown.",
       "drivers": [
-        "Operation Epic Fury: US-Iran war risk, Strait of Hormuz disruption",
-        "Core PPI +0.8% MoM (vs +0.3% exp, hot)",
-        "Consumer Confidence 91.2 (vs 87.0 exp, beat)",
-        "Section 122 global tariff raised to 15%",
-        "Fed Musalem: ~50% of inflation is tariff-driven",
-        "ISM Manufacturing PMI (MON) + NFP (FRI) key tests"
+        "Haven and liquidity premium: dominant reserve currency in stress",
+        "Energy exporter advantage: US terms-of-trade benefit vs EUR/JPY",
+        "NFP shock: -92k (vs +59k exp), unemployment 4.4% — limits bullish conviction",
+        "ISM Manufacturing Prices Paid 70.5 (highest since mid-2022, stagflation signal)",
+        "Warsh Fed Chair nomination signals future hawkish leadership shift",
+        "CPI (WED) + PCE/GDP/JOLTS (FRI) are key data tests"
       ],
       "events": [
-        {
-          "day": "MON",
-          "event": "ISM Manufacturing PMI",
-          "impact": "High"
-        },
-        {
-          "day": "WED",
-          "event": "ADP Non-Farm Employment",
-          "impact": "High"
-        },
-        {
-          "day": "THU",
-          "event": "Unemployment Claims",
-          "impact": "High"
-        },
-        {
-          "day": "FRI",
-          "event": "Non-Farm Payrolls (NFP)",
-          "impact": "Critical"
-        },
-        {
-          "day": "FRI",
-          "event": "Unemployment Rate",
-          "impact": "High"
-        }
+        { "day": "WED", "event": "Core CPI m/m", "impact": "High" },
+        { "day": "WED", "event": "CPI m/m", "impact": "High" },
+        { "day": "WED", "event": "CPI y/y", "impact": "High" },
+        { "day": "THU", "event": "Unemployment Claims", "impact": "High" },
+        { "day": "FRI", "event": "Core PCE Price Index m/m", "impact": "High" },
+        { "day": "FRI", "event": "Prelim GDP q/q", "impact": "High" },
+        { "day": "FRI", "event": "JOLTS Job Openings", "impact": "High" }
       ]
     },
     {
       "code": "EUR",
       "name": "Euro",
       "bias": "Weak Bearish",
-      "rationale": "EUR faces a difficult week as a large net energy importer exposed to the Strait of Hormuz disruption. Sticky Eurozone inflation (Core HICP 2.2%, French CPI 1.0% vs 0.8% exp) keeps the ECB cautious, but the energy shock threatens to compress real incomes and raise downside growth risks. The EU Parliament is targeting a March approval vote for the EU-US trade deal to avoid escalation, but trade uncertainty remains an overhang. EUR can outperform high-beta currencies in risk-off, but typically lags USD and CHF when liquidity preference dominates. Tuesday's CPI Flash Estimate is the key data release.",
+      "rationale": "EUR remains under structural pressure as the Eurozone's critical vulnerability as a net energy importer is fully exposed. QatarEnergy's halt of LNG production sent Dutch TTF gas prices up 40% intraday, and the Eurozone Flash CPI surprise (1.9% vs 1.7% exp, Core 2.4%) was read through a stagflation lens rather than as a currency positive. ECB officials have shifted from cuts to discussing potential hikes, but the market is treating higher energy prices as a growth problem first — leaving EUR stranded between firmer front-end pricing and a deteriorating real income outlook. German Final CPI on Wednesday is the only domestic data release; the bigger signal remains whether gas stress and broader risk sentiment keep crowding out the rates support.",
       "drivers": [
-        "Energy importer: Strait of Hormuz disruption raises oil costs",
-        "Eurozone Core HICP 2.2% (sticky, limits ECB easing)",
-        "German Ifo 88.6 (beat, rare positive signal)",
-        "EU-US trade deal: Parliament targets March approval vote",
-        "MFS banking stress: European lender exposure (Santander, Barclays)",
-        "ECB Lagarde speech (MON + THU) key for guidance"
+        "QatarEnergy LNG halt: Dutch TTF gas +40% intraday, Energy Crisis 2.0",
+        "Stagflation trap: CPI 1.9% (hot) but market reads it as growth negative",
+        "ECB repricing: from cuts to 75% probability of hike by year-end",
+        "Trump threatened trade actions against Spain (military base dispute)",
+        "EUR/USD fell ~2.5 cents on the week (1.1800 to 1.1546)",
+        "German Final CPI (WED) only domestic release this week"
       ],
       "events": [
-        {
-          "day": "MON",
-          "event": "ECB Lagarde Speech",
-          "impact": "High"
-        },
-        {
-          "day": "TUE",
-          "event": "Core CPI Flash Estimate y/y",
-          "impact": "Critical"
-        },
-        {
-          "day": "TUE",
-          "event": "CPI Flash Estimate y/y",
-          "impact": "High"
-        },
-        {
-          "day": "THU",
-          "event": "ECB Lagarde Speech",
-          "impact": "High"
-        },
-        {
-          "day": "THU",
-          "event": "ECB Meeting Accounts",
-          "impact": "High"
-        }
+        { "day": "WED", "event": "German Final CPI m/m", "impact": "High" }
       ]
     },
     {
       "code": "GBP",
       "name": "British Pound",
-      "bias": "Strong Bearish",
-      "rationale": "GBP enters the week at the epicenter of a domestic and external storm. The collapse of UK lender MFS (fraud, double-pledging) has triggered a localized credit scare, while Labour's historic by-election defeat puts PM Starmer's leadership under scrutiny ahead of the Spring Statement on Tuesday. As a net energy importer, the UK faces a stagflationary shock from the oil spike, complicating the BoE's expectation of being near target by April. British Airways has already suspended Middle Eastern flights. The Spring Statement on Tuesday is the critical domestic catalyst, while BoE guidance (Bailey: April cut 'genuinely open') keeps front end vulnerable.",
+      "bias": "Weak Bullish",
+      "rationale": "Sterling surprised to the upside last week as the collapse of near-term BoE rate cut expectations became the dominant driver, overriding the UK's energy importer vulnerability. Markets effectively priced out BoE easing for all of 2026 after the energy shock, sending 2-year Gilt yields above 4.00% in their biggest daily rise since May 2025. While the Spring Statement downgraded 2026 growth to 1.1% (from 1.4%) and Fitch warned of fiscal weakening, the relative rates channel proved more powerful than the growth headwinds. The risk to the weak bullish call is Governor Bailey's speech on Thursday — if he sounds more relaxed about inflation, the gilt yield support could fade quickly.",
       "drivers": [
-        "MFS lender collapse: fraud, credit contagion risk (Barclays exposed)",
-        "Labour by-election defeat: Starmer leadership risk",
-        "Energy importer: oil spike = inflationary tax on UK consumer",
-        "CBI Distributive Trades -43 (vs -16 exp, sharp contraction)",
-        "GfK Consumer Confidence at weakest since Nov 2025",
-        "BoE: April cut 'genuinely open' (Bailey)"
+        "BoE easing priced out for all of 2026: 2-year Gilt yield above 4.00%",
+        "Relative rates support: gilt yields rose hard vs peers",
+        "Spring Statement: 2026 growth downgraded to 1.1% (from 1.4%)",
+        "Fitch warning: UK fiscal position weakening, energy sensitivity",
+        "Iran drone strike on RAF Cyprus base: early week GBP headwind",
+        "BoE Gov Bailey Speech (THU) + GDP (FRI) are key catalysts"
       ],
       "events": [
-        {
-          "day": "MON",
-          "event": "Final Manufacturing PMI",
-          "impact": "Medium"
-        },
-        {
-          "day": "TUE",
-          "event": "Annual Budget Release (Spring Statement)",
-          "impact": "Critical"
-        },
-        {
-          "day": "WED",
-          "event": "Final Services PMI",
-          "impact": "Medium"
-        }
+        { "day": "THU", "event": "BoE Gov Bailey Speech", "impact": "High" },
+        { "day": "FRI", "event": "GDP m/m", "impact": "High" }
       ]
     },
     {
       "code": "JPY",
       "name": "Japanese Yen",
-      "bias": "Strong Bullish",
-      "rationale": "JPY is the primary FX beneficiary of the weekend's military escalation. Haven demand and carry trade liquidation are set to dominate the opening sessions, overpowering the domestic political headwinds from PM Takaichi's appointment of reflationist BoJ board members. While Tokyo Core CPI slipped below the BoJ's 2% target (1.8% vs 2.0%), the immediate market reaction rewards safety first. Governor Ueda maintains a hiking bias in parliament, and hawkish dissenter Takata continues to call for gradual further hikes. Japan's energy import sensitivity is a real macro headwind, but it operates with a lag — the initial market reaction is a violent flight into JPY.",
+      "bias": "Weak Bearish",
+      "rationale": "JPY suffered a haven failure last week as Japan's extreme energy import dependence (90%+ of crude from the Middle East) overwhelmed the usual defensive bid. USD/JPY broke above 158.00 even as US yields fell after the NFP miss — a clear sign the energy channel is now the dominant driver. BoJ communication remained mixed: Ueda signaled wages are rising broadly, but Himino struck a cautious tone on Friday, reinforcing that policy stays accommodative despite the oil shock. Intervention warnings from Finance Minister Suzuki were largely ignored by the market. Final GDP on Monday and PPI on Tuesday are the key domestic releases.",
       "drivers": [
-        "Operation Epic Fury: ultimate haven demand, carry liquidation",
-        "PM Takaichi appoints reflationist BoJ board members (dovish headwind)",
-        "Tokyo Core CPI 1.8% (below BoJ 2% target for first time since Oct 2024)",
-        "BoJ Ueda maintains hiking bias in parliament",
-        "BoJ Takata: gradual further hikes needed",
-        "USD/JPY peaked at 156.82 on political pressure, then reversed"
+        "Haven failure: energy importer shock overwhelmed defensive bid",
+        "Japan imports 90%+ of crude from Middle East — direct terms-of-trade hit",
+        "USD/JPY above 158.00 despite falling US yields (energy channel dominant)",
+        "BoJ Himino: monetary conditions must remain accommodative",
+        "BoJ March hike ruled out; April remains possible",
+        "Final GDP (MON) + PPI (TUE) key domestic data"
       ],
       "events": [
-        {
-          "day": "MON",
-          "event": "Final Manufacturing PMI",
-          "impact": "Medium"
-        },
-        {
-          "day": "MON",
-          "event": "Unemployment Rate",
-          "impact": "High"
-        },
-        {
-          "day": "TUE",
-          "event": "BoJ Gov Ueda Speech",
-          "impact": "Critical"
-        },
-        {
-          "day": "WED",
-          "event": "Consumer Confidence",
-          "impact": "High"
-        }
+        { "day": "MON", "event": "Final GDP q/q", "impact": "High" },
+        { "day": "TUE", "event": "PPI y/y", "impact": "High" }
       ]
     },
     {
       "code": "AUD",
       "name": "Australian Dollar",
-      "bias": "Weak Bearish",
-      "rationale": "AUD enters the week as a high-beta casualty of the Middle East escalation. Despite a briefly supportive trimmed mean CPI (3.4% YoY, above 3.3% exp), the currency's role as a liquid proxy for Chinese growth has become a liability as US-China summit preparations broke down and the PBoC cut the FX risk-reserve ratio to 0% to slow CNH appreciation. The 15% Section 122 tariff removed Australia's prior IEEPA rate advantage, and USTR Greer's new Section 301 investigations into industrial capacity add secondary pressure on Chinese steel and iron ore demand. RBA Bullock speaks Monday — watch for guidance on the March rate path.",
+      "bias": "Neutral",
+      "rationale": "AUD sits at a genuine crossroads: a strong Q4 GDP beat (0.8% QoQ vs 0.6% exp) briefly revived RBA rate hike speculation and showed the currency can recover even in a difficult external backdrop, but China's lowest GDP growth target since 1991 (4.5-5%) and new BHP cargo restrictions weighed on the resource sector outlook. The high-beta risk proxy role remains the key vulnerability — AUD was one of the first currencies sold in the initial panic but also one of the first to recover. PMT rates this as a mixed/weak bullish skew, but the external backdrop is still fragile enough to keep a neutral stance appropriate. Inflation Expectations on Thursday is the only domestic release.",
       "drivers": [
-        "High-beta risk proxy: gap-down risk on Middle East escalation",
-        "US-China summit preparations faltered (major AUD headwind)",
-        "PBoC cut FX Risk Reserve Ratio to 0% (from 20%)",
-        "Section 122 tariff: removed Australia's prior 10% IEEPA advantage",
-        "Trimmed Mean CPI 3.4% YoY (above 3.3% exp, briefly supportive)",
-        "RBA Bullock (MON) + GDP (WED) key domestic catalysts"
+        "Q4 GDP 0.8% QoQ (vs 0.6% exp) — strong beat, RBA hike speculation revived",
+        "China GDP target 4.5-5%: lowest since 1991, structural demand concern",
+        "New BHP cargo restrictions: direct hit to iron ore/mining sector",
+        "Gold sell-off on Poland gold reserve reports dragged AUD lower",
+        "High-beta risk proxy: first sold in panic, first to recover",
+        "Inflation Expectations (THU) only domestic release"
       ],
       "events": [
-        {
-          "day": "MON",
-          "event": "RBA Gov Bullock Speech",
-          "impact": "Critical"
-        },
-        {
-          "day": "WED",
-          "event": "GDP q/q",
-          "impact": "High"
-        }
+        { "day": "THU", "event": "Inflation Expectations", "impact": "High" }
       ]
     },
     {
       "code": "CAD",
       "name": "Canadian Dollar",
-      "bias": "Neutral",
-      "rationale": "CAD sits at the crossroads of an energy windfall and domestic weakness. As a primary energy exporter, the Loonie benefits from the oil spike toward $100/bbl — a direct terms-of-trade positive that allows CAD to outperform AUD and NZD in this risk-off phase. However, Q4 GDP contracted at an annualized -0.6% (weakest outside pandemic years), and the BoC's cautious stance leaves front end support less robust than USD. Minister LeBlanc described USMCA conversations as 'constructive', and China confirmed it will not impose tariffs on certain Canadian imports through end-2026. BOC Macklem speaks Wednesday — key for guidance on whether the energy windfall changes the policy calculus.",
+      "bias": "Bullish",
+      "rationale": "CAD was the clear G10 outperformer last week, breaking away from broader risk sentiment as the petro-currency trade dominated. WTI surged $13.50/bbl to above $90, creating a massive positive terms-of-trade shock for Canada as a net energy exporter — the exact opposite of the EUR and JPY story. BoC Deputy Governor Kozicki delivered a hawkish surprise, warning that policy may need to be tightened even when the economy is weak if inflation is supply-driven. The Ivey PMI jumped to 56.6 (vs 51.1 exp) on Friday, contrasting sharply with the US NFP miss. The Canadian Jobs Report on Friday is the key test — a strong print would extend the bullish case, while a miss could dial it back toward weak bullish.",
       "drivers": [
-        "Energy windfall: oil toward $100/bbl = direct terms-of-trade positive",
-        "Q4 GDP -0.6% annualized (weakest outside pandemic years)",
-        "USMCA negotiations: LeBlanc calls talks 'constructive'",
-        "China: no tariffs on certain Canadian imports through end-2026",
-        "Record foreign buying of Canadian federal bonds in Q4",
-        "BOC Macklem Speech (WED) + Ivey PMI (FRI) key events"
+        "Petro-currency trade: WTI +$13.50/bbl to $90+ = direct terms-of-trade positive",
+        "BoC Kozicki: hawkish surprise — may tighten even when economy is weak",
+        "Ivey PMI 56.6 (vs 51.1 exp) — strong domestic activity",
+        "USD/CAD fell to 1.3580 (Loonie as G10 leader)",
+        "PM Carney: cannot rule out participation in US-Israeli war with Iran",
+        "Jobs Report (FRI) is the key test for the bullish case"
       ],
       "events": [
-        {
-          "day": "MON",
-          "event": "Manufacturing PMI",
-          "impact": "Medium"
-        },
-        {
-          "day": "WED",
-          "event": "BOC Gov Macklem Speech",
-          "impact": "Critical"
-        },
-        {
-          "day": "FRI",
-          "event": "Employment Change",
-          "impact": "High"
-        },
-        {
-          "day": "FRI",
-          "event": "Unemployment Rate",
-          "impact": "High"
-        },
-        {
-          "day": "FRI",
-          "event": "Ivey PMI",
-          "impact": "High"
-        }
+        { "day": "FRI", "event": "Employment Change", "impact": "High" },
+        { "day": "FRI", "event": "Unemployment Rate", "impact": "High" }
       ]
     },
     {
       "code": "CHF",
       "name": "Swiss Franc",
-      "bias": "Strong Bullish",
-      "rationale": "CHF reinforces its role as the market's premier safety valve. The Franc outperformed even JPY as the preferred haven last week, as Japan's domestic political appointments diluted the Yen's haven bid. With Operation Epic Fury triggering a full capital preservation rotation, CHF is set for a violent gap higher on Monday. Morgan Stanley projects EUR/CHF down to 0.87, and SNB sight deposits rose to CHF 457.6bln (intervention monitoring). Switzerland's low inflation and the SNB's historical discomfort with excessive strength remain the key qualifier — intervention risk is elevated if CHF appreciation becomes disorderly. Wednesday's CPI print is the key domestic data release.",
+      "bias": "Weak Bullish",
+      "rationale": "CHF retains genuine haven demand as geopolitical stress remains elevated, but the SNB has drawn a clear line in the sand at 0.9000 in EUR/CHF. The bank issued a rare explicit intervention warning on Monday (EUR/CHF touched 0.9020) and repeated it mid-week, successfully capping the Franc's appreciation and causing it to lag USD and Gold as pure havens. Swiss CPI surprised to the upside (+0.1% YoY vs -0.1% exp), moving back into positive territory and slightly complicating the SNB's deflation narrative ahead of the March 19 meeting. The weak bullish call stands while geopolitical stress persists, but gains are expected to be more constrained than the external backdrop alone would imply.",
       "drivers": [
-        "Operation Epic Fury: premier capital preservation destination",
-        "Outperformed JPY as preferred haven (dovish BoJ appointments diluted JPY bid)",
-        "KOF Economic Barometer 104.2 (vs 103 exp, beat)",
-        "Q4 GDP +0.2% QoQ (recovery from -0.5% in Q3)",
-        "Morgan Stanley: EUR/CHF target 0.87",
-        "SNB sight deposits: CHF 457.6bln (intervention monitoring)"
+        "Haven demand: geopolitical stress keeps capital preservation bid alive",
+        "SNB intervention cap: explicit warning at EUR/CHF 0.9000 — limits upside",
+        "Swiss CPI +0.1% YoY (vs -0.1% exp): back in positive territory",
+        "EUR/CHF 0.9020 Monday low — rebounded to 0.9100+ on SNB jawboning",
+        "SNB March 19 meeting: CPI beat complicates dovish stance",
+        "Consumer Climate (MON) only domestic release"
       ],
       "events": [
-        {
-          "day": "MON",
-          "event": "Retail Sales y/y",
-          "impact": "Medium"
-        },
-        {
-          "day": "MON",
-          "event": "Manufacturing PMI",
-          "impact": "Medium"
-        },
-        {
-          "day": "WED",
-          "event": "CPI m/m",
-          "impact": "High"
-        },
-        {
-          "day": "THU",
-          "event": "Unemployment Rate",
-          "impact": "High"
-        }
+        { "day": "MON", "event": "Consumer Climate", "impact": "High" }
       ]
     },
     {
       "code": "NZD",
       "name": "New Zealand Dollar",
-      "bias": "Strong Bearish",
-      "rationale": "NZD enters the week as the most vulnerable G10 currency. The Kiwi underperformed even AUD last week as carry unwinds and trade-related growth fears intensified, and the weekend escalation raises the odds of another defensive leg early in the week. The RBNZ's dovish pivot under Governor Breman creates a domestic rates handicap that is now reinforced by a strong global risk-off impulse. NZD is typically the first place investors cut exposure when volatility rises and carry is reduced, and with no key domestic data this week, the currency is entirely at the mercy of global risk sentiment and China-linked headlines.",
+      "bias": "Weak Bearish",
+      "rationale": "NZD remains the most exposed G10 currency to the current risk environment, combining a dovish RBNZ backdrop with no domestic data catalyst and full dependence on external sentiment and China-linked demand. Unlike AUD, the Kiwi had no strong local data surprise to offset the geopolitical pressure, and it largely traded as a quieter follower to AUD throughout the week. China's lowest GDP growth target since 1991 and the ongoing BHP cargo dispute weigh on the regional growth outlook that underpins NZD. With no key domestic releases this week, the currency is entirely at the mercy of global risk sentiment, conflict headlines, and China-linked commodity flows.",
       "drivers": [
-        "High-beta risk proxy: most vulnerable G10 currency in risk-off",
-        "RBNZ dovish pivot: OCR to remain at current levels near term",
-        "US-China summit preparations faltered (China = NZD's largest trading partner)",
-        "PBoC cut FX Risk Reserve Ratio to 0% (regional FX pressure)",
-        "NZD/JPY carry liquidation: Nvidia selloff triggered sharp unwind",
-        "No key domestic data this week — entirely sentiment-driven"
+        "RBNZ dovish pivot: OCR path softer than peers — domestic yield handicap",
+        "No domestic data catalyst this week — entirely sentiment-driven",
+        "China GDP target 4.5-5%: lowest since 1991, NZD's largest trading partner",
+        "High-beta risk proxy: first cut in defensive regimes",
+        "Followed AUD lower without AUD's domestic offset (no strong GDP print)",
+        "Gold and commodity sell-off added pressure across Antipodean complex"
       ],
       "events": []
     }
-  ]
+  ],
+  "swingWatchlist": {
+    "long": [
+      { "pair": "GBP/EUR", "rationale": "Weak Bullish GBP (BoE easing priced out, gilt yields firm) vs Weak Bearish EUR (LNG shock, stagflation trap)" },
+      { "pair": "GBP/JPY", "rationale": "Weak Bullish GBP (relative rates support, BoE hawkish repricing) vs Weak Bearish JPY (energy importer, haven failure)" },
+      { "pair": "GBP/NZD", "rationale": "Weak Bullish GBP (gilt yields, BoE hawkish repricing) vs Weak Bearish NZD (RBNZ dovish, no catalyst)" },
+      { "pair": "CAD/JPY", "rationale": "Bullish CAD (petro-currency, oil windfall, hawkish BoC) vs Weak Bearish JPY (energy importer, haven failure)" },
+      { "pair": "CHF/JPY", "rationale": "Weak Bullish CHF (haven demand, SNB cap limits downside) vs Weak Bearish JPY (energy importer, haven failure)" },
+      { "pair": "USD/JPY", "rationale": "Weak Bullish USD (haven premium, energy exporter) vs Weak Bearish JPY (haven failure, oil shock)" }
+    ],
+    "short": [
+      { "pair": "EUR/CAD", "rationale": "Weak Bearish EUR (LNG shock, stagflation) vs Bullish CAD (petro-currency, oil windfall)" },
+      { "pair": "EUR/GBP", "rationale": "Weak Bearish EUR (energy importer, ECB trapped) vs Weak Bullish GBP (BoE hawkish repricing)" },
+      { "pair": "EUR/USD", "rationale": "Weak Bearish EUR (energy importer, ECB trapped) vs Weak Bullish USD (haven, energy exporter)" },
+      { "pair": "NZD/CAD", "rationale": "Weak Bearish NZD (RBNZ dovish, no catalyst) vs Bullish CAD (petro-currency, strong data)" },
+      { "pair": "NZD/USD", "rationale": "Weak Bearish NZD (dovish RBNZ, China concerns) vs Weak Bullish USD (haven premium)" }
+    ]
+  }
 }
