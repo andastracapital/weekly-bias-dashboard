@@ -1,107 +1,107 @@
 {
-  "date": "Monday, March 9, 2026",
-  "lastUpdate": "09:00 Frankfurt Time",
-  "riskEnvironment": "Risk-Off",
+  "date": "Tuesday, March 10, 2026",
+  "lastUpdate": "08:30 Frankfurt Time",
+  "riskEnvironment": "Mixed / Risk-On Recovery",
   "marketFocus": [
-    "Iran War Week 2: Oil surged to $120/bbl as UAE & Kuwait cut production, Iraq output down 60% to 1.7-1.8mln bpd; G7 emergency meeting to discuss joint release of up to 300-400mln barrels of emergency reserves; WTI settled $90.90/bbl Fri, surged further Mon open",
-    "NFP Aftermath + Fed on Hold: Feb NFP -92k (exp. 59k, prev. 126k), Unemployment Rate 4.4% (prev. 4.3%), wages sticky/hot — Fed speakers Hammack, Collins, Schmid all signal 'on hold for some time'; Bowman still supports 75bps cuts; Miran (voter) wants cut at next FOMC",
-    "China CPI Beat cushions AUD/NZD: China CPI Feb +1.3% YoY (exp. 0.8%, prev. 0.2%) — significant beat; PBoC mid-point 6.9158; Trump-Xi summit unlikely to yield breakthrough per Reuters; German IP Jan -0.5% MoM (exp. +0.9%) — miss adds to EUR stagflation narrative"
+    "Trump 'War Could Be Over Soon': US President told CBS the Iran conflict is 'very complete — they have no navy, no communications, no air force.' WTI collapsed from $119/bbl peak to $81/bbl post-settlement (2nd biggest daily move ever), US equities reversed to close green (SPX +0.84%), Dollar slammed, DXY beneath 99.00. G7 Energy Ministers meet today on coordinated SPR release (300-400mln bbls discussed).",
+    "China Trade Massive Beat (Bullish AUD/NZD): China Trade Balance Jan-Feb $213.6B (exp. $179.6B). Exports +19.2% YoY (exp. +7.1%), Imports +19.8% YoY (exp. +6.3%) — double-digit beats signal strong Chinese demand. APAC stocks rallied, Hang Seng and Shanghai Comp in the green. PBoC mid-point 6.8982 (prev. 6.9158) — CNY strengthening.",
+    "Japan GDP Final Q4 Confirms Recovery: GDP QoQ +0.3% (in-line), Annualized +1.3% (exp. +1.2%) — slight beat. However, Household Spending Jan -2.5% MoM (exp. +0.8%) — significant miss. German Trade Balance Jan €21.2B (exp. €15.2B) — strong beat. UK BRC Retail Sales Feb +0.7% YoY (exp. +2.4%) — miss. Australian Westpac Consumer Confidence Mar +1.2% (prev. -2.6%) — recovery."
   ],
   "currencies": {
     "USD": {
-      "bias": "Bullish",
-      "tone": "Haven Dominance",
-      "summary": "DXY surged on a haven bid as the Iran conflict entered its second week and oil prices spiked to near $120/bbl. Despite the NFP miss (-92k), the combination of geopolitical risk premium, sticky wages, and Fed on-hold signals (Hammack, Collins) keeps the dollar bid. US Daylight Saving Time shift means London-NY spread is now 4 hours — watch for liquidity adjustments. DXY remains the cleanest haven in G10 with no near-term catalyst to reverse.",
+      "bias": "Neutral",
+      "tone": "Haven Unwind in Progress",
+      "summary": "Dollar was slammed after Trump's 'war could be over soon' comments sent DXY beneath 99.00, reversing the entire Monday haven surge. The geopolitical risk premium that had been the core USD bull case is now rapidly deflating. Asia session saw a mild DXY rebound but the trend is unclear — if Trump confirms ceasefire progress today, DXY could test 98.00. US CPI tomorrow (18:30 Frankfurt) is now the next major catalyst. Stagflation narrative remains but geopolitical haven bid is fading. No clear directional conviction today.",
       "drivers": [
-        "DXY haven surge — Iran war week 2, oil near $120/bbl",
-        "NFP -92k miss but wages sticky/hot — stagflation risk supports dollar",
-        "Fed on hold: Hammack, Collins, Schmid all signal patience",
-        "US Daylight Saving Time shift — London-NY spread now 4 hours",
-        "No domestic data today — geopolitics and oil narrative dominate"
+        "DXY slammed below 99.00 — Trump 'war over soon' killed haven premium",
+        "Mild Asia rebound but trend unclear — geopolitical risk premium deflating",
+        "US CPI tomorrow 18:30 Frankfurt — next major catalyst",
+        "Stagflation narrative intact but haven bid fading rapidly",
+        "Fed rate cut pricing: first 25bps not fully priced until December (36.4bps)"
       ]
     },
     "EUR": {
       "bias": "Bearish",
-      "tone": "Energy Stagflation Trap",
-      "summary": "EUR/USD retreated below 1.1600 as energy disruption roiled European markets. German Industrial Production Jan -0.5% MoM (exp. +0.9%) — a significant miss adding to the stagflation narrative. Euro Stoxx 50 futures down 2.1% at Monday open. ECB speakers Elderson and Cipollone due today — any dovish signal would accelerate EUR weakness. EUR is caught between rising energy costs (LNG, nat gas) and slowing growth, with no near-term catalyst to reverse.",
+      "tone": "Stagflation Trap Persists",
+      "summary": "EUR/USD clawed back early losses and reclaimed 1.1600 territory, but stalled — range 1.1507-1.1599. The brief recovery was entirely dollar-driven, not EUR strength. ECB hike pricing was reduced from 2 hikes to 1 hike by year-end after Trump's comments, but the structural bearish case remains: Eurozone is a net energy importer, LNG disruption persists, and German Trade Balance beat (€21.2B vs €15.2B exp) was the only positive. Newsflow is sparse today. EUR/USD faces resistance at 1.1600-1.1620. Bearish bias maintained.",
       "drivers": [
-        "EUR/USD below 1.1600 — energy shock, risk-off pressure",
-        "German IP Jan -0.5% MoM (exp. +0.9%) — miss deepens stagflation narrative",
-        "Euro Stoxx 50 futures -2.1% — European equity selloff",
-        "ECB Elderson, Cipollone speak today — watch for dovish signals",
-        "Energy importer: LNG disruption + nat gas surge = structural headwind"
+        "EUR/USD stalled at 1.1600 — dollar-driven recovery, not EUR strength",
+        "ECB hike pricing reduced: 2 hikes → 1 hike by year-end post-Trump comments",
+        "German Trade Balance Jan €21.2B (exp. €15.2B) — beat, but not EUR positive",
+        "LNG disruption and energy importer status — structural bearish headwind",
+        "Sparse data calendar today — entirely geopolitics and dollar flow driven"
       ]
     },
     "GBP": {
-      "bias": "Bearish",
-      "tone": "Political Headwind + Energy Drag",
-      "summary": "GBP/USD briefly dipped below 1.3300 as Trump publicly criticised the UK for lack of support in Iran strikes, saying 'the US does not need UK aircraft carriers but will remember.' UK is a net energy importer — Iran war = stagflationary headwind. One UK aircraft carrier placed on advanced readiness. BoE cut path remains intact (Goldman Sachs: April). Daily Bearish mismatches Weekly Weak Bullish — no High Conviction alignment. GBP underperforms in this environment.",
+      "bias": "Bullish",
+      "tone": "Relative Rates Support",
+      "summary": "GBP steadily rebounded throughout Monday to return to 1.3400 territory, stalled below 1.3450 resistance. Price action mostly dictated by dollar moves — GBP benefited from the dollar selloff post-Trump comments. UK BRC Retail Sales Feb +0.7% YoY (exp. +2.4%) was a miss, but the dominant driver remains BoE easing priced out for 2026, keeping 2-year Gilt yields above 4.00%. UK Chancellor Reeves confirmed readiness to support coordinated IEA oil reserve release. GBP is aligned Weekly Weak Bullish + Daily Bullish — High Conviction setup confirmed.",
       "drivers": [
-        "GBP/USD dipped below 1.3300 — Trump criticism of UK, risk-off",
-        "UK energy importer: Iran war = stagflationary headwind for GBP",
-        "UK aircraft carrier on advanced readiness — geopolitical risk premium",
-        "BoE cut path intact: Goldman Sachs April cut expected",
-        "No UK domestic data today — entirely geopolitics-driven"
+        "GBP/USD rebounded to 1.3400, stalled below 1.3450 resistance",
+        "BoE easing priced out for 2026 — 2Y Gilt yields above 4.00%",
+        "UK BRC Retail Sales Feb +0.7% YoY (exp. +2.4%) — miss but not market-moving",
+        "UK Chancellor Reeves: ready to support IEA oil reserve release",
+        "Weekly Weak Bullish + Daily Bullish = High Conviction alignment"
       ]
     },
     "JPY": {
       "bias": "Bearish",
-      "tone": "Haven Failure",
-      "summary": "USD/JPY gapped above 158.00 at Monday open as the dollar reigned supreme. Despite firmer-than-expected Japanese wage data (Average Cash Earnings beat), JPY failed to attract haven flows — the dollar dominated. Japan Chief Cabinet Secretary Kihara said they will 'closely monitor market trends with high urgency.' Japan is a 90%+ oil importer — the oil surge is deeply stagflationary for Japan. BoJ rate hike probability for March remains very low. JPY is the weakest haven in G10 in this environment.",
+      "tone": "Policy Divergence + Energy Drag",
+      "summary": "USD/JPY slipped below 158.00 after Trump's comments but lacks clear direction. Japan GDP Q4 Final confirmed recovery (+0.3% QoQ, +1.3% annualized) but Household Spending Jan -2.5% MoM (exp. +0.8%) was a significant miss — consumer weakness undermines BoJ's case for further hikes. Japan remains a 90%+ oil importer — even with oil pulling back from $119/bbl, the structural energy cost burden persists. BoJ March hike probability near zero. JPY is bearish but Trump 'war over' comments reduce the immediate pressure.",
       "drivers": [
-        "USD/JPY gapped above 158.00 — dollar dominance, JPY haven failure",
-        "Japan Average Cash Earnings beat but JPY still sold — dollar wins",
-        "Japan CCS Kihara: monitoring markets with high urgency",
-        "Japan 90%+ oil importer — WTI $90-120 = severe stagflation risk",
+        "USD/JPY below 158.00 — lacks direction after Trump comments",
+        "Japan Household Spending Jan -2.5% MoM (exp. +0.8%) — significant miss",
+        "Japan GDP Q4 Final +0.3% QoQ confirmed — but consumer weakness limits BoJ",
+        "Japan 90%+ oil importer — structural energy burden persists",
         "BoJ March hike probability near zero — policy divergence vs Fed"
       ]
     },
     "AUD": {
-      "bias": "Neutral",
-      "tone": "China Beat vs Risk-Off Tug of War",
-      "summary": "AUD caught between two opposing forces: China CPI Feb +1.3% YoY (exp. 0.8%, prev. 0.2%) — a significant beat that cushioned Antipodean downside — versus the broad risk-off environment with ASX 200 slumping across all sectors except energy. Oil price surge adds hawkish pressure to RBA outlook (outside bets for March hike emerged). Westpac Consumer Confidence (Mar) due today. AUD is not cleanly directional — Weekly Neutral confirmed. No High Conviction alignment possible.",
+      "bias": "Bullish",
+      "tone": "China Demand Surge",
+      "summary": "China Trade Balance Jan-Feb: $213.6B (exp. $179.6B) — massive beat. Exports +19.2% YoY (exp. +7.1%), Imports +19.8% YoY (exp. +6.3%). This is unambiguously bullish for AUD as China is Australia's largest trading partner. ASX 200 rallied with gains led by miners, materials, tech and healthcare. Australian Westpac Consumer Confidence Mar +1.2% (prev. -2.6%) — recovery. RBA Deputy Governor Hauser confirmed 'genuine policy debate at board meeting with arguments on both sides.' AUD is Daily Bullish but Weekly Neutral — no High Conviction alignment, but strong intraday case.",
       "drivers": [
-        "China CPI Feb +1.3% YoY (exp. 0.8%) — beat cushions AUD downside",
-        "ASX 200 slumped at open — all sectors down except energy",
-        "Oil surge adds hawkish RBA optionality — March hike outside bet",
-        "Westpac Consumer Confidence Mar due today — watch for sentiment",
-        "Weekly Neutral — no High Conviction alignment"
+        "China Exports +19.2% YoY (exp. +7.1%) — massive beat, direct AUD positive",
+        "China Imports +19.8% YoY (exp. +6.3%) — strong demand signal",
+        "ASX 200 rallied — miners, materials, tech outperformed",
+        "Westpac Consumer Confidence Mar +1.2% (prev. -2.6%) — recovery",
+        "RBA Deputy Hauser: genuine policy debate — not pre-committed to cuts"
       ]
     },
     "CAD": {
       "bias": "Bullish",
-      "tone": "Petro-Windfall",
-      "summary": "CAD is the standout G10 performer in this environment. WTI settled $90.90/bbl Friday and surged further Monday — directly benefiting Canada as a major oil exporter. PMT US FX Wrap explicitly noted 'Crude rally supports CAD strength.' Canada-EU trade deal modernisation signed. BoC hawkish stance (Kozicki) intact. Canada Employment data due Friday. CAD is the cleanest long in G10 against bearish currencies in the current oil-shock environment.",
+      "tone": "Petro-Currency Resilience",
+      "summary": "WTI settled $94.77/bbl on Monday (still elevated despite pullback from $119/bbl peak), and Brent at $98.96/bbl. CAD remains the G10 petro-currency beneficiary — even with oil pulling back, the level is still significantly above pre-war prices. The Loonie saw its best performance overnight as oil prices surged, then pared back as oil pared. G7 Energy Ministers meet today — a coordinated SPR release could pressure oil further, which would be a mild CAD headwind. But the structural petro-currency advantage remains intact. Weekly Bullish + Daily Bullish = High Conviction alignment confirmed.",
       "drivers": [
-        "WTI $90.90/bbl Fri, surged further Mon — direct CAD terms-of-trade positive",
-        "PMT FX Wrap: 'Crude rally supports CAD strength' — explicit confirmation",
-        "Canada-EU trade deal modernisation signed — positive structural backdrop",
-        "BoC hawkish stance intact — rates divergence vs ECB/BoE",
-        "CAD Employment + Unemployment Rate due Friday 13:30 Frankfurt"
+        "WTI $94.77/bbl settlement — still elevated, CAD petro-currency advantage intact",
+        "Loonie best overnight performer on oil surge — pared as oil pared",
+        "G7 Energy Ministers meet today — SPR release could pressure oil mildly",
+        "Saudi Aramco CEO: 180mln bbl disruption so far, no storage issues",
+        "Weekly Bullish + Daily Bullish = High Conviction alignment"
       ]
     },
     "CHF": {
-      "bias": "Bullish",
-      "tone": "Premier Haven",
-      "summary": "CHF remains the premier G10 haven, outperforming even JPY in the current risk-off environment. SNB sight deposits rising — intervention monitoring active. Switzerland's energy independence and low inflation make CHF the cleanest safe haven. SNB March 19 meeting is the key near-term event — hot Swiss CPI Feb (+0.6% MoM) reduces probability of a cut. Morgan Stanley targets EUR/CHF at 0.87. CHF is the go-to haven in any escalation scenario.",
+      "bias": "Neutral",
+      "tone": "Haven Demand Fading",
+      "summary": "CHF haven demand is fading as Trump's 'war could be over soon' comments reduce the geopolitical risk premium. Euro Stoxx 50 futures +1.3% for Tuesday open — risk-on recovery reduces CHF safe-haven bid. SNB cap at EUR/CHF 0.9000 remains intact. Swiss data calendar is empty today. CHF is Weekly Weak Bullish but Daily Neutral — no High Conviction alignment. The haven trade that drove CHF last week is unwinding as war-end narrative gains traction.",
       "drivers": [
-        "Premier haven: outperforms JPY, SNB sight deposits rising",
-        "Switzerland energy independent — Iran war = no direct stagflation hit",
-        "Swiss CPI Feb +0.6% MoM (hot) — reduces SNB March 19 cut probability",
-        "Morgan Stanley: EUR/CHF target 0.87 — structural CHF strength",
-        "SNB March 19 meeting — key near-term event for CHF direction"
+        "Haven demand fading — Trump 'war over soon' reduces geopolitical premium",
+        "Euro Stoxx 50 futures +1.3% — risk-on recovery reduces CHF safe-haven bid",
+        "SNB cap at EUR/CHF 0.9000 — limits CHF upside",
+        "Empty Swiss data calendar today — entirely sentiment driven",
+        "Weekly Weak Bullish + Daily Neutral = no High Conviction alignment"
       ]
     },
     "NZD": {
-      "bias": "Bearish",
-      "tone": "Most Vulnerable G10",
-      "summary": "NZD is the most vulnerable G10 currency in the current environment. Despite China CPI beat (+1.3% YoY) providing some cushion, NZD underperforms even AUD as carry unwinds and risk-off dominates. RBNZ dovish pivot under Governor Breman creates a domestic rates handicap. NZD is typically the first currency cut in risk-off episodes. No NZD domestic data today — entirely driven by China headlines and global risk sentiment. Weekly Weak Bearish + Daily Bearish = aligned for shorts.",
+      "bias": "Bullish",
+      "tone": "China Demand Tailwind",
+      "summary": "China Trade massive beat (+19.2% exports, +19.8% imports) is directly bullish for NZD as China is New Zealand's largest trading partner. Antipodeans eased back slightly in Asia after yesterday's advances, with little reaction seen to the China data — but the fundamental case is clear. Risk-on recovery post-Trump comments also supports NZD as a high-beta currency. However, NZD is Weekly Weak Bearish vs Daily Bullish — this is a MISMATCH, so no High Conviction setup. Intraday long bias only.",
       "drivers": [
-        "Most vulnerable G10 — first cut in risk-off, carry unwind target",
-        "RBNZ dovish pivot: OCR at current levels near term",
-        "China CPI beat (+1.3%) cushions but does not reverse NZD weakness",
-        "No domestic data today — entirely sentiment and China driven",
-        "Weekly Weak Bearish + Daily Bearish = aligned for NZD shorts"
+        "China Exports +19.2% YoY (exp. +7.1%) — direct NZD positive",
+        "China Imports +19.8% YoY (exp. +6.3%) — strong demand signal",
+        "Risk-on recovery — NZD as high-beta currency benefits",
+        "Antipodeans eased back slightly in Asia — mild profit-taking",
+        "Weekly Weak Bearish + Daily Bullish = MISMATCH, intraday only"
       ]
     }
   },
@@ -136,42 +136,42 @@
     },
     {
       "day": "FRI",
-      "time": "18:30",
+      "time": "13:30",
       "currency": "GBP",
       "event": "GDP m/m",
       "impact": "High"
     },
     {
       "day": "FRI",
-      "time": "18:30",
+      "time": "13:30",
       "currency": "CAD",
       "event": "Employment Change",
       "impact": "High"
     },
     {
       "day": "FRI",
-      "time": "18:30",
+      "time": "13:30",
       "currency": "CAD",
       "event": "Unemployment Rate",
       "impact": "High"
     },
     {
       "day": "FRI",
-      "time": "18:30",
+      "time": "13:30",
       "currency": "USD",
       "event": "Core PCE Price Index m/m",
       "impact": "High"
     },
     {
       "day": "FRI",
-      "time": "18:30",
+      "time": "13:30",
       "currency": "USD",
       "event": "Prelim GDP q/q",
       "impact": "High"
     },
     {
       "day": "FRI",
-      "time": "20:00",
+      "time": "15:00",
       "currency": "USD",
       "event": "JOLTS Job Openings",
       "impact": "High"
@@ -180,41 +180,41 @@
   "bonds": [
     {
       "name": "US 10Y Treasury",
-      "bias": "Bearish",
-      "yield": "Higher",
-      "summary": "10yr UST futures wiped out the gains seen following Friday's disappointing NFP data, as the surge in oil prices stoked inflationary fears. Energy prices continue to rise — ECB rate hike probability by year-end now elevated. Fed likely to hold in March/May. Oil-driven inflation = bond negative. Watch CPI Wednesday as the key catalyst for yield direction this week.",
+      "bias": "Bullish",
+      "yield": "Lower",
+      "summary": "T-notes gapped lower after oil surged Monday but completely reversed and more as oil pulled back and Trump said the Iran war could be over soon. 10-year yield fell 3.6bps to 4.096%, 30-year fell 4.2bps to 4.714%. Inflationary fears soothed as oil pulled back from extremes. NY Fed SCE Feb: median 1Y inflation expectations softened to 3.0% (prev. 3.1%). Fed rate cut pricing: first 25bps not fully priced until December. Bonds bid as geopolitical risk premium deflates.",
       "drivers": [
-        "10yr UST futures sold — oil surge stokes inflation fears",
-        "NFP -92k miss initially bid bonds, but oil reversal overwhelmed",
-        "Fed on hold: Hammack, Collins, Schmid all signal patience",
-        "US CPI Wednesday 18:30 Frankfurt — key catalyst for yield direction",
-        "Oil at $90-120/bbl = persistent inflation premium in yields"
+        "T-notes reversed higher — oil pullback soothed inflation fears",
+        "10Y yield -3.6bps to 4.096%, 30Y -4.2bps to 4.714%",
+        "NY Fed SCE Feb: 1Y inflation expectations 3.0% (prev. 3.1%) — slight softening",
+        "Fed rate cut: first 25bps not fully priced until December",
+        "Geopolitical risk premium deflating — war-end narrative supports bonds"
       ]
     },
     {
       "name": "German Bund 10Y",
-      "bias": "Bearish",
-      "yield": "Higher",
-      "summary": "Bund futures fell firmly below 127.00 as oil prices rocketed. German IP Jan -0.5% MoM (exp. +0.9%) — stagflation narrative reinforced. ECB speakers Elderson and Cipollone due today. Energy-driven inflation reduces ECB's ability to cut rates despite slowing growth — Bunds face dual headwind of higher inflation and weaker growth.",
+      "bias": "Bullish",
+      "yield": "Lower",
+      "summary": "Bund futures returned to above 127.00 level with geopolitics and oil volatility the main catalysts. German Trade Balance Jan €21.2B (exp. €15.2B) — strong beat. ECB hike pricing reduced from 2 hikes to 1 hike by year-end after Trump's war-end comments. EUR 10bln of issuances scheduled (Schatz and Bund auctions today and tomorrow). Bunds recovering as oil-driven inflation fears ease.",
       "drivers": [
-        "Bund futures below 127.00 — oil surge, stagflation narrative",
-        "German IP Jan -0.5% MoM (exp. +0.9%) — miss adds to stagflation",
-        "ECB Elderson, Cipollone speak today — watch for policy signals",
-        "Energy-driven inflation limits ECB easing — Bund negative",
-        "Euro Stoxx 50 futures -2.1% — equity selloff adds to risk-off yield pressure"
+        "Bund futures back above 127.00 — oil pullback reduces inflation fears",
+        "German Trade Balance Jan €21.2B (exp. €15.2B) — strong beat",
+        "ECB hike pricing: 2 hikes → 1 hike by year-end post-Trump comments",
+        "EUR 10bln issuances (Schatz today, Bund tomorrow) — supply pressure",
+        "Oil-driven inflation fears easing — Bund recovery supported"
       ]
     },
     {
       "name": "JGB 10Y",
-      "bias": "Bearish",
-      "yield": "Higher",
-      "summary": "10yr JGB futures conformed to the downside in global peers with yields climbing on inflationary pressures. Japanese wages topped forecasts — BoJ hike optionality intact but March probability near zero. Japan is a 90%+ oil importer — oil at $90-120/bbl is deeply stagflationary for Japan. JGB yields rising despite BoJ's cautious stance.",
+      "bias": "Bullish",
+      "yield": "Lower",
+      "summary": "10yr JGB futures held on to most of prior day's after-hour gains amid easing of oil-related inflationary pressure. Japan ordered to prepare release of reserves. Japan GDP Q4 Final confirmed +0.3% QoQ, but Household Spending Jan -2.5% MoM (exp. +0.8%) — consumer weakness limits BoJ hawkish case. JGBs recovering alongside global bond rally as geopolitical risk premium deflates.",
       "drivers": [
-        "JGB futures lower — conforms to global bond selloff",
-        "Japanese wages beat — BoJ hike optionality intact but March unlikely",
-        "Japan 90%+ oil importer — oil surge = severe stagflation risk",
-        "Japan Final GDP Q4 due today — watch for growth confirmation",
-        "Japan CCS Kihara: monitoring markets with high urgency"
+        "JGB futures held gains — oil-related inflationary pressure easing",
+        "Japan ordered to prepare release of reserves — government response",
+        "Japan Household Spending Jan -2.5% MoM — miss limits BoJ hawkish case",
+        "Japan GDP Q4 Final +0.3% QoQ confirmed — recovery intact",
+        "Global bond rally as geopolitical risk premium deflates"
       ]
     }
   ]
