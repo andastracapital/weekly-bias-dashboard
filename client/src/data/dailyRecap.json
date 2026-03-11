@@ -108,35 +108,35 @@
   "redFolderNews": [
     {
       "day": "WED",
-      "time": "18:30",
+      "time": "13:30",
       "currency": "USD",
       "event": "Core CPI m/m",
       "impact": "High"
     },
     {
       "day": "WED",
-      "time": "18:30",
+      "time": "13:30",
       "currency": "USD",
       "event": "CPI m/m",
       "impact": "High"
     },
     {
       "day": "WED",
-      "time": "18:30",
+      "time": "13:30",
       "currency": "USD",
       "event": "CPI y/y",
       "impact": "High"
     },
     {
       "day": "THU",
-      "time": "18:30",
+      "time": "13:30",
       "currency": "USD",
       "event": "Unemployment Claims",
       "impact": "High"
     },
     {
       "day": "FRI",
-      "time": "13:30",
+      "time": "07:00",
       "currency": "GBP",
       "event": "GDP m/m",
       "impact": "High"
