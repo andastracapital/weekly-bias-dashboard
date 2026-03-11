@@ -3,7 +3,7 @@
   "lastUpdate": "08:30 Frankfurt Time",
   "riskEnvironment": "Risk-Off",
   "marketFocus": [
-    "Iran Lays Mines in Strait of Hormuz — Escalation Resumes: CBS reported US intelligence sees Iran taking steps to deploy mines in the Strait of Hormuz; CNN confirmed Iran has begun laying mines. US destroyed 10 inactive mine-laying boats. Trump warned 'military consequences at a level never seen before' if mines not removed. WTI settled $83.45/bbl (down from $119 peak but Hormuz disruption looks set to stay). DXY strengthened on haven bid. US CPI today 18:30 Frankfurt — critical catalyst.",
+    "Iran Lays Mines in Strait of Hormuz — Escalation Resumes: CBS reported US intelligence sees Iran taking steps to deploy mines in the Strait of Hormuz; CNN confirmed Iran has begun laying mines. US destroyed 10 inactive mine-laying boats. Trump warned 'military consequences at a level never seen before' if mines not removed. WTI settled $83.45/bbl (down from $119 peak but Hormuz disruption looks set to stay). DXY strengthened on haven bid. US CPI today 13:30 Frankfurt — critical catalyst.",
     "RBA Rate Hike 76% Probability — AUD Outperforms: NAB and Westpac now expect RBA to hike in BOTH March and May. Goldman Sachs calls March hike. RBA Deputy Governor Hauser: 'there will be a very genuine policy debate.' Money markets: 76% likelihood of 25bps increase next week. AUD/USD outperformed all G10 peers — range 0.7053-0.7126. ASX 200 gained with mining, resources, materials and financials leading.",
     "IEA Proposes Largest Ever Oil Reserve Release — No Decision Yet: WSJ reported IEA proposed largest ever release of oil from strategic reserves (exceeding 182mln bbls released in 2022 for Russia-Ukraine). IEA meeting ended Tuesday with no decision. Countries decide today. G7 Energy Ministers confirmed readiness to act. Saudi Aramco CEO: ~180mln bbls disruption so far, 2mln BPD spare capacity could be restored within days."
   ],
@@ -11,11 +11,11 @@
     "USD": {
       "bias": "Bullish",
       "tone": "Hormuz Haven Bid",
-      "summary": "DXY strengthened as disruptions to flows through the Strait of Hormuz look set to stay. The CBS report that Iran is taking steps to deploy mines was the catalyst — reversing Tuesday's risk-on move and reinstating the geopolitical haven premium. US CPI today at 18:30 Frankfurt is the key data catalyst: a hot print (+0.3%+ MoM) would reinforce the stagflation narrative and accelerate USD strength; a soft print could temporarily pressure DXY. Weekly Weak Bullish + Daily Bullish = High Conviction alignment confirmed.",
+      "summary": "DXY strengthened as disruptions to flows through the Strait of Hormuz look set to stay. The CBS report that Iran is taking steps to deploy mines was the catalyst — reversing Tuesday's risk-on move and reinstating the geopolitical haven premium. US CPI today at 13:30 Frankfurt is the key data catalyst: a hot print (+0.3%+ MoM) would reinforce the stagflation narrative and accelerate USD strength; a soft print could temporarily pressure DXY. Weekly Weak Bullish + Daily Bullish = High Conviction alignment confirmed.",
       "drivers": [
         "DXY strengthened — Hormuz mine threat reinstates haven premium",
         "Iran mine deployment: CBS + CNN confirmed, Hormuz disruption looks set to stay",
-        "US CPI today 18:30 Frankfurt — hot print = stagflation narrative, USD positive",
+        "US CPI today 13:30 Frankfurt — hot print = stagflation narrative, USD positive",
         "US Existing Home Sales Feb 4.09M (exp. 3.89M) — beat, economy resilient",
         "Weekly Weak Bullish + Daily Bullish = High Conviction alignment"
       ]
@@ -182,11 +182,11 @@
       "name": "US 10Y Treasury",
       "bias": "Bearish",
       "yield": "Higher",
-      "summary": "T-notes settled 3 ticks higher at 112-14+ on Tuesday but faced headwinds from record corporate issuance (Amazon $25-30bln, Salesforce $25bln, Honeywell $16bln — fresh record for single-day corporate bond issuance). Short-end yields picked up sharply after the CBS Hormuz mine report reinstated inflation fears. US CPI today at 18:30 Frankfurt is the key catalyst — a hot print would send yields higher and reinforce the stagflation narrative. Treasury futures are lacklustre amid oil price swings and supply pressure.",
+      "summary": "T-notes settled 3 ticks higher at 112-14+ on Tuesday but faced headwinds from record corporate issuance (Amazon $25-30bln, Salesforce $25bln, Honeywell $16bln — fresh record for single-day corporate bond issuance). Short-end yields picked up sharply after the CBS Hormuz mine report reinstated inflation fears. US CPI today at 13:30 Frankfurt is the key catalyst — a hot print would send yields higher and reinforce the stagflation narrative. Treasury futures are lacklustre amid oil price swings and supply pressure.",
       "drivers": [
         "T-notes settled 3 ticks higher but short-end yields spiked on Hormuz mine report",
         "Record corporate issuance: Amazon + Salesforce + Honeywell = USD 66bln+ single day",
-        "US CPI today 18:30 Frankfurt — hot print = yields higher, stagflation narrative",
+        "US CPI today 13:30 Frankfurt — hot print = yields higher, stagflation narrative",
         "3yr Treasury auction was very weak — demand concerns at front end",
         "Hormuz mine threat reinstates inflation fears — bond negative"
       ]
