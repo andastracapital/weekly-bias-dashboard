@@ -154,3 +154,12 @@
 - [ ] Fix all incorrect DB entries (no auto-generated Intraday Trades if not shown)
 - [ ] Add correct Swing Watchlist for Mar 6, 2026
 - [ ] Save checkpoint and push to GitHub
+
+## Bug Fix: Swing Watchlist Missing from History Entries (CURRENT TASK)
+
+- [x] Check current DB entries for Mar 9, 10, 11 — verify swingWatchlist field is empty
+- [x] Update Mar 9 history entry with swing watchlist (from weeklyBias.json Mar 9-15)
+- [x] Update Mar 10 history entry with swing watchlist
+- [x] Update Mar 11 history entry with swing watchlist
+- [x] Update daily-recap-update skill: document swing watchlist MUST be included in every history upsert (MANDATORY rule + weekly persistence note)
+- [ ] Save checkpoint and push to GitHub

@@ -1,0 +1,40 @@
+{
+  "query": "SELECT * FROM history_entries WHERE date IN ('2026-03-09', '2026-03-10', '2026-03-11') ORDER BY date;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway03.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 7TjtJQnfa2Kwkro.4e1521e67c69 --database V3jhfwe58vLcvVL6hokMxo --execute SELECT * FROM history_entries WHERE date IN ('2026-03-09', '2026-03-10', '2026-03-11') ORDER BY date;",
+  "rows": [
+    {
+      "id": "60001",
+      "date": "2026-03-09",
+      "weekRange": "Mar 9 - Mar 15, 2026",
+      "swingWatchlist": "[{\"pair\":\"EUR/USD\",\"direction\":\"SHORT\"},{\"pair\":\"EUR/GBP\",\"direction\":\"SHORT\"},{\"pair\":\"EUR/CAD\",\"direction\":\"SHORT\"},{\"pair\":\"NZD/USD\",\"direction\":\"SHORT\"},{\"pair\":\"NZD/CAD\",\"direction\":\"SHORT\"},{\"pair\":\"GBP/JPY\",\"direction\":\"LONG\"},{\"pair\":\"GBP/NZD\",\"direction\":\"LONG\"},{\"pair\":\"CAD/JPY\",\"direction\":\"LONG\"},{\"pair\":\"CHF/JPY\",\"direction\":\"LONG\"},{\"pair\":\"USD/JPY\",\"direction\":\"LONG\"}]",
+      "swingSetups": "[{\"pair\":\"EUR/USD\",\"direction\":\"SHORT\"},{\"pair\":\"EUR/CAD\",\"direction\":\"SHORT\"},{\"pair\":\"EUR/CHF\",\"direction\":\"SHORT\"},{\"pair\":\"USD/JPY\",\"direction\":\"LONG\"},{\"pair\":\"CAD/JPY\",\"direction\":\"LONG\"},{\"pair\":\"CHF/JPY\",\"direction\":\"LONG\"},{\"pair\":\"NZD/USD\",\"direction\":\"SHORT\"},{\"pair\":\"NZD/CAD\",\"direction\":\"SHORT\"},{\"pair\":\"NZD/CHF\",\"direction\":\"SHORT\"}]",
+      "intradayTrades": "[{\"pair\":\"GBP/USD\",\"direction\":\"SHORT\"},{\"pair\":\"GBP/CAD\",\"direction\":\"SHORT\"},{\"pair\":\"GBP/CHF\",\"direction\":\"SHORT\"}]",
+      "createdAt": "2026-03-09 07:58:42",
+      "updatedAt": "2026-03-09 07:59:08"
+    },
+    {
+      "id": "90001",
+      "date": "2026-03-10",
+      "weekRange": "NULL",
+      "swingWatchlist": "[]",
+      "swingSetups": "[{\"pair\":\"EUR/GBP\",\"direction\":\"SHORT\"},{\"pair\":\"GBP/JPY\",\"direction\":\"LONG\"},{\"pair\":\"EUR/CAD\",\"direction\":\"SHORT\"},{\"pair\":\"CAD/JPY\",\"direction\":\"LONG\"}]",
+      "intradayTrades": "[{\"pair\":\"AUD/JPY\",\"direction\":\"LONG\"},{\"pair\":\"NZD/JPY\",\"direction\":\"LONG\"},{\"pair\":\"EUR/AUD\",\"direction\":\"SHORT\"},{\"pair\":\"EUR/NZD\",\"direction\":\"SHORT\"}]",
+      "createdAt": "2026-03-10 07:07:43",
+      "updatedAt": "2026-03-10 07:07:43"
+    },
+    {
+      "id": "120001",
+      "date": "2026-03-11",
+      "weekRange": "NULL",
+      "swingWatchlist": "[]",
+      "swingSetups": "[{\"pair\":\"EUR/USD\",\"direction\":\"SHORT\"},{\"pair\":\"USD/JPY\",\"direction\":\"LONG\"},{\"pair\":\"EUR/CAD\",\"direction\":\"SHORT\"},{\"pair\":\"CAD/JPY\",\"direction\":\"LONG\"}]",
+      "intradayTrades": "[{\"pair\":\"AUD/JPY\",\"direction\":\"LONG\"},{\"pair\":\"EUR/AUD\",\"direction\":\"SHORT\"}]",
+      "createdAt": "2026-03-11 07:21:34",
+      "updatedAt": "2026-03-11 07:21:34"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tdate\tweekRange\tswingWatchlist\tswingSetups\tintradayTrades\tcreatedAt\tupdatedAt\n60001\t2026-03-09\tMar 9 - Mar 15, 2026\t[{\"pair\":\"EUR/USD\",\"direction\":\"SHORT\"},{\"pair\":\"EUR/GBP\",\"direction\":\"SHORT\"},{\"pair\":\"EUR/CAD\",\"direction\":\"SHORT\"},{\"pair\":\"NZD/USD\",\"direction\":\"SHORT\"},{\"pair\":\"NZD/CAD\",\"direction\":\"SHORT\"},{\"pair\":\"GBP/JPY\",\"direction\":\"LONG\"},{\"pair\":\"GBP/NZD\",\"direction\":\"LONG\"},{\"pair\":\"CAD/JPY\",\"direction\":\"LONG\"},{\"pair\":\"CHF/JPY\",\"direction\":\"LONG\"},{\"pair\":\"USD/JPY\",\"direction\":\"LONG\"}]\t[{\"pair\":\"EUR/USD\",\"direction\":\"SHORT\"},{\"pair\":\"EUR/CAD\",\"direction\":\"SHORT\"},{\"pair\":\"EUR/CHF\",\"direction\":\"SHORT\"},{\"pair\":\"USD/JPY\",\"direction\":\"LONG\"},{\"pair\":\"CAD/JPY\",\"direction\":\"LONG\"},{\"pair\":\"CHF/JPY\",\"direction\":\"LONG\"},{\"pair\":\"NZD/USD\",\"direction\":\"SHORT\"},{\"pair\":\"NZD/CAD\",\"direction\":\"SHORT\"},{\"pair\":\"NZD/CHF\",\"direction\":\"SHORT\"}]\t[{\"pair\":\"GBP/USD\",\"direction\":\"SHORT\"},{\"pair\":\"GBP/CAD\",\"direction\":\"SHORT\"},{\"pair\":\"GBP/CHF\",\"direction\":\"SHORT\"}]\t2026-03-09 07:58:42\t2026-03-09 07:59:08\n90001\t2026-03-10\tNULL\t[]\t[{\"pair\":\"EUR/GBP\",\"direction\":\"SHORT\"},{\"pair\":\"GBP/JPY\",\"direction\":\"LONG\"},{\"pair\":\"EUR/CAD\",\"direction\":\"SHORT\"},{\"pair\":\"CAD/JPY\",\"direction\":\"LONG\"}]\t[{\"pair\":\"AUD/JPY\",\"direction\":\"LONG\"},{\"pair\":\"NZD/JPY\",\"direction\":\"LONG\"},{\"pair\":\"EUR/AUD\",\"direction\":\"SHORT\"},{\"pair\":\"EUR/NZD\",\"direction\":\"SHORT\"}]\t2026-03-10 07:07:43\t2026-03-10 07:07:43\n120001\t2026-03-11\tNULL\t[]\t[{\"pair\":\"EUR/USD\",\"direction\":\"SHORT\"},{\"pair\":\"USD/JPY\",\"direction\":\"LONG\"},{\"pair\":\"EUR/CAD\",\"direction\":\"SHORT\"},{\"pair\":\"CAD/JPY\",\"direction\":\"LONG\"}]\t[{\"pair\":\"AUD/JPY\",\"direction\":\"LONG\"},{\"pair\":\"EUR/AUD\",\"direction\":\"SHORT\"}]\t2026-03-11 07:21:34\t2026-03-11 07:21:34\n",
+  "stderr": "",
+  "execution_time_ms": 55
+}
