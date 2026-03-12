@@ -3,36 +3,54 @@ import { History as HistoryIcon, TrendingUp, TrendingDown, Zap, Activity, Refres
 
 type TradePair = { pair: string; direction: string };
 
-const DirectionBadge = ({ direction }: { direction: string }) => {
+const DirectionBadge = ({ direction, dim }: { direction: string; dim?: boolean }) => {
   const isLong = direction.toUpperCase() === "LONG";
-  return (
-    <span
-      className={`inline-flex items-center gap-0.5 text-[9px] font-bold px-1.5 py-0.5 border font-mono uppercase tracking-wider ${
+  if (dim) {
+    return (
+      <span className={`inline-flex items-center gap-0.5 text-[9px] font-bold px-1.5 py-0.5 border font-mono uppercase tracking-wider ${
         isLong
-          ? "border-orange-500/50 text-orange-400 bg-orange-500/10"
-          : "border-red-500/50 text-red-400 bg-red-500/10"
-      }`}
-    >
-      {isLong ? (
-        <TrendingUp className="w-2.5 h-2.5" />
-      ) : (
-        <TrendingDown className="w-2.5 h-2.5" />
-      )}
+          ? "border-orange-500/20 text-orange-400/50 bg-orange-500/5"
+          : "border-red-500/20 text-red-400/50 bg-red-500/5"
+      }`}>
+        {isLong ? <TrendingUp className="w-2.5 h-2.5" /> : <TrendingDown className="w-2.5 h-2.5" />}
+        {direction.toUpperCase()}
+      </span>
+    );
+  }
+  return (
+    <span className={`inline-flex items-center gap-0.5 text-[9px] font-bold px-1.5 py-0.5 border font-mono uppercase tracking-wider ${
+      isLong
+        ? "border-orange-500/50 text-orange-400 bg-orange-500/10"
+        : "border-red-500/50 text-red-400 bg-red-500/10"
+    }`}>
+      {isLong ? <TrendingUp className="w-2.5 h-2.5" /> : <TrendingDown className="w-2.5 h-2.5" />}
       {direction.toUpperCase()}
     </span>
   );
 };
 
-const PairList = ({ pairs, emptyText }: { pairs: TradePair[]; emptyText: string }) => {
+const PairList = ({
+  pairs,
+  emptyText,
+  dim,
+  highlight,
+}: {
+  pairs: TradePair[];
+  emptyText: string;
+  dim?: boolean;
+  highlight?: boolean;
+}) => {
   if (!pairs || pairs.length === 0) {
-    return <span className="text-[10px] text-gray-600 font-mono italic">{emptyText}</span>;
+    return <span className={`text-[10px] font-mono italic ${dim ? "text-gray-700" : "text-gray-600"}`}>{emptyText}</span>;
   }
   return (
     <div className="flex flex-wrap gap-1.5">
       {pairs.map((p, i) => (
         <div key={i} className="flex items-center gap-1">
-          <span className="text-[11px] font-mono font-bold text-gray-200">{p.pair}</span>
-          <DirectionBadge direction={p.direction} />
+          <span className={`font-mono font-bold ${highlight ? "text-sm text-white" : dim ? "text-[10px] text-gray-500" : "text-[11px] text-gray-400"}`}>
+            {p.pair}
+          </span>
+          <DirectionBadge direction={p.direction} dim={dim} />
         </div>
       ))}
     </div>
@@ -61,7 +79,7 @@ export default function HistoryPage() {
           <div>
             <h1 className="text-xl font-bold tracking-tight text-white">HISTORY</h1>
             <p className="text-[10px] text-gray-500 uppercase tracking-widest mt-0.5">
-              Daily Recap Archive — Weekly Bias · Weekly Bias + Daily Narrative aligned · Intraday Trades
+              Daily Recap Archive — Weekly Bias · <span className="text-orange-500/70">Weekly Bias + Daily Narrative aligned</span> · Intraday Trades
             </p>
           </div>
           {entries && (
@@ -102,27 +120,32 @@ export default function HistoryPage() {
             <table className="w-full border-collapse">
               <thead>
                 <tr className="border-b border-gray-800">
-                  <th className="text-left py-3 px-4 text-sm text-white uppercase tracking-widest font-mono font-semibold w-36">
+                  {/* Date — secondary */}
+                  <th className="text-left py-3 px-4 text-xs text-gray-500 uppercase tracking-widest font-mono font-normal w-36">
                     Date
                   </th>
-                  <th className="text-left py-3 px-4 text-sm text-white uppercase tracking-widest font-mono font-semibold w-40">
+                  {/* Week — secondary */}
+                  <th className="text-left py-3 px-4 text-xs text-gray-500 uppercase tracking-widest font-mono font-normal w-40">
                     Week
                   </th>
-                  <th className="text-left py-3 px-4 text-sm text-white uppercase tracking-widest font-mono font-semibold">
+                  {/* Weekly Bias — secondary */}
+                  <th className="text-left py-3 px-4 text-xs text-gray-500 uppercase tracking-widest font-mono font-normal">
                     <div className="flex items-center gap-1.5">
-                      <Activity className="w-3.5 h-3.5 text-orange-500" />
+                      <Activity className="w-3 h-3 text-gray-600" />
                       Weekly Bias
                     </div>
                   </th>
-                  <th className="text-left py-3 px-4 text-sm text-white uppercase tracking-widest font-mono font-semibold">
-                    <div className="flex items-center gap-1.5">
-                      <Zap className="w-3.5 h-3.5 text-orange-500" />
+                  {/* PRIMARY COLUMN — highlighted */}
+                  <th className="text-left py-3 px-4 text-sm text-orange-400 uppercase tracking-widest font-mono font-bold border-l border-r border-orange-500/20 bg-orange-500/[0.04]">
+                    <div className="flex items-center gap-2">
+                      <Zap className="w-4 h-4 text-orange-500" />
                       Weekly Bias + Daily Narrative aligned
                     </div>
                   </th>
-                  <th className="text-left py-3 px-4 text-sm text-white uppercase tracking-widest font-mono font-semibold">
+                  {/* Intraday Trades — secondary */}
+                  <th className="text-left py-3 px-4 text-xs text-gray-500 uppercase tracking-widest font-mono font-normal">
                     <div className="flex items-center gap-1.5">
-                      <TrendingUp className="w-3.5 h-3.5 text-orange-500" />
+                      <TrendingUp className="w-3 h-3 text-gray-600" />
                       Intraday Trades
                     </div>
                   </th>
@@ -153,32 +176,35 @@ export default function HistoryPage() {
 
                     {/* Week Range */}
                     <td className="py-4 px-4 align-top">
-                      <span className="text-[10px] text-gray-500 whitespace-nowrap">
+                      <span className="text-[10px] text-gray-600 whitespace-nowrap">
                         {entry.weekRange || "—"}
                       </span>
                     </td>
 
-                    {/* Swing Watchlist */}
+                    {/* Weekly Bias (Swing Watchlist) — dimmed */}
                     <td className="py-4 px-4 align-top max-w-xs">
                       <PairList
                         pairs={entry.swingWatchlist}
                         emptyText="No watchlist"
+                        dim
                       />
                     </td>
 
-                    {/* Swing Setups */}
-                    <td className="py-4 px-4 align-top max-w-xs">
+                    {/* PRIMARY: Weekly Bias + Daily Narrative aligned — highlighted */}
+                    <td className="py-4 px-4 align-top max-w-xs border-l border-r border-orange-500/10 bg-orange-500/[0.03]">
                       <PairList
                         pairs={entry.swingSetups}
                         emptyText="No setups"
+                        highlight
                       />
                     </td>
 
-                    {/* Intraday Trades */}
+                    {/* Intraday Trades — dimmed */}
                     <td className="py-4 px-4 align-top max-w-xs">
                       <PairList
                         pairs={entry.intradayTrades}
                         emptyText="No trades"
+                        dim
                       />
                     </td>
                   </tr>
