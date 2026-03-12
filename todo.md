@@ -163,3 +163,10 @@
 - [x] Update Mar 11 history entry with swing watchlist
 - [x] Update daily-recap-update skill: document swing watchlist MUST be included in every history upsert (MANDATORY rule + weekly persistence note)
 - [ ] Save checkpoint and push to GitHub
+
+## Bug Fix: Swing Watchlist FX Convention (CURRENT TASK)
+- [ ] Remove GBP/EUR LONG from all history entries (wrong notation — EUR/GBP SHORT is correct per priority rule)
+- [ ] Fix Mar 9, 10, 11, 12 DB entries: remove duplicate/wrong pairs, keep only conventional notation
+- [ ] Also fix weeklyBias.json swing watchlist if GBP/EUR appears there
+- [ ] Update skill: Swing Watchlist must ONLY use conventional FX notation — no duplicate crosses allowed
+- [ ] Save checkpoint and push to GitHub
