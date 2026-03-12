@@ -177,3 +177,8 @@
 - [x] Rename "Swing Setups" → "Weekly Bias + Daily Narrative aligned" in History.tsx
 - [x] Make all 3 section titles white and larger (text-white, text-sm or text-base)
 - [x] Save checkpoint and push to GitHub
+
+## History: Highlight Middle Column (CURRENT TASK)
+- [x] Visually highlight "Weekly Bias + Daily Narrative aligned" column as primary — orange accent header, brighter cell background, larger pair text
+- [x] Dim the other two columns (Weekly Bias, Intraday Trades) as secondary info
+- [x] Save checkpoint and push to GitHub
