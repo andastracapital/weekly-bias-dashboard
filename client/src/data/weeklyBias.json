@@ -148,7 +148,6 @@
   ],
   "swingWatchlist": {
     "long": [
-      { "pair": "GBP/EUR", "rationale": "Weak Bullish GBP (BoE easing priced out, gilt yields firm) vs Weak Bearish EUR (LNG shock, stagflation trap)" },
       { "pair": "GBP/JPY", "rationale": "Weak Bullish GBP (relative rates support, BoE hawkish repricing) vs Weak Bearish JPY (energy importer, haven failure)" },
       { "pair": "GBP/NZD", "rationale": "Weak Bullish GBP (gilt yields, BoE hawkish repricing) vs Weak Bearish NZD (RBNZ dovish, no catalyst)" },
       { "pair": "CAD/JPY", "rationale": "Bullish CAD (petro-currency, oil windfall, hawkish BoC) vs Weak Bearish JPY (energy importer, haven failure)" },
