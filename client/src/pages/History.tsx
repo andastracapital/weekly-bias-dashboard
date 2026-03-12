@@ -61,7 +61,7 @@ export default function HistoryPage() {
           <div>
             <h1 className="text-xl font-bold tracking-tight text-white">HISTORY</h1>
             <p className="text-[10px] text-gray-500 uppercase tracking-widest mt-0.5">
-              Daily Recap Archive — Swing Watchlist · Swing Setups · Intraday Trades
+              Daily Recap Archive — Weekly Bias · Weekly Bias + Daily Narrative aligned · Intraday Trades
             </p>
           </div>
           {entries && (
@@ -102,29 +102,27 @@ export default function HistoryPage() {
             <table className="w-full border-collapse">
               <thead>
                 <tr className="border-b border-gray-800">
-                  <th className="text-left py-3 px-4 text-[10px] text-gray-500 uppercase tracking-widest font-mono font-normal w-36">
+                  <th className="text-left py-3 px-4 text-sm text-white uppercase tracking-widest font-mono font-semibold w-36">
                     Date
                   </th>
-                  <th className="text-left py-3 px-4 text-[10px] text-gray-500 uppercase tracking-widest font-mono font-normal w-40">
+                  <th className="text-left py-3 px-4 text-sm text-white uppercase tracking-widest font-mono font-semibold w-40">
                     Week
                   </th>
-                  <th className="text-left py-3 px-4 text-[10px] text-gray-500 uppercase tracking-widest font-mono font-normal">
+                  <th className="text-left py-3 px-4 text-sm text-white uppercase tracking-widest font-mono font-semibold">
                     <div className="flex items-center gap-1.5">
-                      <Activity className="w-3 h-3 text-orange-500/60" />
-                      Swing Watchlist
-                      <span className="text-gray-700">(Weekly)</span>
+                      <Activity className="w-3.5 h-3.5 text-orange-500" />
+                      Weekly Bias
                     </div>
                   </th>
-                  <th className="text-left py-3 px-4 text-[10px] text-gray-500 uppercase tracking-widest font-mono font-normal">
+                  <th className="text-left py-3 px-4 text-sm text-white uppercase tracking-widest font-mono font-semibold">
                     <div className="flex items-center gap-1.5">
-                      <Zap className="w-3 h-3 text-orange-500/60" />
-                      Swing Setups
-                      <span className="text-gray-700">(Daily)</span>
+                      <Zap className="w-3.5 h-3.5 text-orange-500" />
+                      Weekly Bias + Daily Narrative aligned
                     </div>
                   </th>
-                  <th className="text-left py-3 px-4 text-[10px] text-gray-500 uppercase tracking-widest font-mono font-normal">
+                  <th className="text-left py-3 px-4 text-sm text-white uppercase tracking-widest font-mono font-semibold">
                     <div className="flex items-center gap-1.5">
-                      <TrendingUp className="w-3 h-3 text-orange-500/60" />
+                      <TrendingUp className="w-3.5 h-3.5 text-orange-500" />
                       Intraday Trades
                     </div>
                   </th>
