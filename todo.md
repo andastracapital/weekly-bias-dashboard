@@ -170,3 +170,10 @@
 - [ ] Also fix weeklyBias.json swing watchlist if GBP/EUR appears there
 - [ ] Update skill: Swing Watchlist must ONLY use conventional FX notation — no duplicate crosses allowed
 - [ ] Save checkpoint and push to GitHub
+
+## History Page UI Fixes (CURRENT TASK)
+- [x] Add missing weekRange to Mar 12 DB entry ("Mar 9 - Mar 15, 2026")
+- [x] Rename "Swing Watchlist" → "Weekly Bias" in History.tsx
+- [x] Rename "Swing Setups" → "Weekly Bias + Daily Narrative aligned" in History.tsx
+- [x] Make all 3 section titles white and larger (text-white, text-sm or text-base)
+- [x] Save checkpoint and push to GitHub
