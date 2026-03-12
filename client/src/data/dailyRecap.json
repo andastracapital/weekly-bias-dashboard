@@ -1,132 +1,111 @@
 {
-  "date": "Wednesday, March 11, 2026",
+  "date": "Thursday, March 12, 2026",
   "lastUpdate": "08:30 Frankfurt Time",
   "riskEnvironment": "Risk-Off",
   "marketFocus": [
-    "Iran Lays Mines in Strait of Hormuz — Escalation Resumes: CBS reported US intelligence sees Iran taking steps to deploy mines in the Strait of Hormuz; CNN confirmed Iran has begun laying mines. US destroyed 10 inactive mine-laying boats. Trump warned 'military consequences at a level never seen before' if mines not removed. WTI settled $83.45/bbl (down from $119 peak but Hormuz disruption looks set to stay). DXY strengthened on haven bid. US CPI today 13:30 Frankfurt — critical catalyst.",
-    "RBA Rate Hike 76% Probability — AUD Outperforms: NAB and Westpac now expect RBA to hike in BOTH March and May. Goldman Sachs calls March hike. RBA Deputy Governor Hauser: 'there will be a very genuine policy debate.' Money markets: 76% likelihood of 25bps increase next week. AUD/USD outperformed all G10 peers — range 0.7053-0.7126. ASX 200 gained with mining, resources, materials and financials leading.",
-    "IEA Proposes Largest Ever Oil Reserve Release — No Decision Yet: WSJ reported IEA proposed largest ever release of oil from strategic reserves (exceeding 182mln bbls released in 2022 for Russia-Ukraine). IEA meeting ended Tuesday with no decision. Countries decide today. G7 Energy Ministers confirmed readiness to act. Saudi Aramco CEO: ~180mln bbls disruption so far, 2mln BPD spare capacity could be restored within days."
+    "Iran-Krieg Woche 3 — Hezbollah koordinierter Angriff: IRGC 40. Angriffswelle auf Tel Aviv/Jerusalem/Haifa. Hezbollah + Iran führten ersten koordinierten Angriff auf Nordisrael seit Kriegsbeginn durch. Bahrain Fuel Tanks angegriffen. Irak Ölhäfen komplett gestoppt. WTI settled $87.25/bbl (+$3.80), Brent $91.98/bbl. IEA 400mln bbl Emergency Release angekündigt — Markt ignoriert es als 'Band-Aid'. Trump: 'practically nothing left to target, any time I want it to end, it will end' — aber Axios: mindestens 2 weitere Wochen Strikes geplant.",
+    "US CPI In-Line, PCE-Komponenten Hot — Fed Cuts auf Dezember verschoben: US CPI Feb 2.4% YoY (in-line), Core CPI 2.4% YoY (in-line). PCE-Komponenten lehnten hot — Pantheon Macroeconomics erwartet Core PCE Deflator bei 0.4% im Februar. Money Markets: Fed rate cut erst Dezember fully priced (von 2 auf 1 Cut). DXY stärker, Yields höher. USD bleibt haven-gestützt und durch sticky inflation untermauert.",
+    "RBA Hike — 4 Banken jetzt im Hike-Camp: ANZ + Goldman Sachs + NAB + Westpac erwarten alle RBA Hike nächste Woche. AUD/USD outperformed alle G10 Peers — Range 0.7113-0.7185. ASX 200 fiel trotzdem (Öl-Inflation dämpft Sentiment). Heute: BoE Governor Bailey Speech (Zeit TBD) — entscheidend ob GBP zurück in Bullish dreht. US Unemployment Claims 13:30 Frankfurt."
   ],
   "currencies": {
     "USD": {
       "bias": "Bullish",
-      "tone": "Hormuz Haven Bid",
-      "summary": "DXY strengthened as disruptions to flows through the Strait of Hormuz look set to stay. The CBS report that Iran is taking steps to deploy mines was the catalyst — reversing Tuesday's risk-on move and reinstating the geopolitical haven premium. US CPI today at 13:30 Frankfurt is the key data catalyst: a hot print (+0.3%+ MoM) would reinforce the stagflation narrative and accelerate USD strength; a soft print could temporarily pressure DXY. Weekly Weak Bullish + Daily Bullish = High Conviction alignment confirmed.",
+      "tone": "Haven + Sticky Inflation",
+      "summary": "USD strengthened as DXY tracked yields higher amid rising oil prices and sticky CPI. US CPI Feb came in exactly in-line (2.4% YoY headline, 2.4% Core) but the PCE components leaned hot — Pantheon Macroeconomics looks for Core PCE deflator to remain at 0.4% in February. Money markets pushed back Fed rate cut pricing to December (from earlier expectations of 2 cuts). USTR Greer announced Section 301 investigations into 16 trading partners including China, EU, Mexico — adding a trade war risk premium to USD. Weekly Weak Bullish + Daily Bullish = High Conviction alignment confirmed.",
       "drivers": [
-        "DXY strengthened — Hormuz mine threat reinstates haven premium",
-        "Iran mine deployment: CBS + CNN confirmed, Hormuz disruption looks set to stay",
-        "US CPI today 13:30 Frankfurt — hot print = stagflation narrative, USD positive",
-        "US Existing Home Sales Feb 4.09M (exp. 3.89M) — beat, economy resilient",
+        "DXY strengthened — yields higher, Fed cuts pushed to December",
+        "US CPI Feb 2.4% YoY (in-line), PCE components hot — stagflation narrative intact",
+        "USTR Section 301 investigation: 16 trading partners (China, EU, Mexico, Japan)",
+        "Iran war: 5,500+ targets struck, 60+ ships — no end in sight despite Trump rhetoric",
         "Weekly Weak Bullish + Daily Bullish = High Conviction alignment"
       ]
     },
     "EUR": {
       "bias": "Bearish",
-      "tone": "Stagflation Trap + ECB Uncertainty",
-      "summary": "EUR/USD barely retained the 1.1600 level — support held but price action is contained and the structural bearish case remains intact. German CPI Feb Final came in exactly in-line (0.2% MoM, 1.9% YoY) — no positive surprise. ECB speakers sent mixed signals: Kazimir says hike 'closer than thought' but not at next week's meeting; Villeroy says no hike next week; Nagel says 'will act decisively if energy spike feeds into durably higher inflation'; Lagarde says 'cannot say what they will do.' The ECB uncertainty combined with the Eurozone's energy importer status keeps EUR under pressure. Weekly Weak Bearish + Daily Bearish = High Conviction alignment confirmed.",
+      "tone": "Stagflation Trap + ECB Divided",
+      "summary": "EUR/USD traded within a 1.1577-1.1645 range — pressured by a firmer USD and ongoing energy disruptions. ECB speakers sent mixed signals: Kazimir said a rate hike on Iran may be closer than thought but no reason to act at next meeting; Villeroy said no hike at next week's ECB meeting; Nagel said ECB will act decisively if energy spike feeds into durably higher inflation; Schnabel said monetary policy is in a good place and they must monitor the persistence of the energy price shock. EU warned Iran conflict could push Eurozone inflation above 3%. EUR is trapped between firmer front-end rate pricing and a deteriorating growth outlook. Weekly Weak Bearish + Daily Bearish = High Conviction alignment confirmed.",
       "drivers": [
-        "EUR/USD barely held 1.1600 — structural bearish case intact",
-        "German CPI Feb Final 0.2% MoM / 1.9% YoY — in-line, no positive surprise",
-        "ECB mixed signals: Kazimir (hike closer), Villeroy (no hike next week), Lagarde (uncertain)",
-        "Eurozone energy importer — Hormuz mine threat = persistent stagflation headwind",
+        "EUR/USD 1.1577-1.1645 range — pressured by firmer USD and energy disruptions",
+        "ECB divided: Kazimir (hike closer), Villeroy (no hike), Nagel (act if persistent), Schnabel (good place)",
+        "EU warns Iran conflict could push Eurozone inflation above 3%",
+        "USTR Section 301 investigation into EU — trade war risk adds to EUR headwinds",
         "Weekly Weak Bearish + Daily Bearish = High Conviction alignment"
       ]
     },
     "GBP": {
       "bias": "Neutral",
-      "tone": "BoE Hike Bets Trimmed",
-      "summary": "GBP swung between gains and losses on Tuesday, ultimately weakening as BoE rate hike bets were trimmed after the pullback in oil prices. The dominant driver of GBP's recent strength — BoE easing priced out — is now being partially reversed as oil retreats from $119/bbl peaks. GBP/USD remained confined within the prior day's range at the 1.3400 handle. No UK-specific data today. Weekly Weak Bullish + Daily Neutral = no High Conviction alignment. GBP is in a wait-and-see mode ahead of Thursday's BoE Governor Bailey speech.",
+      "tone": "Bailey Speech Key Risk",
+      "summary": "GBP marginally weakened but just about retained the 1.3400 handle. UK Chancellor Reeves warned there will be dislocation in the labour market and a response is needed — a cautious signal on UK growth outlook. UK RICS House Price Balance Feb came in at -12% (exp. -9%, prev. -10%) — a miss, adding to the soft UK data picture. The dominant driver of GBP's recent strength — BoE easing priced out — is being tested. BoE Governor Bailey speaks today: if he sounds relaxed about inflation, the gilt yield support could fade quickly and GBP could turn Bearish. Weekly Weak Bullish + Daily Neutral = no High Conviction alignment.",
       "drivers": [
-        "GBP swung between gains/losses — ultimately weakened as BoE hike bets trimmed",
-        "Oil pullback reduces BoE hawkish repricing that drove GBP last week",
-        "GBP/USD confined to 1.3400 range — no directional conviction",
-        "BoE Governor Bailey speaks Thursday — key risk event for GBP",
+        "GBP marginally weakened, held 1.3400 — cyclical currencies weighed by risk-off",
+        "UK RICS House Price Balance Feb -12% (exp. -9%) — miss, soft UK data",
+        "UK Chancellor Reeves: 'labour market dislocation, response needed'",
+        "BoE Governor Bailey speaks today — hawkish = GBP bid, dovish = GBP offered",
         "Weekly Weak Bullish + Daily Neutral = no High Conviction alignment"
       ]
     },
     "JPY": {
       "bias": "Bearish",
-      "tone": "PPI Deflation Delays BoJ",
-      "summary": "USD/JPY returned to 158.00 territory as the dollar strengthened on Hormuz mine reports. Japanese PPI Feb showed a surprise monthly deflation (-0.1% MoM vs +0.1% exp) — this delays the BoJ's case for further rate hikes. ING wrote that BoJ is likely to stand pat in April, favouring a June hike instead. Japan's government is considering measures amid Middle East tensions and will announce gas and utility price measures at an appropriate time. Japan 5yr JGB auction was strong (b/c 3.69x vs prev. 3.10x). JPY is bearish but the Hormuz escalation provides some haven support at the margin. Weekly Weak Bearish + Daily Bearish = High Conviction alignment confirmed.",
+      "tone": "Oil Pressure + BoJ Accommodative",
+      "summary": "USD/JPY edged higher to return to the 159.00 handle as the firmer USD and higher US yields added to the headwinds for Japan. BoJ Governor Ueda said foreign exchange is an important factor affecting the economy and prices, and noted the need to be mindful that forex has larger impacts on prices than in the past. However, Ueda's comments were not hawkish enough to support JPY — the BoJ remains accommodative while Japan faces a severe energy import shock. Higher oil prices are a direct negative for Japan's terms of trade (90%+ crude from Middle East). Weekly Weak Bearish + Daily Bearish = High Conviction alignment confirmed.",
       "drivers": [
-        "USD/JPY back to 158.00 — dollar strengthened on Hormuz mine reports",
-        "Japan PPI Feb -0.1% MoM (exp. +0.1%) — deflation surprise delays BoJ hike",
-        "ING: BoJ likely stands pat in April, June hike favoured instead",
-        "Japan 5yr JGB auction strong (b/c 3.69x vs prev. 3.10x) — demand intact",
+        "USD/JPY back to 159.00 — firmer USD, higher US yields, oil pressure",
+        "BoJ Ueda: FX important factor, mindful of larger price impacts — but not hawkish",
+        "Japan 90%+ crude from Middle East — severe terms-of-trade shock",
+        "Higher oil prices = direct JPY negative (energy importer)",
         "Weekly Weak Bearish + Daily Bearish = High Conviction alignment"
       ]
     },
     "AUD": {
       "bias": "Bullish",
-      "tone": "RBA Hike Imminent",
-      "summary": "AUD was the clear G10 outperformer — range 0.7053-0.7126. Multiple factors converged: NAB and Westpac now expect RBA to hike in both March and May; Goldman Sachs calls a March hike; money markets price 76% probability of 25bps next week; RBA Deputy Governor Hauser said 'there will be a very genuine policy debate.' ASX 200 gained with mining, resources, materials and financials leading. China Trade beat (Tuesday) and base metals strength (copper +) add to the bullish case. AUD is Daily Bullish but Weekly Neutral — no High Conviction alignment, but strong intraday case.",
+      "tone": "RBA Hike — 4 Banks Confirmed",
+      "summary": "AUD extended outperformance as ANZ and Goldman Sachs joined NAB and Westpac in calling for an RBA rate hike at next week's meeting. AUD/USD traded towards the upper end of a 0.7113-0.7185 range. The oil-related inflation pressures have spurred further hawkish central bank calls — Westpac previously forecast a May hike but now believes the RBA will be 'compelled to react' to the recent strength in oil prices. ASX 200 fell on risk-off mood but AUD FX outperformed. Australia temporarily permitted higher sulphur levels in fuel as an emergency measure. AUD is Daily Bullish but Weekly Neutral — strong intraday case but no High Conviction alignment.",
       "drivers": [
-        "AUD/USD outperformed all G10 — range 0.7053-0.7126",
-        "NAB + Westpac: RBA hike March AND May — Goldman Sachs confirms March call",
-        "Money markets: 76% probability of 25bps RBA hike next week",
-        "RBA Deputy Hauser: 'very genuine policy debate' at next meeting",
-        "ASX 200 gained — mining, resources, materials, financials led"
+        "AUD/USD 0.7113-0.7185 — extended outperformance vs all G10",
+        "4 banks now expect RBA hike next week: ANZ, Goldman Sachs, NAB, Westpac",
+        "Westpac: RBA 'compelled to react' to oil price strength — previously forecast May",
+        "Australia temporarily permits higher sulphur fuel — emergency energy response",
+        "Weekly Neutral + Daily Bullish = no High Conviction alignment (strong intraday)"
       ]
     },
     "CAD": {
       "bias": "Bullish",
-      "tone": "Petro-Currency + Supply Boost",
-      "summary": "WTI settled $83.45/bbl on Tuesday — still significantly elevated above pre-war levels ($70s). CAD remains the G10 petro-currency beneficiary. Canadian government is seeking options to boost oil production — a supply-side positive that adds to CAD's structural advantage. The Loonie was the best overnight performer on oil surge, then pared as oil pared. G7 Energy Ministers confirmed readiness to act on SPR release — a potential mild CAD headwind if oil falls further, but the level remains supportive. Weekly Bullish + Daily Bullish = High Conviction alignment confirmed.",
+      "tone": "Petro-Currency + Production Boost",
+      "summary": "WTI settled $87.25/bbl (+$3.80) — still significantly elevated, keeping CAD's petro-currency advantage intact. Canada's Energy Minister said the government is working urgently with industry to assess the possible pace and scale of action on oil production — a supply-side positive that adds to CAD's structural advantage. The IEA 400mln bbl release announcement is a potential mild CAD headwind if oil falls further, but the level remains highly supportive. OPEC MOMR maintained 2026 world oil demand forecast at 1.4mln BPD — no downgrade. Weekly Bullish + Daily Bullish = High Conviction alignment confirmed.",
       "drivers": [
-        "WTI $83.45/bbl settlement — still elevated, CAD petro-advantage intact",
-        "Canadian government seeks options to boost oil production — supply positive",
-        "G7 Energy Ministers: readiness to act on SPR release — watch for oil pressure",
-        "Loonie best overnight performer on oil surge — pared as oil pared",
+        "WTI $87.25/bbl (+$3.80) — elevated, CAD petro-advantage intact",
+        "Canada Energy Minister: working urgently on oil production boost — supply positive",
+        "IEA 400mln bbl release: potential mild headwind if oil falls, but level still supportive",
+        "OPEC MOMR: 2026 oil demand forecast maintained at 1.4mln BPD — no downgrade",
         "Weekly Bullish + Daily Bullish = High Conviction alignment"
       ]
     },
     "CHF": {
       "bias": "Neutral",
-      "tone": "Haven Mixed",
-      "summary": "CHF faces competing forces: Hormuz mine threat reinstates haven demand, but APAC stocks traded higher (risk-on recovery) which caps CHF upside. SNB cap at EUR/CHF 0.9000 remains in place. Swiss data calendar is empty today. CHF is Weekly Weak Bullish but Daily Neutral — no High Conviction alignment. The haven trade is mixed as geopolitical escalation and risk-on recovery alternate. CHF will likely follow the oil narrative today — Hormuz escalation = CHF bid, IEA SPR release = CHF offered.",
+      "tone": "Oil Importer Headwind",
+      "summary": "CHF mildly underperformed alongside EUR and JPY as net oil importers faced headwinds from rising crude prices. USD/JPY and EUR/USD moves dominated FX while CHF traded quietly. The SNB cap at EUR/CHF 0.9000 remains in place. Spot gold declined amid a firmer USD and as oil fluctuations muddled the inflation and interest rate outlooks. CHF's haven role is being partially offset by its energy import exposure. Weekly Weak Bullish + Daily Neutral = no High Conviction alignment.",
       "drivers": [
-        "Hormuz mine threat reinstates haven demand — CHF bid",
-        "APAC stocks higher — risk-on recovery caps CHF upside",
+        "CHF mildly underperformed — oil importer headwind alongside EUR and JPY",
+        "Spot gold declined on firmer USD — reduces CHF haven premium",
         "SNB cap at EUR/CHF 0.9000 — limits CHF appreciation",
-        "Empty Swiss data calendar — entirely geopolitics-driven",
+        "Oil fluctuations muddle inflation/rate outlook — CHF direction unclear",
         "Weekly Weak Bullish + Daily Neutral = no High Conviction alignment"
       ]
     },
     "NZD": {
-      "bias": "Neutral",
-      "tone": "AUD Outperforms NZD",
-      "summary": "Antipodeans gained but NZD underperformed AUD — the RBA hike story is AUD-specific and NZD lacks its own catalyst. China Trade beat (Tuesday) provides some support as China is NZD's largest trading partner, but the RBNZ remains dovish and there is no domestic data catalyst. China vehicle sales Feb fell 15.2% YoY (vs -3.2% in Jan) — a negative signal for NZD. Weekly Weak Bearish + Daily Neutral = no High Conviction alignment. NZD is in a holding pattern — follow AUD directionally but with less conviction.",
+      "bias": "Bearish",
+      "tone": "High-Beta Pressure",
+      "summary": "Antipodeans were subdued owing to their high-beta characteristics and pressure in metal prices. NZD underperformed AUD — the RBA hike story is AUD-specific and NZD lacks its own catalyst. Copper futures retreated with risk sentiment spooked by surging oil prices and the US Section 301 investigation announcement into 16 trading partners including China. Bitcoin declined below $70,000 — a broader risk-off signal. RBNZ remains dovish with no domestic rate hike catalyst. Weekly Weak Bearish + Daily Bearish = High Conviction alignment confirmed.",
       "drivers": [
-        "Antipodeans gained but NZD underperformed AUD — RBA story is AUD-specific",
-        "China vehicle sales Feb -15.2% YoY (vs -3.2% Jan) — negative for NZD",
-        "RBNZ dovish — no domestic rate hike catalyst unlike RBA",
-        "China Trade beat (Tuesday) provides some support — China = NZD's largest partner",
-        "Weekly Weak Bearish + Daily Neutral = no High Conviction alignment"
+        "Antipodeans subdued — high-beta pressure, metal prices declined",
+        "NZD underperformed AUD — RBA hike story is AUD-specific, NZD lacks catalyst",
+        "Copper retreated — US Section 301 investigation into China adds risk",
+        "Bitcoin below $70,000 — broader risk-off signal",
+        "Weekly Weak Bearish + Daily Bearish = High Conviction alignment"
       ]
     }
   },
   "redFolderNews": [
-    {
-      "day": "WED",
-      "time": "13:30",
-      "currency": "USD",
-      "event": "Core CPI m/m",
-      "impact": "High"
-    },
-    {
-      "day": "WED",
-      "time": "13:30",
-      "currency": "USD",
-      "event": "CPI m/m",
-      "impact": "High"
-    },
-    {
-      "day": "WED",
-      "time": "13:30",
-      "currency": "USD",
-      "event": "CPI y/y",
-      "impact": "High"
-    },
     {
       "day": "THU",
       "time": "13:30",
@@ -182,39 +161,39 @@
       "name": "US 10Y Treasury",
       "bias": "Bearish",
       "yield": "Higher",
-      "summary": "T-notes settled 3 ticks higher at 112-14+ on Tuesday but faced headwinds from record corporate issuance (Amazon $25-30bln, Salesforce $25bln, Honeywell $16bln — fresh record for single-day corporate bond issuance). Short-end yields picked up sharply after the CBS Hormuz mine report reinstated inflation fears. US CPI today at 13:30 Frankfurt is the key catalyst — a hot print would send yields higher and reinforce the stagflation narrative. Treasury futures are lacklustre amid oil price swings and supply pressure.",
+      "summary": "T-notes were lower as yields rose across the curve amid rising oil prices, likely dealer concession ahead of the 10-year auction, and with some hot-leaning PCE components in the CPI report. Money markets now only fully price one Fed rate cut this year, not until December. The 3-year auction on Tuesday was weak — demand concerns at the front end. The 10-year auction today will be closely watched for demand signals.",
       "drivers": [
-        "T-notes settled 3 ticks higher but short-end yields spiked on Hormuz mine report",
-        "Record corporate issuance: Amazon + Salesforce + Honeywell = USD 66bln+ single day",
-        "US CPI today 13:30 Frankfurt — hot print = yields higher, stagflation narrative",
-        "3yr Treasury auction was very weak — demand concerns at front end",
-        "Hormuz mine threat reinstates inflation fears — bond negative"
+        "T-notes lower — yields higher on oil prices, dealer concession, hot PCE components",
+        "Fed rate cut: only 1 cut fully priced for 2026, not until December",
+        "3yr auction Tuesday was weak — demand concerns at front end",
+        "10yr auction today — key demand signal for Treasuries",
+        "US CPI in-line but PCE components hot — stagflation narrative intact"
       ]
     },
     {
       "name": "German Bund 10Y",
-      "bias": "Neutral",
-      "yield": "Mixed",
-      "summary": "Bund futures traded subdued but found support near the 127.00 level. German CPI Feb Final came in exactly in-line (0.2% MoM, 1.9% YoY) — no surprise. Germany sold EUR 3.871bln vs EUR 5bln 2.10% 2028 Schatz with a weak b/c of 1.61x (prev. 1.77x) — poor demand. ECB speakers sent mixed signals on rate hike probability. EUR 10bln of issuances scheduled this week. Bunds are in a holding pattern ahead of today's US CPI which will set the tone for global yields.",
+      "bias": "Bearish",
+      "yield": "Higher",
+      "summary": "Bund futures fell beneath the 126.00 level after Wednesday's one-way downward price action, as oil prices and geopolitics continued to dominate markets. ECB speakers (Kazimir, Kazaks) added to the bearish fixed income tone — odds of an ECB hike by end-2026 fully priced. The 2036 Bund tap was weak (b/c 1.18x vs prev. 1.46x, yield 2.89% vs prev. 2.73%). EU warned Iran conflict could push Eurozone inflation above 3%.",
       "drivers": [
-        "Bund futures subdued — found support near 127.00",
-        "German CPI Feb Final in-line (0.2% MoM, 1.9% YoY) — no surprise",
-        "Germany Schatz auction weak: b/c 1.61x (prev. 1.77x), yield 2.72% (prev. 2.02%)",
-        "ECB mixed signals — Kazimir (hike closer), Villeroy (no hike next week)",
-        "US CPI today will set global yield direction"
+        "Bund futures below 126.00 — oil prices + ECB hawkish repricing",
+        "ECB Kazimir: hike closer than thought — odds of 2026 hike fully priced",
+        "2036 Bund tap weak: b/c 1.18x (prev. 1.46x), yield 2.89% (prev. 2.73%)",
+        "EU: Iran conflict could push Eurozone inflation above 3%",
+        "One-way downward price action Wednesday — bearish momentum"
       ]
     },
     {
       "name": "JGB 10Y",
-      "bias": "Bullish",
-      "yield": "Lower",
-      "summary": "10yr JGB futures were initially pressured by positive APAC risk appetite but then gradually recovered, facilitated by a strong 5yr JGB auction (b/c 3.69x vs prev. 3.10x, yield 1.633% vs prev. 1.640%). Japan PPI Feb -0.1% MoM (deflation surprise) delays BoJ hike case — ING now expects BoJ to stand pat in April and hike in June instead. JGBs are supported by the delayed BoJ normalisation narrative and strong domestic demand at auctions.",
+      "bias": "Neutral",
+      "yield": "Mixed",
+      "summary": "10yr JGB futures lacked demand amid oil-related inflation pressures, while there was little reaction to comments from BoJ Governor Ueda. Ueda noted that they need to be mindful that FX has larger impacts on prices than in the past and could affect inflation expectations. JGBs face competing forces: oil-driven inflation pressure (bearish) vs delayed BoJ normalisation (bullish). The BoJ remains accommodative — no imminent hike signal.",
       "drivers": [
-        "JGB futures recovered after initial pressure — strong 5yr auction (b/c 3.69x)",
-        "Japan PPI Feb -0.1% MoM (exp. +0.1%) — deflation surprise delays BoJ",
-        "ING: BoJ stands pat in April, June hike favoured instead",
-        "Positive APAC risk appetite initially pressured JGBs but recovered",
-        "Japan government considering gas and utility price measures — fiscal support"
+        "JGB futures lacked demand — oil inflation pressures weigh",
+        "BoJ Ueda: mindful FX has larger price impacts, will conduct appropriate policy",
+        "BoJ remains accommodative — no imminent hike signal",
+        "Oil-driven inflation (bearish JGB) vs delayed BoJ normalisation (bullish JGB)",
+        "Japan 90%+ crude from Middle East — terms-of-trade shock ongoing"
       ]
     }
   ]
