@@ -311,59 +311,5 @@
       "time": "15:00 Frankfurt",
       "impact": "High"
     }
-  ],
-  "bonds": [
-    {
-      "name": "US 10Y Treasury",
-      "bias": "Bearish",
-      "yield": "Higher",
-      "summary": "T-notes fell as yields rose on oil-driven inflation and hawkish repricing. Money markets now only 66% probability of 1 Fed cut this year. US Jobless Claims in-line — Oxford Economics: NFP miss was a blip. 30yr auction today after a better-than-recent 10yr and weak 3yr. Core PCE + Prelim GDP at 13:30 Frankfurt — a hot print would extend the bearish bond trend.",
-      "drivers": [
-        "Yields higher — oil near $100/bbl, Fed cuts priced out to December",
-        "Money markets: 66% probability of 1 cut this year (from 2 cuts)",
-        "US Jobless Claims in-line — NFP miss seen as blip, not trend",
-        "30yr auction today — key demand signal after weak 3yr and average 10yr",
-        "Core PCE + Prelim GDP at 13:30 Frankfurt — hot print = further yield spike"
-      ]
-    },
-    {
-      "name": "German Bund 10Y",
-      "bias": "Bearish",
-      "yield": "Higher",
-      "summary": "Bunds retreated below 126.00 as oil prices returned to $100/bbl and ECB hawkish repricing continued. ECB Kazimir said a hike is closer than thought; Nagel said ECB will act decisively if energy spike feeds into durably higher inflation. EU warned Iran conflict could push Eurozone inflation above 3%. Germany IFW institute revised 2026 inflation forecast up to 2.5% (prev. 1.8%).",
-      "drivers": [
-        "Bunds below 126.00 — oil $100/bbl, ECB hawkish repricing",
-        "ECB Kazimir: hike closer than thought — 2026 hike odds rising",
-        "Germany IFW: 2026 inflation 2.5% (prev. 1.8%), GDP 0.8% (prev. 1.0%)",
-        "EU: Iran conflict could push Eurozone inflation above 3%",
-        "Italy sold EUR 6.0bln BTP — demand solid but yields higher"
-      ]
-    },
-    {
-      "name": "UK Gilt 10Y",
-      "bias": "Bearish",
-      "yield": "Higher",
-      "summary": "Gilts fell to 88.96 lows — driven by continued indecision around BoE pricing and scrutiny on PM Starmer from the Mandelson files. UK GDP miss (0.0% vs 0.2% exp) and Industrial Production miss add to the soft UK data picture. BoE cut timing uncertain — no cut next week confirmed, but the GDP miss removes the relative rates support narrative. UK sold GBP 500mln 1.825% 2049 I/L Gilt with solid b/c 3.57x.",
-      "drivers": [
-        "Gilts at 88.96 lows — BoE cut timing uncertainty",
-        "UK GDP MoM Jan 0.0% (exp. +0.2%) — miss removes rate support narrative",
-        "Mandelson files scrutiny on PM Starmer — political risk premium",
-        "BoE: no cut next week confirmed, but no new hawkish catalyst",
-        "UK I/L Gilt auction: b/c 3.57x (prev. 3.39x) — demand solid"
-      ]
-    },
-    {
-      "name": "JGB 10Y",
-      "bias": "Bearish",
-      "yield": "Higher",
-      "summary": "JGBs tracked global peers lower as oil price concerns and higher US yields weighed. BoJ Governor Ueda noted FX is an important factor affecting prices but remained accommodative — no imminent hike signal. Finance Minister Katayama said 'prepared to take all necessary steps on FX' but USD/JPY at 159.00 without actual jawboning suggests a higher bar for intervention. Japan's 90%+ crude imports from Middle East = direct terms-of-trade shock.",
-      "drivers": [
-        "JGBs tracked global peers lower — oil inflation + higher US yields",
-        "BoJ Ueda: FX is important factor but policy remains accommodative",
-        "Finance Minister Katayama: 'prepared to take all necessary steps on FX'",
-        "USD/JPY at 159.00 intervention zone — no actual jawboning yet",
-        "Japan 90%+ crude from Middle East — terms-of-trade shock ongoing"
-      ]
-    }
   ]
 }

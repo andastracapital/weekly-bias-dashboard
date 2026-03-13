@@ -182,3 +182,8 @@
 - [x] Visually highlight "Weekly Bias + Daily Narrative aligned" column as primary — orange accent header, brighter cell background, larger pair text
 - [x] Dim the other two columns (Weekly Bias, Intraday Trades) as secondary info
 - [x] Save checkpoint and push to GitHub
+
+## Remove Bond Market Bias Section (COMPLETED)
+- [x] Remove bonds UI block from Home.tsx (Bond Market Bias section)
+- [x] Remove bonds field from dailyRecap.json
+- [x] Save checkpoint and push to GitHub
