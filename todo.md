@@ -210,3 +210,8 @@
 ## FFT Abbreviation: Next Update Header (COMPLETED)
 - [x] Replace "Frankfurt Time" with "FFT" in Next Update header (Home.tsx + dailyRecap.json lastUpdate field)
 - [x] Save checkpoint and push to GitHub
+
+## Swing Setup Card Text Fix (COMPLETED)
+- [x] Find the truncation logic in Home.tsx that cuts Swing Setup rationale text mid-phrase
+- [x] Fix so full sentences display without mid-phrase cuts — now reads directly from dailyRecap.json
+- [x] Save checkpoint and push to GitHub

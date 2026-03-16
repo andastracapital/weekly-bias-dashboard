@@ -859,8 +859,8 @@ export default function Home() {
                     Based on Weekly & Daily Bias Alignment
                   </p>
                   <div className="space-y-3">
-                    {highConvictionSetups.length > 0 ? (
-                      highConvictionSetups.map((trade: any, i: number) => (
+                    {dailyData.highConvictionSetups && dailyData.highConvictionSetups.length > 0 ? (
+                      dailyData.highConvictionSetups.slice(0, 3).map((trade: any, i: number) => (
                         <TradeCard key={i} trade={trade} index={i} />
                       ))
                     ) : (
@@ -878,37 +878,22 @@ export default function Home() {
                     Intraday Trades <span className="text-gray-500 ml-1 text-[10px]">(Base Hits)</span>
                   </h3>
                   
-                  {/* Generated Pairs Only */}
+                  {/* JSON-driven Intraday Trades */}
                   <div className="space-y-2">
-                    {intradayPotentials.bullish.length > 0 && intradayPotentials.bearish.length > 0 ? (
-                      intradayPotentials.bullish.flatMap(bull => 
-                        intradayPotentials.bearish.map(bear => {
-                          // Determine Pair Direction (Standard Notation)
-                          let pair = `${bull}/${bear}`;
-                          let direction = "Long";
-
-                          // Priority: EUR > GBP > AUD > NZD > USD > CAD > CHF > JPY
-                          const priority = ["EUR", "GBP", "AUD", "NZD", "USD", "CAD", "CHF", "JPY"];
-                          const bullIndex = priority.indexOf(bull);
-                          const bearIndex = priority.indexOf(bear);
-
-                          if (bullIndex > bearIndex && bearIndex !== -1) {
-                              // Flip to Standard Notation
-                              pair = `${bear}/${bull}`;
-                              direction = "Short"; 
-                          }
-
-                          return { pair, direction, bull, bear };
-                        })
-                      )
-                      // Filter out pairs that are already in Swing Setups
-                      .filter(trade => !highConvictionSetups.some(hc => hc.pair === trade.pair))
-                      .slice(0, 6).map((trade, i) => (
-                        <div key={i} className={`flex items-center justify-between bg-[#1a1a1a] px-3 py-2 border-l-2 ${trade.direction === "Long" ? "border-l-orange-500" : "border-l-red-500"} border-y border-r border-gray-800`}>
-                          <span className="text-xs font-bold text-white font-mono">{trade.pair}</span>
-                          <span className={`text-[9px] font-bold uppercase tracking-wider ${trade.direction === "Long" ? "text-orange-500" : "text-red-500"}`}>
-                            {trade.direction}
-                          </span>
+                    {dailyData.intradayTrades && dailyData.intradayTrades.length > 0 ? (
+                      dailyData.intradayTrades.slice(0, 6).map((trade: any, i: number) => (
+                        <div key={i} className={`flex items-center justify-between bg-[#1a1a1a] px-3 py-2 border-l-2 ${trade.direction === "LONG" ? "border-l-orange-500" : "border-l-red-500"} border-y border-r border-gray-800`}>
+                          <div className="flex-1 min-w-0">
+                            <div className="flex items-center gap-2">
+                              <span className="text-xs font-bold text-white font-mono">{trade.pair}</span>
+                              <span className={`text-[9px] font-bold uppercase tracking-wider ${trade.direction === "LONG" ? "text-orange-500" : "text-red-500"}`}>
+                                {trade.direction}
+                              </span>
+                            </div>
+                            {trade.reason && (
+                              <p className="text-[9px] text-gray-500 font-mono mt-0.5 leading-tight [word-break:keep-all] hyphens-none">{trade.reason}</p>
+                            )}
+                          </div>
                         </div>
                       ))
                     ) : (
