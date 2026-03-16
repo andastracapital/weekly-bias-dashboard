@@ -198,7 +198,11 @@
 - [x] Verify Weekly View displays correctly
 - [x] Save checkpoint and push to GitHub
 
-## Red Folder News UI Fixes (CURRENT TASK)
+## Red Folder News UI Fixes (COMPLETED)
 - [x] Fix countdown timer bug (shows NaNh NaNm instead of actual countdown)
 - [x] Abbreviate "Frankfurt" to "FFT" in Red Folder News time display to prevent text overflow
+- [x] Save checkpoint and push to GitHub
+
+## Swing Setups Rewrite: Mar 16, 2026 (CURRENT TASK)
+- [ ] Rewrite all 3 Swing Setup rationale lines with full figures (no truncation)
 - [ ] Save checkpoint and push to GitHub

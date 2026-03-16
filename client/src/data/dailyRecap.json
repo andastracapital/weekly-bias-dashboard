@@ -110,48 +110,48 @@
       "pair": "EUR/USD",
       "direction": "SHORT",
       "reason": {
-        "line1": "EUR: Energy importer, stagflation trap, EUR/USD capped below 1.1500, ECB Thu",
-        "line2": "USD: DXY 100.00 base, haven premium, FOMC hold Wed, Core PCE 3.1% YoY"
+        "line1": "EUR: Energy importer shock — Brent $100/bbl acts as direct tax on Eurozone; EUR/USD capped near 1.1500 despite dollar softness; ECB Thu with updated macro projections",
+        "line2": "USD: DXY holding 100.00 base after last week's YTD highs; Core PCE 3.1% YoY (above 3.0% exp) keeps Fed on hold; only 18bps of easing priced for full year 2026; FOMC Wed"
       }
     },
     {
       "pair": "GBP/USD",
       "direction": "SHORT",
       "reason": {
-        "line1": "GBP: Stagflation trap, GDP 0.0% miss, energy shock, BOE Thu straitjacket",
-        "line2": "USD: DXY structural bid, safe-haven, Fed on hold, geopolitical premium"
+        "line1": "GBP: Stagflation trap — GDP 0.0% MoM in January, energy shock adding to inflation pressure; UK £50mln household support package signals policy strain; BOE Thu in policy straitjacket",
+        "line2": "USD: DXY structural bid at 100.00; safe-haven demand from Hormuz crisis and Kharg Island strikes; Core PCE 3.1% YoY, Fed on hold with only 18bps easing priced for 2026"
       }
     },
     {
       "pair": "AUD/JPY",
       "direction": "LONG",
       "reason": {
-        "line1": "AUD: RBA hike 80% probability tomorrow, China data beat, 0.7000 reclaimed",
-        "line2": "JPY: Energy importer, 90%+ crude from Middle East, BOJ hold Thu, 160.00 risk"
+        "line1": "AUD: RBA hike 80% probability tomorrow (04:30 FFT) — back-to-back hike to 4.10%; AUD/USD reclaimed 0.7000; China Industrial Production +6.3% YoY (exp. +5.3%) — direct demand channel beat",
+        "line2": "JPY: Japan imports 90%+ of crude from Middle East — Hormuz closure is a direct terms-of-trade hit; Finance Minister Katayama verbal warnings ignored; BOJ expected to hold at 0.75% Thu; 160.00 risk"
       }
     },
     {
       "pair": "EUR/AUD",
       "direction": "SHORT",
       "reason": {
-        "line1": "EUR: Energy importer, stagflation trap, no domestic catalyst today",
-        "line2": "AUD: RBA hike tomorrow, China beat, energy exporter, 0.7000 reclaimed"
+        "line1": "EUR: Net energy importer — Brent $100/bbl is a direct Eurozone tax; EUR/USD capped near 1.1500; ECB Thu with macro projections likely revised lower on energy shock",
+        "line2": "AUD: RBA hike to 4.10% priced at 80% for tomorrow; China Industrial Production +6.3% YoY beats exp. +5.3%; AUD/USD reclaimed 0.7000; Australia is a net energy exporter"
       }
     },
     {
       "pair": "GBP/AUD",
       "direction": "SHORT",
       "reason": {
-        "line1": "GBP: Stagflation trap, GDP miss, BOE straitjacket, energy shock",
-        "line2": "AUD: RBA hike 80% probability, China demand beat, petro-adjacent exporter"
+        "line1": "GBP: GDP 0.0% MoM in January — stagflation trap; energy shock adds to inflation while BOE cannot hike; UK exploring sending interceptor drones to Middle East (geopolitical drag)",
+        "line2": "AUD: RBA hike 80% probability to 4.10% tomorrow; China Retail Sales +2.8% YoY (exp. +2.6%) and Industrial Production +6.3% YoY (exp. +5.3%) — both beats support AUD via China demand"
       }
     },
     {
       "pair": "AUD/CAD",
       "direction": "LONG",
       "reason": {
-        "line1": "AUD: RBA hike tomorrow, China data beat, 0.7000 reclaimed, energy exporter",
-        "line2": "CAD: Employment shock -83.9k last week, CPI today key test, BOC Wed risk"
+        "line1": "AUD: RBA hike to 4.10% priced at 80% for tomorrow; AUD/USD at 0.7000; China Industrial Production +6.3% YoY (exp. +5.3%) and Retail Sales +2.8% YoY (exp. +2.6%) — strong beats",
+        "line2": "CAD: Employment shock last week -83.9k (vs +10k exp) — worst reading in years; Canadian CPI Feb today at 13:30 FFT is key test; BOC Wed — market pricing a cut despite oil windfall"
       }
     }
   ],
@@ -159,27 +159,27 @@
     {
       "pair": "USD/JPY",
       "direction": "LONG",
-      "reason": "USD haven + Fed on hold vs JPY energy importer, verbal intervention only, 160.00 risk"
+      "reason": "USD safe-haven bid at DXY 100.00 + Fed on hold (Core PCE 3.1% YoY, only 18bps easing priced for 2026) vs JPY structurally weak — Japan imports 90%+ of crude from Middle East, Finance Minister Katayama verbal warnings only, BOJ hold at 0.75% expected Thu, 160.00 line in sand"
     },
     {
       "pair": "CAD/JPY",
       "direction": "LONG",
-      "reason": "CAD petro-currency, WTI $100, CPI today vs JPY energy importer, BOJ hold Thu"
+      "reason": "CAD petro-currency supported by WTI/Brent near $100/bbl + Canada supplying 24mln bbls as part of IEA stabilisation + Canadian CPI Feb today at 13:30 FFT vs JPY energy importer (90%+ crude from Middle East), BOJ hold at 0.75% expected Thu"
     },
     {
       "pair": "EUR/CAD",
       "direction": "SHORT",
-      "reason": "EUR stagflation trap, energy importer vs CAD petro-currency, 24mln bbls IEA supply"
+      "reason": "EUR net energy importer — Brent $100/bbl direct Eurozone tax, EUR/USD capped near 1.1500, ECB Thu with downward macro revisions vs CAD petro-currency with Canada supplying 24mln bbls oil to IEA, WTI $100 floor, CPI today"
     },
     {
       "pair": "GBP/CAD",
       "direction": "SHORT",
-      "reason": "GBP stagflation trap, GDP miss vs CAD petro-currency, WTI $100 floor"
+      "reason": "GBP stagflation trap — GDP 0.0% MoM in January, energy shock adds to inflation while BOE Thu is in policy straitjacket vs CAD petro-currency with WTI/Brent near $100/bbl providing a commodity floor despite -83.9k employment shock last week"
     },
     {
       "pair": "NZD/USD",
       "direction": "LONG",
-      "reason": "NZD China data beat outperformer today, US-China trade talks constructive vs USD breather"
+      "reason": "NZD outperformer today on China data beat — Industrial Production +6.3% YoY (exp. +5.3%), Retail Sales +2.8% YoY (exp. +2.6%); US-China trade talks in Paris 'candid and constructive'; NZD GDP Q4 Wed 22:45 FFT vs USD taking a breather after DXY 100.00 reclaim"
     }
   ],
   "redFolderNews": [
