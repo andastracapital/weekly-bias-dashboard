@@ -860,7 +860,7 @@ export default function Home() {
                   </p>
                   <div className="space-y-3">
                     {dailyData.highConvictionSetups && dailyData.highConvictionSetups.length > 0 ? (
-                      dailyData.highConvictionSetups.slice(0, 3).map((trade: any, i: number) => (
+                      dailyData.highConvictionSetups.map((trade: any, i: number) => (
                         <TradeCard key={i} trade={trade} index={i} />
                       ))
                     ) : (
@@ -878,22 +878,15 @@ export default function Home() {
                     Intraday Trades <span className="text-gray-500 ml-1 text-[10px]">(Base Hits)</span>
                   </h3>
                   
-                  {/* JSON-driven Intraday Trades */}
+                  {/* JSON-driven Intraday Trades — pair + direction only, no text */}
                   <div className="space-y-2">
                     {dailyData.intradayTrades && dailyData.intradayTrades.length > 0 ? (
-                      dailyData.intradayTrades.slice(0, 6).map((trade: any, i: number) => (
+                      dailyData.intradayTrades.map((trade: any, i: number) => (
                         <div key={i} className={`flex items-center justify-between bg-[#1a1a1a] px-3 py-2 border-l-2 ${trade.direction === "LONG" ? "border-l-orange-500" : "border-l-red-500"} border-y border-r border-gray-800`}>
-                          <div className="flex-1 min-w-0">
-                            <div className="flex items-center gap-2">
-                              <span className="text-xs font-bold text-white font-mono">{trade.pair}</span>
-                              <span className={`text-[9px] font-bold uppercase tracking-wider ${trade.direction === "LONG" ? "text-orange-500" : "text-red-500"}`}>
-                                {trade.direction}
-                              </span>
-                            </div>
-                            {trade.reason && (
-                              <p className="text-[9px] text-gray-500 font-mono mt-0.5 leading-tight [word-break:keep-all] hyphens-none">{trade.reason}</p>
-                            )}
-                          </div>
+                          <span className="text-xs font-bold text-white font-mono">{trade.pair}</span>
+                          <span className={`text-[9px] font-bold uppercase tracking-wider ${trade.direction === "LONG" ? "text-orange-500" : "text-red-500"}`}>
+                            {trade.direction}
+                          </span>
                         </div>
                       ))
                     ) : (

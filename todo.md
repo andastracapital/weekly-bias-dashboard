@@ -215,3 +215,9 @@
 - [x] Find the truncation logic in Home.tsx that cuts Swing Setup rationale text mid-phrase
 - [x] Fix so full sentences display without mid-phrase cuts — now reads directly from dailyRecap.json
 - [x] Save checkpoint and push to GitHub
+
+## Swing Setups + Intraday Trades Fix (COMPLETED)
+- [x] Remove .slice(0,3) limit from Swing Setups — show ALL Weekly+Daily aligned pairs
+- [x] Restore Intraday Trades to pair+direction only (no reason text) — old compact format
+- [x] Deduplication handled via JSON (intradayTrades already excludes Swing Setup pairs)
+- [x] Save checkpoint and push to GitHub
