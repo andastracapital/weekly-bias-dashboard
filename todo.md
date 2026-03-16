@@ -187,3 +187,13 @@
 - [x] Remove bonds UI block from Home.tsx (Bond Market Bias section)
 - [x] Remove bonds field from dailyRecap.json
 - [x] Save checkpoint and push to GitHub
+
+## Weekly Bias Update: Mar 16 - Mar 22, 2026 (CURRENT TASK)
+- [x] Analyze all 8 PMT Smart Bias Reports (USD, EUR, GBP, JPY, AUD, CAD, CHF, NZD)
+- [x] Determine bias + strength qualifier for each currency
+- [x] Write trader-focused rationales (2-4 sentences per currency)
+- [x] Scrape key events for the week (FOMC, ECB, BOE, SNB, BOJ, RBA, BOC + data)
+- [x] Rebuild weeklyBias.json with all 8 currencies
+- [x] Update Swing Watchlist (5 LONG + 5 SHORT)
+- [x] Verify Weekly View displays correctly
+- [x] Save checkpoint and push to GitHub
