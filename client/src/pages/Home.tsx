@@ -55,7 +55,9 @@ const CountdownTimer = ({ eventTime }: { eventTime: string }) => {
   useEffect(() => {
     const calculateTimeLeft = () => {
       const now = new Date();
-      const [hours, minutes] = eventTime.split(':').map(Number);
+      // Strip timezone suffix (e.g. "13:30 Frankfurt" → "13:30") before parsing
+      const timePart = eventTime.split(' ')[0];
+      const [hours, minutes] = timePart.split(':').map(Number);
       const event = new Date(now);
       event.setHours(hours, minutes, 0, 0);
       
@@ -942,7 +944,7 @@ export default function Home() {
                           .filter((news: any) => {
                             if (news.day !== tomorrowDay) return false;
                             if (!isPropFirmEvent(news)) return false;
-                            const [h] = (news.time || '').split(':').map(Number);
+                            const [h] = (news.time || '').split(' ')[0].split(':').map(Number);
                             return h < 9; // only pre-09:00 events
                           })
                           .map((news: any) => ({ ...news, isOvernight: true }))
@@ -961,7 +963,7 @@ export default function Home() {
                           {closeEvents.map((news: any, i: number) => (
                             <div key={i} className="flex items-center justify-between border-b border-amber-500/20 pb-2 last:border-0">
                               <div className="flex items-center gap-2">
-                                <span className="text-xs font-mono text-amber-500/80 w-10">{news.time}</span>
+                                <span className="text-xs font-mono text-amber-500/80 w-10">{news.time.replace('Frankfurt', 'FFT')}</span>
                                 <div>
                                   <div className="flex items-center gap-1.5">
                                     <span className="text-xs font-bold text-amber-300 w-8">{news.currency}</span>
@@ -979,7 +981,7 @@ export default function Home() {
                                 </div>
                               </div>
                               {news.isOvernight ? (
-                                <span className="text-[9px] font-mono text-yellow-400 font-bold">{news.time}</span>
+                                <span className="text-[9px] font-mono text-yellow-400 font-bold">{news.time.replace('Frankfurt', 'FFT')}</span>
                               ) : (
                                 <CountdownTimer eventTime={news.time} />
                               )}
@@ -1011,7 +1013,7 @@ export default function Home() {
                             isPropFirmEvent(news) ? 'border-amber-500/30' : 'border-gray-800'
                           }`}>
                             <div className="flex items-center gap-3">
-                              <span className="text-xs font-mono text-gray-500 w-10">{news.time}</span>
+                              <span className="text-xs font-mono text-gray-500 w-10">{news.time.replace('Frankfurt', 'FFT')}</span>
                               <div>
                                 <div className="flex items-center gap-2">
                                   <span className={`text-xs font-bold w-8 ${

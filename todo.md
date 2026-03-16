@@ -197,3 +197,8 @@
 - [x] Update Swing Watchlist (5 LONG + 5 SHORT)
 - [x] Verify Weekly View displays correctly
 - [x] Save checkpoint and push to GitHub
+
+## Red Folder News UI Fixes (CURRENT TASK)
+- [x] Fix countdown timer bug (shows NaNh NaNm instead of actual countdown)
+- [x] Abbreviate "Frankfurt" to "FFT" in Red Folder News time display to prevent text overflow
+- [ ] Save checkpoint and push to GitHub
