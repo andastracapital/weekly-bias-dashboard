@@ -802,7 +802,7 @@ export default function Home() {
                 <div className="flex flex-col gap-1 text-right">
                   <span className="text-[10px] text-gray-500 uppercase tracking-wider font-bold">Next Update</span>
                   <span className="text-sm font-bold text-gray-400 font-mono">
-                    {dailyData.lastUpdate}
+                    {dailyData.lastUpdate.replace('Frankfurt Time', 'FFT')}
                   </span>
                 </div>
               </div>

@@ -206,3 +206,7 @@
 ## Swing Setups Rewrite: Mar 16, 2026 (CURRENT TASK)
 - [ ] Rewrite all 3 Swing Setup rationale lines with full figures (no truncation)
 - [ ] Save checkpoint and push to GitHub
+
+## FFT Abbreviation: Next Update Header (COMPLETED)
+- [x] Replace "Frankfurt Time" with "FFT" in Next Update header (Home.tsx + dailyRecap.json lastUpdate field)
+- [x] Save checkpoint and push to GitHub
