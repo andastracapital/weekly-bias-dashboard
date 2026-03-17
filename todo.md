@@ -221,3 +221,11 @@
 - [x] Restore Intraday Trades to pair+direction only (no reason text) — old compact format
 - [x] Deduplication handled via JSON (intradayTrades already excludes Swing Setup pairs)
 - [x] Save checkpoint and push to GitHub
+
+## Daily Recap Update: Mar 17, 2026 (CURRENT TASK)
+- [ ] Analyze 4 PMT reports (US Market Wrap, European Opening News, London Session Recap, Asia-Pac Opening News)
+- [ ] Determine 8 currency biases for Tuesday Mar 17
+- [ ] Calculate High Conviction Setups (Weekly + Daily alignment)
+- [ ] Calculate Intraday Trades (Daily only, deduplicated)
+- [ ] Rebuild dailyRecap.json
+- [ ] Save checkpoint and push to GitHub
