@@ -1,195 +1,199 @@
 {
-  "date": "Tuesday, March 17, 2026",
+  "date": "Wednesday, March 18, 2026",
   "lastUpdate": "09:00 FFT",
   "riskEnvironment": "Mixed",
   "marketFocus": [
-    "RBA Hikes to 4.10% — Hawkish Bullock Drives AUD Recovery: RBA delivered the widely expected back-to-back 25bps hike (5-4 vote split) to 4.10%. AUD initially sold off on the narrow majority, but Governor Bullock's press conference was decisively hawkish — she stated oil prices were NOT the reason for the hike, inflation was already too high, and the dissenters voted to hold in a hawkish sense (debate was about timing, not direction). AUD/USD rebounded from the initial dip and is firming into the European open. RBA Employment Report Thursday remains the next key AUD catalyst.",
-    "Iran War: Oil Partially Recovers as Iran Denies US Contact — Hormuz Remains Closed: WTI settled $5.21 lower at $93.50/bbl Monday (Brent $100.21/bbl) as Trump suggested Iran wants to make a deal. However, oil rebounded overnight after Iran denied contact with the US, and Iranian attacks on neighbouring energy infrastructure (Fujairah fire, Abu Dhabi Shah gas field suspended, Iraq Majnoon oilfield hit by drones) reinforced supply disruption fears. Fujairah port suspended oil loadings. BofA raised Brent forecast to $77.50/bbl for 2026 (prior $61/bbl); Morgan Stanley raised Q2-2026 Brent to $110/bbl. Risk environment remains Mixed — geopolitical premium intact but de-escalation hopes cap the upside.",
-    "Super Week of Central Banks: FOMC (Wed), BOC (Wed), ECB (Thu), BOE (Thu), SNB (Thu), BOJ (Thu): Today's key data: German/EZ ZEW Economic Sentiment (Mar), US Retail Sales m/m. DXY regained composure after Monday's softness, trading back near 100.00. EUR/USD slipped back below 1.1500 as dollar firmed. GBP/USD retested 1.3300 support. USD/JPY rebounded from sub-159.00 after Finance Minister Katayama reiterated readiness for decisive FX steps. BoJ Governor Ueda confirmed price trend rising gradually — no near-term hike signal."
+    "Iran War Escalates — Larijani Killed, Missiles on Tel Aviv, Hormuz Won't Return to Pre-War Status: Iran's security chief Larijani was killed in a US/Israeli airstrike; Iran's Basij force commander Gholamreza Soleimani also killed. Iran retaliated by targeting Tel Aviv with missiles carrying cluster warheads. Iran's parliament speaker Ghalibaf stated the Strait of Hormuz situation 'won't return to its pre-war status.' US Central Command struck Iranian missile sites along the Hormuz coastline with 5,000-pound deep penetrator munitions. Russia confirmed it is providing Iran with satellite imagery and drone technology. Despite the escalation, oil partially retreated — WTI settled $2.71 higher at $96.21/bbl, Brent $3.21 higher at $103.42/bbl — as Iraq-Kurdistan reached an agreement to resume exports to Ceyhan port in Turkey, and the US moved to ease Venezuela oil sanctions.",
+    "Dollar Slips as Risk-On Prevails — DXY Softens to 99.52 Ahead of FOMC: The US FX Wrap headline was 'Dollar slips as risk-on prevails; AUD strength helped by hawkish RBA Governor Bullock press conference.' DXY waned from its 100.12 peak and fell below Monday's 99.66 low to a 99.52 trough, with price action largely mirroring oil markets. EUR/USD traded sideways near 1.1500 after German ZEW Economic Sentiment collapsed to -0.5 (from 58.3 prior) and EZ ZEW plunged to -8.5 (from 39.4 prior) — the sharpest single-month drop in the survey's history, reflecting the Iran war shock. GBP/USD paused near 1.3300 with UK Chancellor Reeves warning the Iran conflict 'is likely to put upward pressure on inflation in the months to come.' USD/JPY rangebound near 159.00 as the BOJ kicked off its 2-day policy meeting.",
+    "Super Wednesday: BOC (14:45 FFT), FOMC (19:00 FFT) + Powell Press Conference (19:30 FFT), NZD GDP (22:45 FFT): FOMC expected to hold at 3.50-3.75% and release updated dot plot projections. BOC decision is a coin-flip between hold and hike given the energy windfall vs -83.9k employment shock. NZD Current Account Q4 already missed (-5.98B vs -4.78B exp). UK Jobs Report this morning (08:00 FFT): Claimant Count, Average Earnings, Unemployment Rate. EZ CPI Final (Feb) and US PPI (Feb) also today. ASX 200 gained on tech, utilities, and real estate strength; Nikkei 225 climbed back above 55,000 on Japan trade surplus and US-Japan rare earths/AI deal. Money markets pricing a coin-flip for a third consecutive RBA hike in May."
   ],
   "currencies": {
     "USD": {
-      "bias": "Bullish",
-      "tone": "Haven + Fed On Hold + DXY Regaining Composure",
-      "summary": "DXY regained composure after Monday's softness, trading back near 100.00 as oil partially recovered and Trump's Iran deal optimism faded. The structural bullish case is intact: Core PCE 3.1% YoY keeps the Fed firmly on hold, money markets price only 18bps of easing for the full year, and the geopolitical premium from the Hormuz crisis supports safe-haven flows. US Retail Sales m/m today at 13:30 FFT is the first test — a strong print would reinforce the USD bid ahead of Wednesday's FOMC + PPI. Trump reiterated criticism of Fed Chair Powell and called for a rate cut, but markets are ignoring political pressure. Weekly Weak Bullish + Daily Bullish = High Conviction alignment confirmed.",
+      "bias": "Bearish",
+      "tone": "Dollar Slipping — DXY 99.52, Risk-On Prevails, FOMC Hold Expected",
+      "summary": "The dollar slipped on Tuesday as risk-on sentiment prevailed despite the constant flow of Middle East headlines. DXY fell from its 100.12 peak to a 99.52 trough, with price action mirroring oil markets — as oil retreated, so did the safe-haven USD bid. The structural case for USD remains intact (Core PCE 3.1% YoY, Fed on hold, only 18bps of easing priced for 2026), but the near-term momentum has shifted bearish as the market prices a benign FOMC hold with no new hawkish catalyst. US PPI (Feb) at 13:30 FFT and FOMC decision at 19:00 FFT are the key catalysts today. A hawkish Powell press conference could reverse the dollar's slide; a dovish tone would accelerate it. Weekly Weak Bullish vs Daily Bearish = NO High Conviction alignment.",
       "drivers": [
-        "DXY regaining composure near 100.00 after Monday's softness — structural bid intact",
-        "Core PCE 3.1% YoY (above 3.0% exp) — hot inflation keeps Fed firmly on hold",
-        "Money markets: only 18bps of Fed easing priced for full year 2026",
-        "Geopolitical safe-haven premium: Hormuz crisis, oil supply disruption ongoing",
-        "US Retail Sales m/m (TUE 13:30 FFT) + FOMC + PPI (WED) are the key tests"
+        "DXY fell from 100.12 peak to 99.52 trough — price action mirroring oil markets",
+        "US FX Wrap: 'Dollar slips as risk-on prevails' — safe-haven bid fading as oil retreats",
+        "Core PCE 3.1% YoY structural case intact but near-term momentum shifted bearish",
+        "Only 18bps of Fed easing priced for 2026 — FOMC hold fully expected",
+        "US PPI (Feb) at 13:30 FFT + FOMC Decision at 19:00 FFT + Powell at 19:30 FFT"
       ]
     },
     "EUR": {
       "bias": "Bearish",
-      "tone": "Energy Importer + Below 1.1500 + ECB Thursday",
-      "summary": "EUR/USD slipped back below 1.1500 as the dollar regained composure, confirming the single currency cannot hold any rally in this environment. Europe's energy import dependence remains the dominant narrative — Brent above $100/bbl acts as a direct tax on the Eurozone economy. German/EZ ZEW Economic Sentiment today will be the first hard data point reflecting the Iran war shock. Bund futures were rangebound, capped heading into ZEW data. The ECB meets Thursday with updated macro projections — markets now fully price a 25bps ECB hike by year-end (was cuts two weeks ago). Weekly Weak Bearish + Daily Bearish = High Conviction alignment confirmed.",
+      "tone": "ZEW Collapsed — German -0.5 vs 58.3 Prior, EUR/USD Capped Near 1.1500",
+      "summary": "EUR/USD traded in a narrow 1.1466-1.1544 range on Tuesday, unable to hold any rally as the ZEW Economic Sentiment data confirmed the Iran war shock on European confidence. German ZEW Economic Sentiment collapsed to -0.5 from 58.3 prior — the sharpest single-month drop in the survey's history. EZ ZEW plunged to -8.5 from 39.4 prior. EUR edged higher in line with softer USD but saw downticks on the sub-par ZEW metrics. The EU moved to delay raising bank capital requirements over competitiveness concerns. EZ CPI Final (Feb) today and ECB tomorrow (14:15 FFT) with updated macro projections are the key catalysts. Weekly Weak Bearish + Daily Bearish = High Conviction alignment confirmed.",
       "drivers": [
-        "EUR/USD slipped back below 1.1500 — dollar regained composure, rally capped",
-        "Energy importer: Brent $100+ acts as direct tax on Eurozone economy",
-        "German/EZ ZEW Economic Sentiment (TUE 11:00 FFT) — first hard data of Iran war shock",
-        "ECB repricing: markets now fully price 25bps ECB hike by year-end (was cuts)",
-        "ECB (THU 14:15 FFT) + updated macro projections = key catalyst"
+        "German ZEW Economic Sentiment -0.5 (from 58.3 prior) — sharpest monthly drop in history",
+        "EZ ZEW Economic Sentiment -8.5 (from 39.4 prior) — Iran war shock confirmed in data",
+        "EUR/USD 1.1466-1.1544 range — rally capped despite softer USD",
+        "EU delayed raising bank capital requirements over competitiveness concerns",
+        "EZ CPI Final (WED 11:00 FFT) + ECB Decision (THU 14:15 FFT) = key catalysts"
       ]
     },
     "GBP": {
       "bias": "Bearish",
-      "tone": "Stagflation Trap + 1.3300 Support Test + BOE Thursday",
-      "summary": "GBP/USD partially faded Monday's gains and retested the 1.3300 level to the downside, finding only slight support. The structural bearish case is unchanged: flat January GDP (0.0%), the BoE in a policy straitjacket, and the energy shock adding to stagflation pressure. UK PM Starmer announced a £50mln household support package and a fuel price cap until September — policy response to the energy shock, but not a bullish catalyst for GBP. Trump stated he is not happy with the UK but thinks they will be involved in the Hormuz coalition. UK Jobs Report (Wednesday 08:00 FFT) and BOE Meeting (Thursday 13:00 FFT) are the key catalysts. Weekly Weak Bearish + Daily Bearish = High Conviction alignment confirmed.",
+      "tone": "Stagflation Deepens — Reeves: Iran Conflict Will Push Inflation Higher, BOE Tomorrow",
+      "summary": "GBP/USD traded in a 1.3273-1.3347 range on Tuesday, firmer alongside peers amid modest USD softness but with UK-specific newsflow confirming the stagflation narrative. UK Chancellor Reeves explicitly stated the Iran conflict 'is likely to put upward pressure on inflation in the months to come' — a direct acknowledgment that the BoE faces a worsening policy straitjacket. UK-US relations remain under pressure amid reported tensions over positioning in the Iran conflict (Trump: 'not happy with UK'). UK Jobs Report this morning (08:00 FFT): Claimant Count Change, Average Earnings Index 3m/y, and Unemployment Rate. BOE Meeting tomorrow (13:00 FFT). Weekly Weak Bearish + Daily Bearish = High Conviction alignment confirmed.",
       "drivers": [
-        "GBP/USD retested 1.3300 support — slight support found but structural bearish intact",
-        "Stagflation trap: GDP 0.0% MoM in January + energy shock adding to inflation",
-        "UK PM Starmer: £50mln household support + fuel price cap until September",
-        "Trump: 'not happy with UK' but expects UK involvement in Hormuz coalition",
+        "GBP/USD 1.3273-1.3347 range — firmer on USD softness but capped by stagflation",
+        "Reeves: 'Iran conflict is likely to put upward pressure on inflation in months to come'",
+        "UK-US tensions: Trump 'not happy with UK'; UK-US relations under pressure",
+        "UK DMO plans new 10yr gilt in April + long-maturity gilt in June — supply pressure",
         "UK Jobs Report (WED 08:00 FFT) + BOE Meeting (THU 13:00 FFT) = key catalysts"
       ]
     },
     "JPY": {
       "bias": "Bearish",
-      "tone": "Energy Importer + Verbal Intervention Only + BOJ Thursday",
-      "summary": "USD/JPY rebounded from a brief dip to sub-159.00 territory as the dollar and oil partially recovered. Finance Minister Katayama reiterated readiness to take decisive FX steps if needed — but verbal warnings continue to be largely ignored by the market. BoJ Governor Ueda confirmed the price trend is rising gradually and underlying inflation is accelerating toward the 2% target, but reaffirmed the BoJ will act flexibly in exceptional situations when JGB yields suddenly rise — no near-term hike signal. Japan's 20-year JGB auction was mixed (higher bid-to-cover but lower accepted prices). The BOJ meets Thursday and is widely expected to hold at 0.75%. Weekly Bearish + Daily Bearish = High Conviction alignment confirmed.",
+      "tone": "BOJ 2-Day Meeting Started — Hold at 0.75% Expected, USD/JPY Rangebound 159.00",
+      "summary": "USD/JPY remained rangebound near 159.00 on Tuesday, with the pair heavy amid broader USD softness and a steady decline in oil prices — but still well within the intervention zone. The BOJ kicked off its 2-day policy meeting on Tuesday; the central bank is unanimously forecast to hold at 0.75% with no policy tweaks. Japan trade data was mostly better than expected (Trade Balance +57.3B vs -1152.7B prior; Exports +4.2% YoY, Imports +10.2% YoY), and the Nikkei 225 climbed back above 55,000 on US-Japan rare earths and AI shipbuilding robot joint development deals. However, the structural bearish case remains: Japan imports 90%+ of crude from the Middle East, and the Hormuz closure is a direct terms-of-trade hit. BOJ decision and press conference tomorrow (04:00/07:30 FFT). Weekly Bearish + Daily Bearish = High Conviction alignment confirmed.",
       "drivers": [
-        "USD/JPY rebounded from sub-159.00 — Finance Minister Katayama verbal warnings ignored",
-        "BoJ Governor Ueda: price trend rising gradually, no near-term hike signal",
-        "Japan 20yr JGB auction mixed — higher b/c 3.25x (prev. 3.08) but lower accepted prices",
-        "Japan imports 90%+ of crude from Middle East — Hormuz closure = direct terms-of-trade hit",
-        "BOJ (THU ~04:00 FFT) expected to hold at 0.75% — 160.00 remains line in sand"
+        "USD/JPY rangebound near 159.00 — heavy on USD softness + oil decline, but in intervention zone",
+        "BOJ 2-day meeting started — unanimously expected to hold at 0.75%, no policy tweaks",
+        "Japan Trade Balance +57.3B (prev. -1152.7B); Exports +4.2% YoY, Imports +10.2% YoY",
+        "Nikkei 225 back above 55,000 — US-Japan rare earths + AI shipbuilding robot deal",
+        "BOJ Decision (THU ~04:00 FFT) + Press Conference (THU 07:30 FFT) = key catalysts"
       ]
     },
     "AUD": {
       "bias": "Bullish",
-      "tone": "RBA Hiked to 4.10% + Hawkish Bullock + Energy Exporter",
-      "summary": "AUD/USD initially sold off on the narrow 5-4 RBA vote split but recovered sharply as Governor Bullock delivered a hawkish press conference — she explicitly stated oil prices were NOT the reason for the hike, inflation was already too high, and the dissenters voted to hold in a hawkish sense (debate was about timing, not direction). This is a strong bullish signal: the RBA is hiking into an energy shock, not despite it. Australia is a net energy exporter, benefiting from higher oil prices. ASX 200 was supported by gains in miners, utilities, and financials. China's Ministry of Finance confirmed more proactive fiscal policy — positive for AUD via the China demand channel. Weekly Weak Bullish + Daily Bullish = High Conviction alignment confirmed.",
+      "tone": "Post-RBA Hike Strength — AUD/USD Holding Gains, May Hike Coin-Flip",
+      "summary": "AUD/USD held on to its post-RBA spoils on Tuesday as Antipodeans remained afloat amid the mostly positive risk environment. Governor Bullock's hawkish press conference (stressing inflation remains elevated and that dissent centered on timing rather than direction of further tightening) continued to underpin AUD. ASX 200 gained with strength in tech, utilities, and real estate — though gains were limited amid weakness in health care and consumer sectors following the rate hike. Money markets are now pricing a coin-flip for a third consecutive RBA hike in May. Australia's net energy exporter status remains a structural positive. AUD Employment Report tomorrow (01:30 FFT) is the next key catalyst. Weekly Weak Bullish + Daily Bullish = High Conviction alignment confirmed.",
       "drivers": [
-        "RBA hiked to 4.10% (5-4 vote) — Bullock hawkish: 'oil not the reason, inflation too high'",
-        "AUD/USD initial dip on narrow vote recovered — hawkish press conference drove rebound",
-        "Dissenters voted to hold in hawkish sense — debate was about timing, not direction",
-        "Australia is net energy exporter — benefits from higher oil prices (unlike EUR/JPY)",
-        "China MoF: more proactive fiscal policy in 2026 — AUD positive via demand channel"
+        "AUD/USD holding post-RBA hike gains — Bullock hawkish: 'timing not direction of tightening'",
+        "Money markets: coin-flip for third consecutive RBA hike in May",
+        "ASX 200 gained on tech, utilities, real estate — limited by health care + consumer weakness",
+        "Australia net energy exporter — structural positive vs EUR/JPY/GBP energy importers",
+        "AUD Employment Change + Unemployment Rate (THU 01:30 FFT) = next key catalyst"
       ]
     },
     "CAD": {
       "bias": "Bullish",
-      "tone": "Petro-Currency + IEA Supply Role + BOC Wednesday",
-      "summary": "CAD remains supported by WTI/Brent near $100/bbl and Canada's confirmed role supplying 24mln bbls as part of the IEA stabilisation effort. Canadian CPI for February was released yesterday — the result reinforces the BOC's inflation constraint from triple-digit oil. USD/CAD is trading near the 50-day MA at 1.3700 after last week's employment shock (-83.9k). The BOC meets Wednesday at 14:45 FFT — the key question is whether the energy windfall or the labor market deterioration wins the narrative. BofA and Morgan Stanley both raised oil price forecasts significantly, which is structurally positive for CAD. Weekly Weak Bullish + Daily Bullish = High Conviction alignment confirmed.",
+      "tone": "Petro-Currency Bid — WTI $96.21/bbl, Iraq-Kurdistan Export Deal, BOC Today",
+      "summary": "CAD remains supported by WTI at $96.21/bbl and Brent at $103.42/bbl, with the Iraq-Kurdistan agreement to resume exports to Ceyhan port in Turkey providing a partial supply offset. Canada is also supplying 24mln bbls as part of the IEA stabilisation effort. The US easing Venezuela oil sanctions to boost output is a mild negative for CAD (more supply), but the structural petro-currency bid is intact. BOC decision today at 14:45 FFT is the key catalyst — the debate is between the energy windfall (bullish CAD) and the -83.9k employment shock (bearish CAD). A hike would be strongly bullish; a hold with hawkish language would be mildly bullish. Weekly Weak Bullish + Daily Bullish = High Conviction alignment confirmed.",
       "drivers": [
-        "WTI $93.50/bbl (settled) — Brent $100.21/bbl; petro-currency trade intact",
-        "Canada supplying 24mln bbls oil as part of IEA stabilisation effort",
-        "BofA raised Brent forecast to $77.50/bbl 2026 (prev. $61/bbl); MS raised Q2 to $110/bbl",
-        "Employment shock last week -83.9k (vs +10k exp) — downside risk to CAD remains",
-        "BOC Meeting (WED 14:45 FFT) = key directional catalyst for CAD"
+        "WTI settled $96.21/bbl (+$2.71); Brent $103.42/bbl (+$3.21) — petro-currency bid intact",
+        "Iraq-Kurdistan agreement to resume Ceyhan port exports — partial supply offset",
+        "Canada supplying 24mln bbls as part of IEA stabilisation effort",
+        "US easing Venezuela oil sanctions — mild negative (more supply) but CAD still supported",
+        "BOC Rate Decision (WED 14:45 FFT) + Press Conference (WED 15:30 FFT) = key catalyst"
       ]
     },
     "CHF": {
       "bias": "Neutral",
-      "tone": "Haven vs Energy Importer + SNB Thursday",
-      "summary": "CHF remains in a tug-of-war between haven demand from the Hormuz crisis and Switzerland's energy import dependence. Swiss sight deposits rose to CHF 454.4bln (prev. CHF 454.07bln) — marginal increase, no aggressive SNB intervention signal. EUR/CHF stable as both currencies are treated as energy-short assets. Spot gold edged higher after rebounding from a brief dip beneath $5,000/oz — correlated haven asset. The SNB meets Thursday at 09:30 FFT — Chairman Schlegel's tone on imported inflation vs currency strength will be the key signal. Weekly Neutral + Daily Neutral = no High Conviction alignment.",
+      "tone": "Haven vs Energy Importer — SNB Tomorrow, EUR/CHF Stable",
+      "summary": "CHF remains in a tug-of-war between haven demand from the escalating Iran war and Switzerland's energy import dependence. EUR/CHF was stable as both currencies are treated as energy-short assets. Swiss Producer & Import Prices YoY fell -2.7% (prev. -2.2%) and MoM -0.3% — deflationary pressure from the energy shock on input costs, but the Franc's haven appeal is partially offsetting. SNB meets tomorrow at 09:30 FFT — Chairman Schlegel's tone on imported inflation vs currency strength will be the key signal. Weekly Neutral + Daily Neutral = no High Conviction alignment.",
       "drivers": [
-        "Swiss sight deposits CHF 454.4bln (prev. 454.07bln) — no aggressive SNB intervention",
         "EUR/CHF stable — both currencies treated as energy-short assets",
-        "Haven demand from Hormuz crisis — but Switzerland is net energy importer",
-        "Gold edged higher after brief dip below $5,000/oz — correlated haven asset",
-        "SNB Meeting (THU 09:30 FFT) — Schlegel tone on inflation vs CHF strength = key signal"
+        "Swiss PPI YoY -2.7% (prev. -2.2%), MoM -0.3% — deflationary input cost pressure",
+        "Haven demand from Iran war escalation partially offsets energy importer vulnerability",
+        "SNB Meeting (THU 09:30 FFT) + Press Conference (THU 10:00 FFT) = key catalyst",
+        "Schlegel tone on imported inflation vs CHF strength = directional signal for CHF"
       ]
     },
     "NZD": {
       "bias": "Bearish",
-      "tone": "High-Beta Risk Proxy + No RBNZ + AUD Outperforming",
-      "summary": "NZD/USD was mixed overnight after Monday's outperformance, with Antipodeans diverging as AUD benefited from the hawkish RBA while NZD lacked a domestic catalyst. The Hang Seng outperformed but the mainland Shanghai Comp lagged after Trump revealed the US asked to delay the Trump-Xi summit by a month due to the Iran war — a negative signal for NZD via the China demand channel. US-China trade talks in Paris were described as constructive but the summit delay caps the upside. No RBNZ meeting until April. NZD GDP Q4 (Wednesday 22:45 FFT) is the only domestic release this week. Weekly Bearish + Daily Bearish = High Conviction alignment confirmed.",
+      "tone": "Current Account Miss — NZD Q4 -5.98B vs -4.78B Exp, GDP Tonight 22:45 FFT",
+      "summary": "NZD/USD was mixed overnight after Tuesday's session, with AUD continuing to outperform as the RBA hike story dominates the Antipodean narrative. New Zealand Current Account Q4 missed at -5.98B vs -4.78B expected (prev. -8.37B) — a wider deficit than forecast, adding to the bearish case. The Trump-Xi summit delay (by one month due to the Iran war) is a negative signal for NZD via the China demand channel. NZD GDP Q4 tonight at 22:45 FFT is the only domestic catalyst this week — a miss would accelerate the bearish case. No RBNZ meeting until April. Weekly Bearish + Daily Bearish = High Conviction alignment confirmed.",
       "drivers": [
-        "NZD/USD mixed overnight — AUD outperforming on hawkish RBA, NZD lacks catalyst",
-        "Trump-Xi summit delayed by a month due to Iran war — negative for NZD via China channel",
-        "Hang Seng outperformed but Shanghai Comp lagged — mixed China signal",
+        "NZD Current Account Q4 -5.98B (vs -4.78B exp, prev. -8.37B) — wider deficit than forecast",
+        "Trump-Xi summit delayed by one month due to Iran war — negative for NZD via China channel",
+        "AUD outperforming on hawkish RBA — AUD/NZD divergence widening",
         "No RBNZ meeting until April — policy support absent",
-        "NZD GDP Q4 (WED 22:45 FFT) — only domestic catalyst this week"
+        "NZD GDP Q4 (WED 22:45 FFT) = only domestic catalyst; miss would accelerate bearish case"
       ]
     }
   },
   "highConvictionSetups": [
     {
-      "pair": "EUR/USD",
-      "direction": "SHORT",
-      "reason": {
-        "line1": "EUR: Energy importer shock — Brent $100.21/bbl acts as direct tax on Eurozone; EUR/USD slipped back below 1.1500 as dollar regained composure; ZEW Economic Sentiment today; ECB Thu with macro projections",
-        "line2": "USD: DXY regaining composure near 100.00; Core PCE 3.1% YoY keeps Fed on hold; only 18bps of easing priced for 2026; US Retail Sales today 13:30 FFT; FOMC + PPI Wed"
-      }
-    },
-    {
-      "pair": "GBP/USD",
-      "direction": "SHORT",
-      "reason": {
-        "line1": "GBP: Stagflation trap — GDP 0.0% MoM in January; 1.3300 support retested; UK £50mln energy support package signals policy strain; BOE Thu in policy straitjacket",
-        "line2": "USD: DXY structural bid near 100.00; safe-haven demand from Hormuz crisis; Core PCE 3.1% YoY, Fed on hold with only 18bps easing priced for 2026; FOMC Wed"
-      }
-    },
-    {
-      "pair": "AUD/JPY",
-      "direction": "LONG",
-      "reason": {
-        "line1": "AUD: RBA hiked to 4.10% (5-4 vote) — Bullock hawkish: 'oil not the reason, inflation too high'; dissenters voted to hold in hawkish sense; Australia net energy exporter",
-        "line2": "JPY: Japan imports 90%+ of crude from Middle East — Hormuz closure is direct terms-of-trade hit; Finance Minister Katayama verbal warnings ignored; BOJ hold at 0.75% Thu; 160.00 risk"
-      }
-    },
-    {
       "pair": "EUR/AUD",
       "direction": "SHORT",
       "reason": {
-        "line1": "EUR: Net energy importer — Brent $100.21/bbl is direct Eurozone tax; EUR/USD back below 1.1500; ECB Thu with macro projections likely revised lower on energy shock",
-        "line2": "AUD: RBA hiked to 4.10% — Bullock hawkish press conference drove AUD recovery; Australia net energy exporter; China MoF confirmed more proactive fiscal policy 2026"
+        "line1": "EUR: ZEW collapsed — German -0.5 (from 58.3 prior), EZ -8.5 (from 39.4 prior); EUR/USD capped 1.1466-1.1544; energy importer shock; ECB Thu 14:15 FFT with macro projections",
+        "line2": "AUD: Holding post-RBA hike gains; Bullock hawkish — 'timing not direction of tightening'; coin-flip for 3rd hike in May; Australia net energy exporter; AUD Employment Thu 01:30 FFT"
       }
     },
     {
       "pair": "GBP/AUD",
       "direction": "SHORT",
       "reason": {
-        "line1": "GBP: GDP 0.0% MoM in January — stagflation trap; 1.3300 support retested; energy shock adds to inflation while BOE Thu is in policy straitjacket",
-        "line2": "AUD: RBA hiked to 4.10% — Bullock hawkish: debate was about timing not direction; dissenters voted to hold in hawkish sense; Australia net energy exporter"
+        "line1": "GBP: Stagflation deepens — Reeves: 'Iran conflict will put upward pressure on inflation'; 1.3273-1.3347 range; UK Jobs Report today 08:00 FFT; BOE Thu 13:00 FFT in policy straitjacket",
+        "line2": "AUD: Post-RBA hike strength intact; Bullock hawkish press conference; coin-flip for 3rd hike in May; net energy exporter; AUD Employment Thu 01:30 FFT"
       }
     },
     {
-      "pair": "NZD/USD",
+      "pair": "AUD/JPY",
+      "direction": "LONG",
+      "reason": {
+        "line1": "AUD: Holding post-RBA hike gains; Bullock hawkish — debate was about timing not direction; coin-flip for 3rd consecutive hike in May; net energy exporter vs Japan's 90%+ crude import dependence",
+        "line2": "JPY: BOJ 2-day meeting started — unanimously expected to hold at 0.75%; USD/JPY rangebound 159.00; Hormuz closure = direct terms-of-trade hit; BOJ Decision Thu ~04:00 FFT"
+      }
+    },
+    {
+      "pair": "EUR/CAD",
       "direction": "SHORT",
       "reason": {
-        "line1": "NZD: High-beta risk proxy — mixed overnight after Monday's outperformance; Trump-Xi summit delayed by a month due to Iran war; no RBNZ until April; NZD GDP Q4 Wed 22:45 FFT",
-        "line2": "USD: DXY regaining composure near 100.00; Core PCE 3.1% YoY, Fed on hold; safe-haven demand from Hormuz crisis; US Retail Sales today 13:30 FFT; FOMC + PPI Wed"
+        "line1": "EUR: ZEW Economic Sentiment collapsed — German -0.5 (from 58.3), EZ -8.5 (from 39.4); energy importer shock; EU delayed bank capital requirements; ECB Thu 14:15 FFT",
+        "line2": "CAD: WTI $96.21/bbl, Brent $103.42/bbl; Iraq-Kurdistan Ceyhan export deal; Canada supplying 24mln bbls IEA effort; BOC Decision today 14:45 FFT = directional catalyst"
+      }
+    },
+    {
+      "pair": "GBP/CAD",
+      "direction": "SHORT",
+      "reason": {
+        "line1": "GBP: Reeves confirmed Iran conflict will push UK inflation higher; 1.3273-1.3347 range; UK Jobs Report today 08:00 FFT; BOE Thu 13:00 FFT — stagflation straitjacket",
+        "line2": "CAD: WTI $96.21/bbl, Brent $103.42/bbl; Iraq-Kurdistan export deal; IEA 24mln bbl supply role; BOC Decision today 14:45 FFT = key directional catalyst for CAD"
+      }
+    },
+    {
+      "pair": "CAD/JPY",
+      "direction": "LONG",
+      "reason": {
+        "line1": "CAD: WTI $96.21/bbl, Brent $103.42/bbl; petro-currency bid intact; Iraq-Kurdistan Ceyhan deal; Canada IEA 24mln bbl supply role; BOC Decision today 14:45 FFT",
+        "line2": "JPY: Japan imports 90%+ crude from Middle East — Hormuz closure is direct terms-of-trade hit; BOJ 2-day meeting started, unanimously expected to hold at 0.75%; 159.00 intervention zone"
+      }
+    },
+    {
+      "pair": "EUR/NZD",
+      "direction": "SHORT",
+      "reason": {
+        "line1": "EUR: ZEW collapsed — German -0.5 (from 58.3), EZ -8.5 (from 39.4); energy importer shock; ECB Thu 14:15 FFT; EUR/USD capped 1.1466-1.1544 despite softer USD",
+        "line2": "NZD: Current Account Q4 missed -5.98B (vs -4.78B exp); Trump-Xi summit delayed 1 month; AUD outperforming on RBA; no RBNZ until April; NZD GDP tonight 22:45 FFT"
+      }
+    },
+    {
+      "pair": "GBP/NZD",
+      "direction": "SHORT",
+      "reason": {
+        "line1": "GBP: Reeves: Iran conflict will push UK inflation higher; stagflation straitjacket; UK Jobs Report today 08:00 FFT; BOE Thu 13:00 FFT",
+        "line2": "NZD: Current Account Q4 -5.98B (vs -4.78B exp); Trump-Xi summit delayed 1 month; no RBNZ until April; NZD GDP tonight 22:45 FFT = only domestic catalyst"
+      }
+    },
+    {
+      "pair": "NZD/CAD",
+      "direction": "SHORT",
+      "reason": {
+        "line1": "NZD: Current Account Q4 -5.98B (vs -4.78B exp); Trump-Xi summit delayed 1 month; AUD outperforming on RBA hike; no RBNZ until April; NZD GDP tonight 22:45 FFT",
+        "line2": "CAD: WTI $96.21/bbl, Brent $103.42/bbl; Iraq-Kurdistan Ceyhan export deal; Canada IEA 24mln bbl supply role; BOC Decision today 14:45 FFT = key directional catalyst"
       }
     }
   ],
   "intradayTrades": [
     {
-      "pair": "AUD/CAD",
-      "direction": "LONG"
-    },
-    {
-      "pair": "CAD/JPY",
-      "direction": "LONG"
-    },
-    {
-      "pair": "EUR/CAD",
-      "direction": "SHORT"
-    },
-    {
-      "pair": "GBP/CAD",
-      "direction": "SHORT"
-    },
-    {
       "pair": "AUD/NZD",
       "direction": "LONG"
     },
     {
-      "pair": "EUR/NZD",
+      "pair": "AUD/USD",
+      "direction": "LONG"
+    },
+    {
+      "pair": "NZD/JPY",
       "direction": "SHORT"
     }
   ],
   "redFolderNews": [
-    {
-      "day": "TUE",
-      "date": "Mar 17",
-      "currency": "USD",
-      "event": "Retail Sales m/m",
-      "time": "13:30 FFT",
-      "impact": "High"
-    },
     {
       "day": "WED",
       "date": "Mar 18",
