@@ -229,3 +229,7 @@
 - [ ] Calculate Intraday Trades (Daily only, deduplicated)
 - [ ] Rebuild dailyRecap.json
 - [ ] Save checkpoint and push to GitHub
+
+## Market Focus Length Fix: Mar 20, 2026 (COMPLETED)
+- [x] Rewrite 3 marketFocus headlines at ~50% length (concise, punchy, trader-focused)
+- [x] Save checkpoint and push to GitHub
