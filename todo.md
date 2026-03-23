@@ -233,3 +233,12 @@
 ## Market Focus Length Fix: Mar 20, 2026 (COMPLETED)
 - [x] Rewrite 3 marketFocus headlines at ~50% length (concise, punchy, trader-focused)
 - [x] Save checkpoint and push to GitHub
+
+## Weekly Bias Update: Mar 23 - Mar 29, 2026 (COMPLETED)
+- [x] Analyze all 8 PMT Smart Bias Reports (USD, EUR, GBP, JPY, AUD, CAD, CHF, NZD)
+- [x] Determine bias + strength qualifier for each currency
+- [x] Write trader-focused rationales (2-4 sentences per currency)
+- [x] Scrape Forex Factory Calendar for weekly key events (High/Critical impact)
+- [x] Rebuild weeklyBias.json with all 8 currencies + Swing Watchlist
+- [x] Verify Weekly View displays correctly
+- [x] Save checkpoint and push to GitHub
