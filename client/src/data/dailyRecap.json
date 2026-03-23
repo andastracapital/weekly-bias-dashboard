@@ -1,107 +1,107 @@
 {
-  "date": "Friday, March 20, 2026",
+  "date": "Monday, March 23, 2026",
   "lastUpdate": "09:00 FFT",
   "riskEnvironment": "Risk-Off",
   "marketFocus": [
-    "Super Week CB Sweep: All 5 G10 central banks held with a hawkish tilt. ECB most hawkish — HICP 2026 upgraded to 2.6%, GDP cut to 0.9%; source reports flag April hike talk, Barclays/JPMorgan forecast April move. BOE 9-0 unanimous hold (vs 7-2 exp), removed cut language, Mann signals hike; Goldman sees BOE on hold all 2026. BOJ's Ueda hawkish on SME wage momentum. SNB held 0.00% with explicit FX intervention language — CHF 2.5% firmer trade-weighted since December.",
-    "Oil retreated from Thursday's peak (Brent $119.50/bbl, WTI $107.50/bbl) after Netanyahu said the war 'will end much sooner than people think.' WTI settled $95.55/bbl, Brent $108.65/bbl. Saudi officials still see a base case of $180/bbl if disruptions persist to late April. QatarEnergy confirmed 2 of 14 LNG trains damaged — potential force majeure for up to 5 years. Kuwait suspended two refineries after drone strikes.",
-    "Dollar hit as peers hold higher for longer — DXY subdued 99.99-100.31. EUR/USD briefly above 1.1600 post-ECB; GBP/USD at top of 1.3245-1.3321 range post-BOE; USD/JPY briefly below 158.00 on Ueda hawkish tone. UK Jobs beat on employment (+84k vs -4k exp) but wages softened (3.8% vs 4.0% exp). German PPI Feb -3.3% YoY — deflation deepening. CAD Retail Sales (Jan) at 13:30 FFT is the only remaining event of the week."
+    "Trump gave Iran a 48-hour ultimatum to open Hormuz or face strikes on power plants. Iran's Revolutionary Guards responded: full Hormuz closure if energy facilities are hit. US preparing potential ground invasion of Kharg Island; thousands of troops deploying to the Middle East.",
+    "WTI settled $98.23/bbl, Brent $112.19/bbl — Iraq declared force majeure on all foreign-operated oilfields; Basra production collapsed from 3.3mln to 900k bpd. Russell 2000 entered correction territory (-10% from peaks). Gold down 3%+ below $4,400/oz.",
+    "Asia-Pac stocks opening sharply lower. PMT: 'USD gains amid risk-off mood and bets for an October Fed rate hike.' CAD outperforms on oil surge. JPY bid on haven demand and carry unwind. New hawkish BOJ board members (Asada and Sato) confirmed."
   ],
   "currencies": {
     "USD": {
-      "bias": "Bearish",
-      "tone": "Dollar Hit — DXY 100.00, Peers Hold Higher for Longer, No New Hawkish Catalyst",
-      "summary": "The dollar was hit on Thursday as all five G10 central banks held rates with a hawkish tilt, reinforcing the 'higher for longer' narrative for peers — not just the Fed. DXY was subdued around 100.00 within a 99.99-100.31 range. The FOMC held at 3.50-3.75% on Wednesday as expected, with Powell reiterating policy remains restrictive and no imminent cuts. The Fed's hawkish hold is now the baseline, not a differentiator — EUR, GBP, and JPY all moved hawkish to catch up. Netanyahu's 'war ending sooner' comments spurred risk appetite and accelerated USD selling. US Jobless Claims 205k (vs 215k exp) — a beat, but insufficient to reverse the dollar's slide. Philly Fed Manufacturing 18.1 (vs 16.3 prev) — solid. No major US data today. Weekly Weak Bullish vs Daily Bearish = NO High Conviction alignment.",
+      "bias": "Bullish",
+      "tone": "Risk-Off Bid + October Fed Hike Bets — DXY Firming",
+      "summary": "USD is Bullish today on a combination of risk-off safe-haven demand and a fresh repricing of Fed expectations — PMT headlines explicitly note 'USD gains amid the risk-off mood and bets for an October Fed rate hike.' The 48-hour Iran ultimatum from Trump and the prospect of a US ground invasion of Kharg Island have driven a flight to the dollar. DXY is firming from the 99.99-100.31 range seen last week. Treasury futures remain pressured on oil-related inflationary concerns, which supports the rate hike narrative. Weekly Neutral vs Daily Bullish = NO High Conviction alignment.",
       "drivers": [
-        "DXY subdued 99.99-100.31 — 'dollar hit as peers hold higher for longer' (US FX Wrap)",
-        "FOMC held 3.50-3.75% Wed; Powell: 'policy remains restrictive, no imminent cuts'",
-        "EUR, GBP, JPY all moved hawkish — Fed's hold no longer a USD differentiator",
-        "US Jobless Claims 205k (vs 215k exp) — beat, but insufficient to reverse USD slide",
-        "Netanyahu 'war ending sooner' comments spurred risk appetite, accelerated USD selling"
+        "PMT: 'USD gains amid risk-off mood and bets for an October Fed rate hike'",
+        "Trump 48-hour Iran ultimatum — safe-haven demand surging",
+        "Treasury futures pressured on oil-related inflationary concerns",
+        "DXY firming from 99.99-100.31 range; October Fed hike bets repriced",
+        "US preparing potential ground invasion of Kharg Island — geopolitical premium elevated"
       ]
     },
     "EUR": {
-      "bias": "Bullish",
-      "tone": "ECB Hawkish Hold — HICP 2026 Upgraded to 2.6%, Hike Talk Starting April",
-      "summary": "EUR shifted to Bullish on Thursday after the ECB delivered a hawkish hold. HICP 2026 was upgraded to 2.6% (from 1.9%), GDP 2026 cut to 0.9% (from 1.2%). ECB source reports noted officials see the need for possible rate hike talk to start in April, with a move more likely in June. Barclays and JPMorgan now forecast an ECB hike in April. EUR/USD briefly returned above 1.1600 before mildly pulling back overnight. ECB's Nagel said the ECB would need a hike in April 'if the price outlook sours, will act with necessary resolve.' Multiple ECB speakers this morning (Nagel, Muller, Kazak) all confirming the hawkish tilt. German PPI Feb -0.5% MoM (vs +0.3% exp) — deflationary miss, but the energy shock inflation narrative dominates. Weekly Weak Bearish vs Daily Bullish = NO High Conviction alignment (reversal).",
+      "bias": "Bearish",
+      "tone": "Energy Shock Re-Escalation Overwhelms ECB Hawkish Pivot",
+      "summary": "EUR is Bearish today as the re-escalation of the Iran conflict — Brent $112.19/bbl, Iraq force majeure, Basra production collapse — overwhelms the ECB hawkish pivot story from last week. ECB's Makhlouf and Nagel both warned of second-round inflation risks on Friday, but EUR is an energy importer and the renewed oil surge acts as a direct tax on the Eurozone economy. ECB's Nagel: 'the higher inflation goes and the longer expectations remain above target, the greater the second-round risks become.' EUR/USD faces renewed downside pressure. Weekly Weak Bullish vs Daily Bearish = NO High Conviction alignment.",
       "drivers": [
-        "ECB held — HICP 2026 upgraded to 2.6% (from 1.9%); GDP 2026 cut to 0.9% (from 1.2%)",
-        "ECB source reports: hike talk starts April, move more likely June; Barclays/JPMorgan forecast April hike",
-        "EUR/USD briefly above 1.1600 post-ECB; Nagel: 'would need hike in April if price outlook sours'",
-        "German PPI Feb -0.5% MoM (vs +0.3% exp), -3.3% YoY — deflationary miss but energy narrative dominates",
-        "ECB speakers today: Nagel (hawkish), Muller, Kazak — all confirming hawkish tilt"
+        "Brent $112.19/bbl — energy import shock re-escalating; Eurozone directly exposed",
+        "Iraq force majeure: Basra production collapsed from 3.3mln to 900k bpd",
+        "ECB's Nagel: second-round inflation risks growing; 'wait-and-see approach'",
+        "ECB hawkish pivot story from last week now competing with renewed energy shock",
+        "EUR/USD faces renewed downside pressure as risk-off dominates"
       ]
     },
     "GBP": {
-      "bias": "Bullish",
-      "tone": "BOE 9-0 Hawkish Hold — Removed Cut Language, Mann Signals Hike, UK Jobs +84k Beat",
-      "summary": "GBP shifted to Bullish on Thursday after the BOE delivered a 9-0 unanimous hold (vs 7-2 expected) — the most hawkish outcome possible. The statement removed language suggesting further cuts and retained optionality if the shock proves short-lived. MPC member Mann signalled a potential hike. Governor Bailey cautioned against strong conclusions about rate hikes, but the overall tone implies easing is off the table near term. Goldman Sachs now expects the BOE on hold all 2026 with easing starting 2027. UK Jobs data was mixed but net positive: Employment Change +84k (vs -4k exp) — massive beat; Unemployment 5.2% (in line); Earnings excl. Bonus 3.8% (below 4.0% exp) — wages softening. GBP/USD traded towards the top of the 1.3245-1.3321 range. UK PSNB Feb 14.3B (vs 8.5B exp) — fiscal miss but not a GBP driver today. Weekly Weak Bearish vs Daily Bullish = NO High Conviction alignment (reversal).",
+      "bias": "Bearish",
+      "tone": "Geopolitical Risk Premium — Iran Missiles at Diego Garcia, UK Bases Used for US Ops",
+      "summary": "GBP is Bearish today as the UK faces direct geopolitical risk: Iran fired ballistic missiles at Diego Garcia (UK/US military base) on Friday night, and UK ministers confirmed a deal for the US to use UK bases for defensive operations against Iran. Iran's Foreign Minister Araghchi warned that 'UK PM Starmer is putting British lives in danger.' UK PM Starmer is convening an emergency meeting of senior officials and the BOE Governor on the cost of living this week. The BOE hawkish pivot story is now overshadowed by the UK's direct involvement in the conflict. Weekly Weak Bullish vs Daily Bearish = NO High Conviction alignment.",
       "drivers": [
-        "BOE held 9-0 (vs 7-2 exp) — removed cut language; Mann signals potential hike",
-        "Goldman Sachs: BOE on hold all 2026, easing starts 2027 at terminal 3.0%",
-        "UK Employment Change +84k (vs -4k exp) — massive beat; Unemployment 5.2% in line",
-        "UK Earnings excl. Bonus 3.8% (vs 4.0% exp) — wages softening, stagflation risk remains",
-        "GBP/USD at top of 1.3245-1.3321 range; UK ministers visiting EU capitals next week for financial services ties"
+        "Iran fired ballistic missiles at Diego Garcia (UK/US base) — UK directly in conflict",
+        "UK ministers confirmed deal for US to use UK bases for operations against Iran",
+        "Iran's Araghchi: 'Starmer is putting British lives in danger'",
+        "UK PM Starmer emergency meeting on cost of living — BOE Governor attending",
+        "BOE hawkish pivot overshadowed by UK geopolitical risk premium"
       ]
     },
     "JPY": {
       "bias": "Bullish",
-      "tone": "Ueda Hawkish — Wage Momentum Improving, USD/JPY Slumped Below 158.00",
-      "summary": "JPY shifted to Bullish on Thursday as BOJ Governor Ueda delivered a hawkish tone, highlighting improving wage momentum at small and medium-sized firms and signalling the BOJ will monitor energy/FX market developments. USD/JPY slumped briefly below 158.00 before a mild recovery facilitated by dollar composure, with further momentum contained by the absence of Japanese participants (Vernal Equinox holiday). Haven flows resumed with the cover of a hawkish Ueda, even as gold was not sought amid heavy intraday losses. Japan's Vernal Equinox holiday means thin liquidity today. The structural bearish case (90%+ crude imports from Middle East) remains, but the near-term momentum has shifted to JPY Bullish on the Ueda hawkish surprise. Weekly Bearish vs Daily Bullish = NO High Conviction alignment (reversal).",
+      "tone": "Haven Demand Surging — Carry Unwind, Hawkish BOJ Board Members Confirmed",
+      "summary": "JPY is Bullish today as haven demand surges on the US-Iran escalation. The Russell 2000 entered correction territory (-10%), Asia-Pac stocks are opening sharply lower, and carry trades are unwinding. Two new hawkish BOJ board members — academics Toichiro Asada and Ayano Sato — have been confirmed, reinforcing the BOJ normalization narrative. PMT Asia-Pac Opening News highlights the risk-off mood as the primary driver. USD/JPY is under pressure. Weekly Neutral vs Daily Bullish = NO High Conviction alignment.",
       "drivers": [
-        "BOJ held 0.75% — Ueda hawkish: 'prelim data shows wage momentum at SMEs could be better than past years'",
-        "USD/JPY slumped briefly below 158.00 on Ueda's hawkish tone + haven flows",
-        "Japan Vernal Equinox holiday — thin liquidity, cash treasuries trade shut overnight",
-        "USD/JPY mild recovery as dollar regained composure; further upside capped by holiday absence",
-        "Structural bearish case (90%+ crude imports) remains but near-term momentum shifted bullish on Ueda"
+        "Haven demand surging: Russell 2000 in correction, Asia-Pac stocks sharply lower",
+        "Carry trades unwinding — JPY bid across the board",
+        "New hawkish BOJ board members confirmed: Asada and Sato (academics/reflationists)",
+        "US-Iran escalation: Trump 48-hour ultimatum, potential Kharg Island ground invasion",
+        "USD/JPY under pressure; BOJ normalization narrative reinforced"
       ]
     },
     "AUD": {
       "bias": "Bearish",
-      "tone": "AUD/USD Declined — Gold/Copper Losses, Global CB Hawkish Tilt, ASX 200 Dragged Lower",
-      "summary": "AUD shifted to Bearish on Thursday as AUD/USD declined following sharp losses in gold (below $4,600/oz, testing $4,500/oz) and copper (briefly below $12,000/t, erasing all 2026 gains). Global central banks skewed more hawkish against the backdrop of the Iranian war-driven energy shock, weighing on growth-sensitive assets. ASX 200 was dragged lower by weakness in materials and commodity-related sectors, with losses cushioned by strength in telecoms and defensives. The post-RBA hike tailwind has faded as the global risk-off from the central bank hawkish sweep dominates. Australia Employment data (Thu 01:30 FFT) has already passed — the result was not mentioned in the reports, suggesting it was in line or a non-event. Weekly Weak Bullish vs Daily Bearish = NO High Conviction alignment (reversal).",
+      "tone": "Metals Selloff — Gold -3%, Silver -4%, Risk-Off Overwhelms RBA Hike Story",
+      "summary": "AUD is Bearish today as the metals complex collapses: gold down over 3% (below $4,400/oz), silver leading declines at -4%, with the selloff exacerbated by a break below key technical levels. AUD is highly correlated to gold and risk sentiment, and the risk-off environment overwhelms the post-RBA hike story. Asia-Pac stocks are opening lower. China: PBoC Governor Pan defended China's trade surplus and pledged continued loose monetary policy — supportive for China but insufficient to offset the global risk-off. Weekly Weak Bullish vs Daily Bearish = NO High Conviction alignment.",
       "drivers": [
-        "AUD/USD declined — gold broke below $4,600/oz to test $4,500/oz; copper briefly below $12,000/t",
-        "ASX 200 dragged lower by materials/commodity weakness; telecoms and defensives cushioned losses",
-        "Global CB hawkish sweep (BOJ, ECB, BOE, SNB) weighing on growth-sensitive assets",
-        "Post-RBA hike tailwind faded — global risk-off from central bank hawkish tilt dominates",
-        "Antipodeans saw mixed and rangebound trade amid cautious risk appetite"
+        "Gold down 3%+ below $4,400/oz — break beneath support exacerbated selling",
+        "Silver down 4% — metals complex in broad selloff",
+        "Asia-Pac stocks opening sharply lower — risk-off overwhelms RBA hike story",
+        "PBoC Governor Pan: continued loose monetary policy — supportive but insufficient offset",
+        "AUD/USD under pressure; post-RBA hike gains at risk of full reversal"
       ]
     },
     "CAD": {
       "bias": "Bullish",
-      "tone": "WTI $95.55/bbl, Brent $108.65/bbl — Petro-Currency Bid Intact, Retail Sales Today",
-      "summary": "CAD remains Bullish as oil prices, while retreating from Thursday's peak (Brent $119.50/bbl), are still elevated at WTI $95.55/bbl and Brent $108.65/bbl. The petro-currency bid is intact. Saudi officials see the base case for oil rising to $180/bbl if disruptions persist until late April. QatarEnergy confirmed 2 of 14 LNG trains damaged — potential force majeure for up to 5 years on LNG contracts. Kuwait suspended two refineries after drone strikes. The BOC decision on Wednesday was a hold, but the energy windfall continues to support CAD fundamentally. Canadian Retail Sales (Jan) at 13:30 FFT today is the only remaining high-impact event of the week — a beat would reinforce the CAD Bullish case. Weekly Weak Bullish + Daily Bullish = High Conviction alignment confirmed.",
+      "tone": "Oil Surge — WTI $98.23, Brent $112.19, Iraq Force Majeure, CAD Outperforms",
+      "summary": "CAD is Bullish today as oil surges on the Iraq force majeure declaration and the US-Iran escalation. WTI settled $98.23/bbl (+$2.68), Brent $112.19/bbl (+$3.54). Iraq declared force majeure on all oilfields developed by foreign oil companies — Basra production collapsed from 3.3mln to 900k bpd. The US FX Wrap explicitly noted 'CAD outperforms.' Saudi Arabia is moving closer to the US/Israeli side, opening the King Fahd Air Base. No major CAD events this week — pure petro-proxy tracking oil. Weekly Weak Bullish + Daily Bullish = HIGH CONVICTION ALIGNED ✅",
       "drivers": [
-        "WTI settled $95.55/bbl, Brent $108.65/bbl — petro-currency bid intact despite partial retreat",
-        "Saudi officials: base case for oil to rise to $180/bbl if disruptions persist until late April",
-        "QatarEnergy: 2 of 14 LNG trains damaged — potential force majeure up to 5 years",
-        "Kuwait suspended Mina Abdullah + Mina Al-Ahmadi refineries after drone strikes",
-        "CAD Retail Sales m/m (Jan) at 13:30 FFT today = only remaining high-impact event of the week"
+        "WTI settled $98.23/bbl (+$2.68), Brent $112.19/bbl (+$3.54) — oil surging",
+        "Iraq force majeure: Basra production collapsed from 3.3mln to 900k bpd",
+        "US FX Wrap: 'CAD outperforms' — petro-currency benefiting from oil surge",
+        "Saudi Arabia opening King Fahd Air Base to Americans — GCC moving to US/Israel side",
+        "No major CAD events this week — pure oil proxy"
       ]
     },
     "CHF": {
-      "bias": "Bearish",
-      "tone": "SNB Explicit FX Intervention — 'Willingness to Intervene Has Increased', CHF Weakened Post-SNB",
-      "summary": "CHF shifted to Bearish on Thursday after the SNB held at 0.00% but issued explicit FX intervention language. SNB Chairman Schlegel stated 'willingness to intervene in the foreign exchange market has increased' and that CHF is 2.5% firmer on trade-weighted basis since December. The SNB explicitly stated it 'counters a rapid and excessive appreciation of the CHF, which would jeopardize domestic price stability.' EUR/CHF rose towards 0.9100 as initial CHF weakness pared — the intervention stance was largely expected. The SNB's explicit intervention threat caps CHF upside and makes CHF a sell-on-rallies currency near term. Weekly Neutral vs Daily Bearish = NO High Conviction alignment.",
+      "bias": "Bullish",
+      "tone": "Haven Demand Overrides SNB Intervention — Extreme Risk-Off Environment",
+      "summary": "CHF is Bullish today as extreme risk-off conditions override the SNB's intervention resistance from last week. When geopolitical risk reaches this level — Trump ultimatum, potential ground invasion, Iran missiles at Diego Garcia — haven demand for CHF overwhelms official pushback. EUR/CHF is likely falling as EUR faces energy shock pressure while CHF attracts defensive flows. The SNB's explicit intervention language from Thursday is now being tested. Weekly Weak Bearish vs Daily Bullish = NO High Conviction alignment.",
       "drivers": [
-        "SNB held 0.00% — Schlegel: 'willingness to intervene has increased'; CHF 2.5% firmer trade-weighted since Dec",
-        "EUR/CHF rose towards 0.9100 post-SNB — initial CHF weakness pared as intervention stance was expected",
-        "SNB: 'counters a rapid and excessive appreciation of CHF, which would jeopardize price stability'",
-        "CHF sought as haven during uncertainty — but SNB intervention threat caps upside",
-        "Medium-term inflationary pressure 'virtually unchanged' since last assessment — no urgency to hike"
+        "Extreme risk-off: Trump ultimatum, potential Kharg Island invasion, Iran missiles at Diego Garcia",
+        "Haven demand overrides SNB intervention resistance — geopolitical risk too elevated",
+        "EUR/CHF likely falling: EUR faces energy shock, CHF attracts defensive flows",
+        "SNB's 'willingness to intervene' language now being tested by extreme risk-off",
+        "CHF bid alongside JPY as carry trades unwind globally"
       ]
     },
     "NZD": {
       "bias": "Bearish",
-      "tone": "NZD GDP Q4 Weak — Antipodeans Mixed/Rangebound, No Domestic Catalyst",
-      "summary": "NZD remains Bearish as the currency continues to underperform amid the risk-off environment and absence of domestic catalysts. NZD/USD shrugged off the weak GDP print (Q4 result released Wednesday night) as the move was already priced in following the Current Account miss. Antipodeans saw mixed and rangebound trade amid cautious risk appetite and the absence of tier-1 data. AUD continues to outperform NZD on the RBA hike differential. No RBNZ meeting until April. The NZD is the weakest of the Antipodeans and remains a sell-on-rallies currency. Weekly Bearish + Daily Bearish = High Conviction alignment confirmed.",
+      "tone": "High-Beta Risk Proxy — Metals Collapse, No Domestic Catalyst",
+      "summary": "NZD is Bearish today as the high-beta risk proxy suffers from the metals collapse and global risk-off. Gold down 3%+, silver down 4%, Asia-Pac stocks lower — NZD has no domestic catalyst to offset the external pressure. RBNZ Governor Breman speaks tomorrow (02:00 FFT) — a soft tone would add further pressure. AUD/NZD is mixed as both Antipodeans are under pressure, but NZD is the weaker of the two given the absence of any rates support. Weekly Bearish + Daily Bearish = HIGH CONVICTION ALIGNED ✅",
       "drivers": [
-        "NZD/USD rangebound — shrugged off weak GDP Q4 as move was already priced post-Current Account miss",
-        "Antipodeans mixed/rangebound amid cautious risk appetite and absence of tier-1 data",
-        "AUD outperforming NZD on RBA hike differential — AUD/NZD divergence widening",
-        "No RBNZ meeting until April — policy support absent",
-        "NZD weakest Antipodean — sell-on-rallies bias; no domestic catalyst to reverse"
+        "High-beta risk proxy: gold -3%, silver -4%, Asia-Pac stocks sharply lower",
+        "No domestic catalyst to offset global risk-off pressure",
+        "RBNZ Governor Breman speaks tomorrow (02:00 FFT) — soft tone would add pressure",
+        "AUD/NZD mixed but NZD weaker — no rates support vs AUD's RBA hike story",
+        "Weekly Bearish + Daily Bearish = High Conviction alignment confirmed"
       ]
     }
   },
@@ -110,207 +110,169 @@
       "pair": "NZD/CAD",
       "direction": "SHORT",
       "reason": {
-        "line1": "NZD: Antipodeans rangebound/mixed; GDP Q4 weak (already priced); AUD outperforming on RBA hike differential; no RBNZ until April; NZD weakest Antipodean — sell-on-rallies",
-        "line2": "CAD: WTI $95.55/bbl, Brent $108.65/bbl — petro-currency bid intact; Saudi base case $180/bbl if disruptions persist to late April; QatarEnergy 2 LNG trains damaged; Kuwait refineries suspended; Retail Sales Jan 13:30 FFT"
+        "line1": "NZD: High-beta risk proxy — gold -3%, silver -4%, Asia-Pac stocks sharply lower; no domestic catalyst; RBNZ Breman speaks Tue 02:00 FFT (soft tone risk).",
+        "line2": "CAD: WTI $98.23/bbl (+$2.68), Brent $112.19/bbl (+$3.54); Iraq force majeure — Basra production collapsed from 3.3mln to 900k bpd; US FX Wrap: 'CAD outperforms.'"
       }
     }
   ],
   "intradayTrades": [
-    {
-      "pair": "EUR/USD",
-      "direction": "LONG"
-    },
-    {
-      "pair": "GBP/USD",
-      "direction": "LONG"
-    },
-    {
-      "pair": "AUD/USD",
-      "direction": "SHORT"
-    },
-    {
-      "pair": "EUR/AUD",
-      "direction": "LONG"
-    },
-    {
-      "pair": "GBP/AUD",
-      "direction": "LONG"
-    },
-    {
-      "pair": "EUR/NZD",
-      "direction": "LONG"
-    },
-    {
-      "pair": "GBP/NZD",
-      "direction": "LONG"
-    },
-    {
-      "pair": "NZD/JPY",
-      "direction": "SHORT"
-    },
-    {
-      "pair": "CAD/JPY",
-      "direction": "LONG"
-    }
+    { "pair": "EUR/USD", "direction": "SHORT" },
+    { "pair": "GBP/USD", "direction": "SHORT" },
+    { "pair": "AUD/USD", "direction": "SHORT" },
+    { "pair": "EUR/CAD", "direction": "SHORT" },
+    { "pair": "GBP/CAD", "direction": "SHORT" },
+    { "pair": "AUD/CAD", "direction": "SHORT" }
   ],
   "redFolderNews": [
     {
-      "day": "WED",
-      "date": "Mar 18",
-      "currency": "GBP",
-      "event": "Claimant Count Change",
-      "time": "08:00 FFT",
+      "day": "MON",
+      "date": "Mar 23",
+      "currency": "JPY",
+      "event": "National Core CPI y/y",
+      "time": "00:30 FFT",
       "impact": "High"
     },
     {
-      "day": "WED",
-      "date": "Mar 18",
-      "currency": "GBP",
-      "event": "Average Earnings Index 3m/y",
-      "time": "08:00 FFT",
+      "day": "TUE",
+      "date": "Mar 24",
+      "currency": "NZD",
+      "event": "RBNZ Governor Breman Speech",
+      "time": "02:00 FFT",
       "impact": "High"
     },
     {
-      "day": "WED",
-      "date": "Mar 18",
-      "currency": "GBP",
-      "event": "Unemployment Rate",
-      "time": "08:00 FFT",
-      "impact": "High"
-    },
-    {
-      "day": "WED",
-      "date": "Mar 18",
+      "day": "TUE",
+      "date": "Mar 24",
       "currency": "USD",
-      "event": "PPI m/m",
-      "time": "13:30 FFT",
-      "impact": "High"
-    },
-    {
-      "day": "WED",
-      "date": "Mar 18",
-      "currency": "CAD",
-      "event": "BOC Rate Decision",
+      "event": "Flash Manufacturing PMI",
       "time": "14:45 FFT",
       "impact": "High"
     },
     {
-      "day": "WED",
-      "date": "Mar 18",
-      "currency": "CAD",
-      "event": "BOC Press Conference",
-      "time": "15:30 FFT",
-      "impact": "High"
-    },
-    {
-      "day": "WED",
-      "date": "Mar 18",
+      "day": "TUE",
+      "date": "Mar 24",
       "currency": "USD",
-      "event": "FOMC Rate Decision",
-      "time": "19:00 FFT",
+      "event": "Flash Services PMI",
+      "time": "14:45 FFT",
       "impact": "High"
     },
     {
-      "day": "WED",
-      "date": "Mar 18",
-      "currency": "USD",
-      "event": "FOMC Press Conference",
-      "time": "19:30 FFT",
-      "impact": "High"
-    },
-    {
-      "day": "WED",
-      "date": "Mar 18",
-      "currency": "NZD",
-      "event": "GDP q/q",
-      "time": "22:45 FFT",
-      "impact": "High"
-    },
-    {
-      "day": "THU",
-      "date": "Mar 19",
-      "currency": "AUD",
-      "event": "Employment Change",
-      "time": "01:30 FFT",
-      "impact": "High"
-    },
-    {
-      "day": "THU",
-      "date": "Mar 19",
-      "currency": "AUD",
-      "event": "Unemployment Rate",
-      "time": "01:30 FFT",
-      "impact": "High"
-    },
-    {
-      "day": "THU",
-      "date": "Mar 19",
-      "currency": "JPY",
-      "event": "BOJ Rate Decision",
-      "time": "04:00 FFT",
-      "impact": "High"
-    },
-    {
-      "day": "THU",
-      "date": "Mar 19",
-      "currency": "JPY",
-      "event": "BOJ Press Conference",
-      "time": "07:30 FFT",
-      "impact": "High"
-    },
-    {
-      "day": "THU",
-      "date": "Mar 19",
-      "currency": "CHF",
-      "event": "SNB Rate Decision",
+      "day": "TUE",
+      "date": "Mar 24",
+      "currency": "EUR",
+      "event": "German Flash Manufacturing PMI",
       "time": "09:30 FFT",
       "impact": "High"
     },
     {
-      "day": "THU",
-      "date": "Mar 19",
-      "currency": "CHF",
-      "event": "SNB Press Conference",
+      "day": "TUE",
+      "date": "Mar 24",
+      "currency": "EUR",
+      "event": "German Flash Services PMI",
+      "time": "09:30 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "TUE",
+      "date": "Mar 24",
+      "currency": "EUR",
+      "event": "Flash Manufacturing PMI (EZ)",
       "time": "10:00 FFT",
       "impact": "High"
     },
     {
-      "day": "THU",
-      "date": "Mar 19",
-      "currency": "GBP",
-      "event": "BOE Rate Decision",
-      "time": "13:00 FFT",
-      "impact": "High"
-    },
-    {
-      "day": "THU",
-      "date": "Mar 19",
-      "currency": "GBP",
-      "event": "BOE MPC Vote",
-      "time": "13:00 FFT",
-      "impact": "High"
-    },
-    {
-      "day": "THU",
-      "date": "Mar 19",
+      "day": "TUE",
+      "date": "Mar 24",
       "currency": "EUR",
-      "event": "ECB Rate Decision",
-      "time": "14:15 FFT",
+      "event": "Flash Services PMI (EZ)",
+      "time": "10:00 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "TUE",
+      "date": "Mar 24",
+      "currency": "GBP",
+      "event": "Flash Manufacturing PMI",
+      "time": "09:30 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "TUE",
+      "date": "Mar 24",
+      "currency": "GBP",
+      "event": "Flash Services PMI",
+      "time": "09:30 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "WED",
+      "date": "Mar 25",
+      "currency": "AUD",
+      "event": "CPI y/y (Monthly)",
+      "time": "01:30 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "WED",
+      "date": "Mar 25",
+      "currency": "GBP",
+      "event": "CPI y/y",
+      "time": "07:00 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "WED",
+      "date": "Mar 25",
+      "currency": "GBP",
+      "event": "Core CPI y/y",
+      "time": "07:00 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "WED",
+      "date": "Mar 25",
+      "currency": "EUR",
+      "event": "German IFO Business Climate",
+      "time": "10:00 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "WED",
+      "date": "Mar 25",
+      "currency": "USD",
+      "event": "Consumer Confidence",
+      "time": "16:00 FFT",
       "impact": "High"
     },
     {
       "day": "THU",
-      "date": "Mar 19",
-      "currency": "EUR",
-      "event": "ECB Press Conference",
-      "time": "14:45 FFT",
+      "date": "Mar 26",
+      "currency": "JPY",
+      "event": "BOJ Core CPI y/y",
+      "time": "06:00 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "THU",
+      "date": "Mar 26",
+      "currency": "USD",
+      "event": "Unemployment Claims",
+      "time": "13:30 FFT",
       "impact": "High"
     },
     {
       "day": "FRI",
-      "date": "Mar 20",
-      "currency": "CAD",
+      "date": "Mar 27",
+      "currency": "GBP",
       "event": "Retail Sales m/m",
+      "time": "07:00 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "date": "Mar 27",
+      "currency": "USD",
+      "event": "Core PCE Price Index m/m",
       "time": "13:30 FFT",
       "impact": "High"
     }

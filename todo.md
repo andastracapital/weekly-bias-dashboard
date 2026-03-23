@@ -242,3 +242,9 @@
 - [x] Rebuild weeklyBias.json with all 8 currencies + Swing Watchlist
 - [x] Verify Weekly View displays correctly
 - [x] Save checkpoint and push to GitHub
+
+## Daily Recap Update: Mar 23, 2026 (COMPLETED)
+- [x] Analyze PMT Asia Opening Preparation + Headlines reports
+- [x] Determine 8 currency biases + High Conviction Setups
+- [x] Rebuild dailyRecap.json with Red Folder events for full week
+- [x] Verify dashboard and push to GitHub
