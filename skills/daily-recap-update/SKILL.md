@@ -148,6 +148,13 @@ EUR(1) > GBP(2) > AUD(3) > NZD(4) > USD(5) > CAD(6) > CHF(7) > JPY(8)
 - ✅ **AUD/JPY LONG** (Bullish AUD vs Bearish JPY)
 - ❌ **AUD/GBP LONG** (WRONG - violates priority order)
 
+**⚠️ SWING WATCHLIST DUPLICATE PREVENTION (CRITICAL):**
+Each currency cross must appear EXACTLY ONCE in the swing watchlist. Since the priority rule determines the base/quote, the same cross can NEVER appear as both a LONG and a SHORT.
+- ❌ **GBP/EUR LONG** + **EUR/GBP SHORT** = DUPLICATE (same cross, two entries)
+- ✅ **EUR/GBP SHORT** only (EUR has higher priority than GBP → EUR is always base)
+- Rule: Apply priority order first → if EUR is base, the pair is always EUR/GBP — never GBP/EUR
+- After building the watchlist, scan for duplicates: if pair A/B and B/A both appear, remove the one that violates the priority order
+
 ### 2. High Conviction Setups Logic
 
 **MANDATORY:** Recalculate with every Daily Recap Update.
@@ -159,9 +166,20 @@ Weekly: "Strong Bullish" + Daily: "Bullish" = ✅ ALIGNED (both bullish)
 Weekly: "Weak Bearish" + Daily: "Neutral" = ❌ NOT ALIGNED
 ```
 
-### 3. Intraday Trades Deduplication
+### 3. Intraday Trades — Pairing Rule (MANDATORY)
 
-**CRITICAL:** Pairs in High Conviction Setups MUST NOT appear in Intraday Trades.
+**CRITICAL RULE: Intraday Trades MUST ALWAYS be Bullish vs Bearish pairs ONLY.**
+
+- ✅ **VALID:** Bullish currency vs Bearish currency
+- ❌ **INVALID:** Bearish vs Bearish (same direction — not a trade)
+- ❌ **INVALID:** Bullish vs Bullish (same direction — not a trade)
+- ❌ **INVALID:** Neutral vs anything (no directional conviction)
+
+**When there are no Bullish currencies:** `intradayTrades` MUST be an empty array `[]`. Do NOT invent pairs by pairing Bearish vs Bearish or Neutral currencies.
+
+**When there are no Bearish currencies:** Same rule — `intradayTrades` MUST be empty `[]`.
+
+**Deduplication:** Pairs already in High Conviction Setups MUST NOT appear in Intraday Trades.
 
 ### 4. Red Folder News Filter
 
@@ -261,14 +279,17 @@ Weekly: "Weak Bearish" + Daily: "Neutral" = ❌ NOT ALIGNED
 - Verify Red Folder News shows only today's events in UI
 - Verify High Conviction Setups use correct FX pair notation
 
-**8. Write to History database**:
+**8. Write to History database** ⚠️ MANDATORY — NEVER SKIP:
 After rebuilding `dailyRecap.json`, call the tRPC endpoint to persist today's entry:
+
+> **SWING WATCHLIST RULE:** The `swingWatchlist` comes from `weeklyBias.json` → `swingWatchlist` and is the SAME every day of the week (Monday through Friday). It is set by the Weekly Bias Update and does NOT change during the week. Always read it fresh from `weeklyBias.json` — do NOT leave it empty.
+
 ```
 POST http://localhost:3000/api/trpc/history.upsert
 Body: {
   "date": "YYYY-MM-DD",  // ISO date of today
-  "weekRange": "Mar 2 - Mar 8, 2026",  // from weeklyBias.json week field
-  "swingWatchlist": [...],  // from weeklyBias.json swingWatchlist (all pairs)
+  "weekRange": "Mar 9 - Mar 15, 2026",  // from weeklyBias.json week field
+  "swingWatchlist": [...],  // ⚠️ MANDATORY: ALL pairs from weeklyBias.json → swingWatchlist (both LONG and SHORT) — same every day Mon-Fri
   "swingSetups": [...],    // ALL computed High Conviction Setups (Weekly+Daily aligned) — store ALL pairs, NOT just Top 3
   "intradayTrades": [...]  // computed Intraday Trades (Daily only, deduplicated)
 }
@@ -324,11 +345,13 @@ Before committing, verify:
 - [ ] Trader-focused rationales (1-3d horizon, isolated currency view)
 - [ ] Risk Environment accurate (Risk-On/Risk-Off/Mixed)
 - [ ] High Conviction Setups use correct FX pair notation
+- [ ] Intraday Trades: ONLY Bullish vs Bearish pairs — if no valid pairs exist, array is empty []
 - [ ] Intraday Trades deduplicated (no overlap with High Conviction)
 - [ ] Dashboard UI shows only today's Red Folder events
 - [ ] Dev server error-free (if using webdev project)
 - [ ] todo.md task marked [x]
 - [ ] History entry written to database (date, weekRange, swingWatchlist, swingSetups, intradayTrades)
+  - swingWatchlist: read from weeklyBias.json → swingWatchlist (MANDATORY, same every day Mon-Fri, NEVER empty)
 - [ ] Committed to Git and pushed to GitHub
 
 ## Key Reminders
@@ -337,7 +360,10 @@ Before committing, verify:
 2. **China Correlation:** Bullish for China = Bullish for AUD and NZD
 3. **FX Pairs:** Always use conventional notation (EUR > GBP > AUD > NZD > USD > CAD > CHF > JPY)
 4. **High Conviction:** Directional alignment only, ignore strength qualifiers
-5. **Deduplication:** No overlap between High Conviction and Intraday Trades
-6. **Red Folder:** UI shows today only, JSON contains all week
-7. **Daily Bias:** Directional only (Bullish/Bearish/Neutral/Mixed - NO Weak/Strong)
-8. **Most Recent:** Give most weight to the most recent PMT articles
+5. **Intraday Trades Pairing:** ONLY Bullish vs Bearish pairs are valid. If no Bullish or no Bearish currencies exist, `intradayTrades` = `[]`. NEVER pair Bearish vs Bearish or Bullish vs Bullish.
+6. **Deduplication:** No overlap between High Conviction and Intraday Trades
+7. **Red Folder:** UI shows today only, JSON contains all week
+8. **Daily Bias:** Directional only (Bullish/Bearish/Neutral/Mixed - NO Weak/Strong)
+9. **Most Recent:** Give most weight to the most recent PMT articles
+10. **⚠️ Swing Watchlist (MANDATORY):** Always read from `weeklyBias.json` → `swingWatchlist`. It is set once per week (Weekly Bias Update) and stays the SAME every day Mon-Fri. NEVER write a history entry with an empty swingWatchlist.
+11. **⚠️ Time Check (MANDATORY):** After writing dailyRecap.json, run `grep -n ":[0-9][0-9]:" dailyRecap.json` to verify all time references in free-text fields match the structured redFolderNews times. US DST active Mar-Nov: ET+5h = Frankfurt time.
