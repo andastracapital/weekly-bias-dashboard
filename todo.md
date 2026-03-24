@@ -254,3 +254,8 @@
 - [ ] Determine 8 currency biases + High Conviction Setups for Tue Mar 24
 - [ ] Rebuild dailyRecap.json with Red Folder events for full week
 - [ ] Verify dashboard and push to GitHub
+
+## Intraday Trades Logic Fix (COMPLETED)
+- [x] Fix dailyRecap.json: remove invalid Bearish vs Bearish intraday trades (empty array when no bullish currency exists)
+- [x] Update daily-recap-update skill: document that Intraday Trades MUST be Bullish vs Bearish only — empty when no valid pairs exist
+- [x] Save checkpoint and push to GitHub

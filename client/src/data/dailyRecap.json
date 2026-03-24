@@ -106,14 +106,7 @@
     }
   },
   "highConvictionSetups": [],
-  "intradayTrades": [
-    { "pair": "AUD/NZD", "direction": "SHORT" },
-    { "pair": "CAD/JPY", "direction": "SHORT" },
-    { "pair": "AUD/JPY", "direction": "SHORT" },
-    { "pair": "AUD/CHF", "direction": "SHORT" },
-    { "pair": "CAD/CHF", "direction": "SHORT" },
-    { "pair": "AUD/CAD", "direction": "SHORT" }
-  ],
+  "intradayTrades": [],
   "redFolderNews": [
     {
       "day": "TUE",
