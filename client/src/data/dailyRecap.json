@@ -147,6 +147,32 @@
     { "pair": "CAD/JPY", "direction": "LONG" },
     { "pair": "AUD/CAD", "direction": "SHORT" }
   ],
+  "historyEntry": {
+    "date": "2026-03-26",
+    "weekRange": "Mar 23 - Mar 29, 2026",
+    "swingWatchlist": [
+      { "pair": "AUD/NZD", "direction": "LONG" },
+      { "pair": "EUR/CHF", "direction": "LONG" },
+      { "pair": "EUR/NZD", "direction": "LONG" },
+      { "pair": "GBP/CHF", "direction": "LONG" },
+      { "pair": "GBP/NZD", "direction": "LONG" },
+      { "pair": "NZD/CAD", "direction": "SHORT" }
+    ],
+    "swingSetups": [
+      { "pair": "GBP/CHF", "direction": "LONG" },
+      { "pair": "GBP/NZD", "direction": "LONG" },
+      { "pair": "NZD/CAD", "direction": "SHORT" },
+      { "pair": "CAD/CHF", "direction": "LONG" }
+    ],
+    "intradayTrades": [
+      { "pair": "EUR/GBP", "direction": "SHORT" },
+      { "pair": "GBP/JPY", "direction": "LONG" },
+      { "pair": "GBP/AUD", "direction": "LONG" },
+      { "pair": "EUR/CAD", "direction": "SHORT" },
+      { "pair": "CAD/JPY", "direction": "LONG" },
+      { "pair": "AUD/CAD", "direction": "SHORT" }
+    ]
+  },
   "redFolderNews": [
     {
       "day": "THU",

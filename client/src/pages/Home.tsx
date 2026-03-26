@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import { trpc } from "@/lib/trpc";
 import { motion } from "framer-motion";
 // Export functionality will use browser's native screenshot capability
 import { 
@@ -287,6 +288,16 @@ export default function Home() {
   const [currentTime, setCurrentTime] = useState(new Date());
   const [isExporting, setIsExporting] = useState(false);
   const dashboardRef = useRef<HTMLDivElement>(null);
+
+  // Auto-sync today's history entry to the database on mount
+  const historyUpsert = trpc.history.upsert.useMutation();
+  useEffect(() => {
+    if ((dailyData as any).historyEntry) {
+      const h = (dailyData as any).historyEntry;
+      historyUpsert.mutate(h);
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   useEffect(() => {
     const timer = setInterval(() => setCurrentTime(new Date()), 1000);

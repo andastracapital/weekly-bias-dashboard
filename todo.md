@@ -271,3 +271,10 @@
 - [ ] Determine 8 currency biases + High Conviction Setups
 - [ ] Rebuild dailyRecap.json with Red Folder events for full week
 - [ ] Verify dashboard and push to GitHub
+
+## History Auto-Sync Fix (COMPLETED - Mar 26, 2026)
+- [x] Add `historyEntry` block to dailyRecap.json (date, weekRange, swingWatchlist, swingSetups, intradayTrades)
+- [x] Add trpc history.upsert call to Home.tsx (auto-syncs on page load)
+- [x] Backfill 6 missing history entries via SQL (Mar 16, 17, 23, 24, 25, 26)
+- [x] Update daily-recap-update skill: historyEntry block is MANDATORY in every update
+- [x] Save checkpoint and push to GitHub
