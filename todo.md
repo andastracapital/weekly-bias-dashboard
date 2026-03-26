@@ -265,3 +265,9 @@
 - [x] Determine 8 currency biases + High Conviction Setups
 - [x] Rebuild dailyRecap.json with Red Folder events for full week
 - [x] Verify dashboard and push to GitHub
+
+## Daily Recap Update: Mar 26, 2026 (CURRENT TASK)
+- [ ] Analyze PMT reports (US Opening News + European Opening News + London Opening Preparation + London Session Recap)
+- [ ] Determine 8 currency biases + High Conviction Setups
+- [ ] Rebuild dailyRecap.json with Red Folder events for full week
+- [ ] Verify dashboard and push to GitHub

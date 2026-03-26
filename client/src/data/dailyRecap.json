@@ -1,103 +1,103 @@
 {
-  "date": "Wednesday, March 25, 2026",
+  "date": "Thursday, March 26, 2026",
   "lastUpdate": "09:00 FFT",
   "riskEnvironment": "Mixed",
   "marketFocus": [
-    "Trump: 'tremendous success in Iran, they want to make a deal.' Iran gave US a 'significant prize' related to Hormuz. US working on 1-month ceasefire + 15-point plan. Iran still denying formal talks; IRGC hardening posture.",
-    "Oil rangebound: WTI $88.50–$92.57/bbl, Brent $100.21–$104.35/bbl. AUD CPI missed: 3.7% y/y (exp 3.8%), Trimmed Mean 0.2% MoM (exp 0.3%). AUD/USD pulled back from 0.7000 resistance.",
-    "Flash PMIs: UK Composite 51.0 (miss vs 52.8), EZ Composite 50.5 (miss). Both point to stagflation — war stalling growth while driving inflation. ECB Kazaks: 'two rate hikes seems reasonable.'"
+    "Trump: 'Iran is negotiating and wants a deal.' Israel: ceasefire possible by Saturday. Iran FM: 'no talks; exchange of messages via mediators is not negotiation.' Iran outlined 5 conditions. Situation fluid.",
+    "UK Core CPI 3.2% y/y (beat vs 3.1% exp), Services 4.3% (beat). BOE Greene: 'more worried about inflation risks than demand slowdown.' GBP Bullish — stagflation confirms hawkish BOE stance.",
+    "Oil easing on ceasefire hopes: WTI $86.46–$89.57/bbl, Brent $93.45–$97.00/bbl. Barclays month-end: strong USD buying vs most majors. USD Unemployment Claims at 13:30 FFT."
   ],
   "currencies": {
     "USD": {
       "bias": "Neutral",
-      "tone": "Stagflation Signal from PMIs — DXY Rangebound",
-      "summary": "USD is Neutral today. DXY held a 99.09–99.51 range as Flash PMIs pointed to Q1 GDP of 1.3% while consumer price inflation is seen accelerating to ~4% — a growing stagflation risk. The ceasefire narrative removes the pure risk-off bid but the stagflation signal prevents a clean bullish case. Consumer Confidence (16:00 FFT) is the key remaining event today. Weekly Neutral + Daily Neutral = NO High Conviction alignment.",
+      "tone": "Month-End USD Buying vs Stagflation Drag — DXY Rangebound",
+      "summary": "USD is Neutral today. DXY traded 99.07–99.56 with Barclays flagging strong month-end USD buying against most majors. However, the stagflation signal from Flash PMIs (Q1 GDP 1.3%, CPI ~4%) and the Navarro/Powell political drama prevent a clean directional bias. Unemployment Claims at 13:30 FFT is the key event. Weekly Neutral + Daily Neutral = NO High Conviction alignment.",
       "drivers": [
-        "Flash PMIs: Q1 GDP 1.3%, CPI accelerating to ~4% — stagflation signal",
-        "DXY rangebound 99.09–99.51; ceasefire hopes cap risk-off bid",
-        "Fed Barr: 'rates holding steady for some time; Middle East raises additional risk'",
-        "Fed Goolsbee: 'don't know if we can cut again; depends on how long war lasts'",
-        "Consumer Confidence at 16:00 FFT — key remaining catalyst today"
+        "DXY rangebound 99.07–99.56; Barclays month-end: strong USD buying vs most majors",
+        "Navarro: 'Powell staying at Fed would be absolutely toxic' — political uncertainty",
+        "Flash PMIs: Q1 GDP 1.3%, CPI ~4% — stagflation signal caps clean bullish case",
+        "USD Unemployment Claims at 13:30 FFT — key remaining catalyst today",
+        "Besant reportedly exploring ways to recast Fed-Treasury ties in BOE's image (FT)"
       ]
     },
     "EUR": {
       "bias": "Bearish",
-      "tone": "PMI Miss + Stagflation Warning — EUR/USD Capped at 21 DMA",
-      "summary": "EUR is Bearish today. EUR/USD found resistance at the 21 DMA (1.1617) and is subdued within 1.1575–1.1618. EZ Composite PMI missed at 50.5 (exp 51.0) — 'eurozone GDP slowing to below 0.1% quarterly rate; CPI accelerating close to 3%.' ECB officials (Villeroy, Sleijpen, Kocher, Kazaks) all warned on second-round effects. Kazaks: 'two rate hikes seems reasonable.' German IFO at 10:00 FFT is the next catalyst. Weekly Weak Bullish vs Daily Bearish = NO High Conviction alignment.",
+      "tone": "German IFO Beat Fails to Lift EUR — Energy Importer Drag Persists",
+      "summary": "EUR is Bearish today. EUR/USD traded 1.1566–1.1630 despite a German IFO beat (Business Climate 88.6 vs 85.5 exp). IFO Expectations declined sharply (86.0 vs 90.5 prior) — 'economy is feeling the impact of the Middle East situation.' ECB Lagarde: 'as expected deviations from inflation target grow larger and more persistent, the case for action becomes stronger.' Energy importer drag intact. Weekly Weak Bullish vs Daily Bearish = NO High Conviction alignment.",
       "drivers": [
-        "EZ Composite PMI 50.5 (miss vs 51.0); GDP slowing, CPI accelerating to ~3%",
-        "EUR/USD capped at 21 DMA (1.1617); subdued within 1.1575–1.1618",
-        "ECB Kazaks: 'two rate hikes seems reasonable; must wait and see'",
-        "ECB Sleijpen: 'energy prices likely to become entrenched more quickly than 2022'",
-        "German IFO Business Climate at 10:00 FFT — next catalyst"
+        "EUR/USD 1.1566–1.1630; German IFO beat (88.6 vs 85.5) but Expectations fell to 86.0 vs 90.5 prior",
+        "IFO: 'economy is feeling the impact of the Middle East situation'",
+        "ECB Lagarde: 'case for action becomes stronger as deviations grow more persistent'",
+        "ECB Rehn: 'keeping a cool head; must respond to overall macro environment, not oil alone'",
+        "Energy importer: Brent $93–$97/bbl still acts as direct tax on Eurozone growth"
       ]
     },
     "GBP": {
-      "bias": "Bearish",
-      "tone": "PMI Miss + BOE Dilemma — GBP/USD Below 200 DMA",
-      "summary": "GBP is Bearish today. GBP/USD dipped back under the 200 DMA (1.3434) after UK Composite PMI missed at 51.0 (exp 52.8). 'The war in the Middle East has hit the UK economy in March, stalling growth while driving inflation sharply higher.' UK CPI (07:00 FFT) already released — data confirmed the stagflation dilemma. BOE Pill: 'I stand ready to act if necessary to contain lasting inflationary pressures.' Weekly Weak Bullish vs Daily Bearish = NO High Conviction alignment.",
+      "bias": "Bullish",
+      "tone": "Core CPI Beat + BOE Hawkish Tone — GBP Outperforming",
+      "summary": "GBP is Bullish today. UK Core CPI came in at 3.2% y/y (beat vs 3.1% exp) and Services at 4.3% (beat vs 4.2% exp). BOE Greene: 'more worried about risks from higher inflation than slower demand from this shock.' Gilts opened higher by ~35 ticks. GBP/USD traded 1.3358–1.3436, hovering around key DMAs. The stagflation diagnosis now firmly supports the BOE hawkish pivot. Weekly Weak Bullish + Daily Bullish = HIGH CONVICTION alignment ✅.",
       "drivers": [
-        "UK Composite PMI 51.0 (miss vs 52.8); 'war stalling growth, driving inflation'",
-        "GBP/USD below 200 DMA (1.3434); traded 1.3365–1.3445",
-        "UK CPI released 07:00 FFT — stagflation dilemma confirmed",
-        "BOE Pill: 'stand ready to act to contain lasting inflationary pressures'",
-        "Manufacturing resilience (51.4 beat) vs weak services (51.2 miss vs 53.0 exp)"
+        "UK Core CPI 3.2% y/y (beat vs 3.1% exp); Services 4.3% (beat vs 4.2% exp)",
+        "BOE Greene: 'more worried about inflation risks than demand slowdown from this shock'",
+        "GBP/USD 1.3358–1.3436; Gilts opened higher by ~35 ticks on CPI beat",
+        "BOE Greene: 'not tempted to vote for a hike at March meeting' — but tone hawkish",
+        "UK Retail Sales tomorrow (07:00 FFT) — next key catalyst for GBP"
       ]
     },
     "JPY": {
       "bias": "Bearish",
-      "tone": "USD Rebound Pushes USD/JPY Higher — Soft CPI Temporary",
-      "summary": "JPY is Bearish today. USD/JPY firmed to 158.27–158.79 as the dollar rebounded and risk-on environment reduced haven demand. Japan's National Core CPI decelerated to 1.6% (exp 1.7%) and Headline CPI to 1.3% (exp 1.5%), but ING noted 'the soft print is likely temporary and does not alter the BOJ's tightening path.' BOJ minutes from January (pre-war) showed members monitoring economic conditions closely. Weekly Neutral vs Daily Bearish = NO High Conviction alignment.",
+      "tone": "Ceasefire Hopes Reduce Haven Demand — USD/JPY Firmer",
+      "summary": "JPY is Bearish today. USD/JPY traded 158.56–159.20 as ceasefire hopes reduced haven demand and the dollar rebounded. BOJ Core CPI (06:00 FFT) came in soft, reinforcing the view that the BOJ tightening path is gradual. Yen outperformed higher-beta peers (AUD, NZD) but underperformed vs GBP and CAD. Weekly Neutral vs Daily Bearish = NO High Conviction alignment.",
       "drivers": [
-        "USD/JPY firmed to 158.27–158.79 on USD rebound and risk-on environment",
-        "Japan Core CPI 1.6% (exp 1.7%); ING: 'likely temporary, doesn't alter BOJ path'",
-        "BOJ January minutes: members monitoring conditions; pre-war context limits relevance",
-        "Risk-on ceasefire narrative reduces haven demand for JPY",
-        "BOJ Core CPI at 06:00 FFT Thursday — next key catalyst for JPY"
+        "USD/JPY 158.56–159.20; ceasefire hopes reduce haven demand for JPY",
+        "BOJ Core CPI (06:00 FFT) soft — gradual BOJ tightening path intact",
+        "JPY outperformed higher-beta peers (AUD, NZD) but lagged GBP and CAD",
+        "Risk-on narrative from ceasefire talks caps haven bid",
+        "No major JPY events remaining today — trades on geopolitical sentiment"
       ]
     },
     "AUD": {
       "bias": "Bearish",
-      "tone": "CPI Miss Pulls AUD Back from 0.7000 — May Hike Odds Reduced",
-      "summary": "AUD is Bearish today after the monthly CPI missed: 3.7% y/y (exp 3.8%), Trimmed Mean 0.2% MoM (exp 0.3%). AUD/USD pulled back from the 0.7000 resistance level. The miss reduces the urgency for a third RBA hike in May. Metals also under pressure — copper near $12,000/t, gold subdued. ASX 200 rallied on ceasefire hopes (mining stocks led by gold producers), but the FX impact of the CPI miss dominates. Weekly Weak Bullish vs Daily Bearish = NO High Conviction alignment.",
+      "tone": "Antipodeans Underperforming — CPI Miss Overhang Persists",
+      "summary": "AUD is Bearish today. Antipodeans remained softer with AUD underperforming after yesterday's CPI miss (3.7% y/y vs 3.8% exp). Copper firmed slightly on ceasefire hopes ($12,192–$12,348/t) but the FX impact of the CPI miss and reduced May RBA hike odds continues to dominate. ASX 200 closed slightly lower with miners and materials leading declines. Weekly Weak Bullish vs Daily Bearish = NO High Conviction alignment.",
       "drivers": [
-        "AUD CPI 3.7% y/y (miss vs 3.8% exp); Trimmed Mean 0.2% MoM (miss vs 0.3%)",
-        "AUD/USD pulled back from 0.7000 resistance — May hike odds reduced",
-        "Copper near $12,000/t; gold subdued amid firmer USD and conflicting geopolitics",
-        "ASX 200 rallied on ceasefire hopes (mining stocks) but FX impact of CPI miss dominates",
-        "No major AUD events remaining this week — trades on risk sentiment and oil"
+        "AUD underperforming after yesterday's CPI miss (3.7% y/y vs 3.8% exp)",
+        "May RBA hike odds reduced — Trimmed Mean 0.2% MoM (miss vs 0.3% exp)",
+        "Copper firmed slightly ($12,192–$12,348/t) but insufficient to lift AUD",
+        "ASX 200 slightly lower; miners and materials front-running declines",
+        "No major AUD events today — trades on risk sentiment and metals"
       ]
     },
     "CAD": {
       "bias": "Bullish",
-      "tone": "Oil Floor Holding — Ceasefire Hopes Cap But Attacks Keep Bid",
-      "summary": "CAD is Bullish today. Oil is rangebound but the floor is holding: WTI $88.50–$92.57/bbl, Brent $100.21–$104.35/bbl. Ceasefire hopes cap the upside but ongoing attacks on Isfahan nuclear sites and US troop deployment to the Middle East keep the energy risk premium intact. Macquarie forecasts Brent floor at $85–$90/bbl if tensions decrease. CAD trades as a pure petro-proxy today. Weekly Weak Bullish + Daily Bullish = HIGH CONVICTION alignment ✅.",
+      "tone": "Oil Floor Holding — Iran's 5 Conditions Keep Energy Risk Premium",
+      "summary": "CAD is Bullish today. Oil is easing on ceasefire hopes but the floor is holding: WTI $86.46–$89.57/bbl, Brent $93.45–$97.00/bbl. Iran's 5 conditions for ending the war (including no future strikes, compensation, formal Hormuz control) keep the energy risk premium intact. Macquarie forecasts Brent floor at $85–$90/bbl even if tensions ease. CAD remains a pure petro-proxy. Weekly Weak Bullish + Daily Bullish = HIGH CONVICTION alignment ✅.",
       "drivers": [
-        "Oil floor holding: WTI $88.50–$92.57/bbl, Brent $100.21–$104.35/bbl",
-        "Ceasefire hopes cap upside; Isfahan nuclear site attacks and US troops keep floor",
-        "Macquarie: Brent floor $85–$90/bbl if tensions ease; $150/bbl if Hormuz stays shut",
-        "Iran charging ships for Hormuz passage — supply disruption risk premium intact",
+        "Oil floor holding: WTI $86.46–$89.57/bbl, Brent $93.45–$97.00/bbl",
+        "Iran's 5 conditions for ceasefire keep energy risk premium intact",
+        "Macquarie: Brent floor $85–$90/bbl even if tensions ease; $150/bbl if Hormuz stays shut",
+        "Iran IRGC 'toll booth' regime in Hormuz — supply disruption risk premium intact",
         "No major CAD events today — pure petro-proxy"
       ]
     },
     "CHF": {
       "bias": "Bearish",
-      "tone": "SNB Intervention Resistance Confirmed — Appreciation Pressure Capped",
-      "summary": "CHF is Bearish today. SNB Chairman Schlegel confirmed elevated intervention readiness: 'CHF is a safe haven in uncertain times; conflict increases appreciation pressure; SNB's readiness to intervene is elevated.' EUR/CHF stabilized after the SNB's Thursday intervention signal. The Franc retains structural haven characteristics but official resistance is now too explicit to ignore. Weekly Weak Bearish + Daily Bearish = HIGH CONVICTION alignment ✅.",
+      "tone": "SNB Intervention Resistance + Ceasefire Hopes Cap Haven Bid",
+      "summary": "CHF is Bearish today. SNB Chairman Schlegel confirmed elevated intervention readiness yesterday. Ceasefire hopes further reduce haven demand for CHF. EUR/CHF stabilizing after the SNB signal. The SNB Quarterly Bulletin today is the key event — any additional intervention language would reinforce the bearish case. Weekly Weak Bearish + Daily Bearish = HIGH CONVICTION alignment ✅.",
       "drivers": [
         "SNB Schlegel: 'readiness to intervene is elevated; FX interventions more suitable in some situations'",
-        "CHF appreciated 2.5% trade-weighted since December — SNB sees this as excessive",
-        "EUR/CHF stabilizing after SNB intervention signal; haven bid officially capped",
+        "Ceasefire hopes reduce haven demand, reinforcing bearish CHF case",
+        "EUR/CHF stabilizing after SNB intervention signal caps appreciation",
         "SNB Quarterly Bulletin today — key event for CHF direction",
-        "Ceasefire hopes reduce haven demand, reinforcing bearish CHF case"
+        "CHF appreciated 2.5% trade-weighted since December — SNB sees this as excessive"
       ]
     },
     "NZD": {
       "bias": "Bearish",
-      "tone": "Underperforming Across G10 — Westpac Flags Q2 GDP Contraction",
-      "summary": "NZD is Bearish today. AUD and NZD underperformed across G10 in overnight trade. Westpac flagged that New Zealand GDP is set to contract in Q2 due to rising fuel prices. RBNZ Chief Economist Conway: 'monetary policy can't solve the cost-of-living crisis alone; structural reforms needed.' No domestic hawkish catalyst. Weekly Bearish + Daily Bearish = HIGH CONVICTION alignment ✅.",
+      "tone": "Underperforming with AUD — No Domestic Catalyst",
+      "summary": "NZD is Bearish today. NZD underperformed alongside AUD in overnight trade. Westpac flagged Q2 GDP contraction risk due to rising fuel prices. RBNZ Chief Economist Conway: 'monetary policy can't solve the cost-of-living crisis alone.' No domestic hawkish catalyst. High-beta risk proxy with no support. Weekly Bearish + Daily Bearish = HIGH CONVICTION alignment ✅.",
       "drivers": [
-        "NZD underperformed across G10 overnight alongside AUD",
+        "NZD underperformed alongside AUD in overnight trade",
         "Westpac: 'NZD GDP set to contract in Q2 due to rising fuel prices'",
         "RBNZ Conway: 'monetary policy can't solve cost-of-living crisis alone'",
         "No RBNZ meeting until April — policy support absent",
@@ -107,69 +107,47 @@
   },
   "highConvictionSetups": [
     {
+      "pair": "GBP/CHF",
+      "direction": "LONG",
+      "reason": {
+        "line1": "GBP: UK Core CPI 3.2% y/y (beat vs 3.1% exp), Services 4.3% (beat). BOE Greene: 'more worried about inflation risks than demand slowdown.' Stagflation confirms hawkish BOE stance.",
+        "line2": "CHF: SNB Schlegel confirmed elevated intervention readiness. Ceasefire hopes reduce haven demand. EUR/CHF stabilizing after SNB signal caps appreciation pressure."
+      }
+    },
+    {
+      "pair": "GBP/NZD",
+      "direction": "LONG",
+      "reason": {
+        "line1": "GBP: Core CPI beat (3.2% vs 3.1% exp) and Services beat (4.3% vs 4.2% exp). BOE hawkish pivot confirmed. GBP/USD holding above key DMAs.",
+        "line2": "NZD: Underperforming across G10. Westpac flags Q2 GDP contraction from rising fuel prices. No RBNZ support until April. High-beta with no domestic catalyst."
+      }
+    },
+    {
       "pair": "NZD/CAD",
       "direction": "SHORT",
       "reason": {
-        "line1": "CAD: Oil floor holding at WTI $88.50–$92.57/bbl, Brent $100.21–$104.35/bbl; Iran charging ships for Hormuz passage keeps energy risk premium intact.",
-        "line2": "NZD: Underperforming across G10; Westpac flags Q2 GDP contraction due to rising fuel prices; RBNZ Conway says monetary policy can't solve cost-of-living crisis."
+        "line1": "CAD: Oil floor holding at WTI $86.46–$89.57/bbl, Brent $93.45–$97.00/bbl. Iran's 5 ceasefire conditions keep energy risk premium intact. Pure petro-proxy.",
+        "line2": "NZD: Underperforming across G10. Westpac: Q2 GDP contraction risk. RBNZ Conway: 'monetary policy can't solve cost-of-living crisis.' No domestic support."
       }
     },
     {
       "pair": "CAD/CHF",
       "direction": "LONG",
       "reason": {
-        "line1": "CAD: Petro-proxy with oil floor holding; Macquarie forecasts Brent $85–$90/bbl floor even if tensions ease; energy risk premium intact.",
-        "line2": "CHF: SNB Schlegel confirmed elevated intervention readiness; 'readiness to intervene is elevated'; EUR/CHF stabilizing after SNB signal caps haven bid."
+        "line1": "CAD: Petro-proxy with oil floor holding. Iran's 5 conditions keep energy risk premium. Macquarie: Brent floor $85–$90/bbl even if tensions ease.",
+        "line2": "CHF: SNB confirmed elevated intervention readiness. Ceasefire hopes reduce haven demand. EUR/CHF stabilizing after official pushback caps appreciation."
       }
     }
   ],
   "intradayTrades": [
+    { "pair": "EUR/GBP", "direction": "SHORT" },
+    { "pair": "GBP/JPY", "direction": "LONG" },
+    { "pair": "GBP/AUD", "direction": "LONG" },
     { "pair": "EUR/CAD", "direction": "SHORT" },
-    { "pair": "GBP/CAD", "direction": "SHORT" },
     { "pair": "CAD/JPY", "direction": "LONG" },
     { "pair": "AUD/CAD", "direction": "SHORT" }
   ],
   "redFolderNews": [
-    {
-      "day": "WED",
-      "date": "Mar 25",
-      "currency": "AUD",
-      "event": "CPI y/y (Monthly)",
-      "time": "01:30 FFT",
-      "impact": "High"
-    },
-    {
-      "day": "WED",
-      "date": "Mar 25",
-      "currency": "GBP",
-      "event": "CPI y/y",
-      "time": "07:00 FFT",
-      "impact": "High"
-    },
-    {
-      "day": "WED",
-      "date": "Mar 25",
-      "currency": "GBP",
-      "event": "Core CPI y/y",
-      "time": "07:00 FFT",
-      "impact": "High"
-    },
-    {
-      "day": "WED",
-      "date": "Mar 25",
-      "currency": "EUR",
-      "event": "German IFO Business Climate",
-      "time": "10:00 FFT",
-      "impact": "High"
-    },
-    {
-      "day": "WED",
-      "date": "Mar 25",
-      "currency": "USD",
-      "event": "Consumer Confidence",
-      "time": "16:00 FFT",
-      "impact": "High"
-    },
     {
       "day": "THU",
       "date": "Mar 26",
