@@ -278,3 +278,12 @@
 - [x] Backfill 6 missing history entries via SQL (Mar 16, 17, 23, 24, 25, 26)
 - [x] Update daily-recap-update skill: historyEntry block is MANDATORY in every update
 - [x] Save checkpoint and push to GitHub
+
+## Daily Recap Update: Fri Mar 27, 2026 (COMPLETED)
+- [x] Analyze PMT London Opening Preparation + London Session Recap + PMT Headlines
+- [x] Determine Risk Environment: Risk-Off (Hormuz closed, US bases attacked, oil surging)
+- [x] Update all 8 currency biases (USD Bullish, EUR Bullish, GBP Bullish, JPY Bearish, AUD Bearish, CAD Bullish, CHF Bearish, NZD Bearish)
+- [x] Calculate High Conviction Setups: GBP/CHF LONG, GBP/NZD LONG, EUR/CHF LONG, EUR/NZD LONG, NZD/CAD SHORT, CAD/CHF LONG
+- [x] Calculate Intraday Trades: EUR/JPY LONG, EUR/AUD LONG, GBP/JPY LONG, GBP/AUD LONG, CAD/JPY LONG, AUD/CAD SHORT
+- [x] Add historyEntry block to dailyRecap.json
+- [x] Save checkpoint and push to GitHub
