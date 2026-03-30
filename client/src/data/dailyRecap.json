@@ -193,19 +193,123 @@
   },
   "redFolderNews": [
     {
-      "day": "FRI",
-      "date": "Mar 27",
+      "day": "MON",
+      "date": "Mar 30",
+      "currency": "EUR",
+      "event": "German CPI Prelim y/y",
+      "time": "13:00 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "MON",
+      "date": "Mar 30",
+      "currency": "JPY",
+      "event": "Tokyo Core CPI y/y",
+      "time": "00:30 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "TUE",
+      "date": "Mar 31",
       "currency": "GBP",
-      "event": "Retail Sales m/m",
+      "event": "Final GDP q/q",
       "time": "07:00 FFT",
       "impact": "High"
     },
     {
-      "day": "FRI",
-      "date": "Mar 27",
+      "day": "TUE",
+      "date": "Mar 31",
+      "currency": "EUR",
+      "event": "Eurozone CPI Flash y/y",
+      "time": "10:00 FFT",
+      "impact": "Critical"
+    },
+    {
+      "day": "TUE",
+      "date": "Mar 31",
+      "currency": "EUR",
+      "event": "Eurozone Core CPI Flash y/y",
+      "time": "10:00 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "TUE",
+      "date": "Mar 31",
       "currency": "USD",
-      "event": "Core PCE Price Index m/m",
+      "event": "CB Consumer Confidence",
+      "time": "15:00 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "TUE",
+      "date": "Mar 31",
+      "currency": "JPY",
+      "event": "Tankan Large Manufacturing Index",
+      "time": "00:50 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "WED",
+      "date": "Apr 1",
+      "currency": "USD",
+      "event": "ADP Non-Farm Employment Change",
+      "time": "13:15 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "WED",
+      "date": "Apr 1",
+      "currency": "USD",
+      "event": "Retail Sales m/m",
       "time": "13:30 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "WED",
+      "date": "Apr 1",
+      "currency": "USD",
+      "event": "ISM Manufacturing PMI",
+      "time": "15:00 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "THU",
+      "date": "Apr 2",
+      "currency": "AUD",
+      "event": "Trade Balance",
+      "time": "01:30 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "THU",
+      "date": "Apr 2",
+      "currency": "CHF",
+      "event": "CPI m/m",
+      "time": "07:30 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "date": "Apr 3",
+      "currency": "USD",
+      "event": "Non-Farm Payrolls",
+      "time": "13:30 FFT",
+      "impact": "Critical"
+    },
+    {
+      "day": "FRI",
+      "date": "Apr 3",
+      "currency": "USD",
+      "event": "Unemployment Rate",
+      "time": "13:30 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "FRI",
+      "date": "Apr 3",
+      "currency": "USD",
+      "event": "ISM Services PMI",
+      "time": "15:00 FFT",
       "impact": "High"
     }
   ]

@@ -287,3 +287,10 @@
 - [x] Calculate Intraday Trades: EUR/JPY LONG, EUR/AUD LONG, GBP/JPY LONG, GBP/AUD LONG, CAD/JPY LONG, AUD/CAD SHORT
 - [x] Add historyEntry block to dailyRecap.json
 - [x] Save checkpoint and push to GitHub
+
+## Weekly Bias Update: Mar 30 - Apr 5, 2026 (COMPLETED)
+- [x] Read all 8 PMT Smart Bias Reports (USD, EUR, GBP, JPY, AUD, CAD, CHF, NZD)
+- [x] Scraped high-impact events for the week (LiteFinance calendar, FFT times)
+- [x] Wrote new weeklyBias.json with biases, rationales, drivers, events, swingWatchlist
+- [x] Updated dailyRecap.json redFolderNews with full week (Mar 30 - Apr 5) events
+- [x] Verified dashboard displays correctly
