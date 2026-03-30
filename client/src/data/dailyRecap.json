@@ -1,194 +1,185 @@
 {
-  "date": "Friday, March 27, 2026",
+  "date": "Monday, March 30, 2026",
   "lastUpdate": "09:00 FFT",
   "riskEnvironment": "Risk-Off",
   "marketFocus": [
-    "Iran IRGC closes Strait of Hormuz: 'any traffic will be severely dealt with.' US bases attacked in Saudi, Kuwait, Qatar, Bahrain, UAE. Brent above $102/bbl. Trump extended 10-day pause but mixed signals persist — escalation risk maximum.",
-    "UK Retail Sales Feb beat (-0.4% vs -0.8% exp, YoY 2.5% vs 2.1% exp). BOE Breeden: 'not wise to act before sufficient information' — April meeting in focus. GBP Bullish — stagflation + hawkish BOE intact.",
-    "UBS upgrades ECB to two 25bp hikes (June + September). Spanish CPI prelim hot (3.3% YoY vs 2.4% exp). Core PCE at 13:30 FFT — key USD catalyst. Fed speakers (Barr, Cook, Jefferson) all hawkish on inflation."
+    "Iran conflict escalates over weekend: Houthis fire missiles at Israel for the first time, US-Israel strike Iran's largest steel plants + energy facilities. US bases attacked in Bahrain, Saudi Arabia, UAE, Kuwait, Iraq. WTI briefly above $103/bbl, Brent above $116/bbl at open.",
+    "Trump mixed signals: 'good negotiations with Iran' + 'could take Kharg Island very easily.' Iran gave 20 boats of oil passage but Hormuz remains effectively closed. Trump policy meeting at 18:30 FFT — key catalyst for risk sentiment direction.",
+    "German CPI Prelim at 13:00 FFT is today's key data event — hot print reinforces ECB two-hike narrative. Swiss KOF Leading Indicators missed badly (96.1 vs 102 exp). BoJ Summary of Opinions hawkish: debated need for more rate hikes at March meeting."
   ],
   "currencies": {
     "USD": {
       "bias": "Bullish",
-      "tone": "DXY Rising on Haven + Rate Hike Bets — Core PCE the Key Catalyst",
-      "summary": "USD is Bullish today. DXY climbed alongside higher oil prices and rising yields as Iran closed the Strait of Hormuz and US bases were attacked across the Middle East. Fed speakers Barr, Cook and Jefferson all struck hawkish tones — Cook: 'inflation risk greater now as a result of the war in Iran.' Markets now price 15bps of hikes by year-end. Core PCE at 13:30 FFT is the key event — a hot print would cement the bullish case. Weekly Neutral vs Daily Bullish = NO High Conviction alignment.",
+      "tone": "DXY Firmer on Haven + Stagflation — Trump Policy Meeting at 18:30 FFT Key",
+      "summary": "USD is Bullish today. DXY opened the week on a firmer footing as risk aversion carried over from the weekend escalation — Houthis joined the Iran conflict, US-Israel struck steel plants and energy facilities, and US bases were attacked across the region. The greenback's major counterparts are mixed but the dollar retains its reserve, haven, and yield premium. Fed Williams comments today are the key CB catalyst. German CPI Prelim at 13:00 FFT and Trump's policy meeting at 18:30 FFT are the key market-moving events. Weekly Strong Bullish + Daily Bullish = HIGH CONVICTION alignment ✅.",
       "drivers": [
-        "DXY rising as Hormuz closure and US base attacks drive haven demand",
-        "Fed Barr: 'longer inflation above 2%, greater risk it becomes entrenched'",
-        "Fed Cook: 'inflation risk greater now as a result of the war in Iran'",
-        "Markets price 15bps of Fed hikes by year-end on energy inflation fears",
-        "Core PCE Price Index m/m at 13:30 FFT — key catalyst for USD direction"
+        "DXY firmer as risk aversion from weekend escalation carries into new week",
+        "Haven + stagflation framework: oil above $100/bbl feeds inflation + Fed hike repricing",
+        "Houthis enter conflict for first time — Bab al-Mandab Strait risk now added to Hormuz",
+        "Fed Williams comments today — key CB catalyst for USD direction",
+        "Trump policy meeting at 18:30 FFT — key catalyst for risk sentiment and USD"
       ]
     },
     "EUR": {
       "bias": "Bullish",
-      "tone": "UBS ECB Hike Upgrade + Hot Spanish CPI — EUR Hawkish Narrative Intact",
-      "summary": "EUR is Bullish today. UBS upgraded its ECB forecast to two 25bp hikes in June and September (vs previously unchanged). Spanish CPI prelim came in hot at 3.3% YoY (vs 2.4% exp) — the energy shock is feeding into Eurozone inflation. ECB Patsalides: 'will not hesitate to hike.' EUR/USD held above 1.1522 despite broad risk-off. The energy importer headwind is offset by the rates repricing story. Weekly Weak Bullish + Daily Bullish = HIGH CONVICTION alignment ✅.",
+      "tone": "ECB Hike Repricing Intact — German CPI Prelim at 13:00 FFT the Key Catalyst",
+      "summary": "EUR is Bullish today. EUR/USD recovered from an early dip beneath 1.1500 to return to relatively flat territory — the ECB hawkish repricing story remains the dominant driver. ECB Villeroy said 'ECB is ready to act, but too early to discuss dates for possible rate hikes' — a measured hawkish tone. German CPI Prelim at 13:00 FFT is the key event: a hot print (above 2.5% YoY) would reinforce the two-hike narrative and push EUR higher. ECB Schnabel on Friday said 'no need to rush' but markets are not listening. Weekly Weak Bullish + Daily Bullish = HIGH CONVICTION alignment ✅.",
       "drivers": [
-        "UBS upgrades ECB to two 25bp hikes: June and September 2026",
-        "Spanish CPI prelim 3.3% YoY (vs 2.4% exp) — energy shock feeding into EZ inflation",
-        "ECB Patsalides: 'will not hesitate to hike' despite uncertainty",
-        "ECB Nagel: 'will have enough data by April to determine if they need to act'",
-        "EUR/USD holding above 1.1522 despite risk-off — rates repricing dominates"
+        "EUR/USD recovered from sub-1.1500 dip — ECB hawkish repricing dominates",
+        "ECB Villeroy: 'ECB is ready to act' — measured hawkish tone intact",
+        "German CPI Prelim at 13:00 FFT — hot print reinforces ECB two-hike narrative",
+        "Markets price ~85bps of ECB tightening by year-end; rate-cut expectations removed",
+        "Energy importer headwind offset by rates repricing story — EUR holding up in risk-off"
       ]
     },
     "GBP": {
-      "bias": "Bullish",
-      "tone": "Retail Sales Beat + BOE Hawkish — GBP Outperforming in Risk-Off",
-      "summary": "GBP is Bullish today. UK Retail Sales Feb beat: -0.4% MoM (vs -0.8% exp), +2.5% YoY (vs 2.1% exp). BOE Breeden: 'where we are now is very different to last energy shock in 2022; second-round effects less likely given lack of price and wage bargaining power.' GBP/USD traded near 1.3300 handle. The stagflation narrative (Core CPI 3.2% beat yesterday, Services 4.3% beat) combined with the hawkish BOE stance keeps GBP supported. Weekly Weak Bullish + Daily Bullish = HIGH CONVICTION alignment ✅.",
+      "bias": "Neutral",
+      "tone": "UK Clocks Switch to BST — Quiet Newsflow, BOE Repricing Intact but No Catalyst",
+      "summary": "GBP is Neutral today. UK clocks switched from GMT to BST on Sunday — the NY-London differential returned to its usual 5 hours. UK-specific newsflow is quiet with no major data releases today. UK Lloyds Business Barometer beat (55 vs 44 prev) but failed to spur any FX reaction. GBP/USD marginally rebounded from last week's trough at sub-1.3300. The BOE repricing story (~81bps of tightening priced) remains intact but needs fresh catalyst to drive GBP. Weekly Neutral + Daily Neutral = NO High Conviction alignment.",
       "drivers": [
-        "UK Retail Sales Feb: -0.4% MoM (beat vs -0.8% exp), +2.5% YoY (beat vs 2.1% exp)",
-        "BOE Breeden: 'not wise to act before sufficient information' — April meeting key",
-        "BOE Breeden: 'second-round effects less likely' vs 2022 — controlled hawkish stance",
-        "Stagflation narrative intact: Core CPI 3.2% + Services 4.3% beat yesterday",
-        "GBP/USD near 1.3300; Gilts lower by ~80 ticks but off worst levels"
+        "UK clocks switch to BST — NY-London differential returns to 5 hours",
+        "UK Lloyds Business Barometer beat (55 vs 44 prev) — no FX reaction",
+        "GBP/USD marginally rebounded from sub-1.3300 — quiet UK newsflow",
+        "BOE repricing (~81bps tightening priced) intact but needs fresh catalyst",
+        "No major UK data today — GBP trading on global risk sentiment and oil prices"
       ]
     },
     "JPY": {
       "bias": "Bearish",
-      "tone": "Energy Vulnerability Overwhelms Haven Bid — USD/JPY at YTD Highs",
-      "summary": "JPY is Bearish today. Despite the risk-off environment, JPY is underperforming because Japan imports 90%+ of crude from the Middle East — the Hormuz closure is a direct economic shock for Japan. USD/JPY pushed to YTD highs near 159.00. Japanese Finance Minister Katayama announced measures for stable business funding and said they will take 'decisive steps on FX' at the G7 Finance Ministers' online meeting. Former BOJ Governor Kuroda: 'no problem raising policy rate 3-4 times to around 1.5% through next year.' Weekly Neutral vs Daily Bearish = NO High Conviction alignment.",
+      "tone": "Verbal Intervention Jawboning — USD/JPY Trickled Lower but Energy Vulnerability Intact",
+      "summary": "JPY is Bearish today. USD/JPY trickled lower following jawboning from Japan's top FX diplomat Mimura ('bold action may be needed if the Middle East situation continues; targeting all fronts in market for action') and BoJ Governor Ueda ('will scrutinise how FX moves affect growth and price forecasts'). BoJ Summary of Opinions from March meeting was hawkish — debated need for more rate hikes, some members signalled need to accelerate increases. However, Japan imports 90%+ of crude from the Middle East — the Hormuz closure and Houthis entering the conflict is a direct economic shock. Verbal intervention is not credible without coordinated action. Weekly Neutral + Daily Bearish = NO High Conviction alignment.",
       "drivers": [
-        "Japan imports 90%+ of crude from Middle East — Hormuz closure is direct economic shock",
-        "USD/JPY at YTD highs near 159.00 — energy vulnerability overwhelms haven bid",
-        "Japanese Finance Minister Katayama: 'decisive steps on FX' at G7 Finance meeting",
-        "Former BOJ Governor Kuroda: 'no problem raising policy rate 3-4 times to ~1.5%'",
-        "BOJ neutral rate estimated -0.9% to +0.5% — tightening path gradual"
+        "Japan's FX diplomat Mimura: 'bold action may be needed' — verbal intervention jawboning",
+        "BoJ Summary of Opinions hawkish: debated more rate hikes, some members want to accelerate",
+        "BoJ Ueda: 'will scrutinise how FX moves affect growth and prices'",
+        "Japan imports 90%+ of crude from Middle East — Hormuz + Houthis = direct economic shock",
+        "USD/JPY trickled lower on jawboning but energy vulnerability limits JPY recovery"
       ]
     },
     "AUD": {
       "bias": "Bearish",
-      "tone": "Cyclone Narelle Disrupts LNG + Risk-Off + China Probes US",
-      "summary": "AUD is Bearish today. Cyclone Narelle has disrupted LNG production in Western Australia — Chevron halted Gorgon and Wheatstone (8% of global LNG supply). China's MOFCOM launched a probe against the US for green trade practices, adding trade uncertainty. Risk-off environment weighs on high-beta AUD. UBS now sees the RBA hiking twice more to 4.60% but this is a medium-term positive that cannot offset the immediate risk-off and supply disruption narrative. Weekly Weak Bullish vs Daily Bearish = NO High Conviction alignment.",
+      "tone": "Diesel Shortage Risk + Risk-Off + PBoC Weaker Yuan Fix — AUD Under Pressure",
+      "summary": "AUD is Bearish today. APAC stocks were pressured following the weekend escalation — ASX 200 declined with underperformance in tech and financials. Australia faces heightened diesel shortage risk: 90% import dependent, stock levels at 1-5 weeks cover (well below international benchmarks). Australia's national cabinet meeting to discuss oil price situation — Treasurer Chalmers has not ruled out cutting fuel taxes. PBoC set a weaker yuan fix (6.9223 vs exp 6.9205) — bearish for antipodeans. Westpac now sees RBA terminal rate at 4.85% (was 4.10%) — medium-term positive but cannot offset immediate risk-off. Weekly Weak Bearish + Daily Bearish = HIGH CONVICTION alignment ✅.",
       "drivers": [
-        "Cyclone Narelle: Chevron halted Gorgon + Wheatstone LNG (8% of global supply)",
-        "China MOFCOM launched probe against US green trade practices — trade uncertainty",
-        "Risk-off environment weighs on high-beta AUD despite RBA rate support",
-        "UBS: RBA to hike twice more to 4.60% — medium-term positive, not today's driver",
-        "ASX 200 under pressure; gold miners and tech leading declines"
+        "Australia diesel shortage risk: 90% import dependent, 1-5 weeks cover only",
+        "ASX 200 lower — tech and financials underperforming; energy sector cushioning losses",
+        "PBoC set weaker yuan fix (6.9223 vs exp 6.9205) — bearish for antipodeans",
+        "Westpac upgrades RBA terminal rate to 4.85% (from 4.10%) — medium-term positive only",
+        "Australia national cabinet meeting on oil price situation — fuel tax cut under consideration"
       ]
     },
     "CAD": {
       "bias": "Bullish",
-      "tone": "Hormuz Closed = Maximum Oil Risk Premium — CAD Pure Petro-Proxy",
-      "summary": "CAD is Bullish today. Iran's IRGC announced the Strait of Hormuz is closed — Brent surged above $102/bbl, WTI above $94/bbl. This is the maximum bullish scenario for CAD as a petro-proxy. The Hormuz closure means ~20% of global oil supply is at risk. Macquarie's $150/bbl scenario if Hormuz stays shut is now the market's tail risk. No major CAD events today — the currency is a pure oil play. Weekly Weak Bullish + Daily Bullish = HIGH CONVICTION alignment ✅.",
+      "tone": "WTI Above $103/bbl + Houthis Enter Conflict — Maximum Petro-Proxy Support",
+      "summary": "CAD is Bullish today. WTI briefly climbed above $103/bbl and Brent above $116/bbl at the open following the weekend escalation — Houthis fired missiles at Israel for the first time, widening the risk to the Bab al-Mandab Strait (another key oil shipping route). Egypt is now importing Libyan oil to replace Kuwait supply disrupted by Hormuz closure — the global oil supply chain disruption is intensifying. SocGen sees growing likelihood of Brent topping $150/bbl. No major CAD data today — pure oil proxy. Weekly Neutral + Daily Bullish = NO High Conviction alignment.",
       "drivers": [
-        "Iran IRGC closes Strait of Hormuz — Brent above $102/bbl, WTI above $94/bbl",
-        "Hormuz closure = ~20% of global oil supply at risk — maximum petro-proxy support",
-        "Macquarie $150/bbl tail risk scenario now in market's pricing framework",
-        "US bases attacked in Saudi, Kuwait, Qatar, Bahrain, UAE — escalation risk premium",
-        "No major CAD events — pure oil proxy, tracks Brent directly"
+        "WTI briefly above $103/bbl, Brent above $116/bbl — Houthis enter conflict for first time",
+        "Houthis entering conflict widens risk to Bab al-Mandab Strait — second key oil route",
+        "Egypt importing Libyan oil to replace Kuwait supply — global supply chain disruption",
+        "SocGen: growing likelihood of Brent topping $150/bbl; Brent may average $125/bbl in April",
+        "No major CAD data today — pure oil proxy, tracks Brent directly"
       ]
     },
     "CHF": {
       "bias": "Bearish",
-      "tone": "SNB Intervention Cap Limits Haven Bid Despite Risk-Off",
-      "summary": "CHF is Bearish today. Despite the risk-off environment, the SNB's explicit intervention language from earlier this week caps CHF appreciation. BOE Breeden's comment that 'gilt market functioning well amid Iran war volatility' suggests the safe-haven flows are being absorbed by USD and Gilts rather than CHF. EUR/CHF stabilizing near 0.9100 as the SNB intervention threat keeps a lid on appreciation. Fitch Ratings on Switzerland today is the key event. Weekly Weak Bearish + Daily Bearish = HIGH CONVICTION alignment ✅.",
+      "tone": "KOF Leading Indicators Miss + Haven Flows to USD — CHF Underperforming",
+      "summary": "CHF is Bearish today. Swiss KOF Leading Indicators for March missed badly (96.1 vs 102 exp, prev 104.2) — a significant deterioration in the Swiss economic outlook. Haven flows continue to favour USD over CHF due to the yield advantage. Fitch affirmed Switzerland at AAA with Stable outlook — no surprise, no CHF reaction. SNB intervention cap remains intact, limiting appreciation. Spanish Retail Sales missed (YoY 2.2% vs 3.8% exp) — weak European data adds to the risk-off tone without supporting CHF specifically. Weekly Bearish + Daily Bearish = HIGH CONVICTION alignment ✅.",
       "drivers": [
-        "SNB explicit intervention cap limits CHF haven appreciation despite risk-off",
-        "EUR/CHF stabilizing near 0.9100 — SNB intervention threat intact",
-        "Haven flows absorbed by USD and Gilts rather than CHF in this environment",
-        "Fitch Ratings on Switzerland today — any downgrade would be CHF negative",
-        "CHF appreciated 2.5% trade-weighted since December — SNB sees this as excessive"
+        "Swiss KOF Leading Indicators missed badly: 96.1 vs 102 exp (prev 104.2) — growth concerns",
+        "Haven flows favour USD over CHF — yield advantage keeps dollar preferred",
+        "Fitch affirmed Switzerland AAA Stable — no surprise, no CHF reaction",
+        "SNB intervention cap limits appreciation; sight deposits rose modestly last week",
+        "Spanish Retail Sales missed (YoY 2.2% vs 3.8% exp) — weak European data, no CHF support"
       ]
     },
     "NZD": {
       "bias": "Bearish",
-      "tone": "Consumer Confidence Collapses + Fuel Contingency Plan — NZD Weakest G10",
-      "summary": "NZD is Bearish today. New Zealand ANZ-Roy Morgan consumer confidence fell to 91.3 in March (from 100.1 in February) — a sharp 10-point drop back into pessimistic territory. New Zealand activated Phase 1 of its four-phase fuel contingency framework due to Hormuz disruption risk. RBNZ increased foreign currency intervention capacity in February. No domestic hawkish catalyst. High-beta risk proxy in a risk-off environment. Weekly Bearish + Daily Bearish = HIGH CONVICTION alignment ✅.",
+      "tone": "Antipodeans Subdued — PBoC Weaker Fix + Risk-Off + No Domestic Catalyst",
+      "summary": "NZD is Bearish today. Antipodeans were subdued amid the downbeat risk appetite following the weekend escalation. PBoC set a weaker yuan fix (6.9223 vs exp 6.9205) — directly bearish for NZD as China is New Zealand's largest trading partner. China-linked ships (Cosco Shipping) were reported attempting to cross the Strait of Hormuz — a reminder of China's exposure to the conflict. No domestic NZD catalyst today. High-beta risk proxy in a risk-off environment with no RBNZ support until April. Weekly Weak Bearish + Daily Bearish = HIGH CONVICTION alignment ✅.",
       "drivers": [
-        "NZ consumer confidence collapses to 91.3 (from 100.1) — back into pessimistic territory",
-        "NZ activates Phase 1 fuel contingency plan: 49-day petrol, 46-day diesel reserves",
-        "RBNZ increased FX intervention capacity in February — policy defensive",
-        "High-beta risk proxy in maximum risk-off environment",
-        "No domestic hawkish catalyst; RBNZ next meeting not until April"
+        "PBoC set weaker yuan fix (6.9223 vs exp 6.9205) — directly bearish for NZD",
+        "China-linked Cosco ships attempting Hormuz crossing — China exposure reminder",
+        "Antipodeans subdued amid risk-off; high-beta with no domestic catalyst",
+        "No RBNZ support until April — policy neutral near-term",
+        "NZ consumer confidence at 91.3 (from 100.1) — pessimistic territory, no recovery signal"
       ]
     }
   },
   "highConvictionSetups": [
     {
-      "pair": "GBP/CHF",
+      "pair": "EUR/AUD",
       "direction": "LONG",
       "reason": {
-        "line1": "GBP: UK Retail Sales Feb beat (-0.4% vs -0.8% exp). BOE Breeden hawkish. Stagflation narrative intact — Core CPI 3.2% + Services 4.3% beat yesterday. GBP/USD holding near 1.3300.",
-        "line2": "CHF: SNB explicit intervention cap limits haven appreciation. EUR/CHF stabilizing near 0.9100. Haven flows absorbed by USD and Gilts rather than CHF."
-      }
-    },
-    {
-      "pair": "GBP/NZD",
-      "direction": "LONG",
-      "reason": {
-        "line1": "GBP: Retail Sales beat, BOE hawkish pivot intact, stagflation confirms higher-for-longer BOE stance. GBP outperforming in risk-off.",
-        "line2": "NZD: Consumer confidence collapses to 91.3 (from 100.1). Fuel contingency plan activated. High-beta risk proxy in maximum risk-off. No domestic catalyst."
+        "line1": "EUR: ECB hawkish repricing intact — two hikes priced (June + September). German CPI Prelim at 13:00 FFT key catalyst. EUR/USD recovered from sub-1.1500. Villeroy 'ECB ready to act.'",
+        "line2": "AUD: Australia diesel shortage risk (90% import dependent, 1-5 weeks cover). ASX 200 lower. PBoC weaker yuan fix. Risk-off weighs on high-beta AUD."
       }
     },
     {
       "pair": "EUR/CHF",
       "direction": "LONG",
       "reason": {
-        "line1": "EUR: UBS upgrades ECB to two 25bp hikes (June + September). Spanish CPI 3.3% YoY (vs 2.4% exp). ECB Patsalides: 'will not hesitate to hike.' Rates repricing dominates.",
-        "line2": "CHF: SNB intervention cap limits appreciation. EUR/CHF stabilizing near 0.9100. CHF appreciated 2.5% trade-weighted — SNB sees this as excessive."
+        "line1": "EUR: ECB two hikes priced. German CPI Prelim at 13:00 FFT — hot print reinforces. EUR/USD holding above 1.1500. Rates repricing dominates over energy importer headwind.",
+        "line2": "CHF: KOF Leading Indicators missed badly (96.1 vs 102 exp). Haven flows to USD not CHF. SNB intervention cap intact. Growth concerns emerging."
       }
     },
     {
       "pair": "EUR/NZD",
       "direction": "LONG",
       "reason": {
-        "line1": "EUR: ECB hawkish pivot with UBS now forecasting two hikes. Spanish CPI hot. EUR/USD holding above 1.1522 despite broad risk-off — rates repricing dominates.",
-        "line2": "NZD: Consumer confidence collapses. Fuel contingency plan activated. No RBNZ support until April. High-beta with no domestic catalyst."
+        "line1": "EUR: ECB hawkish repricing — UBS forecasts two 25bp hikes. German CPI Prelim today. EUR/USD recovered from sub-1.1500 dip despite risk-off.",
+        "line2": "NZD: PBoC weaker yuan fix bearish for NZD. Antipodeans subdued. No RBNZ support until April. High-beta risk proxy with no domestic catalyst."
       }
     },
     {
-      "pair": "NZD/CAD",
+      "pair": "AUD/USD",
       "direction": "SHORT",
       "reason": {
-        "line1": "CAD: Hormuz closure = Brent above $102/bbl. Iran IRGC 'any traffic will be severely dealt with.' Maximum petro-proxy support. Macquarie $150/bbl tail risk now in play.",
-        "line2": "NZD: Consumer confidence collapses to 91.3. Fuel contingency plan activated. High-beta risk proxy with no domestic support."
+        "line1": "USD: DXY firmer on risk aversion + stagflation framework. Haven + yield premium. Fed Williams comments today. Trump policy meeting at 18:30 FFT.",
+        "line2": "AUD: Diesel shortage risk (90% import dependent). ASX 200 lower. PBoC weaker yuan. Risk-off weighs on high-beta AUD despite Westpac RBA upgrade."
       }
     },
     {
-      "pair": "CAD/CHF",
-      "direction": "LONG",
+      "pair": "NZD/USD",
+      "direction": "SHORT",
       "reason": {
-        "line1": "CAD: Hormuz closed — Brent above $102/bbl. ~20% of global oil supply at risk. Maximum petro-proxy scenario. No major CAD events — pure oil play.",
-        "line2": "CHF: SNB intervention cap limits haven bid. EUR/CHF stabilizing. Haven flows going to USD and Gilts, not CHF."
+        "line1": "USD: Stagflation framework intact — oil above $100/bbl feeds inflation + Fed hike repricing. DXY firmer. Haven demand from Middle East escalation.",
+        "line2": "NZD: PBoC weaker yuan fix. Antipodeans subdued. No RBNZ support until April. Consumer confidence at 91.3 — pessimistic territory."
       }
     }
   ],
   "intradayTrades": [
     { "pair": "EUR/JPY", "direction": "LONG" },
-    { "pair": "EUR/AUD", "direction": "LONG" },
-    { "pair": "GBP/JPY", "direction": "LONG" },
-    { "pair": "GBP/AUD", "direction": "LONG" },
     { "pair": "CAD/JPY", "direction": "LONG" },
-    { "pair": "AUD/CAD", "direction": "SHORT" }
+    { "pair": "CAD/CHF", "direction": "LONG" },
+    { "pair": "AUD/CAD", "direction": "SHORT" },
+    { "pair": "NZD/CAD", "direction": "SHORT" },
+    { "pair": "USD/JPY", "direction": "LONG" }
   ],
   "historyEntry": {
-    "date": "2026-03-27",
-    "weekRange": "Mar 23 - Mar 29, 2026",
+    "date": "2026-03-30",
+    "weekRange": "Mar 30 - Apr 5, 2026",
     "swingWatchlist": [
-      { "pair": "AUD/NZD", "direction": "LONG" },
+      { "pair": "EUR/AUD", "direction": "LONG" },
       { "pair": "EUR/CHF", "direction": "LONG" },
       { "pair": "EUR/NZD", "direction": "LONG" },
-      { "pair": "GBP/CHF", "direction": "LONG" },
-      { "pair": "GBP/NZD", "direction": "LONG" },
-      { "pair": "NZD/CAD", "direction": "SHORT" }
+      { "pair": "AUD/NZD", "direction": "LONG" },
+      { "pair": "AUD/USD", "direction": "SHORT" },
+      { "pair": "NZD/USD", "direction": "SHORT" }
     ],
     "swingSetups": [
-      { "pair": "GBP/CHF", "direction": "LONG" },
-      { "pair": "GBP/NZD", "direction": "LONG" },
+      { "pair": "EUR/AUD", "direction": "LONG" },
       { "pair": "EUR/CHF", "direction": "LONG" },
       { "pair": "EUR/NZD", "direction": "LONG" },
-      { "pair": "NZD/CAD", "direction": "SHORT" },
-      { "pair": "CAD/CHF", "direction": "LONG" }
+      { "pair": "AUD/USD", "direction": "SHORT" },
+      { "pair": "NZD/USD", "direction": "SHORT" }
     ],
     "intradayTrades": [
       { "pair": "EUR/JPY", "direction": "LONG" },
-      { "pair": "EUR/AUD", "direction": "LONG" },
-      { "pair": "GBP/JPY", "direction": "LONG" },
-      { "pair": "GBP/AUD", "direction": "LONG" },
       { "pair": "CAD/JPY", "direction": "LONG" },
-      { "pair": "AUD/CAD", "direction": "SHORT" }
+      { "pair": "CAD/CHF", "direction": "LONG" },
+      { "pair": "AUD/CAD", "direction": "SHORT" },
+      { "pair": "NZD/CAD", "direction": "SHORT" },
+      { "pair": "USD/JPY", "direction": "LONG" }
     ]
   },
   "redFolderNews": [
