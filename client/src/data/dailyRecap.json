@@ -4,14 +4,14 @@
   "riskEnvironment": "Mixed",
   "marketFocus": [
     "Trump told aides he's willing to end the war WITHOUT reopening Hormuz — oil whipsawed (WTI settled $102.88, Brent $112.78, off highs). Iran denies all negotiations. Overnight strikes continued: Isfahan ammo depot hit, Shiraz Airport explosions, Saudi Arabia intercepted 4 ballistic missiles toward Riyadh, Kuwaiti crude carrier struck in Dubai port. Risk tone: Mixed.",
-    "German CPI Prelim BEAT: 2.7% YoY (vs 2.3% exp, prev 1.9%) — energy prices +7.2% YoY, first increase since Dec 2023. Eurozone CPI Flash y/y at 10:00 FFT is today's critical event — a hot print reinforces the ECB two-hike narrative. ECB Stournaras: 'will react to second-round effects; stagflation more likely if conflict protracted.'",
-    "Chinese NBS Manufacturing PMI BEAT: 50.4 (vs 50.0 exp). Tokyo CPI MISS: 1.4% (vs 1.7% exp). RBA Minutes: board divided on whether to hike — 'oil at $100 would lift CPI to ~5% in June quarter.' UK Final GDP Q4 at 07:00 FFT. JOLTS + CB Consumer Confidence at 15:00 FFT."
+    "German CPI Prelim BEAT: 2.7% YoY (vs 2.3% exp, prev 1.9%) — energy prices +7.2% YoY, first increase since Dec 2023. Eurozone CPI Flash y/y at 11:00 FFT is today's critical event — a hot print reinforces the ECB two-hike narrative. ECB Stournaras: 'will react to second-round effects; stagflation more likely if conflict protracted.'",
+    "Chinese NBS Manufacturing PMI BEAT: 50.4 (vs 50.0 exp). Tokyo CPI MISS: 1.4% (vs 1.7% exp). RBA Minutes: board divided on whether to hike — 'oil at $100 would lift CPI to ~5% in June quarter.' UK Final GDP Q4 at 08:00 FFT. JOLTS + CB Consumer Confidence at 16:00 FFT."
   ],
   "currencies": {
     "USD": {
       "bias": "Bullish",
-      "tone": "DXY Marginally Softer but Firm — JOLTS + Consumer Confidence at 15:00 FFT Key",
-      "summary": "USD is Bullish today. DXY marginally softened after gaining yesterday alongside higher oil prices and geopolitical uncertainty — mixed signals from Trump (willing to end war without reopening Hormuz, but also threatened to 'obliterate' Iran's power plants if no deal). Fed Williams said uncertainty around inflation path is 'high' and tariffs + Iran war will push up headline inflation, but added the economy has been more resilient than expected. Monetary policy is 'appropriately positioned.' JOLTS Job Openings and CB Consumer Confidence at 15:00 FFT are the key catalysts today. Quarter-end rebalancing flows also active. Weekly Strong Bullish + Daily Bullish = HIGH CONVICTION alignment ✅.",
+      "tone": "DXY Marginally Softer but Firm — JOLTS + Consumer Confidence at 16:00 FFT Key",
+      "summary": "USD is Bullish today. DXY marginally softened after gaining yesterday alongside higher oil prices and geopolitical uncertainty — mixed signals from Trump (willing to end war without reopening Hormuz, but also threatened to 'obliterate' Iran's power plants if no deal). Fed Williams said uncertainty around inflation path is 'high' and tariffs + Iran war will push up headline inflation, but added the economy has been more resilient than expected. Monetary policy is 'appropriately positioned.' JOLTS Job Openings and CB Consumer Confidence at 16:00 FFT are the key catalysts today. Quarter-end rebalancing flows also active. Weekly Strong Bullish + Daily Bullish = HIGH CONVICTION alignment ✅.",
       "drivers": [
         "DXY marginally softer but still firm — mixed geopolitical signals keep dollar supported",
         "Fed Williams: 'uncertainty around inflation path is high; tariffs + Iran war push up inflation'",
@@ -22,22 +22,22 @@
     },
     "EUR": {
       "bias": "Bullish",
-      "tone": "German CPI 2.7% YoY Beat — Eurozone CPI Flash at 10:00 FFT is the Critical Event",
-      "summary": "EUR is Bullish today. German CPI Prelim beat strongly: 2.7% YoY (vs 2.3% exp, prev 1.9%) — energy prices +7.2% YoY, first increase since December 2023. EUR/USD clawed back above 1.1500 after slipping below yesterday. ECB Stournaras said the ECB would react to second-round price effects and warned that a protracted Middle East conflict makes stagflation more likely. ECB Lane said 'no paralysis on potential rate moves.' The Eurozone CPI Flash at 10:00 FFT is today's critical event — a hot print (above 2.5% YoY) would cement the ECB two-hike narrative and push EUR significantly higher. Weekly Weak Bullish + Daily Bullish = HIGH CONVICTION alignment ✅.",
+      "tone": "German CPI 2.7% YoY Beat — Eurozone CPI Flash at 11:00 FFT is the Critical Event",
+      "summary": "EUR is Bullish today. German CPI Prelim beat strongly: 2.7% YoY (vs 2.3% exp, prev 1.9%) — energy prices +7.2% YoY, first increase since December 2023. EUR/USD clawed back above 1.1500 after slipping below yesterday. ECB Stournaras said the ECB would react to second-round price effects and warned that a protracted Middle East conflict makes stagflation more likely. ECB Lane said 'no paralysis on potential rate moves.' The Eurozone CPI Flash at 11:00 FFT is today's critical event — a hot print (above 2.5% YoY) would cement the ECB two-hike narrative and push EUR significantly higher. Weekly Weak Bullish + Daily Bullish = HIGH CONVICTION alignment ✅.",
       "drivers": [
         "German CPI Prelim BEAT: 2.7% YoY (vs 2.3% exp) — energy prices +7.2% YoY first rise since Dec 2023",
         "ECB Stournaras: 'will react to second-round effects; stagflation more likely if conflict protracted'",
         "ECB Lane: 'no paralysis on potential rate moves' — hawkish tone intact",
         "EUR/USD clawed back above 1.1500 — rebound contained ahead of Eurozone CPI Flash",
-        "Eurozone CPI Flash y/y at 10:00 FFT — CRITICAL event; hot print cements ECB two-hike story"
+        "Eurozone CPI Flash y/y at 11:00 FFT — CRITICAL event; hot print cements ECB two-hike story"
       ]
     },
     "GBP": {
       "bias": "Neutral",
-      "tone": "UK Final GDP Q4 at 07:00 FFT — GBP/USD Returned to 1.3200, BOE Repricing Intact",
-      "summary": "GBP is Neutral today. GBP/USD found some reprieve from recent selling and returned to the 1.3200 territory. UK mortgage approvals beat (62.58K vs 61K exp) and UK M4 Money Supply beat (0.6% vs 0.1% exp) — positive domestic credit signals. UK Final GDP Q4 at 07:00 FFT is the key event — a revision higher would give GBP a fresh catalyst. BOE repricing (~81bps tightening priced) remains intact but needs fresh data to drive GBP directionally. ECB Stournaras warning about stagflation applies equally to the UK context. Weekly Neutral + Daily Neutral = NO High Conviction alignment.",
+      "tone": "UK Final GDP Q4 at 08:00 FFT — GBP/USD Returned to 1.3200, BOE Repricing Intact",
+      "summary": "GBP is Neutral today. GBP/USD found some reprieve from recent selling and returned to the 1.3200 territory. UK mortgage approvals beat (62.58K vs 61K exp) and UK M4 Money Supply beat (0.6% vs 0.1% exp) — positive domestic credit signals. UK Final GDP Q4 at 08:00 FFT is the key event — a revision higher would give GBP a fresh catalyst. BOE repricing (~81bps tightening priced) remains intact but needs fresh data to drive GBP directionally. ECB Stournaras warning about stagflation applies equally to the UK context. Weekly Neutral + Daily Neutral = NO High Conviction alignment.",
       "drivers": [
-        "UK Final GDP Q4 at 07:00 FFT — key event; revision higher would give GBP fresh catalyst",
+        "UK Final GDP Q4 at 08:00 FFT — key event; revision higher would give GBP fresh catalyst",
         "UK Mortgage Approvals BEAT: 62.58K vs 61K exp — positive domestic credit signal",
         "UK M4 Money Supply BEAT: 0.6% MoM vs 0.1% exp — credit expansion intact",
         "GBP/USD returned to 1.3200 — reprieve from recent selling pressure",
@@ -110,7 +110,7 @@
       "pair": "EUR/AUD",
       "direction": "LONG",
       "reason": {
-        "line1": "EUR: German CPI 2.7% YoY BEAT. Eurozone CPI Flash at 10:00 FFT — critical event. ECB Stournaras: 'will react to second-round effects.' EUR/USD clawed back above 1.1500.",
+        "line1": "EUR: German CPI 2.7% YoY BEAT. Eurozone CPI Flash at 11:00 FFT — critical event. ECB Stournaras: 'will react to second-round effects.' EUR/USD clawed back above 1.1500.",
         "line2": "AUD: RBA Minutes divided — board split on whether to hike. Oil at $100 lifts CPI to 5% in June quarter. Antipodeans rangebound despite China PMI beat. Stagflation risk."
       }
     },
@@ -118,7 +118,7 @@
       "pair": "EUR/CHF",
       "direction": "LONG",
       "reason": {
-        "line1": "EUR: German CPI beat (2.7% YoY). Eurozone CPI Flash at 10:00 FFT — hot print cements ECB two-hike narrative. ECB Lane: 'no paralysis on rate moves.' EUR/USD above 1.1500.",
+        "line1": "EUR: German CPI beat (2.7% YoY). Eurozone CPI Flash at 11:00 FFT — hot print cements ECB two-hike narrative. ECB Lane: 'no paralysis on rate moves.' EUR/USD above 1.1500.",
         "line2": "CHF: KOF miss yesterday (96.1 vs 102 exp). Haven flows to USD not CHF. SNB intervention cap intact. Growth concerns building in export-dependent economy."
       }
     },
@@ -126,7 +126,7 @@
       "pair": "EUR/NZD",
       "direction": "LONG",
       "reason": {
-        "line1": "EUR: German CPI 2.7% YoY beat. Eurozone CPI Flash at 10:00 FFT is the critical catalyst. ECB hawkish repricing — two hikes priced. EUR/USD recovered above 1.1500.",
+        "line1": "EUR: German CPI 2.7% YoY beat. Eurozone CPI Flash at 11:00 FFT is the critical catalyst. ECB hawkish repricing — two hikes priced. EUR/USD recovered above 1.1500.",
         "line2": "NZD: Antipodeans rangebound; failed to benefit from China PMI beat. RBNZ stagflation warning. No domestic catalyst. High-beta risk proxy in mixed environment."
       }
     },
@@ -188,7 +188,7 @@
       "date": "Mar 31",
       "currency": "GBP",
       "event": "Final GDP q/q",
-      "time": "09:00 FFT",
+      "time": "08:00 FFT",
       "impact": "High"
     },
     {
