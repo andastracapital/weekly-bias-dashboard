@@ -188,7 +188,7 @@
       "date": "Mar 31",
       "currency": "GBP",
       "event": "Final GDP q/q",
-      "time": "07:00 FFT",
+      "time": "09:00 FFT",
       "impact": "High"
     },
     {
@@ -196,7 +196,7 @@
       "date": "Mar 31",
       "currency": "EUR",
       "event": "Eurozone CPI Flash y/y",
-      "time": "10:00 FFT",
+      "time": "11:00 FFT",
       "impact": "Critical"
     },
     {
@@ -204,7 +204,7 @@
       "date": "Mar 31",
       "currency": "EUR",
       "event": "Eurozone Core CPI Flash y/y",
-      "time": "10:00 FFT",
+      "time": "11:00 FFT",
       "impact": "High"
     },
     {
@@ -212,7 +212,7 @@
       "date": "Mar 31",
       "currency": "USD",
       "event": "CB Consumer Confidence",
-      "time": "15:00 FFT",
+      "time": "16:00 FFT",
       "impact": "High"
     },
     {
@@ -220,7 +220,7 @@
       "date": "Mar 31",
       "currency": "JPY",
       "event": "Tankan Large Manufacturing Index",
-      "time": "00:50 FFT",
+      "time": "01:50 FFT",
       "impact": "High"
     },
     {
@@ -228,7 +228,7 @@
       "date": "Apr 1",
       "currency": "USD",
       "event": "ADP Non-Farm Employment Change",
-      "time": "13:15 FFT",
+      "time": "14:15 FFT",
       "impact": "High"
     },
     {
@@ -236,7 +236,7 @@
       "date": "Apr 1",
       "currency": "USD",
       "event": "Retail Sales m/m",
-      "time": "13:30 FFT",
+      "time": "14:30 FFT",
       "impact": "High"
     },
     {
@@ -244,7 +244,7 @@
       "date": "Apr 1",
       "currency": "USD",
       "event": "ISM Manufacturing PMI",
-      "time": "15:00 FFT",
+      "time": "16:00 FFT",
       "impact": "High"
     },
     {
@@ -252,7 +252,7 @@
       "date": "Apr 2",
       "currency": "AUD",
       "event": "Trade Balance",
-      "time": "01:30 FFT",
+      "time": "02:30 FFT",
       "impact": "High"
     },
     {
@@ -260,7 +260,7 @@
       "date": "Apr 2",
       "currency": "CHF",
       "event": "CPI m/m",
-      "time": "07:30 FFT",
+      "time": "08:30 FFT",
       "impact": "High"
     },
     {
@@ -268,7 +268,7 @@
       "date": "Apr 3",
       "currency": "USD",
       "event": "Non-Farm Payrolls",
-      "time": "13:30 FFT",
+      "time": "14:30 FFT",
       "impact": "Critical"
     },
     {
@@ -276,7 +276,7 @@
       "date": "Apr 3",
       "currency": "USD",
       "event": "Unemployment Rate",
-      "time": "13:30 FFT",
+      "time": "14:30 FFT",
       "impact": "High"
     },
     {
@@ -284,7 +284,7 @@
       "date": "Apr 3",
       "currency": "USD",
       "event": "ISM Services PMI",
-      "time": "15:00 FFT",
+      "time": "16:00 FFT",
       "impact": "High"
     }
   ]
