@@ -1,0 +1,166 @@
+{
+  "week": "Mar 30 - Apr 5, 2026",
+  "marketOverview": "Global markets enter the week under a stagflation framework driven by the Iran-Hormuz oil shock. USD/JPY broke above 160 for the first time since mid-2024, oil remains above $100/bbl, and central banks across the G10 have violently repriced from cuts to hikes. The week is dominated by US data: ADP (Wed), Retail Sales (Wed), ISM Manufacturing (Wed), and the March NFP report on Good Friday — when European and US markets are closed, creating a liquidity trap. EUR and GBP retain hawkish CB support (ECB hike repricing, BOE 9-0 hold) but face energy importer headwinds. JPY is caught between improving domestic fundamentals (Shunto wages 5%+, BOJ tightening) and an overwhelming yield differential. AUD and NZD remain the weakest links as high-beta currencies in a risk-off, stagflation environment.",
+  "currencies": [
+    {
+      "code": "USD",
+      "name": "US Dollar",
+      "bias": "Strong Bullish",
+      "rationale": "USD finished last week at the top of the G10 board — not on growth strength, but on a stagflation framework where rising oil feeds inflation, forces Fed repricing, and drives haven demand simultaneously. Markets have fully abandoned rate-cut expectations and now price modest hikes by year-end. Weak Treasury auctions (2Y, 5Y, 7Y) showed reduced real-money participation, but front-end yields still moved higher as inflation expectations surged. The week ahead is dominated by the March Jobs Report on Good Friday — a strong print would cement the bullish case, while a miss could trigger a sharp reversal.",
+      "drivers": [
+        "Stagflation framework: oil above $100/bbl feeds inflation, forces Fed hike repricing",
+        "Markets price modest Fed hikes by year-end; rate-cut expectations fully removed",
+        "Weak Treasury auctions (2Y, 5Y, 7Y) but front-end yields still higher on inflation fears",
+        "USD/JPY above 160 — Dollar's reserve, haven, and liquidity premium all active",
+        "NFP (Fri Good Friday) is the key catalyst — strong print cements bullish case"
+      ],
+      "events": [
+        { "day": "MON", "event": "Powell Speech", "impact": "High" },
+        { "day": "TUE", "event": "JOLTS Job Openings", "impact": "High" },
+        { "day": "WED", "event": "ADP Employment Change", "impact": "High" },
+        { "day": "WED", "event": "Retail Sales", "impact": "High" },
+        { "day": "WED", "event": "ISM Manufacturing PMI", "impact": "High" },
+        { "day": "THU", "event": "Unemployment Claims", "impact": "High" },
+        { "day": "FRI", "event": "NFP + Unemployment Rate", "impact": "Critical" },
+        { "day": "FRI", "event": "ISM Services PMI", "impact": "High" }
+      ]
+    },
+    {
+      "code": "EUR",
+      "name": "Euro",
+      "bias": "Weak Bullish",
+      "rationale": "EUR held up better than expected last week, finishing near the top of the board on a pure rates repricing story — UBS moved to forecast two ECB hikes (June and September), and markets priced ~85bps of tightening by year-end. Spain's CPI prelim (3.3% YoY vs 2.4% exp) confirmed the energy shock is feeding into Eurozone inflation. The structural problem remains: the Eurozone is an energy importer facing stagflation, with Germany seeing 2026 GDP revised down to 0.5% and considering a VAT increase. The Eurozone CPI Flash on Tuesday is the key event — a beat would reinforce the ECB hike story.",
+      "drivers": [
+        "ECB hawkish repricing: UBS forecasts two 25bp hikes (June + September 2026)",
+        "Markets price ~85bps of ECB tightening by year-end; rate-cut expectations removed",
+        "Spanish CPI prelim 3.3% YoY (vs 2.4% exp) — energy shock feeding into EZ inflation",
+        "Germany 2026 GDP revised to 0.5%; VAT increase to 21% under consideration",
+        "Eurozone CPI Flash (Tue) is the key catalyst — beat reinforces ECB hike story"
+      ],
+      "events": [
+        { "day": "MON", "event": "German CPI Prelim", "impact": "High" },
+        { "day": "TUE", "event": "German Retail Sales", "impact": "High" },
+        { "day": "TUE", "event": "Eurozone CPI Flash", "impact": "Critical" },
+        { "day": "TUE", "event": "Eurozone Core CPI Flash", "impact": "High" },
+        { "day": "WED", "event": "Final Manufacturing PMI", "impact": "High" },
+        { "day": "WED", "event": "Unemployment Rate", "impact": "High" },
+        { "day": "THU", "event": "ECB Economic Bulletin", "impact": "High" }
+      ]
+    },
+    {
+      "code": "GBP",
+      "name": "British Pound",
+      "bias": "Neutral",
+      "rationale": "GBP had a front-loaded week — it briefly tested the 200-day MA near 1.3434 on ceasefire optimism, then gave back gains as oil surged and the stagflation narrative took hold. Money markets repriced aggressively to ~81bps of BOE tightening by year-end, and the 10-year Gilt yield broke above 5.00% (peaked at 5.101%). The problem: higher yields are being driven by imported inflation, not domestic strength — and the market started to read that as policy stress rather than policy credibility. Near-term neutral with a mild bullish skew from BOE repricing. Final GDP Q4 on Tuesday is the key event.",
+      "drivers": [
+        "BOE repriced to ~81bps of tightening by year-end; Gilt 10Y above 5.00%",
+        "Stagflation setup: higher yields from imported inflation, not domestic strength",
+        "BOE Mann: 'rate hike could be considered'; Greene: 'more worried about upside inflation'",
+        "Breeden cautious: 'workers have less bargaining power than 2022' — limits second-round effects",
+        "UK Final GDP Q4 (Tue) and Final Manufacturing PMI (Wed) are the key events"
+      ],
+      "events": [
+        { "day": "TUE", "event": "Final GDP q/q", "impact": "High" },
+        { "day": "WED", "event": "Final Manufacturing PMI", "impact": "High" }
+      ]
+    },
+    {
+      "code": "JPY",
+      "name": "Japanese Yen",
+      "bias": "Neutral",
+      "rationale": "JPY faces the sharpest contradiction in G10: domestic fundamentals are improving (Shunto wage growth above 5%, BOJ introducing new core CPI indicators showing inflation above target, ~50bps of tightening priced), yet USD/JPY broke above 160 for the first time since mid-2024. The yield differential against the US remains the dominant force, overwhelming the haven bid and the BOJ normalization story. Verbal intervention from Finance Minister Katayama has been ignored. Near-term neutral — the Yen can outperform when carry unwinds, but cannot sustain gains while US yields keep rising. Tokyo Core CPI (Mon) and Tankan (Tue) are the key events.",
+      "drivers": [
+        "Shunto wage growth above 5% — BOJ normalization story intact; ~50bps of hikes priced",
+        "USD/JPY above 160 for first time since mid-2024 — yield differential dominates",
+        "Finance Minister Katayama verbal intervention ignored; coordinated action needed",
+        "Japan imports 90%+ of crude from Middle East — energy shock worsens trade balance",
+        "Tokyo Core CPI (Mon) and Tankan Large Manufacturing (Tue) are the key events"
+      ],
+      "events": [
+        { "day": "MON", "event": "Tokyo Core CPI y/y", "impact": "High" },
+        { "day": "MON", "event": "Unemployment Rate", "impact": "High" },
+        { "day": "MON", "event": "Retail Sales m/m", "impact": "High" },
+        { "day": "TUE", "event": "Tankan Large Manufacturing Index", "impact": "High" },
+        { "day": "WED", "event": "Final Manufacturing PMI", "impact": "High" }
+      ]
+    },
+    {
+      "code": "AUD",
+      "name": "Australian Dollar",
+      "bias": "Weak Bearish",
+      "rationale": "AUD was the worst performer last week — hit by risk-off flows, a CPI miss (3.7% vs 3.8% exp), weaker PMIs, and a fresh China trade shock (55% tariff on Australian beef). Despite the EU-Australia trade deal finalization (projected +33% export boost) and UBS upgrading the RBA to two more hikes to 4.60%, the immediate environment is too hostile. Copper's late-week stabilization and the RBA's hawkish repricing (~75bps of tightening priced) provide a floor, but not enough to reverse the trend. RBA Meeting Minutes on Tuesday are the key event — any softening of the hawkish tone would add further pressure.",
+      "drivers": [
+        "CPI miss: 3.7% y/y (vs 3.8% exp); Trimmed Mean 0.2% MoM (vs 0.3% exp)",
+        "China 55% tariff on Australian beef — trade vulnerability reminder",
+        "Risk-off environment weighs on high-beta AUD; metals volatile",
+        "UBS: RBA to hike twice more to 4.60% — medium-term positive, not current driver",
+        "RBA Meeting Minutes (Tue) — key event; hawkish tone needed to support AUD"
+      ],
+      "events": [
+        { "day": "TUE", "event": "RBA Meeting Minutes", "impact": "High" },
+        { "day": "THU", "event": "Trade Balance", "impact": "High" }
+      ]
+    },
+    {
+      "code": "CAD",
+      "name": "Canadian Dollar",
+      "bias": "Neutral",
+      "rationale": "CAD had a counterintuitive week — it underperformed despite oil surging above $100/bbl, because the market had already priced the energy support and then shifted focus to the BoC's structural warning: slower population growth, changing trade patterns, and AI disruption will weaken Canada's long-run potential. Markets repriced to ~76bps of BoC tightening by year-end. The oil channel still provides a floor, but the petro-proxy logic is being diluted by growth concerns and broad USD strength. GDP on Tuesday is the key event — a soft print would reopen the easier BoC path and weigh on CAD.",
+      "drivers": [
+        "Oil above $100/bbl (Brent) provides petro-proxy support but already priced",
+        "BoC structural warning: slower population growth, AI disruption weaken long-run potential",
+        "Markets price ~76bps of BoC tightening by year-end; rate-cut expectations removed",
+        "Broad USD strength and risk-off tone dilute the clean petro-proxy story",
+        "GDP (Tue) is the key event — soft print reopens easier BoC path"
+      ],
+      "events": [
+        { "day": "TUE", "event": "GDP m/m", "impact": "High" },
+        { "day": "WED", "event": "Manufacturing PMI", "impact": "High" }
+      ]
+    },
+    {
+      "code": "CHF",
+      "name": "Swiss Franc",
+      "bias": "Bearish",
+      "rationale": "CHF underperformed last week despite a backdrop that should have been supportive — the market clearly preferred USD as the haven of choice, given its yield advantage. SNB sight deposits rose modestly, keeping intervention speculation alive. The SNB has ruled out returning to negative rates as the primary tool, preferring FX intervention instead — which means the Franc's appreciation is actively capped. Markets repriced to ~44bps of SNB tightening by year-end (global inflation spillover), but that is not enough to offset the intervention risk and USD yield advantage. Swiss CPI on Thursday is the key event.",
+      "drivers": [
+        "USD preferred as haven over CHF due to yield advantage — CHF underperformed in risk-off",
+        "SNB sight deposits rose modestly — quiet intervention speculation active",
+        "SNB rules out negative rates as primary tool; FX intervention preferred to cap appreciation",
+        "Markets price ~44bps of SNB tightening — global inflation spillover, not domestic pressure",
+        "Swiss CPI (Thu) is the key event; Retail Sales and Final Manufacturing PMI (Wed)"
+      ],
+      "events": [
+        { "day": "WED", "event": "Retail Sales y/y", "impact": "High" },
+        { "day": "WED", "event": "Final Manufacturing PMI", "impact": "High" },
+        { "day": "THU", "event": "CPI m/m", "impact": "High" }
+      ]
+    },
+    {
+      "code": "NZD",
+      "name": "New Zealand Dollar",
+      "bias": "Weak Bearish",
+      "rationale": "NZD remained under steady pressure last week as a high-beta risk proxy with no domestic hawkish catalyst. The RBNZ explicitly warned that the energy shock will raise inflation while weighing on domestic growth — a stagflation signal that left the Kiwi with no policy support story. Markets repriced to ~75bps of RBNZ tightening by year-end, but this is a response to imported inflation pressure rather than domestic strength, and the market is not rewarding it. No major NZD events this week — the currency will trade as a pure risk sentiment proxy, closely tracking AUD and global risk appetite.",
+      "drivers": [
+        "RBNZ warned: energy shock raises inflation while weighing on domestic growth",
+        "Markets price ~75bps of RBNZ tightening — imported inflation, not domestic strength",
+        "High-beta risk proxy; no domestic hawkish catalyst to offset risk-off environment",
+        "NZ consumer confidence collapsed to 91.3 (from 100.1) — pessimistic territory",
+        "No major NZD events this week — pure risk sentiment proxy, tracks AUD"
+      ],
+      "events": []
+    }
+  ],
+  "swingWatchlist": {
+    "long": [
+      { "pair": "EUR/AUD", "rationale": "Weak Bullish EUR (ECB hike repricing, CPI Flash Tue) vs Weak Bearish AUD (CPI miss, China tariffs, risk-off)" },
+      { "pair": "EUR/CHF", "rationale": "Weak Bullish EUR (ECB two hikes priced, Spanish CPI hot) vs Bearish CHF (SNB intervention cap, USD preferred haven)" },
+      { "pair": "EUR/NZD", "rationale": "Weak Bullish EUR (ECB hawkish repricing, rates dominant) vs Weak Bearish NZD (RBNZ stagflation warning, high-beta, no catalyst)" },
+      { "pair": "AUD/NZD", "rationale": "AUD relatively stronger (RBA hike story, copper floor) vs Weak Bearish NZD (no domestic catalyst, RBNZ stagflation warning)" }
+    ],
+    "short": [
+      { "pair": "AUD/USD", "rationale": "Strong Bullish USD (stagflation + haven + NFP week) vs Weak Bearish AUD (CPI miss, China tariffs, risk-off)" },
+      { "pair": "NZD/USD", "rationale": "Strong Bullish USD (stagflation framework, Fed hike repricing) vs Weak Bearish NZD (high-beta, RBNZ stagflation warning, no catalyst)" }
+    ]
+  }
+}
