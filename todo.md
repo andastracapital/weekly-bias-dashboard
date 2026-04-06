@@ -294,3 +294,10 @@
 - [x] Wrote new weeklyBias.json with biases, rationales, drivers, events, swingWatchlist
 - [x] Updated dailyRecap.json redFolderNews with full week (Mar 30 - Apr 5) events
 - [x] Verified dashboard displays correctly
+
+## History Tab: Currency Pair Filter Dropdown (Apr 6, 2026)
+- [ ] Add currency pair dropdown filter to History tab
+- [ ] Filter by: Weekly Bias (Swing Watchlist), Weekly+Daily Aligned (Swing Setups), Intraday Trades
+- [ ] Show only rows where selected pair appears in the selected column
+- [ ] "All Pairs" option to reset filter
+- [ ] Save checkpoint and push to GitHub
