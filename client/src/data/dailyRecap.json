@@ -1,139 +1,139 @@
 {
-  "date": "Wednesday, April 1, 2026",
+  "date": "Tuesday, April 7, 2026",
   "lastUpdate": "08:00 FFT",
-  "riskEnvironment": "Risk-On Recovery",
+  "riskEnvironment": "Risk-Off",
   "marketFocus": [
-    "Iran end-war pivot: Trump told NBC 'it is coming to an end' and suggested the US will leave Iran in 2-3 weeks. Iranian President Pezeshkian said Iran 'seeks no war but is prepared to end it with guarantees.' Cross-asset reaction: SPX +2.92%, NDX +3.43%, DXY weakened, oil sold off sharply, T-notes rallied. Trump to deliver nationwide address on Iran tonight at 02:00 FFT (Thu). Strikes continue overnight — US bases in Bahrain, Kuwait, Baghdad, Erbil hit; tanker struck near Doha.",
-    "Eurozone CPI Flash MISSED: 2.5% YoY (vs 2.8% exp, prev 1.9%). Core CPI Flash: 2.3% YoY (vs 2.4% exp). Energy shock not yet filtering through into broader prices — ECB 'wait and see' approach reinforced. ECB Muller: 'hike probable in coming quarters.' ECB Rehn: 'hike not guaranteed.' EUR/USD holding 1.1500 but CPI miss caps near-term upside.",
-    "Japanese Tankan Large Manufacturing BEAT: 17 (vs 16 exp) — highest in 5+ years. Tankan Non-Manufacturing BEAT: 36 (vs 33 exp). BoJ April hike case strengthening. USD/JPY slid below 159.00. Key events today: USD ADP 14:15 FFT, USD Retail Sales 14:30 FFT, USD ISM Manufacturing 16:00 FFT. BoC Summary of Deliberations 19:30 FFT."
+    "Trump's Iran deadline at 02:00 FFT (Wed) is the dominant theme. WTI above $116/bbl, Brent above $109/bbl. Trump threatened to destroy all Iranian bridges and power plants within 4 hours if no deal. Iran rejected US 45-day ceasefire proposal with a 10-point counter. Two Israeli sources say 'very low chance of agreement.' Strikes continue: Saudi Jubail industrial hub hit (largest petrochemical complex in Middle East), Bahrain, Kuwait, Baghdad, UAE data centers targeted.",
+    "NFP Friday Apr 3 MASSIVE BEAT: +178K (vs +60K exp). Unemployment Rate: 4.3% (vs 4.4% exp). ISM Services PMI Monday: 54.0 (miss on headline) but Prices Paid surged to 70.7 (from 63.0) — stagflation confirmed. Employment component dropped to 45.2. Fed Hammack: 'Inflation is bright orange.' Goolsbee: 'Going from orange to red amid tariffs and energy price shocks.' USD stagflation framework fully intact.",
+    "Japan Household Spending: -2.1% YoY (vs -0.5% exp) — MISS. 30yr JGB auction b/c fell to 3.12x (prev 3.66x) — weak demand. USD/JPY hit 159.83 on Monday. JPY pressured by higher oil prices and rising UST yields. Canada Services PMI: 47.2 — 5th consecutive month of contraction. Key events today: USD Core Durable Goods 13:30 FFT, CAD Ivey PMI 15:00 FFT. Trump Iran deadline 02:00 FFT Wed."
   ],
   "currencies": {
     "USD": {
-      "bias": "Bearish",
-      "tone": "DXY Weakened on Iran End-War Hopes — ADP Missed, Risk-On Reduces Haven Demand",
-      "summary": "USD is Bearish today. DXY weakened as risk appetite surged on Iran end-war optimism — Trump told NBC the war 'is coming to an end' and suggested US will leave Iran in 2-3 weeks. Haven demand for USD evaporated as equities surged (SPX +2.92%) and oil sold off. ADP Non-Farm Employment Change missed badly: 41K (vs 63K exp) — a clear labour market softening signal. Retail Sales beat (0.5% vs 0.3% exp) and ISM Manufacturing came in near expectations (52.3 vs 52.4 exp) — partial offsets but insufficient to reverse the bearish USD tone. Trump's nationwide address tonight at 02:00 FFT is the key risk event. Fed's Schmid said 'inflation is the more salient risk' and there is a 'real risk inflation gets stuck near 3%' — hawkish but overwhelmed by geopolitical risk-on. Weekly Strong Bullish + Daily Bearish = NO alignment (mismatch).",
+      "bias": "Bullish",
+      "tone": "NFP +178K Massive Beat + ISM Prices Paid 70.7 — Stagflation Framework Confirmed, DXY Firmer",
+      "summary": "USD is Bullish today. Friday's NFP was a massive beat: +178K (vs +60K exp), unemployment fell to 4.3%. ISM Services Prices Paid surged to 70.7 (from 63.0) — the highest since the post-COVID inflation peak. Stagflation framework is fully confirmed: strong labour market + surging input costs + oil above $116/bbl. Fed Hammack said 'inflation is bright orange' and Goolsbee said it is 'going from orange to red.' DXY firmed marginally on Monday. Risk-off ahead of Trump's 02:00 FFT deadline supports USD haven demand. Core Durable Goods Orders at 13:30 FFT today is the key data catalyst. Weekly Strong Bullish + Daily Bullish = HIGH CONVICTION ✅.",
       "drivers": [
-        "DXY weakened on Iran end-war optimism — risk-on surge reduces haven demand for USD",
-        "ADP Non-Farm Employment Change MISSED: 41K (vs 63K exp) — labour market softening",
-        "Retail Sales BEAT: 0.5% MoM (vs 0.3% exp); Core Retail Sales in line at 0.3%",
-        "ISM Manufacturing PMI: 52.3 (vs 52.4 exp) — near expectations, still expansionary",
-        "Fed Schmid: 'inflation is the more salient risk; real risk inflation gets stuck near 3%'"
+        "NFP MASSIVE BEAT: +178K (vs +60K exp); Unemployment Rate fell to 4.3% — labour market strong",
+        "ISM Services Prices Paid surged to 70.7 (from 63.0) — stagflation signal confirmed",
+        "Fed Hammack: 'Inflation is bright orange'; Goolsbee: 'going from orange to red'",
+        "DXY firmer on risk-off ahead of Trump's 02:00 FFT Iran deadline",
+        "Core Durable Goods Orders at 13:30 FFT today — key USD catalyst"
       ]
     },
     "EUR": {
       "bias": "Neutral",
-      "tone": "Eurozone CPI Flash MISSED 2.5% YoY — ECB Wait-and-See Reinforced, EUR/USD at 1.1500",
-      "summary": "EUR is Neutral today. The Eurozone CPI Flash missed expectations: 2.5% YoY (vs 2.8% exp, prev 1.9%). Core CPI Flash also missed: 2.3% YoY (vs 2.4% exp). The data indicates the Iran energy shock has not yet filtered through into broader price pressures — the ECB's 'wait and see' approach is reinforced. EUR/USD is holding the 1.1500 handle supported by a weaker dollar, but the CPI miss caps near-term upside for EUR. ECB Muller said a hike is 'probable in coming quarters' and ECB Rehn said it is 'not guaranteed.' ECB Radev warned of 'durable imprint' from past inflation shocks. German institutes cut 2026 growth forecasts to 0.6% (from 1.2%) citing the Iran war. Weekly Weak Bullish + Daily Neutral = NO alignment.",
+      "tone": "ECB Hawkish Repricing Intact but CPI Miss Caps Upside — EUR/USD Holding 1.3200 Area",
+      "summary": "EUR is Neutral today. EUR/USD is holding the 1.3200 area but lacks directional momentum. The Eurozone CPI Flash last week missed expectations (2.5% vs 2.8% exp) — the energy shock has not yet filtered through into broader prices, reinforcing the ECB's 'wait and see' approach. ECB Radev said the ECB 'must be ready to act if inflation persists' but added it is 'too early to say if April rate hike is needed.' Bund supply this week (EUR 6.5bln Tue-Wed) weighs on EUR. European markets were closed for Easter Monday — light newsflow. Eurozone Services PMI Final today. Weekly Neutral + Daily Neutral = NO alignment.",
       "drivers": [
-        "Eurozone CPI Flash MISSED: 2.5% YoY (vs 2.8% exp) — energy shock not yet filtering through",
-        "Eurozone Core CPI Flash MISSED: 2.3% YoY (vs 2.4% exp) — ECB wait-and-see reinforced",
-        "ECB Muller: 'hike probable in coming quarters'; ECB Rehn: 'hike not guaranteed'",
-        "EUR/USD holding 1.1500 on weaker dollar — CPI miss caps near-term EUR upside",
-        "German institutes cut 2026 growth to 0.6% (prev 1.2%) — Iran war and energy costs cited"
+        "EUR/USD holding 1.3200 area — light newsflow after Easter Monday closures",
+        "ECB Radev: 'must be ready to act if inflation persists; too early to say if April hike needed'",
+        "Eurozone CPI Flash missed last week (2.5% vs 2.8% exp) — ECB wait-and-see reinforced",
+        "Bund supply EUR 6.5bln Tue-Wed — weighs on EUR via fixed income pressure",
+        "Eurozone Services PMI Final today — watch for any upside surprise"
       ]
     },
     "GBP": {
-      "bias": "Bullish",
-      "tone": "UK GDP Confirmed + Current Account Beat + National Living Wage Rise — GBP Resilient",
-      "summary": "GBP is Bullish today. UK Final GDP Q4 confirmed at 0.1% QoQ (no downward revision) and 1.0% YoY — in line with expectations, providing stability. UK Current Account beat significantly: -18.4B (vs -23.3B exp) — a positive structural signal for GBP. The UK national living wage rose to £12.71 today and energy bills are cut by an average of £117/year — cost-of-living relief measures support domestic consumption. GBP/USD is rebounding from the 1.3200 level. BOE repricing (~81bps tightening priced) remains intact. The DXY weakness on Iran end-war optimism is providing additional tailwind for GBP. Weekly Neutral + Daily Bullish = NO High Conviction alignment, but GBP is the cleanest bullish story in the G10 today.",
+      "bias": "Neutral",
+      "tone": "GBP/USD Retaining 1.3200 Handle — UK Newsflow Light, BOE Repricing Intact",
+      "summary": "GBP is Neutral today. GBP/USD is retaining the 1.3200 handle with very few catalysts for the UK. UK markets were closed for Easter Monday — light newsflow. BOE hawkish repricing (~81bps tightening priced) remains intact but no fresh catalyst to drive GBP directionally. UK Services PMI Final today is the key domestic event. The London City financial figures warned that Brussels banking rules could impact lenders in the context of the UK-EU reset — a mild headwind. Weekly Neutral + Daily Neutral = NO alignment.",
       "drivers": [
-        "UK Final GDP Q4 confirmed at 0.1% QoQ — no downward revision; stability signal",
-        "UK Current Account BEAT: -18.4B (vs -23.3B exp) — positive structural GBP signal",
-        "UK national living wage rises to £12.71 today; energy bills cut £117/yr — cost-of-living relief",
-        "GBP/USD rebounding from 1.3200 — DXY weakness on Iran end-war optimism provides tailwind",
-        "BOE repricing (~81bps tightening priced) intact; no fresh catalyst needed to hold bullish bias"
+        "GBP/USD retaining 1.3200 handle — UK markets closed Easter Monday, light newsflow",
+        "BOE hawkish repricing (~81bps tightening priced) intact — no fresh catalyst needed",
+        "UK Services PMI Final today — key domestic event for GBP direction",
+        "London City warned Brussels banking rules could impact lenders in UK-EU reset context",
+        "No fresh GBP catalyst — pure risk sentiment and USD dynamics driving GBP/USD"
       ]
     },
     "JPY": {
-      "bias": "Bullish",
-      "tone": "Tankan Large Manufacturing BEAT 17 — BoJ April Hike Case Strengthening, USD/JPY Below 159",
-      "summary": "JPY is Bullish today. The BoJ Tankan Large Manufacturing Index beat expectations: 17 (vs 16 exp) — the highest reading in more than five years. The Tankan Non-Manufacturing Index also beat: 36 (vs 33 exp). This data strongly supports the case for a BoJ rate hike at the April meeting. USD/JPY slid below the 159.00 level as the dollar weakened on Iran end-war optimism and the Tankan data reinforced BoJ hawkishness. Japan spent JPY 0 on FX interventions between February 26 and March 27 — confirming no intervention pressure. ING: 'Tokyo CPI miss will not deter BoJ April hike; surging oil, weak JPY, and rising Shunto wages all favour near-term hike.' BoJ also reduced its planned JGB purchases for Q2 — a further tightening signal. Weekly Neutral + Daily Bullish = NO High Conviction alignment, but JPY is fundamentally supported.",
+      "bias": "Bearish",
+      "tone": "USD/JPY Hit 159.83 — JPY Pressured by Higher Oil, Rising UST Yields, Weak Household Spending",
+      "summary": "JPY is Bearish today. USD/JPY hit 159.83 on Monday — JPY is under pressure from multiple headwinds. Japan Household Spending missed badly: -2.1% YoY (vs -0.5% exp). The 30yr JGB auction showed weak demand (b/c fell to 3.12x from 3.66x, average yield 3.697% from 3.398%). Higher oil prices are a structural negative for Japan as a net energy importer. Rising UST yields (10yr at 4.333%) widen the US-Japan yield differential and pressure JPY. Japanese PM Takaichi is 'strongly urging Iran to allow Hormuz safe passage' — Japan's energy vulnerability is acute. BOJ verbal intervention at 160 is expected but not acting. Weekly Weak Bullish + Daily Bearish = NO alignment (mismatch).",
       "drivers": [
-        "Tankan Large Manufacturing BEAT: 17 (vs 16 exp) — highest in 5+ years; BoJ April hike supported",
-        "Tankan Non-Manufacturing BEAT: 36 (vs 33 exp) — services sector strength intact",
-        "USD/JPY slid below 159.00 — dollar weakness on Iran end-war optimism amplifies JPY gains",
-        "BoJ reduced Q2 JGB purchase plan — further tightening signal; JPY 0 spent on interventions",
-        "ING: 'surging oil, weak JPY, and rising Shunto wages all favour near-term BoJ hike'"
+        "USD/JPY hit 159.83 Monday — JPY pressured by oil and rising UST yields",
+        "Japan Household Spending MISSED: -2.1% YoY (vs -0.5% exp) — domestic demand weak",
+        "30yr JGB auction: b/c fell to 3.12x (prev 3.66x) — weak demand, yields rising",
+        "Higher oil prices structural negative for Japan — net energy importer, Hormuz closure acute",
+        "BOJ verbal intervention expected at 160 but not acting — JPY vulnerable to further downside"
       ]
     },
     "AUD": {
-      "bias": "Neutral",
-      "tone": "ASX 200 Rallied but China RatingDog PMI Missed — AUD Mixed Between Risk-On and Weak Data",
-      "summary": "AUD is Neutral today. The ASX 200 rallied strongly on Iran end-war optimism, led by mining, materials, and tech — a positive signal for AUD via the equity channel. However, the Chinese RatingDog Manufacturing PMI missed: 50.8 (vs 51.6 exp, prev 52.1) — a disappointment for AUD's key trade partner. Australian Manufacturing PMI Final came in at 49.8 (below 50 = contraction). Antipodeans were mixed and rangebound, unable to fully benefit from the risk-on environment. The RBA Minutes from Tuesday showed a divided board — 'oil at $100 would lift CPI to ~5% in June quarter.' AUD/USD is rangebound. Weekly Weak Bearish + Daily Neutral = NO alignment.",
+      "bias": "Bearish",
+      "tone": "Antipodeans Pulled Back After Easter Monday — Cautious Ahead of Trump Deadline, No Catalyst",
+      "summary": "AUD is Bearish today. Antipodeans pulled back after Easter Monday's mild cyclical outperformance. AUD/USD topped at 0.6938 on Monday but faded as markets turned cautious ahead of Trump's 02:00 FFT deadline. China PBoC set USD/CNY mid-point weaker than expected (6.8854 vs 6.8773 exp) — a mild negative for AUD via the China channel. Xi Jinping called for a 'new energy system' as the Iran war rocks the global economy — China is accelerating energy independence planning. No domestic AUD catalyst today. Weekly Bearish + Daily Bearish = HIGH CONVICTION ✅.",
       "drivers": [
-        "ASX 200 rallied on Iran end-war optimism — mining, materials, tech led gains",
-        "Chinese RatingDog Manufacturing PMI MISSED: 50.8 (vs 51.6 exp) — key trade partner miss",
-        "Australian Manufacturing PMI Final: 49.8 (below 50 = contraction) — domestic weakness",
-        "Antipodeans rangebound; AUD/USD unable to fully benefit from risk-on environment",
-        "RBA Minutes: 'oil at $100 would lift CPI to ~5% in June quarter' — stagflation risk intact"
+        "AUD/USD topped at 0.6938 Monday but faded — cautious ahead of Trump Iran deadline",
+        "PBoC set USD/CNY weaker than expected (6.8854 vs 6.8773 exp) — mild negative for AUD",
+        "Xi calls for 'new energy system' — China accelerating energy independence, commodity demand risk",
+        "No domestic AUD catalyst today — pure risk sentiment and China proxy",
+        "Weekly Bearish + Daily Bearish = HIGH CONVICTION alignment ✅"
       ]
     },
     "CAD": {
       "bias": "Bearish",
-      "tone": "Oil Sold Off Sharply on Iran End-War Hopes — CAD Loses Primary Driver, BoC Minutes Tonight",
-      "summary": "CAD is Bearish today. Oil sold off sharply as Iran end-war optimism dominated: WTI fell from the $106 range toward $100, Brent retreated from $112. CAD is a pure petro-proxy and loses its primary bullish driver when oil sells off. The directional momentum for oil is now bearish — if Trump's nationwide address tonight confirms a ceasefire framework, oil could fall further and drag CAD lower. BoC Summary of Deliberations at 19:30 FFT is the key domestic event — any dovish signals would compound CAD weakness. US Private Inventory Data showed a crude build of +10.3mln bbls (vs -1.3mln exp) — a bearish oil signal. Weekly Neutral + Daily Bearish = NO High Conviction alignment, but CAD is the clearest bearish story today.",
+      "tone": "Canada Services PMI 47.2 — 5th Consecutive Month of Contraction, Ivey PMI at 15:00 FFT",
+      "summary": "CAD is Bearish today. Canada Services PMI came in at 47.2 (from 46.5 prev) — the 5th consecutive month of contraction. Input costs rose sharply (highest in 9 months) driven by fuel and transportation. Employment declined again. Despite oil above $116/bbl, CAD is not benefiting as the structural weakness in the domestic services sector dominates. Ivey PMI at 15:00 FFT today is the key domestic catalyst — a miss would compound CAD weakness. Canada's energy sector is being disrupted by the Iran war (Hormuz closure affects global shipping costs). Weekly Weak Bullish + Daily Bearish = NO alignment (mismatch).",
       "drivers": [
-        "Oil sold off sharply on Iran end-war optimism — WTI retreated from $106 toward $100",
-        "US Private Inventory Data: Crude +10.3mln bbls (vs -1.3mln exp) — bearish oil signal",
-        "BoC Summary of Deliberations at 19:30 FFT — dovish signals would compound CAD weakness",
-        "CAD is a pure petro-proxy — loses primary bullish driver when oil directional momentum turns",
-        "Trump nationwide address tonight at 02:00 FFT — ceasefire framework would push oil lower"
+        "Canada Services PMI: 47.2 — 5th consecutive month of contraction; demand still falling",
+        "Input costs rose sharply (9-month high) — fuel, transport, labour costs surging",
+        "Employment declined again — labour market softening in services sector",
+        "Ivey PMI at 15:00 FFT today — miss would compound CAD bearish pressure",
+        "Structural domestic weakness offsetting oil price support from Hormuz closure"
       ]
     },
     "CHF": {
       "bias": "Bearish",
-      "tone": "Risk-On Reduces Haven Demand — SNB Cap Intact, ECB CPI Miss Reduces EUR/CHF Pressure",
-      "summary": "CHF is Bearish today. Risk-on sentiment from Iran end-war optimism reduces haven demand for CHF. USD/CHF is stabilizing as the dollar weakens but CHF does not benefit from the risk-on environment. The Eurozone CPI Flash miss (2.5% vs 2.8% exp) reduces the pressure for EUR/CHF to move higher — EUR/CHF is rangebound near 0.9100. SNB intervention cap remains intact. ECB Radev warned of 'durable imprint' from past inflation shocks — a hawkish signal that limits CHF appreciation vs EUR. No Swiss data today. Weekly Bearish + Daily Bearish = HIGH CONVICTION alignment ✅ — but no bullish aligned counterpart to pair against CHF.",
+      "tone": "Haven Flows Prefer USD — SNB Cap Intact, CHF Firmed Slightly vs USD but Structural Bearish",
+      "summary": "CHF is Bearish today. Haven flows are preferring USD over CHF in the current risk-off environment. CHF firmed slightly against USD on Monday as the dollar lagged peers, but the structural bearish case remains intact. SNB intervention cap limits CHF appreciation. No Swiss data today. USD/CHF is stabilizing. The ECB CPI miss last week reduces EUR/CHF upside pressure — EUR/CHF rangebound near 0.9100. Weekly Weak Bearish + Daily Bearish = HIGH CONVICTION ✅.",
       "drivers": [
-        "Risk-on from Iran end-war optimism reduces haven demand for CHF",
+        "Haven flows preferring USD over CHF in risk-off environment — USD/CHF stabilizing",
         "SNB intervention cap intact — limits CHF appreciation against EUR and USD",
-        "Eurozone CPI Flash miss reduces EUR/CHF upside pressure — pair rangebound near 0.9100",
-        "ECB Radev: 'past inflation shocks leave durable imprint' — hawkish signal limits CHF vs EUR",
-        "No Swiss data today — CHF trading purely on global risk sentiment dynamics"
+        "CHF firmed slightly vs USD Monday but structural bearish case remains intact",
+        "ECB CPI miss reduces EUR/CHF upside pressure — pair rangebound near 0.9100",
+        "Weekly Weak Bearish + Daily Bearish = HIGH CONVICTION alignment ✅"
       ]
     },
     "NZD": {
-      "bias": "Neutral",
-      "tone": "Antipodeans Mixed — China PMI Miss Weighs, Risk-On Supports, No Domestic Catalyst",
-      "summary": "NZD is Neutral today. Antipodeans were mixed and rangebound. The risk-on environment from Iran end-war optimism provides some support for NZD as a high-beta currency. However, the Chinese RatingDog Manufacturing PMI missed (50.8 vs 51.6 exp) — a negative for NZD via the China trade channel. NZD/USD is rangebound. No domestic NZD catalyst today. RBNZ stagflation warning remains intact. The competing forces of risk-on (positive) and weak China data (negative) leave NZD in a neutral holding pattern. Weekly Weak Bearish + Daily Neutral = NO alignment.",
+      "bias": "Bearish",
+      "tone": "RBNZ Decision at 03:00 FFT Wed — NZD/USD Faded After Easter Monday Bounce, High-Beta Risk-Off",
+      "summary": "NZD is Bearish today. NZD/USD hit 0.5730 on Easter Monday but faded as markets turned cautious ahead of Trump's deadline. The RBNZ rate decision is at 03:00 FFT Wednesday — a hold at 2.25% is expected but any dovish guidance would pressure NZD further. NZD is a high-beta risk proxy and suffers in risk-off environments. No domestic NZD catalyst today beyond the RBNZ overnight warning. RBNZ stagflation warning (energy shock + weak growth) remains intact. Weekly Bearish + Daily Bearish = HIGH CONVICTION ✅.",
       "drivers": [
-        "Risk-on from Iran end-war optimism provides support for NZD as high-beta currency",
-        "Chinese RatingDog Manufacturing PMI MISSED: 50.8 (vs 51.6 exp) — negative for NZD",
-        "Antipodeans rangebound; NZD/USD unable to find clear direction",
+        "NZD/USD hit 0.5730 Easter Monday but faded — cautious ahead of Trump Iran deadline",
+        "RBNZ Rate Decision at 03:00 FFT Wed — hold at 2.25% expected; dovish guidance = NZD risk",
+        "High-beta risk proxy — NZD underperforms in risk-off environments",
         "RBNZ stagflation warning intact — energy shock raises inflation while weighing on growth",
-        "No domestic NZD catalyst today — pure risk sentiment and China data proxy"
+        "Weekly Bearish + Daily Bearish = HIGH CONVICTION alignment ✅"
       ]
     }
   },
-  "highConvictionSetups": [],
-  "noSetupsReason": "No High Conviction Setups today. Only CHF has Weekly-Daily alignment (both Bearish), but there are no Bullish aligned currencies to pair against it. USD Weekly Bullish conflicts with Daily Bearish. EUR Weekly Bullish but Daily Neutral. GBP and JPY are Daily Bullish but Weekly Neutral. No directional alignment exists for a valid swing setup.",
+  "highConvictionSetups": [
+    { "pair": "AUD/USD", "direction": "SHORT" },
+    { "pair": "NZD/USD", "direction": "SHORT" },
+    { "pair": "USD/CHF", "direction": "LONG" }
+  ],
+  "noSetupsReason": null,
   "intradayTrades": [
-    { "pair": "GBP/USD", "direction": "LONG" },
-    { "pair": "GBP/CAD", "direction": "LONG" },
-    { "pair": "GBP/CHF", "direction": "LONG" },
-    { "pair": "USD/JPY", "direction": "SHORT" },
-    { "pair": "CAD/JPY", "direction": "SHORT" },
-    { "pair": "CHF/JPY", "direction": "SHORT" }
+    { "pair": "USD/JPY", "direction": "LONG" },
+    { "pair": "USD/CAD", "direction": "LONG" }
   ],
   "historyEntry": {
-    "date": "2026-04-01",
-    "weekRange": "Mar 30 - Apr 5, 2026",
+    "date": "2026-04-07",
+    "weekRange": "Apr 6 - Apr 12, 2026",
     "swingWatchlist": [
-      { "pair": "EUR/AUD", "direction": "LONG" },
-      { "pair": "EUR/CHF", "direction": "LONG" },
-      { "pair": "EUR/NZD", "direction": "LONG" },
-      { "pair": "AUD/NZD", "direction": "LONG" },
       { "pair": "AUD/USD", "direction": "SHORT" },
-      { "pair": "NZD/USD", "direction": "SHORT" }
+      { "pair": "AUD/CAD", "direction": "SHORT" },
+      { "pair": "NZD/USD", "direction": "SHORT" },
+      { "pair": "CAD/CHF", "direction": "LONG" },
+      { "pair": "JPY/AUD", "direction": "LONG" },
+      { "pair": "JPY/NZD", "direction": "LONG" }
     ],
-    "swingSetups": [],
+    "swingSetups": [
+      { "pair": "AUD/USD", "direction": "SHORT" },
+      { "pair": "NZD/USD", "direction": "SHORT" },
+      { "pair": "USD/CHF", "direction": "LONG" }
+    ],
     "intradayTrades": [
-      { "pair": "GBP/USD", "direction": "LONG" },
-      { "pair": "GBP/CAD", "direction": "LONG" },
-      { "pair": "GBP/CHF", "direction": "LONG" },
-      { "pair": "USD/JPY", "direction": "SHORT" },
-      { "pair": "CAD/JPY", "direction": "SHORT" },
-      { "pair": "CHF/JPY", "direction": "SHORT" }
+      { "pair": "USD/JPY", "direction": "LONG" },
+      { "pair": "USD/CAD", "direction": "LONG" }
     ]
   },
   "redFolderNews": [
