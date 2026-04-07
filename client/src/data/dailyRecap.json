@@ -138,107 +138,123 @@
   },
   "redFolderNews": [
     {
+      "day": "MON",
+      "date": "Apr 6",
+      "currency": "USD",
+      "event": "ISM Services PMI",
+      "time": "15:00 FFT",
+      "impact": "High"
+    },
+    {
       "day": "TUE",
-      "date": "Mar 31",
-      "currency": "GBP",
-      "event": "Final GDP q/q",
+      "date": "Apr 7",
+      "currency": "USD",
+      "event": "Core Durable Goods Orders m/m",
+      "time": "13:30 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "TUE",
+      "date": "Apr 7",
+      "currency": "CAD",
+      "event": "Ivey PMI",
+      "time": "15:00 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "WED",
+      "date": "Apr 8",
+      "currency": "NZD",
+      "event": "RBNZ Rate Decision + Statement",
+      "time": "03:00 FFT",
+      "impact": "Critical"
+    },
+    {
+      "day": "WED",
+      "date": "Apr 8",
+      "currency": "NZD",
+      "event": "RBNZ Press Conference",
+      "time": "05:00 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "WED",
+      "date": "Apr 8",
+      "currency": "CHF",
+      "event": "Unemployment Rate",
       "time": "08:00 FFT",
       "impact": "High"
     },
     {
-      "day": "TUE",
-      "date": "Mar 31",
-      "currency": "EUR",
-      "event": "Eurozone CPI Flash y/y",
-      "time": "11:00 FFT",
-      "impact": "Critical"
-    },
-    {
-      "day": "TUE",
-      "date": "Mar 31",
-      "currency": "EUR",
-      "event": "Eurozone Core CPI Flash y/y",
-      "time": "11:00 FFT",
-      "impact": "High"
-    },
-    {
-      "day": "TUE",
-      "date": "Mar 31",
-      "currency": "USD",
-      "event": "CB Consumer Confidence",
-      "time": "16:00 FFT",
-      "impact": "High"
-    },
-    {
-      "day": "TUE",
-      "date": "Mar 31",
-      "currency": "JPY",
-      "event": "Tankan Large Manufacturing Index",
-      "time": "01:50 FFT",
-      "impact": "High"
-    },
-    {
       "day": "WED",
-      "date": "Apr 1",
-      "currency": "USD",
-      "event": "ADP Non-Farm Employment Change",
-      "time": "14:15 FFT",
-      "impact": "High"
-    },
-    {
-      "day": "WED",
-      "date": "Apr 1",
-      "currency": "USD",
+      "date": "Apr 8",
+      "currency": "EUR",
       "event": "Retail Sales m/m",
-      "time": "14:30 FFT",
+      "time": "10:00 FFT",
       "impact": "High"
     },
     {
       "day": "WED",
-      "date": "Apr 1",
+      "date": "Apr 8",
       "currency": "USD",
-      "event": "ISM Manufacturing PMI",
-      "time": "16:00 FFT",
+      "event": "FOMC Meeting Minutes",
+      "time": "19:00 FFT",
       "impact": "High"
     },
     {
       "day": "THU",
-      "date": "Apr 2",
-      "currency": "AUD",
-      "event": "Trade Balance",
-      "time": "02:30 FFT",
-      "impact": "High"
-    },
-    {
-      "day": "THU",
-      "date": "Apr 2",
+      "date": "Apr 9",
       "currency": "CHF",
-      "event": "CPI m/m",
-      "time": "08:30 FFT",
+      "event": "SNB Chairman Schlegel Speaks",
+      "time": "09:00 FFT",
+      "impact": "Critical"
+    },
+    {
+      "day": "THU",
+      "date": "Apr 9",
+      "currency": "USD",
+      "event": "Core PCE Price Index m/m",
+      "time": "13:30 FFT",
+      "impact": "Critical"
+    },
+    {
+      "day": "THU",
+      "date": "Apr 9",
+      "currency": "USD",
+      "event": "Final GDP q/q + GDP Price Index",
+      "time": "13:30 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "THU",
+      "date": "Apr 9",
+      "currency": "USD",
+      "event": "Unemployment Claims",
+      "time": "13:30 FFT",
       "impact": "High"
     },
     {
       "day": "FRI",
-      "date": "Apr 3",
-      "currency": "USD",
-      "event": "Non-Farm Payrolls",
-      "time": "14:30 FFT",
+      "date": "Apr 10",
+      "currency": "CAD",
+      "event": "Employment Change + Unemployment Rate",
+      "time": "13:30 FFT",
       "impact": "Critical"
     },
     {
       "day": "FRI",
-      "date": "Apr 3",
+      "date": "Apr 10",
       "currency": "USD",
-      "event": "Unemployment Rate",
-      "time": "14:30 FFT",
-      "impact": "High"
+      "event": "CPI m/m + CPI y/y",
+      "time": "13:30 FFT",
+      "impact": "Critical"
     },
     {
       "day": "FRI",
-      "date": "Apr 3",
+      "date": "Apr 10",
       "currency": "USD",
-      "event": "ISM Services PMI",
-      "time": "16:00 FFT",
+      "event": "Prelim UoM Consumer Sentiment",
+      "time": "15:00 FFT",
       "impact": "High"
     }
   ]
