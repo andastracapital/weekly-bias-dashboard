@@ -134,27 +134,27 @@
   },
   "redFolderNews": [
     {
-      "day": "FRI",
-      "date": "Apr 10",
-      "currency": "CAD",
+      "day": "TUE",
+      "date": "Apr 14",
+      "currency": "USD",
+      "event": "Core PPI m/m + PPI m/m",
+      "time": "14:30 FFT",
+      "impact": "High"
+    },
+    {
+      "day": "THU",
+      "date": "Apr 16",
+      "currency": "AUD",
       "event": "Employment Change + Unemployment Rate",
-      "time": "13:30 FFT",
+      "time": "03:30 FFT",
       "impact": "Critical"
     },
     {
-      "day": "FRI",
-      "date": "Apr 10",
-      "currency": "USD",
-      "event": "CPI m/m + CPI y/y",
-      "time": "13:30 FFT",
-      "impact": "Critical"
-    },
-    {
-      "day": "FRI",
-      "date": "Apr 10",
-      "currency": "USD",
-      "event": "Prelim UoM Consumer Sentiment",
-      "time": "15:00 FFT",
+      "day": "THU",
+      "date": "Apr 16",
+      "currency": "GBP",
+      "event": "GDP m/m",
+      "time": "08:00 FFT",
       "impact": "High"
     }
   ]

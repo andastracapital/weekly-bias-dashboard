@@ -1,166 +1,161 @@
 {
-  "week": "Apr 6 - Apr 12, 2026",
-  "marketOverview": "Markets enter the week in a stagflation framework that intensified through the prior week. Trump's primetime address confirmed no ceasefire is imminent — the US will 'hit Iran very hard over the next 2-3 weeks,' with threats to strike Iranian electric plants and oil facilities. Brent settled above $112/bbl, WTI above $103/bbl. Central banks across G10 have violently repriced from cuts to hikes. Monday is a near-universal bank holiday (AUD, NZD, CHF, EUR, GBP all closed), meaning the week effectively starts Tuesday. The dominant themes are: (1) USD stagflation premium — CPI on Friday is the critical catalyst; (2) JPY normalization — BOJ hawkish, verbal intervention defended 160, Tankan beat; (3) Antipodean weakness — AUD and NZD remain the cleanest shorts in a risk-off, high-beta environment; (4) RBNZ rate decision on Wednesday — hold expected at 2.25% but statement tone matters; (5) USD Core PCE + Final GDP on Thursday and CPI on Friday are the two biggest USD events of the week.",
+  "week": "Apr 13 - Apr 19, 2026",
+  "marketOverview": "Markets enter the week in a dramatically different posture compared to last week. The US-Iran 2-week ceasefire, announced Wednesday April 8, triggered a violent cross-asset reversal: Brent collapsed from $116/bbl to below $90/bbl, DXY fell over 1.5%, equities surged (SPX +2.9%, NDX +3.4%), and high-beta currencies (NZD, AUD, GBP) led the G10 board. However, the ceasefire is fragile — Hormuz shipping remains near-standstill, Iran is charging tolls, and the Islamabad talks on Saturday produced no formal agreement. The dominant themes for the week ahead are: (1) USD weakness — the stagflation premium is partially unwinding as oil retreats; (2) NZD outperformance — RBNZ hawkish surprise (discussed hiking at April AND May meetings) is the cleanest fundamental story in G10; (3) AUD recovery — high-beta risk-on beneficiary, copper at 3-week high, China PPI positive for first time in 3 years; (4) JPY vulnerability — energy importer, BOJ still accommodative, USD/JPY near 159; (5) USD PPI on Tuesday and GBP GDP on Thursday are the key data events.",
   "currencies": [
     {
       "code": "USD",
       "name": "US Dollar",
-      "bias": "Strong Bullish",
-      "rationale": "USD finished the prior week at the top of the G10 board on a stagflation framework: surging oil feeds inflation, forces Fed hike repricing, and drives haven demand simultaneously. ISM Services beat (54.0 vs 54.8 exp — slight miss but still expansionary), while the NFP print from Good Friday is already in the market. The week ahead is dominated by Core PCE + Final GDP on Thursday and the critical CPI print on Friday — a hot CPI would cement the bullish case and push rate-hike expectations further. Fed speakers (Goolsbee, Jefferson, Daly) are all on the calendar and are expected to maintain the hawkish tone. USD is the cleanest expression of the stagflation trade.",
+      "bias": "Weak Bearish",
+      "rationale": "USD lost its dominant stagflation premium as oil collapsed on the ceasefire announcement. DXY fell over 1.5% on the week, with the bulk of the move coming in a single session. The FOMC Minutes confirmed a hawkish hold — 'many said persistently higher oil prices could keep inflation elevated long enough to justify rate rises' — but this is now a conditional statement as oil retreats. Core PCE printed 0.4% MoM (hot), and CPI came in at 0.2% MoM (softer than feared). The net result is a USD that has lost its energy-driven haven premium but retains its rates support. Near-term weak bearish: the ceasefire removes the most acute USD tailwind, but the underlying stagflation story is not dead — any ceasefire breakdown would rapidly reverse the move. USD PPI on Tuesday is the key event.",
       "drivers": [
-        "Stagflation framework: oil above $100/bbl feeds inflation, forces Fed hike repricing",
-        "ISM Services PMI 54.0 (Mon) — expansionary; services sector holding up",
-        "Core PCE + Final GDP (Thu 13:30 FFT) — key inflation and growth check",
-        "CPI m/m + CPI y/y (Fri 13:30 FFT) — CRITICAL; hot print cements bullish case",
-        "Fed speakers (Goolsbee Tue, Jefferson Tue, Daly Wed) expected hawkish"
+        "Ceasefire removes oil-driven stagflation premium — DXY fell 1.5%+ on the week",
+        "FOMC Minutes hawkish hold: 'higher oil could justify rate rises' — conditional on oil staying elevated",
+        "Core PCE 0.4% MoM (hot beat) — stagflation framework intact but oil retreat dilutes impact",
+        "CPI 0.2% MoM (softer than feared) — reduces near-term urgency for Fed hike",
+        "USD PPI m/m + Core PPI m/m (Tue 14:30 FFT) — key event; hot print could reverse bearish bias"
       ],
       "events": [
-        { "day": "MON", "event": "ISM Services PMI (15:00 FFT)", "impact": "High" },
-        { "day": "TUE", "event": "Core Durable Goods Orders (13:30 FFT)", "impact": "High" },
-        { "day": "WED", "event": "FOMC Meeting Minutes (19:00 FFT)", "impact": "High" },
-        { "day": "THU", "event": "Core PCE + Final GDP + Unemployment Claims (13:30 FFT)", "impact": "Critical" },
-        { "day": "FRI", "event": "CPI m/m + CPI y/y (13:30 FFT)", "impact": "Critical" },
+        { "day": "TUE", "event": "Core PPI m/m + PPI m/m (14:30 FFT)", "impact": "High" },
+        { "day": "WED", "event": "Beige Book (20:00 FFT)", "impact": "High" },
+        { "day": "THU", "event": "Unemployment Claims (14:30 FFT)", "impact": "High" },
         { "day": "FRI", "event": "Prelim UoM Consumer Sentiment (15:00 FFT)", "impact": "High" }
       ]
     },
     {
       "code": "EUR",
       "name": "Euro",
-      "bias": "Neutral",
-      "rationale": "EUR had a messy week — it held up briefly on softer aggregate CPI (2.5% YoY vs 2.8% exp, Core 2.3% vs 2.4% exp) and a temporary oil pullback, but by week-end the market returned to treating the Eurozone as exposed in an energy shock. The ECB hawkish repricing is still intact (two hikes priced by year-end), and EUR finished as the third strongest currency on the week — but the macro base remains fragile. Near-term neutral: the rates story held up better than expected and kept EUR supported into the weekly close, but structural vulnerabilities (energy importer, no fiscal union, BTP-Bund spread fragmentation risk) cap the upside. Monday is a bank holiday across France, Germany, and Italy.",
+      "bias": "Weak Bullish",
+      "rationale": "EUR benefited from the oil collapse — as a net energy importer, lower Brent is a direct terms-of-trade improvement. EUR/USD recovered from sub-1.15 to above 1.17 on the ceasefire week. ECB hawkish repricing remains intact (two 25bp hikes priced by year-end), and Lagarde's speeches this week will be closely watched for any softening of tone given the oil retreat. German Industrial Production missed badly (-0.3% MoM vs +0.9% exp) and German Factory Orders disappointed, but these are backward-looking. Near-term weak bullish: the energy tailwind and ECB rates story provide support, but the structural fragility of the Eurozone (BTP-Bund spread, fiscal constraints) caps the upside. Lagarde speaks Tuesday and Wednesday.",
       "drivers": [
+        "Net energy importer — oil collapse from $116 to below $90/bbl is a direct EUR positive",
         "ECB hawkish repricing intact: two 25bp hikes priced by year-end",
-        "CPI Flash miss (2.5% vs 2.8% exp) — energy shock not yet fully filtering through",
-        "EUR finished third strongest on the week despite difficult macro backdrop",
-        "BTP-Bund spread fragmentation risk caps medium-term upside",
-        "Final Services PMI (Tue 10:00 FFT) and Retail Sales (Wed 10:00 FFT) are key events"
+        "EUR/USD recovered from sub-1.15 to above 1.17 on ceasefire week",
+        "German Industrial Production -0.3% MoM (miss) — backward-looking, not a fresh negative",
+        "Lagarde speaks Tue + Wed — watch for any softening given oil retreat"
       ],
       "events": [
-        { "day": "MON", "event": "Bank Holiday (France, Germany, Italy)", "impact": "High" },
-        { "day": "TUE", "event": "Final Services PMI (10:00 FFT)", "impact": "High" },
-        { "day": "TUE", "event": "Sentix Investor Confidence (10:30 FFT)", "impact": "High" },
-        { "day": "WED", "event": "Retail Sales m/m (10:00 FFT)", "impact": "High" },
-        { "day": "WED", "event": "PPI m/m (10:00 FFT)", "impact": "High" }
+        { "day": "TUE", "event": "ECB President Lagarde Speaks", "impact": "High" },
+        { "day": "WED", "event": "ECB President Lagarde Speaks", "impact": "High" },
+        { "day": "WED", "event": "Industrial Production m/m (11:00 FFT)", "impact": "High" },
+        { "day": "THU", "event": "ECB Monetary Policy Meeting Accounts (13:30 FFT)", "impact": "High" }
       ]
     },
     {
       "code": "GBP",
       "name": "British Pound",
-      "bias": "Neutral",
-      "rationale": "Sterling had a strong midweek spell but could not hold up once the broader market swung back toward the Dollar and a harder risk-off tone. The BOE repricing is still supporting the Pound at the front end (~55bps of tightening priced, BofA forecasting two hikes in June and July), but it is doing so inside a fragile macro backdrop where higher yields are not automatically positive. BOE Governor Bailey warned markets are 'getting ahead of themselves.' Near-term neutral: the rates story can keep GBP supported if inflation worries dominate, but Sterling's risk-sensitive character means it struggles when sentiment worsens materially. Monday is a bank holiday. Final Services PMI on Tuesday is the key event.",
+      "bias": "Weak Bullish",
+      "rationale": "Sterling was one of the week's outperformers — Cable broke 1.34 for the first time since the conflict began, driven by the ceasefire risk-on wave and the ongoing BOE hawkish repricing (~55bps of tightening priced, BofA forecasting two hikes in June and July). UK Final GDP Q4 was unrevised at 0.1% QoQ, and the Current Account beat expectations (-18.4B vs -23.3B exp). Near-term weak bullish: the BOE rates story and risk-on character both support GBP, and the GDP print on Thursday (February monthly GDP) is the key domestic catalyst. BOE Governor Bailey speaks Tuesday. GBP is the cleanest risk-on expression among the major European currencies.",
       "drivers": [
+        "Cable broke 1.34 — ceasefire risk-on wave + BOE hawkish repricing",
         "BOE repricing: ~55bps of tightening priced; BofA forecasts two hikes (June + July)",
-        "BOE Bailey: 'markets getting ahead of themselves' — limits clean bullish case",
-        "FTSE 100 outperformed on oil majors (BP, Shell) and miners",
-        "US-UK pharmaceutical pricing agreement concluded — trade positive",
-        "Final Services PMI (Tue 10:30 FFT) is the key event"
+        "UK Current Account beat (-18.4B vs -23.3B exp) — external balance improving",
+        "Risk-on character — GBP benefits from ceasefire and equity market recovery",
+        "GDP m/m (Thu 08:00 FFT) and BOE Bailey speaks (Tue) are the key events"
       ],
       "events": [
-        { "day": "MON", "event": "Bank Holiday", "impact": "High" },
-        { "day": "TUE", "event": "Final Services PMI (10:30 FFT)", "impact": "High" },
-        { "day": "WED", "event": "Construction PMI (10:30 FFT)", "impact": "High" },
-        { "day": "WED", "event": "Halifax HPI m/m (08:00 FFT)", "impact": "High" }
+        { "day": "TUE", "event": "BOE Governor Bailey Speaks", "impact": "High" },
+        { "day": "WED", "event": "CPI y/y (08:00 FFT)", "impact": "Critical" },
+        { "day": "THU", "event": "GDP m/m (08:00 FFT)", "impact": "High" },
+        { "day": "THU", "event": "Manufacturing Production m/m (08:00 FFT)", "impact": "High" }
       ]
     },
     {
       "code": "JPY",
       "name": "Japanese Yen",
-      "bias": "Weak Bullish",
-      "rationale": "JPY had a better week than the broader tone would normally allow. The reversal from above 160 showed the market still respects both intervention risk and the domestic normalization story. BOJ's March Summary of Opinions was distinctly hawkish — warning against falling 'behind the curve,' citing tightening labor markets, strong Shunto wages (5%+), and the inflationary impact of the Middle East conflict. BOJ announced JGB purchase trims across multiple maturities for Q2. Tankan Large Manufacturing beat expectations, cementing near-term BOJ hike expectations. Near-term weak bullish: haven + creditor nation + BOJ normalization all active, but wide US-Japan yield differentials remain the key constraint.",
+      "bias": "Bearish",
+      "rationale": "JPY was the worst G10 performer on the ceasefire week — the currency that benefits most from safe-haven demand and energy shock fears was punished hardest when both reversed simultaneously. USD/JPY is near 159, well above the 155-157 range where verbal intervention was most active. Japan's energy import vulnerability means the JPY actually loses its haven appeal in a risk-on environment where oil is falling but equities are surging. BOJ remains accommodative relative to other G10 central banks, and the wide US-Japan yield differential persists. Near-term bearish: the ceasefire removes the key JPY support pillar (haven demand), and the risk-on environment favors high-beta currencies over defensive ones. No major JPY events this week.",
       "drivers": [
-        "BOJ hawkish: March Summary of Opinions warns against falling 'behind the curve'",
-        "Shunto wage growth 5%+ — BOJ normalization story intact; Q2 JGB purchase trims announced",
-        "Tankan Large Manufacturing beat — business sentiment confirms near-term BOJ hike",
-        "USD/JPY defended 160 on verbal intervention (Mimura, Ueda, Katayama)",
-        "Consumer Confidence (Thu 06:00 FFT) and PPI y/y (Thu 00:50 FFT) are key events"
+        "Worst G10 performer on ceasefire week — lost both haven premium and energy shock support simultaneously",
+        "USD/JPY near 159 — above verbal intervention range (155-157); BOJ still accommodative",
+        "Energy import vulnerability means JPY loses appeal when oil falls + equities surge",
+        "Wide US-Japan yield differential persists — structural constraint on JPY strength",
+        "No major JPY events this week — pure sentiment and yield differential play"
       ],
       "events": [
-        { "day": "MON", "event": "Household Spending y/y (07:30 FFT)", "impact": "High" },
-        { "day": "THU", "event": "Consumer Confidence (06:00 FFT)", "impact": "High" },
-        { "day": "THU", "event": "PPI y/y (00:50 FFT)", "impact": "High" }
+        { "day": "MON", "event": "Core Machinery Orders m/m (01:50 FFT)", "impact": "High" },
+        { "day": "THU", "event": "Tertiary Industry Activity m/m (01:30 FFT)", "impact": "High" }
       ]
     },
     {
       "code": "AUD",
       "name": "Australian Dollar",
-      "bias": "Bearish",
-      "rationale": "AUD was one of the primary casualties of the deteriorating global risk environment — heavily sold as the US-Iran conflict escalated and equity markets stumbled under surging energy prices. Despite the RBA being repriced toward tighter policy (~62bps of tightening by year-end), the global energy shock and risk-off environment overwhelm the domestic support story. AUD is a high-beta, risk-sensitive currency tightly linked to China and commodities — when those drivers become unstable, the Aussie struggles. Monday is a bank holiday. No major AUD data events this week — the currency will trade as a pure risk sentiment and China proxy.",
+      "bias": "Weak Bullish",
+      "rationale": "AUD staged a sharp recovery on the ceasefire week — as a high-beta, risk-sensitive currency it was one of the primary beneficiaries of the global risk-on wave. Copper hit a 3-week high, China PPI turned positive for the first time in over three years (0.1% YoY), and the RBA is still repriced toward tightening (~62bps by year-end). AUD/USD recovered from 0.62 handle to above 0.64. Near-term weak bullish: the risk-on recovery is real but the ceasefire is fragile — any breakdown would rapidly reverse AUD gains. Australian Employment Change and Unemployment Rate on Thursday are the key domestic catalysts.",
       "drivers": [
-        "High-beta risk proxy — primary casualty of US-Iran escalation and equity weakness",
-        "RBA repriced to ~62bps of tightening by year-end — imported inflation, not domestic strength",
-        "LNG facility outage (Cyclone Narelle) compounded global energy supply risks",
-        "Japan PM Takaichi planning Australia visit — rare-earth supply chains and Hormuz cooperation",
-        "No major AUD data events — pure risk sentiment and China proxy"
+        "High-beta risk-on recovery — primary beneficiary of ceasefire wave alongside NZD",
+        "Copper at 3-week high — commodity terms of trade improving",
+        "China PPI +0.1% YoY (first positive in 3+ years) — AUD/NZD positive via China channel",
+        "RBA repriced to ~62bps of tightening by year-end — rates support intact",
+        "Employment Change + Unemployment Rate (Thu 03:30 FFT) — key domestic catalyst"
       ],
       "events": [
-        { "day": "MON", "event": "Bank Holiday", "impact": "High" }
+        { "day": "MON", "event": "Westpac Consumer Sentiment (01:30 FFT)", "impact": "High" },
+        { "day": "MON", "event": "NAB Business Confidence (01:30 FFT)", "impact": "High" },
+        { "day": "THU", "event": "Employment Change + Unemployment Rate (03:30 FFT)", "impact": "Critical" }
       ]
     },
     {
       "code": "CAD",
       "name": "Canadian Dollar",
-      "bias": "Weak Bullish",
-      "rationale": "CAD handled the prior week better than other cyclical commodity currencies — WTI briefly above $113/bbl provided underlying support even as risk appetite soured. Canada's January GDP beat (0.1% vs flat exp), February GDP estimated at 0.2%, and exports rose 6.4%. The BoC has been repriced to ~44bps of tightening by year-end. Near-term weak bullish: the oil and terms-of-trade support now deserves more weight as crude strength helped CAD hold up relatively better even in a defensive market mood. The key limitation remains that CAD is also a risk-sensitive currency with 70%+ of exports to the US, so the crude link can be diluted when the market is in hard risk-off mode. Ivey PMI on Tuesday and Jobs Report on Friday are the key events.",
+      "bias": "Weak Bearish",
+      "rationale": "CAD was the biggest loser of the ceasefire week among commodity currencies — oil collapsed 16% (WTI from $105 to below $88/bbl), directly undermining the petro-proxy support that had been CAD's primary tailwind. Canada's Employment Change missed expectations (actual -7.4K vs +15K exp), and the Services PMI remained in contraction at 47.2. The BoC has been repriced to ~44bps of tightening but this is driven by imported inflation, not domestic growth momentum. Near-term weak bearish: the oil collapse removes the key CAD support pillar, and the soft jobs data adds further pressure. No major CAD events this week.",
       "drivers": [
-        "WTI above $100/bbl — petro-proxy support; Kuwaiti crude carrier struck in Dubai port",
-        "January GDP +0.1% (beat); February GDP estimated +0.2% — limited but ongoing momentum",
-        "BoC repriced to ~44bps of tightening by year-end on imported inflation fears",
-        "Canada-China economic dialogue agreed for H2 2026 — trade diversification positive",
-        "Ivey PMI (Tue 15:00 FFT) and Jobs Report (Fri 13:30 FFT) are the key events"
+        "Oil collapsed 16% on ceasefire — WTI from $105 to below $88/bbl; petro-proxy support removed",
+        "Employment Change -7.4K (miss vs +15K exp) — soft jobs data adds pressure",
+        "Services PMI 47.2 — still in contraction; domestic demand weak",
+        "BoC repriced to ~44bps of tightening — imported inflation, not domestic strength",
+        "No major CAD events this week — pure oil and risk sentiment proxy"
       ],
       "events": [
-        { "day": "TUE", "event": "Ivey PMI (15:00 FFT)", "impact": "High" },
-        { "day": "FRI", "event": "Employment Change + Unemployment Rate (13:30 FFT)", "impact": "Critical" }
+        { "day": "TUE", "event": "BOC Governor Macklem Speaks", "impact": "High" },
+        { "day": "WED", "event": "CPI m/m (14:30 FFT)", "impact": "Critical" }
       ]
     },
     {
       "code": "CHF",
       "name": "Swiss Franc",
-      "bias": "Weak Bearish",
-      "rationale": "CHF had a surprisingly weak week — failing to capitalize on its traditional safe-haven status despite severe geopolitical escalation. The market clearly preferred USD as the cleaner defensive currency, given its yield advantage. Swiss CPI printed softer than expected (0.3% YoY vs 0.6% exp), though energy-driven inflation pulled it away from the absolute bottom of the SNB's 0-2% target range. Massive month-end/quarter-end rebalancing flows (BofA, Barclays) heavily favored USD buying against CHF. Near-term weak bearish: SNB intervention cap intact, USD yield advantage persists, and the market is not treating CHF as the preferred haven. CHF Unemployment Rate on Wednesday and SNB Chairman Schlegel speaking on Thursday are the key events.",
+      "bias": "Neutral",
+      "rationale": "CHF had a mixed but ultimately stable week — it benefited late in the week as ceasefire uncertainty crept back in, but lagged badly during the peak risk-on phase when funds rotated aggressively into high-beta alternatives. The Franc's asymmetric haven behavior was fully exposed: it tends to be left behind during strong risk-on moves but recovers when uncertainty returns. SNB intervention cap remains intact, and the market still prefers USD as the cleaner defensive currency given its yield advantage. Near-term neutral: neither a strong positive nor negative driver dominates. SNB Chairman Schlegel speaks Wednesday, and Swiss PPI on Thursday are the key events.",
       "drivers": [
-        "USD preferred as haven over CHF — yield advantage and intervention risk cap CHF gains",
-        "Swiss CPI 0.3% YoY (vs 0.6% exp) — softer than expected; energy uptick provides SNB relief",
-        "Massive month-end/quarter-end rebalancing flows favored USD/CHF buying",
-        "SNB markets price ~29bps of tightening — global inflation spillover, not domestic pressure",
-        "Unemployment Rate (Wed 08:00 FFT) and SNB Schlegel Speaks (Thu 09:00 FFT) are key events"
+        "Asymmetric haven — lagged badly in risk-on but recovered as ceasefire uncertainty returned",
+        "SNB intervention cap intact — limits excessive CHF strength",
+        "USD preferred as haven over CHF — yield advantage and intervention risk",
+        "Swiss domestic calendar virtually empty — pure external sentiment and USD dynamics",
+        "SNB Schlegel speaks Wed + Swiss PPI Thu are the key events"
       ],
       "events": [
-        { "day": "MON", "event": "Bank Holiday", "impact": "High" },
-        { "day": "MON", "event": "Foreign Currency Reserves (09:00 FFT Tue)", "impact": "High" },
-        { "day": "WED", "event": "Unemployment Rate (08:00 FFT)", "impact": "High" },
-        { "day": "THU", "event": "SNB Chairman Schlegel Speaks (09:00 FFT)", "impact": "Critical" }
+        { "day": "WED", "event": "SNB Chairman Schlegel Speaks", "impact": "Critical" },
+        { "day": "THU", "event": "PPI m/m (08:30 FFT)", "impact": "High" }
       ]
     },
     {
       "code": "NZD",
       "name": "New Zealand Dollar",
-      "bias": "Bearish",
-      "rationale": "NZD endured another punishing week as one of the primary casualties of the deteriorating global risk environment. The Kiwi showed specific vulnerability — underperforming right out of the gate on Monday compared with G10 peers, a trend that persisted as global stagflation fears mounted. RBNZ has been repriced to ~60bps of tightening by year-end, but this is a response to imported inflation pressure rather than domestic strength. Near-term bearish: NZD is a pro-cyclical, high-beta currency that depreciates in risk-off conditions, with strong positive relationships to broader risk assets and the Australia-China channel. The RBNZ rate decision on Wednesday (hold expected at 2.25%) is the key event — a dovish statement tone would add further pressure.",
+      "bias": "Bullish",
+      "rationale": "NZD was the G10 outperformer for two consecutive sessions — the RBNZ hawkish surprise at the April meeting was the catalyst. Governor Breman confirmed the Board discussed hiking at the April AND May meetings, and markets now price 75bps of tightening by year-end (up 15bps since last week). NZD/USD surged to the 0.58 handle. The combination of a hawkish central bank surprise and the broader risk-on ceasefire wave created a powerful double tailwind. Near-term bullish: the RBNZ repricing story is fresh and not fully priced, and NZD benefits from both the risk-on environment and the domestic rates story. Governor Breman speaks Wednesday — any further hawkish signals would extend the rally.",
       "drivers": [
-        "High-beta risk proxy — underperformed G10 peers from Monday open",
-        "RBNZ repriced to ~60bps of tightening — imported inflation response, not domestic strength",
-        "NZD tightly linked to AUD and China channel — both under pressure",
-        "Least traded of major currencies — more exposed when positioning moves against cyclicals",
-        "RBNZ Rate Decision (Wed 03:00 FFT) — hold expected; statement tone is the key catalyst"
+        "RBNZ hawkish surprise — discussed hiking at April AND May meetings; 75bps priced by year-end",
+        "G10 outperformer for two consecutive sessions — ceasefire risk-on + RBNZ double tailwind",
+        "NZD/USD surged to 0.58 handle — fresh multi-week highs",
+        "Risk-on character — benefits from ceasefire and equity market recovery",
+        "RBNZ Governor Breman speaks Wed — key catalyst for further repricing"
       ],
       "events": [
-        { "day": "MON", "event": "Bank Holiday", "impact": "High" },
-        { "day": "WED", "event": "RBNZ Rate Decision + Statement (03:00 FFT)", "impact": "Critical" },
-        { "day": "WED", "event": "RBNZ Press Conference (05:00 FFT)", "impact": "High" }
+        { "day": "MON", "event": "Visitor Arrivals m/m (01:45 FFT)", "impact": "High" },
+        { "day": "WED", "event": "RBNZ Governor Breman Speaks", "impact": "Critical" },
+        { "day": "THU", "event": "Business NZ Manufacturing PMI (23:30 FFT)", "impact": "High" }
       ]
     }
   ],
   "swingWatchlist": {
     "long": [
-      { "pair": "CAD/CHF", "rationale": "Weak Bullish CAD (oil terms-of-trade support, Ivey PMI, Jobs Fri) vs Weak Bearish CHF (SNB intervention cap, USD preferred haven, Schlegel speaks Thu)" },
-      { "pair": "JPY/AUD", "rationale": "Weak Bullish JPY (BOJ hawkish, verbal intervention at 160, Tankan beat) vs Bearish AUD (high-beta risk-off, no domestic catalyst, bank holiday Mon)" },
-      { "pair": "JPY/NZD", "rationale": "Weak Bullish JPY (BOJ normalization, creditor nation, intervention risk) vs Bearish NZD (RBNZ hold Wed, high-beta, pro-cyclical weakness)" }
+      "NZD/JPY",
+      "NZD/USD",
+      "NZD/CAD",
+      "AUD/JPY",
+      "GBP/JPY",
+      "EUR/JPY"
     ],
-    "short": [
-      { "pair": "AUD/USD", "rationale": "Strong Bullish USD (stagflation + CPI Fri + Core PCE Thu) vs Bearish AUD (high-beta risk-off, no data events, bank holiday Mon)" },
-      { "pair": "NZD/USD", "rationale": "Strong Bullish USD (CPI Fri Critical, FOMC Minutes Wed) vs Bearish NZD (RBNZ hold Wed, high-beta, pro-cyclical)" },
-      { "pair": "AUD/CAD", "rationale": "Weak Bullish CAD (oil support, Ivey PMI Tue, Jobs Fri) vs Bearish AUD (risk-off proxy, no domestic catalyst)" }
-    ]
+    "short": []
   }
 }
