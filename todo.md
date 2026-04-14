@@ -301,3 +301,11 @@
 - [ ] Show only rows where selected pair appears in the selected column
 - [ ] "All Pairs" option to reset filter
 - [ ] Save checkpoint and push to GitHub
+
+## Bug Fix: Swing Watchlist Cap Removed (Apr 14, 2026) (COMPLETED)
+- [x] Remove slice(0,6) cap from Weekly View Swing Watchlist LONG and SHORT columns in Home.tsx
+- [x] Fix Apr 13 historyEntry.swingWatchlist in dailyRecap.json — expand from 6 to 12 pairs
+- [x] Fix Apr 14 historyEntry.swingWatchlist in dailyRecap.json — expand from 6 to 12 pairs
+- [x] Directly upsert Apr 13 DB entry with full 12-pair list via tRPC API call
+- [x] Verify both Apr 13 and Apr 14 DB entries now show 12 pairs each
+- [x] Save checkpoint and push to GitHub

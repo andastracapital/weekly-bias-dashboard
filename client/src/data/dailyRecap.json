@@ -188,12 +188,18 @@
     "date": "2026-04-14",
     "weekRange": "Apr 13 - Apr 19, 2026",
     "swingWatchlist": [
+      { "pair": "EUR/JPY", "direction": "LONG" },
+      { "pair": "EUR/USD", "direction": "LONG" },
+      { "pair": "EUR/CAD", "direction": "LONG" },
+      { "pair": "GBP/JPY", "direction": "LONG" },
+      { "pair": "GBP/USD", "direction": "LONG" },
+      { "pair": "GBP/CAD", "direction": "LONG" },
+      { "pair": "AUD/JPY", "direction": "LONG" },
+      { "pair": "AUD/USD", "direction": "LONG" },
+      { "pair": "AUD/CAD", "direction": "LONG" },
       { "pair": "NZD/JPY", "direction": "LONG" },
       { "pair": "NZD/USD", "direction": "LONG" },
-      { "pair": "NZD/CAD", "direction": "LONG" },
-      { "pair": "AUD/JPY", "direction": "LONG" },
-      { "pair": "GBP/JPY", "direction": "LONG" },
-      { "pair": "EUR/JPY", "direction": "LONG" }
+      { "pair": "NZD/CAD", "direction": "LONG" }
     ],
     "swingSetups": [
       { "pair": "EUR/USD", "direction": "LONG" },
