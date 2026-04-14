@@ -705,9 +705,9 @@ export default function Home() {
                   }
                 }
 
-                // Split into LONG and SHORT lists (max 6 each)
-                const longPairs = allPairs.filter(p => p.direction === "LONG").slice(0, 6);
-                const shortPairs = allPairs.filter(p => p.direction === "SHORT").slice(0, 6);
+                // Split into LONG and SHORT lists (NO limit — show ALL valid pairs)
+                const longPairs = allPairs.filter(p => p.direction === "LONG");
+                const shortPairs = allPairs.filter(p => p.direction === "SHORT");
 
                 return (
                   <>
