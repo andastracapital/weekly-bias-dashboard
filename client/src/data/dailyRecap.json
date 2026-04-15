@@ -1,106 +1,106 @@
 {
-  "date": "Tuesday, April 14, 2026",
+  "date": "Wednesday, April 15, 2026",
   "lastUpdate": "07:30 FFT",
-  "riskEnvironment": "Mixed",
+  "riskEnvironment": "Risk-On",
   "marketFocus": [
-    "Risk-on recovery underway as US-Iran talks continue despite the failed Islamabad round. A senior US official confirmed 'talks are continuing even now and there is progress.' Sources say the parties were '80% there' before running into nuclear sticking points. A second round of face-to-face talks is being discussed for Thursday in Islamabad. Equities rebounded sharply: SPX +1.03%, NDX +1.07%, RUT +1.43%. DXY reversed initial strength to end with losses — 'Dollar reverses initial strength to end with losses as Antipodes outperform' (US FX Wrap).",
-    "Oil pulled back from the overnight spike: WTI settled at $99.08/bbl (+$2.51), Brent at $99.36/bbl (+$4.16) — well off the $103+ highs. The retreat coincided with optimism over a potential deal. EUR/USD retained a firm footing above 1.1700. GBP/USD reclaimed 1.3500. USD/JPY trickled toward 159.00 as dollar dwindled. Antipodeans outperformed — NZD pricing in 82bps of RBNZ hikes by year-end (up from 75bps last week). AUD flat vs USD but RBA Hauser struck a hawkish lean.",
-    "Today's key event: USD Core PPI m/m + PPI m/m at 14:30 FFT — CLOSE POS. BEFORE event. Speakers: BoE Bailey, Mann, Greene; ECB Lane, Cipollone, Lagarde; Fed Goolsbee, Barr, Collins, Barkin; BOC Macklem. Earnings: JPMorgan Chase, BlackRock, Citi, J&J, Wells Fargo. AUD Employment (Thu 03:30 FFT) — TONIGHT badge activates from 16:00 FFT Wednesday."
+    "US-Iran ceasefire holding firmly. VP Vance confirmed 'ceasefire is holding and Iranian negotiators want a deal.' A second round of face-to-face talks is expected Thursday or early next week in Pakistan. Trump said the war is 'very close to over.' SPX +1.17%, NDX +1.81%, European equities +0.9–1.4%. DXY pressured as risk-on conditions persist — EUR/USD completely wiped out all war-related losses (since March 2nd) to make a session high of 1.1807.",
+    "NZD was the G10 outperformer. ANZ revised its RBNZ outlook to hikes in July, September and October — ANZ Chief Economist said it was 'fair to interpret recent media appearances from Governor Breman as deliberate.' USD March PPI came in at +0.5% M/M vs 1.2% forecast — a significant miss. Fed's Goolsbee warned rate cuts may be delayed until 2027 if the Iran war prolongs. BoJ is reportedly considering a sharp increase to its inflation forecasts this month.",
+    "Today's key events: Fed Beige Book, ECB Lagarde/Cipollone/Schnabel speak, BoE Bailey, SNB Schlegel, RBA Hauser, RBNZ Breman. Earnings: Morgan Stanley, Bank of America, Hermes. AUD Employment + Unemployment Rate tomorrow (Thu 03:30 FFT) — TONIGHT badge activates from 16:00 FFT today."
   ],
   "currencies": {
     "USD": {
       "bias": "Bearish",
-      "tone": "Dollar Reversed Initial Strength — Risk-On Unwind Drives DXY Lower; PPI Data Key Today",
-      "summary": "USD is Bearish today. The dollar reversed its initial risk-off strength as US-Iran diplomatic progress emerged — 'Dollar reverses initial strength to end with losses as Antipodes outperform' (US FX Wrap). DXY is little changed after weakening yesterday, with the market now pricing a deal as more likely than not. Fed's Miran (dovish dissenter) said he 'expects inflation to be close to target in a year' and sees no reason to think oil prices will remain elevated — a dovish signal that caps USD upside. Today's PPI data at 14:30 FFT is the key risk: a soft print would accelerate USD selling. Weekly Weak Bearish + Daily Bearish = ✅ ALIGNED.",
+      "tone": "DXY Pressured — PPI Miss Seals Dollar Weakness; Goolsbee Cautious on Rate Cuts",
+      "summary": "USD is Bearish today. The dollar is under sustained pressure after March PPI came in at +0.5% M/M vs the 1.2% forecast — a significant miss that removes a key inflation argument for USD bulls. DXY got only slight reprieve overnight after weakening sharply on Tuesday. Fed's Goolsbee warned that a prolonged Iran war reduces chances of rate cuts and 'may have to wait until 2027' — a cautious tone that does not support USD. The risk-on environment driven by US-Iran peace talk progress continues to weigh on the dollar. Kevin Warsh Fed Chair confirmation hearing is scheduled for next Tuesday April 21st. Weekly Weak Bearish + Daily Bearish = ✅ ALIGNED.",
       "drivers": [
-        "Dollar reversed initial strength — risk-on unwind as US-Iran talks continue with progress",
-        "Fed Miran (dovish): 'expects inflation close to target in a year' — caps USD upside",
-        "DXY little changed after weakening — market pricing deal as more likely",
-        "USD Core PPI m/m + PPI m/m at 14:30 FFT — key risk event today (CLOSE POS. BEFORE)",
+        "March PPI +0.5% M/M vs 1.2% exp — significant miss removes inflation argument for USD bulls",
+        "DXY only slight reprieve after sharp Tuesday decline — structural selling pressure",
+        "Fed Goolsbee: rate cuts may be delayed until 2027 if Iran war prolongs — cautious tone",
+        "Risk-on environment from US-Iran peace talk progress continues to weigh on dollar",
         "Weekly Weak Bearish + Daily Bearish = ALIGNED"
       ]
     },
     "EUR": {
       "bias": "Bullish",
-      "tone": "EUR/USD Firm Above 1.1700 — Energy Importer Benefits from Oil Pullback; ECB Speakers Today",
-      "summary": "EUR is Bullish today. EUR/USD retained a firm footing above 1.1700 after benefiting from the recent retreat in the dollar and the pullback in oil from the overnight highs. The Eurozone's energy importer status, which was a headwind when oil surged, now becomes a tailwind as oil pulls back on deal optimism. Bund futures returned to the 125.00 level, clawing back recent lost ground. ECB's Lane, Cipollone and Lagarde speak today — any hawkish tone would reinforce EUR strength. EU Commission President von der Leyen announced proposals for energy price measures on April 22nd. Weekly Weak Bullish + Daily Bullish = ✅ ALIGNED.",
+      "tone": "EUR/USD Above 1.1800 — Wiped All War Losses; ECB Lagarde, Schnabel, Cipollone Speak Today",
+      "summary": "EUR is Bullish today. EUR/USD completely wiped out all war-related losses (since March 2nd) to make a session high of 1.1807 — a significant technical milestone. Bund futures held gains, set to close firmer by ~30 ticks. ECB's Lagarde said 'it would be a mistake to say we need to look through the shock' and that it is 'too soon to make such a conclusion' — a hawkish lean that supports EUR. ECB's Dolenc said the ECB will raise rates if inflation has a longer-lasting effect. German Wholesale Prices YoY jumped to 4.1% (prev. 1.2%) — above-expected, driven by energy and raw materials. Lagarde, Schnabel and Cipollone all speak today. Weekly Weak Bullish + Daily Bullish = ✅ ALIGNED.",
       "drivers": [
-        "EUR/USD firm above 1.1700 — benefits from dollar retreat and oil pullback",
-        "Bund futures returned to 125.00 — bond market stabilising as deal optimism grows",
-        "ECB Lane, Cipollone, Lagarde speak today — watch for hawkish tone",
-        "EU Commission energy price measures proposal on April 22nd — structural support",
+        "EUR/USD above 1.1807 — wiped all war-related losses since March 2nd, key technical milestone",
+        "ECB Lagarde: 'mistake to look through the shock' — hawkish lean supports EUR",
+        "ECB Dolenc: will raise rates if inflation has longer-lasting effect",
+        "German Wholesale Prices YoY 4.1% (prev. 1.2%) — energy/raw materials driving inflation",
         "Weekly Weak Bullish + Daily Bullish = ALIGNED"
       ]
     },
     "GBP": {
       "bias": "Bullish",
-      "tone": "GBP/USD Reclaimed 1.3500 — Risk-On Recovery; BoE Bailey, Mann, Greene All Speaking Today",
-      "summary": "GBP is Bullish today. GBP/USD held on to its spoils after reclaiming the 1.3500 status, with little reaction to BoE Governor Bailey's comments on financial stability. Sterling's risk-sensitive character is working in its favour as risk-on conditions return — the same dynamic that drove GBP higher in the ceasefire rally is back in play. UK BRC Retail Sales YoY (Mar) came in at 3.1% vs 0.9% expected — a strong beat that supports the BOE hawkish hold narrative. BoE Bailey, Mann and Greene all speak today. Weekly Weak Bullish + Daily Bullish = ✅ ALIGNED.",
+      "tone": "GBP Near 1.3600 — BoE Mann Hawkish on Wages; BRC Retail Sales Beat; Bailey Speaks Today",
+      "summary": "GBP is Bullish today. GBP/USD attempted to breach 1.3600 but fell just short at 1.3589 — a strong session performance. BoE's Mann said she is 'concerned that a price shock could show up in wage expectations' and that 'inflation expectations are very volatile if CPI is above 3–3.5%' — a hawkish signal that supports GBP. UK BRC Retail Sales YoY (Mar) beat strongly at 3.1% vs 0.9% expected, with the firm noting much of the momentum was associated with warmer weather and Easter spending. UK got a record £148bln investor bids for its 10-year debt sale. BoE Governor Bailey speaks today. Weekly Weak Bullish + Daily Bullish = ✅ ALIGNED.",
       "drivers": [
-        "GBP/USD reclaimed 1.3500 — risk-on character supports Sterling in recovery",
-        "UK BRC Retail Sales YoY (Mar) 3.1% vs 0.9% exp — strong beat supports BOE hawkish hold",
-        "BoE Bailey, Mann, Greene all speaking today — watch for hawkish tone",
-        "Risk-sensitive character working in GBP's favour as risk-on conditions return",
+        "GBP/USD near 1.3600 (session high 1.3589) — strong risk-on performance",
+        "BoE Mann: 'concerned price shock could show up in wage expectations' — hawkish signal",
+        "UK BRC Retail Sales YoY 3.1% vs 0.9% exp — strong beat supports BOE hawkish hold",
+        "UK record £148bln investor bids for 10yr debt sale — strong demand for Gilts",
         "Weekly Weak Bullish + Daily Bullish = ALIGNED"
       ]
     },
     "JPY": {
-      "bias": "Bearish",
-      "tone": "USD/JPY Trickled Toward 159 — Lower Oil Only Mild Support; JGB 20yr Auction Strong",
-      "summary": "JPY is Bearish today. USD/JPY trickled toward the 159.00 level as the dollar dwindled, but the yen's recovery is limited — lower oil provides only mild support given the BOJ's still-accommodative stance. The 20yr JGB auction showed the highest bid/cover ratio since 2019 (4.82x), reflecting strong domestic demand for JGBs, but this has not translated into meaningful yen strength. BOJ Governor Ueda said the economy is 'recovering moderately but with some weakness' and that underlying inflation is 'gradually accelerating toward the target' — no fresh hawkish signal. Japanese PM Takaichi cautioned Economy Minister Akazawa not to comment further on the BOJ. Weekly Bearish + Daily Bearish = ✅ ALIGNED.",
+      "bias": "Bullish",
+      "tone": "JPY Buoyed — BoJ to Sharply Raise Inflation Forecasts; USD/JPY Trickling to 158.63",
+      "summary": "JPY is Bullish today. The yen is being buoyed by two powerful drivers: (1) BoJ is reportedly considering a sharp increase to its inflation forecasts this month, while weighing a possible growth outlook cut — a hawkish shift that markets are pricing in; (2) softening crude prices reduce Japan's import cost burden, improving the trade balance outlook. USD/JPY gradually trickled lower throughout the London session to mark a session low of 158.63. Japanese Machinery Orders MM (Feb) came in at 13.6% vs -1.1% expected — a massive beat. Note: JPY Daily Bullish vs Weekly Bearish = ❌ NO alignment — excluded from High Conviction Setups.",
       "drivers": [
-        "USD/JPY trickled toward 159 — lower oil only mild support; BOJ still accommodative",
-        "JGB 20yr auction b/c 4.82x (highest since 2019) — strong domestic demand, limited FX impact",
-        "BOJ Ueda: 'economy recovering moderately but with some weakness' — no fresh hawkish signal",
-        "Japanese PM Takaichi cautioned Akazawa not to comment on BOJ — verbal intervention risk capped",
-        "Weekly Bearish + Daily Bearish = ALIGNED"
+        "BoJ reportedly considering sharp increase to inflation forecasts this month — hawkish shift",
+        "USD/JPY session low 158.63 — yen gradually strengthening through London session",
+        "Japanese Machinery Orders MM (Feb) 13.6% vs -1.1% exp — massive beat supports JPY",
+        "Softening crude prices reduce Japan's import burden — trade balance tailwind",
+        "Weekly Bearish + Daily Bullish = NO alignment — intraday only"
       ]
     },
     "AUD": {
       "bias": "Bullish",
-      "tone": "Antipodes Outperform — ASX 200 Lifted by Tech and Miners; RBA Hauser Hawkish Lean",
-      "summary": "AUD is Bullish today. The Antipodeans outperformed in the risk-on recovery — 'Antipodes outperform' per the US FX Wrap. ASX 200 was lifted by outperformance in tech and miners, though the upside was capped by deterioration in Australian Consumer Sentiment and Business Confidence surveys. RBA Deputy Governor Hauser said he is 'not sure interest rates are at the right level to tame inflation' and that 'inflation in Australia is too high' — a hawkish lean that supports AUD. Mixed Chinese trade data (exports disappointed, imports surged) had a limited impact. AUD Employment + Unemployment Rate on Thursday at 03:30 FFT — TONIGHT badge activates from 16:00 FFT Wednesday. Weekly Weak Bullish + Daily Bullish = ✅ ALIGNED.",
+      "tone": "Antipodeans Outperform — RBA Hauser Hawkish; AUD Employment Tomorrow 03:30 FFT",
+      "summary": "AUD is Bullish today. Antipodeans performed well throughout the London session given the risk-on tone. RBA's Hauser speaks today — his recent hawkish lean ('not sure rates are at the right level to tame inflation') continues to support AUD. ASX 200 eked mild gains with strength in tech, gold miners and health care. The PBoC announced CNY 500bln of 183-day outright reverse repos — a significant liquidity injection that supports risk appetite and China-linked currencies. Key risk: AUD Employment Change + Unemployment Rate tomorrow at 03:30 FFT — TONIGHT badge activates from 16:00 FFT today. Weekly Weak Bullish + Daily Bullish = ✅ ALIGNED.",
       "drivers": [
-        "Antipodes outperform in risk-on recovery — ASX 200 lifted by tech and miners",
-        "RBA Hauser: 'not sure rates at right level to tame inflation' — hawkish lean supports AUD",
-        "Mixed Chinese trade data: exports disappointed, imports surged — limited net impact",
-        "Consumer Sentiment and Business Confidence surveys deteriorated — caps upside",
-        "AUD Employment + Unemployment Rate Thu 03:30 FFT — TONIGHT badge from 16:00 FFT Wed"
+        "Antipodeans outperform in risk-on London session — dual tailwind with RBNZ repricing",
+        "RBA Hauser speaks today — hawkish lean on inflation supports AUD",
+        "PBoC CNY 500bln 183-day reverse repos — significant liquidity injection supports China-linked AUD",
+        "AUD Employment + Unemployment Rate Thu 03:30 FFT — TONIGHT badge from 16:00 FFT today",
+        "Weekly Weak Bullish + Daily Bullish = ALIGNED"
       ]
     },
     "CAD": {
-      "bias": "Bullish",
-      "tone": "Oil Still Near $99/bbl — Petro-Proxy Support Intact; BOC Macklem Speaks Today",
-      "summary": "CAD is Bullish today. Oil remains elevated near $99/bbl (WTI settled $99.08) despite pulling back from the overnight $103+ highs — the petro-proxy support for CAD remains intact. Canadian PM Carney received a parliamentary majority following a win by liberals in the special election — a politically stable outcome that removes near-term domestic uncertainty. BOC Governor Macklem speaks today — watch for any shift in tone given the oil reversal and the ongoing geopolitical uncertainty. Weekly Weak Bearish + Daily Bullish = ❌ NO alignment — intraday only.",
+      "bias": "Bearish",
+      "tone": "Oil Below $99 — IEA Cuts Demand Forecast; Energy Sector Lagged; Petro-Proxy Headwind",
+      "summary": "CAD is Bearish today. Oil has softened significantly — Brent June fell below $99/bbl (range $96.50–$99.45) and WTI June traded within $90.19–$92.66. The IEA cut its world oil demand forecast by 80k BPD for 2026 due to the Iran conflict and sees world oil supply falling by 1.5mln BPD. The energy sector was the clear laggard in equity markets. US crude private inventories showed a surprise build of +6.1mln barrels vs -1.3mln expected — bearish for oil and by extension CAD. BOC Governor Macklem spoke but provided no fresh hawkish catalyst. Weekly Weak Bearish + Daily Bearish = ✅ ALIGNED.",
       "drivers": [
-        "Oil still near $99/bbl (WTI $99.08 settlement) — petro-proxy support intact for CAD",
-        "Canadian PM Carney received parliamentary majority — political stability removes uncertainty",
-        "BOC Governor Macklem speaks today — watch for tone given oil reversal",
-        "Oil pulled back from $103+ highs on deal optimism — upside risk if talks collapse",
-        "Weekly Weak Bearish + Daily Bullish = NO alignment — intraday only"
+        "Brent below $99/bbl (range $96.50–99.45), WTI $90–92 — oil softening on deal optimism",
+        "IEA cuts 2026 oil demand forecast by 80k BPD — structural bearish for oil/CAD",
+        "US crude private inventories +6.1mln vs -1.3mln exp — surprise build bearish for oil",
+        "Energy sector clear laggard in equities — risk-on does not benefit CAD when oil falls",
+        "Weekly Weak Bearish + Daily Bearish = ALIGNED"
       ]
     },
     "CHF": {
       "bias": "Neutral",
-      "tone": "Asymmetric Haven Lagging in Risk-On Recovery — SNB Intervention Cap Limits Upside",
-      "summary": "CHF is Neutral today. The Franc is lagging in the risk-on recovery — as risk appetite improves, the haven bid for CHF fades. The SNB intervention cap limits excessive CHF strength, and the market has consistently preferred USD as the primary haven in this conflict cycle. Neither a strong positive nor negative driver dominates. SNB Chairman Schlegel speaks Wednesday — the key event for CHF this week. Weekly Neutral + Daily Neutral = no directional alignment.",
+      "tone": "Haven Bid Fading in Risk-On — SNB Schlegel Speaks Today; Oil Decline Mild Support",
+      "summary": "CHF is Neutral today. The Franc's haven bid is fading as risk appetite improves on US-Iran peace talk progress. The risk-on environment reduces demand for safe havens, and the SNB's intervention cap limits excessive CHF strength. Oil's decline provides mild support to Switzerland as a net energy importer, but this is insufficient to generate a directional bias. SNB Chairman Schlegel speaks today — the key event for CHF this week. Weekly Neutral + Daily Neutral = no directional alignment.",
       "drivers": [
-        "Asymmetric haven lagging in risk-on recovery — haven bid fades as risk appetite improves",
+        "Haven bid fading as risk-on conditions persist — US-Iran deal optimism reduces CHF demand",
+        "SNB Schlegel speaks today — key event for CHF; watch for any intervention signals",
+        "Oil decline provides mild support as Switzerland is a net energy importer",
         "SNB intervention cap limits excessive CHF strength",
-        "USD preferred as haven over CHF — yield advantage and intervention risk",
-        "SNB Schlegel speaks Wed — key event for CHF this week",
         "Weekly Neutral + Daily Neutral = no directional alignment"
       ]
     },
     "NZD": {
       "bias": "Bullish",
-      "tone": "NZD G10 Outperformer — 82bps RBNZ Hikes Priced by Year-End; Risk-On Recovery Amplifies",
-      "summary": "NZD is Bullish today. NZD was the G10 outperformer in the risk-on recovery, with 82bps of RBNZ rate hikes now priced by year-end — up from 75bps last week. The combination of the RBNZ hawkish surprise and the risk-on environment is a powerful tailwind. RBNZ's Breman speaks today — any reinforcement of the hawkish stance would extend NZD strength. Antipodeans were rangebound during the Asian session amid positive risk appetite, but the directional bias is clearly bullish. Weekly Bullish + Daily Bullish = ✅ ALIGNED.",
+      "tone": "NZD G10 Outperformer — ANZ Revises RBNZ to Hikes Jul/Sep/Oct; Breman Speaks Today",
+      "summary": "NZD is Bullish today and was the G10 outperformer in the London session. ANZ revised its RBNZ rate outlook to hikes in July, September and October — ANZ Chief Economist said it was 'fair to interpret the recent media appearances from Governor Breman as deliberate.' ANZ's Zollner added: 'We don't have a strong view on July versus September. But we do have a pretty strong view that hikes will come before our previous call of December.' RBNZ Governor Breman speaks today — any reinforcement of the hawkish stance would extend NZD strength. The combination of the RBNZ hawkish repricing and the risk-on environment is a powerful dual tailwind. Weekly Bullish + Daily Bullish = ✅ ALIGNED.",
       "drivers": [
-        "NZD G10 outperformer — 82bps RBNZ hikes priced by year-end (up from 75bps last week)",
-        "Risk-on recovery amplifies RBNZ hawkish story — dual tailwind",
+        "ANZ revised RBNZ to hikes Jul/Sep/Oct — massive hawkish repricing, NZD G10 outperformer",
+        "ANZ Chief Economist: 'fair to interpret Breman's media appearances as deliberate' — hawkish signal",
         "RBNZ Breman speaks today — hawkish reinforcement would extend NZD strength",
-        "Antipodeans rangebound in Asia but directional bias clearly bullish",
+        "Risk-on environment amplifies RBNZ hawkish story — dual tailwind",
         "Weekly Bullish + Daily Bullish = ALIGNED"
       ]
     }
@@ -111,17 +111,17 @@
       "direction": "LONG",
       "conviction": "High",
       "reason": {
-        "line1": "EUR: EUR/USD firm above 1.1700, Bund futures returned to 125.00",
-        "line2": "USD: Dollar reversed strength, Fed Miran dovish, PPI data risk today"
+        "line1": "EUR: EUR/USD above 1.1807, wiped all war losses, ECB Lagarde hawkish lean",
+        "line2": "USD: PPI miss +0.5% vs 1.2% exp, DXY pressured, Goolsbee cautious on cuts"
       }
     },
     {
-      "pair": "EUR/JPY",
+      "pair": "EUR/CAD",
       "direction": "LONG",
       "conviction": "High",
       "reason": {
-        "line1": "EUR: Energy importer benefits from oil pullback, ECB Lagarde speaks",
-        "line2": "JPY: USD/JPY toward 159, BOJ accommodative, lower oil only mild support"
+        "line1": "EUR: EUR/USD above 1.1807, ECB Dolenc signals rate hike if inflation persists",
+        "line2": "CAD: Brent below $99, IEA cuts demand forecast, crude inventory surprise build"
       }
     },
     {
@@ -129,17 +129,17 @@
       "direction": "LONG",
       "conviction": "High",
       "reason": {
-        "line1": "GBP: Reclaimed 1.3500, BRC Retail Sales 3.1% vs 0.9% exp, BOE hawkish",
-        "line2": "USD: Dollar reversed, Fed Miran dovish, PPI data key risk today"
+        "line1": "GBP: Near 1.3600, BRC Retail Sales 3.1% vs 0.9% exp, BoE Mann hawkish on wages",
+        "line2": "USD: PPI miss, DXY pressured, risk-on conditions weigh on dollar"
       }
     },
     {
-      "pair": "GBP/JPY",
+      "pair": "GBP/CAD",
       "direction": "LONG",
       "conviction": "High",
       "reason": {
-        "line1": "GBP: Risk-on character, BOE Bailey/Mann/Greene all speaking today",
-        "line2": "JPY: BOJ still accommodative, 20yr JGB auction strong but limited FX impact"
+        "line1": "GBP: Record £148bln Gilt bids, BoE hawkish hold narrative intact",
+        "line2": "CAD: Oil softening, IEA demand cut, energy sector lagged in equities"
       }
     },
     {
@@ -147,17 +147,17 @@
       "direction": "LONG",
       "conviction": "High",
       "reason": {
-        "line1": "AUD: Antipodes outperform, RBA Hauser hawkish lean, ASX 200 lifted",
-        "line2": "USD: Dollar reversed, risk-on unwind drives DXY lower"
+        "line1": "AUD: Antipodeans outperform, RBA Hauser hawkish, PBoC 500bln liquidity injection",
+        "line2": "USD: PPI miss, DXY pressured, risk-on environment drives dollar lower"
       }
     },
     {
-      "pair": "AUD/JPY",
+      "pair": "AUD/CAD",
       "direction": "LONG",
       "conviction": "High",
       "reason": {
-        "line1": "AUD: Antipodes outperform, RBA Hauser hawkish lean, risk-on recovery",
-        "line2": "JPY: BOJ accommodative, USD/JPY toward 159, lower oil only mild support"
+        "line1": "AUD: Risk-on outperformer, RBA Hauser hawkish lean, China liquidity boost",
+        "line2": "CAD: Brent below $99, IEA cuts 2026 oil demand, crude inventory build"
       }
     },
     {
@@ -165,27 +165,27 @@
       "direction": "LONG",
       "conviction": "High",
       "reason": {
-        "line1": "NZD: G10 outperformer, 82bps RBNZ hikes priced, Breman speaks today",
-        "line2": "USD: Dollar reversed, Fed Miran dovish, PPI data key risk today"
+        "line1": "NZD: G10 outperformer, ANZ revised RBNZ to hikes Jul/Sep/Oct, Breman speaks",
+        "line2": "USD: PPI miss, Goolsbee cautious, DXY under sustained pressure"
       }
     },
     {
-      "pair": "NZD/JPY",
+      "pair": "NZD/CAD",
       "direction": "LONG",
       "conviction": "High",
       "reason": {
-        "line1": "NZD: G10 outperformer, 82bps RBNZ hikes priced by year-end, risk-on",
-        "line2": "JPY: BOJ still accommodative, USD/JPY toward 159, lower oil mild support only"
+        "line1": "NZD: ANZ RBNZ hike repricing, G10 outperformer, risk-on dual tailwind",
+        "line2": "CAD: Oil below $99, IEA demand cut, energy sector lagged"
       }
     }
   ],
   "noSetupsReason": "",
   "intradayTrades": [
-    { "pair": "USD/CAD", "direction": "SHORT" },
-    { "pair": "CAD/JPY", "direction": "LONG" }
+    { "pair": "USD/JPY", "direction": "SHORT" },
+    { "pair": "CAD/JPY", "direction": "SHORT" }
   ],
   "historyEntry": {
-    "date": "2026-04-14",
+    "date": "2026-04-15",
     "weekRange": "Apr 13 - Apr 19, 2026",
     "swingWatchlist": [
       { "pair": "EUR/JPY", "direction": "LONG" },
@@ -203,29 +203,21 @@
     ],
     "swingSetups": [
       { "pair": "EUR/USD", "direction": "LONG" },
-      { "pair": "EUR/JPY", "direction": "LONG" },
+      { "pair": "EUR/CAD", "direction": "LONG" },
       { "pair": "GBP/USD", "direction": "LONG" },
-      { "pair": "GBP/JPY", "direction": "LONG" },
+      { "pair": "GBP/CAD", "direction": "LONG" },
       { "pair": "AUD/USD", "direction": "LONG" },
-      { "pair": "AUD/JPY", "direction": "LONG" },
+      { "pair": "AUD/CAD", "direction": "LONG" },
       { "pair": "NZD/USD", "direction": "LONG" },
-      { "pair": "NZD/JPY", "direction": "LONG" }
+      { "pair": "NZD/CAD", "direction": "LONG" }
     ],
     "intradayTrades": [
-      { "pair": "USD/CAD", "direction": "SHORT" },
-      { "pair": "CAD/JPY", "direction": "LONG" }
+      { "pair": "USD/JPY", "direction": "SHORT" },
+      { "pair": "CAD/JPY", "direction": "SHORT" }
     ]
   },
   "closePosBeforeEvents": [],
   "redFolderNews": [
-    {
-      "day": "TUE",
-      "date": "Apr 14",
-      "currency": "USD",
-      "event": "Core PPI m/m + PPI m/m",
-      "time": "14:30 FFT",
-      "impact": "High"
-    },
     {
       "day": "THU",
       "date": "Apr 16",
